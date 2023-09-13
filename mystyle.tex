@@ -1,0 +1,66 @@
+\logo{\includegraphics[height=1cm,width=1cm]{logos/ul_new_logo_dark.png}}
+% \pgfdeclareimage[height=0.2787cm, width=0.2787cm]{logo}{logos/ul_new_logo_dark.png}
+% \logo{\pgfuseimage{logo}}
+
+\usetheme{Ilmenau}
+\usecolortheme{dolphin}
+\usefonttheme{structurebold}
+% \usefonttheme{professionalfonts}
+\institute{Institute}
+\usepackage{media9}
+
+\usepackage{wrapfig}
+\usepackage{lipsum}
+\usepackage{xcolor}
+\usepackage{textcomp}
+
+\definecolor{sentiment}{RGB}{255, 115, 115}
+
+% \definecolor{rational}{RGB}{47,170,206}
+
+\definecolor{rational}{RGB}{36, 138, 168}
+
+% \definecolor{conflict}{RGB}{125, 5, 82}
+
+\definecolor{cogload}{RGB}{160, 82, 45}
+
+\definecolor{conflict}{RGB}{47,141,47}
+
+\definecolor{dual}{RGB}{185, 59, 143}
+
+% \includepackage{times}
+
+\usepackage{caption}
+\captionsetup[figure]{labelformat=empty}
+\captionsetup[table]{labelformat=empty}
+
+\AtBeginPart{
+  \let\insertpartnumber\relax
+  \let\partname\relax
+  \frame{\partpage}
+}
+\AtBeginSection{
+  \let\insertsectionnumber\relax
+  \let\sectionname\relax
+  \frame{\sectionpage}
+}
+\AtBeginSubsection{
+  \let\insertsubsectionnumber\relax
+  \let\subsectionname\relax
+  \frame{\subsectionpage}
+}
+
+
+% \def\begincols{\begin{columns}}
+% \def\endcols{\begin{columns}}
+% \def\begincol{\begin{column}}
+% \def\endcol{\begin{column}} 
+
+% 
+% \AtBeginSection[]%
+% {%
+% \begin{frame}[plain]%
+%   \begin{center}%
+%     \usebeamerfont{section title}\insertsection%
+%   \end{center}%
+% \end{frame}%

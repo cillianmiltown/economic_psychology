@@ -5,7 +5,7 @@ author: "Dr Cillian McHugh"
 institute: "PS4168: Economic Psychology"
 bibliography: "resources/bib/My Library.bib"
 csl: apa.csl
-format:
+format: 
   revealjs:
     slide-number: false
     logo: "resources/images/ul-psychology-logos.png"
