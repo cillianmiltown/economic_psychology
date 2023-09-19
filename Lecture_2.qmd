@@ -1,0 +1,932 @@
+---
+title: "Lecture 2"
+subtitle: "Biases and Heuristics"
+author: "Dr Cillian McHugh"
+institute: "PS4168: Economic Psychology"
+bibliography: "resources/bib/My Library.bib"
+csl: apa.csl
+format: 
+  revealjs:
+    slide-number: false
+    logo: "resources/images/ul-psychology-logos.png"
+    footer: "PS4168: Cillian McHugh - 20/9/23"
+    theme: "resources/css/mytheme.scss"
+    chalkboard: 
+      buttons: true
+editor: source
+---
+
+
+<script>
+var looper;
+var degrees = 0;
+function rotateAnimation(el,speed){
+	var elem = document.getElementById(el);
+	if(navigator.userAgent.match("Chrome")){
+		elem.style.WebkitTransform = "rotate("+degrees+"deg)";
+	} else if(navigator.userAgent.match("Firefox")){
+		elem.style.MozTransform = "rotate("+degrees+"deg)";
+	} else if(navigator.userAgent.match("MSIE")){
+		elem.style.msTransform = "rotate("+degrees+"deg)";
+	} else if(navigator.userAgent.match("Opera")){
+		elem.style.OTransform = "rotate("+degrees+"deg)";
+	} else {
+		elem.style.transform = "rotate("+degrees+"deg)";
+	}
+	looper = setTimeout('rotateAnimation(\''+el+'\','+speed+')',speed);
+	degrees++;
+	if(degrees > 359){
+		degrees = 1;
+	}
+	document.getElementById("status").innerHTML = "rotate("+degrees+"deg)";
+}
+</script>
+
+
+```{r}
+library(ggplot2)
+```
+
+
+
+
+## Overview
+
+
+
+- Biases
+
+- Heuristics
+
+- Assignment 1
+
+- In-class Activity
+
+## Recap
+
+### In Pairs/groups
+
+- Discuss "rationality"
+- Define Homo-Economicus
+- 2 approaches to studying decision making
+
+
+## Recap!
+
+- Definition of Rationality?
+  + Instrumental rationality
+      + "our mental states or processes are rational when they help us to achieve our goals" <font size=4.5>[@over_rationality_2004, p. 3]</font size>
+
+- Two approaches to the study of decision making
+  + <font color="B93B8F">Normative</font> Theories *versus* <font color="2FAACE">Behavioural</font> Theories
+
+
+#  Biases
+
+
+## A Brief description of a person
+
+
+
+
+<br><br>
+
+- **Alan** - intelligent - industrious - impulsive - critical - stubborn - envious
+
+<br>
+
+- Keep this description in your mind<br>(you will be asked about it later)
+
+## Biases{.smaller}
+
+
+- "An inclination towards a position or conclusion" <font size=4.5>[@reber_penguin_2001, p. 88]</font size>
+
+- A tendency to:
+  + act in a particular way
+  + make judgements in a particular way
+
+- An error in reasoning <font size=4.5>[@eysenck_cognitive_2005, p. 512]</font size>
+
+- @todd_ecological_2012 introduce biases by analogy to optical illusions
+
+  + "perceptual illusions are consequences of a perceptual system that is adapted to the structure of an uncertain world" <br><font size=4.5>[@todd_ecological_2012, p. 80; see also @howe_perceiving_2005]</font size>
+  + "it is essential to analyze the adaptive match between cognitive and ecological structures"<font size=4.5>[@todd_ecological_2012, p. 80]</font size>
+
+
+## Cognitive illusions/Cognitive biases
+
+
+
+<br><br>
+
+<img src="resources/images/bothconcaveconvex.png"  width="1100px"  />
+
+## Cognitive illusions/Cognitive biases
+
+
+
+<br>
+
+<img src="resources/images/concaveconvex.png"  width="600px"  />
+
+## Cognitive illusions/Cognitive biases
+
+
+
+<br>
+
+<img src="resources/images/convexconcave.png"  width="600px"  />
+
+## Cognitive illusions/Cognitive biases
+
+<br>
+
+
+<img id="img1" src="resources/images/concaveconvex.png" alt="cog1" width="600px">
+<script>rotateAnimation("img1",30);</script>
+
+## Cognitive illusions/Cognitive biases
+
+
+
+Convex
+
+<img src="resources/images/concaveconvex.png"  width="600px"  />
+
+## Cognitive illusions/Cognitive biases
+
+
+
+Concave
+
+<img src="resources/images/convexconcave.png"  width="600px"  />
+
+
+
+## A Brief description of a person
+
+
+
+
+<br><br>
+
+- **Ben** - envious - stubborn - critical - impulsive - industrious - intelligent
+
+<br>
+
+- Keep this description in your mind<br>(you will be asked about it later)
+
+## Omission Bias{.smaller}
+
+
+:::{.incremental}
+
+- Bias for inaction over action <br><font size=4.5>[e.g., @baron_omission_2004]</font>
+
+- Examples
+  + Financial decisions
+      + investments
+      + pension funds
+  + Medical decisions
+      + vaccinations
+      + dietary medication
+      
+- Linked to risk aversion?
+:::
+
+## Description of a person 
+
+
+
+[https://app.sli.do/event/nneYhDxSeCtKayQUfCHSUQ/embed/polls/a5ba9010-98f3-41e3-a48d-57f99897aad1](https://app.sli.do/event/nneYhDxSeCtKayQUfCHSUQ/embed/polls/a5ba9010-98f3-41e3-a48d-57f99897aad1)
+
+
+<br>
+
+
+Who do you view more favourably?
+
+Alan or Ben?
+
+## Description of a person 
+
+
+
+
+<iframe width="900" height="500" src="https://wall.sli.do/event/nneYhDxSeCtKayQUfCHSUQ?section=64385e8c-2f5c-481e-bbfb-6cb23b036ca8" frameborder="0" allow="autoplay; encrypted-media"></iframe>
+
+
+## Description of a person
+
+
+
+
+Who do you view more favourably?
+
+Alan or Ben?
+
+<br>
+
+- **Alan**: intelligent-industrious-impulsive-critical-stubborn-envious
+
+<br>
+
+- **Ben**: envious-stubborn-critical-impulsive-industrious-intelligent<br><font size=4.5>[@asch_forming_1946; @kahneman_thinking_2011]</font size>
+
+
+
+## The Halo Effect
+
+
+
+- "The tendency to like (or dislike) everything about a person—including things you have not observed—is known as the halo effect"<br>[@kahneman_thinking_2011, p. 81]
+
+<br>
+
+  - Political Leaders?
+  - Sports people?
+  - Artists/Actors?
+
+
+## The Halo Effect
+
+<iframe width="900" height="500" src="https://www.youtube.com/embed/pWgyy_rlmag" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+## Halo Effect - Moneyball
+
+
+:::{.incremental}
+
+
+- "Good Face"
+
+<br>
+
+- "Good Jaw"
+
+<br>
+
+- "Can he Hit"?<br><font size=4.5>[@bennett_moneyball_2011]</font size>
+
+:::
+
+## Action Bias{.smaller}
+
+:::{.incremental}
+
+- Bias for action over inaction <br>[e.g., @patt_action_2000; @bar-eli_action_2007]
+
+- Examples
+  + Government policies
+      + regulating markets
+      + response to crises
+  + Sport
+      + Goal-keepers in soccer penalties
+      
+- (Links with Social Functionalist Theory?)
+
+:::
+
+## Wason's Rule Discovery Game{.smaller}
+
+[@wason_failure_1960]
+
+
+
+- I will provide a sequence of 3 numbers
+
+- The sequence follows a simple rule
+
+- You must identify the rule
+  + You cannot ask for the rule
+  + You must try guess the rule by providing your own sequence of numbers
+  
+<br>
+
+. . .
+
+
+<p style="text-align:center;font-size:68px">2 - 4 - 6</p>
+
+
+
+## Results{.smaller}
+
+:::{.incremental}
+
+- Guesses attempt to confirm hypothesised rule rather than break the rule
+  + e.g.,
+  + hypothesised rule: "go up in 2s"
+      + $8 - 10 - 12$
+      + $10 - 12 - 14$
+  + hypothesised rule: "add first two numbers to get third"
+      + $3 - 7 - 10$
+      + $4 - 9 - 13$
+
+- What was the rule???
+
+:::
+
+## Confirmation bias
+
+
+- People search for evidence to confirm their beliefs rather than to falsify them
+  + Positive testing
+  + Matching bias [@todd_ecological_2012, p. 324]
+
+
+:::{.incremental}
+
+- Examples?
+  - All swans are white
+  - "This always happens to me!"
+  - Queues in a shopping centre
+
+:::
+
+
+## Syllogisms
+
+. . .
+
+- Deductive reasoning task:
+  - a major premise, a minor premise, and a conclusion [@evans_two_2003]
+
+
+. . .
+
+- No police dogs are vicious
+- Some highly trained dogs are vicious
+  - Therefore, some highly trained dogs are not police dogs
+
+- valid / invalid
+
+## Syllogisms - Example 1
+
+
+
+
+- No cigarettes are inexpensive.
+- Some addictive things are inexpensive.
+  + Therefore, some addictive things are not cigarettes.
+
+Vote: [https://app.sli.do/event/vZrcEo7RhhsSUSnemAjwoF/embed/polls/959fadbf-b78a-44a7-8976-7cf2f93922af](https://app.sli.do/event/vZrcEo7RhhsSUSnemAjwoF/embed/polls/959fadbf-b78a-44a7-8976-7cf2f93922af)
+
+## Syllogisms - Example 1
+
+
+
+<iframe width="900" height="500" src="https://wall.sli.do/event/vZrcEo7RhhsSUSnemAjwoF?section=8c85a23a-eb31-4052-97ee-49a3c76e970c" frameborder="0" allow="autoplay; encrypted-media"></iframe>
+
+
+## Syllogisms - Example 2
+
+
+
+- No addictive things are inexpensive.
+- Some cigarettes are inexpensive.
+  + Therefore, some addictive things are not cigarettes. 
+  
+Vote: [https://app.sli.do/event/vZrcEo7RhhsSUSnemAjwoF/embed/polls/959fadbf-b78a-44a7-8976-7cf2f93922af](https://app.sli.do/event/vZrcEo7RhhsSUSnemAjwoF/embed/polls/959fadbf-b78a-44a7-8976-7cf2f93922af)
+
+## Syllogisms - Example 2
+
+
+
+<iframe width="900" height="500" src="https://wall.sli.do/event/vZrcEo7RhhsSUSnemAjwoF?section=8c85a23a-eb31-4052-97ee-49a3c76e970c" frameborder="0" allow="autoplay; encrypted-media"></iframe>
+
+
+## Syllogisms - Example 3
+
+
+
+- No addictive things are inexpensive.
+- Some cigarettes are inexpensive.
+  + Therefore, some cigarettes are not addictive.
+
+Vote: [https://app.sli.do/event/vZrcEo7RhhsSUSnemAjwoF/embed/polls/959fadbf-b78a-44a7-8976-7cf2f93922af](https://app.sli.do/event/vZrcEo7RhhsSUSnemAjwoF/embed/polls/959fadbf-b78a-44a7-8976-7cf2f93922af)
+
+## Syllogisms - Example 3
+
+
+
+<iframe width="900" height="500" src="https://wall.sli.do/event/vZrcEo7RhhsSUSnemAjwoF?section=8c85a23a-eb31-4052-97ee-49a3c76e970c" frameborder="0" allow="autoplay; encrypted-media"></iframe>
+
+## Syllogisms - Example 4
+
+
+
+- No cigarettes are inexpensive.
+- Some addictive things are inexpensive.
+  + Therefore, some cigarettes are not addictive.
+
+Vote: [https://app.sli.do/event/vZrcEo7RhhsSUSnemAjwoF/embed/polls/959fadbf-b78a-44a7-8976-7cf2f93922af](https://app.sli.do/event/vZrcEo7RhhsSUSnemAjwoF/embed/polls/959fadbf-b78a-44a7-8976-7cf2f93922af)
+
+## Syllogisms - Example 4
+
+
+
+<iframe width="900" height="500" src="https://wall.sli.do/event/vZrcEo7RhhsSUSnemAjwoF?section=8c85a23a-eb31-4052-97ee-49a3c76e970c" frameborder="0" allow="autoplay; encrypted-media"></iframe>
+
+
+## Belief Bias{.smaller}
+
+
+
+|Syllogism | Believable | Unbelievable|
+|-|--------|--------|
+|Valid | No cigarettes are inexpensive.<br> Some addictive things are inexpensive.<br> Therefore, some addictive things are not cigarettes.<br>**P(“Valid”) = 92%**| No addictive things are inexpensive.<br> Some cigarettes are inexpensive.<br> Therefore, some cigarettes are not addictive.<br><br>**P(“Valid”) = 46%**|
+|Invalid| No addictive things are inexpensive.<br> Some cigarettes are inexpensive.<br> Therefore, some addictive things are not cigarettes.<br><br> **P(“Valid”) = 92%** | No cigarettes are inexpensive.<br> Some addictive things are inexpensive.<br> Therefore, some cigarettes are not addictive.<br> **P(“Valid”) = 8%**|
+
+<font size=4.5>[@evans_conflict_1983; see also @dube_assessing_2010]</font>
+ 
+
+# Other Biases
+
+## Hindsight bias{.incremental}
+
+
+
+- The "I knew it all along" effect
+
+- "The tendency to revise the history of one’s beliefs in light of what actually happened"<br><font size=4.5>[@kahneman_thinking_2011, p. 198]</font>
+
+## Outcome bias{.smaller}
+
+:::{.incremental}
+
+- The "You should have known" effect
+
+- We **blame** decision makers for *good decisions that worked out badly*
+  + and give them **too little credit** for *successful* decisions that appear obvious only after the fact
+
+- Particularly unkind to decision makers who act as agents for others
+  + physicians
+  + financial advisers / CEOs 
+  + social workers
+  + diplomats
+  + politicians<br><font size=4.5>[@kahneman_thinking_2011, p. 198]</font>
+
+:::
+
+## General Knowledge
+
+- Which city has more inhabitants?
+  + Hyderabad
+  + Islamabad
+
+- How confident are you that your answer is correct?
+  + 50% 60% 70% 80% 90% 100%
+  
+Vote: [https://app.sli.do/event/2HpLUzYw48QzsHH3KWQgn7/embed/polls/adad10e1-e61e-4dce-a593-96b7e700c82e](https://app.sli.do/event/2HpLUzYw48QzsHH3KWQgn7/embed/polls/adad10e1-e61e-4dce-a593-96b7e700c82e)
+
+## General Knowledge
+
+
+
+<iframe width="900" height="600" src="https://wall.sli.do/event/2HpLUzYw48QzsHH3KWQgn7?section=05f53be4-c1af-4408-a058-142bc49c3280" frameborder="0" allow="autoplay; encrypted-media"></iframe>
+
+
+## Overconfidence bias
+
+
+
+- Hyderabad
+  + 1,734,309
+- Islamabad
+  + 1,009,832
+  
+- The "systematic discrepancy between confidence judgments and the proportion of correct answers"<br><font size=4.5>[@todd_ecological_2012, p. 93]</font>
+
+
+## Biases Summary{.incremental}
+
+
+
+:::: {.columns}
+
+
+
+::: {.column width="50%"}
+
+**Covered today:**
+
+omission bias
+
+halo effect
+
+action bias
+
+confirmation bias
+
+belief bias
+
+hindsight bias
+
+confidence bias
+
+outcome bias
+
+:::
+
+::: {.column width="50%"}
+
+
+**Other biases:**
+
+optimistic bias
+
+planning fallacy
+
+:::
+
+::::
+
+
+
+
+## Some Critiques of Biases
+
+
+
+- @dube_assessing_2010 claim that belief bias is just a response bias
+
+- Omission bias vs Action bias?
+  + bias to conform?
+  + bias to adhere to norms?
+
+- Any other critiques?
+
+## Activity ([link](https://docs.google.com/document/d/1ap7xShuXe9tIzDQOky54idFdKo3teKMHsJtClSxKUGg/edit?usp=sharing))
+
+<iframe width="1102" height="702" src="https://docs.google.com/document/d/1ap7xShuXe9tIzDQOky54idFdKo3teKMHsJtClSxKUGg/edit?embedded=true&rm=minimal" frameborder="0" ></iframe>
+
+# Heuristics
+
+## Heuristics{.smaller}
+
+
+
+- "The term *heuristic* is of Greek origin, meaning *serving to find out or discover.*<br><font size=4.5>[@gigerenzer_simple_1999, p. 25]</font size>
+
+- In 1905, Einstein published *On a heuristic point of view concerning the generation and transformation of light.*
+  + (Nobel prize winning paper)
+  + Einstein used the term *heuristic* to indicate that he considered the view he presented as
+      + incomplete
+      + false even
+      + but still useful<br><font size=4.5>[@gigerenzer_simple_1999, p. 25]</font size>
+
+## Heuristics{.smaller}
+
+- In modern psychology, the term Heuristic has come to mean a
+  - **mental shortcut** or **a rule of thumb** for decision making,
+  - to help people make a quick, **satisfactory**
+  - **but perhaps not perfect** answer to a complex question
+  
+- "A heuristic is any *rule of thumb* or simple rule of behavior by which a person solves a problem" <font size=4.5>[@cartwright_behavioral_2014, p. 33]</font size>
+  + e.g., the shopper can solve their problem of what cereal to buy with the heuristic, ‘buy what I usually do’<br><font size=4.5>[@cartwright_behavioral_2014, p. 33]</font size>
+  
+- Domain specific <br><font size=4.5>[@gigerenzer_bounded_2002, pp. 7, 41]</font size>
+  
+  
+
+# Practical Example
+
+## Catching a ball{.smaller}
+
+:::{.incremental}
+
+- How does an outfielder catch a ball?
+  + H1: Computing the balls trajectory?
+  + H2: Gaze Heuristic
+  
+- H1: Trajectory computation predicts that players first estimate the point where the ball will come down, then run as fast as they can to this point and wait for the ball. <font size=4.5>[@todd_ecological_2012, p. 28]</font size>
+
+- H2:  Gaze Heuristic predicts that players fix their gaze on the ball, start running, and adjust running speed so that the angle of gaze remains constant.
+  + predicts changes in speed
+  + predicts slight arc in certain situations
+  
+:::
+  
+## Computing the Trajectory{.columns-2} 
+
+
+
+<img src="resources/images/gaze_calculation.png"/>
+
+$\tan{\Psi} = \frac{\tan{\alpha}}{\tan{\beta}} = \frac{C_\alpha f(t)}{C_\beta f(t)} = C_\Psi$
+
+- where $C_\alpha$, $C_\beta$ and $C_\Psi$ are constants <br>and $f(t) = t =$ time since trajectory <br> 
+<font size=4.5>[taken from @mcbeath_how_1995, p. 571]</font size>
+
+## Gaze Heuristic
+
+
+
+<img src="resources/images/McBeath.png"  height="420px"  />
+
+<font size=4.5>[taken from @mcbeath_how_1995, p. 571]</font size>
+
+## Catching a ball
+
+
+
+<img src="resources/images/gaze.jpg"  height="420px" />
+
+## Gaze Heuristic
+
+<iframe width="900" height="500" src="https://www.youtube.com/embed/-J1qryj6kdg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+## Catching a ball
+
+
+
+>- H2:  Gaze Heuristic predicts that players fix their gaze on the ball, start running, and adjust running speed so that the angle of gaze remains constant.
+>- predicts changes in speed
+>- predicts slight arc in certain situations
+>     - <font color="930093">**All Observed**</font>
+
+## 3D Heuristic
+
+
+<img src="resources/images/3dheuristic.png" height="420px"/>
+
+# More General Heuristics
+
+## Word task
+
+
+
+- Consider the letter K.
+
+<br>
+
+- Is K more likely to appear as the first letter in a word OR as the third letter?
+ 
+## Word task
+
+
+
+- Consider the letter L.
+
+<br>
+
+- Is L more likely to appear as the first letter in a word OR as the third letter?
+ 
+
+## Word task
+
+:::{.incremental}
+
+- Also true for the letters N, R, V
+
+- How did you do it?
+
+- It is easier to come up with words using the first letter than the third letter
+
+- More available examples
+
+:::
+
+## Word task
+
+
+
+- Also true for the letters N, R, V
+
+- How did you do it?
+
+- It is easier to come up with words using the first letter than the third letter
+
+- More **available** examples
+
+
+## The Availability Heuristic
+
+
+
+- the process of judging frequency by “the ease with which instances come to mind”<br>[@kahneman_thinking_2011, p. 128]
+
+<br>
+
+- e.g., think of the number of words that can be constructed from the two sets of letters below.
+  - XUZONLCJM
+  - TAPCERHOB
+
+## The Availability Heuristic{.smaller}
+
+
+
+- Inflated Salience
+  - e.g., high media coverage of:
+      - Divorces among Hollywood celebrities
+      - Sex scandals among politicians
+  - people exaggerate the frequency of both
+  
+- Dramatic events
+  - A plane crash that attracts media coverage will temporarily alter your feelings about the safety of flying
+  - after you see a car burning at the side of the road, accidents are on your mind and the world is for a while a more dangerous place.
+
+
+## The Availability Heuristic
+
+
+
+- Personal experiences, pictures, vivid examples
+  - **more available** than incidents that happen to others, mere words, or statistics
+  - e.g., a judicial error that affects you will undermine your faith in the justice system more than a similar incident that you read about<br>[@kahneman_thinking_2011, p. 129]
+
+## Practical Examples
+
+:::{.incremental}
+
+- @ross_egocentric_1979 housework study
+
+<br>
+
+- First, list six instances in which you behaved assertively
+  + Evaluate how assertive you are
+  
+- Now list 12 instances in which you behaved assertively
+  + Evaluate how assertive you are<br><font size=4.5>[@schwarz_ease_1991]</font size>
+
+:::
+
+## Practical Examples (continued){.smaller}
+
+:::{.incremental}
+
+- It has been found that people:
+  - believe that they use their bicycles less often after recalling many rather than few instances
+  - are less confident in a choice when they are asked to produce more arguments to support it
+  - are less confident that an event was avoidable after listing more ways it could have been avoided
+  - are less impressed by a car after listing many of its advantages<br>[@kahneman_thinking_2011]
+
+:::
+
+## Heuristics and Errors{.smaller}
+
+
+:::{.incremental}
+
+- A psychologist wrote thumbnail descriptions of a sample of 1000 participants consisting of 995 females and 5 males.
+The description below was chosen at random from the 1,000 available descriptions.
+
+<br> 
+
+- Jo is 23 years old and is finishing a degree in engineering. On Friday nights, Jo likes to go out cruising with friends while listening to loud music and drinking beer.
+
+<br>
+
+- Which one of the following two statements is most likely?
+  - Jo is a man
+  - Jo is a woman
+
+:::
+
+## Representativeness Heuristic
+
+
+
+<br>
+
+
+- judging a situation based on how similar the prospects are to the prototypes the person holds in his or her mind.
+
+
+## Representativeness Heuristic{.smaller}
+
+:::{.incremental}
+
+- Linda is thirty-one years old, single, outspoken, and very bright. She majored in philosophy. As a student, she was deeply concerned with issues of discrimination and social justice, and also participated in antinuclear demonstrations.
+
+<br>
+
+- Which alternative is more probable?
+  - Linda is a bank teller.
+  - Linda is a bank teller and is active in the feminist movement.
+  
+- Conjunction fallacy
+  - (and belief bias?)
+
+:::
+
+## Anchoring
+
+:::{.incremental}
+
+
+- Taking information salient in the environment and using it to *anchor* your decisions
+
+- e.g., rigged wheel of fortune: 10 or 65
+  - Is the percentage of African nations among UN members larger or smaller than the number you just wrote?
+  - What is your best guess of the percentage of African nations in the UN?
+
+- Mean response 25% and 45% (depending on 10 or 65)
+
+:::
+
+## Mood Heuristic
+
+:::{.incremental}
+
+- How happy are you these days?
+- How many dates did you have last month?
+
+- correlation?
+
+:::
+
+## Mood Heuristic
+
+
+:::{.incremental}
+
+- How many dates did you have last month?
+- How happy are you these days?
+
+:::
+
+## The Affect Heuristic
+
+
+:::{.incremental}
+
+- "people let their likes and dislikes determine their beliefs about the world"<br>[@kahneman_thinking_2011, p. 102]
+
+- Substitution
+  - How do I feel about it?
+- serves as an answer to a much harder question
+  - What do I think about it? <br>[@slovic_affect_2005; @kahneman_thinking_2011]
+
+
+:::
+
+## Other Heuristics
+
+
+
+
+<img src="resources/images/heuristics_table1.png" height="420"/>
+
+<font size=4.5>[taken from @todd_ecological_2012, p. 9]</font size>
+
+## Other Heuristics
+
+
+
+
+<img src="resources/images/heuristics_table2.png" height="420"/>
+
+<font size=4.5>[taken from @todd_ecological_2012, p. 10]</font size>
+
+
+
+
+# In-Class Activity
+
+## In-Class Activity{.smaller}
+
+:::{.incremental}
+
+- In groups:
+  - Identify possible *novel* heuristics
+
+:::
+
+. . .
+
+Possible Examples:
+
+
+:::{.incremental}
+
+- Watching sport
+  + Camera gaze heuristic
+  + Waving flags heuristic
+  
+- Music
+  + Chord-notes heuristic
+  
+- Copy others heuristic (novel situations/uncertainty)
+
+- Empty seats on a bus/in class?
+
+- Choosing a till in the supermarket?
+
+:::
+
+## Activity:([link](https://docs.google.com/document/d/1ap7xShuXe9tIzDQOky54idFdKo3teKMHsJtClSxKUGg/edit?usp=sharing))
+
+<iframe width="1102" height="702" src="https://docs.google.com/document/d/1ap7xShuXe9tIzDQOky54idFdKo3teKMHsJtClSxKUGg/edit?embedded=true&rm=minimal" frameborder="0" ></iframe>
+
+# References
+
+## References{.smaller}
+
+\noindent
+\vspace{-2em}
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+\setlength{\parskip}{7.5pt}
