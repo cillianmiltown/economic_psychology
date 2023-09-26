@@ -58,8 +58,6 @@ library(ggplot2)
 
 - Heuristics
 
-- Assignment 1
-
 - In-class Activity
 
 ## Recap

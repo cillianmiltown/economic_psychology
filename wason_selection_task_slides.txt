@@ -1,0 +1,60 @@
+
+
+# Contextual Influences
+
+## Wason Selection Task
+
+
+
+<img src="resources/images/Wason_letter_num.jpg" />
+
+- If a card has a $D$ on one side it has a $3$ on the other
+  - What card (or cards) do you need to turn over to test this rule? <br><font size=4.5>[@evans_wason_2016]</font>
+
+## Wason Selection task
+
+[https://app.sli.do/event/b44CxKV2e5Y1TD45XMiQjA/embed/polls/5a2626f3-a2f6-404f-9572-aacd8798e010](https://app.sli.do/event/b44CxKV2e5Y1TD45XMiQjA/embed/polls/5a2626f3-a2f6-404f-9572-aacd8798e010)
+
+## Wason Selection Task
+
+<iframe src="https://wall.sli.do/event/b44CxKV2e5Y1TD45XMiQjA?section=bca280e3-8c35-47e4-9055-7b709301e47e" width="900" height="500"></iframe>
+
+
+## Wason Selection Task
+
+
+
+<img src="resources/images/Wason_drinks.jpg" />
+
+- If a person is drinking beer they must be over 18
+  - What card (or cards) do you need to turn over to test/enforce this rule? <br><font size=4.5>[@evans_wason_2016]</font>
+
+[https://app.sli.do/event/b44CxKV2e5Y1TD45XMiQjA/embed/polls/e34c835e-82d5-41c8-920f-5c9969541e72](https://app.sli.do/event/b44CxKV2e5Y1TD45XMiQjA/embed/polls/e34c835e-82d5-41c8-920f-5c9969541e72)
+
+
+
+## Wason Selection Task
+
+<iframe src="https://wall.sli.do/event/b44CxKV2e5Y1TD45XMiQjA?section=bca280e3-8c35-47e4-9055-7b709301e47e" width="900" height="500"></iframe>
+
+
+### Answers:
+
+- $D$ and $5$
+- $Beer$ and $17$
+
+- People are susceptible to **confirmation bias**
+  - Recall $2-4-6$ game (Lecture 3) <br><font size=4.5>[@wason_failure_1960]</font size>
+
+## Wason Selection Task
+
+
+
+- Clear example of context not just influencing decisions
+  - People are rely on context to make decisions
+  - Cannot make "good" decisions in the abstract
+
+- Activity:
+  - Identify alternative contexts that would
+      - Improve performance in the Wason selection task
+      - Lead to worse performance in the Wason selection task<br>(2-3 mins)
