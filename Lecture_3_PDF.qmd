@@ -579,11 +579,11 @@ knitr::opts_chunk$set(include = FALSE)
 
 
 
-- Thaler, R. H., Sunstein, C. R., & Balz, J. P. (2012). Choice Architecture. In E. Shafir (Ed.), *The Behavioral Foundations of Public Policy.* Rochester, NY: Social Science Research Network. [(uploaded to Sulis)](https://sulis.ul.ie/access/content/group/0ac0d242-2b38-455b-a312-5cf008de8159/Reading%20Material/Thaler%20et%20al_2012_Choice%20Architecture.pdf)
+- Thaler, R. H., Sunstein, C. R., & Balz, J. P. (2012). Choice Architecture. In E. Shafir (Ed.), *The Behavioral Foundations of Public Policy.* Rochester, NY: Social Science Research Network. [(uploaded to Brightspace)](https://learn.ul.ie//content/enforced/10246-PS4168_SEM1_2023_4/1.Resources/Thaler%20et%20al_2012_Choice%20Architecture.pdf)
 
 - Thaler, R. H., & Sunstein, C. R. (2008). *Nudge: improving decisions about health, wealth, and happiness.* New Haven: Yale University Press.
 
-- Thaler, R. H., & Sunstein, C. R. (2003). Libertarian Paternalism. *American Economic Review*, 93(2), 175–179. [(uploaded to Sulis)](https://sulis.ul.ie/access/content/group/0ac0d242-2b38-455b-a312-5cf008de8159/Reading%20Material/Thaler_Sunstein_2003_Libertarian%20Paternalism.pdf)
+- Thaler, R. H., & Sunstein, C. R. (2003). Libertarian Paternalism. *American Economic Review*, 93(2), 175–179. [(uploaded to Brightspace)](https://learn.ul.ie//content/enforced/10246-PS4168_SEM1_2023_4/1.Resources/Thaler_Sunstein_2003_Libertarian%20Paternalism.pdf)
 
 - Thaler, R. H. (2015). *Misbehaving: The Making of Behavioral Economics.* W.W. Norton.
 
