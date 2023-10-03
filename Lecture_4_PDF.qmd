@@ -1,0 +1,737 @@
+---
+title: "Lecture 4"
+subtitle: "Theories of Decision Making"
+author: "Dr Cillian McHugh"
+institute: "PS4168: Economic Psychology"
+bibliography: "resources/bib/My Library.bib"
+csl: apa.csl
+format: 
+  beamer:
+    toc: false
+    slide_level: 2
+    fig_width: 6
+    fig_height: 4
+    incremental: false
+    keep_tex: true
+    theme: Antibes
+    includes:
+      in_header: mystyle.tex
+editor: source
+---
+
+
+
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(include = FALSE)
+
+```
+
+
+
+
+```{r loadlibraries}
+#devtools::install_github("hadley/emo")
+#library(emo)
+library(ggplot2)
+library(devtools)
+```
+
+```{r}
+# http://emoji.muan.co/
+# https://github.com/hadley/emo
+#emo::ji("cloud_with_rain")
+```
+
+## Overview{.smaller}
+
+- Approaches to Studying Decision Making (revision)
+
+- Defining Rationality (revision)
+
+- Expected Value/Expected Utility Theory
+  + Bayes Theorem
+
+- Prospect Theory
+
+- Social Functionalist Theory
+
+- Dual-Process Theories
+
+- Mental Models
+
+## Recap
+
+
+
+### Homo Economicus?
+
+- a rational individual 
+- makes rational decisions
+- that maximize utility
+- is self-interested
+- capable of learning from experience
+- stable, consistent preferences <br>[@ranyard_economic_2018, p. 6; see also @lea_individual_1987; @warneryd_economics_2008]
+
+
+## Approaches to Studying Decision Making {.smaller}
+
+
+
+- <font color="B93B8F">Normative</font> Theories *versus* <font color="2FAACE">Behavioural</font> Theories
+
+- <font color="B93B8F">Normative</font> (prescriptive) approaches
+    + Influenced by economic and mathematical models of how decisions ***should*** be made
+    + Assume people are rational
+      + should make the optimal choice (the choice that best reflects the person’s preferences)
+      + decisions should be consistent across settings
+
+- <font color="2FAACE">Behavioural</font> (descriptive) approaches
+    + Describe how decisions are made
+
+
+
+## Defining Rationality {.smaller}
+
+
+
+- Epistemic rationality
+  + Rational belief or inference
+  + Has a conclusion that is true
+  
+- Rationality of action
+  + Actions (as opposed to beliefs/inferences)
+  + Helps to achieve a goal
+
+
+- **Instrumental rationality**
+  + "our mental states or processes are rational when they help us to achieve our goals" <br>[@over_rationality_2004, p. 3]
+
+
+# Expected Value / Expected Utility Theory
+
+## Expected Value
+
+
+- Which gamble would you rather play?
+  + **A:** 20% chance of winning €5
+  + **B:** 30% chance of winning €4
+
+- Pick the option with the highest *Expected Value*
+  + EV = probability of outcome x value of outcome
+
+- EV(A) = 20% x €5 = €1
+- EV(B) = 30% x €4 = €1.20
+
+- **B has greater expected value**
+
+
+## Problem with Expected Value
+
+- Not every Euro has the same subjective value
+  + Low income: €100 would allow person to eat better food or buy new clothes
+  + High income: €100 would not need to be spent on necessities
+
+- Lotteries
+  + Pay €1 for a 1/52,000,000 chance to win €10,000,000
+    + Expected value of this gamble is less than €1
+
+
+## Expected Utility{.smaller}
+
+- Utility = subjective value
+  + represents whatever people want to achieve <br>[@vonneuman_theories_1947]
+  
+- EU = probability of outcome x utility of outcome
+
+- Lotteries
+	+ Expected utility of €1 is low - not much you can do with €1
+	+ Expected utility of the prize is high - could do a lot with that kind of money
+      + The low probability of winning does not completely outweigh the high utility of the prize
+  + There is also the pleasure in dreaming about winning
+
+
+## Predictions of Expected Utility Theory
+
+- Choices consistent across transformations
+  + a: 45% chance of €200  vs  b. 50% chance of €150
+  + a: 90% chance of €200  vs  b. 100% chance of €150
+
+- Preferences stable across measures
+  + Do you prefer A or B?
+  + Would you pay more for A or B?
+
+## Bayes Theorem
+
+
+
+$$p(y|x) = \frac{p(x|y)p(y)}{p(x)}$$
+
+# Prospect Theory
+
+## Prospect Theory
+
+
+
+- Kahneman & Tversky [-@kahneman_prospect_1979; -@tversky_judgment_1974] suggested a more realistic approach to describing decision making.
+
+- Prospect theory highlights the exaggerated weighting of expected losses in people's decision making.
+
+- Decision weights instead of probabilities
+  + Decision weights are generally slightly lower than probabilities.
+      + Though this changes at low probabilities.
+      
+## Prospect Theory
+
+
+
+- Two people had paid a non-refundable deposit of €100 for a weekend at a resort.
+  + On the way to the resort, both of them became slightly unwell, and felt they would probably have a more pleasurable time at home than at the resort.
+  + Should they drive on or turn back?
+  
+  
+## Prospect Theory - Sunk Cost
+
+
+
+- Prediction of *loss-aversion*
+- The sunk-cost effect:
+  + extra expenditure in order to avoid a loss.
+- This can occur even when additional expenditure is now on a less preferred option.
+  + examples?
+
+## Recall:
+
+
+
+- Choices consistent across transformations
+  + a: 45% chance of €200  vs  b. 50% chance of €150
+  + a: 90% chance of €200  vs  b. 100% chance of €150
+
+
+## Prospect Theory - Risk Aversion
+
+:::{.incermental}
+
+- *Sure* gains are chosen over *risky* but possibly greater gains.
+  + This is termed **risk aversion**.
+
+<br> 
+
+- ***BUT***
+
+:::
+
+## Prospect Theory
+
+:::{.incermental}
+
+- Given the choice of either Option A or Option B below, which one would you go for?
+  + a: A sure loss of €800
+  + b: An 85% chance of losing €1000, with a 15% chance of losing nothing.
+
+:::
+
+## Prospect Theory - Risk Aversion/Seeking?
+
+:::{.incermental}
+
+
+- Risk aversion can be transformed into risk seeking.
+  + We are more likely to take a chance to avoid a loss than we are to make a gain.
+
+:::
+
+## Prospect Theory - Practical applications
+
+:::{.incermental}
+
+- @banks_effects_1995 studied the effectiveness of two videotapes in persuading women to undergo a mammogram.
+
+
+- Same medical facts presented on both tapes, but one emphasised gains of undergoing a test, the other the risks of not undergoing one.
+
+
+- More of those who watched the risk-focused tape obtained a mammogram in the following 12 months.
+
+:::
+
+## Prospect Theory
+
+<img src="resources/images/Screenshot_20180919_190001.png" height="400px" width="500px" align="center" />
+
+[@kahneman_prospect_1979, p. 279]
+
+
+## Prospect Theory
+
+<img src="resources/images/prospect_weights.png" height="400px" width="500px" align="center" />
+
+[@kahneman_prospect_1979, p. 283]
+
+
+# Social Functionalist Theory
+
+## Social Functionalist Theory
+
+- Tetlock [-@tetlock_social_2002] suggests that we need a more socially aware model of the decision maker.
+- Rather than an intuitive *economist* or intuitive *scientist* we might consider:
+  + Intuitive politician
+  + Intuitive prosecutor
+  + Intuitive theologian
+
+
+## Booking a Holiday
+
+
+
+- You have a chance to by a very cheap holiday to Italy, but you must today.
+- You have just recently taken an exam, but you don't know yet whether you've passed or failed.
+  + Buy the holiday.
+  + Don't buy the holiday.
+  + Pay €5 so you can still buy the holiday at the cheap price in two days time.
+
+## Booking a Holiday
+
+
+
+- You have a chance to by a very cheap holiday to Italy, but you must today.
+- You have just recently taken an exam, and found out that you've passed.
+  + Buy the holiday.
+  + Don't buy the holiday.
+  + Pay €5 so you can still buy the holiday at the cheap price in two days time.
+
+## Booking a Holiday
+
+
+
+- You have a chance to by a very cheap holiday to Italy, but you must today.
+- You have just recently taken an exam, and found out that you've failed.
+  + Buy the holiday.
+  + Don't buy the holiday.
+  + Pay €5 so you can still buy the holiday at the cheap price in two days time.
+
+## Intuitive Politicians
+
+### (making ourselves accountable)
+
+
+
+- We are accountable to “a variety of constituencies”.
+- Sometimes we must be prepared to offer explanations to maintain relationships, or maintain others' perceptions of us.
+- The presence of others and the resources for explanation can affect decision making.
+
+## Intuitive Prosecutors
+
+
+
+- Certain contexts can trigger patterns of decision making that involve more punitive (or less lenient) actions.
+- @tetlock_people_2007 found that a situation where norms have been violated lead to a range of emotional and attributional effects on decision making.
+- Strong interactions with conservative vs. liberal beliefs.
+
+## Intuitive theologians
+
+
+
+- Being an intuitive theologian means acting as though decisions should flow from some higher authority.
+- Strong ethical considerations can overwhelm base-rate information.
+  - *moral outrage*
+
+## Activity
+
+
+
+- In Groups:
+  + Please Identify an example when you acted as 
+    - an intuitive politician
+    - an intuitive prosecutor
+    - an theologian:
+
+## Activity ([link](https://docs.google.com/document/d/1899XhhRODvDfLYqRB21NyXYE_wMoJSei16X4YFgWzyo/edit?usp=sharing))
+
+<iframe width="1102" height="702" src="https://docs.google.com/document/d/1899XhhRODvDfLYqRB21NyXYE_wMoJSei16X4YFgWzyo/edit?usp=sharing?rm=minimal" frameborder="0"></iframe>
+
+
+## What are Dual-Processes?{.smaller}
+
+
+
+- <font color="FF7373">System 1</font> *versus* <font color="2FAACE">System 2</font> [@stanovich_who_1999; @stanovich_robot_2005]
+- <font color="FF7373">intuitive / heuristic </font> *versus* <font color="2FAACE">analytic</font>  [@chaiken_heuristic_1980; @evans_bias_1989; @evans_heuristicanalytic_2006; @evans_resolution_2007]
+- <font color="FF7373">automatic</font> *versus* <font color="2FAACE">controlled</font> [@schneider_controlled_1977]
+- <font color="FF7373">experiential</font> *versus* <font color="2FAACE">rational</font> [@pacini_relation_1999; @epstein_integration_1994; @epstein_basic_1999]
+- <font color="FF7373">implicit / tacit</font> *versus* <font color="2FAACE">explicit</font> [@evans_rationality_2013; @reber_implicit_1989]
+- <font color="FF7373">associative</font> *versus* <font color="2FAACE">rule-based</font> [@sloman_empirical_1996;@smith_dualprocess_2000]<br><br>
+- for reviews see @evans_thinking_2010; @evans_dualprocessing_2008; and @kahneman_thinking_2011
+
+- Parallel / interventionist / competing / conflict ??
+
+## Features of Dual-processes
+
+
+
+- Consciousness
+- Evolution
+- Functional
+- Individual differences
+
+<br>
+
+- [@evans_dualprocessing_2008, p. 257]
+
+## Features of Dual-processes: Consciousness
+
+
+
+<img src="resources/images/DS_title.png"/>
+<img src="resources/images/DS_consciousness2.png"/>
+
+## Features of Dual-processes: Evolution
+
+
+
+
+<img src="resources/images/DS_title.png"/>
+<img src="resources/images/DS_evolution.png"/>
+
+## Features of Dual-processes: Functional
+
+
+
+
+<img src="resources/images/DS_title.png"/>
+<img src="resources/images/DS_functional.png"/>
+
+## Features of Dual-processes: Individual differences
+
+
+
+
+<img src="resources/images/DS_title.png"/>
+<img src="resources/images/DS_individual_diff.png"/>
+
+## Dual Processes and Other Variables{.smaller}
+
+
+
+- Cognitive Capacity 
+  - Individual differences [@barrett_individual_2004; @brunken_assessment_2002]
+  - Manipulated/nature of task [@tremoliere_cognitive_2016;@deneys_when_2007]
+- Construal level and Distancing [@ayduk_distance_2010; @fujita_spatial_2006; @liberman_effect_2002; @vandijke_gross_2017]
+- Need for Cognition 
+  - "to engage in and enjoy effortful analytic activity" <br> [@forsterlee_examination_1999, p. 471; @cacioppo_need_1982]
+
+
+## Dual-processes in Action
+
+
+
+### Influencing Decisions
+
+- Cognitive Load Manipulations [@deck_effect_2015]
+  - Increased load inhibits <font color="2FAACE">System 2</font>
+- Results
+  - To more risk-averse behavior
+  - More impatience over money
+  - More susceptible to specific biases (anchoring effects)
+
+
+## Dual-processes in Action{.smaller}
+
+
+
+### Inhibiting Stereotypes 
+
+- Stereotypes lead to prejudices
+  - Prejudices are inevitable [@devine_stereotypes_1989]
+- But not all stereotypes are *acceptable*
+
+- <font color="FF7373">System 1</font> perceives the <font color="FF7373">stereotype</font>
+  - causing the <font color="FF7373">prejudice</font>
+- <font color="2FAACE">System 2</font> attempts to <font color="2FAACE">inhibit the prejudice</font>
+
+- <font color="FF7373">Stereotypes</font> are <font color="FF7373">automatically activated</font> ***but*** <font color="2FAACE">personal beliefs</font> require <font color="2FAACE">conscious activation</font>
+
+## Dual-processes in Action{.smaller}
+
+### Inhibiting Stereotypes
+
+3 Studies [@devine_stereotypes_1989]:
+
+- Study 1:
+  - Method:
+    - Prejudice measured using the Modern Racism Scale [@mcconahay_has_1981]
+    - Knowledge of Stereotypes measured by open-ended *"list components of stereotype"*
+  - Results:
+    - No relationship between stereotype knowledge and level of prejudice
+
+## Dual-processes in Action{.smaller}
+
+
+
+### Inhibiting Stereotypes
+
+- Study 2:
+  - Method:
+    - Prejudice measured using the Modern Racism Scale 
+    - Stereotypes primed using word lists
+    - Judged ambiguous behaviours
+  - Results:
+    - Evaluation of ambiguous behaviours consistent with stereotype
+    - No difference in stereotype activation for high vs low prejudice participants
+
+## Dual-processes in Action{.smaller}
+
+
+
+### Inhibiting Stereotypes
+
+- Study 3:
+  - Method:
+    - Prejudice measured using the Modern Racism Scale 
+    - Participants reported *"all of their thoughts"* on the target group
+  - Results:
+    - Low prejudice responses were less consistent with stereotypes than high prejudice participants
+    - People can (sometimes*) monitor and inhibit the influence of automatically activated stereotypes
+
+
+## Limitations of Dual-Process Theories
+
+
+
+- Separable systems/processes? [e.g., @mugg_dualprocess_2015]
+- A continuum? [e.g., @alos-ferrer_dual_2014]
+- Exclusivity? Switching? [@neys_advancing_2023]
+- How do they work together?
+
+
+# Mental Models
+
+## Mental Models
+
+
+
+- Proposed by Philip Johnson-Laird [@johnson-laird_mental_1983; @johnson-laird_how_2006]
+
+- "Mental models" are descriptions of how we represent information
+
+- A "Mental Model" differs from a "Full model"
+  - Incomplete
+  - Laziness/cognitive ease
+
+## Mental Models
+
+
+
+You are permitted to carry out only one of the following two actions:
+
+**Action 1**: Take the apple or the orange, or both.
+
+**Action 2**: Take the pear or the orange, or both.
+
+Are you permitted to take the orange?
+
+<br>
+
+[@bucciarelli_psychology_2008;@johnson-laird_how_2006]
+
+## Mental Models
+
+
+
+<br>
+
+![mental_models](resources/images/apple_orange1.png)
+
+## Mental Models
+
+
+
+<br>
+
+![mental_models](resources/images/apple_orange2.png)
+
+## Mental Models
+
+
+
+<br>
+
+![mental_models](resources/images/apple_orange3.png)
+
+## Complete Models
+
+
+
+<br>
+
+![mental_models](resources/images/apple_orange4.png)
+
+## Complete Models
+
+
+
+<br>
+
+![mental_models](resources/images/apple_orange5.png)
+
+
+## Mental Models
+
+
+
+<br>
+
+![mental_models](resources/images/apple_orange3.png)
+
+
+
+## Mental Models and Spatial Relations
+
+
+
+- *the knife is on the right of the fork, and the napkin is on the left of the knife*
+
+<br>
+
+[@byrne_mental_2015]
+
+
+## Mental Models and Spatial Relations
+
+
+
+> - *the knife is on the right of the fork, and the napkin is on the left of the knife*
+
+<br>
+
+![mental_models](resources/images/knife_fork.png)
+
+## Mental Models and Incomplete Information
+
+
+
+- *All of the napkins are blue*
+
+<br>
+
+## Mental Models and Incomplete Information
+
+
+
+>- *All of the napkins are blue*
+
+<br>
+
+![mental_models](resources/images/blue_napkin.png)
+
+
+## Mental Models and Incomplete Information
+
+
+
+- *if there’s a lily in the vase then there’s a rose*
+
+<br>
+
+## Mental Models and Incomplete Information
+
+
+
+> - *if there’s a lily in the vase then there’s a rose*
+
+<br>
+
+![mental_models](resources/images/lilly_rose1.png)
+
+## Mental Models and Incomplete Information
+
+
+
+> - *if there’s a lily in the vase then there’s a rose*
+
+<br>
+
+![mental_models](resources/images/lilly_rose2.png)
+
+## Mental Models and Alternative Possibilities
+
+
+
+- *the knife is on the right of the fork, and the napkin is on the left of the knife*
+
+- Is the fork is on the right of the napkin?
+
+## Mental Models and Alternative Possibilities
+
+
+
+> - *the knife is on the right of the fork, and the napkin is on the left of the knife*
+
+> - Is the fork is on the right of the napkin?
+
+![mental_models](resources/images/napkin_fork_knife.png)
+![mental_models](resources/images/fork_napkin_knife.png)
+
+## Uses of Mental Models
+
+
+
+- Counterfactuals (if)
+- "Logical" conclusions
+- Counter examples
+- Everyday reasoning
+
+<br>
+
+- Mental model is "generated" by System 1 but System 2 "uses" it
+
+
+## Further Reading
+
+::::{.columns}
+
+:::{.column width="30%"}
+
+![mental_models](resources/images/evans_2008.png)
+[@evans_thinking_2010]
+
+:::
+
+
+:::{.column width="35%"}
+
+![mental_models](resources/images/HowWeReason.png)
+
+[@johnson-laird_how_2006]
+
+:::
+
+::::
+
+## Activity
+
+
+
+- In Groups:
+  + Evaluate the theories of decision Making discussed
+    - listing strengths and limitations of each
+  
+## Activity ([link](https://docs.google.com/document/d/1899XhhRODvDfLYqRB21NyXYE_wMoJSei16X4YFgWzyo/edit?usp=sharing))
+
+<iframe width="1102" height="702" src="https://docs.google.com/document/d/1899XhhRODvDfLYqRB21NyXYE_wMoJSei16X4YFgWzyo/edit?usp=sharing?rm=minimal" frameborder="0"></iframe>
+
+
+
+# References
+
+## References
+
+\noindent
+\vspace{-2em}
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+\setlength{\parskip}{7.5pt}
