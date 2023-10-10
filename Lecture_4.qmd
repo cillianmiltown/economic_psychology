@@ -367,12 +367,15 @@ library(devtools)
 
 <br><br><br><br><br>
 
+:::{.incremental}
+
 - $p(\heartsuit) = ?$
 
 - $p(\heartsuit) = \frac{13}{52}$
 
 - $p(\heartsuit) = \frac{13}{52}= \frac{1}{4}$
 
+:::
 
 ## Probability in Cards
 
@@ -380,12 +383,15 @@ library(devtools)
 
 <img src="resources/images/queens.jpeg" height="404px" width="614px" align="left" />
 
+:::{.incremental}
+
 - $p(Q) = ?$
 
 - $p(Q) = \frac{4}{52}$
 
 - $p(Q) = \frac{4}{52} = \frac{1}{13}$
 
+:::
 
 ## Probability in Cards
 

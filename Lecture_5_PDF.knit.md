@@ -1,0 +1,667 @@
+---
+title: "Lecture 5"
+subtitle: "Game Theory"
+author: "Dr Cillian McHugh"
+institute: "PS4168: Economic Psychology"
+bibliography: "resources/bib/My Library.bib"
+csl: apa.csl
+format: 
+  beamer:
+    toc: false
+    slide_level: 2
+    fig_width: 6
+    fig_height: 4
+    incremental: false
+    keep_tex: true
+    theme: Antibes
+    includes:
+      in_header: mystyle.tex
+editor: source
+---
+
+
+
+<script>
+var looper;
+var degrees = 0;
+function rotateAnimation(el,speed){
+	var elem = document.getElementById(el);
+	if(navigator.userAgent.match("Chrome")){
+		elem.style.WebkitTransform = "rotate("+degrees+"deg)";
+	} else if(navigator.userAgent.match("Firefox")){
+		elem.style.MozTransform = "rotate("+degrees+"deg)";
+	} else if(navigator.userAgent.match("MSIE")){
+		elem.style.msTransform = "rotate("+degrees+"deg)";
+	} else if(navigator.userAgent.match("Opera")){
+		elem.style.OTransform = "rotate("+degrees+"deg)";
+	} else {
+		elem.style.transform = "rotate("+degrees+"deg)";
+	}
+	looper = setTimeout('rotateAnimation(\''+el+'\','+speed+')',speed);
+	degrees++;
+	if(degrees > 359){
+		degrees = 1;
+	}
+	document.getElementById("status").innerHTML = "rotate("+degrees+"deg)";
+}
+</script>
+
+<style type="text/css">
+    table.table-style-one {
+        font-size:36px;
+        color:#333333;
+        border-width: 1px;
+        border-color: #D3D3D3;
+        border-collapse: collapse;
+    }
+    table.table-style-one th {
+        border-width: 1px;
+        padding: 16px;
+        border-style: solid;
+        border-color: #3A3A3A;
+        background-color: #B3B3B3;
+    }
+    table.table-style-one td {
+        border-width: 1px;
+        padding: 16px;
+        border-style: solid;
+        border-color: #D3D3D3;
+        background-color: #ececec;
+    }
+</style>
+
+
+
+
+
+
+
+## Game Theory
+
+[https://www.youtube.com/embed/AJ5aIvjNgao?si=RWOztM-oMpazRJZ_](https://www.youtube.com/embed/AJ5aIvjNgao?si=RWOztM-oMpazRJZ_)
+
+## Key Concepts in Todays lecture / Overview
+
+  
+
+- Strict Dominance
+
+- Nash Equilibrium
+
+- Mixed Strategy Nash Equilibrium
+
+- Predicting others' behaviour
+
+- In-class Activities
+
+## Recap on last week!
+
+  
+- Definition of Rationality?
+  + Instrumental rationality
+      + "our mental states or processes are rational when they help us to achieve our goals" <font size=4.5>[@over_rationality_2004, p. 3]</font size>
+
+- Two approaches to the study of decision making
+  + <font color="B93B8F">Normative</font> Theories *versus* <font color="2FAACE">Behavioural</font> Theories
+- Theories of decision making
+  + <font color="B93B8F">Expected Value / Expected Utility</font>
+  + <font color="2FAACE">Prospect Theory</font>
+  + <font color="2FAACE">Social Functionalist Theory</font>
+
+
+## Introduction to Game Theory
+
+  
+
+- Branch of Applied Mathematics
+  - Provides a framework for modelling and predicting behaviour in Social situations of 
+      - cooperation
+      - coordination
+      - conflict <br><font size=4.5>[@dowling_modern_2007; @vonneuman_theory_1944; @vonneuman_theories_1947]</font>
+
+# The Prisoner Dilemma
+
+## The Prisoner Dilemma
+
+  
+
+- Two suspects (e.g., <font color="#6666ff">Bob</font> and <font color="#ff4c4c">Susan</font>) are arrested on suspicion of a serious crime
+
+- However:
+  - Only sufficient evidence to convict them of a minor crime
+  
+- Prisoners are kept in isolation and offered a deal:
+  - If neither confess they each get 1 year
+  - If one confesses and the other doesn't the one that confessed will be let free and the other is sentenced for 20 years
+  - If they both confess they each get 5 years
+  <br><font size=4.5>[adapted from @dowling_modern_2007; originally devised by Merrill Flood and Melvin Dresher in 1950 see @dowling_modern_2007, p. 107]</font size>
+
+## The Prisoner Dilemma
+
+  
+
+[https://app.sli.do/event/aDybaWhRyTBynrEGdd5vPX](https://app.sli.do/event/aDybaWhRyTBynrEGdd5vPX)
+
+
+## The Prisoner Dilemma
+
+\includegraphics[width=1\textwidth]{resources/images/prisoner1.png}
+
+<font size=4.5>[adapted from @dowling_modern_2007, p. 108]</font size>
+
+## Strict Dominance
+
+  
+
+- The strategy x is a **dominant** strategy if it is a *strict best response* to any feasible strategy that the others might play
+- We say that a strategy x strictly dominates strategy y for a player if
+  - strategy x provides a greater payoff for that player than strategy y
+  - regardless of what the other player(s) do.
+
+<br>
+
+- What is the dominant strategy in the Prisoner Dilemma?
+
+
+## Combining the Options
+
+  
+
+This leaves `<confess><confess>` as the ***Rational*** outcome
+
+
+\includegraphics[width=1\textwidth]{resources/images/prisoner2.png}
+
+<font size=4.5>[adapted from @dowling_modern_2007, p. 108]</font size>
+
+
+
+
+## Some Alternatives to the Prisoner Dilemma
+
+  
+
+- Import Tax
+
+- Advertising
+
+- International Relations<br><font size=4.5>[taken from @spaniel_game_2013]</font>
+
+- Any other examples?
+
+## Import Tax
+
+  
+
+- Should countries introduce tax on imports/trading tariffs?
+- Placing tariffs (a tax) on imported goods can
+  - protect domestic industries 
+  - though this leads to higher prices overall
+- The best outcome for a country is to tax imports while not having the other country tax its exports.
+- Free trade is the next best outcome
+- Mutual tariffs is the next best outcome
+  - ultimately, this leads to higher prices than the free trade outcome
+- The worst possible outcome is to levy no taxes while the other country enforces a tariff
+
+
+
+## Import Tax
+
+  
+
+
+\includegraphics[width=1\textwidth]{resources/images/importtax.png}
+
+
+## Advertising
+
+  
+
+- Consider two rival firms considering whether to advertise their products
+- Would the firms ever want the government to pass a law forbidding advertisement?
+- If advertising campaigns only persuade a consumer to buy a certain **brand** of product *rather than the product in general*
+  - If one side places ads and the other does not, the firm with the advertising campaign cuts into the other’s share of the market.
+  - If they both advertise, the ads cancel each other out, but they still have to pay for the campaigns.
+
+## Advertising
+
+  
+\includegraphics[width=1\textwidth]{resources/images/advertising.png}
+
+
+## Going to War
+
+  
+
+- Should two states go to war?
+- Peace is preferable to war
+- BUT
+  - Striking first leads to a large advantage
+  - Being struck first is very costly
+      - Striking at the same time as opponent is preferable to being attacked
+
+## Going to war
+
+  
+\includegraphics[width=1\textwidth]{resources/images/war.png}
+
+## Asymmetric Games
+
+  
+\includegraphics[width=1\textwidth]{resources/images/assymetric.png}
+
+
+
+## Another Asymmetric Game
+
+  
+
+- Two Clubs <font color="#6666ff">ONE</font> and <font color="#ff4c4c">TWO</font> in a town
+- Will run either a Salsa night or a Disco night
+- <font color="#6666ff">ONE</font> is centrally located but <font color="#ff4c4c">TWO</font> is outside the town
+  - If <font color="#ff4c4c">TWO</font> runs the same night as <font color="#6666ff">ONE</font> nobody will show
+
+- Three types of customers
+  - 60 hardcore Salsa fans - will only go to Salsa
+  - 20 hardcore Disco fans - will only go to Disco 
+  - 20 people prefer going to a disco theme but will attend a salsa night if that is the only option
+
+
+## Another Asymmetric Game
+
+  
+
+  
+\includegraphics[width=1\textwidth]{resources/images/teoclubs.png}
+
+
+## Iterated Elimination of Strictly Dominated Strategies 
+
+  
+  
+\includegraphics[width=1\textwidth]{resources/images/iesds.png}
+
+
+# Different types of Games
+
+## Stag Hunt
+
+  
+
+- Two hunters enter a range filled with hares and a single stag
+  - Hares are easy to capture
+      - but not worth much meat (1)
+  - Catching the stag requires working together
+      - worth much more meat (6 - to share between 2)
+  
+- If they both hunt hares, they each capture half of the hares in the range
+- If one hunts the stag and the other hunts hares
+  - the stag hunter goes home empty-handed
+  - the hare hunter captures all of the hares
+- If both hunt the stag, they share the stag (value of the stag is greater than the value of all of the hares) 
+
+
+## Stag Hunt
+
+  
+
+  
+\includegraphics[width=1\textwidth]{resources/images/stag.png}
+
+
+## No Strict Dominace in the Stag Hunt?
+
+\includegraphics[width=1\textwidth]{resources/images/stag2.png}
+
+## No Strict Dominace in the Stag Hunt?
+
+- **Nash equilibrium**
+  - a set of strategies, one for each player
+  - no player has incentive to change his or her strategy (given what the other players are doing)
+  
+- **Nash equilibrium** is the best strategy given the strategy chosen by the other participants<br><font size=4.5>[@dowling_modern_2007]</font size>
+
+- Individuals have no incentive to deviate (not group deviations)
+  - no regrets at the end of the game
+    - once the other player's strategy has been revealed
+    
+- Nash equilibria are ***inherently stable***
+
+
+## Nash Equilibria in real life
+
+  
+
+- Traffic
+  - Traffic Lights
+  - Driving on the Left/Right
+  - Other Examples?
+
+
+## [Driving on the Left/Right](https://www.youtube.com/embed/q52RfAiZlws)
+
+<iframe width="1009" height="757" src="https://www.youtube.com/embed/q52RfAiZlws" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+## [A Beautiful Mind](https://www.youtube.com/embed/2d_dtTZQyUM)
+
+<iframe width="1009" height="757" src="https://www.youtube.com/embed/2d_dtTZQyUM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+# Matching Pennies
+
+## Matching Pennies
+
+  
+
+- 2 players have a penny
+- Each put penny down either Heads up or Tails up
+- If both show heads or both show tails (they match) <font color="#6666ff">Player 1</font> wins
+- If one shows heads and the other shows tails (they do not match) <font color="#ff4c4c">Player 2</font> wins
+
+<br>
+
+- Strictly competitive / *zero sum* game
+- Players actively want the opponent to perform poorly
+
+## Matching Pennies
+
+\includegraphics[width=1\textwidth]{resources/images/pennies.png}
+
+
+## Matching Pennies and Nash Equilibrium
+
+  
+
+- Every finite game has a Nash equilibrium in mixed strategies
+
+- **Nash Existence Theorem**: If each player in an *n*-player game has a finite number of pure strategies, then the game has a (not necessarily unique) Nash equilibrium in (possibly) mixed strategies <br><font size=4.5>[@gintis_game_2009, p. 44]</font size>
+
+- If I could read your mind, how would you beat me at Matching Pennies?
+
+- mixed strategy refers to how we are randomizing over multiple strategies (across multiple trials) rather than playing a single “pure” strategy. 
+
+
+# Mixed Strategy Algorithm
+
+## Mixed Strategy Algorithm
+
+\includegraphics[width=1\textwidth]{resources/images/mixedalg.png}
+
+## Mixed Strategy Algorithm
+
+  
+
+- In matching pennies, flipping against the mind reader was intended to make the Expected Utility of each of the opponents strategies the same
+  - Calculate best strategy for <font color="#6666ff">Player 1</font>
+      - $EU_L = EU_R$
+  
+- $EU_L = f(\sigma_u)$
+- $EU_R = f(\sigma_u)$
+
+- Express - $EU_L$ and $EU_R$ in terms of $\sigma_u$ and solve for $\sigma_u$
+
+## Mixed Strategy Algorithm
+
+  
+
+Expected Utility of Left
+
+
+
+- $EU_L$ is -3 sometimes (when <font color="#6666ff">Player 1</font> plays Up) and 1 the rest of the time
+
+- $EU_L = \sigma_u(-3) + (1-\sigma_u)(1)$
+
+## Mixed Strategy Algorithm
+
+  
+
+Expected Utility of Right
+
+
+
+- $EU_R$ is 2 sometimes (when <font color="#6666ff">Player 1</font> plays Up) and 0 the rest of the time 
+
+- $EU_R = \sigma_u(2) + (1-\sigma_u)(0)$
+
+## Mixed Strategy Algorithm
+
+  
+
+- Let $$EU_L = EU_R$$
+
+- $$\sigma_u(-3) + (1-\sigma_u)(1) = \sigma_u(2) + (1-\sigma_u)(0)$$
+
+- $$-3\sigma_u + 1 - \sigma_u = 2\sigma_u + 0$$
+
+- $$6\sigma_u = 1$$
+
+- $$\sigma_u = \frac{1}{6}$$
+
+- If <font color="#6666ff">Player 1</font> plays Up $\frac{1}{6}$ of time <font color="#ff4c4c">Player 2</font> is indifferent between Left and Right
+
+## Mixed Strategy Algorithm
+
+  
+
+- Calculate <font color="#ff4c4c">Player 2's</font> best strategy using the same calculation but letting 
+  - $EU_u = f(\sigma_L)$
+  - $EU_d = f(\sigma_L)$
+- and solving for $\sigma_L$
+
+- Yields $$\sigma_L = \frac{1}{3}$$
+
+## Mixed Strategy Algorithm
+
+  
+
+Mixed Strategy Nash Equilibrium:
+
+
+
+- $\sigma_u = \frac{1}{6} , \sigma_L = \frac{1}{3}$
+
+
+
+## Number Beauty Contest
+
+  
+
+- Everyone picks a number between $1$ and $100$
+
+- Everyone's response is collated to [calculate the Mean](https://www.easycalculation.com/statistics/mean-median-mode.php)
+
+- The Mean is multiplied by a constant $\frac{2}{3}$
+
+- Congratulations if you picked the *most beautiful number*
+
+
+## Strategy for the Number Beauty Contest
+
+- Midpoint of $1$ and $100$ is $50$
+  - Mean of uniformly drawn sample is $50$
+  - $\frac{2}{3}$ of $50$ is $33.33 . . .$
+- Best strategy is to guess around $33.33$ . . .   ? 
+
+<br>
+
+- Everyone guessing $~33$ brings the Mean closer to $33$
+  - ***BUT***  $\frac{2}{3}$ of $33$ is $22.22 . . .$
+
+- Best strategy to guess around $22$. . . ?<br><font size=4.5>[@keynes_general_1936; @dowling_modern_2007]</font size>
+
+
+
+
+## Basic Ultimatum Game (Dictator Version 1)
+
+  
+
+- In pairs identify who is <font color="#6666ff">Player 1</font> and who is <font color="#ff4c4c">Player 2</font>
+
+<br>
+
+- <font color="#6666ff">Player 1</font> receives €100
+
+- <font color="#6666ff">Player 1</font> may divide the €100 between you and <font color="#ff4c4c">Player 2</font> however you like.
+
+- End of the Game
+
+- What is the ***rational*** choice?
+
+## Basic Ultimatum Game (Dictator Version 2)
+
+  
+
+- In pairs identify who is <font color="#6666ff">Player 1</font> and who is <font color="#ff4c4c">Player 2</font>
+
+<br>
+
+- <font color="#6666ff">Player 1</font> receives €100
+
+- <font color="#6666ff">Player 1</font> may divide the €100 between you and <font color="#ff4c4c">Player 2</font> however you like.
+
+- <font color="#ff4c4c">Player 2</font> can accept or reject the offer
+
+- End of the Game
+
+- What is the ***rational*** choice?
+  - for <font color="#6666ff">Player 1</font>
+  - for <font color="#ff4c4c">Player 2</font>
+ 
+  
+## Ultimatum Game
+
+  
+
+- In pairs identify who is <font color="#6666ff">Player 1</font> and who is <font color="#ff4c4c">Player 2</font>
+
+<br>
+
+- <font color="#6666ff">Player 1</font> receives €100
+
+- <font color="#6666ff">Player 1</font> may divide the €100 between you and <font color="#ff4c4c">Player 2</font> however you like.
+
+- <font color="#ff4c4c">Player 2</font> can
+  - accept the offer
+  - reject the offer
+      - If  <font color="#ff4c4c">Player 2</font> rejects, **both** players get **nothing**
+
+- End of the Game
+
+
+## Ultimatum Game
+
+  
+
+- What is the ***rational*** choice?
+  - for <font color="#6666ff">Player 1</font>
+  - for <font color="#ff4c4c">Player 2</font>
+  
+
+## Fairness vs Rationality
+
+[https://www.youtube.com/embed/-KSryJXDpZo](https://www.youtube.com/embed/-KSryJXDpZo)
+
+## Backward Induction
+
+  
+
+- Sum of money to be divided between <font color="#ff4c4c">Ann</font> and <font color="#6666ff">Ben</font> 
+- <font color="#ff4c4c">Ann</font> starts with 100p and can give some to <font color="#6666ff">Ben</font> 
+- <font color="#6666ff">Ben</font> can accept or reject
+  - if <font color="#6666ff">Ben</font> rejects:
+      - Money is reduced to 25p and <font color="#6666ff">Ben</font>  is in charge of dividing the money
+  
+- <font color="#ff4c4c">Ann</font> can accept or reject
+  - if <font color="#ff4c4c">Ann</font> rejects, both receive nothing
+
+
+## Backward Induction
+
+
+<img src="images/backward_induction.png" height="400px"  />
+
+<font size=4.5>[taken from @dowling_modern_2007, p. 118]</font size>
+
+
+## Backward Induction and the Centipede Game
+
+  
+
+- A dime (10c) is put on the table
+- <font color="#6666ff">Player 1</font> has the option to take it
+- If <font color="#6666ff">Player 1</font> leaves it, another dime is placed on top and <font color="#ff4c4c">Player 2</font> has the option to take it
+- If <font color="#6666ff">Player 2</font> leaves it another dime is added
+  - and so on. . .
+
+## Backward Induction and the Centipede Game
+
+  
+
+- Assume there are 10 rounds, this will leave $1 on the table at <font color="#ff4c4c">Player 2's</font> decision
+  - Final round, <font color="#ff4c4c">Player 2</font> will take the money
+- By backwards induction <font color="#6666ff">Player 1</font> should take at round 9
+  - but <font color="#ff4c4c">Player 2</font> should anticipate this and take the money at round 8
+      an so on. . .
+
+- Nash Equilibrium is for <font color="#6666ff">Player 1</font> to take the dime on round 1
+  - Without prior collusion participants have waited till the last round and split the money
+
+
+
+
+## Beyond Individual Games
+
+  
+
+- Game theory works for investigating behvaiour at the individual level
+
+<br>
+
+- Can also be used to test the emergence of ***best*** or ***most robust*** strategies through computer simulations
+
+<br>
+
+- The effectiveness of strategies relative to each other can be established
+
+## Repeated Trials of the Prisoner Dilemma
+
+  
+
+- @axelrod_evolution_1984 famously simulated the Prisoner Dilemma using a points system
+
+\includegraphics[width=1\textwidth]{resources/images/prisoner3.png}
+
+## Repeated Trials of the Prisoner Dilemma
+
+  
+
+- A "tournament" for strategies was devised and the winner was ***Tit for Tat***
+  - Initially offer cooperation
+  - Respond to defection with defection
+  - Observed during WW1
+
+- @nowak_arithmetics_1995 used learning algorithms
+  - cooperation eventually prevailed 
+      - *generous tit for tat* (failed to retaliate occasionally)
+      - *Pavlov*
+
+# In-Class Activity
+
+## In Class Activity 
+
+  
+
+- In groups identify features of games discussed in everyday activities
+- Pick an example of everyday activity that illustrates some of the concepts discussed today
+
+# References
+
+## References
+
+\noindent
+\vspace{-2em}
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+\setlength{\parskip}{7.5pt}
+
