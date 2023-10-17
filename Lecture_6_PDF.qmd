@@ -1,0 +1,1238 @@
+---
+title: "Lecture 6"
+subtitle: "Game Theory"
+author: "Dr Cillian McHugh"
+institute: "PS4168: Economic Psychology"
+bibliography: "resources/bib/My Library.bib"
+csl: apa.csl
+format: 
+  beamer:
+    toc: false
+    slide_level: 2
+    fig_width: 6
+    fig_height: 4
+    incremental: false
+    keep_tex: true
+    theme: Antibes
+    includes:
+      in_header: mystyle.tex
+editor: source
+---
+
+## Housekeeping
+
+- Assignment 1 Deadline today at 4pm
+- No Lecture in Week 9
+  - (deadline for Assignment 2)
+- Content for Weeks 7, 8, and 9 moved
+  - (to weeks 6, 7, and 8 respectively)
+
+      
+
+<script> 
+var looper;
+var degrees = 0;
+function rotateAnimation(el,speed){
+	var elem = document.getElementById(el); 
+	if(navigator.userAgent.match("Chrome")){
+		elem.style.WebkitTransform = "rotate("+degrees+"deg)";
+	} else if(navigator.userAgent.match("Firefox")){
+		elem.style.MozTransform = "rotate("+degrees+"deg)";
+	} else if(navigator.userAgent.match("MSIE")){
+		elem.style.msTransform = "rotate("+degrees+"deg)";
+	} else if(navigator.userAgent.match("Opera")){
+		elem.style.OTransform = "rotate("+degrees+"deg)";
+	} else {
+		elem.style.transform = "rotate("+degrees+"deg)";
+	}
+	looper = setTimeout('rotateAnimation(\''+el+'\','+speed+')',speed);
+	degrees++;
+	if(degrees > 359){
+		degrees = 1;
+	}
+	document.getElementById("status").innerHTML = "rotate("+degrees+"deg)";
+}
+</script>
+
+<style type="text/css">
+    table.table-style-one {
+        font-size:36px;
+        color:#333333;
+        border-width: 1px;
+        border-color: #D3D3D3;
+        border-collapse: collapse;
+    }
+    table.table-style-one th {
+        border-width: 1px;
+        padding: 16px;
+        border-style: solid;
+        border-color: #3A3A3A;
+        background-color: #B3B3B3;
+    }
+    table.table-style-one td {
+        border-width: 1px;
+        padding: 16px;
+        border-style: solid;
+        border-color: #D3D3D3;
+        background-color: #ececec;
+    }
+</style>
+
+
+
+
+
+<style type="text/css">
+    ol { list-style-type: lower-alpha; }
+</style>
+
+## Recap on last week!
+
+- Examples of:
+  - Strict Dominance
+  - Nash Equilibrium
+
+
+## Overview
+
+
+- Mood as Information
+
+- Somatic Marker Hypothesis
+
+- Incidental Emotions and Decision Making
+
+- Emotions and Moral Decision Making
+
+- Future Decisions & Affective Forecasting
+
+- Assignment 2
+
+- Activity
+
+
+
+# The Pervasiveness of Peceptions of Emotion
+
+## Perceiving Emotional Content
+
+[@heider_experimental_1944]
+
+[https://www.youtube.com/embed/8FIEZXMUM2I](https://www.youtube.com/embed/8FIEZXMUM2I)
+
+<iframe width="900" height="600" src="https://www.youtube.com/embed/8FIEZXMUM2I" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+## Emotional Content and Prediction
+
+
+
+- Classic study on recognition of emotion <br><font size=4.5>[@delancey_passionate_2001; @hebb_emotion_1946]</font size>
+
+- Scientists working with chimpanzees were not allowed to use emotion terms to describe the animals’ behaviour
+
+- Detailed objective descriptions of behaviours
+
+- Reading these descriptions useless for predicting behaviour
+
+<br>
+
+- Inclusion of emotion based descriptions allowed prediction
+
+
+
+
+# Mood as Information
+
+## Mood as Information{.smaller}
+
+
+
+- Feelings as information:<br>[@schwarz_mood_1983; @schwarz_mood_2003; @harvey_blackwell_2004]
+  - Affect is sometimes used as a cue for decision making
+  - When it is used it may often be confused with other cues <br>[@harvey_blackwell_2004, p. 448]
+- "How do I feel about this?"
+  - pre-existing mood vs target
+- Happier mood &#8594; more positive response
+- Sadder mood &#8594; more negative response
+
+- *Mood Misattribution*
+
+
+
+# Study 1
+
+## Mood Misattribution{.smaller}
+
+
+
+- Participants taken to an ambiguous setting:
+  - "odd-looking sound-proof room" <font size=4.5>[@schwarz_mood_1983, p. 515]</font size>
+  - Room might make them feel either <font color="ff4c4c">**Tense**</font> or <font color="B93B8F">**Elated**</font>
+- Tape of piano - false 'sound memory task' (demonstrate the room was soundproof)
+- wrote about a life event that had made them feel <font color="6666ff">**good**</font> or <font color="ff9224">**bad**</font>
+- The dependent variables were then assessed using questions about:
+  - life satisfaction and happiness
+  - present mood
+  - some causal-attribution scales.
+
+
+
+## Study 1 - Design
+
+
+
+- $2\times3$ Factorial design <font size=4.5>[@schwarz_mood_1983]</font size>
+  - **IV1**: life event description (2 levels)
+      - <font color="6666ff">**positive**</font> vs <font color="ff9224">**negative**</font>
+  - **IV2**: Expectations about room effects (3 levels)
+      - <font color="ff4c4c">**Tense**</font>, <font color="B93B8F">**Elated**</font> or <font color = "808080">**no effect**</font>
+      
+- 61 introductory to psychology students - for course credit
+
+## Study 1 - Design (DVs){.smaller}
+
+
+
+- **DV1**: General wellbeing
+  - General happiness: "How happy do you feel about your life as a whole?"
+  - Life Satisfaction: "How satisfied are you with your life as a whole these days?"
+- **DV2**: Present affective states
+  - "How happy (unhappy) do you feel right now, at this moment?"
+  - "How good (bad) do you feel at this moment?"
+- **DV3**: Causal attribution
+  - how much present feelings were due to what they thought about (an internal attribution) 
+  - how much their feelings were due to the room (an external attribution) <br>[@schwarz_mood_1983, p. 516]
+
+
+
+## Elaborate distraction task{.smaller}
+
+
+
+- Three note tone progressions on tape <br>[@schwarz_mood_1983, p. 516]
+- Collaborate on a 25-minute "filler task" (prior to the sound-recognition test)
+  
+- Filler task:
+  - Development of a "life-event inventory" purportedly a test instrument to assess events in people's lives. 
+
+- Asked them to describe "as vividly and in as much detail as possible" a recent event that made them feel
+  - <font color="6666ff">really good</font> or <font color="ff9224">really bad</font>"
+  - Told these descriptions would provide the basis for the generation of items for the life-event inventory.
+  - 20 minutes to complete the task
+  
+
+  
+## Study 1 Results - DV2: Current Mood{.smaller}
+
+
+
+- Temporary mood influenced by description task
+  - Happy at this moment (7-point scale)
+    - <font color="6666ff">(positive) *M* = 5.5</font>; <font color = "808080">(control) *M* = 5.1</font>; <font color="ff9224">(negative) *M* = 3.7**</font>
+  - Good at this moment (11-point scale)
+    - <font color="6666ff">(positive) *M* = 8.4</font>; <font color = "808080">(control) *M* = 7.9</font>; <font color="ff9224">(negative) *M* = 5.8**</font>
+    
+- Values for participants who provided <font color="ff9224">negative</font> descriptions significantly lower than both <font color="6666ff">positive</font> and a <font color = "808080">control</font> group
+- No significant differences between <font color="6666ff">positive</font> and a <font color = "808080">control</font> groups
+  - but: <font color="6666ff">"somewhat happier and better"</font>
+      - preexisting positive mood in the <font color = "808080">control</font>
+
+
+## Study 1 Results - DV2: Current Mood (contd)
+
+
+
+- Participants' expectations for how the room would make them feel did not affect their reported mood
+
+<br>
+
+- In other words, opportunities to explain the source of the mood did not change the level of the mood itself
+<br> [taken from @schwarz_mood_1983, p. 516]
+
+
+
+
+## Study 1 Results - DV1
+
+
+![moodtable](resources/images/mood_table1.png)
+<img src="resources/images/mood_table1.png" />
+
+<font size=4.5>[taken from @schwarz_mood_1983, p. 517]</font size>
+
+
+## Study 1 Results - DV1
+
+
+
+![moodtable](resources/images/mood_table1b.png)
+<img src="resources/images/mood_table1b.png" />
+
+<font size=4.5>[taken from @schwarz_mood_1983, p. 517]</font size>
+
+
+## Study 1 Results - DV1
+
+
+
+![moodtable](resources/images/mood_table1c.png)
+<img src="resources/images/mood_table1c.png" />
+
+<font size=4.5>[taken from @schwarz_mood_1983, p. 517]</font size>
+
+
+## Study 1 Results - DV1
+
+
+
+![moodtable](resources/images/mood_table1d.png)
+<img src="resources/images/mood_table1d.png" />
+
+<font size=4.5>[taken from @schwarz_mood_1983, p. 517]</font size>
+
+
+## Study 1 Results DV3
+
+
+
+![moodtable](resources/images/mood_table2.png)
+<img src="resources/images/mood_table2.png" />
+
+<font size=4.5>[taken from @schwarz_mood_1983, p. 517]</font size>
+
+## Study 1 Results DV3{.smaller}
+
+
+
+
+- Expected attributions for mood states to be consistent with the information provided.
+- For example:
+  - those expecting the room to make them feel <font color="ff4c4c">**tense**</font>
+    - attribute <font color="ff9224">**bad**</font> moods externally to the room and
+    - <font color="6666ff">**good**</font> moods internally to their thoughts
+
+- "within-cell variability in responses to these attribution scales was high, the expected effects were not significant"
+- "However, three of the four comparisons between means for subjects expecting elation versus tension were in the predicted direction"
+<br>[@schwarz_mood_1983, p. 517]
+
+
+
+## Mood Misattribution - Study 1 Discussion{.smaller}
+
+
+
+- Writing vivid and detailed descriptions of pleasant and unpleasant life experiences appears to influence
+  - momentary mood states 
+  - judgments of how happy and satisfying their lives are in general
+
+- But:
+  - Given a chance to attribute their <font color="ff9224">**bad**</font> mood to a transient source
+  - the description task no longer influenced their judgment of general well-being
+
+- "discounting effect" <br>[@kelley_causal_1971; @schwarz_mood_1983]
+
+# Study 2
+
+## Mood Misattribution - Study 2{.smaller}
+
+
+
+- Less elaborately staged
+- A phone call
+  - <font color="6666ff">**sunny**</font> vs <font color="ff9224">**rainy**</font> day
+      - @cunningham_weather_1979 weather has a reliable effect on mood
+      
+      
+- If people use their affective states as information to evaluate their lives
+  - they should report greater well-being and life satisfaction on <font color="6666ff">sunny</font> days than on <font color="ff9224">rainy</font> days
+- BUT:
+  - effect should be reduced when respondents are led to attribute their mood to the weather
+
+
+
+## Study 2 - Design{.smaller}
+
+
+
+- $2\times3$ Factorial design [@schwarz_mood_1983]
+  - **IV1**: Weather (2 levels)
+      - <font color="6666ff">**sunny**</font> vs <font color="ff9224">**rainy**</font>
+  - **IV2**: Salience of weather as explanation of mood (3 levels)
+      - **Indirect-priming**: "By the way, how's the weather"
+      - **Direct-priming**: "We are interested in how the weather affects person's mood"
+      - **No-priming**: weather not mentioned
+
+- Randomly called 93 phone numbers
+  - 84 respondents 
+
+## Study 2 - Method
+
+
+
+Likert scale Qs (1-10)
+
+- How happy do you feel about your life as a whole?
+
+- Thinking of how your life is going now, how much would you like to change your life from what it is now?
+
+- All things considered, how satisfied or dissatisfied are you with your life as a whole these days?
+
+- And, how happy do you feel at this moment?
+
+## Study 2 Results{.smaller}
+
+
+
+- *Momentary happiness*: People were <font color="6666ff">happier</font> on <font color="6666ff">sunny</font> days
+  - This effect was not affected by priming manipulation
+  
+- Main effect for weather for other three Qs
+  - <font color="6666ff">**sunny**</font>
+      - <font color="6666ff">happier</font> generally
+      - <font color="6666ff">satisfied</font> with their lives
+      - little desire to change
+  - <font color="ff9224">**rainy**</font>
+      - <font color="ff9224">less happy</font> generally
+      - <font color="ff9224">less satisfied</font> with their lives
+      - greater desire to change
+      
+
+## Study 2 Results
+
+
+
+![moodtable](resources/images/mood_table3b.png)
+<img src="resources/images/mood_table3b.png" height=420px />
+
+<font size=4.5>[taken from @schwarz_mood_1983, p. 520]</font size>
+
+## General Discussion{.smaller}
+
+
+
+- People use their momentary moods to make judgments about their general happiness and life satisfaction
+  - thinking about <font color="6666ff">good</font> versus <font color="ff9224">bad</font> experiences
+  - being in <font color="6666ff">**sunny**</font> versus <font color="ff9224">**rainy**</font> sunny versus rainy weather
+      - influenced subjects' reports of general well-being/satisfaction/desire to change
+
+- People appear to seek explanations for an <font color="ff9224">**unpleasant mood**</font> (when such explanations are available)
+  - not using their mood as information about their well-being
+- In a <font color="6666ff">**good mood**</font> use their mood as a basis for judging the quality of their life
+  - regardless of the availability of alternative explanations for the mood<br><font size=4.5>[@schwarz_mood_1983, p. 520]</font size>
+
+
+
+## Activity
+  
+In Groups:
+- Discuss some implications of these findings
+  - *Misattribution*
+  - *discounting*
+  - Applications of this knowledge?
+
+- Offer a critique of the methods
+
+# Somatic Marker Hypothesis
+
+## Phineas Gage
+
+
+![gage](resources/images/phineas_gage.jpg)
+<img src="resources/images/phineas_gage.jpg" height=420px />
+
+## Phineas Gage
+
+- Iron rod through his head
+  - 1m long and 3cm in diameter; landed 30m away.
+  - Damage to ***Ventromedial Prefrontal Cortex*** 
+- New personality traits
+  - foul language
+  - couldn't hold down a job
+  - not as independent a person as he had been
+  
+## Elliot{.smaller}
+
+
+
+- Pre-frontal damage (tumor; removed)
+  - radical change of personality
+  - No longer capable of holding a job
+  - living in the custody of a sibling
+- Denied payment of disability benefits
+- "Intelligent, skilled and able-bodied man 
+  - ought to come to his senses and return to work"
+
+- Several professionals had declared that his mental faculties were intact
+- at best Elliot was lazy, and at worst a malingerer
+[@damasio_descartes_1994, p. 34]
+
+
+
+## Elliot (contd){.smaller}
+
+
+
+- "pleasant and intriguing, thoroughly charming but **emotionally contained**"
+- "diplomatic composure"
+- "**cool**, **detached**, **unperturbed**
+  - *even by potentially embarrassing discussion of personal events*"
+- "coherent and smart"
+  - "clearly he knew what was occurring in the world around him"
+      - "discussed political affairs"
+      - "seemed to grasp the situation of the economy"
+  
+- knowledge of business
+- skills unchanged
+- flawless memory for his life story[@damasio_descartes_1994, pp. 34-35] 
+
+
+
+## Elliot (contd){.smaller}
+
+
+
+- needed prompting to get started in the morning and prepare to go to work
+- at work he was
+      - unable to manage his time properly
+      - he could not be trusted with a schedule
+  - When the job called for interrupting an activity and turning to another
+      - might persist, losing sight of his main goal
+      - might interrupt the activity he had engaged
+      - turn to something he found more captivating <br>[@damasio_descartes_1994, pp. 34-35]
+
+
+
+## Elliot (contd){.smaller}
+
+
+
+- e.g., reading and classifying documents of a given client
+  - understood task, and significance of the material
+  - knew *how* to sort
+  
+- In the middle of the task he might
+  - turn from the sorting task
+  - to reading a paper
+      - carefully and intelligently
+      - could spend an entire day doing so
+
+- might spend a whole afternoon deliberating on which principle categorization should be applied <font size=4.5>[@damasio_descartes_1994, pp. 34-35]</font>
+
+
+
+## Elliot's Poor decisions
+
+
+
+- Tried new pastimes and business ventures
+- Collecting things
+  - Junk
+- Teamed up with a disreputable character
+  - Ignored several warnings from friends
+  - Scheme ended in bankruptcy
+  - All of his savings were lost<br>
+
+- Puzzling to family and clinicians alike
+
+
+
+## Iowa Gambling Task{.smaller}
+
+
+
+- Begin with $2000
+- 4 Decks: A, B, C, D
+- A and B
+  - Receive $100 per turn
+  - Occasional (high) losses, e.g., $1,250
+  
+- C and D
+  - Receive only $50 per turn
+  - Occasional (much smaller) losses - less than $100 on average
+  
+- Players pick from the decks at random
+- Game ends after 100 turns <br><font size=4.5>[@damasio_descartes_1994]</font>
+
+ 
+
+## Iowa Gambling Task - "Regular Folk"
+
+
+
+- Sample decks
+  - Searching for patterns/clues
+
+
+- Early preference for A and B
+
+- **But**:
+  - within 30 moves
+  - Preference switches to C and D
+  - Continuing with this strategy till the end<br>[@damasio_descartes_1994]
+
+
+
+## Iowa Gambling Task - "Regular Folk"
+
+
+
+- An unconscious hunch that
+  - A and B are "more dangerous"
+
+<br>
+
+- Begin behaving favourably
+  - before conscious awareness
+
+<br> 
+
+- Unconscious perceptions informing the conscious decision making [@damasio_descartes_1994, p. 214]
+
+## Iowa Gambling Task - "Ventromedial frontal patients"
+
+
+
+- Sample decks (Searching for patterns/clues)
+  
+- Early systematic preference for A and B
+
+- Continue with A and B
+  - Bankrupt half way through 
+  - Borrow more money
+  
+- Continue with A and B
+
+- Elliot Knew Good decks from bad decks but persisted <br><font size=4.5>[@damasio_descartes_1994, p. 214]</font>
+
+
+
+## Somatic Marker Hypothesis
+
+
+
+- Proposed by Damasio [-@damasio_descartes_1994; @damasio_feeling_2000]
+- Consider what happens when blood sugar drops:
+  - Situation calling for action
+  - your body institutes a hunger state
+    - will eventually drive you to eat
+  - No overt knowledge / options and consequences
+  - no conscious mechanism of inference
+    - up to the point when you become aware of being hungry [@damasio_descartes_1994, p. 166]
+
+
+
+## Somatic Marker Hypothesis{.smaller}
+
+
+
+- Move away briskly to avoid a falling object
+  - Situation calls for prompt action (e.g., falling object)
+  - options for action (to duck or not) 
+    - each has a different consequence
+  - in selecting the response, we use neither conscious (explicit) knowledge nor a conscious reasoning strategy
+    
+- The requisite knowledge was once conscious
+  - when we first learned that falling objects may **hurt** us and that
+  - avoiding them or stopping them is better than being hit <br><font size=4.5>[@damasio_descartes_1994, pp. 166-167]</font>
+
+
+
+## Somatic Marker Hypothesis{.smaller}
+
+
+
+- 2 groups of examples:
+  - "choosing a career; deciding whom to marry or befriend; deciding whether or not to fly when there are impending thunderstorms; deciding whom to vote for or how to invest one's savings; deciding whether to forgive a person who has done you wrong or, if you happen to be a state governor, commute the sentence of the convict now on death row"<br><font size=4.5>[@damasio_descartes_1994, p. 167]</font>
+  - "reasoning that goes with building a new engine, or designing a building, or solving a mathematical problem, composing a musical piece or writing a book, or judging whether a proposed new law accords with or violates the spirit or letter of a constitutional amendment"<br><font size=4.5>[@damasio_descartes_1994, p. 167]</font>
+
+## Somatic Marker Hypothesis{.smaller}
+
+
+
+- As we experience events the associated feelings are "recorded" as *Markers*
+  - Soma is Greek for body
+  - Somatic Markers
+  - Records of positive/negative associations with past events
+          
+- Somatic Markers relate to the body
+  - but do not have to be *Strongly Visceral*
+  
+- When making a decision our Somatic Markers have already provided a "gut" approval or disapproval
+  - Before:
+  - Formal/conscious cost benefit analysis of premises
+  - Reason toward solution <font size=4.5>[@damasio_descartes_1994]</font>
+
+
+## Driving on Icy Roads
+
+
+
+- @damasio_descartes_1994 met a patient with ventromedial prefrontal damage on a cold winter day
+  - Freezing rain had fallen and the roads were icy
+  - Hazardous driving conditions
+  - The patient had driving himself
+
+<br>
+
+- Damasio asked how the drive had been?
+
+
+## Driving on Icy Roads{.smaller}
+
+
+
+"His answer was prompt and dispassionate: It had been fine, no different from the usual, except that it had called for some attention to the proper procedures for driving on ice. The patient then went on to outline some of the procedures and to describe how he had seen cars and trucks skidding off the roadway because they were not following these proper, rational procedures. He even had a particular case in point, that of a woman driving ahead of him who had entered a patch of ice, skidded, and rather than gently pulling away from the tailspin, had panicked, hit the brakes, and gone zooming into a ditch. One instant later, apparently unperturbed by this hair-raising scene, my patient crossed the ice patch and drove calmly and surely ahead. He told me all this with the same tranquility with which he obviously had experienced the incident" <br><font size=4.5>[@damasio_descartes_1994, pp. 192-193]</font>
+
+## The Case of David{.smaller}
+
+
+
+- One of the most severe defects in learning and memory ever recorded [@damasio_feeling_2000]
+  - cannot learn any new facts
+  - cannot learn any new physical appearance or sound or place or word
+- As a consequence he cannot learn to recognize any new person
+  - not by face / voice / name
+  - nor can he remember anything whatsoever regarding where he has met a certain person
+  - or the events that transpired between him and that person
+
+- ***BUT***:
+  - David seemed to manifest consistent preferences and avoidances for certain people
+
+
+
+## Studying The Case of David
+
+
+
+- Over the period of a week
+  - 3 distinct types of human interaction
+      - *good guy*: extremely pleasant and welcoming; always rewarded David 
+      - *neutral guy*: emotionally neutral; activities were neither pleasant nor unpleasant
+      - *bad guy*: brusque; said no to any request; engaged in tedious boring tasks
+      
+- 2 distinct tasks
+  
+## David's Results
+
+
+
+
+- Task 1) asked to look at sets of four photographs that included the face of one of the three individuals in the experiment
+    - "Whom would you go to if you needed help;" 
+    - "Who do you think is your friend in this group?"
+      
+- *Good guy* chosen over 80% of the time
+- *Netral guy* chosen with same probability as chance
+- *Bad guy* almost never chosen
+
+## David's Results
+
+
+
+
+- Task 2) Shown 3 photos (one of each "guy")
+    - Tell us what you know about these people
+        - Nothing came to mind
+    - "Who is your friend?"
+        - Consistently the *good guy*<br>[@damasio_feeling_2000]
+
+# Incidental Emotions and Decision Making
+
+## Incidental Emotions and Decision Making{.smaller}
+
+
+
+- Manipulations of accountability [@lerner_accounting_1999]
+- Incidental anger [@lerner_accounting_1999]
+- Feelings influence evaluations of **unfamilar** but not **familiar** products [@srull_effects_1984; @srull_affect_1983]
+- People in good moods make optimistic judgements / bad moods make pessimistic judgements [@loewenstein_role_2003]
+- People cannot predict effect of different feelings/moods
+  - *morning after syndrome* [@loewenstein_role_2003]
+
+
+
+# Emotions and Moral Decision Making
+
+## CAD  Hypothesis
+
+- Three "moral" emotions
+  - Contempt, Anger, Disgust
+
+- Three types of ethics
+  - Community, Autonomy, Divinity <br>[@rozin_cad_1999]
+
+## Trolley dilemmas
+
+
+
+- *Push* (footbridge):
+  - Is it wrong to push someone off a bridge to save five?
+
+- *Switch*:
+  - Is it wrong to flick a switch to divert a trolley away from five people but towards one person
+
+<br>
+
+- Responses influenced by incidental emotions
+
+
+## Funny Videos and Trollies{.smaller}
+
+
+- Positive or neutral affect induction
+  - Positive: 5-min comedy clip taken from ‘‘Saturday Night Live’’
+  - Neutral: 5-min segment taken from a documentary on a small Spanish village.
+
+- Presented with both Trolley dilemmas: Footbridge / Switch
+
+- Heightened positivity increased the odds of selecting the “push” response to the footbridge (dilemma by a factor of 3.8)
+- No difference in the switch<br><font size=4.5>[@valdesolo_manipulations_2006]</font>
+
+
+
+## Incidental Disgust 1
+
+
+
+- 4 Experiments
+- Disgust induction through:
+  - Bad smell
+  - recalling a physically disgusting experience
+  - Disgusting room
+  - video induction
+
+- 7 point Likert scale rating of various behaviours<br><font size=4.5>[@schnall_disgust_2008]</font>
+
+
+## Incidental Disgust 1
+
+
+
+- Moral Transgressions rated
+  - Driving out of laziness (1 ½ miles to work)
+  - Filming interviews without explicit consent
+  - Eating a dead dog
+  - Eating another human for survival (following a plane crash)
+  - Returning a lost wallet but keeping the cash (several hundred dollars)
+  - Putting false information on a CV to get a job
+  - Switch version of trolley<br><font size=4.5>[@schnall_disgust_2008]</font>
+- Disgust increased severity of moral judgements when compared with controls
+  - Moderated by sensitivity to bodily sensations <font size=4.5>[@schnall_disgust_2008]</font>
+
+
+## Incidental Disgust 2
+
+
+
+- Participants were provided with:
+  - Sweet beverage or water or a bitter beverage
+  - Rated 6 moral transgressions (7 point likert scale)
+
+<br>
+
+- The bitter taste lead to harsher judgements
+  -Influenced by political orientation
+  – conservatives more susceptible to disgust than liberals <br>[@eskine_bad_2011]
+
+
+
+## Incidental Disgust 3{.smaller}
+
+
+
+- 2 experiments:
+  - Participants were hypnotised to feel disgust at one of two target words (often or take)
+- 3 experimental vignettes &#8594; 3 control vignettes &#8594; 3 experimental vignettes
+  - 6 experimental vignettes
+  - 2 versions of each (often vs take) counterbalanced
+
+- Measures
+  - Disgust ratings
+  - Morality rating
+  - Generic non-moral approval rating (Experiment 2)
+  - Non-moral vignette (Experiment 2)<br><font size=4.5>[@wheatley_hypnotic_2005]</font>
+
+
+
+## Incidental Disgust 3
+
+
+
+- Results:
+  - Presence of hypnotic word influenced:
+      - Disgust ratings
+      - Morality rating
+      - Generic non-moral approval rating (Experiment 2)
+      - Non-moral vignette (Experiment 2)<br>[@wheatley_hypnotic_2005]
+
+
+
+## Incidental Disgust 3
+
+
+
+Dan is a student council representative at his school. This semester he is in charge of scheduling discussions about academic issues. He [tries to **take** / **often** picks] topics that appeal to both professors and students in order to stimulate discussion<br>[@wheatley_hypnotic_2005]
+
+## Incidental Disgust 3
+
+
+
+- Non-moral vignette responses:
+
+<br>
+
+- *“it just seems like he’s up to something”*
+
+<br>
+
+- *“popularity seeking snob”*
+
+
+
+## Incidental Disgust 4
+
+
+![disgust](resources/images/floppy.png)
+
+<img src="resources/images/floppy.png" />
+
+## Incidental Disgust 4
+
+
+![worms](resources/images/worms.png)
+<img src="resources/images/worms.png" />
+
+## Incidental Disgust 4
+
+
+
+- @cameron_morality_2013 no main effect for disgusting images
+  - interaction effect
+      - Emotion differentiation
+
+- Attempted replication
+  - no interaction effect
+      - Main effect for disgust
+      
+
+
+## Categorization Processes
+
+- Moral Judgment as Categorization [MJAC, @mchugh_moral_2022]
+  - see [here](https://journals.sagepub.com/doi/full/10.1177/1745691621990636)
+
+
+
+
+
+# Future Decisions
+
+## Future self vs Present Self?
+
+
+
+- Which would you prefer?
+  - €100 now?
+  - €110 in a month?
+
+<br>
+
+- Discounting
+
+- "Conflict between present self and future self" [@baron_thinking_2008, p. 471]
+
+
+
+## Making Choices
+
+
+![choice](resources/images/tv_stations.png)
+
+<img src="resources/images/tv_stations.png" />
+
+<font size=4.5>[@iyengar_art_2011]</font size>
+
+
+## Making Choices
+
+![choice](resources/images/jars.png)
+
+<img src="resources/images/jars.png" />
+
+<font size=4.5>[@iyengar_art_2011]</font size>
+
+## Making Choices
+
+
+![choice](resources/images/jars_explained.png)
+
+<img src="resources/images/jars_explained.png" />
+
+<font size=4.5>[@iyengar_art_2011]</font size>
+
+# Affective Forecasting
+
+## The role of Emotions in Decision Making
+
+
+![emotion](resources/images/decision_emotion_fig.png)
+<img src="resources/images/decision_emotion_fig.png" />
+
+<font size=4.5>[taken from @loewenstein_role_2003, p. 621]</font size>
+
+## The role of Emotions in Decision Making
+
+![emotion](resources/images/decision_emotion_figc.png)
+
+<img src="resources/images/decision_emotion_figc.png" />
+
+<font size=4.5>[taken from @loewenstein_role_2003, p. 621]</font size>
+
+## The role of Emotions in Decision Making
+
+
+![emotion](resources/images/decision_emotion_figd.png)
+<img src="resources/images/decision_emotion_figd.png" />
+
+<font size=4.5>[taken from @loewenstein_role_2003, p. 621]</font size>
+
+
+## Affective Forecasting / Expected Emotions
+
+
+
+- Decisions are made based on expected outcomes
+
+<br>
+
+- *How will this make me feel?*
+
+<br>
+
+- Systematic errors in predicting future tastes <br><font size=4.5>[@loewenstein_role_2003, p. 625; @wilson_affective_2005; @wilson_affective_2003]</font size>
+
+
+
+## Errors of Affective Forecasting
+
+
+
+- Feelings toward objects (i.e., tastes)
+- Changes in life circumstances (e.g., predictions of subjective well being)
+- Changes in health status (e.g., pain or outcomes of medical procedures)
+- Behaviour under temptation or duress (e.g., craving, social pressure)
+- Other phenomena<br>[@loewenstein_wouldn_1999, p. 8]
+
+
+
+## Feelings Towards Objects (food 1){.smaller}
+
+- *Ice-cream* vs *Yogurt*
+
+
+
+- Method:
+  - Participants consumed a portion of *ice cream* or *plain yogurt* while listening to music on 8 consecutive days
+  - At the beginning of the participants were asked to predict how they would feel about the experience over time
+  - Then to rate the experience during each of the 8 sessions<br>[@loewenstein_wouldn_1999, p. 9; @kahneman_predicting_1990; @kahneman_predicting_1992]
+
+
+## Feelings Towards Objects (food 1){.smaller}
+
+- *Ice-cream* vs *Yogurt*
+
+
+
+- Results:
+  - Correct prediction for ice-cream (enjoyed less over time)
+  - Incorrect prediction for yogurt
+      - Expected to like it less: liked it more
+      - or disliked it less if yogurt was considered aversive 
+  - *"near-zero correlation between individual subjects’ anticipated and actual reactions to the experience"*<br>[@loewenstein_wouldn_1999, p. 9; @kahneman_predicting_1990; @kahneman_predicting_1992]
+  
+
+
+## Feelings Towards Objects (food 2){.smaller}
+
+- *Simultaneous* vs *Sequential* Choice
+
+
+
+
+- Method
+  - Choose 1 snack from 6 snack-types
+      - to be consumed on 3 successive class sessions
+
+  - “*Simultaneous choice*” condition
+      - subjects chose all three snacks on the first day of the study
+
+  - “*Sequential choice*” condition, students chose each snack on the same day it was to be consumed<br>[@loewenstein_wouldn_1999, p. 9; @simonson_effect_1990]
+
+
+
+## Feelings Towards Objects (food 2){.smaller}
+
+- *Simultaneous* vs *Sequential* Choice
+
+
+
+- Results
+ 
+  - “*Simultaneous choice*” condition
+      - Substantially more variety
+
+  - “*Sequential choice*” condition, students chose each snack on the same day it was to be consumed
+      - Less variety
+      - Greater satisfaction
+
+- *Diversification bias*
+
+- People fail to accurately predict their own tastes<br>[@loewenstein_wouldn_1999, p. 9; @simonson_effect_1990]
+
+
+
+## Changes in Life Circumstances{.smaller}
+
+
+
+- Winning the Lottery?
+  - No significant difference in happiness between lottery winners and non-winners<br><font size=4.5>[@loewenstein_wouldn_1999; @brickman_lottery_1978]</font size>
+ 
+- Climate?
+  - California vs Midwest
+      - Differences in satisfaction ratings depending on climate
+      - No differences in self-reported well being
+  - But students predicted differences for 'other' students similar to themselves<br><font size=4.5>[@loewenstein_wouldn_1999; @schkade_does_1998]</font size>
+
+
+
+## Changes in Life Circumstances{.smaller}
+
+
+
+- Participants asked to predict how environmental changes would affect their well-being over the next decade
+- Other subjects evaluated how matched changes had affected their well-being over the last decade
+  - **Environmental**: change in local air pollution; rain forest destruction; restriction of sport-fishing due to pollution; and recovery of certain endangered species
+  - **Social**: increase in number of coffee shops and cafes; increase in number of television channels and selection of videotapes; reduced risk of nuclear war; and increased risk of AIDS
+  - **Personal**: change in free time; development of pain-causing chronic health condition; change in household income; and increase in body weight [@loewenstein_wouldn_1999, p. 12; @loewenstein_predicting_1997a]
+
+
+
+## Changes in Life Circumstances
+
+
+
+- "*people expected future changes to affect their overall well-being much more than they believed that matched changes in the past had affected their well-being*"
+
+<br>
+
+- People predict such changes will have large impact on well-being
+- Changes in circumstances only have a minor impact on well-being <br><font size=4.5>[@loewenstein_wouldn_1999, p. 12; @loewenstein_predicting_1997]</font size>
+
+
+
+## Changes in Health Status
+
+
+
+- @llewellyn-thomas_patients_1993 found that cancer patients were accurate in predicting how they would feel after 4 weeks of radiation therapy
+
+- @rachman_predicting_1989 found people suffering from chronic headaches accurately predicted intensity of future headaches
+
+
+
+## Changes in Health Status
+
+
+
+- People over-predict level of fear in a situation [@rachman_overprediction_1988]
+  - People with a phobia [@rachman_match_1986]
+  - People with a panic disorder [@rachman_experimental_1988]
+  - "Normal" subjects [@rachman_modification_1983; @mcmillan_fearlessness_1988]
+
+- Other studies have found people over-predict pain <br><font size=4.5>[@loewenstein_wouldn_1999]</font>
+
+## Behaviour under temptation or duress
+
+
+
+- See @wilson_affective_2005
+
+## Gilbert Video Interview
+
+<iframe width="900" height="600" src="https://www.youtube.com/embed/mFPOLlp04d0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+
+## Schwartz TED Talk
+
+<iframe width="900" height="600" src="https://www.youtube.com/embed/VO6XEQIsCoM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+## Further Reading
+
+
+
+- @loewenstein_wouldn_1999
+
+<br>
+
+- @wilson_affective_2005
+
+
+
+# Assignment 2
+
+## Assignment 2: Game Theory{.smaller}
+
+Based on your knowledge of Game Theory and your observations of people's interactions in everyday life, identify **three** behaviours / interactions / decision-making situations that can be characterised using one of the concepts covered.
+
+(a) One can illustrate a concept of your choice
+(b) One must illustrate ***Strict Dominance***
+(c) One must illustrate ***Nash Equilibrium***
+
+
+Describe each behaviour, and how it illustrates the relevant concept.
+
+For (2) and (3) please include a hypothetical payoff matrix. 
+
+(1000-1500 words)
+
+
+## Assignment 2: Marking scheme{.smaller}
+
+
+
+---------------------------------------------------------------------------------
+Component                                                        Percentage
+--------------------------------------------------------------- -----------------
+Clear demonstration of an in depth understanding of the topic     40\% 
+
+Critical thinking                                                 20\% 
+
+Competence in the identification and application of relevant      20\% 
+research methods
+
+Originality/Novelty                                               20\% 
+
+References, Citations, and Formatting                              0\% (potential penalty of 1 sub-grade)
+
+---------------------------------------------------------------------------------
+
+
+
+## Activity 
+
+- Think of an example of a time when your present self was in conflict with your future self
+- Think of an example when you may have made an affective forecasting error
+- Critically discuss the merits and the limitations of the Somatic Marker Hypothesis
+
+# References
+
+## References{.smaller}
+
+\noindent
+\vspace{-2em}
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+\setlength{\parskip}{7.5pt}
