@@ -436,7 +436,7 @@ knitr::opts_chunk$set(include = FALSE)
 - The ratio $V/V$* provides a unit-free measure of the undertrading that is produced by the effect of ownership on value
 - To test the hypothesis that market experience eliminates undertrading, the markets were repeated several times <font size=4.5>[@kahneman_experimental_1990, p. 57]</font>
 
-::::
+:::
 
 # Studying Endowment Effects
 
