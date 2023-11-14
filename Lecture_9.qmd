@@ -1,0 +1,1275 @@
+---
+title: "Lecture 9"
+subtitle: "Fairness and Ethics"
+author: "Dr Cillian McHugh"
+institute: "PS4168: Economic Psychology"
+bibliography: "resources/bib/My Library.bib"
+csl: apa.csl
+format: 
+  revealjs:
+    slide-number: false
+    logo: "resources/images/ul-psychology-logos.png"
+    footer: "PS4168: Cillian McHugh - 15/11/23"
+    theme: "resources/css/mytheme.scss"
+    incremental: false
+    chalkboard: 
+      buttons: true
+editor: source
+---
+
+## Overview
+
+<style type="text/css">
+    table.table-style-one {
+        font-size:36px;
+        color:#333333;
+        border-width: 1px;
+        border-color: #D3D3D3;
+        border-collapse: collapse;
+    }
+    table.table-style-one th {
+        border-width: 1px;
+        padding: 16px;
+        border-style: solid;
+        border-color: #3A3A3A;
+        background-color: #B3B3B3;
+    }
+    table.table-style-one td {
+        border-width: 1px;
+        padding: 16px;
+        border-style: solid;
+        border-color: #D3D3D3;
+        background-color: #ececec;
+    }
+</style>
+
+
+
+```{r include=FALSE}
+# <style type="text/css">
+#     ol { list-style-type: lower-alpha; }
+# </style>
+```
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(include = FALSE)
+
+```
+
+- Reciprocity
+- Public Goods
+- Third Party Punishment
+- Moral Judgment
+
+## Recap on last week!
+- 3 'components' of mental accounting?
+- Principles of hedonic framing?
+
+- Examples of mental accounting in your lives?
+
+## Recap on last week!{.smaller}
+
+- 3 'components' of mental accounting:
+  - Evaluating
+  - Categorisation
+  - Balancing
+- Principles of hedonic framing
+  - segregate gains
+  - integrate losses
+  - integrate smaller losses with larger gains
+  - segregate small gains from larger losses
+
+# Fairness and Ethics
+
+## Reciprocity{.smaller}
+
+:::{.incremental}
+
+- **Reciprocity**: *like with like* responding
+  - In response to friendly actions, people are frequently nicer and more cooperative
+  - In response to hostile actions they are frequently much more nasty and even brutal
+      - Much more so than predicted by the self-interest model
+- '*A man ought to be a friend to his friend and repay gift with gift. People should meet smiles with smiles and lies with treachery*' [@fehr_fairness_2003, p. 510]
+
+- Cooperative reciprocal tendencies: ***positive reciprocity***
+- Retaliatory tendencies: ***negative reciprocity***
+
+:::
+
+## Reciprocity (contd.){.smaller}
+
+:::{.incremental}
+
+- Reciprocity $\ne$ cooperative/retaliatory behaviour in repeated interactions
+  - These behaviors arise because actors expect future material benefits from their actions
+
+- For reciprocity, the actor is responding to friendly or hostile actions ***even if no material gains can be expected***
+
+- Reciprocity is also fundamentally different from altruism
+  - Altruism is a form of unconditional kindness
+      - altruism given does not emerge as a response to altruism received
+
+- Reciprocity is an in-kind response to beneficial or harmful acts [@fehr_fairness_2003, p. 511]
+
+:::
+
+## Reciprocity: Examples and Evidence{.smaller}
+
+:::{.incremental}
+
+- *In groups* Identify as many examples of reciprocity as you can think of
+
+- Positive reciprocity
+  - Smiling waitresses get tipped more [@tidd_monetary_1978]
+  - Charities looking for donations provide small gifts
+  - Free samples to increase sales [@cialdini_psychology_1993]
+  
+- Negative reciprocity
+  - War
+  - Gang related crime
+  - Increases in rates of theft in firms increase following wage cuts [@giacalone_antisocial_1997]
+
+:::
+
+# Studying Reciprocity
+
+## Ultimatum/Dictator Games
+
+
+
+- <font color="#6666ff">Player 1 (Proposer)</font> may divide a sum of money (e.g., €100) <br>with <font color="#ff4c4c">Player 2 (Responder)</font>
+
+<br>
+
+- <font color="#ff4c4c">Player 2</font> can accept or reject the offer
+  - If  <font color="#ff4c4c">Player 2</font> rejects, **both** players get **nothing**
+
+## Ultimatum/Dictator Games: Results{.smaller}
+
+:::{.incremental}
+
+- If the <font color="#6666ff">Proposer</font> offers $< 30\%$ the <font color="#ff4c4c">Responder</font> is highly likely to reject <br><font size=4.5>[@roth_bargaining_1995; @guth_experimental_1982; @camerer_anomalies_1995; @fehr_fairness_2003]</font> 
+
+
+- Observed in various countries: Europe, USA, Asia
+ <br><font size=4.5>[@roth_bargaining_1991; @fehr_fairness_2003]</font>
+  - [Although seemingly not in the Peruvian Amazon, @henrich_does_2000]
+ 
+- Minimal influence of higher stakes
+  - Three months income
+  - Student sample: $$100$ or more <br><font size=4.5>[@cameron_raising_1999; @fehr_fairness_2003; @slonim_learning_1998; @hoffman_ultimatum_1995]</font>
+
+:::
+
+## Trust/Gift Exchange Games
+
+:::{.incremental}
+
+- A <font color="#6666ff">Proposer</font> receives an amount of money <font color="#0c840c">$x$</font> from the experimenter
+  - Sends amount <font color="#0c840c">$y$</font> to the <font color="#ff4c4c">Responder</font>
+  - <font color="#0c840c">$0 \leq y \leq x$</font>
+  
+- The experimenter then triples the amount sent
+  - <font color="#ff4c4c">Responder</font> has <font color="#0c840c">$3y$</font>
+  - The <font color="#ff4c4c">Responder</font> is then free to return a value <font color="#0c840c">$z$</font> between <font color="#0c840c">$0$</font> and <font color="#0c840c">$3y$</font> to the <font color="#6666ff">Proposer</font>
+  - <font color="#0c840c">$0 \leq z \leq 3y$</font>
+
+:::
+
+## Trust/Gift Exchange Results{.smaller}
+
+:::{.incremental}
+
+- Many <font color="#6666ff">Proposers</font> send money and many <font color="#ff4c4c">Responders</font> give back some money
+- Frequently a positive correlation between <font color="#0c840c">$y$</font> and <font color="#0c840c">$z$</font> the amount sent back
+  - At both the individual as well as at the aggregate level<br><font size=4.5>[@berg_trust_1995; @fehr_does_1993; @mccabe_game_1996]</font>
+
+- As with negative reciprocity, positive reciprocity does not appear to be affected by higher/lower stakes
+  - @fehr_high_1995 provided subjects with $\approx 10$ weeks wages
+      - for a $2$ hour study
+
+:::
+
+
+## Fairness *vs* Selfishness
+
+:::{.incremental}
+
+- $40\% - 66\%$ of people behave reciprocally in one-shot situations
+  - Showing concern for fairness (reciprocal types)
+- ***but***
+- $20\% - 30%$ of participants do not reciprocate
+  - Behave completely selfishly (self interested types)
+      - *Selfish Minority*<br><font size=4.5>[@gachter_reputation_1999; @berg_trust_1995; @fehr_wage_1999; @abbink_moonlighting_2000]</font>
+
+:::
+
+## Fairness *vs* Selfishness: Causes
+
+
+
+## Fairness *vs* Selfishness: Causes{.smaller}
+
+::::{.columns}
+
+:::{.column width=70%}
+
+:::{.incremental}
+
+- Linked with testosterone in males<br><font size=4.5>[@burnham_hightestosterone_2007]</font>
+
+- Desire to maintain equity: <br>*Inequality Aversion* <font size=4.5>[@bolton_inequality_2006]</font>
+
+- Desire to punish hostile intentions and to reward kind intentions <br><font size=4.5>[@rabin_incorporating_1993; @blount_when_1995; @dufwenberg_theory_2004; @falk_theory_1999]</font>
+
+- Type of person <font size=4.5>[@levine_modeling_1998]</font>
+
+- Boundedly rational <font size=4.5>[@gale_learning_1995; @roth_learning_1995]</font>
+
+:::
+
+:::
+
+:::{.column width=30%}
+
+
+
+![](resources/images/fight_club.jpg)
+
+:::
+::::
+
+## Fairness *vs* Selfishness: Causes
+
+
+
+- No agreement on cause
+  - But agreement that reciprocity is **stable**
+
+- Implications and applications of reciprocity:
+  - Discuss in groups.
+  
+## Implications and Applications
+
+
+
+- How does reciprocity change the nature of collective action? <br><font size=4.5>(e.g., in firms, public bureaucracies, markets and the political sphere?)</font>
+
+- Can reciprocal people constrain the opportunistic tendencies of selfish people?
+
+- When (and where) does reciprocity thrive over selfishness? (and vice-versa?)
+
+- Do explicit incentives crowd out or enhance voluntary cooperation?
+
+
+# Public Goods
+
+## Public Goods
+
+:::{.incremental}
+
+- How should public goods be provided?
+
+- Self interest dictates that everyone wants to 'free-ride' on the efforts of others
+
+:::
+
+. . .
+
+![](resources/images/bono.jpg){width=40%}
+
+
+## Public Goods in the Lab
+
+
+
+> - In groups: Use your knowledge of the topics we've covered this semester to design a "Public Goods" Game
+
+
+
+## Public Goods in the Lab
+
+:::{.incremental}
+
+- @fehr_cooperation_2000
+  - $4$ group members
+      - $20$ tokens each
+
+- Tokens may be *kept* or *invested*
+  - *Keeping* $1$ token earns $1$ token 
+  - An *invested* token earns $0.4$ of a token for each player
+      - Private return on *investing* $= 0.4$ tokens
+      - Social return on *investing* &nbsp; $= 1.6$ tokens
+
+:::
+
+## Public Goods in the Lab (contd.)
+
+
+
+::::{.columns}
+
+:::{.column width=70%}
+
+:::{.incremental}
+
+- If everyone *Keeps* **everything**:
+  - Everyone earns $20$ tokens
+- If everyone *invests* **everything**:
+  - Everyone earns $32$ tokens <br>$(4 \times 0.4 \times 20)$
+- But it is in everyone's (private) interest to invest nothing and 'free ride'
+  - *Keeping* is ***strictly dominant***
+
+:::
+
+:::
+
+:::{.column width=30%}
+
+![](resources/images/apple.jpeg)
+
+
+:::
+
+::::
+
+## Public Goods and Reciprocity{.smaller}
+
+
+
+- Positive reciprocity implies that people are willing to contribute something to the public good ***if*** others are also willing to contribute
+- Contribution to the public good represents a kind action
+  - Which induces reciprocally motivated people to contribute too <br><font size=4.5>[@sugden_reciprocity_1984; @fehr_fairness_2003]</font>
+- ***But***
+  - *Selfish Minority*<br><font size=4.5>[@gachter_reputation_1999; @berg_trust_1995; @fehr_wage_1999; @abbink_moonlighting_2000]</font>
+      - $20\% - 30%$ of participants do not reciprocate
+- Can a positive level of contributions to the public good can be sustained as an equilibrium?
+
+
+## Public Goods and Reciprocity{.smaller}
+
+:::{.incremental}
+
+- The game used by @fehr_cooperation_2000 did not have any opportunity for direct retaliation in response to observed free riding
+- Indirect negative reciprocity is possible
+  - If subjects people interpret others' free riding that as a hostile act
+      - They can “punish” others by also free riding
+- Different motivations, but everyone ends up free riding
+  - Self-interested types choose to free ride because they are self-interested
+  - Reciprocal types free-ride because they observe others free-riding
+
+<br>
+
+- Examples?
+
+:::
+
+## Reciprocal Free Riding
+
+
+
+
+
+## Reciprocal Free Riding
+
+
+:::{.columns}
+
+:::{.column width=45%}
+
+![](resources/images/dishes.jpeg)
+
+:::
+
+:::{.column width=45%}
+
+
+&nbsp;
+
+:::
+
+::::
+
+
+
+## Reciprocal Free Riding
+
+
+::::{.columns}
+
+:::{.column width=45%}
+
+![](resources/images/dishes.jpeg)
+
+:::
+
+:::{.column width=45%}
+
+
+![](resources/images/bin.jpg)
+
+:::
+
+::::
+
+. . .
+
+Recall the @ross_egocentric_1979 housework study?
+
+## Negative Reciprocity
+
+:::{.incremental}
+
+- What if someone is watching?
+
+<br>
+
+- The impact of negative reciprocity changes radically if subjects are given the opportunity to observe the contributions of others
+  - and to punish those who do not contribute
+
+:::
+
+## Alternative Public Goods Game{.smaller}
+
+:::{.incremental}
+
+- Suppose each subject in a group has the opportunity to reduce the income of each other subject in the group
+- e.g., reduction of the income of one other group member by <font color="#0c840c">$x$</font> tokens
+- Punishing costs <font color="#0c840c">$\frac{1}{3} \times x$</font>
+  - Which means selfish subjects will never punish<br><font size=4.5>(If all subjects were purely self-interested, contributions would be unaffected by the punishment opportunity)</font>
+
+  - Negatively reciprocal type subjects, will use the costly punishment opportunity to punish free riders
+
+- The public good game with direct punishment provides an opportunity for reciprocal types to induce the selfish types to make “cooperative” choices
+
+:::
+
+## Public Goods and Punishment{.smaller}
+
+
+
+- Same structure as previous $4$ person $20$ token game
+- $2$ versions:
+  - "Perfect stranger"
+      - Participant groups *shuffled* after each trial
+      - $6$ groups of $4$ completed $6$ trials
+      - Nobody met another group member more than once
+  - "Partner"
+      - Same $4$ group members across $10$ trials
+- Opportunity to **punish** after each trial (no punishment in control groups)
+<br><font size=4.5>[@fehr_cooperation_2000]</font>
+
+
+## Public Goods and Punishment: Results
+
+
+
+
+## Public Goods and Punishment: Results
+
+
+
+![](resources/images/perfect_stranger.png)
+
+
+<font size=4.5>Mean income reduction for a given negative deviation from the mean contribution of other group members. Source: Fehr and Gächter 2000. [taken from @fehr_fairness_2003, p. 516]</font>
+
+
+## Public Goods and Punishment: Results{.smaller}
+
+
+
+- Negative deviations from the Mean contributions of other group members was punished
+- The larger the deviation the larger the punishment
+- The more a subject free rides relative to the others the more it gets punished
+- Moreover, this pattern is almost the same in the two versions of the game:
+  - Free riders are punished irrespective of whether there are future rewards for the punisher
+- Questionnaire evidence suggests that the deviation from the norm of cooperation causes resentment and the impulse to punish
+
+
+
+## Public Goods and Punishment: Results
+
+
+
+![](resources/images/perfect_stranger.png)
+
+
+<font size=4.5>Mean income reduction for a given negative deviation from the mean contribution of other group members. Source: Fehr and Gächter 2000. [taken from @fehr_fairness_2003, p. 516]</font>
+
+
+## Public Goods and Punishment: Results
+
+
+
+![](resources/images/partner_contributions.png)
+
+
+<font size=4.5>Evolution of average contributions with and without the punishment option in the Partner and the Perfect Stranger condition. Source: Fehr and Gächter 2000. [taken from @fehr_fairness_2003, p. 517]</font>
+
+
+## Public Goods and Punishment: Results
+
+
+
+- Absence of punishment leads to smaller contributions
+  - (As predicted)
+- Punishment leads to higher contributions
+
+## Public Goods and Punishment: Results
+
+
+
+![](resources/images/partner_contributions.png)
+
+
+<font size=4.5>Evolution of average contributions with and without the punishment option in the Partner and the Perfect Stranger condition. Source: Fehr and Gächter 2000. [taken from @fehr_fairness_2003, p. 517]</font>
+
+
+## Punishment and 'Free-riding'
+
+<iframe width="966" height="543" src="https://www.youtube.com/embed/8SOQduoLgRw?start=622" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font size=4 color="white">Jonathan Haidt discussing @fehr_altruistic_2002</font>
+
+# Social Norms
+
+## From Public Goods to Social Norms
+
+
+
+- Failure to behave "fairly" results in punishment
+  - Where behaving fairly is the **norm**
+- Behaviours that deviate from the **norm** are punished (sanctioned)
+  - Sanctioning is often costly
+
+## Sanctioning and Norms
+
+
+
+![](resources/images/bullying.jpg)
+
+## Sanctioning and Norms
+
+
+
+![](resources/images/litter.jpg)
+
+## Sanctioning and Norms
+
+
+![](resources/images/copying.gif)
+
+## Sanctioning can be Costly
+
+
+::::{.columns}
+
+:::{.column width=45%}
+
+![](resources/images/dishes.jpeg)
+
+:::
+
+:::{.column width=45%}
+
+
+![](resources/images/bin.jpg)
+
+:::
+
+::::
+
+. . .
+
+
+Which is more costly? The sanction or the consequence of not sanctioning 
+
+## Norms{.smaller}
+
+- Norms are pervasive in social and economic life
+- The large majority of interactions in people’s lives are not regulated by explicit contracts
+  - but by informal social norms.
+- Norm-governed attitudes, social interactions, and conformism among peers, among relatives, and in neighborhoods
+  - May have important consequences for human capital decisions
+  - The decision to take part in elections
+  - Criminal activities
+      - Tax evasion
+      - Abuse of welfare payments
+
+# Third Party Punishment
+
+## Third Party Punishment
+
+:::{.incremental}
+
+- Third Party Punishment in the Dictator game
+
+- Players <font color="#6666ff">**A** (Dictator)</font>, <font color="#ff4c4c">**B** (Recipient)</font> and <font color="#b665c4">**C** (Third Party)</font>
+
+- <font color="#6666ff">**A**</font> has $100$ points
+  - Can give $0, 10, 20, 30, 40, or$ $50$ points to <font color="#ff4c4c">**B**</font>
+- <font color="#ff4c4c">**B**</font> has nothing 
+
+- <font color="#b665c4">**C**</font> (has $50$ points) can sanction <font color="#6666ff">**A**</font>
+  - assigning a sanction “costs” points
+  - e.g., <font color="#b665c4">**C**</font> spends $1$ point to deduct $3$ points from <font color="#6666ff">**A**</font><br><font size=4.5>[@fehr_third_2004]</font>
+
+:::
+
+## Third Party Punishment
+
+
+:::{.incremental}
+
+- Variables of Interest:
+  - Frequency of punishment
+      - Both *actual* and *expected*
+  - Severity of punishment
+      - Both *actual* and *expected*
+  - Level/value of transfer (from dictators)
+      - Both *actual* and *expected*
+
+:::
+
+## Third Party Punishment
+
+
+
+![](resources/images/third_party_fig1.png)
+
+Frequency of punishment [@fehr_third_2004, p. 69]
+
+
+## Third Party Punishment
+
+
+
+![](resources/images/third_party_fig2.png)
+
+[@fehr_third_2004, p. 70]
+
+## Third Party Punishment
+
+
+
+![](resources/images/third_party_fig3.png)
+
+[@fehr_third_2004, p. 71]
+
+
+## Punishment Expectation
+
+
+
+- Recipients’ beliefs about punishment appear to be higher than the actual punishment
+
+- Recipients overestimate both the strength and frequency of punishment
+
+- For each reduction of the transfer by 10 units, the recipients expect that the third parties will reduce the dictators’ income by 9.9 units
+
+
+## Second and Third Party Punishment
+
+
+
+![](resources/images/third_party_fig4.png)
+
+[@fehr_third_2004, p. 75]
+
+## Second and Third Party Punishment
+
+
+
+- Variables of Interest:
+  - Expenditure to sanction dictator
+      - Both *second* and *third* party
+  - Expected payoff for dictator
+      - Both *second* and *third* party
+
+
+## Second and Third Party Punishment
+
+
+
+![](resources/images/third_party_fig5.png)
+
+[@fehr_third_2004, p. 78]
+
+## Second and Third Party Punishment
+
+
+
+- Dictators face severe sanctions in the second and third party condition
+
+- Second party sanctions for transfers below the egalitarian level are considerably stronger than those of the third party
+
+- Low transfers are profitable for the dictators in the TP condition but not in the SP condition
+
+
+## Second and Third Party Punishment
+
+
+
+![](resources/images/third_party_fig6.png)
+
+Expected payoff <font size=4.5>[@fehr_third_2004, p. 79]</font>
+
+
+
+# 'Ethical' Payoff Matrices
+
+## Representing Ethical Considerations
+
+
+
+Pure co-ordination game
+
+<center>
+<table class = 'table-style-one'>
+<col width="200px" />
+<col width="200px" />
+<col width="200px" />
+<col width="200px"/>
+<tr class="odd">
+<td colspan = "2" rowspan = "2"></td>
+<td colspan = "2" align="center"><font color="#ff4c4c">Player B</font></td>
+</tr>
+<tr class="even">
+<td align="center"><font size = 5px>b~1~</font></td>
+<td align="center"><font size = 5px>b~2~</font></td>
+</tr>
+<tr class="odd">
+<td rowspan = "2" align = "center"><font color="#6666ff">Player A</font></td>
+<td align="center"><font size = 5px>a~1~</font></td>
+<td align="center"><font color="#6666ff">1</font> , <font color="#ff4c4c">1</font></td>
+<td align="center"><font color="#6666ff">0</font> , <font color="#ff4c4c">0</font></td>
+</tr>
+<tr class="even">
+<td align="center"><font size = 5px>a~2~</font></td>
+<td align="center"><font color="#6666ff">0</font> , <font color="#ff4c4c">0</font></td>
+<td align="center"><font color="#6666ff">1</font> , <font color="#ff4c4c">1</font></td>
+</tr>
+</table>
+</center>
+<br>
+<font size=4.5>[adapted from @pingle_ethics_2017, p. 565]</font size>
+
+
+## Representing Ethical Considerations
+
+
+
+Co-ordination game with penalties and rewards
+
+<center>
+<table class = 'table-style-one'>
+<col width="200px" />
+<col width="200px" />
+<col width="200px" />
+<col width="200px"/>
+<tr class="odd">
+<td colspan = "2" rowspan = "2"></td>
+<td colspan = "2" align="center"><font color="#ff4c4c">Player B</font></td>
+</tr>
+<tr class="even">
+<td align="center"><font size = 5px>b~1~</font></td>
+<td align="center"><font size = 5px>b~2~</font></td>
+</tr>
+<tr class="odd">
+<td rowspan = "2" align = "center"><font color="#6666ff">Player A</font></td>
+<td align="center"><font size = 5px>a~1~</font></td>
+<td align="center"><font color="#6666ff">1</font> , <font color="#ff4c4c">1</font></td>
+<td align="center"><font color="#6666ff">1</font> , <font color="#ff4c4c">-1</font></td>
+</tr>
+<tr class="even">
+<td align="center"><font size = 5px>a~2~</font></td>
+<td align="center"><font color="#6666ff">-1</font> , <font color="#ff4c4c">1</font></td>
+<td align="center"><font color="#6666ff">-1</font> , <font color="#ff4c4c">-1</font></td>
+</tr>
+</table>
+</center>
+<br>
+<font size=4.5>[adapted from @pingle_ethics_2017, p. 565]</font size>
+
+
+
+## Stag Hunt
+
+
+
+Version of the Stag Hunt game
+
+<center>
+<table class = 'table-style-one'>
+<col width="200px" />
+<col width="200px" />
+<col width="200px" />
+<col width="200px"/>
+<tr class="odd">
+<td colspan = "2" rowspan = "2"></td>
+<td colspan = "2" align="center"><font color="#ff4c4c">Player B</font></td>
+</tr>
+<tr class="even">
+<td align="center"><font size = 5px>b~1~</font></td>
+<td align="center"><font size = 5px>b~2~</font></td>
+</tr>
+<tr class="odd">
+<td rowspan = "2" align = "center"><font color="#6666ff">Player A</font></td>
+<td align="center"><font size = 5px>a~1~</font></td>
+<td align="center"><font color="#6666ff">2</font> , <font color="#ff4c4c">2</font></td>
+<td align="center"><font color="#6666ff">0</font> , <font color="#ff4c4c">1</font></td>
+</tr>
+<tr class="even">
+<td align="center"><font size = 5px>a~2~</font></td>
+<td align="center"><font color="#6666ff">1</font> , <font color="#ff4c4c">0</font></td>
+<td align="center"><font color="#6666ff">1</font> , <font color="#ff4c4c">1</font></td>
+</tr>
+</table>
+</center>
+<br>
+<font size=4.5>[adapted from @pingle_ethics_2017, p. 568]</font size>
+
+
+
+## Transformed Stag Hunt
+
+
+
+<br>
+
+<center>
+<table class = 'table-style-one'>
+<col width="200px" />
+<col width="200px" />
+<col width="200px" />
+<col width="200px"/>
+<tr class="odd">
+<td colspan = "2" rowspan = "2"></td>
+<td colspan = "2" align="center"><font color="#ff4c4c">Player B</font></td>
+</tr>
+<tr class="even">
+<td align="center"><font size = 5px>b~1~</font></td>
+<td align="center"><font size = 5px>b~2~</font></td>
+</tr>
+<tr class="odd">
+<td rowspan = "2" align = "center"><font color="#6666ff">Player A</font></td>
+<td align="center"><font size = 5px>a~1~</font></td>
+<td align="center"><font color="#6666ff">2</font> , <font color="#ff4c4c">2</font></td>
+<td align="center"><font color="#6666ff">0</font> , <font color="#ff4c4c">&#949;</font></td>
+</tr>
+<tr class="even">
+<td align="center"><font size = 5px>a~2~</font></td>
+<td align="center"><font color="#6666ff">1</font> , <font color="#ff4c4c">&#949;</font></td>
+<td align="center"><font color="#6666ff">1</font> , <font color="#ff4c4c">1</font></td>
+</tr>
+</table>
+</center>
+<br>
+<font size=4.5>[adapted from @pingle_ethics_2017, p. 568]</font size>
+
+## Transformed Stag Hunt
+
+
+
+- In the previous example
+  - If &#949; = 0 
+    - Pareto dominant equilibrium
+  - When &#949; > 2
+    - Prisoners dilemma
+  
+- **Pareto dominant equilibrium**: impossible to switch to a better strategy without "hurting" the other player
+
+# Moral Judgments
+
+## Moral Judgments
+
+<iframe width="700" height="500" src="https://www.youtube.com/embed/wEjGVGtd2-Y?si=268c-lAGp9GuxEiM&amp;start=90" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+
+## Moral Judgments
+
+![](resources/images/buffy.png)
+
+
+## Known Influences on Moral Judgements {.smaller}
+
+- Emotional influences [e.g., @cameron_morality_2013]
+- Intentionality, Evitability, benefit recipient [@christensen_moral_2014; @christensen_moral_2012]
+- Action-outcome distinction [@crockett_models_2013; @cushman_action_2013]
+- Trustworthiness and social evaluation [@everett_inference_2016; @everett_costs_2018]
+- Personal-impersonal distinction [@greene_fmri_2001]
+- Doctrine of double effect [@mikhail_rawls_2000]
+- Level of physical contact [@valdesolo_manipulations_2006]
+- Order effects [@wiegmann_order_2012]
+
+
+## Understanding this complexity{.smaller}
+
+- **Moral Emotions**: @prinz_passionate_2005
+  - *'Emotions, I will suggest are perceptions of our bodily states. To recognise the moral value of an event is, thus, to perceive the perturbation that it causes'* [@prinz_passionate_2005, p. 99]
+- **Social Intuitionist Model** [@haidt_emotional_2001]
+  - e.g., intuitions as phonemes [@haidt_emotional_2001, p. 827]
+  - ‘brain has a kind of gauge’, a ‘like-ometer’ [@haidt_social_2008, p. 187]
+
+- **Theory of Dyadic Morality**: [@gray_mind_2012; @schein_theory_2018]
+  - Content focused (rather than underlying processes)
+
+- **Dual Process Theories**: [e.g., @greene_secret_2008]
+  - 'Emotion' vs 'Cognition' (not well defined)
+
+- **Categorization** [@mchugh_moral_2022]
+
+
+
+## Theory of Dyadic Morality (TDM) {.smaller}
+
+
+:::: {.columns}
+
+::: {.column width="60%"}
+
+<br>
+
+- "an intentional agent causing damage to a vulnerable patient" [@schein_theory_2018, p. 33]
+
+<br>
+
+
+- "an intentional moral agent and a suffering moral patient [@gray_mind_2012, p. 101].
+
+<br>
+
+- "interpersonal harm is the essence of morality" [@gray_mind_2012, p. 109]
+
+:::
+
+::: {.column width="40%"}
+
+<br>
+<br>
+<br>
+![](resources/images/voldemort.jpg)
+
+:::
+
+::::
+
+## Issues with TDM
+
+
+### Harmless Wrongs: Moral Dumbfounding
+
+::: {.columns}
+
+::: {.column width="60%"}
+
+- Moral dumbfounding occurs when people defend a moral judgement even though they cannot provide supporting reasons
+
+[@mchugh_searching_2017; @haidt_moral_2000; @mchugh_just_2023]
+
+
+:::
+
+::: {.column width="35%"}
+
+![](resources/images/searching.png)
+
+![](resources/images/just_wrong.png)
+
+
+
+:::
+
+::::
+
+## Moral Dumbfounding {.smaller}
+
+<br>
+
+> Jennifer works in a medical school pathology lab as a research assistant. The lab prepares human cadavers that are used to teach medical students about anatomy. The cadavers come from people who had donated their body to science for research. One night Jennifer is leaving the lab when she sees a body that is going to be discarded the next day. Jennifer was a vegetarian, for moral reasons. She thought it was wrong to kill animals for food. But then, when she saw a body about to be cremated, she thought it was irrational to waste perfectly edible meat. So she cut off a piece of flesh, and took it home and cooked it. The person had died recently of a heart attack, and she cooked the meat thoroughly, so there was no risk of disease.
+
+
+
+## Dual-Process Approaches
+
+<br>
+
+![](resources/images/trolley_problem.png)
+
+
+## Dual-Process Approaches
+
+
+![](resources/images/MJAC_dual_process/together4.png)
+
+
+
+## Dual-Process Approaches
+
+
+![](resources/images/MJAC_dual_process/context7.png)
+
+
+
+## Moral Judgment as Categorization (MJAC) {.smaller}
+
+
+### Premises
+
+- Moral judgment is a process of **categorizing** as *MORALLY RIGHT* / *MORALLY WRONG*
+
+- **Domain general**
+
+- **Context sensitive** & **Dynamical**, **Goal-Directed Activity**
+
+### Core Predictions
+
+- *Stability* emerges through continued and consistent type-token interpretation
+
+- *Robustness* emerges through consistency across multiple contexts
+
+
+
+## Ad-Hoc Goal-Derived Catagories
+
+
+
+![](resources/images/suitcase.jpg)
+
+- *THINGS TO PACK INTO A SUITCASE* [@barsalou_deriving_1991; @barsalou_situated_2003]
+- Type-token interpretation
+
+
+## The Organisation of Categories: Fruit
+
+
+
+
+## The Organisation of Categories: Fruit
+
+
+
+![](resources/images/fruit1.png)
+
+
+
+## The Organisation of Categories: Fruit
+
+![](resources/images/fruit2.png)
+
+
+## The Organisation of Categories: Fruit
+
+![](resources/images/fruit3.png)
+
+## The Organisation of Categories: Fruit
+
+![](resources/images/fruit4.png)
+
+
+## Evidence
+
+
+![](resources/images/mjac_old_table.png)
+
+
+## Similarity of Explanation {.smaller}
+
+
+:::: {.columns}
+
+::: {.column width="40%"}
+*Morality*
+:::
+
+::: {.column width="50%"}
+*Categorization*
+:::
+
+::::
+
+**Order Effects**:
+
+:::: {.columns}
+
+::: {.column width="40%"}
+@petrinovich_influence_1996
+:::
+
+::: {.column width="60%"}
+@barsalou_contextindependent_1982, @higgins_nature_1985
+:::
+
+::::
+
+**Language Effects**:
+
+:::: {.columns}
+
+::: {.column width="40%"}
+@cipolletti_moral_2016
+:::
+
+::: {.column width="60%"}
+@colbeck_blinded_2012, @harris_taboo_2003
+:::
+
+::::
+
+**Emotion Effects**:
+
+:::: {.columns}
+
+::: {.column width="40%"}
+@cameron_morality_2013
+:::
+
+::: {.column width="60%"}
+@barsalou_situating_2005
+:::
+
+::::
+
+**Typicality**:
+
+:::: {.columns}
+
+::: {.column width="40%"}
+@gray_impure_2015
+:::
+
+::: {.column width="60%"}
+@mccloskey_natural_1978, @oden_fuzziness_1977
+:::
+
+::::
+
+
+## Contrasting with Existing Approaches
+
+![](resources/images/MJAC_dual_process/together4.png)
+
+
+
+## Contrasting with Existing Approaches
+
+![](resources/images/MJAC_dual_process/context7.png)
+
+## MJAC
+
+
+
+![](resources/images/MJAC_dual_process/mjac1.png)
+
+
+## MJAC
+
+
+
+![](resources/images/MJAC_dual_process/mjac2.png)
+
+
+## MJAC
+
+
+
+![](resources/images/MJAC_dual_process/mjac3.png)
+
+
+## MJAC
+
+
+
+![](resources/images/MJAC_dual_process/mjac4.png)
+
+
+## MJAC
+
+
+
+![](resources/images/MJAC_dual_process/mjac5.png)
+
+
+## MJAC
+
+
+
+![](resources/images/MJAC_dual_process/mjac6.png)
+
+
+## MJAC
+
+
+
+![](resources/images/MJAC_dual_process/mjac7.png)
+
+
+## MJAC
+
+
+
+![](resources/images/MJAC_dual_process/mjac8.png)
+
+
+## MJAC
+
+
+
+![](resources/images/MJAC_dual_process/mjac9.png)
+
+
+## MJAC
+
+
+
+![](resources/images/MJAC_dual_process/mjac10.png)
+
+
+## MJAC
+
+
+
+![](resources/images/MJAC_dual_process/mjac11.png)
+
+
+## MJAC
+
+
+
+![](resources/images/MJAC_dual_process/mjac12.png)
+
+
+## MJAC
+
+
+
+![](resources/images/MJAC_dual_process/mjac13.png)
+
+
+# In-Class Activity
+
+## In-class Activity
+
+
+
+- Discuss the following:
+
+<br>
+
+- Can you identify any other methods for studying the influence of fairness and ethics in decision making?
+
+
+
+# References
+
+## References
+
+\noindent
+\vspace{-2em}
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+\setlength{\parskip}{7.5pt}
