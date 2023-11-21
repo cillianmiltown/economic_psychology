@@ -1,0 +1,879 @@
+---
+title: "Lecture 10"
+subtitle: "Gambling"
+author: "Dr Cillian McHugh"
+institute: "PS4168: Economic Psychology"
+bibliography: "resources/bib/My Library.bib"
+csl: apa.csl
+format: 
+  revealjs:
+    slide-number: false
+    logo: "resources/images/ul-psychology-logos.png"
+    footer: "PS4168: Cillian McHugh - 22/11/23"
+    theme: "resources/css/mytheme.scss"
+    incremental: false
+    chalkboard: 
+      buttons: true
+editor: source
+---
+
+## Overview
+
+
+
+<style type="text/css">
+    table.table-style-one {
+        font-size:36px;
+        color:#333333;
+        border-width: 1px;
+        border-color: #D3D3D3;
+        border-collapse: collapse;
+    }
+    table.table-style-one th {
+        border-width: 1px;
+        padding: 16px;
+        border-style: solid;
+        border-color: #3A3A3A;
+        background-color: #B3B3B3;
+    }
+    table.table-style-one td {
+        border-width: 1px;
+        padding: 16px;
+        border-style: solid;
+        border-color: #D3D3D3;
+        background-color: #ececec;
+    }
+</style>
+
+<style>
+div.footnotes {
+  position: absolute;
+  bottom: 0;
+  left: 120px;
+  margin-bottom: 10px;
+  width: 80%;
+  font-size: 0.6em;
+  color: white;
+}
+</style>
+
+<style>
+.fullslide img {
+  margin-top: -85px;
+  margin-left: -60px;
+}
+</style>
+
+```{r include=FALSE}
+# <style type="text/css">
+#     ol { list-style-type: lower-alpha; }
+# </style>
+```
+
+
+```{r setup, include=FALSE}
+# knitr::opts_chunk$set(echo = FALSE)
+# knitr::opts_chunk$set(include = FALSE)
+
+
+
+library(knitr)    # For knitting document and include_graphics function
+library(ggplot2)  # For plotting
+library(png) 
+
+```
+
+
+
+- Economic Psychology of Some Gambling Games
+- Problem Gambling
+- Further Reading
+
+
+
+# Gambling
+
+
+## Gambling and Economic Psychology
+
+:::{.incremental}
+
+- Mental Accounting example:
+  - gamblers who have won some money early in the evening put that money into a different pocket from their ‘own’ money
+  - each pocket is a separate mental account<br>[@thaler_mental_2003, p. 94]
+
+:::
+
+
+
+## Gambling and Economic Psychology
+
+
+
+
+::::{.columns}
+
+:::{.column width="45%"}
+
+
+Theories of Decision Making
+
+Heuristics and Biases
+
+Game Theory
+
+Emotional Influences
+
+Nudges and Other Contextual Influences
+
+:::
+
+:::{.column width="45%"}
+
+Future Decisions and Affective Forecasting
+
+Loss Aversion/Risk Aversion and Endowment Effects
+
+Mental Accounting
+
+Fairness and Ethics
+
+:::
+
+::::
+
+. . .
+
+<font color="#B93B8F">***Identify examples of the above concepts in Gambling behaviour***</font>
+
+## Gambling
+
+
+
+- Lotteries
+- Scratch Cards
+- Roulette
+- Fruit Machines
+- Sports Betting
+- Card Games
+
+
+# Lotteries
+
+## Lotteries
+
+
+::::{.columns}
+
+:::{.column width="65%"}
+
+:::{.incremental}
+
+
+- 180 lotteries worldwide 
+  - Total size of lottery industry is estimated to be $$284$ $billion$ 
+  - In the United Kingdom, $59\%$ of adults purchased the National <br><font size=4.5>[@markel_fleur_2015; @ranyard_economic_2018]</font>
+
+:::
+
+:::
+
+:::{.column width="35%"}
+
+![](resources/images/national_lottery.jpg)
+
+:::
+
+::::
+
+
+## Lotto Rules
+
+::::{.columns}
+
+:::{.column width="65%"}
+
+:::{.incremental}
+
+- Different lotteries have different specific rules
+  - The UK uses a $6$ from $49$ system
+  - Ireland uses $6$ from $47$
+    - Used to be $6$ from $36$
+  - Euromillions $5$ from $50$
+    - Plus $2$ *star* numbers from $1-12$
+
+
+:::
+
+:::
+
+:::{.column width="35%"}
+
+![](resources/images/euromillions.jpg)
+
+
+:::
+
+::::
+
+## Lotto Combinations
+
+
+
+## Lotto Combinations
+
+
+
+```{r}
+#| echo: false
+#| include: false
+
+
+factorial(47)*
+  factorial(46)*
+  factorial(45)*
+  factorial(44)*
+  factorial(43)*
+  factorial(42)
+
+factorial(42)
+
+47*46*45*44*43*42
+
+
+comb = function(n, x) {
+  factorial(n) / factorial(n-x) / factorial(x)
+}
+
+comb(47,6)
+  
+```
+
+$$\frac{n!}{(n-x)!x!}$$
+
+## Lotto Combinations
+
+
+
+$$\frac{n!}{(n-x)!x!}$$
+
+
+```{r}
+#| echo: true
+#| output-location: fragment
+
+factorial(47) /
+  (factorial(47-6) * factorial(6))
+
+```
+
+> - $10,737,573$ possible combinations
+
+
+
+## Winning through *brute force*
+
+- Irish lotto used to be $6$ from $36$
+
+## Winning through *brute force*
+
+- Irish lotto used to be $6$ from $36$
+
+```{r}
+#| echo: true
+#| output-location: fragment
+
+factorial(36) /
+  (factorial(36-6) * factorial(6))
+
+```
+
+> - $1,947,792$ possible combinations of *winning* at $£0.50$ a line
+
+
+. . .
+
+```{r}
+#| echo: true
+#| output-location: fragment
+
+0.5*( factorial(36) /
+        (factorial(36-6) * factorial(6))  )
+
+```
+
+> - All combinations could be purchased for $£ 973,896$
+
+
+
+## Winning through *brute force*
+
+
+::::{.columns}
+
+:::{.column width="65%"}
+
+:::{.incremental}
+
+- In $1990$ Stefan Klincewicz and Paddy Mulligan put together a $10$ man syndicate
+  - Each person paid $£30$ over $10$ weeks 
+  - Between them they won Lotto jackpot of $£2,439,760$ in April, $1990$<br><font size=4.5>[@collins_how_2017]</font>
+
+:::
+
+:::
+
+:::{.column width="35%"}
+
+
+![](resources/images/lottoticket.jpg)
+
+:::
+
+::::
+
+## Winning through *brute force*{.smaller}
+
+:::{.incremental}
+
+- In $1992$ Stefan Klincewicz and $28$ member Dublin-based syndicate
+  - Filled out $243,474$ Lotto coupons in preparation
+- The May Bank Holiday weekend $1992$ Jackpot was $£1.7$ $million$
+- They bought over $80\%$ of the combinations (spending $\sim£820,000$ )
+  - They had the winning numbers on the night
+      - But two other winning tickets were also sold
+      - Could claim only one-third of the jackpot, or $£568,682$
+  - ***But*** Match-5 and match-4 prizes brought the syndicate's total winnings to approximately $£1,166,000$
+      - profit of approximately $£310,000$
+
+:::
+
+## Playing the Lottery{.smaller}
+
+:::{.incremental}
+
+- The representativeness heuristic:
+  - The winning numbers should look random
+  - People likely avoid numbers that 'do not look random enough'
+      - regular intervals or those that do not distribute sparsely across the whole range of possible numbers<br><font size=4.5>[@holtgraves_cognitive_1992; @baboushkin_underlying_2001]</font>
+
+- Illusion of control:
+  - Over estimate ability to choose winning numbers
+  - *Gambler's Fallacy*:
+      - avoiding numbers that have appeared recently<br><font size=4.5>[@wohl_deployment_2002; @langer_illusion_1975; @clotfelter_selling_1991]</font>
+- Superstition <font size=4.5>[@ariyabuddhiphongs_test_2007]</font>
+
+:::
+
+## Explaining the Lottery
+
+- Suggestions?
+
+## Explaining the Lottery{.smaller}
+
+:::{.incremental}
+
+
+- Prospect Theory: People tend to overestimate low odds of winning
+  - far lower than what people experience in everyday life
+  - fail to estimate just how tiny they actually are <br><font size=4.5>[@kahneman_prospect_1979; @ranyard_economic_2018]</font>
+- Availability heuristic: Salient wins <br><font size=4.5>[@tversky_availability_1973; @ranyard_economic_2018; see also Decision Sampling Theory, @stewart_decision_2006]</font>
+- Social activity?
+- Excitement?
+- 'entrapped'
+  - Might miss the jackpot<br><font size=4.5>[@beckert_why_2013; @binde_why_2013 uploaded; @forrest_buying_2002]</font>
+
+:::
+
+# Scratch Cards
+
+## Scratch Cards
+
+::::{.columns}
+
+:::{.column width="65%"}
+
+:::{.incremental}
+
+
+- Low chance of winning high amounts
+  - e.g.,  $1$ in $4,347,890$ chance of winning $£4$ $million$
+- Reasonable chance of winning smaller amounts
+  - e.g., $1$ in $6$ chance of winning $£10$
+- Expected loss of $£3$ for every $£10$ spent
+
+:::
+
+:::
+
+
+:::{.column width="35%"}
+
+![](resources/images/scratchcard.jpg)
+
+:::
+
+::::
+
+## Scratch Cards
+
+Explanations???
+
+:::{.incremental}
+
+- Instant feedback
+- Near miss effects
+- Social
+  - Gifts
+
+:::
+
+# Roulette
+
+## Roulette{.smaller}
+
+
+::::{.columns}
+
+:::{.column width="65%"}
+
+:::{.incremental}
+
+- Transparent odds; Pure luck
+- $37$ slots (Europe - $38$ in USA)
+- Numbers from $0-36$
+  - $\frac{1}{2}$ <font color="red">**Red**</font>
+  - $\frac{1}{2}$ **Black**
+- Can bet on a single slot or a selection
+  - Payout for single number is $35$ to $1$
+  - Payout for even/odd, <font color="red">**Red**</font>/**Black** is almost $1$ to $1$
+  - Payout for selection of $12$ numbers is $2$ to $1$ <font size=4.5>[@ranyard_economic_2018]</font>
+
+:::
+
+:::
+
+:::{.column width="35%"}
+
+![](resources/images/roulette.jpg)
+
+:::
+
+::::
+
+## Roulette
+
+
+
+<img src="resources/images/roulette_bets.jpeg" height="420px" align="centre"/>
+
+- Expected return is $36/37$  ($36/38$ in USA)
+
+## Roulette
+
+Explanations???
+
+## Roulette
+
+- Can lead to ***Loss Chasing***
+  - Gamblers continue to gamble more after a loss
+- A **Mental Account** for a gambling session
+  - If they stop they 'close' the account at a **loss**
+      - A 'sure' loss
+  - Keeping the mental account open the loss is not *realised* (still a *paper* loss)
+      - possibility of winning it back<br><font size=4.5>[@ranyard_economic_2018]</font>
+
+# Fruit Machines
+
+## Fruit Machines
+
+::::{.columns}
+
+:::{.column width="65%"}
+
+:::{.incremental}
+
+- Fruit machines are said to be most addictive form of gambling
+  - It takes just over a year to become addicted
+      - Takes over three years with traditional table games, such as roulette<br><font size=4.5>[@turner_how_2004]</font> 
+
+- $3$ to $5$ to five reels with pictures
+
+
+:::
+
+:::
+
+:::{.column width="35%"}
+
+![](resources/images/Fruit-Machine.png)
+
+:::
+
+::::
+
+## Fruit Machines{.smaller}
+
+
+::::{.columns}
+
+:::{.column width="65%"}
+
+:::{.incremental}
+
+- The player inserts a coin and then pulls down a handle (or presses a button)
+  - The reels spin
+  - When they stop, the combination of pictures forms a certain pattern
+  - If the combination comprises three pictures that are the same (or some other designated pattern), a reward is given.
+  - The most common winning combination is 777
+- The odds of fruit machines are unknown
+  - Pure chance
+
+:::
+
+:::
+
+:::{.column width="35%"}
+
+![](resources/images/Fruit-Machine.png)
+
+:::
+
+::::
+
+## Fruit Machines and Near Misses
+
+
+::::{.columns}
+
+:::{.column width="65%"}
+
+:::{.incremental}
+
+
+
+- ***Near Misses***: a losing pattern that is very similar to a winning one
+  - e.g., reels may stop at $776$ <br> very similar to $777$ 
+- Gamblers feel that luck is with them and that success is on its way
+  - Near-miss experiences tend to encourage more gambling <br><font size=4.5>[@griffiths_psychobiology_1991; @reid_psychology_1986]</font>
+
+
+
+:::
+
+:::
+
+:::{.column width="35%"}
+
+![](resources/images/fruity.gif)
+
+:::
+
+::::
+
+## Explaining Near Misses{.smaller}
+
+:::{.incremental}
+
+- Evolutionary explanations?
+  - In natural environments to which we are adapted by evolution, a near miss may be close to a win
+      - e.g., almost catching prey clearly indicates that prey is nearby and your skill levels are probably adequate to make a kill
+  - May not hold for artificial environments ($776$ is not $nearly$ $777$)
+- Near miss is mistaken for a gain
+  - Same part of the brain<br><font size=4.5>[@clark_gambling_2009]</font>
+- Near misses registered as gains will result in gamblers’ receiving positive reinforcement even when they are losing money
+
+:::
+
+# Card Games
+
+## Card Games
+
+
+
+::::{.columns}
+
+:::{.column width="75%"}
+
+:::{.incremental}
+
+- Both luck and expertise
+
+- Blackjack
+  - Closest to $21$ without exceeding $21$
+  - Not ***Pure Chance***
+      - Counting cards <font size=4.5>[e.g., MIT blackjack team @mezrich_hacking_2002]</font>
+  - Statistically possible to profit from Blackjack (unlike previous games) <br><font size=4.5>[@dedonno_poker_2008; @javarone_poker_2015; @turner_viewpoint_2008]</font>
+
+
+
+:::
+
+:::
+
+:::{.column width="25%"}
+
+![](resources/images/blackjack.png)
+
+:::
+
+::::
+
+
+## Card Games
+
+
+::::{.columns}
+
+:::{.column width="75%"}
+
+:::{.incremental}
+
+- Poker
+  - Different variations
+  - Aim to have highest ranked combination of cards
+- Players can choose to increase the stake or to fold
+- Players win either by having the highest rank of the combination
+  - or by being the only person remaining
+- Evidence for expertise <br><font size=4.5>[@fiedler_quantifying_2009; @hannum_legalization_2012; @dedonno_poker_2008; @javarone_poker_2015; @turner_viewpoint_2008]</font>
+
+:::
+
+:::
+
+:::{.column width="25%"}
+
+![](resources/images/poker.jpg)
+
+:::
+
+::::
+
+# Sports betting
+
+## Sports betting{.smaller}
+
+
+::::{.columns}
+
+:::{.column width="75%"}
+
+:::{.incremental}
+
+
+- Horse racing (16%)
+- Football matches (4%)
+- Dog racing (4%)
+- Other (9%)  <br><font size=4.5>[@wardle_defining_2011; @ranyard_economic_2018]</font>
+
+- Gamblers can bet against the bookmaker or against each other
+- Traditionally, the bookmaker sets the odds
+- The gamblers bet that a certain event will occur (back) and the bookmaker bets that it will not (lay)
+
+
+:::
+
+:::
+
+:::{.column width="25%"}
+
+![](resources/images/paddypower.jpg)
+
+:::
+
+::::
+
+## Sports betting{.smaller}
+
+- Gamblers may use statistics to inform their betting
+
+- Not much evidence for expertise
+  - Experts won more times than randomly selected betters
+      - but did not win any more money <br><font size=4.5>[@ladouceur_cognitive_1998]</font>
+  - Experts were just more cautious - safe bets
+      - not gambling at all is likely a safer strategy <br><font size=4.5>[@ranyard_economic_2018]</font>
+
+- Superstition
+  - hot hand
+
+## Explanations for Gambling Behaviour
+
+
+
+[taken from @ranyard_economic_2018, p. 305]
+
+
+## Explanations for Gambling Behaviour
+
+![](resources/images/gambling.png)
+
+# Alternative Explanations?
+
+## Alternative Explanations - Motivation
+
+
+
+- learning and evaluating, rush, self-definition, risk-taking, cognitive self-classification, emotional self-classification, competing and communing [@cotte_chances_1997]
+
+- control, lift, escape [@loroz_goldenage_2004]
+
+- financial gain, intellectual challenge, excitement and social interaction [@bruce_explanation_1992]
+
+- socialization, amusement, avoidance, excitement and monetary motives [@lee_fivefactor_2007]
+
+## Alternative Explanations - Motivation (contd.)
+
+
+
+- money, excitement, social interaction, escape from problems, and self-esteem enhancement [@fang_examining_2009]
+
+- to win money, fun, for social reasons, excitement, just to have something to do [@neighbors_exploring_2002]
+
+- winning, exploration, excitement, being friends, and being with similar people [@platz_gambling_2001]
+
+## Five Dimensions [@binde_why_2013]
+
+
+
+1. The dream of hitting the jackpot
+2. Social rewards
+3. Intellectual challenge
+4. Mood change
+5. **The chance of winning**
+
+
+- $1 - 4$ can be dependent on personal dispositions and preferences
+- $5$ is always relevant
+
+
+## Tony 10
+
+
+
+
+## Tony 10
+
+::::{.columns}
+
+:::{.column width="75%"}
+
+:::{.incremental}
+
+- Gambled $€10m$ with Paddy Power 
+- Stole $€1.75m$ from An Post
+- His online-gambling addiction cost him his marriage
+- Sentenced to 4 years in jail (served 18 months)
+
+<br>
+
+- Book [@lynch_tony_2018]
+
+:::
+
+:::
+
+
+:::{.column width="25%"}
+
+![](resources/images/tony10.jpeg)
+
+:::
+
+::::
+
+
+## Sports betting
+
+<iframe width="966" height="543" src="https://www.youtube.com/embed/1pWSppSdWWc?start=130" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+
+## Sports betting
+
+
+![](resources/images/beat_the_bookies.png)
+
+## Beating the bookies
+
+[- beating the bookies](https://www.rte.ie/culture/2020/0828/1161393-documentary-on-one-met-the-men-who-beat-the-bookies/)
+
+- listen at [https://www.rte.ie/radio/radio1/clips/11230292/](https://www.rte.ie/radio/radio1/clips/11230292/)
+
+# Problem Gambling
+
+## Problem Gambling
+
+![](resources/images/problem_gambling.png)
+
+## Problem Gambling
+
+- RTE Coverage at [https://www.rte.ie/news/2023/1005/1409029-problem-gambling-ireland/](https://www.rte.ie/news/2023/1005/1409029-problem-gambling-ireland/) including clip from Morning Ireland
+
+- ESRI Press Release at [https://www.esri.ie/news/esri-estimates-1-in-30-adults-in-ireland-now-suffers-from-problem-gambling](https://www.esri.ie/news/esri-estimates-1-in-30-adults-in-ireland-now-suffers-from-problem-gambling)
+
+- Full ESRI report at [https://www.esri.ie/system/files/publications/RS169.pdf](https://www.esri.ie/system/files/publications/RS169.pdf)
+
+
+
+
+## Problem Gambling{.smaller}
+
+
+
+- Problem gambling / gambling addiction / pathological gambling
+  - defined ‘persistent and recurrent problematic gambling behavior leading to clinically significant impairment or distress’<br><font size=4.5>[@association_diagnostic_2013; @ranyard_economic_2018]</font>
+
+- Positively correlated to being male, young, having a low level of education, and having a low socio-economic status <br><font size=4.5>[@wardle_defining_2011; @ranyard_economic_2018]</font>
+
+- Problem gamblers viewing gambling scenarios
+  - show decreased brain activity in regions that control impulse, emotion, and decision-making and that respond to loss
+  - increased activity in regions associated with pleasure and risk taking<br><font size=4.5>[@potenza_gambling_2003; @potenza_neural_2014; @vanholst_why_2010]</font>
+
+## Problem Gambling
+
+
+
+- Linked with high testosterone levels
+  - Iowa Gambling Task <br><font size=4.5>[@stanton_testosterone_2011]</font>
+
+<br>
+
+- Multiple findings suggest a biological basis for risk seeking <br><font size=4.5>[@ranyard_economic_2018]</font>
+
+## Problem Gambling{.smaller}
+
+- $3$ kinds of problem gambler
+  - Poor judgement and decision making skills
+      - No prior psychopathology
+      - Habit develops: illusion of control/excitement/chasing losses etc.
+  - Satisfy emotional needs
+      - Family history / emotional vulnerabilities
+  - Neurological / neurochemical dysfunctions
+      - Impulsive/anti-social behaviours; substance abuse; criminality<br><font size=4.5>[@blaszczynski_pathways_2002; @ranyard_economic_2018]</font>
+
+
+
+
+## Further Reading
+
+
+
+- Binde, P. (2013). [Why people gamble: a model with five motivational dimensions.](https://sulis.ul.ie/access/content/group/8adae12c-28db-47ab-81c8-0ed9b6431ee1/Week%2011/Binde_2013_Why%20people%20gamble.pdf) *International Gambling Studies*, *13*(1), 81–97. <a href="https://doi.org/10.1080/14459795.2012.712150">https://doi.org/10.1080/14459795.2012.712150</a>
+
+
+ 
+## Further 'reading'
+
+<iframe width="966" height="543" src="https://www.youtube.com/embed/7cjIWMUgPtY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+# References
+
+## References
+
+\noindent
+\vspace{-2em}
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+\setlength{\parskip}{7.5pt}
