@@ -798,8 +798,9 @@ Explanations???
 
 
 
-- Binde, P. (2013). [Why people gamble: a model with five motivational dimensions.](https://sulis.ul.ie/access/content/group/8adae12c-28db-47ab-81c8-0ed9b6431ee1/Week%2011/Binde_2013_Why%20people%20gamble.pdf) *International Gambling Studies*, *13*(1), 81–97. <a href="https://doi.org/10.1080/14459795.2012.712150">https://doi.org/10.1080/14459795.2012.712150</a>
+- Binde, P. (2013). [Why people gamble: a model with five motivational dimensions.](https://learn.ul.ie//content/enforced/10246-PS4168_SEM1_2023_4/1.Resources/Binde_2013_Why people gamble.pdf) *International Gambling Studies*, *13*(1), 81–97. <a href="https://doi.org/10.1080/14459795.2012.712150">https://doi.org/10.1080/14459795.2012.712150</a>
 
+- ESRI report at [https://www.esri.ie/system/files/publications/RS169.pdf](https://www.esri.ie/system/files/publications/RS169.pdf)
 
  
 ## Further 'reading'
@@ -808,6 +809,45 @@ Explanations???
 
 <iframe width="966" height="543" src="https://www.youtube.com/embed/7cjIWMUgPtY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+
+
+## Discuss
+
+
+::::{.columns}
+
+:::{.column width="45%"}
+
+
+Theories of Decision Making
+
+Heuristics and Biases
+
+Game Theory
+
+Emotional Influences
+
+Nudges and Other Contextual Influences
+
+:::
+
+:::{.column width="45%"}
+
+Future Decisions and Affective Forecasting
+
+Loss Aversion/Risk Aversion and Endowment Effects
+
+Mental Accounting
+
+Fairness and Ethics
+
+:::
+
+::::
+
+. . .
+
+<font color="#B93B8F">***Identify examples of the above concepts in Gambling behaviour***</font>
 
 # References
 
