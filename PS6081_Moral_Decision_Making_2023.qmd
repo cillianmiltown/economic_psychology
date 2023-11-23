@@ -120,7 +120,7 @@ editor: source
 
 ## Heinz{.smaller}
 
-In Europe, a woman was near death from a special kind of cancer. There was one
+> In Europe, a woman was near death from a special kind of cancer. There was one
 drug that the doctors thought might save her. It was a form of radium that a
 druggist in the same town had recently discovered. The drug was expensive to
 make, but the druggist was charging ten times what the drug cost him to make.
@@ -185,6 +185,7 @@ Should the husband have done that?
 
 ## Reasoning Stage and Age
 
+. . .
 
 ![](resources/images/moral_reasoning.png)
 
@@ -240,7 +241,9 @@ lower level than boys’
 [https://www.youtube.com/watch?v=ZwUGEIsxIDk](https://www.youtube.com/watch?v=ZwUGEIsxIDk)
 
 
-## Haidt's Social Intuitionist Model
+## Principles/Reasoning or Intuitions?
+
+. . .
 
 ![](resources/images/SIM_cover.png)
 
@@ -347,6 +350,8 @@ so there was no risk of disease [@haidt_moral_2000; @mchugh_searching_2017a].
 ## Moral Foundations 
 
 ![](resources/images/moral_foundations.png)
+
+
 ## Real World Examples?
 
 ![](resources/images/moral_foundations.png)
@@ -438,12 +443,6 @@ Fairness: Equality and Proportionality are distinct moral foundations [@atari_mo
 :::
 
 ::::
-
-## Moral Dumbfounding {.smaller}
-
-<br>
-
-> Jennifer works in a medical school pathology lab as a research assistant. The lab prepares human cadavers that are used to teach medical students about anatomy. The cadavers come from people who had donated their body to science for research. One night Jennifer is leaving the lab when she sees a body that is going to be discarded the next day. Jennifer was a vegetarian, for moral reasons. She thought it was wrong to kill animals for food. But then, when she saw a body about to be cremated, she thought it was irrational to waste perfectly edible meat. So she cut off a piece of flesh, and took it home and cooked it. The person had died recently of a heart attack, and she cooked the meat thoroughly, so there was no risk of disease.
 
 
 ## Challenges to Moral Dumbfounding {.smaller}
