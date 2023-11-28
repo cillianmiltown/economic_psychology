@@ -1,0 +1,132 @@
+---
+title: "Review"
+subtitle: "Course Review and Exam Prep"
+author: "Dr Cillian McHugh"
+institute: "PS4168: Economic Psychology"
+bibliography: "resources/bib/My Library.bib"
+csl: apa.csl
+format: 
+  beamer:
+    toc: false
+    slide_level: 2
+    fig_width: 6
+    fig_height: 4
+    incremental: false
+    keep_tex: true
+    theme: Antibes
+    includes:
+      in_header: mystyle.tex
+editor: source
+---
+
+
+
+## Overview
+
+- Review, Reflection, Discussion
+- Exam Prep
+
+
+## Topics: ([link here](https://docs.google.com/document/d/1iBG-SDrUpJX1RtsfmynqL8WY9git7VfaZvMuuhAGJ0I/edit?usp=sharing))
+
+
+:::: {.columns}
+
+::: {.column width="40%" .incremental}
+Theories of Decision Making
+
+Heuristics and Biases
+
+Game Theory
+
+Nudges and Other Contextual Influences
+
+Future Decisions and Affective Forecasting
+
+:::
+
+::: {.column width="40%"}
+Emotional Influences
+
+Loss Aversion/Risk Aversion and Endowment Effects
+
+Mental Accounting
+
+Fairness and Ethics
+
+Gambling
+:::
+
+::::
+
+## Topics
+
+[https://docs.google.com/document/d/1iBG-SDrUpJX1RtsfmynqL8WY9git7VfaZvMuuhAGJ0I/edit?usp=sharing](https://docs.google.com/document/d/1iBG-SDrUpJX1RtsfmynqL8WY9git7VfaZvMuuhAGJ0I/edit?usp=sharing)
+
+
+## Reflection and Discussion
+
+- Identify $2$ - $3$ more general things that you learned as a result of taking this module?
+
+- Is there any topic would you like to have covered in more detail?
+
+- What additional topic(s) would you like to see covered? (if any)
+
+- What was the most interesting thing you learned from this module and why?
+
+## Potential Exam Questions{.smaller}
+
+
+Select one of the statements below and critically discuss it with reference to content covered as part of this module (both in lectures, and your own reading)
+
+- Human decision making cannot be understood independently of context
+- When it comes to choice architecture, there is no such thing as neutral design
+- Decision making is always influenced by loss aversion and risk aversion
+- “we suffer more . . . when we fall from a better to a worse situation than we ever enjoy when we rise from a worse to a better”
+[@smith_theory_1759, p. 311]
+- Our understanding of economic behaviour and decision making has been held back by the concept of homo-economicus
+- Humans are not rational
+
+
+## Exam Grading
+
+---------------------------------------------------------------------------------
+Component                                                        Percentage
+--------------------------------------------------------------- -----------------
+Content                                                            70\% 
+
+Structure, Language, and Written Expression                        30\% 
+
+References, Citations, and Formatting                               0\% (potential penalty of 1 sub-grade)
+
+---------------------------------------------------------------------------------
+
+## Breakdown{.smaller}
+
+*Content*
+
+The assignment should directly address the question asked and demonstrate a clear coherent argument throughout.  Excessive descriptions should be avoided if they do not serve to support an argument.  Evidence of critical thinking is essential.  Students should demonstrate evidence of wider reading and understanding of the concepts being discussed.
+
+*Stucture, Language, and Written Expression*
+
+Ideas should be clearly expressed, with appropriate use of scientific language.  There should be a clear introduction, body, and conclusion, with appropriate use of paragraphs (The use of sub-headings is optional). 
+
+## Breakdown (Contd.){.smaller}
+
+
+*References, Citations, and Formatting*
+
+In-text citations and the References section should be in APA style. All citations should appear in the References section, and all references should be cited in the text. A References section should be included.  
+
+
+
+
+# References
+
+## References
+
+\noindent
+\vspace{-2em}
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+\setlength{\parskip}{7.5pt}
