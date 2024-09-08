@@ -1,0 +1,633 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+  x11names]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\usepackage{bbm}
+\usepackage{array}
+\usepackage{tabulary}
+\usepackage{hanging}
+\usepackage{hhline}
+\usepackage{multirow}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\usepackage{colortbl}
+\AtBeginDocument{\let\maketitle\relax}
+\usepackage{makecell}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdftitle={PS4168 Economic Psychology},
+  pdfauthor={Dr Cillian McHugh},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\title{PS4168 Economic Psychology}
+\usepackage{etoolbox}
+\makeatletter
+\providecommand{\subtitle}[1]{% add subtitle to \maketitle
+  \apptocmd{\@title}{\par {\large #1 \par}}{}{}
+}
+\makeatother
+\subtitle{Module Handbook}
+\author{Dr Cillian McHugh}
+\date{Autumn Semester 24/25}
+
+\begin{document}
+\maketitle
+
+\fancyhead{}
+\fancyfoot{}
+\fancyhead[LO,RE]{{PS4168 Economic Psychology | Module Handbook}}
+\fancyhead[LE,RO]{\thepage} 
+\fancyfoot[LO,RE]{Autumn 2024}
+\fancyfoot[LE,RO]{Dr Cillian McHugh}
+
+~
+
+~
+
+~
+
+\centering\includegraphics[width=2.08333in,height=\textheight]{"logos/department_logo.PNG"}
+
+\raggedright
+
+~
+
+~
+
+~
+
+\renewcommand{\arraystretch}{1.5}
+
+\begin{center}
+
+
+\bigskip
+
+
+\bigskip
+
+\begin{huge} PS4168 Economic Psychology
+\end{huge}
+
+\begin{large} Module Handbook
+
+\textit{Dr Cillian McHugh}
+
+\textit{Autumn Semester 2024}
+\end{large}
+\end{center}
+
+\pagebreak
+
+\section{PS4168 Economic Psychology - Module
+Handbook}\label{ps4168-economic-psychology---module-handbook}
+
+\begin{minipage}{.65\textwidth}
+\begin{tabular}{p{4cm} l}
+\textbf{Module Leader} & Dr Cillian McHugh\\
+\textbf{Email} & cillian.mchugh@ul.ie \\
+\textbf{Office} & KBG-22 \\
+\textbf{Student Hours} & Wednesdays, 9-11  \\
+\textbf{Lecture location} & SR2030\\
+\textbf{Day and Time} & Fridays, 9-11 \\
+\end{tabular}
+\end{minipage}
+\hspace{6pt}
+\begin{minipage}{.15\textwidth}
+\includegraphics[width=75px]{images/cillian_face_2022e.jpg}\bigskip
+\end{minipage}
+
+\bigskip
+
+Office hours can be online or in-person please
+\color{blue}\href{https://outlook.office.com/bookwithme/user/f570b7289a5343259c60c8a5d26ce510@ul.ie/meetingtype/w1pxpwCL8UG9pt_0cg2fUA2?anonymous&ep=mlink}{book
+an appointment here}\color{black}.
+
+Collaborative note taking
+\color{blue}\href{https://docs.google.com/document/d/1Yx5EbhSX0uEHzr964dLh7Xx30ZzthbCqV3T32laTl9E/edit?usp=sharing}{here}\color{black}
+
+\subsection{Module Overview}\label{module-overview}
+
+Economic psychology is the study of the psychological processes that
+underlie economic behaviour and decision making. It is influenced by the
+psychology of decision making and behavioural economics. This module
+provides an overview of key concepts in economic psychology and
+behavioural economics. A range of historical and contemporary theories
+of decision making will be covered, along with various influences on
+decision making, preference, and behaviour.
+
+A primary focus of this module is the application of insights from
+behavioural studies to theories of decision making, and the application
+of these theories in predicting patterns of economic behaviour. The
+ethical implications of these insights will also be explored. The
+primary reading material will be taken from Ranyard (2018), Altman
+(2017), and Camerer, Loewenstein, \& Rabin (2003). Additional reading
+may be found in Frantz, Chen, Dopfer, Heukelom, \& Mousavi (2016) and
+Cartwright (2014).
+
+\subsection{Learning Outcomes}\label{learning-outcomes}
+
+On completion of PS4168 students should be able to:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Show evidence of an understanding of some of the key concepts and
+  theories in Economic Psychology.
+\item
+  Apply findings of psychological research to everyday life and real
+  world phenomena.
+\item
+  Synthesise their acquired knowledge to explore possible alternative
+  solutions to practical problems.
+\item
+  Articulate and defend an informed opinion on a theoretical position.
+\end{enumerate}
+
+\bigskip
+
+\emph{Cognitive (Knowledge, Understanding, Application, Analysis,
+Evaluation, Synthesis)}
+
+On successful completion of this module, students should be able to:
+
+\begin{itemize}
+\tightlist
+\item
+  Describe the characteristics of economic behaviour.
+\item
+  Describe theoretical models used in economic psychology.
+\item
+  Critically appraise these models from a theoretical perspective with
+  reference to empirical evidence.
+\item
+  Explain major models used in economic psychology and decision making.
+\item
+  Critically appraise the application of theory to real world settings.
+\end{itemize}
+
+\bigskip
+
+\emph{Affective (Attitudes and Values)}
+
+On successful completion of this module, students should:
+
+\begin{itemize}
+\tightlist
+\item
+  Value the contribution that psychological research and theory building
+  to the understanding of economic behaviour.
+\item
+  Value the role of economic psychology at the individual, interpersonal
+  and societal level.
+\end{itemize}
+
+\bigskip
+
+\emph{Psychomotor (Physical Skills)}
+
+N/A
+
+\subsubsection{Graduate Attributes}\label{graduate-attributes}
+
+The learning outcomes identified above aim to contribute to each of the
+UL Graduate Attributes in the following ways:
+
+\emph{Articulate}
+
+\begin{itemize}
+\tightlist
+\item
+  This module makes use of in-class discussion/group-work as well as
+  with written assignments.
+\end{itemize}
+
+\emph{Agile}
+
+\begin{itemize}
+\tightlist
+\item
+  Real-world examples will be employed for illustrating the novel
+  theoretical constructs. Furthermore, the assessments involve students
+  identifying their own novel real-world examples.
+\end{itemize}
+
+\emph{Courageous}
+
+\begin{itemize}
+\tightlist
+\item
+  Students will be asked to devise creative solutions to real-world
+  problems. In-class discussions will include being challenged on, and
+  being asked to defend a position.
+\end{itemize}
+
+\emph{Curious}
+
+\begin{itemize}
+\tightlist
+\item
+  Self-directed learning is core to doing well in this module. Students
+  are encouraged to read beyond the prescribed materials and explore the
+  relevant literature to gain deeper understandings of the topics
+\end{itemize}
+
+\emph{Responsible}
+
+\begin{itemize}
+\tightlist
+\item
+  The content of the module includes considerations of the ethical
+  implications of the application of the concepts covered. For example,
+  in addition to exploring the practicalities and applications of
+  theoretically informed interventions, the ethical considerations of
+  such approaches will also be explored.
+\end{itemize}
+
+\subsection{Teaching and Learning
+Strategies}\label{teaching-and-learning-strategies}
+
+The module will be taught through lectures. The lectures will have
+opportunities for discussion and more in depth exploration of the
+material along with relevant activities to help consolidate learning.
+
+\subsection{Assessment}\label{assessment}
+
+The assessment for this module will be a combination of coursework and
+an exam. There will be an exam (essay questions) worth 45\%. There will
+also be two short tasks, worth 25\% and 30\%. Marking schemes for each
+assignment are provided below. It is expected that each piece of course
+work will be appropriately referenced and adhere to APA standards. Marks
+will not be awarded for this, however significant failure in this regard
+may result in a penalty of up to a sub-grade being applied. The
+breakdown of marks and important deadlines are outlined in Table 1:
+
+\bigskip
+
+\begin{tabular}{l >{\centering\arraybackslash}m{.5cm} c >{\centering\arraybackslash}m{.5cm} l}
+  \multicolumn{5}{l}{\textbf{Table 1:} Important deadlines} \\
+  \hline \hline
+  \textbf{Type of Assessment}               & & \textbf{\% of Final Grade} & & \textbf{Deadline} \\ \hline
+  Task 1                                    & & 25\%                       & & Wednesday 16th October at 4pm \\ \hline
+  Task 2                                    & & 30\%                       & & Wednesday 13th November at 4pm \\ \hline
+  Exam                                     & & 45\%                       & & Exam Week (1.5 hour) \\ \hline \end{tabular}
+
+\bigskip
+
+\subsection{Assessment and Grades}\label{assessment-and-grades}
+
+\subsubsection{Short Tasks}\label{short-tasks}
+
+The short tasks will focus on individual topics as follows:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Task 1} \emph{(select one)}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Heuristics
+  \item
+    Nudges
+  \end{itemize}
+\item
+  \textbf{Task 2}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Game Theory
+  \end{itemize}
+\end{itemize}
+
+You will have at least 2 weeks to complete each task. The specific
+nature of each task will vary depending on the topic. They share a
+common marking scheme described in Table 2: (The assignment should be
+within the designated word count +/- 10\%)
+
+\bigskip
+
+\begin{tabular}{  >{\arraybackslash}m{10cm} >{\centering\arraybackslash}m{5.5cm} }
+\multicolumn{2}{l}{\textbf{Table 2:} Marks allocation for Tasks 1 and 2} \\
+\hline \hline
+\textbf{Component} & \textbf{Percentage} \\ \hline
+Clear demonstration of an in depth understanding of the topic & 30\% \\ \hline
+Critical thinking & 30\% \\ \hline
+Competence in the identification and application of relevant research methods & 20\% \\ \hline
+Originality/Novelty & 20\% \\ \hline
+References, Citations, and Formatting & (potential penalty of 1 sub-grade) \\ \hline
+\end{tabular}
+
+\bigskip
+
+\subsubsection{Exam}\label{exam}
+
+45\% of the module will be an Essay based exam. You will receive 3 essay
+titles and you can pick one.
+
+\bigskip
+
+\begin{tabular}{ >{\arraybackslash}m{9cm} >{\centering\arraybackslash}m{6.5cm} }
+\multicolumn{2}{l}{\textbf{Table 3:} Marks allocation for Essay-Exam} \\
+\hline \hline
+\textbf{Component} & \textbf{Percentage} \\ \hline
+Content & 70\% \\ \hline
+Structure, Language, and Written Expression & 30\% \\ \hline
+References, Citations, and Formatting & (potential penalty of 1 sub-grade) \\ \hline
+\end{tabular}
+
+\bigskip
+
+\emph{Content}
+
+The assignment should directly address the question asked and
+demonstrate a clear coherent argument throughout. Excessive descriptions
+should be avoided if they do not serve to support an argument. Evidence
+of critical thinking is essential. Students should demonstrate evidence
+of wider reading and understanding of the concepts being discussed.
+
+\emph{Stucture, Language, and Written Expression}
+
+Ideas should be clearly expressed, with appropriate use of scientific
+language. There should be a clear introduction, body, and conclusion,
+with appropriate use of paragraphs (The use of sub-headings is
+optional). The assignment should be within the designated word count
+(+/- 10\%).
+
+\emph{References, Citations, and Formatting}
+
+In-text citations and the References section should be in APA style. All
+citations should appear in the References section, and all references
+should be cited in the text. A References section should be included
+(i.e., no bibliography). A cover page should be included, and the
+assignment should be double-spaced.
+
+\subsubsection{Departmental Penalty
+Policies:}\label{departmental-penalty-policies}
+
+Late Submission of assignment: A subtraction of 5\% per day from the
+total grade, up to 5 days, after which a mark of zero will be given. A
+soft copy must be uploaded by the deadline.
+
+The Department of Psychology does not offer extensions; if you miss an
+assessment deadline, you must submit an M-Form with documentary evidence
+supporting your reason. This is considered by a committee at the end of
+the semester. Please carefully read the Department of Psychology Student
+Handbook; especially the sections relating to Mitigating Circumstances.
+Please note that these rules apply to all students on the module
+including those who register late and those from other
+faculties/disciplines.
+
+Excuses: If you have a valid excuse for handing in a late assignment, or
+missing a lecture, please complete an M-Form and upload supporting
+evidence at the following link,
+\color{blue}\href{https://workflow.ul.ie/MForms/MForms/}{here}\color{black}.
+
+\subsubsection{Repeat Assessment}\label{repeat-assessment}
+
+The repeat assessment will take the same form as above (with an essay
+instead of an exam). There will be two short tasks to complete and an
+essay to be submitted together. Task 1 will be worth 25\%, Task 2, 30\%
+and the Essay worth 45\%.
+
+\subsubsection{Feedback}\label{feedback}
+
+Written feedback will be provided for both Tasks 1 and 2. It is expected
+that points of improvement identified in Task 1 will be implemented in
+Task 2. Feedback on the Exam will be available on request.
+
+\pagebreak
+
+\subsection{Schedule}\label{schedule}
+
+In Table 4 the schedule of topics to be covered in each lecture is
+provided. Key readings for each topic are also identified. Further
+direction towards additional readings regarding each topic will be
+provided during lectures.
+
+\begin{table}[h!]
+  \begin{center}
+    \begin{tabular}{| c | >{\arraybackslash}m{5cm} | >{\centering\arraybackslash}m{1.75cm} | >{\centering\arraybackslash}m{1.75cm} | >{\centering\arraybackslash}m{1.75cm} | >{\centering\arraybackslash}m{3cm} | }
+    \multicolumn{6}{l}{\textbf{Table 4:} Schedule of lectures, topics and relevant readings} \\
+    \hline
+    & & \multicolumn{4}{c|}{\textbf{Readings}} \\ \hline
+    \textbf{Week} & \textbf{Topic} &                      \textbf{Ranyard (2018)} & \textbf{Altman (2017)} & \textbf{Camerer et al. (2003)} & \textbf{Other}  \\ \hline
+      1   & General Introduction and History of Economic Psychology & Chapter 1    & Chapter 1          & Chapter 1           &  \href{https://learn.ul.ie//content/enforced/46950-PS4168_SEM1_2024_5/1.Resources/Cartwright_2014_Chapter1.pdf}{\color{blue}{Cartwright (2014) Chapter 1}\color{black}} \\ \hline
+      2   & Heuristics \& Biases                                    & \href{https://learn.ul.ie//content/enforced/46950-PS4168_SEM1_2024_5/1.Resources/Ranyard_2018_Chapter2.pdf}{\color{blue}{Chapter 2}\color{black}}    & Chapters 6 \& 7    &                     & Cartwright (2014) Chapter 2     \\ \hline
+      3   & \makecell[l]{Nudges \\ (Task 1 announced) }           & (Chapter 23) & Chapter 17         &                     & \href{https://learn.ul.ie//content/enforced/46950-PS4168_SEM1_2024_5/1.Resources/Frantz_2016_Chapter8.pdf}{\color{blue}{Frantz et al., (2016) Chapter 8}\color{black}}; Thaler \& Sunstein (2008) \\ \hline
+      4   & Theories of Decision Making                  & \href{https://learn.ul.ie//content/enforced/46950-PS4168_SEM1_2024_5/1.Resources/Ranyard_2018_Chapter2.pdf}{\color{blue}{Chapter 2}\color{black}}    & Chapters 2, 3 \& 4 & Chapters 2 \& 3     &                                 \\ \hline
+      5   & Introduction to Game Theory            &              & \href{https://learn.ul.ie//content/enforced/46950-PS4168_SEM1_2024_5/1.Resources/Altman_2017_Chapter32.pdf}{\color{blue}{Chapter 32}\color{black}}         & Chapters 12 \& 13   & \href{https://learn.ul.ie//content/enforced/46950-PS4168_SEM1_2024_5/1.Resources/Antonides_1996_Chapter14.pdf}{\color{blue}{Antonides, (1996) Chapters 14}\color{black}}   \& 15 \\ \hline
+      6  & \multicolumn{5}{c|}{\cellcolor{blue!25}\textbf{Task 1 Deadline:} Wednesday 16th October at 4pm (No Class: Open Days)} \\ \hline
+      \multirow{3}{*}{7} & Emotional Influences          &              & \href{https://learn.ul.ie//content/enforced/46950-PS4168_SEM1_2024_5/1.Resources/Altman_2017_Chapter32.pdf}{\color{blue}{Chapter 32}\color{black}}         & Chapters 12 \& 13   & Antonides, (1996) Chapter 9 \\ \hhline{|~|~|-|-|-|-|}
+         & \makecell[l]{Future Decisions \\ and Affective Forecasting \\ (Task 2 announced) }    & Chapter 3    & Chapters 23 \& 24  &
+      \href{https://learn.ul.ie//content/enforced/46950-PS4168_SEM1_2024_5/1.Resources/Camerer_2003_Chapter6and7.pdf}{\color{blue}{Chapters 6 \& 7}\color{black}}     & Cartwright (2014) Chapter 4     \\ \hline
+      8   & Loss Aversion/Risk Aversion and Endowment Effects       & \href{https://learn.ul.ie//content/enforced/46950-PS4168_SEM1_2024_5/1.Resources/Ranyard_2018_Chapter2.pdf}{\color{blue}{Chapter 2}\color{black}}    & Chapter 11         & Chapter 2, 4 \& 5   & Cartwright (2014) Chapter 3     \\ \hline
+      9  & Mental Accounting                                       & Chapter 8    &                    & \href{https://learn.ul.ie//content/enforced/46950-PS4168_SEM1_2024_5/1.Resources/Camerer_2003_Chapter3.pdf}{\color{blue}{Chapter 3}\color{black}} \& 14     &                                 \\ \hline
+      \multirow{2}{*}{10} & \multicolumn{5}{c|}{\cellcolor{blue!25}\textbf{Task 2 Deadline} (Wednesday 13th November at 4pm)} \\ \hhline{|~|-|-|-|-|-|}
+        & Fairness and Ethics                                     &              & \href{https://learn.ul.ie//content/enforced/46950-PS4168_SEM1_2024_5/1.Resources/Altman_2017_Chapter32.pdf}{\color{blue}{Chapter 32}\color{black}}         & Chapters 8, 9 \& 18 &                                 \\ \hline
+      11  & Gambling                                                & \href{https://learn.ul.ie//content/enforced/46950-PS4168_SEM1_2024_5/1.Resources/Ranyard_2018_Chapter19.pdf}{\color{blue}{Chapter 19}\color{black}}   &                    & Chapter 23          &                                 \\ \hline
+      12  & Review                            &                    &                    &              &                                 \\ \hhline{|-|-|-|-|-|-|} 
+      13  & \multicolumn{5}{c|}{Study Week} \\ \hline
+      14/15  & \multicolumn{5}{c|}{\cellcolor{blue!25}\textbf{Exam} (Exam Week)} \\ \hline
+      \end{tabular}
+  \end{center}
+\end{table}
+
+\pagebreak
+
+\subsection{Reading List}\label{reading-list}
+
+Below is list of relevant readings. This list reflects the key topics to
+be covered in this module. Additional readings may be identified during
+lectures. Links to the library locations are provided for selected
+books.
+
+\subsubsection{Core Readings Materials}\label{core-readings-materials}
+
+\noindent \vspace{-2em} \setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in} \setlength{\parskip}{7.5pt}
+
+Altman, M. (2017).
+\href{https://uol.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991003444459703496&context=L&vid=353UOL_INST:353UOL_VU1&lang=en&search_scope=MyInst_and_CI&adaptor=Local\%20Search\%20Engine&tab=TAB1&query=any,contains,Handbook\%20of\%20behavioral\%20economics\%20and\%20smart\%20decision-making.&sortby=rank&facet=rtype,include,books&offset=0}{\color{blue}\emph{Handbook
+of behavioral economics and smart decision-making.}\color{black}}
+Cheltenham: Edward Elgar.
+
+Camerer, C., Loewenstein, G., \& Rabin, M. (2003).
+\href{https://uol.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991001289209703496&context=L&vid=353UOL_INST:353UOL_VU1&lang=en&search_scope=MyInst_and_CI&adaptor=Local\%20Search\%20Engine&tab=TAB1&query=any,contains,Advances\%20in\%20behavioral\%20economics&sortby=rank&offset=0}{\color{blue}\emph{Advances
+in behavioral economics.}\color{black}} Princeton, N.J.; Princeton
+University Press.
+
+Cartwright, E. (2014). \emph{Behavioral economics.} New York: Routledge.
+
+Ranyard, R. (Ed.). (2018). \emph{Economic psychology.} Hoboken, NJ
+Chichester, West Sussex: Wiley.
+
+\setlength{\leftskip}{0in}
+
+\subsubsection{Further Reading}\label{further-reading}
+
+\noindent \vspace{-2em} \setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in} \setlength{\parskip}{7.5pt}
+
+Antonides, G. (1996). \emph{Psychology in Economics and Business: An
+Introduction to Economic Psychology.} Dordrecht: Kluwer.
+
+Dowling, J. M. (2007).
+\href{https://uol.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991001565039703496&context=L&vid=353UOL_INST:353UOL_VU1&lang=en&search_scope=MyInst_and_CI&adaptor=Local\%20Search\%20Engine&tab=TAB1&query=any,contains,Modern\%20developments\%20in\%20behavioral\%20economics:\%20social\%20science\%20perspectives\%20on\%20choice\%20and\%20decision\%20making&sortby=rank&offset=0}{\color{blue}\emph{Modern
+developments in behavioral economics: social science perspectives on
+choice and decision making.}\color{black}} Singapore; World Scientific.
+
+Frantz, R., Chen, S.-H., Dopfer, K., Heukelom, F., \& Mousavi, S.
+(2016). \emph{Routledge Handbook of Behavioral Economics.} Routledge.
+
+Gigerenzer, G. (2007).
+\href{https://uol.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991001060349703496&context=L&vid=353UOL_INST:353UOL_VU1&lang=en&search_scope=MyInst_and_CI&adaptor=Local\%20Search\%20Engine&tab=TAB1&query=any,contains,gut\%20feelings&sortby=rank}{\color{blue}\emph{Gut
+feelings: short cuts to better decision making.}\color{black}} London:
+Penguin.
+
+Gigerenzer, G., \& Selten, R. (2002). \emph{Bounded Rationality: The
+Adaptive Toolbox.} MIT Press.
+
+Hogarth, R. M., \& Reder, M. W. (1987).
+\href{https://uol.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991003403189703496&context=L&vid=353UOL_INST:353UOL_VU1&lang=en&search_scope=MyInst_and_CI&adaptor=Local\%20Search\%20Engine&tab=TAB1&query=any,contains,Rational\%20Choice:\%20The\%20Contrast\%20between\%20Economics\%20and\%20Psychology&sortby=rank}{\color{blue}\emph{Rational
+choice: the contrast between economics and psychology}\color{black}}.
+Chicago: University of Chicago Press.
+
+Kahneman, D. (2011).
+\href{https://uol.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991001624339703496&context=L&vid=353UOL_INST:353UOL_VU1&lang=en&search_scope=MyInst_and_CI&adaptor=Local\%20Search\%20Engine&tab=TAB1&query=any,contains,Thinking,\%20fast\%20and\%20slow.&sortby=rank&offset=0}{\color{blue}\emph{Thinking,
+fast and slow.}\color{black}} London: Allen Lane.
+
+Lewis, A. (2008).
+\href{https://uol.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991003792192903496&context=L&vid=353UOL_INST:353UOL_VU1&lang=en&search_scope=MyInst_and_CI&adaptor=Local\%20Search\%20Engine&tab=TAB1&query=any,contains,The\%20Cambridge\%20handbook\%20of\%20psychology\%20and\%20economic\%20behaviour.&sortby=rank&offset=0}{\color{blue}\emph{The
+Cambridge handbook of psychology and economic behaviour.}\color{black}}
+Cambridge: Cambridge University Press.
+
+Nutt, P. C., \& Wilson, D. C. (2010).
+\href{https://uol.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991001512319703496&context=L&vid=353UOL_INST:353UOL_VU1&lang=en&search_scope=MyInst_and_CI&adaptor=Local\%20Search\%20Engine&tab=TAB1&query=any,contains,Handbook\%20of\%20decision\%20making.&sortby=rank&offset=0}{\color{blue}\emph{Handbook
+of decision making.}\color{black}} Oxford: Wiley-Blackwell.
+
+Thaler, R. H. (2015).
+\href{https://uol.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991003236569703496&context=L&vid=353UOL_INST:353UOL_VU1&lang=en&search_scope=MyInst_and_CI&adaptor=Local\%20Search\%20Engine&tab=TAB1&query=any,contains,Misbehaving:\%20The\%20Making\%20of\%20Behavioral\%20Economics.&sortby=rank&offset=0}{\color{blue}\emph{Misbehaving:
+how economics became behavioural.\color{black}}} W.W. Norton.
+
+\setlength{\leftskip}{0in}
+
+\subsubsection{Additional Resources}\label{additional-resources}
+
+\noindent \vspace{-2em} \setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in} \setlength{\parskip}{7.5pt}
+
+Axelrod, R., \& Hamilton, W. D. (1981). The evolution of cooperation.
+\emph{Science}, 211(4489), 1390--1396. \color{blue}
+\url{https://doi.org/10.1126/science.7466396} \color{black}
+
+Camerer, C. (1999). Behavioral economics: Reunifying psychology and
+economics. \emph{Proceedings of the National Academy of Sciences},
+96(19), 10575--10577. \color{blue}
+\url{https://doi.org/10.1073/pnas.96.19.10575} \color{black}
+
+Critchfield, T. S., \& Kollins, S. H. (2001). Temporal Discounting:
+Basic Research and the Analysis of Socially Important Behavior.
+\emph{Journal of Applied Behavior Analysis}, 34(1), 101--122.
+\color{blue} \url{https://doi.org/10.1901/jaba.2001.34-101}
+\color{black}
+
+Davis, M. D. (2012). \emph{Game Theory: A Nontechnical Introduction}.
+Courier Corporation.
+
+Frey, B. S., \& Stutzer, A. (Eds.). (2007). \emph{Economics and
+Psychology: A Promising New Cross-Disciplinary Field}. Cambridge, Mass:
+The MIT Press.
+
+Kahneman, D., \& Tversky, A. (Eds.). (2000). \emph{Choices, Values, and
+Frames} (1 edition). New York: Cambridge, UK: Cambridge University
+Press.
+
+Kruglanski, A. W., \& Gigerenzer, G. (2011). Intuitive and deliberate
+judgments are based on common principles. \emph{Psychological Review},
+118(1), 97--109. \color{blue} \url{https://doi.org/10.1037/a0020762}
+\color{black}
+
+Lea, S. E. G., Tarpy, R. M., \& Webley, P. M. (1987). \emph{The
+Individual in the Economy: A Textbook of Economic Psychology}. Cambridge
+Cambridgeshire; New York: Cambridge University Press.
+
+Lea, S. E. G., Webley, P., \& Young, B. M. (1992). \emph{New Directions
+in Economic Psychology}. Edward Elgar Publishing.
+
+Raaij, W. F., Veldhoven, G. M., \& Wärneryd, K.-E. (1988).
+\emph{Handbook of Economic Psychology}. Dordrecht: Springer Netherlands.
+\color{blue} \url{http://dx.doi.org/10.1007/978-94-015-7791-5}
+\color{black}
+
+Thaler, R. H., \& Sunstein, C. R. (2008). \emph{Nudge: improving
+decisions about health, wealth, and happiness}. New Haven: Yale
+University Press.
+
+Todd, P. M., \& Gigerenzer, G. (Eds.). (2012). \emph{Ecological
+rationality: intelligence in the world}. Oxford; New York: Oxford
+University Press.
+
+\end{document}

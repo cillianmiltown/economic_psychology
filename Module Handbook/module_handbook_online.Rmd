@@ -1,0 +1,446 @@
+---
+title: "PS4168 Economic Psychology"
+subtitle: "Module Handbook"
+author: "Dr Cillian McHugh"
+date: "Autumn Semester 2024"
+output:
+  html_document:
+    toc: true
+    toc_float:
+      toc_collapsed: false
+    toc_depth: 5
+    number_sections: false
+---
+
+<script>
+$(document).ready(function() {
+  $items = $('div#TOC li');
+  $items.each(function(idx) {
+    num_ul = $(this).parentsUntil('#TOC').length;
+    $(this).css({'text-indent': num_ul * 5, 'padding-left': 0,'padding-right': 10});
+  });
+
+});
+</script>
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r load_libraries}
+library(xtable)
+```
+
+<style type="text/css">
+.hang {
+    padding-left: 42px; text-indent: -42px;
+} 
+</style>
+
+
+<center>
+
+
+\centering![no caption](logos/department_logo.png){width=400px}
+
+
+**PS4168 Economic Psychology**
+
+Module Handbook
+
+*Dr Cillian McHugh*
+
+*Autumn 2024*
+
+
+</center>
+
+
+<img style="float: right;" src="images/cillian_face_2022e.jpg" width=100px padding=6px>
+
+---------------------- ----------------------
+Module Leader          Dr Cillian McHugh
+
+Email                  [cillian.mchugh@ul.ie](mailto:cillian.mchugh@ul.ie)
+
+Office                 KBG-22
+
+Student Hours          Wednesdays, 9-10
+                       ([book an appointment here](https://outlook.office.com/bookwithme/user/f570b7289a5343259c60c8a5d26ce510@ul.ie/meetingtype/w1pxpwCL8UG9pt_0cg2fUA2?anonymous&ep=mlink))
+
+Lecture location       SR2030
+
+Day and Time           Fridays, 9-11
+
+---------------------- ----------------------
+
+
+([click here for pdf copy](https://learn.ul.ie//content/enforced/46950-PS4168_SEM1_2024_5/1.Resources/module_handbook.pdf); also [click here for collaborative note taking](https://docs.google.com/document/d/1Yx5EbhSX0uEHzr964dLh7Xx30ZzthbCqV3T32laTl9E/edit?usp=sharing))
+
+
+
+## Module Overview
+Economic psychology is the study of the psychological processes that underlie economic behaviour and decision making.  It is influenced by the psychology of decision making and behavioural economics.  This module provides an overview of key concepts in economic psychology and behavioural economics.  A range of historical and contemporary theories of decision making will be covered, along with various influences on decision making, preference, and behaviour.
+
+A primary focus of this module is the application of insights from behavioural studies to theories of decision making, and the application of these theories in predicting patterns of economic behaviour.  The ethical implications of these insights will also be explored.  The primary reading material will be taken from Ranyard (2018), Altman (2017), and Camerer, Loewenstein, & Rabin (2003). Additional reading may be found in Frantz, Chen, Dopfer, Heukelom, & Mousavi (2016) and Cartwright (2014).
+
+```{r, include=FALSE}
+
+#the study about the tights
+#the change blindness studies
+
+```
+
+
+
+## Learning Outcomes
+
+On completion of PS4168 students should be able to:
+
+1. Show evidence of an understanding of some of the key concepts and theories in Economic Psychology.
+
+2. Apply findings of psychological research to everyday life and real world phenomena.
+3. Synthesise their acquired knowledge to explore possible alternative solutions to practical problems.
+4. Articulate and defend an informed opinion on a theoretical position.
+
+\bigskip
+
+*Cognitive (Knowledge, Understanding, Application, Analysis, Evaluation, Synthesis)*
+
+On successful completion of this module, students should be able to:
+
+- Describe the characteristics of economic behaviour.
+- Describe theoretical models used in economic psychology.
+- Critically appraise these models from a theoretical perspective with reference to empirical evidence.
+- Explain major models used in economic psychology and decision making.
+- Critically appraise the application of theory to real world settings.
+
+\bigskip
+
+*Affective (Attitudes and Values)*
+
+On successful completion of this module, students should:
+
+- Value the contribution that psychological research and theory building to the understanding of economic behaviour.
+- Value the role of economic psychology at the individual, interpersonal and societal level.
+
+\bigskip
+
+*Psychomotor (Physical Skills)*
+
+N/A
+
+
+
+### Graduate Attributes
+The learning outcomes identified above aim to contribute to each of the UL Graduate Attributes in the following ways:
+
+*Articulate*
+
+- This module makes use of in-class discussion/group-work as well as with written assignments.
+
+*Agile*
+
+- Real-world examples will be employed for illustrating the novel theoretical constructs. Furthermore, the assessments involve students identifying their own novel real-world examples.
+
+*Courageous*
+
+- Students will be asked to devise creative solutions to real-world problems. In-class discussions will include being challenged on, and being asked to defend a position.
+
+
+*Curious*
+
+- Self-directed learning is core to doing well in this module. Students are encouraged to read beyond the prescribed materials and explore the relevant literature to gain deeper understandings of the topics
+
+*Responsible*
+
+- The content of the module includes considerations of the ethical implications of the application of the concepts covered.  For example, in addition to exploring the practicalities and applications of theoretically informed interventions, the ethical considerations of such approaches will also be explored.
+
+
+## Teaching and Learning Strategies
+
+The module will be taught through lectures. The lectures will have opportunities for discussion and more in depth exploration of the material along with relevant activities to help consolidate learning. 
+
+
+## Assessment
+The assessment for this module will be a combination of coursework and an exam.  There will be an exam (essay questions) worth 45\%.  There will also be two short tasks, worth 25\% and 30\%.  Marking schemes for each assignment are provided below.  It is expected that each piece of course work will be appropriately referenced and adhere to APA standards.  Marks will not be awarded for this, however significant failure in this regard may result in a penalty of up to a sub-grade being applied.  The breakdown of marks and important deadlines are outlined in Table 1:
+
+
+\bigskip
+
+**Table 1**: Important deadlines
+
+------------------------------------------------------------------------------
+Type of Assessment       % of Final Grade         Deadline
+--------------------- --------------------- ----------------------------------
+Task 1                  25\%                 Wednesday 16th October at 4pm 
+  
+Task 2                  30\%                 Wednesday 13th November at 4pm 
+  
+Exam                    45\%                 Exam Week (1.5 hour)
+
+-------------------------------------------------------------------------------
+
+
+
+\bigskip
+
+### Short Tasks
+The short tasks will focus on individual topics as follows:
+
++ **Task 1** *(select one)*:
+  - Heuristics
+  - Nudges
++ **Task 2**:
+  - Game Theory
+
+You will have at least 2 weeks to complete each task.  The specific nature of each task will vary depending on the topic.  They share a common marking scheme described in Table 2: (The assignment should be within the designated word count +/- 10\%)
+
+\bigskip
+
+**Table 2**: Marks allocation for Tasks 1 and 2
+
+---------------------------------------------------------------------------------
+Component                                                        Percentage
+--------------------------------------------------------------- -----------------
+Clear demonstration of an in depth understanding of the topic     30\% 
+
+Critical thinking                                                 30\% 
+
+Competence in the identification and application of relevant      20\% 
+research methods
+
+Originality/Novelty                                               20\% 
+
+References, Citations, and Formatting                              0\% (potential penalty of 1 sub-grade)
+
+---------------------------------------------------------------------------------
+
+\bigskip
+
+### Exam
+45% of the module will be an Essay based exam. You will receive 3 essay titles and you can pick one.
+
+\bigskip
+
+
+**Table 3**: Marks allocation for Essay-Exam
+
+---------------------------------------------------------------------------------
+Component                                                        Percentage
+--------------------------------------------------------------- -----------------
+Content                                                            70\% 
+
+Structure, Language, and Written Expression                        30\% 
+
+References, Citations, and Formatting                               0\% (potential penalty of 1 sub-grade)
+
+---------------------------------------------------------------------------------
+
+\bigskip
+
+*Content*
+
+The assignment should directly address the question asked and demonstrate a clear coherent argument throughout.  Excessive descriptions should be avoided if they do not serve to support an argument.  Evidence of critical thinking is essential.  Students should demonstrate evidence of wider reading and understanding of the concepts being discussed.
+
+*Stucture, Language, and Written Expression*
+
+Ideas should be clearly expressed, with appropriate use of scientific language.  There should be a clear introduction, body, and conclusion, with appropriate use of paragraphs (The use of sub-headings is optional). The assignment should be within the designated word count (+/- 10\%).
+
+*References, Citations, and Formatting*
+
+In-text citations and the References section should be in APA style. All citations should appear in the References section, and all references should be cited in the text. A References section should be included (i.e., no bibliography). A cover page should be included, and the assignment should be double-spaced.  
+
+
+### Departmental Penalty Policies: 
+Late Submission of assignment: A subtraction of 5% per day from the total grade, up to 5 days, after which a mark of zero will be given. A soft copy must be uploaded by the deadline.
+
+The Department of Psychology does not offer extensions; if you miss an assessment deadline, you must submit an M-Form with documentary evidence supporting your reason. This is considered by a committee at the end of the semester. Please carefully read the Department of Psychology Student Handbook; especially the sections relating to Mitigating Circumstances. Please note that these rules apply to all students on the module including those who register late and those from other faculties/disciplines.
+
+Excuses: If you have a valid excuse for handing in a late assignment, or missing a lecture, please complete an M-Form and upload supporting evidence at the following link, \color{blue}[here](https://workflow.ul.ie/MForms/MForms/)\color{black}. 
+
+### Repeat Assessment
+
+The repeat assessment will take the same form as above (with an essay instead of an exam).  There will be two short tasks to complete and an essay to be submitted together.  Task 1 will be worth 25\%, Task 2, 30\% and the Essay worth 45\%.
+
+
+### Feedback
+
+Written feedback will be provided for both Tasks 1 and 2. It is expected that points of improvement identified in Task 1 will be implemented in Task 2. Feedback on the Exam will be available on request.  
+
+
+\pagebreak
+
+## Schedule
+In Table 4 the schedule of topics to be covered in each lecture is provided.  Key readings for each topic are also identified.  Further direction towards additional readings regarding each topic will be provided during lectures.
+
+
+**Table 4:** Schedule of lectures, topics and relevant readings
+
+|Week | Topic | Ranyard (2018) | Altman (2017) | Camerer et al. (2003) | Other|
+|------ | --------------------------------------------------------- |:-----------------------------:|:-----------------------------:|:-----------------------------:|:-----------------------------:|
+| **1** | General Introduction and History of Economic Psychology   |      Chapter 1       |         Chapter 1         |       Chapter 1       |      [Cartwright (2014) Chapter 1](https://learn.ul.ie//content/enforced/46950-PS4168_SEM1_2024_5/1.Resources/Cartwright_2014_Chapter1.pdf) |
+| **2** |  Heuristics \& Biases <br>                    | [Chapter 2](https://learn.ul.ie//content/enforced/46950-PS4168_SEM1_2024_5/1.Resources/Ranyard_2018_Chapter2.pdf)         |     Chapters 6 \& 7         |  |                          Cartwright (2014) Chapter 2|
+| **3** |    Nudges   <br>  (Task 1 announced)  |   (Chapter 23)    |       Chapter 17      |                  |             [Frantz et al., (2016) Chapter 8](https://learn.ul.ie//content/enforced/46950-PS4168_SEM1_2024_5/1.Resources/Frantz_2016_Chapter8.pdf); Thaler \& Sunstein (2008)|
+| **4** |  Theories of Decision Making      | [Chapter 2](https://learn.ul.ie//content/enforced/46950-PS4168_SEM1_2024_5/1.Resources/Ranyard_2018_Chapter2.pdf) | Chapters 2, 3 \& 4 |  Chapters 2 \& 3 |
+| **5** |  Introduction to Game Theory                                           |  | [Chapter 32](https://learn.ul.ie//content/enforced/46950-PS4168_SEM1_2024_5/1.Resources/Altman_2017_Chapter32.pdf) |       Chapters 12 \& 13    |    [Antonides, (1996) Chapters 14](https://learn.ul.ie//content/enforced/46950-PS4168_SEM1_2024_5/1.Resources/Antonides_1996_Chapter14.pdf) \& 15 |
+| <br> **6** | <br>**Task 1 Deadline**<br>(Wednesday 16th October at 4pm)   <br> (No Class - Open Days)   <br> &nbsp;    | <br>  -    |  <br> -     |  <br> -    | <br> - |
+|  **7**  |    Emotional Influences       |       | [Chapter 32](https://learn.ul.ie//content/enforced/46950-PS4168_SEM1_2024_5/1.Resources/Altman_2017_Chapter32.pdf) |          Chapters 12 \& 13  |       Antonides, (1996) Chapter 9 |
+|    |  Future Decisions and Affective Forecasting  (Task 2 announced)   |     Chapter 3  |   Chapters 23 \& 24 |  [Chapters 6 \& 7](https://learn.ul.ie//content/enforced/46950-PS4168_SEM1_2024_5/1.Resources/Camerer_2003_Chapter6and7.pdf)  |    Cartwright (2014) Chapter 4  |
+| **8** | Loss Aversion and Endowment Effects  |  [Chapter 2](https://learn.ul.ie//content/enforced/46950-PS4168_SEM1_2024_5/1.Resources/Ranyard_2018_Chapter2.pdf)  |       Chapter 11            |       Chapter 2, 4 \& 5  |   Cartwright (2014) Chapter 3 |
+|  **9**  |   Mental Accounting <br>  | Chapter 8  |  |  [Chapters 3](https://learn.ul.ie//content/enforced/46950-PS4168_SEM1_2024_5/1.Resources/Camerer_2003_Chapter3.pdf) \& 14     |     |
+| <br>**10** | <br>**Task 2 Deadline**<br>(Wednesday 13th November at 4pm)    <br><br>        |    <br> -   |  <br> -      |  <br> -     | <br> - |
+|**10** | Fairness and Ethics        |  |   [Chapter 32](https://learn.ul.ie//content/enforced/46950-PS4168_SEM1_2024_5/1.Resources/Altman_2017_Chapter32.pdf)  |         Chapters 8, 9 \& 18 &   |  |
+|**11** | Gambling           |                                       [Chapter 19](https://learn.ul.ie//content/enforced/46950-PS4168_SEM1_2024_5/1.Resources/Ranyard_2018_Chapter19.pdf)        |  |                                  Chapter 23      |
+|**12** |  Review |  |  |  |  |
+|**13** |  Study Week | - |  -  | - | - |
+|<br>**14/15** |  <br>**Exam**<br>(Exam Week) <br><br> |  <br> - |  <br> -  |  <br> - |  <br> - |
+| |  |  |  |  |  |
+ 
+
+
+\pagebreak
+
+
+
+## Reading List
+Below is list of relevant readings.  This list reflects the key topics to be covered in this module.  Additional readings may be identified during lectures.  Links to the library locations are provided for selected books.
+
+### Core Readings Materials
+
+\noindent
+\vspace{-2em}
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+\setlength{\parskip}{7.5pt}
+
+<p class="hang">
+Altman, M. (2017). [*Handbook of behavioral economics and smart decision-making.*](https://uol.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991003444459703496&context=L&vid=353UOL_INST:353UOL_VU1&lang=en&search_scope=MyInst_and_CI&adaptor=Local%20Search%20Engine&tab=TAB1&query=any,contains,Handbook%20of%20behavioral%20economics%20and%20smart%20decision-making.&sortby=rank&facet=rtype,include,books&offset=0) Cheltenham: Edward Elgar.
+</p>
+
+<p class="hang">
+Camerer, C., Loewenstein, G., & Rabin, M. (2003). [*Advances in behavioral economics.*](https://uol.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991001289209703496&context=L&vid=353UOL_INST:353UOL_VU1&lang=en&search_scope=MyInst_and_CI&adaptor=Local%20Search%20Engine&tab=TAB1&query=any,contains,Advances%20in%20behavioral%20economics&sortby=rank&offset=0) Princeton, N.J.; Princeton University Press.
+</p>
+
+<p class="hang">
+Cartwright, E. (2014). *Behavioral economics.* New York: Routledge.
+</p>
+
+<p class="hang">
+Ranyard, R. (Ed.). (2018). *Economic psychology.* Hoboken, NJ Chichester, West Sussex: Wiley.
+</p>
+
+
+\setlength{\leftskip}{0in}
+
+### Further Reading
+
+\noindent
+\vspace{-2em}
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+\setlength{\parskip}{7.5pt}
+
+<p class="hang">
+Antonides, G. (1996). *Psychology in Economics and Business: An Introduction to Economic Psychology.* Dordrecht: Kluwer.
+</p>
+
+<p class="hang">
+Dowling, J. M. (2007). [*Modern developments in behavioral economics: social science perspectives on choice and decision making.*](https://uol.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991001565039703496&context=L&vid=353UOL_INST:353UOL_VU1&lang=en&search_scope=MyInst_and_CI&adaptor=Local%20Search%20Engine&tab=TAB1&query=any,contains,Modern%20developments%20in%20behavioral%20economics:%20social%20science%20perspectives%20on%20choice%20and%20decision%20making&sortby=rank&offset=0) Singapore; World Scientific.
+</p>
+
+<p class="hang">
+Frantz, R., Chen, S.-H., Dopfer, K., Heukelom, F., & Mousavi, S. (2016). *Routledge Handbook of Behavioral Economics.* Routledge.
+</p>
+
+<p class="hang">
+Gigerenzer, G. (2007). [*Gut feelings: short cuts to better decision making.*](https://uol.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991001060349703496&context=L&vid=353UOL_INST:353UOL_VU1&lang=en&search_scope=MyInst_and_CI&adaptor=Local%20Search%20Engine&tab=TAB1&query=any,contains,gut%20feelings&sortby=rank) London: Penguin.
+</p>
+
+<p class="hang">
+Gigerenzer, G., & Selten, R. (2002). *Bounded Rationality: The Adaptive Toolbox.* MIT Press.
+</p>
+
+<p class="hang">
+Hogarth, R. M., & Reder, M. W. (1987). [*Rational choice: the contrast between economics and psychology*](https://uol.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991003403189703496&context=L&vid=353UOL_INST:353UOL_VU1&lang=en&search_scope=MyInst_and_CI&adaptor=Local%20Search%20Engine&tab=TAB1&query=any,contains,Rational%20Choice:%20The%20Contrast%20between%20Economics%20and%20Psychology&sortby=rank). Chicago: University of Chicago Press.
+</p>
+
+<p class="hang">
+Kahneman, D. (2011). [*Thinking, fast and slow.*](https://uol.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991001624339703496&context=L&vid=353UOL_INST:353UOL_VU1&lang=en&search_scope=MyInst_and_CI&adaptor=Local%20Search%20Engine&tab=TAB1&query=any,contains,Thinking,%20fast%20and%20slow.&sortby=rank&offset=0) London: Allen Lane.
+</p>
+
+<p class="hang">
+Lewis, A. (2008). [*The Cambridge handbook of psychology and economic behaviour.*](https://uol.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991003792192903496&context=L&vid=353UOL_INST:353UOL_VU1&lang=en&search_scope=MyInst_and_CI&adaptor=Local%20Search%20Engine&tab=TAB1&query=any,contains,The%20Cambridge%20handbook%20of%20psychology%20and%20economic%20behaviour.&sortby=rank&offset=0) Cambridge: Cambridge University Press.
+</p>
+
+<p class="hang">
+Nutt, P. C., & Wilson, D. C. (2010). [*Handbook of decision making.*](https://uol.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991001512319703496&context=L&vid=353UOL_INST:353UOL_VU1&lang=en&search_scope=MyInst_and_CI&adaptor=Local%20Search%20Engine&tab=TAB1&query=any,contains,Handbook%20of%20decision%20making.&sortby=rank&offset=0) Oxford: Wiley-Blackwell.
+</p>
+
+<p class="hang">
+Thaler, R. H. (2015). [*Misbehaving: how economics became behavioural.*](https://uol.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991003236569703496&context=L&vid=353UOL_INST:353UOL_VU1&lang=en&search_scope=MyInst_and_CI&adaptor=Local%20Search%20Engine&tab=TAB1&query=any,contains,Misbehaving:%20The%20Making%20of%20Behavioral%20Economics.&sortby=rank&offset=0) W.W. Norton.
+</p>
+
+
+\setlength{\leftskip}{0in}
+
+### Additional Resources
+
+
+\noindent
+\vspace{-2em}
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+\setlength{\parskip}{7.5pt}
+
+
+<p class="hang">
+Axelrod, R., & Hamilton, W. D. (1981). The evolution of cooperation. *Science*, 211(4489), 1390–1396. https://doi.org/10.1126/science.7466396 
+</p>
+
+<p class="hang">
+Camerer, C. (1999). Behavioral economics: Reunifying psychology and economics. *Proceedings of the National Academy of Sciences*, 96(19), 10575–10577. https://doi.org/10.1073/pnas.96.19.10575 
+</p>
+
+<p class="hang">
+Critchfield, T. S., & Kollins, S. H. (2001). Temporal Discounting: Basic Research and the Analysis of Socially Important Behavior. *Journal of Applied Behavior Analysis*, 34(1), 101–122. https://doi.org/10.1901/jaba.2001.34-101
+</p>
+
+<p class="hang">
+Davis, M. D. (2012). *Game Theory: A Nontechnical Introduction*. Courier Corporation.
+</p>
+
+<p class="hang">
+Frey, B. S., & Stutzer, A. (Eds.). (2007). *Economics and Psychology: A Promising New Cross-Disciplinary Field*. Cambridge, Mass: The MIT Press.
+</p>
+
+<p class="hang">
+Kahneman, D., & Tversky, A. (Eds.). (2000). *Choices, Values, and Frames* (1 edition). New York: Cambridge, UK: Cambridge University Press.
+</p>
+
+<p class="hang">
+Kruglanski, A. W., & Gigerenzer, G. (2011). Intuitive and deliberate judgments are based on common principles. *Psychological Review*, 118(1), 97–109. https://doi.org/10.1037/a0020762
+</p>
+
+<p class="hang">
+Lea, S. E. G., Tarpy, R. M., & Webley, P. M. (1987). *The Individual in the Economy: A Textbook of Economic Psychology*. Cambridge Cambridgeshire; New York: Cambridge University Press.
+</p>
+
+<p class="hang">
+Lea, S. E. G., Webley, P., & Young, B. M. (1992). *New Directions in Economic Psychology*. Edward Elgar Publishing. 
+</p>
+
+<p class="hang">
+Raaij, W. F., Veldhoven, G. M., & Wärneryd, K.-E. (1988). *Handbook of Economic Psychology*. Dordrecht: Springer Netherlands. Retrieved from http://dx.doi.org/10.1007/978-94-015-7791-5
+</p>
+
+<p class="hang">
+Thaler, R. H., & Sunstein, C. R. (2008). *Nudge: improving decisions about health, wealth, and happiness*. New Haven: Yale University Press.
+</p>
+
+<p class="hang">
+Todd, P. M., & Gigerenzer, G. (Eds.). (2012). *Ecological rationality: intelligence in the world*. Oxford; New York: Oxford University Press.
+</p>
+
+
