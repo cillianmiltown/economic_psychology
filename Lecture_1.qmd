@@ -9,7 +9,7 @@ format:
   revealjs:
     slide-number: false
     logo: "resources/images/ul-psychology-logos.png"
-    footer: "PS4168: Cillian McHugh - 13/9/23"
+    footer: "PS4168: Cillian McHugh - 13/9/24"
     theme: "resources/css/mytheme.scss"
     chalkboard: 
       buttons: true
@@ -81,19 +81,19 @@ Email                  [cillian.mchugh@ul.ie](mailto:cillian.mchugh@ul.ie)
 
 Office                 KBG-22
 
-Student Hours          Wednesdays, 11-12
+Student Hours          Wednesdays, 9-11
                        ([book an appointment here](https://outlook.office.com/bookwithme/user/f570b7289a5343259c60c8a5d26ce510@ul.ie/meetingtype/a5wS5iMLaEGjeXKh-w2n1g2?anonymous&ep=mLinkFromTile))
 
-Lecture location       P1003
+Lecture location       SR2030
 
-Day and Time           Wednesdays, 9-11
+Day and Time           Fridays, 9-11
 
 ---------------------- ----------------------
 
 
 ## Lectures
 
-- 2 hour slot (Wednesday mornings)
+- 2 hour slot (Friday mornings)
 - Interactive (discussion + activities)
 - Will be recorded
 - Do not come in if you are sick!!!
@@ -151,11 +151,11 @@ Day and Time           Wednesdays, 9-11
 ------------------------------------------------------------------------------
 Type of Assessment       % of Final Grade         Deadline
 --------------------- --------------------- ----------------------------------
-Task 1                  25\%                 Wednesday 18th October at 4pm 
+Task 1                  25\%                 Wednesday 16th October at 4pm 
   
-Task 2                  30\%                 Wednesday 8th November at 4pm 
+Task 2                  30\%                 Wednesday 13th November at 4pm 
   
-Exam                    45\%                 Exam Week (1 hour)
+Exam                    45\%                 Exam Week (1.5 hour)
 
 -------------------------------------------------------------------------------
 

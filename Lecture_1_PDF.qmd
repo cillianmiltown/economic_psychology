@@ -85,15 +85,15 @@ Email                  [cillian.mchugh@ul.ie](mailto:cillian.mchugh@ul.ie)
 
 Office                 KBG-22
 
-Student Hours          Wednesdays, 11-12
-                       ([book an appointment here](https://outlook.office.com/bookwithme/user/f570b7289a5343259c60c8a5d26ce510@ul.ie/meetingtype/a5wS5iMLaEGjeXKh-w2n1g2?anonymous&ep=mLinkFromTile))
+Student Hours          Wednesdays, 9-11
 
-Lecture location       P1003
+Lecture location       SR2030
 
-Day and Time           Wednesdays, 9-11
+Day and Time           Fridays, 9-11
 
 ---------------------- ----------------------
 
+([book an appointment here](https://outlook.office.com/bookwithme/user/f570b7289a5343259c60c8a5d26ce510@ul.ie/meetingtype/a5wS5iMLaEGjeXKh-w2n1g2?anonymous&ep=mLinkFromTile))
 
 ## Lectures
 
@@ -162,14 +162,13 @@ Day and Time           Wednesdays, 9-11
 ------------------------------------------------------------------------------
 Type of Assessment       % of Final Grade         Deadline
 --------------------- --------------------- ----------------------------------
-Task 1                  25\%                 Wednesday 18th October at 4pm 
+Task 1                  25\%                 Wednesday 16th October at 4pm 
   
-Task 2                  30\%                 Wednesday 8th November at 4pm 
+Task 2                  30\%                 Wednesday 13th November at 4pm 
   
-Exam                    45\%                 Exam Week (1 hour)
+Exam                    45\%                 Exam Week (1.5 hour)
 
 -------------------------------------------------------------------------------
-
 
 
 # Topics to be covered
