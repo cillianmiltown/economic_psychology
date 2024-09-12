@@ -324,7 +324,7 @@ How much does the ball cost? _______ cents
 
 ## Early Emergence of Economic Psychology{.smaller}
 
- 
+:::{.incremental}
 
 - Adam Smith (1723 – 1790)
 
@@ -338,7 +338,7 @@ How much does the ball cost? _______ cents
 
   + Conceived *homo economicus* <font size=4.5>[see @ranyard_economic_2018]</font size>
     + Preference for a larger gain over a smaller gain
-
+:::
 
 
 ## Emergence of Economic Psychology
