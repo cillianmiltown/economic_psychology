@@ -22,6 +22,8 @@ editor: source
 
 
 
+
+
 ## Overview
 
 
@@ -29,8 +31,6 @@ editor: source
 - Biases
 
 - Heuristics
-
-- Assignment 1
 
 - In-class Activity
 
@@ -41,6 +41,7 @@ editor: source
 - Discuss "rationality"
 - Define Homo-Economicus
 - 2 approaches to studying decision making
+- Differences between Economic Psychology and Behavioural Economics
 
 
 ## Recap!
@@ -52,22 +53,12 @@ editor: source
 - Two approaches to the study of decision making
   + <font color="B93B8F">Normative</font> Theories *versus* <font color="2FAACE">Behavioural</font> Theories
 
+- Different traditions/methods
 
 #  Biases
 
 
-## A Brief description of a person
 
-
-
-
-<br><br>
-
-- **Alan** - intelligent - industrious - impulsive - critical - stubborn - envious
-
-<br>
-
-- Keep this description in your mind<br>(you will be asked about it later)
 
 ## Biases{.smaller}
 
@@ -93,18 +84,6 @@ editor: source
 ![concave](resources/images/bothconcaveconvex.png)
 
 
-## A Brief description of a person
-
-
-
-
-<br><br>
-
-- **Ben** - envious - stubborn - critical - impulsive - industrious - intelligent
-
-<br>
-
-- Keep this description in your mind<br>(you will be asked about it later)
 
 ## Omission Bias{.smaller}
 
@@ -123,44 +102,6 @@ editor: source
       
 - Linked to risk aversion?
 :::
-
-## Description of a person 
-
-
-
-[https://app.sli.do/event/nneYhDxSeCtKayQUfCHSUQ/embed/polls/a5ba9010-98f3-41e3-a48d-57f99897aad1](https://app.sli.do/event/nneYhDxSeCtKayQUfCHSUQ/embed/polls/a5ba9010-98f3-41e3-a48d-57f99897aad1)
-
-
-<br>
-
-
-Who do you view more favourably?
-
-Alan or Ben?
-
-## Description of a person 
-
-
-
-[https://wall.sli.do/event/nneYhDxSeCtKayQUfCHSUQ?section=64385e8c-2f5c-481e-bbfb-6cb23b036ca8](https://wall.sli.do/event/nneYhDxSeCtKayQUfCHSUQ?section=64385e8c-2f5c-481e-bbfb-6cb23b036ca8)
-
-
-## Description of a person
-
-
-
-
-Who do you view more favourably?
-
-Alan or Ben?
-
-<br>
-
-- **Alan**: intelligent-industrious-impulsive-critical-stubborn-envious
-
-<br>
-
-- **Ben**: envious-stubborn-critical-impulsive-industrious-intelligent<br><font size=4.5>[@asch_forming_1946; @kahneman_thinking_2011]</font size>
 
 
 
@@ -380,21 +321,35 @@ Vote: [https://app.sli.do/event/vZrcEo7RhhsSUSnemAjwoF/embed/polls/959fadbf-b78a
 
 
 
+
 ## General Knowledge
 
 - Which city has more inhabitants?
   + Hyderabad
   + Islamabad
 
+
+Vote: [https://app.sli.do/event/2HpLUzYw48QzsHH3KWQgn7/embed/polls/adad10e1-e61e-4dce-a593-96b7e700c82e](https://app.sli.do/event/2HpLUzYw48QzsHH3KWQgn7/embed/polls/adad10e1-e61e-4dce-a593-96b7e700c82e)
+
+## Confidence
+
 - How confident are you that your answer is correct?
   + 50% 60% 70% 80% 90% 100%
   
-Vote: [https://app.sli.do/event/2HpLUzYw48QzsHH3KWQgn7/embed/polls/adad10e1-e61e-4dce-a593-96b7e700c82e](https://app.sli.do/event/2HpLUzYw48QzsHH3KWQgn7/embed/polls/adad10e1-e61e-4dce-a593-96b7e700c82e)
+
+Vote: [https://app.sli.do/event/sev81wpU1emixECBnf8Fhp/embed/polls/b98f813c-8406-4074-af03-02a5db179da0](https://app.sli.do/event/sev81wpU1emixECBnf8Fhp/embed/polls/b98f813c-8406-4074-af03-02a5db179da0)
+
 
 ## General Knowledge
 
 
 [https://wall.sli.do/event/2HpLUzYw48QzsHH3KWQgn7?section=05f53be4-c1af-4408-a058-142bc49c3280](https://wall.sli.do/event/2HpLUzYw48QzsHH3KWQgn7?section=05f53be4-c1af-4408-a058-142bc49c3280)
+
+
+
+## Confidence
+
+[https://wall.sli.do/event/sev81wpU1emixECBnf8Fhp?section=1f9706ef-247f-439f-b8e5-6fc7ac16a42e](https://wall.sli.do/event/sev81wpU1emixECBnf8Fhp?section=1f9706ef-247f-439f-b8e5-6fc7ac16a42e)
 
 
 ## Overconfidence bias

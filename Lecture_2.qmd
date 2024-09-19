@@ -9,7 +9,7 @@ format:
   revealjs:
     slide-number: false
     logo: "resources/images/ul-psychology-logos.png"
-    footer: "PS4168: Cillian McHugh - 20/9/23"
+    footer: "PS4168: Cillian McHugh - 20/9/24"
     theme: "resources/css/mytheme.scss"
     chalkboard: 
       buttons: true
@@ -67,6 +67,7 @@ library(ggplot2)
 - Discuss "rationality"
 - Define Homo-Economicus
 - 2 approaches to studying decision making
+- Differences between Economic Psychology and Behavioural Economics
 
 
 ## Recap!
@@ -78,6 +79,7 @@ library(ggplot2)
 - Two approaches to the study of decision making
   + <font color="B93B8F">Normative</font> Theories *versus* <font color="2FAACE">Behavioural</font> Theories
 
+- Different traditions/methods
 
 #  Biases
 
@@ -474,17 +476,27 @@ Vote: [https://app.sli.do/event/vZrcEo7RhhsSUSnemAjwoF/embed/polls/959fadbf-b78a
   + Hyderabad
   + Islamabad
 
+
+Vote: [https://app.sli.do/event/2HpLUzYw48QzsHH3KWQgn7/embed/polls/adad10e1-e61e-4dce-a593-96b7e700c82e](https://app.sli.do/event/2HpLUzYw48QzsHH3KWQgn7/embed/polls/adad10e1-e61e-4dce-a593-96b7e700c82e)
+
+## Confidence
+
 - How confident are you that your answer is correct?
   + 50% 60% 70% 80% 90% 100%
   
-Vote: [https://app.sli.do/event/2HpLUzYw48QzsHH3KWQgn7/embed/polls/adad10e1-e61e-4dce-a593-96b7e700c82e](https://app.sli.do/event/2HpLUzYw48QzsHH3KWQgn7/embed/polls/adad10e1-e61e-4dce-a593-96b7e700c82e)
+
+Vote: [https://app.sli.do/event/sev81wpU1emixECBnf8Fhp/embed/polls/b98f813c-8406-4074-af03-02a5db179da0](https://app.sli.do/event/sev81wpU1emixECBnf8Fhp/embed/polls/b98f813c-8406-4074-af03-02a5db179da0)
+
 
 ## General Knowledge
 
-
-
 <iframe width="900" height="600" src="https://wall.sli.do/event/2HpLUzYw48QzsHH3KWQgn7?section=05f53be4-c1af-4408-a058-142bc49c3280" frameborder="0" allow="autoplay; encrypted-media"></iframe>
 
+
+
+## Confidence
+
+<iframe width="900" height="600" src="https://wall.sli.do/event/sev81wpU1emixECBnf8Fhp?section=1f9706ef-247f-439f-b8e5-6fc7ac16a42e" frameborder="0" allow="autoplay; encrypted-media"></iframe>
 
 ## Overconfidence bias
 
