@@ -125,6 +125,19 @@ knitr::opts_chunk$set(include = FALSE)
 <font size=4.5>[taken from @thaler_nudge_2008, p. 20]</font size>
 
 
+
+## Dual-processes / Dual-systems
+
+
+
+!["Homer and Spock"](resources/images/homer_spock1.png)
+
+
+## Dual-processes / Dual-systems
+
+
+!["Homer and Spock"](resources/images/homer_spock2.png)
+
 ## Harnessing our Biases
 
 

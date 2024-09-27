@@ -255,7 +255,7 @@ knitr::opts_chunk$set(include = FALSE)
 
 
 
-![](resources/images/home_hob2.jpg){.lightbox  height=420px}
+![](resources/images/home_hob1.jpg){.lightbox  height=420px}
 
 
 <font size=4.5>(Cillian's personal frustrations)</font>
