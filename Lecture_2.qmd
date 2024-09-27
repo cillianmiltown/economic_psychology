@@ -8,6 +8,7 @@ csl: apa.csl
 format: 
   revealjs:
     slide-number: false
+    controls: true
     logo: "resources/images/ul-psychology-logos.png"
     footer: "PS4168: Cillian McHugh - 20/9/24"
     theme: "resources/css/mytheme.scss"
