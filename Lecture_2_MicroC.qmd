@@ -2,7 +2,7 @@
 title: "Lecture 2"
 subtitle: "Biases and Heuristics"
 author: "Dr Cillian McHugh"
-institute: "PS4168: Economic Psychology"
+institute: "Economic Psychology"
 bibliography: "resources/bib/My Library.bib"
 csl: apa.csl
 format: 
