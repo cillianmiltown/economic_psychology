@@ -8,7 +8,7 @@
 <link href="Lecture_4_files/libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="Lecture_4_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="Lecture_4_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.3.287">
+  <meta name="generator" content="quarto-1.5.57">
 
   <meta name="author" content="Dr Cillian McHugh">
   <title>Lecture 4</title>
@@ -33,6 +33,7 @@
     div.csl-bib-body { }
     div.csl-entry {
       clear: both;
+      margin-bottom: 0em;
     }
     .hanging-indent div.csl-entry {
       margin-left:2em;
@@ -49,7 +50,7 @@
     div.csl-indent {
       margin-left: 2em;
     }  </style>
-  <link rel="stylesheet" href="Lecture_4_files/libs/revealjs/dist/theme/quarto.css" id="theme">
+  <link rel="stylesheet" href="Lecture_4_files/libs/revealjs/dist/theme/quarto.css">
   <link href="Lecture_4_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="Lecture_4_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="Lecture_4_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -177,7 +178,8 @@
   }
 
   .callout.callout-titled .callout-body > .callout-content > :last-child {
-    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0;
   }
 
   .callout.callout-titled .callout-icon::before {
@@ -361,15 +363,10 @@ Dr Cillian McHugh
 </div>
 
 </section>
-<section class="slide level2">
-
-
-</section>
 <section id="overview" class="slide level2 smaller">
 <h2>Overview</h2>
 <ul>
 <li><p>Approaches to Studying Decision Making (revision)</p></li>
-<li><p>Defining Rationality (revision)</p></li>
 <li><p>Expected Value/Expected Utility Theory</p>
 <ul>
 <li>Bayes Theorem</li>
@@ -381,6 +378,15 @@ Dr Cillian McHugh
 </ul>
 </section>
 <section id="recap" class="slide level2">
+<h2>Recap</h2>
+<ul>
+<li>Describe 3 nudges
+<ul>
+<li><strong><em>and</em></strong> the theory behind them</li>
+</ul></li>
+</ul>
+</section>
+<section id="recap-1" class="slide level2">
 <h2>Recap</h2>
 <h3 id="homo-economicus">Homo Economicus?</h3>
 <div>
@@ -665,8 +671,7 @@ Dr Cillian McHugh
 <p><span class="math inline">\(p(Q|\heartsuit) = ?\)</span></p>
 <p><span class="math inline">\(p(Q|\heartsuit) = \frac{p(Q,\heartsuit)}{p(\heartsuit)}\)</span></p>
 <p><span class="math inline">\(p(Q|\heartsuit) = \frac{\frac{1}{52}}{\frac{1}{4}} = \frac{1}{13}\)</span></p>
-</div>
-</div>
+</div></div>
 </section>
 <section id="deriving-bayes-rule" class="slide level2 columns-2 build">
 <h2>Deriving Bayes’ Rule</h2>
@@ -681,8 +686,7 @@ Dr Cillian McHugh
 <p><span class="math inline">\(p(x|y) = \frac{p(x, y)}{p(y)}\)</span></p>
 <p>multiply across by <span class="math inline">\(p(y)\)</span></p>
 <p><span class="math inline">\(p(y)p(x|y) = p(x, y)\)</span></p>
-</div>
-</div>
+</div></div>
 </section>
 <section id="deriving-bayes-rule-1" class="slide level2 columns-2">
 <h2>Deriving Bayes’ Rule</h2>
@@ -697,8 +701,7 @@ Dr Cillian McHugh
 <p><span class="math inline">\(p(x|y) = \frac{p(x, y)}{p(y)}\)</span></p>
 <p>multiply across by <span class="math inline">\(p(y)\)</span></p>
 <p><span class="math inline">\(p(y)p(x|y) =\)</span> <font color="24b53a"><span class="math inline">\(p(x, y)\)</span></font></p>
-</div>
-</div>
+</div></div>
 </section>
 <section id="deriving-bayes-rule-2" class="slide level2">
 <h2>Deriving Bayes’ Rule</h2>
@@ -852,8 +855,8 @@ Dr Cillian McHugh
 </ul>
 </div>
 </section>
-<section id="booking-a-holiday" class="slide level2">
-<h2>Booking a Holiday</h2>
+<section id="booking-a-holiday-1" class="slide level2">
+<h2>Booking a Holiday 1</h2>
 <ul>
 <li>You have a chance to by a very cheap holiday to Italy, but you must today.</li>
 <li>You have just recently taken an exam, but you don’t know yet whether you’ve passed or failed.
@@ -864,8 +867,21 @@ Dr Cillian McHugh
 </ul></li>
 </ul>
 </section>
-<section id="booking-a-holiday-1" class="slide level2">
-<h2>Booking a Holiday</h2>
+<section id="booking-a-holiday-1-vote" class="slide level2 smaller">
+<h2>Booking a Holiday 1 Vote</h2>
+<iframe src="https://app.sli.do/event/vA4qnxWvojyGN48GM4yFeK/embed/polls/bc02a010-b754-40e8-a03d-84de6a11cdb2" width="100%" height="400">
+</iframe>
+<p><a href="https://app.sli.do/event/vA4qnxWvojyGN48GM4yFeK/embed/polls/bc02a010-b754-40e8-a03d-84de6a11cdb2">https://app.sli.do/event/vA4qnxWvojyGN48GM4yFeK/embed/polls/bc02a010-b754-40e8-a03d-84de6a11cdb2</a></p>
+<p>Or go to Slido.com and enter code #3891787</p>
+</section>
+<section id="booking-a-holiday-1-results" class="slide level2 smaller">
+<h2>Booking a Holiday 1 Results</h2>
+<iframe width="900" height="500" src="https://wall.sli.do/event/vA4qnxWvojyGN48GM4yFeK?section=b501f930-6044-41c0-aafd-b4db68fca3d3" frameborder="0" allow="autoplay; encrypted-media">
+</iframe>
+<p><a href="https://wall.sli.do/event/vA4qnxWvojyGN48GM4yFeK?section=b501f930-6044-41c0-aafd-b4db68fca3d3">https://wall.sli.do/event/vA4qnxWvojyGN48GM4yFeK?section=b501f930-6044-41c0-aafd-b4db68fca3d3</a></p>
+</section>
+<section id="booking-a-holiday-2" class="slide level2">
+<h2>Booking a Holiday 2</h2>
 <ul>
 <li>You have a chance to by a very cheap holiday to Italy, but you must today.</li>
 <li>You have just recently taken an exam, and found out that you’ve passed.
@@ -876,8 +892,21 @@ Dr Cillian McHugh
 </ul></li>
 </ul>
 </section>
-<section id="booking-a-holiday-2" class="slide level2">
-<h2>Booking a Holiday</h2>
+<section id="booking-a-holiday-2-vote" class="slide level2 smaller">
+<h2>Booking a Holiday 2 Vote</h2>
+<iframe src="https://app.sli.do/event/j4eFry1KME4EkQnjQi9sjU/embed/polls/e30fb55e-b1db-4e97-aa52-c1bc5e505193" width="100%" height="400">
+</iframe>
+<p><a href="https://app.sli.do/event/j4eFry1KME4EkQnjQi9sjU/embed/polls/e30fb55e-b1db-4e97-aa52-c1bc5e505193">https://app.sli.do/event/j4eFry1KME4EkQnjQi9sjU/embed/polls/e30fb55e-b1db-4e97-aa52-c1bc5e505193</a></p>
+<p>Or go to Slido.com and enter code #3891788</p>
+</section>
+<section id="booking-a-holiday-2-results" class="slide level2 smaller">
+<h2>Booking a Holiday 2 Results</h2>
+<iframe width="900" height="500" src="https://wall.sli.do/event/j4eFry1KME4EkQnjQi9sjU?section=ed00b877-f3d9-4c4f-bc3c-54ab11a1c2f0" frameborder="0" allow="autoplay; encrypted-media">
+</iframe>
+<p><a href="https://wall.sli.do/event/j4eFry1KME4EkQnjQi9sjU?section=ed00b877-f3d9-4c4f-bc3c-54ab11a1c2f0">https://wall.sli.do/event/j4eFry1KME4EkQnjQi9sjU?section=ed00b877-f3d9-4c4f-bc3c-54ab11a1c2f0</a></p>
+</section>
+<section id="booking-a-holiday-3" class="slide level2">
+<h2>Booking a Holiday 3</h2>
 <ul>
 <li>You have a chance to by a very cheap holiday to Italy, but you must today.</li>
 <li>You have just recently taken an exam, and found out that you’ve failed.
@@ -887,6 +916,19 @@ Dr Cillian McHugh
 <li>Pay €5 so you can still buy the holiday at the cheap price in two days time.</li>
 </ul></li>
 </ul>
+</section>
+<section id="booking-a-holiday-3-vote" class="slide level2 smaller">
+<h2>Booking a Holiday 3 Vote</h2>
+<iframe src="https://app.sli.do/event/7Ts4GvWhiowWJoAhdHkvAb/embed/polls/def899ec-dda8-4941-8773-c9613793c4c9" width="100%" height="400">
+</iframe>
+<p><a href="https://app.sli.do/event/7Ts4GvWhiowWJoAhdHkvAb/embed/polls/def899ec-dda8-4941-8773-c9613793c4c9">https://app.sli.do/event/7Ts4GvWhiowWJoAhdHkvAb/embed/polls/def899ec-dda8-4941-8773-c9613793c4c9</a></p>
+<p>Or go to Slido.com and enter code #3891789</p>
+</section>
+<section id="booking-a-holiday-3-results" class="slide level2 smaller">
+<h2>Booking a Holiday 3 Results</h2>
+<iframe width="900" height="500" src="https://wall.sli.do/event/7Ts4GvWhiowWJoAhdHkvAb?section=3599c4f8-4037-46c1-a047-635e60beed19" frameborder="0" allow="autoplay; encrypted-media">
+</iframe>
+<p><a href="https://wall.sli.do/event/7Ts4GvWhiowWJoAhdHkvAb?section=3599c4f8-4037-46c1-a047-635e60beed19">https://wall.sli.do/event/7Ts4GvWhiowWJoAhdHkvAb?section=3599c4f8-4037-46c1-a047-635e60beed19</a></p>
 </section>
 <section id="intuitive-politicians" class="slide level2">
 <h2>Intuitive Politicians</h2>
@@ -924,15 +966,15 @@ Dr Cillian McHugh
 <ul>
 <li>an intuitive politician</li>
 <li>an intuitive prosecutor</li>
-<li>an theologian:</li>
+<li>an theologian</li>
 </ul></li>
 </ul></li>
 </ul>
-</section>
-<section id="activity-link" class="slide level2">
-<h2>Activity (<a href="https://docs.google.com/document/d/1899XhhRODvDfLYqRB21NyXYE_wMoJSei16X4YFgWzyo/edit?usp=sharing">link</a>)</h2>
-<iframe width="1102" height="702" src="https://docs.google.com/document/d/1899XhhRODvDfLYqRB21NyXYE_wMoJSei16X4YFgWzyo/edit?usp=sharing?rm=minimal" frameborder="0">
-</iframe>
+</section></section>
+<section>
+<section id="dual-process-approaches" class="title-slide slide level1 center">
+<h1>Dual-Process Approaches</h1>
+
 </section>
 <section id="what-are-dual-processes" class="slide level2 smaller">
 <h2>What are Dual-Processes?</h2>
@@ -956,24 +998,24 @@ Dr Cillian McHugh
 <li>Individual differences</li>
 </ul>
 <p><br></p>
-<ul>
-<li><span class="citation" data-cites="evans_dualprocessing_2008">(<a href="#/references-1" role="doc-biblioref" onclick="">Evans, 2008, p. 257</a>)</span></li>
-</ul>
+<p><span class="citation" data-cites="evans_dualprocessing_2008">(<a href="#/references-1" role="doc-biblioref" onclick="">Evans, 2008, p. 257</a>)</span></p>
 </section>
-<section id="features-of-dual-processes-consciousness" class="slide level2">
-<h2>Features of Dual-processes: Consciousness</h2>
+<section id="consciousness" class="slide level2">
+<h2>Consciousness</h2>
 <p><img src="resources/images/DS_title.png"> <img src="resources/images/DS_consciousness2.png"></p>
+<p><span class="citation" data-cites="evans_dualprocessing_2008">(adapted from <a href="#/references-1" role="doc-biblioref" onclick="">Evans, 2008, p. 257</a>)</span></p>
 </section>
-<section id="features-of-dual-processes-evolution" class="slide level2">
-<h2>Features of Dual-processes: Evolution</h2>
+<section id="evolution" class="slide level2">
+<h2>Evolution</h2>
 <p><img src="resources/images/DS_title.png"> <img src="resources/images/DS_evolution.png"></p>
+<p><span class="citation" data-cites="evans_dualprocessing_2008">(adapted from <a href="#/references-1" role="doc-biblioref" onclick="">Evans, 2008, p. 257</a>)</span></p>
 </section>
-<section id="features-of-dual-processes-functional" class="slide level2">
-<h2>Features of Dual-processes: Functional</h2>
+<section id="functional" class="slide level2">
+<h2>Functional</h2>
 <p><img src="resources/images/DS_title.png"> <img src="resources/images/DS_functional.png"></p>
 </section>
-<section id="features-of-dual-processes-individual-differences" class="slide level2">
-<h2>Features of Dual-processes: Individual differences</h2>
+<section id="individual-differences" class="slide level2">
+<h2>Individual differences</h2>
 <p><img src="resources/images/DS_title.png"> <img src="resources/images/DS_individual_diff.png"></p>
 </section>
 <section id="dual-processes-and-other-variables" class="slide level2 smaller">
@@ -1088,6 +1130,7 @@ Dr Cillian McHugh
 <li>Separable systems/processes? <span class="citation" data-cites="mugg_dualprocess_2015">(e.g., <a href="#/references-1" role="doc-biblioref" onclick="">Mugg, 2015</a>)</span></li>
 <li>A continuum? <span class="citation" data-cites="alos-ferrer_dual_2014">(e.g., <a href="#/references-1" role="doc-biblioref" onclick="">Alós-Ferrer &amp; Strack, 2014</a>)</span></li>
 <li>Exclusivity? Switching? <span class="citation" data-cites="neys_advancing_2023">(<a href="#/references-1" role="doc-biblioref" onclick="">De Neys, 2023</a>)</span></li>
+<li>Logical intuitions? <span class="citation" data-cites="deneys_bias_2012 Ghasemi_Logical_2022 Raoelison_slow_2021">(<a href="#/references-1" role="doc-biblioref" onclick="">De Neys, 2012</a>; <a href="#/references-1" role="doc-biblioref" onclick="">Ghasemi, Handley, Howarth, Newman, &amp; Thompson, 2022</a>; <a href="#/references-1" role="doc-biblioref" onclick="">Raoelison, Boissin, Borst, &amp; De Neys, 2021</a>)</span></li>
 <li>How do they work together?</li>
 </ul>
 </section></section>
@@ -1116,6 +1159,19 @@ Dr Cillian McHugh
 <p>Are you permitted to take the orange?</p>
 <p><br></p>
 <p><span class="citation" data-cites="bucciarelli_psychology_2008 johnson-laird_how_2006">(<a href="#/references-1" role="doc-biblioref" onclick="">Bucciarelli, Khemlani, &amp; Johnson-Laird, 2008</a>; <a href="#/references-1" role="doc-biblioref" onclick="">Johnson-Laird, 2006</a>)</span></p>
+</section>
+<section id="mental-models-vote" class="slide level2 smaller">
+<h2>Mental Models Vote</h2>
+<iframe src="https://app.sli.do/event/x67ZWSo4ipwLUYBWWXFoys/embed/polls/576e49ad-e785-4db5-8ee0-c003f8c9ec66" width="100%" height="400">
+</iframe>
+<p><a href="https://app.sli.do/event/x67ZWSo4ipwLUYBWWXFoys/embed/polls/576e49ad-e785-4db5-8ee0-c003f8c9ec66">https://app.sli.do/event/x67ZWSo4ipwLUYBWWXFoys/embed/polls/576e49ad-e785-4db5-8ee0-c003f8c9ec66</a></p>
+<p>Or go to Slido.com and enter code #4161476</p>
+</section>
+<section id="mental-models-results" class="slide level2">
+<h2>Mental Models Results</h2>
+<iframe width="900" height="500" src="https://wall.sli.do/event/x67ZWSo4ipwLUYBWWXFoys?section=5726a2d8-b67b-4054-ac3e-5012c7b1938a" frameborder="0" allow="autoplay; encrypted-media">
+</iframe>
+<p><a href="https://wall.sli.do/event/x67ZWSo4ipwLUYBWWXFoys?section=5726a2d8-b67b-4054-ac3e-5012c7b1938a">https://wall.sli.do/event/x67ZWSo4ipwLUYBWWXFoys?section=5726a2d8-b67b-4054-ac3e-5012c7b1938a</a></p>
 </section>
 <section id="mental-models-3" class="slide level2">
 <h2>Mental Models</h2>
@@ -1147,33 +1203,17 @@ Dr Cillian McHugh
 <p><br></p>
 
 <img src="resources/images/apple_orange3.png" class="r-stretch"></section>
-<section id="mental-models-and-spatial-relations" class="slide level2">
-<h2>Mental Models and Spatial Relations</h2>
-<ul>
-<li><em>the knife is on the right of the fork, and the napkin is on the left of the knife</em></li>
-</ul>
-<p><br></p>
-<p><span class="citation" data-cites="byrne_mental_2015">(<a href="#/references-1" role="doc-biblioref" onclick="">Byrne, 2015</a>)</span></p>
-</section>
-<section id="mental-models-and-spatial-relations-1" class="slide level2">
-<h2>Mental Models and Spatial Relations</h2>
-<ul>
-<li class="fragment"><em>the knife is on the right of the fork, and the napkin is on the left of the knife</em></li>
-</ul>
-<p><br></p>
-
-<img src="resources/images/knife_fork.png" class="r-stretch"></section>
 <section id="mental-models-and-incomplete-information" class="slide level2">
 <h2>Mental Models and Incomplete Information</h2>
 <ul>
-<li><em>All of the napkins are blue</em></li>
+<li class="fragment"><em>All of the napkins are blue</em></li>
 </ul>
 <p><br></p>
 </section>
 <section id="mental-models-and-incomplete-information-1" class="slide level2">
 <h2>Mental Models and Incomplete Information</h2>
 <ul>
-<li class="fragment"><em>All of the napkins are blue</em></li>
+<li><em>All of the napkins are blue</em></li>
 </ul>
 <p><br></p>
 <p><img src="resources/images/blue_napkin.png" height="283"></p>
@@ -1181,14 +1221,14 @@ Dr Cillian McHugh
 <section id="mental-models-and-incomplete-information-2" class="slide level2">
 <h2>Mental Models and Incomplete Information</h2>
 <ul>
-<li><em>if there’s a lily in the vase then there’s a rose</em></li>
+<li class="fragment"><em>if there’s a lily in the vase then there’s a rose</em></li>
 </ul>
 <p><br></p>
 </section>
 <section id="mental-models-and-incomplete-information-3" class="slide level2">
 <h2>Mental Models and Incomplete Information</h2>
 <ul>
-<li class="fragment"><em>if there’s a lily in the vase then there’s a rose</em></li>
+<li><em>if there’s a lily in the vase then there’s a rose</em></li>
 </ul>
 <p><br></p>
 
@@ -1196,25 +1236,41 @@ Dr Cillian McHugh
 <section id="mental-models-and-incomplete-information-4" class="slide level2">
 <h2>Mental Models and Incomplete Information</h2>
 <ul>
-<li class="fragment"><em>if there’s a lily in the vase then there’s a rose</em></li>
+<li><em>if there’s a lily in the vase then there’s a rose</em></li>
 </ul>
 <p><br></p>
 
 <img src="resources/images/lilly_rose2.png" class="r-stretch"></section>
-<section id="mental-models-and-alternative-possibilities" class="slide level2">
-<h2>Mental Models and Alternative Possibilities</h2>
+<section id="mental-models-and-spatial-relations" class="slide level2">
+<h2>Mental Models and Spatial Relations</h2>
 <ul>
-<li><p><em>the knife is on the right of the fork, and the napkin is on the left of the knife</em></p></li>
-<li><p>Is the fork is on the right of the napkin?</p></li>
+<li class="fragment"><em>the knife is on the right of the fork, and the napkin is on the left of the knife</em></li>
 </ul>
+<p><br></p>
+<p><span class="citation" data-cites="byrne_mental_2015">(<a href="#/references-1" role="doc-biblioref" onclick="">Byrne, 2015</a>)</span></p>
 </section>
-<section id="mental-models-and-alternative-possibilities-1" class="slide level2">
+<section id="mental-models-and-spatial-relations-1" class="slide level2">
+<h2>Mental Models and Spatial Relations</h2>
+<ul>
+<li><em>the knife is on the right of the fork, and the napkin is on the left of the knife</em></li>
+</ul>
+<p><br></p>
+
+<img src="resources/images/knife_fork.png" class="r-stretch"></section>
+<section id="mental-models-and-alternative-possibilities" class="slide level2">
 <h2>Mental Models and Alternative Possibilities</h2>
 <ul>
 <li class="fragment"><em>the knife is on the right of the fork, and the napkin is on the left of the knife</em></li>
 </ul>
 <ul>
-<li class="fragment">Is the fork is on the right of the napkin?</li>
+<li class="fragment">Is the fork on the right of the napkin?</li>
+</ul>
+</section>
+<section id="mental-models-and-alternative-possibilities-1" class="slide level2">
+<h2>Mental Models and Alternative Possibilities</h2>
+<ul>
+<li><p><em>the knife is on the right of the fork, and the napkin is on the left of the knife</em></p></li>
+<li><p>Is the fork on the right of the napkin?</p></li>
 </ul>
 <p><img src="resources/images/napkin_fork_knife.png"> <img src="resources/images/fork_napkin_knife.png"></p>
 </section>
@@ -1236,15 +1292,12 @@ Dr Cillian McHugh
 <div class="{columns}">
 <div class="column" style="width:30%;">
 <p><img src="resources/images/evans_2008.png"> <span class="citation" data-cites="evans_thinking_2010">(<a href="#/references-1" role="doc-biblioref" onclick="">Evans, 2010</a>)</span></p>
-</div>
-<div class="column" style="width:15%;">
+</div><div class="column" style="width:15%;">
 <p>&nbsp;</p>
-</div>
-<div class="column" style="width:35%;">
+</div><div class="column" style="width:35%;">
 <p><img src="resources/images/HowWeReason.png" width="290px"></p>
 <p><span class="citation" data-cites="johnson-laird_how_2006">(<a href="#/references-1" role="doc-biblioref" onclick="">Johnson-Laird, 2006</a>)</span></p>
-</div>
-</div>
+</div></div>
 </section>
 <section id="activity-1" class="slide level2">
 <h2>Activity</h2>
@@ -1257,11 +1310,6 @@ Dr Cillian McHugh
 </ul></li>
 </ul></li>
 </ul>
-</section>
-<section id="activity-link-1" class="slide level2">
-<h2>Activity (<a href="https://docs.google.com/document/d/1899XhhRODvDfLYqRB21NyXYE_wMoJSei16X4YFgWzyo/edit?usp=sharing">link</a>)</h2>
-<iframe width="1102" height="702" src="https://docs.google.com/document/d/1899XhhRODvDfLYqRB21NyXYE_wMoJSei16X4YFgWzyo/edit?usp=sharing?rm=minimal" frameborder="0">
-</iframe>
 </section></section>
 <section>
 <section id="references" class="title-slide slide level1 center">
@@ -1271,11 +1319,13 @@ Dr Cillian McHugh
 <section id="references-1" class="slide level2 smaller scrollable">
 <h2>References</h2>
 <p> </p>
-
-<img src="resources/images/ul-psychology-logos.png" class="slide-logo r-stretch"><div class="footer footer-default">
-<p>PS4168: Cillian McHugh - 4/10/23</p>
+<div class="quarto-auto-generated-content">
+<p><img src="resources/images/ul-psychology-logos.png" class="slide-logo"></p>
+<div class="footer footer-default">
+<p>PS4168: Cillian McHugh - 4/10/24</p>
 </div>
-<div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="list">
+</div>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
 <div id="ref-alos-ferrer_dual_2014" class="csl-entry" role="listitem">
 Alós-Ferrer, C., &amp; Strack, F. (2014). From dual processes to multiple selves: <span>Implications</span> for economic behavior. <em>Journal of Economic Psychology</em>, <em>41</em>, 1–11. <a href="https://doi.org/10.1016/j.joep.2013.12.005">https://doi.org/10.1016/j.joep.2013.12.005</a>
 </div>
@@ -1302,6 +1352,9 @@ Cacioppo, J. T., &amp; Petty, R. E. (1982). The need for cognition. <em>Journal 
 </div>
 <div id="ref-chaiken_heuristic_1980" class="csl-entry" role="listitem">
 Chaiken, S. (1980). Heuristic versus systematic information processing and the use of source versus message cues in persuasion. <em>Journal of Personality and Social Psychology</em>, <em>39</em>(5), 752–766. <a href="https://doi.org/10.1037/0022-3514.39.5.752">https://doi.org/10.1037/0022-3514.39.5.752</a>
+</div>
+<div id="ref-deneys_bias_2012" class="csl-entry" role="listitem">
+De Neys, W. (2012). Bias and <span>Conflict</span>: <span>A Case</span> for <span>Logical Intuitions</span>. <em>Perspectives on Psychological Science</em>, <em>7</em>(1), 28–38. <a href="https://doi.org/10.1177/1745691611429354">https://doi.org/10.1177/1745691611429354</a>
 </div>
 <div id="ref-neys_advancing_2023" class="csl-entry" role="listitem">
 De Neys, W. (2023). Advancing theorizing about fast-and-slow thinking. <em>Behavioral and Brain Sciences</em>, <em>46</em>, e111. <a href="https://doi.org/10.1017/S0140525X2200142X">https://doi.org/10.1017/S0140525X2200142X</a>
@@ -1345,6 +1398,9 @@ Forsterlee, R., &amp; Ho, R. (1999). An <span>Examination</span> of the <span>Sh
 <div id="ref-fujita_spatial_2006" class="csl-entry" role="listitem">
 Fujita, K., Henderson, M. D., Eng, J., Trope, Y., &amp; Liberman, N. (2006). Spatial <span>Distance</span> and <span>Mental Construal</span> of <span>Social Events</span>. <em>Psychological Science</em>, <em>17</em>(4), 278–282. <a href="https://doi.org/10.1111/j.1467-9280.2006.01698.x">https://doi.org/10.1111/j.1467-9280.2006.01698.x</a>
 </div>
+<div id="ref-Ghasemi_Logical_2022" class="csl-entry" role="listitem">
+Ghasemi, O., Handley, S., Howarth, S., Newman, I. R., &amp; Thompson, V. A. (2022). Logical intuition is not really about logic. <em>Journal of Experimental Psychology: General</em>, <em>151</em>(9), 2009–2028. <a href="https://doi.org/10.1037/xge0001179">https://doi.org/10.1037/xge0001179</a>
+</div>
 <div id="ref-johnson-laird_mental_1983" class="csl-entry" role="listitem">
 Johnson-Laird, P. N. (1983). <em>Mental models: <span>Towards</span> a cognitive science of language, inference, and consciousness</em>. <span>Harvard University Press</span>.
 </div>
@@ -1377,6 +1433,9 @@ Pacini, R., &amp; Epstein, S. (1999). The relation of rational and experiential 
 </div>
 <div id="ref-ranyard_economic_2018" class="csl-entry" role="listitem">
 Ranyard, R. (Ed.). (2018). <em>Economic psychology</em>. <span>Hoboken, NJ Chichester, West Sussex</span>: <span>Wiley</span>.
+</div>
+<div id="ref-Raoelison_slow_2021" class="csl-entry" role="listitem">
+Raoelison, M., Boissin, E., Borst, G., &amp; De Neys, W. (2021). From slow to fast logic: The development of logical intuitions. <em>Thinking &amp; Reasoning</em>, <em>27</em>(4), 599–622. <a href="https://doi.org/10.1080/13546783.2021.1885488">https://doi.org/10.1080/13546783.2021.1885488</a>
 </div>
 <div id="ref-reber_implicit_1989" class="csl-entry" role="listitem">
 Reber, A. S. (1989). Implicit learning and tacit knowledge. <em>Journal of Experimental Psychology: General</em>, <em>118</em>(3), 219–235. <a href="https://doi.org/10.1037/0096-3445.118.3.219">https://doi.org/10.1037/0096-3445.118.3.219</a>
@@ -1444,9 +1503,8 @@ Wärneryd, K.-E. (2008). Economics and psychology: <span>Economic</span> psychol
       // Full list of configuration options available at:
       // https://revealjs.com/config/
       Reveal.initialize({
-'controlsAuto': true,
+'controlsAuto': false,
 'previewLinksAuto': false,
-'smaller': false,
 'pdfSeparateFragments': false,
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
@@ -1456,7 +1514,7 @@ Wärneryd, K.-E. (2008). Economics and psychology: <span>Economic</span> psychol
 'smaller': false,
  
         // Display controls in the bottom right corner
-        controls: false,
+        controls: true,
 
         // Help the user learn the controls by providing hints, for example by
         // bouncing the down arrow when they first encounter a vertical slide
@@ -1702,18 +1760,7 @@ Wärneryd, K.-E. (2008). Economics and psychology: <span>Economic</span> psychol
         }
         return false;
       }
-      const clipboard = new window.ClipboardJS('.code-copy-button', {
-        text: function(trigger) {
-          const codeEl = trigger.previousElementSibling.cloneNode(true);
-          for (const childEl of codeEl.children) {
-            if (isCodeAnnotation(childEl)) {
-              childEl.remove();
-            }
-          }
-          return codeEl.innerText;
-        }
-      });
-      clipboard.on('success', function(e) {
+      const onCopySuccess = function(e) {
         // button target
         const button = e.trigger;
         // don't keep focus
@@ -1745,11 +1792,50 @@ Wärneryd, K.-E. (2008). Economics and psychology: <span>Economic</span> psychol
         }, 1000);
         // clear code selection
         e.clearSelection();
+      }
+      const getTextToCopy = function(trigger) {
+          const codeEl = trigger.previousElementSibling.cloneNode(true);
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+      }
+      const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+        text: getTextToCopy
       });
-      function tippyHover(el, contentFn) {
+      clipboard.on('success', onCopySuccess);
+      if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+        // For code content inside modals, clipBoardJS needs to be initialized with a container option
+        // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+        const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+          text: getTextToCopy,
+          container: window.document.getElementById('quarto-embedded-source-code-modal')
+        });
+        clipboardModal.on('success', onCopySuccess);
+      }
+        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+        var mailtoRegex = new RegExp(/^mailto:/);
+          var filterRegex = new RegExp('/' + window.location.host + '/');
+        var isInternal = (href) => {
+            return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+        }
+        // Inspect non-navigation links and adorn them if external
+     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+        for (var i=0; i<links.length; i++) {
+          const link = links[i];
+          if (!isInternal(link.href)) {
+            // undo the damage that might have been done by quarto-nav.js in the case of
+            // links that we want to consider external
+            if (link.dataset.originalHref !== undefined) {
+              link.href = link.dataset.originalHref;
+            }
+          }
+        }
+      function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
         const config = {
           allowHTML: true,
-          content: contentFn,
           maxWidth: 500,
           delay: 100,
           arrow: false,
@@ -1759,8 +1845,17 @@ Wärneryd, K.-E. (2008). Economics and psychology: <span>Economic</span> psychol
           interactive: true,
           interactiveBorder: 10,
           theme: 'light-border',
-          placement: 'bottom-start'
+          placement: 'bottom-start',
         };
+        if (contentFn) {
+          config.content = contentFn;
+        }
+        if (onTriggerFn) {
+          config.onTrigger = onTriggerFn;
+        }
+        if (onUntriggerFn) {
+          config.onUntrigger = onUntriggerFn;
+        }
           config['offset'] = [0,0];
           config['maxWidth'] = 700;
         window.tippy(el, config); 
@@ -1774,7 +1869,11 @@ Wärneryd, K.-E. (2008). Economics and psychology: <span>Economic</span> psychol
           try { href = new URL(href).hash; } catch {}
           const id = href.replace(/^#\/?/, "");
           const note = window.document.getElementById(id);
-          return note.innerHTML;
+          if (note) {
+            return note.innerHTML;
+          } else {
+            return "";
+          }
         });
       }
       const findCites = (el) => {

@@ -8,8 +8,9 @@ csl: apa.csl
 format: 
   revealjs:
     slide-number: false
+    controls: true
     logo: "resources/images/ul-psychology-logos.png"
-    footer: "PS4168: Cillian McHugh - 4/10/23"
+    footer: "PS4168: Cillian McHugh - 4/10/24"
     theme: "resources/css/mytheme.scss"
     incremental: false
     chalkboard: 
@@ -18,7 +19,7 @@ editor: source
 ---
 
 
-
+## Overview{.smaller}
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
@@ -45,11 +46,9 @@ library(devtools)
 #emo::ji("cloud_with_rain")
 ```
 
-## Overview{.smaller}
+
 
 - Approaches to Studying Decision Making (revision)
-
-- Defining Rationality (revision)
 
 - Expected Value/Expected Utility Theory
   + Bayes Theorem
@@ -64,7 +63,10 @@ library(devtools)
 
 ## Recap
 
+- Describe 3 nudges
+  - ***and*** the theory behind them
 
+## Recap
 
 ### Homo Economicus?
 
@@ -648,9 +650,7 @@ $$p(y|x) = \frac{p(x|y)p(y)}{p(x)}$$
 
 :::
 
-## Booking a Holiday
-
-
+## Booking a Holiday 1
 
 - You have a chance to by a very cheap holiday to Italy, but you must today.
 - You have just recently taken an exam, but you don't know yet whether you've passed or failed.
@@ -658,19 +658,44 @@ $$p(y|x) = \frac{p(x|y)p(y)}{p(x)}$$
   + Don't buy the holiday.
   + Pay €5 so you can still buy the holiday at the cheap price in two days time.
 
-## Booking a Holiday
+## Booking a Holiday 1 Vote{.smaller}
 
+<iframe src="https://app.sli.do/event/vA4qnxWvojyGN48GM4yFeK/embed/polls/bc02a010-b754-40e8-a03d-84de6a11cdb2" width=100% height="400"></iframe>
 
+[https://app.sli.do/event/vA4qnxWvojyGN48GM4yFeK/embed/polls/bc02a010-b754-40e8-a03d-84de6a11cdb2](https://app.sli.do/event/vA4qnxWvojyGN48GM4yFeK/embed/polls/bc02a010-b754-40e8-a03d-84de6a11cdb2)
+
+Or go to Slido.com and enter code #3891787
+
+## Booking a Holiday 1 Results{.smaller}
+
+<iframe width="900" height="500" src="https://wall.sli.do/event/vA4qnxWvojyGN48GM4yFeK?section=b501f930-6044-41c0-aafd-b4db68fca3d3" frameborder="0" allow="autoplay; encrypted-media"></iframe>
+
+[https://wall.sli.do/event/vA4qnxWvojyGN48GM4yFeK?section=b501f930-6044-41c0-aafd-b4db68fca3d3](https://wall.sli.do/event/vA4qnxWvojyGN48GM4yFeK?section=b501f930-6044-41c0-aafd-b4db68fca3d3)
+
+## Booking a Holiday 2
 
 - You have a chance to by a very cheap holiday to Italy, but you must today.
 - You have just recently taken an exam, and found out that you've passed.
   + Buy the holiday.
   + Don't buy the holiday.
   + Pay €5 so you can still buy the holiday at the cheap price in two days time.
+  
+## Booking a Holiday 2 Vote{.smaller}
 
-## Booking a Holiday
+<iframe src="https://app.sli.do/event/j4eFry1KME4EkQnjQi9sjU/embed/polls/e30fb55e-b1db-4e97-aa52-c1bc5e505193" width=100% height="400"></iframe>
+
+[https://app.sli.do/event/j4eFry1KME4EkQnjQi9sjU/embed/polls/e30fb55e-b1db-4e97-aa52-c1bc5e505193](https://app.sli.do/event/j4eFry1KME4EkQnjQi9sjU/embed/polls/e30fb55e-b1db-4e97-aa52-c1bc5e505193)
+
+Or go to Slido.com and enter code #3891788
+
+## Booking a Holiday 2 Results{.smaller}
+
+<iframe width="900" height="500" src="https://wall.sli.do/event/j4eFry1KME4EkQnjQi9sjU?section=ed00b877-f3d9-4c4f-bc3c-54ab11a1c2f0" frameborder="0" allow="autoplay; encrypted-media"></iframe>
+
+[https://wall.sli.do/event/j4eFry1KME4EkQnjQi9sjU?section=ed00b877-f3d9-4c4f-bc3c-54ab11a1c2f0](https://wall.sli.do/event/j4eFry1KME4EkQnjQi9sjU?section=ed00b877-f3d9-4c4f-bc3c-54ab11a1c2f0)
 
 
+## Booking a Holiday 3
 
 - You have a chance to by a very cheap holiday to Italy, but you must today.
 - You have just recently taken an exam, and found out that you've failed.
@@ -678,11 +703,26 @@ $$p(y|x) = \frac{p(x|y)p(y)}{p(x)}$$
   + Don't buy the holiday.
   + Pay €5 so you can still buy the holiday at the cheap price in two days time.
 
+
+## Booking a Holiday 3 Vote{.smaller}
+
+<iframe src="https://app.sli.do/event/7Ts4GvWhiowWJoAhdHkvAb/embed/polls/def899ec-dda8-4941-8773-c9613793c4c9" width=100% height="400"></iframe>
+
+[https://app.sli.do/event/7Ts4GvWhiowWJoAhdHkvAb/embed/polls/def899ec-dda8-4941-8773-c9613793c4c9](https://app.sli.do/event/7Ts4GvWhiowWJoAhdHkvAb/embed/polls/def899ec-dda8-4941-8773-c9613793c4c9)
+
+Or go to Slido.com and enter code #3891789
+
+## Booking a Holiday 3 Results{.smaller}
+
+<iframe width="900" height="500" src="https://wall.sli.do/event/7Ts4GvWhiowWJoAhdHkvAb?section=3599c4f8-4037-46c1-a047-635e60beed19" frameborder="0" allow="autoplay; encrypted-media"></iframe>
+
+[https://wall.sli.do/event/7Ts4GvWhiowWJoAhdHkvAb?section=3599c4f8-4037-46c1-a047-635e60beed19](https://wall.sli.do/event/7Ts4GvWhiowWJoAhdHkvAb?section=3599c4f8-4037-46c1-a047-635e60beed19)
+
+
+
 ## Intuitive Politicians
 
 ### (making ourselves accountable)
-
-
 
 - We are accountable to “a variety of constituencies”.
 - Sometimes we must be prepared to offer explanations to maintain relationships, or maintain others' perceptions of us.
@@ -690,15 +730,11 @@ $$p(y|x) = \frac{p(x|y)p(y)}{p(x)}$$
 
 ## Intuitive Prosecutors
 
-
-
 - Certain contexts can trigger patterns of decision making that involve more punitive (or less lenient) actions.
 - @tetlock_people_2007 found that a situation where norms have been violated lead to a range of emotional and attributional effects on decision making.
 - Strong interactions with conservative vs. liberal beliefs.
 
 ## Intuitive theologians
-
-
 
 - Being an intuitive theologian means acting as though decisions should flow from some higher authority.
 - Strong ethical considerations can overwhelm base-rate information.
@@ -706,18 +742,13 @@ $$p(y|x) = \frac{p(x|y)p(y)}{p(x)}$$
 
 ## Activity
 
-
-
 - In Groups:
   + Please Identify an example when you acted as 
     - an intuitive politician
     - an intuitive prosecutor
-    - an theologian:
+    - an theologian
 
-## Activity ([link](https://docs.google.com/document/d/1899XhhRODvDfLYqRB21NyXYE_wMoJSei16X4YFgWzyo/edit?usp=sharing))
-
-<iframe width="1102" height="702" src="https://docs.google.com/document/d/1899XhhRODvDfLYqRB21NyXYE_wMoJSei16X4YFgWzyo/edit?usp=sharing?rm=minimal" frameborder="0"></iframe>
-
+# Dual-Process Approaches
 
 ## What are Dual-Processes?{.smaller}
 
@@ -735,8 +766,6 @@ $$p(y|x) = \frac{p(x|y)p(y)}{p(x)}$$
 
 ## Features of Dual-processes
 
-
-
 - Consciousness
 - Evolution
 - Functional
@@ -744,24 +773,26 @@ $$p(y|x) = \frac{p(x|y)p(y)}{p(x)}$$
 
 <br>
 
-- [@evans_dualprocessing_2008, p. 257]
+[@evans_dualprocessing_2008, p. 257]
 
-## Features of Dual-processes: Consciousness
-
+## Consciousness
 
 
 <img src="resources/images/DS_title.png"/>
 <img src="resources/images/DS_consciousness2.png"/>
 
-## Features of Dual-processes: Evolution
+[adapted from @evans_dualprocessing_2008, p. 257]
 
-
+## Evolution
 
 
 <img src="resources/images/DS_title.png"/>
 <img src="resources/images/DS_evolution.png"/>
 
-## Features of Dual-processes: Functional
+[adapted from @evans_dualprocessing_2008, p. 257]
+
+
+## Functional
 
 
 
@@ -769,7 +800,7 @@ $$p(y|x) = \frac{p(x|y)p(y)}{p(x)}$$
 <img src="resources/images/DS_title.png"/>
 <img src="resources/images/DS_functional.png"/>
 
-## Features of Dual-processes: Individual differences
+## Individual differences
 
 
 
@@ -869,6 +900,7 @@ $$p(y|x) = \frac{p(x|y)p(y)}{p(x)}$$
 - Separable systems/processes? [e.g., @mugg_dualprocess_2015]
 - A continuum? [e.g., @alos-ferrer_dual_2014]
 - Exclusivity? Switching? [@neys_advancing_2023]
+- Logical intuitions? [@deneys_bias_2012; @Ghasemi_Logical_2022; @Raoelison_slow_2021]
 - How do they work together?
 
 
@@ -902,9 +934,23 @@ Are you permitted to take the orange?
 
 [@bucciarelli_psychology_2008;@johnson-laird_how_2006]
 
+## Mental Models Vote{.smaller}
+
+<iframe src="https://app.sli.do/event/x67ZWSo4ipwLUYBWWXFoys/embed/polls/576e49ad-e785-4db5-8ee0-c003f8c9ec66" width=100% height="400"></iframe>
+
+[https://app.sli.do/event/x67ZWSo4ipwLUYBWWXFoys/embed/polls/576e49ad-e785-4db5-8ee0-c003f8c9ec66](https://app.sli.do/event/x67ZWSo4ipwLUYBWWXFoys/embed/polls/576e49ad-e785-4db5-8ee0-c003f8c9ec66)
+
+Or go to Slido.com and enter code #4161476
+
+## Mental Models Results
+
+
+<iframe width="900" height="500" src="https://wall.sli.do/event/x67ZWSo4ipwLUYBWWXFoys?section=5726a2d8-b67b-4054-ac3e-5012c7b1938a" frameborder="0" allow="autoplay; encrypted-media"></iframe>
+
+[https://wall.sli.do/event/x67ZWSo4ipwLUYBWWXFoys?section=5726a2d8-b67b-4054-ac3e-5012c7b1938a](https://wall.sli.do/event/x67ZWSo4ipwLUYBWWXFoys?section=5726a2d8-b67b-4054-ac3e-5012c7b1938a)
+
+
 ## Mental Models
-
-
 
 <br>
 
@@ -952,33 +998,11 @@ Are you permitted to take the orange?
 <img src="resources/images/apple_orange3.png"/>
 
 
-
-## Mental Models and Spatial Relations
-
-
-
-- *the knife is on the right of the fork, and the napkin is on the left of the knife*
-
-<br>
-
-[@byrne_mental_2015]
-
-
-## Mental Models and Spatial Relations
-
-
-
-> - *the knife is on the right of the fork, and the napkin is on the left of the knife*
-
-<br>
-
-<img src="resources/images/knife_fork.png"/>
-
 ## Mental Models and Incomplete Information
 
 
 
-- *All of the napkins are blue*
+> - *All of the napkins are blue*
 
 <br>
 
@@ -986,7 +1010,7 @@ Are you permitted to take the orange?
 
 
 
->- *All of the napkins are blue*
+- *All of the napkins are blue*
 
 <br>
 
@@ -997,7 +1021,7 @@ Are you permitted to take the orange?
 
 
 
-- *if there’s a lily in the vase then there’s a rose*
+> - *if there’s a lily in the vase then there’s a rose*
 
 <br>
 
@@ -1005,7 +1029,7 @@ Are you permitted to take the orange?
 
 
 
-> - *if there’s a lily in the vase then there’s a rose*
+- *if there’s a lily in the vase then there’s a rose*
 
 <br>
 
@@ -1015,19 +1039,31 @@ Are you permitted to take the orange?
 
 
 
-> - *if there’s a lily in the vase then there’s a rose*
+- *if there’s a lily in the vase then there’s a rose*
 
 <br>
 
 <img src="resources/images/lilly_rose2.png"/>
 
-## Mental Models and Alternative Possibilities
 
+## Mental Models and Spatial Relations
+
+> - *the knife is on the right of the fork, and the napkin is on the left of the knife*
+
+<br>
+
+[@byrne_mental_2015]
+
+
+## Mental Models and Spatial Relations
 
 
 - *the knife is on the right of the fork, and the napkin is on the left of the knife*
 
-- Is the fork is on the right of the napkin?
+<br>
+
+<img src="resources/images/knife_fork.png"/>
+
 
 ## Mental Models and Alternative Possibilities
 
@@ -1035,7 +1071,15 @@ Are you permitted to take the orange?
 
 > - *the knife is on the right of the fork, and the napkin is on the left of the knife*
 
-> - Is the fork is on the right of the napkin?
+> - Is the fork on the right of the napkin?
+
+## Mental Models and Alternative Possibilities
+
+
+
+- *the knife is on the right of the fork, and the napkin is on the left of the knife*
+
+- Is the fork on the right of the napkin?
 
 <img src="resources/images/napkin_fork_knife.png"/>
 <img src="resources/images/fork_napkin_knife.png"/>
@@ -1087,10 +1131,6 @@ Are you permitted to take the orange?
   + Evaluate the theories of decision Making discussed
     - listing strengths and limitations of each
   
-## Activity ([link](https://docs.google.com/document/d/1899XhhRODvDfLYqRB21NyXYE_wMoJSei16X4YFgWzyo/edit?usp=sharing))
-
-<iframe width="1102" height="702" src="https://docs.google.com/document/d/1899XhhRODvDfLYqRB21NyXYE_wMoJSei16X4YFgWzyo/edit?usp=sharing?rm=minimal" frameborder="0"></iframe>
-
 
 
 # References
