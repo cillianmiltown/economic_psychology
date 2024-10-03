@@ -23,34 +23,9 @@ editor: source
 
 
 
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-knitr::opts_chunk$set(include = FALSE)
-
-```
-
-
-
-
-```{r loadlibraries}
-#devtools::install_github("hadley/emo")
-#library(emo)
-library(ggplot2)
-library(devtools)
-```
-
-```{r}
-# http://emoji.muan.co/
-# https://github.com/hadley/emo
-#emo::ji("cloud_with_rain")
-```
-
 ## Overview{.smaller}
 
 - Approaches to Studying Decision Making (revision)
-
-- Defining Rationality (revision)
 
 - Expected Value/Expected Utility Theory
   + Bayes Theorem
@@ -63,6 +38,12 @@ library(devtools)
 
 - Mental Models
 
+## Recap
+
+- Describe 3 nudges
+  - ***and*** the theory behind them
+  
+  
 ## Recap
 
 
@@ -284,9 +265,7 @@ $$p(y|x) = \frac{p(x|y)p(y)}{p(x)}$$
   + Intuitive theologian
 
 
-## Booking a Holiday
-
-
+## Booking a Holiday 1
 
 - You have a chance to by a very cheap holiday to Italy, but you must today.
 - You have just recently taken an exam, but you don't know yet whether you've passed or failed.
@@ -294,25 +273,66 @@ $$p(y|x) = \frac{p(x|y)p(y)}{p(x)}$$
   + Don't buy the holiday.
   + Pay €5 so you can still buy the holiday at the cheap price in two days time.
 
-## Booking a Holiday
+## Booking a Holiday 1 Vote{.smaller}
 
+<iframe src="https://app.sli.do/event/vA4qnxWvojyGN48GM4yFeK/embed/polls/bc02a010-b754-40e8-a03d-84de6a11cdb2" width=100% height="400"></iframe>
 
+[https://app.sli.do/event/vA4qnxWvojyGN48GM4yFeK/embed/polls/bc02a010-b754-40e8-a03d-84de6a11cdb2](https://app.sli.do/event/vA4qnxWvojyGN48GM4yFeK/embed/polls/bc02a010-b754-40e8-a03d-84de6a11cdb2)
+
+Or go to Slido.com and enter code #3891787
+
+## Booking a Holiday 1 Results{.smaller}
+
+<iframe width="900" height="500" src="https://wall.sli.do/event/vA4qnxWvojyGN48GM4yFeK?section=b501f930-6044-41c0-aafd-b4db68fca3d3" frameborder="0" allow="autoplay; encrypted-media"></iframe>
+
+[https://wall.sli.do/event/vA4qnxWvojyGN48GM4yFeK?section=b501f930-6044-41c0-aafd-b4db68fca3d3](https://wall.sli.do/event/vA4qnxWvojyGN48GM4yFeK?section=b501f930-6044-41c0-aafd-b4db68fca3d3)
+
+## Booking a Holiday 2
 
 - You have a chance to by a very cheap holiday to Italy, but you must today.
 - You have just recently taken an exam, and found out that you've passed.
   + Buy the holiday.
   + Don't buy the holiday.
   + Pay €5 so you can still buy the holiday at the cheap price in two days time.
+  
+## Booking a Holiday 2 Vote{.smaller}
 
-## Booking a Holiday
+<iframe src="https://app.sli.do/event/j4eFry1KME4EkQnjQi9sjU/embed/polls/e30fb55e-b1db-4e97-aa52-c1bc5e505193" width=100% height="400"></iframe>
+
+[https://app.sli.do/event/j4eFry1KME4EkQnjQi9sjU/embed/polls/e30fb55e-b1db-4e97-aa52-c1bc5e505193](https://app.sli.do/event/j4eFry1KME4EkQnjQi9sjU/embed/polls/e30fb55e-b1db-4e97-aa52-c1bc5e505193)
+
+Or go to Slido.com and enter code #3891788
+
+## Booking a Holiday 2 Results{.smaller}
+
+<iframe width="900" height="500" src="https://wall.sli.do/event/j4eFry1KME4EkQnjQi9sjU?section=ed00b877-f3d9-4c4f-bc3c-54ab11a1c2f0" frameborder="0" allow="autoplay; encrypted-media"></iframe>
+
+[https://wall.sli.do/event/j4eFry1KME4EkQnjQi9sjU?section=ed00b877-f3d9-4c4f-bc3c-54ab11a1c2f0](https://wall.sli.do/event/j4eFry1KME4EkQnjQi9sjU?section=ed00b877-f3d9-4c4f-bc3c-54ab11a1c2f0)
 
 
+## Booking a Holiday 3
 
 - You have a chance to by a very cheap holiday to Italy, but you must today.
 - You have just recently taken an exam, and found out that you've failed.
   + Buy the holiday.
   + Don't buy the holiday.
   + Pay €5 so you can still buy the holiday at the cheap price in two days time.
+
+
+## Booking a Holiday 3 Vote{.smaller}
+
+<iframe src="https://app.sli.do/event/7Ts4GvWhiowWJoAhdHkvAb/embed/polls/def899ec-dda8-4941-8773-c9613793c4c9" width=100% height="400"></iframe>
+
+[https://app.sli.do/event/7Ts4GvWhiowWJoAhdHkvAb/embed/polls/def899ec-dda8-4941-8773-c9613793c4c9](https://app.sli.do/event/7Ts4GvWhiowWJoAhdHkvAb/embed/polls/def899ec-dda8-4941-8773-c9613793c4c9)
+
+Or go to Slido.com and enter code #3891789
+
+## Booking a Holiday 3 Results{.smaller}
+
+<iframe width="900" height="500" src="https://wall.sli.do/event/7Ts4GvWhiowWJoAhdHkvAb?section=3599c4f8-4037-46c1-a047-635e60beed19" frameborder="0" allow="autoplay; encrypted-media"></iframe>
+
+[https://wall.sli.do/event/7Ts4GvWhiowWJoAhdHkvAb?section=3599c4f8-4037-46c1-a047-635e60beed19](https://wall.sli.do/event/7Ts4GvWhiowWJoAhdHkvAb?section=3599c4f8-4037-46c1-a047-635e60beed19)
+
 
 ## Intuitive Politicians
 
@@ -349,10 +369,6 @@ $$p(y|x) = \frac{p(x|y)p(y)}{p(x)}$$
     - an intuitive politician
     - an intuitive prosecutor
     - an theologian:
-
-## Activity ([link](https://docs.google.com/document/d/1899XhhRODvDfLYqRB21NyXYE_wMoJSei16X4YFgWzyo/edit?usp=sharing))
-
-<iframe width="1102" height="702" src="https://docs.google.com/document/d/1899XhhRODvDfLYqRB21NyXYE_wMoJSei16X4YFgWzyo/edit?usp=sharing?rm=minimal" frameborder="0"></iframe>
 
 
 ## What are Dual-Processes?{.smaller}
@@ -505,6 +521,7 @@ $$p(y|x) = \frac{p(x|y)p(y)}{p(x)}$$
 - Separable systems/processes? [e.g., @mugg_dualprocess_2015]
 - A continuum? [e.g., @alos-ferrer_dual_2014]
 - Exclusivity? Switching? [@neys_advancing_2023]
+- Logical intuitions? [@deneys_bias_2012; @Ghasemi_Logical_2022; @Raoelison_slow_2021]
 - How do they work together?
 
 
@@ -588,28 +605,6 @@ Are you permitted to take the orange?
 ![mental_models](resources/images/apple_orange3.png)
 
 
-
-## Mental Models and Spatial Relations
-
-
-
-- *the knife is on the right of the fork, and the napkin is on the left of the knife*
-
-<br>
-
-[@byrne_mental_2015]
-
-
-## Mental Models and Spatial Relations
-
-
-
-> - *the knife is on the right of the fork, and the napkin is on the left of the knife*
-
-<br>
-
-![mental_models](resources/images/knife_fork.png)
-
 ## Mental Models and Incomplete Information
 
 
@@ -656,6 +651,32 @@ Are you permitted to take the orange?
 <br>
 
 ![mental_models](resources/images/lilly_rose2.png)
+
+
+
+
+## Mental Models and Spatial Relations
+
+
+
+- *the knife is on the right of the fork, and the napkin is on the left of the knife*
+
+<br>
+
+[@byrne_mental_2015]
+
+
+## Mental Models and Spatial Relations
+
+
+
+> - *the knife is on the right of the fork, and the napkin is on the left of the knife*
+
+<br>
+
+![mental_models](resources/images/knife_fork.png)
+
+
 
 ## Mental Models and Alternative Possibilities
 
@@ -720,11 +741,6 @@ Are you permitted to take the orange?
   + Evaluate the theories of decision Making discussed
     - listing strengths and limitations of each
   
-## Activity ([link](https://docs.google.com/document/d/1899XhhRODvDfLYqRB21NyXYE_wMoJSei16X4YFgWzyo/edit?usp=sharing))
-
-<iframe width="1102" height="702" src="https://docs.google.com/document/d/1899XhhRODvDfLYqRB21NyXYE_wMoJSei16X4YFgWzyo/edit?usp=sharing?rm=minimal" frameborder="0"></iframe>
-
-
 
 # References
 
