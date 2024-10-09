@@ -363,7 +363,7 @@ knitr::opts_chunk$set(include = FALSE)
 
 
 
-- In groups, Identify the underlying theory behind the nudges discussed
+- Identify the underlying theory behind the nudges discussed
   - What heuristics/biases do they harness?
   - Is there any other concept covered that might be relevant? <br> (some may not have been covered yet, but you can guess)
 
