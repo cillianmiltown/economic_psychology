@@ -1,0 +1,724 @@
+---
+title: "Lecture 3"
+subtitle: "Nudges"
+author: "Dr Cillian McHugh"
+institute: "Economic Psychology"
+bibliography: "resources/bib/My Library.bib"
+csl: apa.csl
+format: 
+  revealjs:
+    slide-number: false
+    controls: true
+    logo: "resources/images/ul-psychology-logos.png"
+    footer: "Cillian McHugh"
+    theme: "resources/css/mytheme.scss"
+    chalkboard: 
+      buttons: true
+editor: source
+---
+
+
+
+
+
+## Nudge [@thaler_nudge_2008]
+
+
+
+```{css, echo=FALSE}
+.scrollable {
+  overflow-y: auto;
+  height: 100%;
+}
+```
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(include = FALSE)
+
+```
+
+![](resources/images/nudge.png "Nudge"){.lightbox height=480px}
+
+
+
+## Overview
+
+- Background
+  - Recap on heuristics/biases
+  - Brief overview of dual-systems
+  
+- Nudges: Examples and Definition
+
+- Nudges and Theory
+
+- In-class Activity
+
+## Recap on last week!
+
+- List 7 biases
+    - and be able to explain 3
+- List 5 Heuristics
+    - and be able to explain 2
+      
+
+# Background
+
+## Background
+
+
+![](resources/images/tables.png "Tables"){.lightbox height=420px}
+
+
+<font size=4.5>[taken from @thaler_nudge_2008, p. 18; see also @shepard_mind_1990]</font size>
+
+## Background
+
+
+![](resources/images/tables2.png "Tables"){.lightbox height=420px}
+
+
+<font size=4.5>[taken from @thaler_nudge_2008, p. 17; see also @shepard_mind_1990]</font size>
+
+## From Biases to Nudges
+
+
+
+- Recall that a bias is: 
+  - "An inclination towards a position or conclusion" <font size=4.5>[@reber_penguin_2001, p. 88]</font size>
+
+  - A tendency to:
+      + act in a particular way
+      + make judgements in a particular way
+
+  - An error in reasoning <font size=4.5>[@eysenck_cognitive_2005, p. 512]</font size>
+
+- In some cases a bias is the "failure" of a heuristic judgement
+  - A heuristic applied in the wrong context
+
+
+## From Biases to Nudges
+
+
+
+- Heuristics and biases linked by similarities in underlying cognitive mechanisms
+
+- Errors in applying heuristics manifest as biases
+  - These biases led to the discovery of specific heuristics
+      - (e.g., representativeness / availability)
+  
+- Study of heuristics and biases informed our understanding of how people think
+  - <font color="5284bd">Dual-process</font>/<font color="2FAACE">Dual-systems</font> Theories
+
+## Dual-processes / Dual-systems
+
+
+
+## Dual-processes / Dual-systems
+
+
+![](resources/images/dualsystems.png "Dual Systems"){.lightbox}
+
+
+<font size=4.5>[taken from @thaler_nudge_2008, p. 20]</font size>
+
+
+
+## Dual-processes / Dual-systems
+
+
+::: {.r-stack}
+
+![](resources/images/homer_spock1.png "Homer and Spock"){.fragment .lightbox}
+
+
+
+![](resources/images/homer_spock2.png "Homer and Spock"){.fragment .lightbox}
+:::
+
+## Harnessing our Biases{.incremental}
+
+:::{.incremental}
+
+
+- "System 1" &#8594; Heuristics
+
+  - (mis-applied) Heuristics &#8594; Biases
+
+      - Biases &#8594; poor choices (sometimes) &#x1F61F; 
+
+- ***But*** understanding biases &#8594; *Development of an Intervention*
+  
+  - *Intervention* &#8594; Good choices &#x1f60a;
+
+- Specific type of intervention:
+  - Nudge
+
+:::
+
+## What is a Nudge?
+
+
+
+
+
+## What is a Nudge?
+
+
+
+![](resources/images/fly1.jpg "Fly"){.lightbox}
+
+
+## Fly in the Urinal{.smaller}
+
+:::{.incremental}
+- Schiphol Airport in Amsterdam
+- Fly etched into each urinal
+- "Spillage" reduced by $80\%$ [@thaler_nudge_2008]
+
+<br>
+
+- Variations in other airports
+  - A soccer goal equipped with a ball during the World Cup
+
+<br>
+
+- "Fly in the urinal has become the perfect exemplar of a nudge"<br>[@thaler_misbehaving_2015, p. 252]
+:::
+
+## Defining Nudges{.smaller}
+
+:::{.incremental}
+- "A nudge is some small feature in the environment that attracts our attention and influences behavior" [@thaler_misbehaving_2015, p. 252]
+
+
+- "any aspect of the choice architecture that alters people’s behavior in a predictable way
+  - without forbidding any options
+  - or significantly changing their economic incentives" [@thaler_nudge_2008, p. 6]
+  
+- Must be easy and cheap to avoid
+
+- Nudges are not mandates:
+  - Putting the fruit at eye level counts as a nudge
+  - Banning junk food does not  <br>[@thaler_nudge_2008, p. 6]
+
+:::
+
+## Defining Nudges and "Better Choices"
+
+- Libertarian Paternalism
+
+- Paternalism but "free to choose"
+
+- Aim of Libertarian Paternalism is to:
+  - “influence choices in a way that will make choosers better off, <font color="#990000">***as judged by themselves***</font>”
+  
+<br><br>[@thaler_nudge_2008, p. 5; @thaler_misbehaving_2015, p. 251; @thaler_libertarian_2003]
+
+## Hobs
+
+
+![](resources/images/hob1.jpg "Hobs"){.lightbox height=480px}
+
+
+## Hobs
+
+
+![](resources/images/hob2.jpg "Hobs"){.lightbox height=480px}
+
+
+## Hobs
+
+
+![](resources/images/hob3.jpg "Hobs"){.lightbox height=480px}
+
+## Arrangement of Knobs on a Cooker
+
+
+
+::: {.r-stack}
+![](resources/images/cooker1.png){.fragment .lightbox}
+
+![](resources/images/cooker2.png){.fragment .lightbox}
+
+![](resources/images/cooker3.png){.fragment .lightbox height=480px}
+:::
+
+
+<font size=4.5>[@thaler_nudge_2008, p. 86]</font>
+
+## Arrangement of Knobs on a Cooker
+
+
+
+![](resources/images/home_hob1.jpg){.lightbox  height=420px}
+
+
+<font size=4.5>(Cillian's personal frustrations)</font>
+
+## Arrangement of Knobs on a Cooker{.scrollable}
+
+
+::::{.columns}
+
+:::{.column width="40%"}
+
+![](resources/images/home_hob2.jpg){.lightbox}
+
+
+:::
+
+:::{.column width="35%"}
+
+
+
+<font size=4.5>(Cillian's personal frustrations)</font>
+
+
+:::
+
+::::
+
+
+## Doors{.scrollable}
+
+<blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:a4ggcdmlzocecvzf534wlinu/app.bsky.feed.post/3l52bfoxwlz2i" data-bluesky-cid="bafyreiaynzu5m3xaiytxrh73aqwkqmbjlj7wiubsxo24ie7nnnqbdqo2ou"><p lang="en">They really didn’t want me to enjoy myself today 😂<br><br><a href="https://bsky.app/profile/did:plc:a4ggcdmlzocecvzf534wlinu/post/3l52bfoxwlz2i?ref_src=embed">[image or embed]</a></p>&mdash; Andrew D Wilson (<a href="https://bsky.app/profile/did:plc:a4ggcdmlzocecvzf534wlinu?ref_src=embed">@adw.bsky.social</a>) <a href="https://bsky.app/profile/did:plc:a4ggcdmlzocecvzf534wlinu/post/3l52bfoxwlz2i?ref_src=embed">September 26, 2024 at 9:51 AM</a></blockquote><script async src="https://embed.bsky.app/static/embed.js" charset="utf-8"></script>
+
+[@wilsonBluesky2024]
+
+
+## Doors{.scrollable}
+
+![](resources/images/doors.png "doors"){.lightbox height=420px}
+
+[@wilsonBluesky2024]
+
+## Donating organs
+
+
+
+|Country|Rate of Donation|
+|-------|:----------------:|
+|USA|28%|
+|France|99.9%|
+|Britain|17%|
+|Hungary|99.9%|
+
+
+## Donating organs
+
+
+
+|Default Rule|Country|Rate of Donation|
+|-------|-------|:----------:|
+|Explicit Consent|USA|28%|
+|Presumed Consent|France|99.9%|
+|Explicit Consent|Britain|17%|
+|Presumed Consent|Hungary|99.9%|
+
+<br>
+
+- Opt-in vs opt-out <br><font size=4.5>[@gigerenzer_moral_2008]</font>
+
+## Maintaining Standards
+
+
+
+![](resources/images/checklist.jpg "checklist"){.lightbox height=420px}
+
+
+
+## Checklists{.smaller}
+
+:::{.incremental}
+
+- Slightly more invasive than other nudges<br><font size=4.5>(may not even count as a nudge)</font>
+- Hospitals introduced a surgical checklist during major operations
+- 8 Cities Globally: Ifakara (Tanzania), Manila (Philippines), New Delhi (India), Amman (Jordan), Seattle (United States of America), Toronto (Canada), London (United Kingdom) and Auckland (New Zealand)
+- Data were from $7,688$ patients
+  - $3,733$ before and $3,955$ after checklist was introduced
+- Incidences of major complications fell by $\frac{1}{3}$ ($11\%$ to $7\%$)
+- $40\%$ Drop in in-patient deaths ($1.5\%$ to $0.8\%$)
+<br><font size=4.5>[@weiser_effect_2010;@epstein_who_2009;@gawande_checklist_2010;@haynes_surgical_2009]</font>
+
+:::
+  
+# Nudges and Theory
+
+## Nudges and Theory
+
+:::{.incremental}
+
+- Nudges are designed to exploit features of our decision making
+  - e.g., appealing to loss aversion in persuasion
+- The remaining nudges described will be linked with specific theoretical underpinnings
+  - Exploiting specific biases
+  - Tailored for specific heuristics
+  - Appealing to other features of decision making
+  
+:::
+
+## Activity
+
+
+
+- In groups, Identify the underlying theory behind the nudges discussed
+  - What heuristics/biases do they harness?
+  - Is there any other concept covered that might be relevant? <br> (some may not have been covered yet, but you can guess)
+
+- Fly; Cooker; Donating organs; Checklist
+
+
+## Activity (possible answers)
+
+- Fly (focusing attention: combating "mindless"/"autopilot" behaviour)
+- Cooker (path of least resistance / cognitive ease)
+- Donating organs (Default heuristic)
+- Checklist (combating "mindless"/"autopilot" choosing)
+
+## Principles relevant to Nudges {.smaller}
+
+- Choice architecture [@thaler_choice_2012]
+- Path of least resistance
+- Heuristics: Anchoring / Availability / Representativeness
+- Biases: Optimism / over-confidence / Status-quo bias
+- Loss aversion
+- Emotion / affect / mood
+  - *Hot* vs *cold* decisions 
+- "mindless" or "autopilot" choosing
+- (Mental Accounting)
+
+
+## Choice Architecture
+
+- **Choice architecture** is the "context in which people make decisions" <br>[@thaler_nudge_2008, p. 3]
+
+- Everything matters
+
+- No such thing as "neutral design"
+
+
+[@thaler_choice_2012]
+ 
+ 
+## Choice Architecture
+
+- 6 principles of good choice architecture
+  - iNcentives
+  - Understand mappings
+  - Defaults
+  - Give feedback
+  - Expect error
+  - Structure complex choices
+
+[@thaler_choice_2012]
+
+
+## Path of Least Resistance (Defaults){.smaller}
+
+::::{.columns}
+
+:::{.column width="65%"}
+
+
+- Easier choice options are preferable to more difficult options
+- Consider the placing of items near a till in a shop
+- Sweets and crisps could be replaced with healthy snacks/fruit
+  - This would lead to people choosing healthy snacks more often
+- Too many choices makes decisions more difficult
+
+
+:::
+
+:::{.column width="35%"}
+
+![](resources/images/shop_counter.jpg "Sweets in the shop"){.lightbox}
+
+
+:::
+
+::::
+
+
+
+
+## Heuristics: Anchoring{.smaller}
+
+
+
+- Recall Anchoring (heuristics lecture)
+- Taking information salient in the environment and using it to *anchor* your decisions
+
+- e.g., rigged wheel of fortune: 10 or 65
+  - Is the percentage of African nations among UN members larger or smaller than the number you just wrote?
+  - What is your best guess of the percentage of African nations in the UN?
+
+- Mean response 25% and 45% (depending on 10 or 65)
+
+
+  - In groups/individually:
+      - Identify potential applications of anchoring <br> (1-2 mins)
+      
+
+
+## Heuristics: Anchoring Applications
+
+
+
+- Charities looking for donations:
+  - Suggested amounts serve as an anchor
+  - €100, €250, €1,000, €5,000
+  <br>
+  - *vs* €50, €75, €100, and €150
+
+- The more you ask for the more you get
+  - e.g., court cases for compensation/damages 
+
+## Heuristics: Availability
+
+
+
+- the process of judging frequency by “the ease with which instances come to mind”<br><font size=4.5>[@kahneman_thinking_2011, p. 128]</font size>
+
+- Remind people of a salient (negative) incident and they will over-estimate the risk
+  - and you can sell more insurance policies
+
+
+## Heuristics: Combatting Availability{.smaller}
+
+
+::::{.columns}
+
+:::{.column width="77%"}
+
+
+- Availability has been blamed for alcohol misuse
+  - "everyone does it"
+      - leading to more people drinking
+
+
+- Large scale educational campaign in Montana stressed that majority of citizens do not drink
+  - “*Most (81 percent) of Montana college students have four or fewer alcoholic drinks each week.*”
+  - “*Most (70 percent) of Montana teens are tobacco free.*”
+- The strategy has produced big improvements in the accuracy of social perceptions 
+  - also statistically significant decreases in smoking<br><font size=4.5>[@thaler_nudge_2008, p. 68; @linkenbachMontanaModelDevelopment2003; @linkenbachMOSTUsAre2003]</font>
+
+
+:::
+
+:::{.column width="23%"}
+
+![](resources/images/alcohol.png "alcohol"){.lightbox width=450px}
+
+
+
+
+
+![](resources/images/cigarettes2.jpeg "cigarettes"){.lightbox width=450px}
+
+:::
+
+::::
+
+
+
+
+## Heuristics: Representativeness
+
+
+
+<br>
+
+
+- judging a situation based on how similar the prospects are to the prototypes the person holds in his or her mind.
+
+
+## Map of London: V-1 rocket strikes (WWII)
+
+
+![](resources/images/london_bombs.png "london"){.lightbox width=420px}
+
+
+<font size=4.5>[@thaler_nudge_2008, pp. 28-29; @gilovich_how_1993]</font>
+
+## Heuristics: Representativeness
+
+:::{.incremental}
+
+- Seeing patterns when they are not there
+
+- bombings appear to be around the Thames, and in the north west<br>(German spies in the blank spaces?)
+  - but they are random
+
+- Illusion of a "Hot hand" or a "Streak" in basketball <br>[@thaler_nudge_2008; @gilovich_hot_1985]
+
+:::
+
+## Optimism
+
+
+
+- Optimism bias / over-confidence bias
+  - lead to the planning fallacy
+- Activity:
+  - Identify strategies that may combat the planning fallacy
+      - does any of your strategies count as a *nudge*
+
+## Status-quo Bias
+
+::::{.columns}
+
+:::{.column width="80%"}
+
+- "strong tendency to go along with the status-quo or default option" <br><font size=4.5>[@thaler_nudge_2008, p. 8]</font>
+
+- New cell phone: default options
+
+- Private companies or public officials think that one policy produces better outcomes, they can greatly influence the outcome by choosing it as the default<br><font size=4.5>[@thaler_nudge_2008, p. 8]</font>
+
+- Saving money
+
+
+
+:::
+
+:::{.column width="20%"}
+
+![](resources/images/phone_settings.jpg "phone"){.lightbox width=450px}
+
+
+
+:::
+
+::::
+
+
+## Loss Aversion
+
+
+
+- Advertising framed in terms of losses
+
+<br> 
+
+- e.g., “drink more water”:
+  - “you sweat in the heat: you lose water.”
+
+- Any other examples?
+
+## Emotions / "hot" vs "cold"
+
+
+
+- In a few weeks we'll learn that we are very bad at predicting how we will feel "in the moment"
+  - Affective forecasting error
+
+- How do we resist the urge to:
+    - snack?
+
+- Problems with smoking/alcohol
+- Safe sex
+- Excessive borrowing/Gambling?
+
+## Emotions / "hot" vs "cold"
+
+
+
+- Alter the "choice architecture"
+  - Don't keep snacks in the fridge
+      - Dinner party bowl of nuts [@thaler_nudge_2008, p. 40]
+  - Don't go shopping on an empty stomach
+
+## "mindless" or "autopilot" choosing
+
+
+:::{.incremental}
+
+- Accidentally driving towards work (on a Saturday)
+- Stale popcorn
+- Re-filling soup bowls <br><font size=4.5>[@thaler_nudge_2008, p. 43; @lopezVisualCuesFood2024]</font>
+
+:::
+
+# Other Nudges
+
+## Other Nudges
+
+
+![](resources/images/escalator.jpeg "escalator"){.lightbox height=480px}
+<img src="resources/images/escalator.jpeg" height=480px />
+
+
+## Other Nudges
+
+
+![](resources/images/water_dripping.jpeg "water"){.lightbox height=480px}
+
+
+
+## Other Nudges
+
+
+![](resources/images/bananas.jpeg "bananas"){.lightbox height=480px}
+
+
+
+## Other Nudges
+
+
+![](resources/images/cigarettes1.jpeg "cigarettes"){.lightbox height=480px}
+
+
+## Other Nudges
+
+![](resources/images/smoking_area.jpeg "cigarettes"){.lightbox height=480px}
+
+
+
+
+
+
+# Further Reading 
+
+## Further Reading{.smaller}
+
+
+
+- Thaler, R. H., Sunstein, C. R., & Balz, J. P. (2012). Choice Architecture. In E. Shafir (Ed.), *The Behavioral Foundations of Public Policy.* Rochester, NY: Social Science Research Network. [(uploaded to Brightspace)](https://learn.ul.ie/content/enforced/46950-PS4168_SEM1_2024_5/1.Resources/Thaler%20et%20al_2012_Choice%20Architecture.pdf)
+
+- Thaler, R. H., & Sunstein, C. R. (2008). *Nudge: improving decisions about health, wealth, and happiness.* New Haven: Yale University Press.
+
+- Thaler, R. H., & Sunstein, C. R. (2003). Libertarian Paternalism. *American Economic Review*, 93(2), 175–179. [(uploaded to Brightspace)](https://learn.ul.ie//content/enforced/46950-PS4168_SEM1_2024_5/1.Resources/Thaler_Sunstein_2003_Libertarian%20Paternalism.pdf)
+
+- Thaler, R. H. (2015). *Misbehaving: The Making of Behavioral Economics.* W.W. Norton.
+
+
+
+# Activity
+
+## Nudging Ethics and Applications
+
+
+
+- Consider the potential ethical implications of nudging
+- Identify potential candidates for a *novel* nudge
+  <br><font size=4.5>(7-10 mins)</font>
+
+## Avoiding the Ethical Problems
+
+
+
+- Aim of Libertarian Paternalism is to:
+  - “influence choices in a way that will make choosers better off, <font color="#990000">***as judged by themselves***</font>” <br><font size=4.5>[@thaler_nudge_2008, p. 5; @thaler_misbehaving_2015, p. 251; @thaler_libertarian_2003]</font>
+
+
+# References
+
+## References{.smaller}
+
+\noindent
+\vspace{-2em}
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+\setlength{\parskip}{7.5pt}
