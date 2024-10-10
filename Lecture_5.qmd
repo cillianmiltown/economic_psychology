@@ -7,9 +7,10 @@ bibliography: "resources/bib/My Library.bib"
 csl: apa.csl
 format: 
   revealjs:
-    slide-number: false
+    slide-number: true
+    controls: true
     logo: "resources/images/ul-psychology-logos.png"
-    footer: "PS4168: Cillian McHugh - 11/10/24"
+    footer: "PS4168: Cillian McHugh - 4/10/24"
     theme: "resources/css/mytheme.scss"
     incremental: false
     chalkboard: 

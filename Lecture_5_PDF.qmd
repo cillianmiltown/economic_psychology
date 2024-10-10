@@ -79,7 +79,11 @@ knitr::opts_chunk$set(include = FALSE)
 
 ## Game Theory
 
-[https://www.youtube.com/embed/AJ5aIvjNgao?si=RWOztM-oMpazRJZ_](https://www.youtube.com/embed/AJ5aIvjNgao?si=RWOztM-oMpazRJZ_)
+[https://youtu.be/_68xT0JoyWk?si=v6l-oeWcG3mriXn6](https://youtu.be/_68xT0JoyWk?si=v6l-oeWcG3mriXn6)
+
+[https://youtu.be/tL6qFg8Z5WI?si=eT7-MSvS5t9mhjaV](https://youtu.be/tL6qFg8Z5WI?si=eT7-MSvS5t9mhjaV)
+
+
 
 ## Key Concepts in Todays lecture / Overview
 
@@ -122,6 +126,10 @@ knitr::opts_chunk$set(include = FALSE)
 
 # The Prisoner Dilemma
 
+## The Prisoner Dilemma (The Wire)
+
+[https://www.youtube.com/embed/AJ5aIvjNgao?si=RWOztM-oMpazRJZ_](https://www.youtube.com/embed/AJ5aIvjNgao?si=RWOztM-oMpazRJZ_)
+
 ## The Prisoner Dilemma
 
   
@@ -140,8 +148,7 @@ knitr::opts_chunk$set(include = FALSE)
 ## The Prisoner Dilemma
 
   
-
-[https://app.sli.do/event/aDybaWhRyTBynrEGdd5vPX](https://app.sli.do/event/aDybaWhRyTBynrEGdd5vPX)
+[https://app.sli.do/event/5N4aaJgfUJQAesFWHva6Q8](https://app.sli.do/event/5N4aaJgfUJQAesFWHva6Q8)
 
 
 ## The Prisoner Dilemma
@@ -341,9 +348,13 @@ This leaves `<confess><confess>` as the ***Rational*** outcome
 
 ## [Driving on the Left/Right](https://www.youtube.com/embed/q52RfAiZlws)
 
+[https://www.youtube.com/embed/q52RfAiZlws](https://www.youtube.com/embed/q52RfAiZlws)
+
 <iframe width="1009" height="757" src="https://www.youtube.com/embed/q52RfAiZlws" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ## [A Beautiful Mind](https://www.youtube.com/embed/2d_dtTZQyUM)
+
+[https://www.youtube.com/embed/2d_dtTZQyUM](https://www.youtube.com/embed/2d_dtTZQyUM)
 
 <iframe width="1009" height="757" src="https://www.youtube.com/embed/2d_dtTZQyUM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
@@ -579,6 +590,8 @@ Mixed Strategy Nash Equilibrium:
 
 ## Backward Induction
 
+
+![](resources/images/backward_induction.png "backward induction"){.lightbox height="400px"}
 
 <img src="images/backward_induction.png" height="400px"  />
 
