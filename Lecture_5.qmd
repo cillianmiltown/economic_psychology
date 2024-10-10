@@ -9,13 +9,18 @@ format:
   revealjs:
     slide-number: false
     logo: "resources/images/ul-psychology-logos.png"
-    footer: "PS4168: Cillian McHugh - 11/10/23"
+    footer: "PS4168: Cillian McHugh - 11/10/24"
     theme: "resources/css/mytheme.scss"
     incremental: false
     chalkboard: 
       buttons: true
 editor: source
 ---
+
+
+
+
+## Game Theory
 
 
 
@@ -50,10 +55,16 @@ knitr::opts_chunk$set(include = FALSE)
 
 ```
 
+<iframe width="900" height="600" src="https://www.youtube.com/embed/_68xT0JoyWk?si=5DBOUHaVCM9T4ErR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+
 ## Game Theory
 
 
-<iframe width="900" height="600" src="https://www.youtube.com/embed/AJ5aIvjNgao?si=RWOztM-oMpazRJZ_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="900" height="600" src="https://www.youtube.com/embed/tL6qFg8Z5WI?si=2vBYQGa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
 
 
 ## Key Concepts in Todays lecture / Overview
@@ -93,13 +104,18 @@ knitr::opts_chunk$set(include = FALSE)
   - Provides a framework for modelling and predicting behaviour in Social situations of 
       - cooperation
       - coordination
-      - conflict <br>[@dowling_modern_2007; @vonneuman_theory_1944; @vonneuman_theories_1947]
+      - conflict
+
+<br>[@dowling_modern_2007; @vonneuman_theory_1944; @vonneuman_theories_1947]
 
 # The Prisoner Dilemma
 
+
+## The Prisoner Dilemma (The Wire)
+
+<iframe width="900" height="600" src="https://www.youtube.com/embed/AJ5aIvjNgao?si=RWOztM-oMpazRJZ_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## The Prisoner Dilemma{.smaller}
-
-
 
 - Two suspects (e.g., <font color="#6666ff">Bob</font> and <font color="#ff4c4c">Susan</font>) are arrested on suspicion of a serious crime
 
@@ -113,15 +129,20 @@ knitr::opts_chunk$set(include = FALSE)
 
 [adapted from @dowling_modern_2007; originally devised by Merrill Flood and Melvin Dresher in 1950 see @dowling_modern_2007, p. 107]
 
+## The Prisoner Dilemma{.smaller}
+
+<iframe src="https://app.sli.do/event/5N4aaJgfUJQAesFWHva6Q8" width=100% height="400" frameBorder="0" allow="clipboard-write" title="Slido"></iframe>
+
+[https://app.sli.do/event/5N4aaJgfUJQAesFWHva6Q8](https://app.sli.do/event/5N4aaJgfUJQAesFWHva6Q8)
+
+
+Or go to Slido.com and enter code #1970847
+
+
+
 ## The Prisoner Dilemma
 
-
-
-[https://app.sli.do/event/aDybaWhRyTBynrEGdd5vPX](https://app.sli.do/event/aDybaWhRyTBynrEGdd5vPX)
-
-## The Prisoner Dilemma
-
-<iframe width="900" height="600" src="https://wall.sli.do/event/aDybaWhRyTBynrEGdd5vPX?section=7aa51d4d-d1d3-4db7-8a71-f02fcd57b123" frameborder="0" allow="autoplay; encrypted-media"></iframe>
+<iframe width="900" height="600" src="https://wall.sli.do/event/5N4aaJgfUJQAesFWHva6Q8?section=841fc04c-6edc-4558-ba4c-33b06b2cc12e" frameborder="0" allow="autoplay; encrypted-media"></iframe>
 
 
 
@@ -2054,7 +2075,7 @@ Mixed Strategy Nash Equilibrium:
 ## Backward Induction
 
 
-<img src="resources/images/backward_induction.png" height="400px"  />
+![](resources/images/backward_induction.png "backward induction"){.lightbox height="400px"}
 
 <font size=4.5>[taken from @dowling_modern_2007, p. 118]</font size>
 
