@@ -82,6 +82,11 @@ knitr::opts_chunk$set(include = FALSE)
 
 - In-class Activities
 
+## Recap on last week!
+
+- Identify different <font color="B93B8F">Normative</font> Theories covered, and some <font color="2FAACE">Behavioural</font> Theories covered
+- List some features of System 1 vs System 2
+
 ## Recap on last week!{.smaller}
 
 - Definition of Rationality?
