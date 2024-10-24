@@ -8,8 +8,9 @@ csl: apa.csl
 format: 
   revealjs:
     slide-number: false
+    controls: true
     logo: "resources/images/ul-psychology-logos.png"
-    footer: "PS4168: Cillian McHugh - 18/10/23"
+    footer: "PS4168: Cillian McHugh - 25/10/24"
     theme: "resources/css/mytheme.scss"
     incremental: false
     chalkboard: 
@@ -27,15 +28,7 @@ knitr::opts_chunk$set(include = FALSE)
 
 ```
 
-## Housekeeping
 
-- Assignment 1 Deadline today at 4pm
-- No Lecture in Week 9
-  - (deadline for Assignment 2)
-- Content for Weeks 7, 8, and 9 moved
-  - (to weeks 6, 7, and 8 respectively)
-
-      
 
 <script> 
 var looper;
@@ -261,17 +254,7 @@ function rotateAnimation(el,speed){
 ## Study 1 Results - DV1
 
 
-
-<img src="resources/images/mood_table1.png" />
-
-<font size=4.5>[taken from @schwarz_mood_1983, p. 517]</font size>
-
-
-## Study 1 Results - DV1
-
-
-
-<img src="resources/images/mood_table1b.png" />
+![](resources/images/mood_table1.png "Results"){.lightbox}
 
 <font size=4.5>[taken from @schwarz_mood_1983, p. 517]</font size>
 
@@ -280,7 +263,7 @@ function rotateAnimation(el,speed){
 
 
 
-<img src="resources/images/mood_table1c.png" />
+![](resources/images/mood_table1b.png "Results"){.lightbox}
 
 <font size=4.5>[taken from @schwarz_mood_1983, p. 517]</font size>
 
@@ -289,7 +272,17 @@ function rotateAnimation(el,speed){
 
 
 
-<img src="resources/images/mood_table1d.png" />
+![](resources/images/mood_table1c.png "Results"){.lightbox}
+
+
+<font size=4.5>[taken from @schwarz_mood_1983, p. 517]</font size>
+
+
+## Study 1 Results - DV1
+
+
+![](resources/images/mood_table1d.png "Results"){.lightbox}
+
 
 <font size=4.5>[taken from @schwarz_mood_1983, p. 517]</font size>
 
@@ -297,8 +290,7 @@ function rotateAnimation(el,speed){
 ## Study 1 Results DV3
 
 
-
-<img src="resources/images/mood_table2.png" />
+![](resources/images/mood_table2.png "Results"){.lightbox}
 
 <font size=4.5>[taken from @schwarz_mood_1983, p. 517]</font size>
 
@@ -402,8 +394,8 @@ Likert scale Qs (1-10)
 ## Study 2 Results
 
 
+![](resources/images/mood_table3b.png "Results"){.lightbox}
 
-<img src="resources/images/mood_table3b.png" height=420px />
 
 <font size=4.5>[taken from @schwarz_mood_1983, p. 520]</font size>
 
@@ -439,7 +431,8 @@ In Groups:
 
 . . .
 
-<img src="resources/images/phineas_gage.jpg" height=420px />
+
+![](resources/images/phineas_gage.jpg "Phinneas Gage"){.lightbox}
 
 ## Phineas Gage
 
@@ -453,8 +446,6 @@ In Groups:
   
 ## Elliot{.smaller}
 
-:::{.incremental}
-
 - Pre-frontal damage (tumor; removed)
   - radical change of personality
   - No longer capable of holding a job
@@ -467,11 +458,8 @@ In Groups:
 - at best Elliot was lazy, and at worst a malingerer
 [@damasio_descartes_1994, p. 34]
 
-:::
 
 ## Elliot (contd){.smaller}
-
-:::{.incremental}
 
 - "pleasant and intriguing, thoroughly charming but **emotionally contained**"
 - "diplomatic composure"
@@ -486,11 +474,10 @@ In Groups:
 - skills unchanged
 - flawless memory for his life story[@damasio_descartes_1994, pp. 34-35] 
 
-:::
+
 
 ## Elliot (contd){.smaller}
 
-:::{.incremental}
 
 - needed prompting to get started in the morning and prepare to go to work
 - at work he was
@@ -501,11 +488,9 @@ In Groups:
       - might interrupt the activity he had engaged
       - turn to something he found more captivating <br>[@damasio_descartes_1994, pp. 34-35]
 
-:::
 
 ## Elliot (contd){.smaller}
 
-:::{.incremental}
 
 - e.g., reading and classifying documents of a given client
   - understood task, and significance of the material
@@ -519,11 +504,8 @@ In Groups:
 
 - might spend a whole afternoon deliberating on which principle categorization should be applied <font size=4.5>[@damasio_descartes_1994, pp. 34-35]</font>
 
-:::
-
 ## Elliot's Poor decisions
 
-:::{.incremental}
 
 - Tried new pastimes and business ventures
 - Collecting things
@@ -535,7 +517,6 @@ In Groups:
 
 - Puzzling to family and clinicians alike
 
-:::
 
 ## Iowa Gambling Task{.smaller}
 
@@ -892,11 +873,14 @@ Dan is a student council representative at his school. This semester he is in ch
 
 ## Incidental Disgust 4
 
-<img src="resources/images/floppy.png" />
+
+![](resources/images/floppy.png "incedental disgust"){.lightbox}
+
 
 ## Incidental Disgust 4
 
-<img src="resources/images/worms.png" />
+
+![](resources/images/worms.png "incedental disgust"){.lightbox}
 
 ## Incidental Disgust 4
 
@@ -916,9 +900,6 @@ Dan is a student council representative at his school. This semester he is in ch
 
 - Moral Judgment as Categorization [MJAC, @mchugh_moral_2022]
   - see [here](https://journals.sagepub.com/doi/full/10.1177/1745691621990636)
-
-
-
 
 
 # Future Decisions
@@ -942,8 +923,7 @@ Dan is a student council representative at his school. This semester he is in ch
 ## Making Choices
 
 
-
-<img src="resources/images/tv_stations.png" />
+![](resources/images/tv_stations.png "TV Stations"){.lightbox}
 
 <font size=4.5>[@iyengar_art_2011]</font size>
 
@@ -951,16 +931,16 @@ Dan is a student council representative at his school. This semester he is in ch
 ## Making Choices
 
 
+![](resources/images/jars.png "choices"){.lightbox}
 
-<img src="resources/images/jars.png" />
 
 <font size=4.5>[@iyengar_art_2011]</font size>
 
 ## Making Choices
 
 
+![](resources/images/jars_explained.png "choices"){.lightbox}
 
-<img src="resources/images/jars_explained.png" />
 
 <font size=4.5>[@iyengar_art_2011]</font size>
 
@@ -969,24 +949,20 @@ Dan is a student council representative at his school. This semester he is in ch
 ## The role of Emotions in Decision Making
 
 
+![](resources/images/decision_emotion_fig.png "Emotion"){.lightbox}
 
-<img src="resources/images/decision_emotion_fig.png" />
 
 <font size=4.5>[taken from @loewenstein_role_2003, p. 621]</font size>
 
 ## The role of Emotions in Decision Making
 
-
-
-<img src="resources/images/decision_emotion_figc.png" />
+![](resources/images/decision_emotion_figc.png "Emotion"){.lightbox}
 
 <font size=4.5>[taken from @loewenstein_role_2003, p. 621]</font size>
 
 ## The role of Emotions in Decision Making
 
-
-
-<img src="resources/images/decision_emotion_figd.png" />
+![](resources/images/decision_emotion_figd.png "Emotion"){.lightbox}
 
 <font size=4.5>[taken from @loewenstein_role_2003, p. 621]</font size>
 
@@ -1029,6 +1005,7 @@ Dan is a student council representative at his school. This semester he is in ch
   - Participants consumed a portion of *ice cream* or *plain yogurt* while listening to music on 8 consecutive days
   - At the beginning of the participants were asked to predict how they would feel about the experience over time
   - Then to rate the experience during each of the 8 sessions<br>[@loewenstein_wouldn_1999, p. 9; @kahneman_predicting_1990; @kahneman_predicting_1992]
+
 :::
 
 ## Feelings Towards Objects (food 1){.smaller}
@@ -1137,8 +1114,6 @@ Dan is a student council representative at his school. This semester he is in ch
 
 ## Changes in Health Status
 
-
-
 - People over-predict level of fear in a situation [@rachman_overprediction_1988]
   - People with a phobia [@rachman_match_1986]
   - People with a panic disorder [@rachman_experimental_1988]
@@ -1148,9 +1123,8 @@ Dan is a student council representative at his school. This semester he is in ch
 
 ## Behaviour under temptation or duress
 
-
-
 - See @wilson_affective_2005
+  - [available here](https://learn.ul.ie//content/enforced/46950-PS4168_SEM1_2024_5/1.Resources/Wilson_Gilbert_2005_Affective_Forecasting.pdf)
 
 ## Gilbert Video Interview
 
@@ -1165,14 +1139,13 @@ Dan is a student council representative at his school. This semester he is in ch
 
 ## Further Reading
 
-
-
 - @loewenstein_wouldn_1999
+  - [available here](https://learn.ul.ie//content/enforced/46950-PS4168_SEM1_2024_5/1.Resources/Loewenstein_Schkade_1999_Wouldnt_It_Be_Nice.pdf)
 
 <br>
 
 - @wilson_affective_2005
-
+  - [available here](https://learn.ul.ie//content/enforced/46950-PS4168_SEM1_2024_5/1.Resources/Wilson_Gilbert_2005_Affective_Forecasting.pdf)
 
 
 # Assignment 2
@@ -1200,9 +1173,9 @@ For (2) and (3) please include a hypothetical payoff matrix.
 ---------------------------------------------------------------------------------
 Component                                                        Percentage
 --------------------------------------------------------------- -----------------
-Clear demonstration of an in depth understanding of the topic     40\% 
+Clear demonstration of an in depth understanding of the topic     30\% 
 
-Critical thinking                                                 20\% 
+Critical thinking                                                 30\% 
 
 Competence in the identification and application of relevant      20\% 
 research methods

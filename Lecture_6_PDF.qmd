@@ -19,41 +19,6 @@ format:
 editor: source
 ---
 
-## Housekeeping
-
-- Assignment 1 Deadline today at 4pm
-- No Lecture in Week 9
-  - (deadline for Assignment 2)
-- Content for Weeks 7, 8, and 9 moved
-  - (to weeks 6, 7, and 8 respectively)
-
-      
-
-<script> 
-var looper;
-var degrees = 0;
-function rotateAnimation(el,speed){
-	var elem = document.getElementById(el); 
-	if(navigator.userAgent.match("Chrome")){
-		elem.style.WebkitTransform = "rotate("+degrees+"deg)";
-	} else if(navigator.userAgent.match("Firefox")){
-		elem.style.MozTransform = "rotate("+degrees+"deg)";
-	} else if(navigator.userAgent.match("MSIE")){
-		elem.style.msTransform = "rotate("+degrees+"deg)";
-	} else if(navigator.userAgent.match("Opera")){
-		elem.style.OTransform = "rotate("+degrees+"deg)";
-	} else {
-		elem.style.transform = "rotate("+degrees+"deg)";
-	}
-	looper = setTimeout('rotateAnimation(\''+el+'\','+speed+')',speed);
-	degrees++;
-	if(degrees > 359){
-		degrees = 1;
-	}
-	document.getElementById("status").innerHTML = "rotate("+degrees+"deg)";
-}
-</script>
-
 <style type="text/css">
     table.table-style-one {
         font-size:36px;
@@ -1114,7 +1079,7 @@ Dan is a student council representative at his school. This semester he is in ch
 - Other subjects evaluated how matched changes had affected their well-being over the last decade
   - **Environmental**: change in local air pollution; rain forest destruction; restriction of sport-fishing due to pollution; and recovery of certain endangered species
   - **Social**: increase in number of coffee shops and cafes; increase in number of television channels and selection of videotapes; reduced risk of nuclear war; and increased risk of AIDS
-  - **Personal**: change in free time; development of pain-causing chronic health condition; change in household income; and increase in body weight [@loewenstein_wouldn_1999, p. 12; @loewenstein_predicting_1997a]
+  - **Personal**: change in free time; development of pain-causing chronic health condition; change in household income; and increase in body weight [@loewenstein_wouldn_1999, p. 12; @loewenstein_predicting_1997]
 
 
 
@@ -1162,12 +1127,14 @@ Dan is a student council representative at his school. This semester he is in ch
 
 <iframe width="900" height="600" src="https://www.youtube.com/embed/mFPOLlp04d0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-
+[https://www.youtube.com/embed/mFPOLlp04d0](https://www.youtube.com/embed/mFPOLlp04d0)
 
 ## Schwartz TED Talk
 
 <iframe width="900" height="600" src="https://www.youtube.com/embed/VO6XEQIsCoM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
+
+[https://www.youtube.com/embed/VO6XEQIsCoM](https://www.youtube.com/embed/VO6XEQIsCoM)
 
 ## Further Reading
 
@@ -1203,21 +1170,16 @@ For (2) and (3) please include a hypothetical payoff matrix.
 
 
 
----------------------------------------------------------------------------------
-Component                                                        Percentage
---------------------------------------------------------------- -----------------
-Clear demonstration of an in depth understanding of the topic     40\% 
+Clear demonstration of an in depth understanding of the topic:    30\% 
 
-Critical thinking                                                 20\% 
+Critical thinking:                                                 30\% 
 
-Competence in the identification and application of relevant      20\% 
-research methods
+Competence in the identification and application of relevant research methods:       20\% 
 
-Originality/Novelty                                               20\% 
 
-References, Citations, and Formatting                              0\% (potential penalty of 1 sub-grade)
+Originality/Novelty:                                               20\% 
 
----------------------------------------------------------------------------------
+References, Citations, and Formatting:                    0\% (potential subgrade penalty)
 
 
 
