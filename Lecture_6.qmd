@@ -1025,6 +1025,37 @@ Dan is a student council representative at his school. This semester he is in ch
 
 ## Feelings Towards Objects (food 2){.smaller}
 
+
+::::{.columns}
+
+:::{.column width="45%"}
+
+![](resources/images/snacks.png "Results"){.lightbox}
+:::
+
+:::{.column width="45%}
+
+<iframe src="https://app.sli.do/event/fhCDnn1XAzLDRvepMeKSpw" width=100% height="400" frameBorder="0" allow="clipboard-write" title="Slido"></iframe>
+
+[https://app.sli.do/event/fhCDnn1XAzLDRvepMeKSpw](https://app.sli.do/event/fhCDnn1XAzLDRvepMeKSpw)
+
+
+Or go to Slido.com and enter code #3372626
+
+:::
+
+::::
+
+## Food:
+
+
+<iframe width="900" height="600" src="https://wall.sli.do/event/fhCDnn1XAzLDRvepMeKSpw?section=49ff94a9-a8ef-4eb9-881a-d87b00644259" frameborder="0" allow="autoplay; encrypted-media"></iframe>
+
+
+
+
+## Feelings Towards Objects (food 2){.smaller}
+
 - *Simultaneous* vs *Sequential* Choice
 
 
