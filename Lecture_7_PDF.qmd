@@ -86,8 +86,6 @@ knitr::opts_chunk$set(include = FALSE)
 ```
 
 
-- Assignment 1 Feedback
-
 - Recap on Loss Aversion
 
 - Background to Endowment Effects
@@ -95,18 +93,6 @@ knitr::opts_chunk$set(include = FALSE)
 - Studying Endowment Effects
 
 - Activity
-
-## Assignment 1 Feedback{.smaller}
-
-### Strengths
-- Really good overall
-- Clear understanding demonstrated 
-- Really creative examples
-
-### Areas for Improvement
-- Critical thinking
-  - Have you evaluated the strength of evidence *for* and *against* your position
-  - What alternative approaches could also explain findings/phenomena
 
 
 
@@ -267,7 +253,7 @@ knitr::opts_chunk$set(include = FALSE)
 ## Our Results
 
 
-
+[https://cillianmacaodh.shinyapps.io/week_8/](https://cillianmacaodh.shinyapps.io/week_8/)
 
 <iframe width="1102" height="550" src="https://cillianmacaodh.shinyapps.io/week_8/" frameborder="0" ></iframe>
 
@@ -275,25 +261,11 @@ knitr::opts_chunk$set(include = FALSE)
 
 ## Thaler's Results
 
-
-
-------------------------
-     WTP        WTA
--- ---------- ----------
-     ?         ?
-
-------------------------
+WTP = 200
+WTA = 10,000
 
 ## Thaler's Results
 
-
-
-------------------------
-     WTP        WTA
--- ---------- ----------
-    \$200      \$10,000
-
-------------------------
 
 - Huge difference between WTP and WTA 
   - The amount people were willing to pay to eliminate an identical existing risk (WTP)
