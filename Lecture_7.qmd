@@ -9,7 +9,7 @@ format:
   revealjs:
     slide-number: false
     logo: "resources/images/ul-psychology-logos.png"
-    footer: "PS4168: Cillian McHugh - 25/10/23"
+    footer: "PS4168: Cillian McHugh - 1/11/24"
     theme: "resources/css/mytheme.scss"
     incremental: false
     chalkboard: 
@@ -18,7 +18,18 @@ editor: source
 ---
 
 
+
+
 ## Overview
+
+
+
+```{css, echo=FALSE}
+.scrollable {
+  overflow-y: auto;
+  height: 100%;
+}
+```
 
 <script>
 var looper;
@@ -82,9 +93,6 @@ knitr::opts_chunk$set(include = FALSE)
 
 ```
 
-
-- Assignment 1 Feedback
-
 - Recap on Loss Aversion
 
 - Background to Endowment Effects
@@ -92,18 +100,6 @@ knitr::opts_chunk$set(include = FALSE)
 - Studying Endowment Effects
 
 - Activity
-
-## Assignment 1 Feedback{.smaller}
-
-### Strengths
-- Really good overall
-- Clear understanding demonstrated 
-- Really creative examples
-
-### Areas for Improvement
-- Critical thinking
-  - Have you evaluated the strength of evidence *for* and *against* your position
-  - What alternative approaches could also explain findings/phenomena
 
 
 
@@ -113,12 +109,20 @@ knitr::opts_chunk$set(include = FALSE)
 - What is the Somatic Marker Hypothesis?
 - Identify examples of emotions influencing decisions
 
+## Last week{.scrollable}
 
-## [Before we Start](https://docs.google.com/forms/d/e/1FAIpQLSfUlhwwnwn32eCLB13Pzq5IU6PsLwknvHDsFTPcyiqjQIXcfQ/viewform?usp=sf_link)
+![](resources/images/mood_table2.png "Results"){.lightbox}
 
-[https://docs.google.com/forms/d/e/1FAIpQLSfUlhwwnwn32eCLB13Pzq5IU6PsLwknvHDsFTPcyiqjQIXcfQ/viewform?usp=sf_link](https://docs.google.com/forms/d/e/1FAIpQLSfUlhwwnwn32eCLB13Pzq5IU6PsLwknvHDsFTPcyiqjQIXcfQ/viewform?usp=sf_link)
+- Expected effects were not significant
+- Three of the four cells were in the predicted direction
+
+## Before we Start{.scrollable}
+
+
 
 <iframe width="1102" height="600" src="https://docs.google.com/forms/d/e/1FAIpQLSfUlhwwnwn32eCLB13Pzq5IU6PsLwknvHDsFTPcyiqjQIXcfQ/viewform?embedded=true" frameborder="0" ></iframe>
+
+[https://docs.google.com/forms/d/e/1FAIpQLSfUlhwwnwn32eCLB13Pzq5IU6PsLwknvHDsFTPcyiqjQIXcfQ/viewform?usp=sf_link](https://docs.google.com/forms/d/e/1FAIpQLSfUlhwwnwn32eCLB13Pzq5IU6PsLwknvHDsFTPcyiqjQIXcfQ/viewform?usp=sf_link)
 
 ## Risk of Death{.smaller}
 
@@ -136,16 +140,13 @@ knitr::opts_chunk$set(include = FALSE)
 
 ## Travel Mugs
 
-
-
-<img src="resources/images/travel_mug.jpeg" height="420px" />
+![](resources/images/travel_mug.jpeg "mugs"){.lightbox}
 
 
 ## Battery Pack
 
 
-
-<img src="resources/images/powerbank.jpg" height="420px"  />
+![](resources/images/powerbank.jpg "powerbank"){.lightbox}
 
 
 # Loss Aversion
@@ -167,7 +168,7 @@ knitr::opts_chunk$set(include = FALSE)
 
 
 
-<img src="resources/images/Screenshot_20180919_190001.png" height="420px" width="500px" align="center" />
+![](resources/images/Screenshot_20180919_190001.png "value function"){.lightbox}
 
 [@kahneman_prospect_1979, p. 279]
 
@@ -176,7 +177,7 @@ knitr::opts_chunk$set(include = FALSE)
 
 
 
-<img src="resources/images/golf.png" height="420px" />
+![](resources/images/golf.png "Golf"){.lightbox}
 
 [@pope_tiger_2011, p. 134]
 
@@ -261,8 +262,7 @@ knitr::opts_chunk$set(include = FALSE)
 
 
 
-
-<iframe width="1102" height="550" src="https://cillianmacaodh.shinyapps.io/week_8/" frameborder="0" ></iframe>
+<iframe width="900" height="600" src="https://cillianmacaodh.shinyapps.io/week_8/" title="Shiny" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 
@@ -300,8 +300,8 @@ knitr::opts_chunk$set(include = FALSE)
 
 
 
+![](resources/images/wtp_wta.png "WTPWTA"){.lightbox}
 
-<img src="resources/images/wtp_wta.png"  />
 
 <font size=4.5>[@kahneman_experimental_1990, p. 1327; see also @kahneman_experimental_1990, p. 56]</font size>
 
@@ -332,8 +332,8 @@ knitr::opts_chunk$set(include = FALSE)
 ## Travel Mugs
 
 
+![](resources/images/travel_mug.jpeg "SupplyDemand"){.lightbox}
 
-<img src="resources/images/travel_mug.jpeg" height="350px" />
 
 - Decide your price
 - [Calculate the Mean](https://www.easycalculation.com/statistics/mean-median-mode.php) for each side of the room
@@ -350,8 +350,8 @@ knitr::opts_chunk$set(include = FALSE)
 ## Paired Market
 
 
+![](resources/images/powerbank.jpg "SupplyDemand"){.lightbox}
 
-<img src="resources/images/powerbank.jpg" height=350px />
 
 - Decide your price (without conferring)
 - "open the market" &#8594; Raise your hand if you successfully sold your product
@@ -360,7 +360,8 @@ knitr::opts_chunk$set(include = FALSE)
 
 
 
-<img src="resources/images/highlighters.jpeg"  />
+![](resources/images/highlighters.jpeg "SupplyDemand"){.lightbox}
+
 
 
 ## Open Market
@@ -420,10 +421,10 @@ knitr::opts_chunk$set(include = FALSE)
 
 
 
-<img src="resources/images/supply_demand.png"  />
+![](resources/images/supply_demand.png "SupplyDemand"){.lightbox}
 
 
-## Hypotheses for the Current Studies
+## Hypotheses for the Current Studies{.smaller}
 
 :::{.incremental}
 
@@ -542,6 +543,7 @@ At a price of $8.25 I will sell ______ I will not sell ______
 
 
 
+![](resources/images/supply_demand.png "SupplyDemand"){.lightbox}
 <img src="resources/images/supply_demand.png"  />
 
 ## Supply and Demand Curve: Mugs
@@ -552,8 +554,8 @@ At a price of $8.25 I will sell ______ I will not sell ______
 ## Supply and Demand Curve: Mugs
 
 
+![](resources/images/end_fig2_1.png "Results"){.lightbox}
 
-<img src="resources/images/end_fig2_1.png" height="400px" />
 
 <font size=4.5>[@kahneman_experimental_1990, p. 1333]</font>
 
@@ -621,18 +623,53 @@ your decision by marking an X in the appropriate column.
 ## Study 2 Results
 
 
+![](resources/images/table23a.png "Results"){.lightbox}
 
-<img src="resources/images/table23a.png"  />
 
 <font size=4.5>[@kahneman_experimental_1990]</font>
 
-## Study 2 Results
+
+## Study 2 Results{.smallest}
 
 
 
-<img src="resources/images/table23b.png" height="420px" />
+::::{.columns}
+
+:::{.column width="65%"}
+
+![](resources/images/table23b.png "Results"){.lightbox}
 
 <font size=4.5>[@kahneman_experimental_1990]</font>
+
+:::
+
+:::{.column width="35%" .incremental}
+
+:::{.fragment}
+
+<br>
+
+<font size=5>$V/V$*~mugs~ = $2.5/9.5$ = $.26$</font>
+
+:::
+
+
+
+:::{.fragment}
+
+<br><br>
+
+<font size=5>$V/V$*~binoculars~ = $3.5/9.5$ = $.37$</font>
+
+:::
+
+
+
+:::
+
+::::
+
+
 
 # Study 3
 
@@ -652,9 +689,44 @@ your decision by marking an X in the appropriate column.
 
 
 
-<img src="resources/images/table24a.png"  />
+::::{.columns}
+
+:::{.column width="65%"}
+
+![](resources/images/table24a.png "Results"){.lightbox}
 
 <font size=4.5>[@kahneman_experimental_1990, p. 63]</font>
+
+:::
+
+:::{.column width="35%" .incremental}
+
+:::{.fragment}
+
+<br>
+
+<font size=5>$V/V$*~induced~ = $5/6.5$ = $.77$</font>
+
+:::
+
+
+
+:::{.fragment}
+
+<br><br>
+
+<font size=5>$V/V$*~pen~ = $1.75/6.5$ = $.27$</font>
+
+:::
+
+
+
+:::
+
+::::
+
+
+
 
 # Study 4
 
@@ -673,9 +745,43 @@ your decision by marking an X in the appropriate column.
 
 
 
-<img src="resources/images/table24b.png"  />
+
+
+::::{.columns}
+
+:::{.column width="65%"}
+
+![](resources/images/table24b.png "Results"){.lightbox}
+
 
 <font size=4.5>[@kahneman_experimental_1990]</font>
+
+:::
+
+:::{.column width="35%" .incremental}
+
+:::{.fragment}
+
+<font size=5>$V/V$*~induced~ = $15.5/18.5$ = $.82$</font>
+
+:::
+
+
+
+:::{.fragment}
+
+<br><br>
+
+<font size=5>$V/V$*~mug~ = $6/18.3$ = $.33$</font>
+
+:::
+
+
+
+:::
+
+::::
+
 
 # Study 5: Misrepresentation
 
@@ -734,7 +840,7 @@ be selected at random"
 
 - Mugs
   - 14.5 expected exchanges (random price)
-  - only 6 trades
+  - only 6 trades ($V/V$* = $.41$)
 - Median selling price $5.75 (*M* = $5.78)
 - Median buying price $2.25 (*M* = $2.21)
 

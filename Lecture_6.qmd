@@ -89,6 +89,16 @@ function rotateAnimation(el,speed){
 
 ## Recap on last week!
 
+
+
+```{css, echo=FALSE}
+.scrollable {
+  overflow-y: auto;
+  height: 100%;
+}
+```
+
+
 - Examples of:
   - Strict Dominance
   - Nash Equilibrium
@@ -115,7 +125,7 @@ function rotateAnimation(el,speed){
 
 # The Pervasiveness of Peceptions of Emotion
 
-## Perceiving Emotional Content
+## Perceiving Emotional Content{.scrollable}
 
 [@heider_experimental_1944]
 
@@ -786,7 +796,7 @@ In Groups:
 - 7 point Likert scale rating of various behaviours<br><font size=4.5>[@schnall_disgust_2008]</font>
 
 
-## Incidental Disgust 1
+## Incidental Disgust 1{.smaller}
 
 
 
