@@ -147,7 +147,7 @@ knitr::opts_chunk$set(include = FALSE)
 ## Battery Pack
 
 
-![](resources/images/powerbank.jpg "powerbank"){.lightbox}
+![](resources/images/powerbank.jpg "powerbank"){.lightbox width=400}
 
 
 # Loss Aversion
@@ -164,12 +164,12 @@ knitr::opts_chunk$set(include = FALSE)
 
 :::
 
-## Loss Aversion
+## Loss Aversion{.smallest}
 
 
 
 
-![](resources/images/Screenshot_20180919_190001.png "value function"){.lightbox}
+![](resources/images/Screenshot_20180919_190001.png "value function"){.lightbox width=60%}
 
 [@kahneman_prospect_1979, p. 279]
 
@@ -178,7 +178,7 @@ knitr::opts_chunk$set(include = FALSE)
 
 
 
-![](resources/images/golf.png "Golf"){.lightbox}
+![](resources/images/golf.png "Golf"){.lightbox width=60%}
 
 [@pope_tiger_2011, p. 134]
 
@@ -333,7 +333,7 @@ knitr::opts_chunk$set(include = FALSE)
 ## Travel Mugs
 
 
-![](resources/images/travel_mug.jpeg "SupplyDemand"){.lightbox}
+![](resources/images/travel_mug.jpeg "SupplyDemand"){.lightbox width=80%}
 
 
 - Decide your price
@@ -351,7 +351,7 @@ knitr::opts_chunk$set(include = FALSE)
 ## Paired Market
 
 
-![](resources/images/powerbank.jpg "SupplyDemand"){.lightbox}
+![](resources/images/powerbank.jpg "SupplyDemand"){.lightbox width=400}
 
 
 - Decide your price (without conferring)
@@ -545,7 +545,6 @@ At a price of $8.25 I will sell ______ I will not sell ______
 
 
 ![](resources/images/supply_demand.png "SupplyDemand"){.lightbox}
-<img src="resources/images/supply_demand.png"  />
 
 ## Supply and Demand Curve: Mugs
 
