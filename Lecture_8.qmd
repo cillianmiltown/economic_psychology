@@ -8,8 +8,9 @@ csl: apa.csl
 format: 
   revealjs:
     slide-number: false
+    controls: true
     logo: "resources/images/ul-psychology-logos.png"
-    footer: "PS4168: Cillian McHugh - 1/11/23"
+    footer: "PS4168: Cillian McHugh - 8/11/24"
     theme: "resources/css/mytheme.scss"
     incremental: false
     chalkboard: 
@@ -105,7 +106,8 @@ knitr::opts_chunk$set(include = FALSE)
 
 :::{.column width="35%"}
 
-<img src="resources/images/money_in_card.jpg" align="right" height="420px" class="img-frame"/>
+
+![](resources/images/money_in_card.jpg "Card"){.lightbox align="right" height="420px"}
 
 :::
 
@@ -153,7 +155,8 @@ knitr::opts_chunk$set(include = FALSE)
 
 
 
-<img src="resources/images/Screenshot_20180919_190001.png" height="420px" width="420px" align="center" />
+![](resources/images/Screenshot_20180919_190001.png "Value Function"){.lightbox height="420px"}
+
 
 [@kahneman_prospect_1979, p. 279]
 
@@ -163,7 +166,8 @@ knitr::opts_chunk$set(include = FALSE)
 
 
 
-<img src="resources/images/value_function.png" height="420px" width="420px" align="center" />
+![](resources/images/value_function.png "Value Function"){.lightbox height="420px"}
+
 
 [@camerer_advances_2003, p. 636]
 
@@ -175,7 +179,8 @@ knitr::opts_chunk$set(include = FALSE)
 
 
 
-<img src="resources/images/value_function_b.png"height="420px" width="420px" align="center" />
+![](resources/images/value_function_b.png "Value Function"){.lightbox height="420px"}
+
 
 [@camerer_advances_2003, p. 636]
 
@@ -185,9 +190,7 @@ knitr::opts_chunk$set(include = FALSE)
 ## The Value Function (revisited)
 
 
-
-
-<img src="resources/images/value_function_c.png" height="420px" width="420px" align="center" />
+![](resources/images/value_function_c.png "Value Function"){.lightbox height="420px"}
 
 [@camerer_advances_2003, p. 636]
 
@@ -210,8 +213,7 @@ knitr::opts_chunk$set(include = FALSE)
 
 ## Reference Point
 
-
-<img src="resources/images/value_function_b.png"height="420px" width="420px" align="center" />
+![](resources/images/value_function_b.png "Value Function"){.lightbox height="420px"}
 
 ## The Value Function and Mental Accounting (2)
 
@@ -221,7 +223,7 @@ knitr::opts_chunk$set(include = FALSE)
 
 - The gain function is **concave** and the loss function is **convex**
 
-- the difference between $\$10$ and $\$20$ seems bigger than the difference between $\$1000$ and $\$1010$
+- the difference between $10 and $20 seems bigger than the difference between $1000 and $1010
   - (irrespective of the sign)
   - (the Weber-Fechner law)
 :::
@@ -238,7 +240,7 @@ knitr::opts_chunk$set(include = FALSE)
 
 - ***Loss-aversion***
 
-- Losing $\$100$ hurts more than gaining $\$100$ yields pleasure:
+- Losing $100 hurts more than gaining $100 yields pleasure:
 
 <br>
 
@@ -250,8 +252,8 @@ knitr::opts_chunk$set(include = FALSE)
 
 ## Loss aversion
 
+![](resources/images/value_function_b.png "Value Function"){.lightbox height="420px" aligh="center"}
 
-<img src="resources/images/value_function_b.png"height="420px" width="420px" align="center" />
 
 # Components of Mental Accounting
 
@@ -380,80 +382,99 @@ knitr::opts_chunk$set(include = FALSE)
 
 ## Decision Frames
 
+::: {.fragment fragment-index=2}
+
+::::{.columns}
+
+:::{.column width="60%"}
+
+![](resources/images/jacket.jpg "Jacket"){.lightbox height="300px" align="left"}
+
+:::
+
+:::{.column width="40%"}
+
+![](resources/images/calculator.jpeg "calculator "){.lightbox height="300px" align="right"}
+
+:::
+
+::::
+
+:::
 
 
-<br>
-
-<br>
-
-<br>
-<br>
-<br>
-<br>
 
 - Economic theory generally assumes that people make decisions using the comprehensive account
 
-> - ***but***
+
+::: {.fragment fragment-index=1}
+
+- ***but***
+
+:::
+
+
+
 
 ## Decision Frames
 
 
+::::{.columns}
 
-<img src="resources/images/jacket.jpg" height="300px" align="left" />
-<img src="resources/images/calculator.jpeg" height="300px"  align="right" />
+:::{.column width="60%"}
 
-<br>
+![](resources/images/jacket.jpg "Jacket"){.lightbox height="300px" align="left"}
 
-<br>
+€120
 
-<br>
-<br>
-<br>
-<br>
+:::
 
-- Economic theory generally assumes that people make decisions using the comprehensive account
+:::{.column width="40%"}
 
-- ***but***
+![](resources/images/calculator.jpeg "calculator "){.lightbox height="300px" align="right"}
 
-## Decision Frames (left)
+€15 / €10
 
+:::
 
-
-<img src="resources/images/jacket.jpg" height="300px" align="left" />
-<img src="resources/images/calculator.jpeg" height="300px"  align="right" />
-
-- €125&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; €15
-
-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;€10
-
-<br>
-<br>
-<br>
-
-- <font size=4.9>Imagine that you are about to purchase a jacket for €125 and a calculator for
-€15. The calculator salesman informs you that the calculator you wish to buy is
-on sale for €10 at the other branch of the store, located 20 minutes drive away.
-Would you make the trip to the other store?</font><font size=4.5> [@tversky_framing_1981, p. 459] </font>
-
-## Decision Frames (right)
+::::
 
 
 
-<img src="resources/images/jacket.jpg" height="300px" align="left" />
-<img src="resources/images/calculator.jpeg" height="300px"  align="right" />
+## Decision Frames
 
-- €15 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; €125
 
-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;€120
+::::{.columns}
 
-<br>
-<br>
-<br>
+:::{.column width="60%"}
 
-- <font size=4.9>Imagine that you are about to purchase a jacket for €15 and a calculator for
+![](resources/images/jacket.jpg "Jacket"){.lightbox height="300px" align="left"}
+
+€15
+
+:::
+
+:::{.column width="40%"}
+
+![](resources/images/calculator.jpeg "calculator "){.lightbox height="300px" align="right"}
+
+€125 / €120
+
+:::
+
+::::
+
+
+
+
+::: {.fragment fragment-index=1}
+
+<font size=4.9>Imagine that you are about to purchase a jacket for €15 and a calculator for
 €125. The calculator salesman informs you that the calculator you wish to buy is
 on sale for €120 at the other branch of the store, located 20 minutes drive away.
 Would you make the trip to the other store?</font><font size=4.5> [@tversky_framing_1981, p. 459]</font>
+
+:::
 
 
 ## Decision Frames{.smaller}
@@ -598,37 +619,26 @@ is steepest at the origin, the utility of a small gain can exceed the utility of
 ::::{.columns}
 
 :::{.column width="50%"}
-<img src="resources/images/beer_in_the_sun.jpg" align="center" width="450px" class="img-frame"/>
+
+
+![](resources/images/beer_in_the_sun.jpg "Beer"){.lightbox height="300px" align="left"}
+
+
 <br><font size=4.5>[taken from @thaler_mental_1985]</font>
 
 :::
 
 :::{.column width="50%"}
 
-:::
-
-::::
-
-## Getting a Cold Beer (left)
-
-
-::::{.columns}
-
-:::{.column width="50%"}
-
-<img src="resources/images/beer_in_the_sun.jpg" align="center" width="450px" class="img-frame"/>
-<br><font size=4.5>[taken from @thaler_mental_1985]</font>
-
-:::
-
-
-:::{.column width="50%"}
+::: {.fragment fragment-index=2}
 
 You are lying on the beach on a hot day. All you have to drink is ice water. For the last
 hour you have been thinking about how much you would enjoy a nice cold bottle of your favorite brand of beer.
 
 :::
 
+:::
+
 ::::
 
 
@@ -639,8 +649,8 @@ hour you have been thinking about how much you would enjoy a nice cold bottle of
 
 :::{.column width="50%"}
 
+![](resources/images/hotel.jpg "Hotel"){.lightbox width="450px" align="left"}
 
-<img src="resources/images/hotel.jpg" align="left" width="450px" class="img-frame"/>
 
 
 :::
@@ -662,7 +672,8 @@ hour you have been thinking about how much you would enjoy a nice cold bottle of
 
 :::{.column width="50%"}
 
-<img src="resources/images/beer_in_the_sun.jpg" align="left" width="450px" class="img-frame"/>
+
+![](resources/images/beer_in_the_sun.jpg "Beer"){.lightbox height="300px" align="left"}
 
 :::
 
@@ -685,7 +696,7 @@ hour you have been thinking about how much you would enjoy a nice cold bottle of
 
 :::{.column width="50%"}
 
-<img src="resources/images/grocery_store.jpg" align="left" width="450px" class="img-frame"/>
+![](resources/images/grocery_store.jpg "Store"){.lightbox width="450px" align="left"}
 
 
 :::
@@ -745,8 +756,7 @@ hour you have been thinking about how much you would enjoy a nice cold bottle of
 
 - Realised loss is more painful than a paper loss
   - Selling stock &#8594; realised losses/gains are 'declared'
-      - To Tax authorities
-      - To investor (and spouse)
+      - To Tax authorities / To investor (and spouse)
 
 :::
 
@@ -789,12 +799,13 @@ hour you have been thinking about how much you would enjoy a nice cold bottle of
 
 ## KnockanStockan
 
-<img src="resources/images/festival.jpg" align="center" width="650px" class="img-frame"/>
+![](resources/images/festival.jpg "Festival"){.lightbox width="650px" align="left"}
+
 
 
 ## Cancelled Flight
 
-<img src="resources/images/airport.jpg" align="center" width="650px" class="img-frame"/>
+![](resources/images/airport.jpg "Airport"){.lightbox width="650px" align="left"}
 
 
 ## Stansted (actual footage)
@@ -857,31 +868,14 @@ hour you have been thinking about how much you would enjoy a nice cold bottle of
 2. Eventually you stop wearing the shoes, but you do not throw them away. The more you paid for the shoes, the longer they sit in the back of your closet before you throw them away. (This behavior cannot be rational unless expensive shoes take up less space)
 3. At some point, you throw the shoes away, regardless of what they cost, the payment having been fully “depreciated.”<br><font size=4.5>[@thaler_mental_2003, p. 84]</font>
 
-## Wine
-
-::::{.columns}
-
-:::{.column width="75%"}
-
-:::
-
-:::{.column width="25%"}
-
-<img src="resources/images/wine.jpeg" align="right" height="420px" class="img-frame"/>
-
-:::
-
-::::
-
 ## Wine{.smaller}
 
-
-
-
 ::::{.columns}
+
 
 :::{.column width="75%"}
 
+:::{.fragment}
 
 Suppose you buy a case of Bordeaux futures at $400 a case. The wine will retail at about
 $500 a case when it is shipped. You do not intend to start drinking this wine for a
@@ -894,16 +888,20 @@ your feelings?
 
 - I feel like I just saved $100, the difference between what the futures cost and what the wine will sell for when delivered.
 
+:::
 
 :::
 
 :::{.column width="25%"}
 
-<img src="resources/images/wine.jpeg" align="right" height="420px" class="img-frame"/>
+![](resources/images/wine.jpeg "Wine"){.lightbox height="420px" align="right"}
+
 
 :::
 
 ::::
+
+
 
 ## Wine: Results
 
@@ -916,7 +914,7 @@ your feelings?
 
 - Initial purchase is viewed as an investment
   - Later, wine is '*free*'
-  - “Invest Now, Drink Later, Spend Never”<br><[@shafir_invest_1998]
+  - “Invest Now, Drink Later, Spend Never”<br>[@shafir_invest_1998]
 
 - Expensive hobbie becomes 'free'
 
@@ -928,7 +926,7 @@ your feelings?
 
 :::{.column width="25%"}
 
-<img src="resources/images/wine.jpeg" align="right" height="420px" class="img-frame"/>
+![](resources/images/wine.jpeg "Wine"){.lightbox height="420px" align="right"}
 
 :::
 
