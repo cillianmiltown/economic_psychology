@@ -8,8 +8,9 @@ csl: apa.csl
 format: 
   revealjs:
     slide-number: false
+    controls: true
     logo: "resources/images/ul-psychology-logos.png"
-    footer: "PS4168: Cillian McHugh - 15/11/23"
+    footer: "PS4168: Cillian McHugh - 15/11/24"
     theme: "resources/css/mytheme.scss"
     incremental: false
     chalkboard: 
@@ -85,7 +86,7 @@ knitr::opts_chunk$set(include = FALSE)
 
 ## Reciprocity{.smaller}
 
-:::{.incremental}
+:::{.fragment}
 
 - **Reciprocity**: *like with like* responding
   - In response to friendly actions, people are frequently nicer and more cooperative
@@ -100,7 +101,7 @@ knitr::opts_chunk$set(include = FALSE)
 
 ## Reciprocity (contd.){.smaller}
 
-:::{.incremental}
+:::{.fragment}
 
 - Reciprocity $\ne$ cooperative/retaliatory behaviour in repeated interactions
   - These behaviors arise because actors expect future material benefits from their actions
@@ -148,7 +149,7 @@ knitr::opts_chunk$set(include = FALSE)
 
 ## Ultimatum/Dictator Games: Results{.smaller}
 
-:::{.incremental}
+:::{.fragment}
 
 - If the <font color="#6666ff">Proposer</font> offers $< 30\%$ the <font color="#ff4c4c">Responder</font> is highly likely to reject <br><font size=4.5>[@roth_bargaining_1995; @guth_experimental_1982; @camerer_anomalies_1995; @fehr_fairness_2003]</font> 
 
@@ -165,7 +166,7 @@ knitr::opts_chunk$set(include = FALSE)
 
 ## Trust/Gift Exchange Games
 
-:::{.incremental}
+:::{.fragment}
 
 - A <font color="#6666ff">Proposer</font> receives an amount of money <font color="#0c840c">$x$</font> from the experimenter
   - Sends amount <font color="#0c840c">$y$</font> to the <font color="#ff4c4c">Responder</font>
@@ -180,7 +181,7 @@ knitr::opts_chunk$set(include = FALSE)
 
 ## Trust/Gift Exchange Results{.smaller}
 
-:::{.incremental}
+:::{.fragment}
 
 - Many <font color="#6666ff">Proposers</font> send money and many <font color="#ff4c4c">Responders</font> give back some money
 - Frequently a positive correlation between <font color="#0c840c">$y$</font> and <font color="#0c840c">$z$</font> the amount sent back
@@ -206,8 +207,6 @@ knitr::opts_chunk$set(include = FALSE)
 
 :::
 
-## Fairness *vs* Selfishness: Causes
-
 
 
 ## Fairness *vs* Selfishness: Causes{.smaller}
@@ -216,7 +215,7 @@ knitr::opts_chunk$set(include = FALSE)
 
 :::{.column width=70%}
 
-:::{.incremental}
+:::{.fragment fragment-intex=2}
 
 - Linked with testosterone in males<br><font size=4.5>[@burnham_hightestosterone_2007]</font>
 
@@ -234,9 +233,10 @@ knitr::opts_chunk$set(include = FALSE)
 
 :::{.column width=30%}
 
+:::{.fragment fragment-index=1}
 
-
-![](resources/images/fight_club.jpg)
+![](resources/images/fight_club.jpg){.lightbox}
+:::
 
 :::
 ::::
@@ -268,7 +268,7 @@ knitr::opts_chunk$set(include = FALSE)
 
 ## Public Goods
 
-:::{.incremental}
+:::{.fragment}
 
 - How should public goods be provided?
 
@@ -278,7 +278,7 @@ knitr::opts_chunk$set(include = FALSE)
 
 . . .
 
-![](resources/images/bono.jpg){width=40%}
+![](resources/images/bono.jpg){.lightbox width=40%}
 
 
 ## Public Goods in the Lab
@@ -291,7 +291,7 @@ knitr::opts_chunk$set(include = FALSE)
 
 ## Public Goods in the Lab
 
-:::{.incremental}
+:::{.fragment}
 
 - @fehr_cooperation_2000
   - $4$ group members
@@ -313,40 +313,57 @@ knitr::opts_chunk$set(include = FALSE)
 
 :::{.column width=70%}
 
-:::{.incremental}
+:::{.fragment}
 
 - If everyone *Keeps* **everything**:
   - Everyone earns $20$ tokens
 - If everyone *invests* **everything**:
   - Everyone earns $32$ tokens <br>$(4 \times 0.4 \times 20)$
-- But it is in everyone's (private) interest to invest nothing and 'free ride'
-  - *Keeping* is ***strictly dominant***
-
+  
 :::
+
 
 :::
 
 :::{.column width=30%}
 
-![](resources/images/apple.jpeg)
+![](resources/images/apple.jpeg){.lightbox}
 
 
 :::
 
 ::::
 
+
+:::{.fragment}
+
+- But it is in everyone's (private) interest to invest nothing and 'free ride'
+  - *Keeping* is ***strictly dominant***
+
+:::
+
 ## Public Goods and Reciprocity{.smaller}
 
-
+:::{.fragment}
 
 - Positive reciprocity implies that people are willing to contribute something to the public good ***if*** others are also willing to contribute
 - Contribution to the public good represents a kind action
   - Which induces reciprocally motivated people to contribute too <br><font size=4.5>[@sugden_reciprocity_1984; @fehr_fairness_2003]</font>
+
+:::
+
+:::{.fragment}
+
 - ***But***
+:::
+
+:::{.fragment}
+
   - *Selfish Minority*<br><font size=4.5>[@gachter_reputation_1999; @berg_trust_1995; @fehr_wage_1999; @abbink_moonlighting_2000]</font>
       - $20\% - 30%$ of participants do not reciprocate
 - Can a positive level of contributions to the public good can be sustained as an equilibrium?
 
+:::
 
 ## Public Goods and Reciprocity{.smaller}
 
@@ -366,32 +383,6 @@ knitr::opts_chunk$set(include = FALSE)
 
 :::
 
-## Reciprocal Free Riding
-
-
-
-
-
-## Reciprocal Free Riding
-
-
-:::{.columns}
-
-:::{.column width=45%}
-
-![](resources/images/dishes.jpeg)
-
-:::
-
-:::{.column width=45%}
-
-
-&nbsp;
-
-:::
-
-::::
-
 
 
 ## Reciprocal Free Riding
@@ -401,14 +392,20 @@ knitr::opts_chunk$set(include = FALSE)
 
 :::{.column width=45%}
 
-![](resources/images/dishes.jpeg)
+:::{.fragment}
+
+![](resources/images/dishes.jpeg){.lightbox}
+:::
 
 :::
 
 :::{.column width=45%}
 
+:::{.fragment}
 
-![](resources/images/bin.jpg)
+![](resources/images/bin.jpg){.lightbox}
+
+:::
 
 :::
 
@@ -433,7 +430,7 @@ Recall the @ross_egocentric_1979 housework study?
 
 ## Alternative Public Goods Game{.smaller}
 
-:::{.incremental}
+:::{.fragment}
 
 - Suppose each subject in a group has the opportunity to reduce the income of each other subject in the group
 - e.g., reduction of the income of one other group member by <font color="#0c840c">$x$</font> tokens
@@ -471,7 +468,7 @@ Recall the @ross_egocentric_1979 housework study?
 
 
 
-![](resources/images/perfect_stranger.png)
+![](resources/images/perfect_stranger.png){.lightbox}
 
 
 <font size=4.5>Mean income reduction for a given negative deviation from the mean contribution of other group members. Source: Fehr and Gächter 2000. [taken from @fehr_fairness_2003, p. 516]</font>
@@ -490,21 +487,13 @@ Recall the @ross_egocentric_1979 housework study?
 
 
 
-## Public Goods and Punishment: Results
-
-
-
-![](resources/images/perfect_stranger.png)
-
-
-<font size=4.5>Mean income reduction for a given negative deviation from the mean contribution of other group members. Source: Fehr and Gächter 2000. [taken from @fehr_fairness_2003, p. 516]</font>
 
 
 ## Public Goods and Punishment: Results
 
 
 
-![](resources/images/partner_contributions.png)
+![](resources/images/partner_contributions.png){.lightbox}
 
 
 <font size=4.5>Evolution of average contributions with and without the punishment option in the Partner and the Perfect Stranger condition. Source: Fehr and Gächter 2000. [taken from @fehr_fairness_2003, p. 517]</font>
@@ -518,21 +507,12 @@ Recall the @ross_egocentric_1979 housework study?
   - (As predicted)
 - Punishment leads to higher contributions
 
-## Public Goods and Punishment: Results
 
-
-
-![](resources/images/partner_contributions.png)
-
-
-<font size=4.5>Evolution of average contributions with and without the punishment option in the Partner and the Perfect Stranger condition. Source: Fehr and Gächter 2000. [taken from @fehr_fairness_2003, p. 517]</font>
-
-
-## Punishment and 'Free-riding'
+## Punishment and 'Free-riding'{.scrollable}
 
 <iframe width="966" height="543" src="https://www.youtube.com/embed/8SOQduoLgRw?start=622" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font size=4 color="white">Jonathan Haidt discussing @fehr_altruistic_2002</font>
+<font size=4>Jonathan Haidt discussing @fehr_altruistic_2002</font>
 
 # Social Norms
 
@@ -549,7 +529,7 @@ Recall the @ross_egocentric_1979 housework study?
 
 
 
-![](resources/images/bullying.jpg)
+![](resources/images/bullying.jpg){.lightbox}
 
 ## Sanctioning and Norms
 
@@ -601,17 +581,29 @@ Which is more costly? The sanction or the consequence of not sanctioning
 
 # Third Party Punishment
 
-## Third Party Punishment
+## Third Party Punishment{.smaller}
 
-:::{.incremental}
+:::{.fragment}
 
 - Third Party Punishment in the Dictator game
 
 - Players <font color="#6666ff">**A** (Dictator)</font>, <font color="#ff4c4c">**B** (Recipient)</font> and <font color="#b665c4">**C** (Third Party)</font>
 
+:::
+:::{.fragment}
+
 - <font color="#6666ff">**A**</font> has $100$ points
   - Can give $0, 10, 20, 30, 40, or$ $50$ points to <font color="#ff4c4c">**B**</font>
+
+:::
+
+:::{.fragment}
+
 - <font color="#ff4c4c">**B**</font> has nothing 
+
+:::
+
+:::{.fragment}
 
 - <font color="#b665c4">**C**</font> (has $50$ points) can sanction <font color="#6666ff">**A**</font>
   - assigning a sanction “costs” points
@@ -622,14 +614,25 @@ Which is more costly? The sanction or the consequence of not sanctioning
 ## Third Party Punishment
 
 
-:::{.incremental}
+Variables of Interest:
 
-- Variables of Interest:
-  - Frequency of punishment
+:::{.fragment}
+
+  - **Frequency** of punishment
       - Both *actual* and *expected*
-  - Severity of punishment
+
+:::
+
+:::{.fragment}
+
+  - **Severity** of punishment
       - Both *actual* and *expected*
-  - Level/value of transfer (from dictators)
+
+:::
+
+:::{.fragment}
+
+  - Level/value of **transfer** (from dictators)
       - Both *actual* and *expected*
 
 :::
@@ -638,7 +641,7 @@ Which is more costly? The sanction or the consequence of not sanctioning
 
 
 
-![](resources/images/third_party_fig1.png)
+![](resources/images/third_party_fig1.png){.lightbox height="480px"}
 
 Frequency of punishment [@fehr_third_2004, p. 69]
 
@@ -647,7 +650,7 @@ Frequency of punishment [@fehr_third_2004, p. 69]
 
 
 
-![](resources/images/third_party_fig2.png)
+![](resources/images/third_party_fig2.png){.lightbox height="480px"}
 
 [@fehr_third_2004, p. 70]
 
@@ -655,7 +658,7 @@ Frequency of punishment [@fehr_third_2004, p. 69]
 
 
 
-![](resources/images/third_party_fig3.png)
+![](resources/images/third_party_fig3.png){.lightbox height="480px"}
 
 [@fehr_third_2004, p. 71]
 
@@ -675,7 +678,7 @@ Frequency of punishment [@fehr_third_2004, p. 69]
 
 
 
-![](resources/images/third_party_fig4.png)
+![](resources/images/third_party_fig4.png){.lightbox height="480px"}
 
 [@fehr_third_2004, p. 75]
 
@@ -694,7 +697,7 @@ Frequency of punishment [@fehr_third_2004, p. 69]
 
 
 
-![](resources/images/third_party_fig5.png)
+![](resources/images/third_party_fig5.png){.lightbox height="480px"}
 
 [@fehr_third_2004, p. 78]
 
@@ -713,9 +716,9 @@ Frequency of punishment [@fehr_third_2004, p. 69]
 
 
 
-![](resources/images/third_party_fig6.png)
+![](resources/images/third_party_fig6.png){.lightbox height="480px"}
 
-Expected payoff <font size=4.5>[@fehr_third_2004, p. 79]</font>
+Expected payoff [@fehr_third_2004, p. 79]{.lightbox height="480px"}
 
 
 
@@ -892,7 +895,7 @@ Version of the Stag Hunt game
 
 ## Moral Judgments
 
-![](resources/images/buffy.png)
+![](resources/images/buffy.png){.lightbox height="550px"}
 
 
 ## Known Influences on Moral Judgements {.smaller}
@@ -952,7 +955,7 @@ Version of the Stag Hunt game
 <br>
 <br>
 <br>
-![](resources/images/voldemort.jpg)
+![](resources/images/voldemort.jpg){.lightbox}
 
 :::
 
@@ -969,16 +972,16 @@ Version of the Stag Hunt game
 
 - Moral dumbfounding occurs when people defend a moral judgement even though they cannot provide supporting reasons
 
-[@mchugh_searching_2017; @haidt_moral_2000; @mchugh_just_2023]
+[@mchugh_searching_2017a; @haidt_moral_2000; @mchugh_just_2023]
 
 
 :::
 
 ::: {.column width="35%"}
 
-![](resources/images/searching.png)
+[![](resources/images/searching.png)](https://online.ucpress.edu/collabra/article/3/1/23/112379/Searching-for-Moral-Dumbfounding-Identifying){target="_blank"}
 
-![](resources/images/just_wrong.png)
+[![](resources/images/just_wrong.png)](https://link.springer.com/article/10.3758/s13421-022-01386-z){target="_blank"}
 
 
 
@@ -998,20 +1001,20 @@ Version of the Stag Hunt game
 
 <br>
 
-![](resources/images/trolley_problem.png)
+![](resources/images/trolley_problem.png){.lightbox}
 
 
 ## Dual-Process Approaches
 
 
-![](resources/images/MJAC_dual_process/together4.png)
+![](resources/images/MJAC_dual_process/together4.png){.lightbox width="100%"}
 
 
 
 ## Dual-Process Approaches
 
 
-![](resources/images/MJAC_dual_process/context7.png)
+![](resources/images/MJAC_dual_process/context7.png){.lightbox width="100%"}
 
 
 
@@ -1038,7 +1041,7 @@ Version of the Stag Hunt game
 
 
 
-![](resources/images/suitcase.jpg)
+![](resources/images/suitcase.jpg){.lightbox width="50%"}
 
 - *THINGS TO PACK INTO A SUITCASE* [@barsalou_deriving_1991; @barsalou_situated_2003]
 - Type-token interpretation
@@ -1053,28 +1056,28 @@ Version of the Stag Hunt game
 
 
 
-![](resources/images/fruit1.png)
+![](resources/images/fruit1.png){.lightbox width="100%"}
 
 
 
 ## The Organisation of Categories: Fruit
 
-![](resources/images/fruit2.png)
+![](resources/images/fruit2.png){.lightbox width="100%"}
 
 
 ## The Organisation of Categories: Fruit
 
-![](resources/images/fruit3.png)
+![](resources/images/fruit3.png){.lightbox width="100%"}
 
 ## The Organisation of Categories: Fruit
 
-![](resources/images/fruit4.png)
+![](resources/images/fruit4.png){.lightbox width="100%"}
 
 
 ## Evidence
 
 
-![](resources/images/mjac_old_table.png)
+![](resources/images/mjac_old_table.png){.lightbox width="100%"}
 
 
 ## Similarity of Explanation {.smaller}
@@ -1151,103 +1154,103 @@ Version of the Stag Hunt game
 
 ## Contrasting with Existing Approaches
 
-![](resources/images/MJAC_dual_process/together4.png)
+![](resources/images/MJAC_dual_process/together4.png){.lightbox width="100%"}
 
 
 
 ## Contrasting with Existing Approaches
 
-![](resources/images/MJAC_dual_process/context7.png)
+![](resources/images/MJAC_dual_process/context7.png){.lightbox width="100%"}
 
 ## MJAC
 
 
 
-![](resources/images/MJAC_dual_process/mjac1.png)
-
-
-## MJAC
-
-
-
-![](resources/images/MJAC_dual_process/mjac2.png)
+![](resources/images/MJAC_dual_process/mjac1.png){.lightbox width="100%"}
 
 
 ## MJAC
 
 
 
-![](resources/images/MJAC_dual_process/mjac3.png)
+![](resources/images/MJAC_dual_process/mjac2.png){.lightbox width="100%"}
 
 
 ## MJAC
 
 
 
-![](resources/images/MJAC_dual_process/mjac4.png)
+![](resources/images/MJAC_dual_process/mjac3.png){.lightbox width="100%"}
 
 
 ## MJAC
 
 
 
-![](resources/images/MJAC_dual_process/mjac5.png)
+![](resources/images/MJAC_dual_process/mjac4.png){.lightbox width="100%"}
 
 
 ## MJAC
 
 
 
-![](resources/images/MJAC_dual_process/mjac6.png)
+![](resources/images/MJAC_dual_process/mjac5.png){.lightbox width="100%"}
 
 
 ## MJAC
 
 
 
-![](resources/images/MJAC_dual_process/mjac7.png)
+![](resources/images/MJAC_dual_process/mjac6.png){.lightbox width="100%"}
 
 
 ## MJAC
 
 
 
-![](resources/images/MJAC_dual_process/mjac8.png)
+![](resources/images/MJAC_dual_process/mjac7.png){.lightbox width="100%"}
 
 
 ## MJAC
 
 
 
-![](resources/images/MJAC_dual_process/mjac9.png)
+![](resources/images/MJAC_dual_process/mjac8.png){.lightbox width="100%"}
 
 
 ## MJAC
 
 
 
-![](resources/images/MJAC_dual_process/mjac10.png)
+![](resources/images/MJAC_dual_process/mjac9.png){.lightbox width="100%"}
 
 
 ## MJAC
 
 
 
-![](resources/images/MJAC_dual_process/mjac11.png)
+![](resources/images/MJAC_dual_process/mjac10.png){.lightbox width="100%"}
 
 
 ## MJAC
 
 
 
-![](resources/images/MJAC_dual_process/mjac12.png)
+![](resources/images/MJAC_dual_process/mjac11.png){.lightbox width="100%"}
 
 
 ## MJAC
 
 
 
-![](resources/images/MJAC_dual_process/mjac13.png)
+![](resources/images/MJAC_dual_process/mjac12.png){.lightbox width="100%"}
+
+
+## MJAC
+
+
+
+![](resources/images/MJAC_dual_process/mjac13.png){.lightbox width="100%"}
 
 
 # In-Class Activity

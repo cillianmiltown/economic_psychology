@@ -7,8 +7,11 @@
 <link href="Lecture_9_files/libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="Lecture_9_files/libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="Lecture_9_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
-<link href="Lecture_9_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.3.287">
+<link href="Lecture_9_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="Lecture_9_files/libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="Lecture_9_files/libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="Lecture_9_files/libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.5.57">
 
   <meta name="author" content="Dr Cillian McHugh">
   <title>Lecture 9</title>
@@ -33,6 +36,7 @@
     div.csl-bib-body { }
     div.csl-entry {
       clear: both;
+      margin-bottom: 0em;
     }
     .hanging-indent div.csl-entry {
       margin-left:2em;
@@ -49,7 +53,7 @@
     div.csl-indent {
       margin-left: 2em;
     }  </style>
-  <link rel="stylesheet" href="Lecture_9_files/libs/revealjs/dist/theme/quarto.css" id="theme">
+  <link rel="stylesheet" href="Lecture_9_files/libs/revealjs/dist/theme/quarto.css">
   <link href="Lecture_9_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="Lecture_9_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="Lecture_9_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -177,7 +181,8 @@
   }
 
   .callout.callout-titled .callout-body > .callout-content > :last-child {
-    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0;
   }
 
   .callout.callout-titled .callout-icon::before {
@@ -363,7 +368,6 @@ Dr Cillian McHugh
 </section>
 <section id="overview" class="slide level2">
 <h2>Overview</h2>
-
 <style type="text/css">
     table.table-style-one {
         font-size:36px;
@@ -427,39 +431,39 @@ Dr Cillian McHugh
 </section>
 <section id="reciprocity" class="slide level2 smaller">
 <h2>Reciprocity</h2>
-<div>
+<div class="fragment">
 <ul>
-<li class="fragment"><p><strong>Reciprocity</strong>: <em>like with like</em> responding</p>
+<li><p><strong>Reciprocity</strong>: <em>like with like</em> responding</p>
 <ul>
-<li class="fragment">In response to friendly actions, people are frequently nicer and more cooperative</li>
-<li class="fragment">In response to hostile actions they are frequently much more nasty and even brutal
+<li>In response to friendly actions, people are frequently nicer and more cooperative</li>
+<li>In response to hostile actions they are frequently much more nasty and even brutal
 <ul>
-<li class="fragment">Much more so than predicted by the self-interest model</li>
+<li>Much more so than predicted by the self-interest model</li>
 </ul></li>
 </ul></li>
-<li class="fragment"><p>‘<em>A man ought to be a friend to his friend and repay gift with gift. People should meet smiles with smiles and lies with treachery</em>’ <span class="citation" data-cites="fehr_fairness_2003">(<a href="#/references-1" role="doc-biblioref" onclick="">Fehr &amp; Gächter, 2003, p. 510</a>)</span></p></li>
-<li class="fragment"><p>Cooperative reciprocal tendencies: <strong><em>positive reciprocity</em></strong></p></li>
-<li class="fragment"><p>Retaliatory tendencies: <strong><em>negative reciprocity</em></strong></p></li>
+<li><p>‘<em>A man ought to be a friend to his friend and repay gift with gift. People should meet smiles with smiles and lies with treachery</em>’ <span class="citation" data-cites="fehr_fairness_2003">(<a href="#/references-1" role="doc-biblioref" onclick="">Fehr &amp; Gächter, 2003, p. 510</a>)</span></p></li>
+<li><p>Cooperative reciprocal tendencies: <strong><em>positive reciprocity</em></strong></p></li>
+<li><p>Retaliatory tendencies: <strong><em>negative reciprocity</em></strong></p></li>
 </ul>
 </div>
 </section>
 <section id="reciprocity-contd." class="slide level2 smaller">
 <h2>Reciprocity (contd.)</h2>
-<div>
+<div class="fragment">
 <ul>
-<li class="fragment"><p>Reciprocity <span class="math inline">\(\ne\)</span> cooperative/retaliatory behaviour in repeated interactions</p>
+<li><p>Reciprocity <span class="math inline">\(\ne\)</span> cooperative/retaliatory behaviour in repeated interactions</p>
 <ul>
-<li class="fragment">These behaviors arise because actors expect future material benefits from their actions</li>
+<li>These behaviors arise because actors expect future material benefits from their actions</li>
 </ul></li>
-<li class="fragment"><p>For reciprocity, the actor is responding to friendly or hostile actions <strong><em>even if no material gains can be expected</em></strong></p></li>
-<li class="fragment"><p>Reciprocity is also fundamentally different from altruism</p>
+<li><p>For reciprocity, the actor is responding to friendly or hostile actions <strong><em>even if no material gains can be expected</em></strong></p></li>
+<li><p>Reciprocity is also fundamentally different from altruism</p>
 <ul>
-<li class="fragment">Altruism is a form of unconditional kindness
+<li>Altruism is a form of unconditional kindness
 <ul>
-<li class="fragment">altruism given does not emerge as a response to altruism received</li>
+<li>altruism given does not emerge as a response to altruism received</li>
 </ul></li>
 </ul></li>
-<li class="fragment"><p>Reciprocity is an in-kind response to beneficial or harmful acts <span class="citation" data-cites="fehr_fairness_2003">(<a href="#/references-1" role="doc-biblioref" onclick="">Fehr &amp; Gächter, 2003, p. 511</a>)</span></p></li>
+<li><p>Reciprocity is an in-kind response to beneficial or harmful acts <span class="citation" data-cites="fehr_fairness_2003">(<a href="#/references-1" role="doc-biblioref" onclick="">Fehr &amp; Gächter, 2003, p. 511</a>)</span></p></li>
 </ul>
 </div>
 </section>
@@ -503,53 +507,53 @@ Dr Cillian McHugh
 </section>
 <section id="ultimatumdictator-games-results" class="slide level2 smaller">
 <h2>Ultimatum/Dictator Games: Results</h2>
-<div>
+<div class="fragment">
 <ul>
-<li class="fragment"><p>If the <font color="#6666ff">Proposer</font> offers <span class="math inline">\(&lt; 30\%\)</span> the <font color="#ff4c4c">Responder</font> is highly likely to reject <br><font size="4.5"><span class="citation" data-cites="roth_bargaining_1995 guth_experimental_1982 camerer_anomalies_1995 fehr_fairness_2003">(<a href="#/references-1" role="doc-biblioref" onclick="">Camerer &amp; Thaler, 1995</a>; <a href="#/references-1" role="doc-biblioref" onclick="">Fehr &amp; Gächter, 2003</a>; <a href="#/references-1" role="doc-biblioref" onclick="">Güth, Schmittberger, &amp; Schwarze, 1982</a>; <a href="#/references-1" role="doc-biblioref" onclick="">Roth, 1995</a>)</span></font></p></li>
-<li class="fragment"><p>Observed in various countries: Europe, USA, Asia <br><font size="4.5"><span class="citation" data-cites="roth_bargaining_1991 fehr_fairness_2003">(<a href="#/references-1" role="doc-biblioref" onclick="">Fehr &amp; Gächter, 2003</a>; <a href="#/references-1" role="doc-biblioref" onclick="">Roth, Prasnikar, Okuno-Fujiwara, &amp; Zamir, 1991</a>)</span></font></p>
+<li><p>If the <font color="#6666ff">Proposer</font> offers <span class="math inline">\(&lt; 30\%\)</span> the <font color="#ff4c4c">Responder</font> is highly likely to reject <br><font size="4.5"><span class="citation" data-cites="roth_bargaining_1995 guth_experimental_1982 camerer_anomalies_1995 fehr_fairness_2003">(<a href="#/references-1" role="doc-biblioref" onclick="">Camerer &amp; Thaler, 1995</a>; <a href="#/references-1" role="doc-biblioref" onclick="">Fehr &amp; Gächter, 2003</a>; <a href="#/references-1" role="doc-biblioref" onclick="">Güth, Schmittberger, &amp; Schwarze, 1982</a>; <a href="#/references-1" role="doc-biblioref" onclick="">Roth, 1995</a>)</span></font></p></li>
+<li><p>Observed in various countries: Europe, USA, Asia <br><font size="4.5"><span class="citation" data-cites="roth_bargaining_1991 fehr_fairness_2003">(<a href="#/references-1" role="doc-biblioref" onclick="">Fehr &amp; Gächter, 2003</a>; <a href="#/references-1" role="doc-biblioref" onclick="">Roth, Prasnikar, Okuno-Fujiwara, &amp; Zamir, 1991</a>)</span></font></p>
 <ul>
-<li class="fragment"><span class="citation" data-cites="henrich_does_2000">(Although seemingly not in the Peruvian Amazon, <a href="#/references-1" role="doc-biblioref" onclick="">Henrich, 2000</a>)</span></li>
+<li><span class="citation" data-cites="henrich_does_2000">(Although seemingly not in the Peruvian Amazon, <a href="#/references-1" role="doc-biblioref" onclick="">Henrich, 2000</a>)</span></li>
 </ul></li>
-<li class="fragment"><p>Minimal influence of higher stakes</p>
+<li><p>Minimal influence of higher stakes</p>
 <ul>
-<li class="fragment">Three months income</li>
-<li class="fragment">Student sample: $<span class="math inline">\(100\)</span> or more <br><font size="4.5"><span class="citation" data-cites="cameron_raising_1999 fehr_fairness_2003 slonim_learning_1998 hoffman_ultimatum_1995">(<a href="#/references-1" role="doc-biblioref" onclick="">L. A. Cameron, 1999</a>; <a href="#/references-1" role="doc-biblioref" onclick="">Fehr &amp; Gächter, 2003</a>; <a href="#/references-1" role="doc-biblioref" onclick="">Hoffman, McCabe, &amp; Smith, 1995</a>; <a href="#/references-1" role="doc-biblioref" onclick="">Slonim &amp; Roth, 1998</a>)</span></font></li>
+<li>Three months income</li>
+<li>Student sample: $<span class="math inline">\(100\)</span> or more <br><font size="4.5"><span class="citation" data-cites="cameron_raising_1999 fehr_fairness_2003 slonim_learning_1998 hoffman_ultimatum_1995">(<a href="#/references-1" role="doc-biblioref" onclick="">L. A. Cameron, 1999</a>; <a href="#/references-1" role="doc-biblioref" onclick="">Fehr &amp; Gächter, 2003</a>; <a href="#/references-1" role="doc-biblioref" onclick="">Hoffman, McCabe, &amp; Smith, 1995</a>; <a href="#/references-1" role="doc-biblioref" onclick="">Slonim &amp; Roth, 1998</a>)</span></font></li>
 </ul></li>
 </ul>
 </div>
 </section>
 <section id="trustgift-exchange-games" class="slide level2">
 <h2>Trust/Gift Exchange Games</h2>
-<div>
+<div class="fragment">
 <ul>
-<li class="fragment">A <font color="#6666ff">Proposer</font> receives an amount of money <font color="#0c840c"><span class="math inline">\(x\)</span></font> from the experimenter
+<li>A <font color="#6666ff">Proposer</font> receives an amount of money <font color="#0c840c"><span class="math inline">\(x\)</span></font> from the experimenter
 <ul>
-<li class="fragment">Sends amount <font color="#0c840c"><span class="math inline">\(y\)</span></font> to the <font color="#ff4c4c">Responder</font></li>
-<li class="fragment"><font color="#0c840c"><span class="math inline">\(0 \leq y \leq x\)</span></font></li>
+<li>Sends amount <font color="#0c840c"><span class="math inline">\(y\)</span></font> to the <font color="#ff4c4c">Responder</font></li>
+<li><font color="#0c840c"><span class="math inline">\(0 \leq y \leq x\)</span></font></li>
 </ul></li>
-<li class="fragment">The experimenter then triples the amount sent
+<li>The experimenter then triples the amount sent
 <ul>
-<li class="fragment"><font color="#ff4c4c">Responder</font> has <font color="#0c840c"><span class="math inline">\(3y\)</span></font></li>
-<li class="fragment">The <font color="#ff4c4c">Responder</font> is then free to return a value <font color="#0c840c"><span class="math inline">\(z\)</span></font> between <font color="#0c840c"><span class="math inline">\(0\)</span></font> and <font color="#0c840c"><span class="math inline">\(3y\)</span></font> to the <font color="#6666ff">Proposer</font></li>
-<li class="fragment"><font color="#0c840c"><span class="math inline">\(0 \leq z \leq 3y\)</span></font></li>
+<li><font color="#ff4c4c">Responder</font> has <font color="#0c840c"><span class="math inline">\(3y\)</span></font></li>
+<li>The <font color="#ff4c4c">Responder</font> is then free to return a value <font color="#0c840c"><span class="math inline">\(z\)</span></font> between <font color="#0c840c"><span class="math inline">\(0\)</span></font> and <font color="#0c840c"><span class="math inline">\(3y\)</span></font> to the <font color="#6666ff">Proposer</font></li>
+<li><font color="#0c840c"><span class="math inline">\(0 \leq z \leq 3y\)</span></font></li>
 </ul></li>
 </ul>
 </div>
 </section>
 <section id="trustgift-exchange-results" class="slide level2 smaller">
 <h2>Trust/Gift Exchange Results</h2>
-<div>
+<div class="fragment">
 <ul>
-<li class="fragment">Many <font color="#6666ff">Proposers</font> send money and many <font color="#ff4c4c">Responders</font> give back some money</li>
-<li class="fragment">Frequently a positive correlation between <font color="#0c840c"><span class="math inline">\(y\)</span></font> and <font color="#0c840c"><span class="math inline">\(z\)</span></font> the amount sent back
+<li>Many <font color="#6666ff">Proposers</font> send money and many <font color="#ff4c4c">Responders</font> give back some money</li>
+<li>Frequently a positive correlation between <font color="#0c840c"><span class="math inline">\(y\)</span></font> and <font color="#0c840c"><span class="math inline">\(z\)</span></font> the amount sent back
 <ul>
-<li class="fragment">At both the individual as well as at the aggregate level<br><font size="4.5"><span class="citation" data-cites="berg_trust_1995 fehr_does_1993 mccabe_game_1996">(<a href="#/references-1" role="doc-biblioref" onclick="">Berg, Dickhaut, &amp; McCabe, 1995</a>; <a href="#/references-1" role="doc-biblioref" onclick="">Fehr, Kirchsteiger, &amp; Riedl, 1993</a>; <a href="#/references-1" role="doc-biblioref" onclick="">McCabe, Rassenti, &amp; Smith, 1996</a>)</span></font></li>
+<li>At both the individual as well as at the aggregate level<br><font size="4.5"><span class="citation" data-cites="berg_trust_1995 fehr_does_1993 mccabe_game_1996">(<a href="#/references-1" role="doc-biblioref" onclick="">Berg, Dickhaut, &amp; McCabe, 1995</a>; <a href="#/references-1" role="doc-biblioref" onclick="">Fehr, Kirchsteiger, &amp; Riedl, 1993</a>; <a href="#/references-1" role="doc-biblioref" onclick="">McCabe, Rassenti, &amp; Smith, 1996</a>)</span></font></li>
 </ul></li>
-<li class="fragment">As with negative reciprocity, positive reciprocity does not appear to be affected by higher/lower stakes
+<li>As with negative reciprocity, positive reciprocity does not appear to be affected by higher/lower stakes
 <ul>
-<li class="fragment"><span class="citation" data-cites="fehr_high_1995">Fehr &amp; Tougareva (<a href="#/references-1" role="doc-biblioref" onclick="">1995</a>)</span> provided subjects with <span class="math inline">\(\approx 10\)</span> weeks wages
+<li><span class="citation" data-cites="fehr_high_1995">Fehr &amp; Tougareva (<a href="#/references-1" role="doc-biblioref" onclick="">1995</a>)</span> provided subjects with <span class="math inline">\(\approx 10\)</span> weeks wages
 <ul>
-<li class="fragment">for a <span class="math inline">\(2\)</span> hour study</li>
+<li>for a <span class="math inline">\(2\)</span> hour study</li>
 </ul></li>
 </ul></li>
 </ul>
@@ -574,28 +578,26 @@ Dr Cillian McHugh
 </ul>
 </div>
 </section>
-<section id="fairness-vs-selfishness-causes" class="slide level2">
-<h2>Fairness <em>vs</em> Selfishness: Causes</h2>
-</section>
-<section id="fairness-vs-selfishness-causes-1" class="slide level2 smaller">
+<section id="fairness-vs-selfishness-causes" class="slide level2 smaller">
 <h2>Fairness <em>vs</em> Selfishness: Causes</h2>
 <div class="columns">
 <div class="column" style="width:70%;">
-<div>
+<div class="fragment" data-fragment-intex="2">
 <ul>
-<li class="fragment"><p>Linked with testosterone in males<br><font size="4.5"><span class="citation" data-cites="burnham_hightestosterone_2007">(<a href="#/references-1" role="doc-biblioref" onclick="">Burnham, 2007</a>)</span></font></p></li>
-<li class="fragment"><p>Desire to maintain equity: <br><em>Inequality Aversion</em> <font size="4.5"><span class="citation" data-cites="bolton_inequality_2006">(<a href="#/references-1" role="doc-biblioref" onclick="">Bolton &amp; Ockenfels, 2006</a>)</span></font></p></li>
-<li class="fragment"><p>Desire to punish hostile intentions and to reward kind intentions <br><font size="4.5"><span class="citation" data-cites="rabin_incorporating_1993 blount_when_1995 dufwenberg_theory_2004 falk_theory_1999">(<a href="#/references-1" role="doc-biblioref" onclick="">Blount, 1995</a>; <a href="#/references-1" role="doc-biblioref" onclick="">Dufwenberg &amp; Kirchsteiger, 2004</a>; <a href="#/references-1" role="doc-biblioref" onclick="">Falk &amp; Fischbacher, 1999</a>; <a href="#/references-1" role="doc-biblioref" onclick="">Rabin, 1993</a>)</span></font></p></li>
-<li class="fragment"><p>Type of person <font size="4.5"><span class="citation" data-cites="levine_modeling_1998">(<a href="#/references-1" role="doc-biblioref" onclick="">Levine, 1998</a>)</span></font></p></li>
-<li class="fragment"><p>Boundedly rational <font size="4.5"><span class="citation" data-cites="gale_learning_1995 roth_learning_1995">(<a href="#/references-1" role="doc-biblioref" onclick="">Gale, Binmore, &amp; Samuelson, 1995</a>; <a href="#/references-1" role="doc-biblioref" onclick="">Roth &amp; Erev, 1995</a>)</span></font></p></li>
+<li><p>Linked with testosterone in males<br><font size="4.5"><span class="citation" data-cites="burnham_hightestosterone_2007">(<a href="#/references-1" role="doc-biblioref" onclick="">Burnham, 2007</a>)</span></font></p></li>
+<li><p>Desire to maintain equity: <br><em>Inequality Aversion</em> <font size="4.5"><span class="citation" data-cites="bolton_inequality_2006">(<a href="#/references-1" role="doc-biblioref" onclick="">Bolton &amp; Ockenfels, 2006</a>)</span></font></p></li>
+<li><p>Desire to punish hostile intentions and to reward kind intentions <br><font size="4.5"><span class="citation" data-cites="rabin_incorporating_1993 blount_when_1995 dufwenberg_theory_2004 falk_theory_1999">(<a href="#/references-1" role="doc-biblioref" onclick="">Blount, 1995</a>; <a href="#/references-1" role="doc-biblioref" onclick="">Dufwenberg &amp; Kirchsteiger, 2004</a>; <a href="#/references-1" role="doc-biblioref" onclick="">Falk &amp; Fischbacher, 1999</a>; <a href="#/references-1" role="doc-biblioref" onclick="">Rabin, 1993</a>)</span></font></p></li>
+<li><p>Type of person <font size="4.5"><span class="citation" data-cites="levine_modeling_1998">(<a href="#/references-1" role="doc-biblioref" onclick="">Levine, 1998</a>)</span></font></p></li>
+<li><p>Boundedly rational <font size="4.5"><span class="citation" data-cites="gale_learning_1995 roth_learning_1995">(<a href="#/references-1" role="doc-biblioref" onclick="">Gale, Binmore, &amp; Samuelson, 1995</a>; <a href="#/references-1" role="doc-biblioref" onclick="">Roth &amp; Erev, 1995</a>)</span></font></p></li>
 </ul>
 </div>
 </div><div class="column" style="width:30%;">
-<p><img data-src="resources/images/fight_club.jpg" class="quarto-discovered-preview-image"></p>
+<div class="fragment" data-fragment-index="1">
+<p><a href="resources/images/fight_club.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img data-src="resources/images/fight_club.jpg"></a></p>
 </div>
-</div>
+</div></div>
 </section>
-<section id="fairness-vs-selfishness-causes-2" class="slide level2">
+<section id="fairness-vs-selfishness-causes-1" class="slide level2">
 <h2>Fairness <em>vs</em> Selfishness: Causes</h2>
 <ul>
 <li>No agreement on cause
@@ -624,14 +626,14 @@ Dr Cillian McHugh
 </section>
 <section id="public-goods-1" class="slide level2">
 <h2>Public Goods</h2>
-<div>
+<div class="fragment">
 <ul>
-<li class="fragment"><p>How should public goods be provided?</p></li>
-<li class="fragment"><p>Self interest dictates that everyone wants to ‘free-ride’ on the efforts of others</p></li>
+<li><p>How should public goods be provided?</p></li>
+<li><p>Self interest dictates that everyone wants to ‘free-ride’ on the efforts of others</p></li>
 </ul>
 </div>
 <div class="fragment">
-<p><img data-src="resources/images/bono.jpg" style="width:40.0%"></p>
+<p><a href="resources/images/bono.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img data-src="resources/images/bono.jpg" style="width:40.0%"></a></p>
 </div>
 </section>
 <section id="public-goods-in-the-lab" class="slide level2">
@@ -642,22 +644,22 @@ Dr Cillian McHugh
 </section>
 <section id="public-goods-in-the-lab-1" class="slide level2">
 <h2>Public Goods in the Lab</h2>
-<div>
+<div class="fragment">
 <ul>
-<li class="fragment"><span class="citation" data-cites="fehr_cooperation_2000">Fehr &amp; Gächter (<a href="#/references-1" role="doc-biblioref" onclick="">2000</a>)</span>
+<li><span class="citation" data-cites="fehr_cooperation_2000">Fehr &amp; Gächter (<a href="#/references-1" role="doc-biblioref" onclick="">2000</a>)</span>
 <ul>
-<li class="fragment"><span class="math inline">\(4\)</span> group members
+<li><span class="math inline">\(4\)</span> group members
 <ul>
-<li class="fragment"><span class="math inline">\(20\)</span> tokens each</li>
+<li><span class="math inline">\(20\)</span> tokens each</li>
 </ul></li>
 </ul></li>
-<li class="fragment">Tokens may be <em>kept</em> or <em>invested</em>
+<li>Tokens may be <em>kept</em> or <em>invested</em>
 <ul>
-<li class="fragment"><em>Keeping</em> <span class="math inline">\(1\)</span> token earns <span class="math inline">\(1\)</span> token</li>
-<li class="fragment">An <em>invested</em> token earns <span class="math inline">\(0.4\)</span> of a token for each player
+<li><em>Keeping</em> <span class="math inline">\(1\)</span> token earns <span class="math inline">\(1\)</span> token</li>
+<li>An <em>invested</em> token earns <span class="math inline">\(0.4\)</span> of a token for each player
 <ul>
-<li class="fragment">Private return on <em>investing</em> <span class="math inline">\(= 0.4\)</span> tokens</li>
-<li class="fragment">Social return on <em>investing</em> &nbsp; <span class="math inline">\(= 1.6\)</span> tokens</li>
+<li>Private return on <em>investing</em> <span class="math inline">\(= 0.4\)</span> tokens</li>
+<li>Social return on <em>investing</em> &nbsp; <span class="math inline">\(= 1.6\)</span> tokens</li>
 </ul></li>
 </ul></li>
 </ul>
@@ -667,44 +669,55 @@ Dr Cillian McHugh
 <h2>Public Goods in the Lab (contd.)</h2>
 <div class="columns">
 <div class="column" style="width:70%;">
-<div>
+<div class="fragment">
 <ul>
-<li class="fragment">If everyone <em>Keeps</em> <strong>everything</strong>:
+<li>If everyone <em>Keeps</em> <strong>everything</strong>:
 <ul>
-<li class="fragment">Everyone earns <span class="math inline">\(20\)</span> tokens</li>
+<li>Everyone earns <span class="math inline">\(20\)</span> tokens</li>
 </ul></li>
-<li class="fragment">If everyone <em>invests</em> <strong>everything</strong>:
+<li>If everyone <em>invests</em> <strong>everything</strong>:
 <ul>
-<li class="fragment">Everyone earns <span class="math inline">\(32\)</span> tokens <br><span class="math inline">\((4 \times 0.4 \times 20)\)</span></li>
-</ul></li>
-<li class="fragment">But it is in everyone’s (private) interest to invest nothing and ‘free ride’
-<ul>
-<li class="fragment"><em>Keeping</em> is <strong><em>strictly dominant</em></strong></li>
+<li>Everyone earns <span class="math inline">\(32\)</span> tokens <br><span class="math inline">\((4 \times 0.4 \times 20)\)</span></li>
 </ul></li>
 </ul>
 </div>
 </div><div class="column" style="width:30%;">
-<p><img data-src="resources/images/apple.jpeg"></p>
-</div>
+<p><a href="resources/images/apple.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img data-src="resources/images/apple.jpeg"></a></p>
+</div></div>
+<div class="fragment">
+<ul>
+<li>But it is in everyone’s (private) interest to invest nothing and ‘free ride’
+<ul>
+<li><em>Keeping</em> is <strong><em>strictly dominant</em></strong></li>
+</ul></li>
+</ul>
 </div>
 </section>
 <section id="public-goods-and-reciprocity" class="slide level2 smaller">
 <h2>Public Goods and Reciprocity</h2>
+<div class="fragment">
 <ul>
 <li>Positive reciprocity implies that people are willing to contribute something to the public good <strong><em>if</em></strong> others are also willing to contribute</li>
 <li>Contribution to the public good represents a kind action
 <ul>
 <li>Which induces reciprocally motivated people to contribute too <br><font size="4.5"><span class="citation" data-cites="sugden_reciprocity_1984 fehr_fairness_2003">(<a href="#/references-1" role="doc-biblioref" onclick="">Fehr &amp; Gächter, 2003</a>; <a href="#/references-1" role="doc-biblioref" onclick="">Sugden, 1984</a>)</span></font></li>
 </ul></li>
-<li><strong><em>But</em></strong>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li><strong><em>But</em></strong></li>
+</ul>
+</div>
+<div class="fragment">
 <ul>
 <li><em>Selfish Minority</em><br><font size="4.5"><span class="citation" data-cites="gachter_reputation_1999 berg_trust_1995 fehr_wage_1999 abbink_moonlighting_2000">(<a href="#/references-1" role="doc-biblioref" onclick="">Abbink et al., 2000</a>; <a href="#/references-1" role="doc-biblioref" onclick="">Berg et al., 1995</a>; <a href="#/references-1" role="doc-biblioref" onclick="">Fehr &amp; Falk, 1999</a>; <a href="#/references-1" role="doc-biblioref" onclick="">Gächter &amp; Falk, 1999</a>)</span></font>
 <ul>
 <li><span class="math inline">\(20\% - 30%\)</span> of participants do not reciprocate</li>
 </ul></li>
-</ul></li>
 <li>Can a positive level of contributions to the public good can be sustained as an equilibrium?</li>
 </ul>
+</div>
 </section>
 <section id="public-goods-and-reciprocity-1" class="slide level2 smaller">
 <h2>Public Goods and Reciprocity</h2>
@@ -732,26 +745,16 @@ Dr Cillian McHugh
 </section>
 <section id="reciprocal-free-riding" class="slide level2">
 <h2>Reciprocal Free Riding</h2>
-</section>
-<section id="reciprocal-free-riding-1" class="slide level2">
-<h2>Reciprocal Free Riding</h2>
 <div class="columns">
 <div class="column" style="width:45%;">
-<p><img data-src="resources/images/dishes.jpeg"></p>
+<div class="fragment">
+<p><a href="resources/images/dishes.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img data-src="resources/images/dishes.jpeg"></a></p>
+</div>
 </div><div class="column" style="width:45%;">
-<p>&nbsp;</p>
+<div class="fragment">
+<p><a href="resources/images/bin.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><img data-src="resources/images/bin.jpg"></a></p>
 </div>
-</div>
-</section>
-<section id="reciprocal-free-riding-2" class="slide level2">
-<h2>Reciprocal Free Riding</h2>
-<div class="columns">
-<div class="column" style="width:45%;">
-<p><img data-src="resources/images/dishes.jpeg"></p>
-</div><div class="column" style="width:45%;">
-<p><img data-src="resources/images/bin.jpg"></p>
-</div>
-</div>
+</div></div>
 <div class="fragment">
 <p>Recall the <span class="citation" data-cites="ross_egocentric_1979">Ross &amp; Sicoly (<a href="#/references-1" role="doc-biblioref" onclick="">1979</a>)</span> housework study?</p>
 </div>
@@ -773,16 +776,16 @@ Dr Cillian McHugh
 </section>
 <section id="alternative-public-goods-game" class="slide level2 smaller">
 <h2>Alternative Public Goods Game</h2>
-<div>
+<div class="fragment">
 <ul>
-<li class="fragment">Suppose each subject in a group has the opportunity to reduce the income of each other subject in the group</li>
-<li class="fragment">e.g., reduction of the income of one other group member by <font color="#0c840c"><span class="math inline">\(x\)</span></font> tokens</li>
-<li class="fragment">Punishing costs <font color="#0c840c"><span class="math inline">\(\frac{1}{3} \times x\)</span></font>
+<li>Suppose each subject in a group has the opportunity to reduce the income of each other subject in the group</li>
+<li>e.g., reduction of the income of one other group member by <font color="#0c840c"><span class="math inline">\(x\)</span></font> tokens</li>
+<li>Punishing costs <font color="#0c840c"><span class="math inline">\(\frac{1}{3} \times x\)</span></font>
 <ul>
-<li class="fragment"><p>Which means selfish subjects will never punish<br><font size="4.5">(If all subjects were purely self-interested, contributions would be unaffected by the punishment opportunity)</font></p></li>
-<li class="fragment"><p>Negatively reciprocal type subjects, will use the costly punishment opportunity to punish free riders</p></li>
+<li><p>Which means selfish subjects will never punish<br><font size="4.5">(If all subjects were purely self-interested, contributions would be unaffected by the punishment opportunity)</font></p></li>
+<li><p>Negatively reciprocal type subjects, will use the costly punishment opportunity to punish free riders</p></li>
 </ul></li>
-<li class="fragment">The public good game with direct punishment provides an opportunity for reciprocal types to induce the selfish types to make “cooperative” choices</li>
+<li>The public good game with direct punishment provides an opportunity for reciprocal types to induce the selfish types to make “cooperative” choices</li>
 </ul>
 </div>
 </section>
@@ -811,8 +814,8 @@ Dr Cillian McHugh
 </section>
 <section id="public-goods-and-punishment-results-1" class="slide level2">
 <h2>Public Goods and Punishment: Results</h2>
-
-<img data-src="resources/images/perfect_stranger.png" class="r-stretch"><p><font size="4.5">Mean income reduction for a given negative deviation from the mean contribution of other group members. Source: Fehr and Gächter 2000. <span class="citation" data-cites="fehr_fairness_2003">(taken from <a href="#/references-1" role="doc-biblioref" onclick="">Fehr &amp; Gächter, 2003, p. 516</a>)</span></font></p>
+<p><a href="resources/images/perfect_stranger.png" class="lightbox" data-gallery="quarto-lightbox-gallery-6"><img data-src="resources/images/perfect_stranger.png"></a></p>
+<p><font size="4.5">Mean income reduction for a given negative deviation from the mean contribution of other group members. Source: Fehr and Gächter 2000. <span class="citation" data-cites="fehr_fairness_2003">(taken from <a href="#/references-1" role="doc-biblioref" onclick="">Fehr &amp; Gächter, 2003, p. 516</a>)</span></font></p>
 </section>
 <section id="public-goods-and-punishment-results-2" class="slide level2 smaller">
 <h2>Public Goods and Punishment: Results</h2>
@@ -829,15 +832,10 @@ Dr Cillian McHugh
 </section>
 <section id="public-goods-and-punishment-results-3" class="slide level2">
 <h2>Public Goods and Punishment: Results</h2>
-
-<img data-src="resources/images/perfect_stranger.png" class="r-stretch"><p><font size="4.5">Mean income reduction for a given negative deviation from the mean contribution of other group members. Source: Fehr and Gächter 2000. <span class="citation" data-cites="fehr_fairness_2003">(taken from <a href="#/references-1" role="doc-biblioref" onclick="">Fehr &amp; Gächter, 2003, p. 516</a>)</span></font></p>
+<p><a href="resources/images/partner_contributions.png" class="lightbox" data-gallery="quarto-lightbox-gallery-7"><img data-src="resources/images/partner_contributions.png"></a></p>
+<p><font size="4.5">Evolution of average contributions with and without the punishment option in the Partner and the Perfect Stranger condition. Source: Fehr and Gächter 2000. <span class="citation" data-cites="fehr_fairness_2003">(taken from <a href="#/references-1" role="doc-biblioref" onclick="">Fehr &amp; Gächter, 2003, p. 517</a>)</span></font></p>
 </section>
 <section id="public-goods-and-punishment-results-4" class="slide level2">
-<h2>Public Goods and Punishment: Results</h2>
-
-<img data-src="resources/images/partner_contributions.png" class="r-stretch"><p><font size="4.5">Evolution of average contributions with and without the punishment option in the Partner and the Perfect Stranger condition. Source: Fehr and Gächter 2000. <span class="citation" data-cites="fehr_fairness_2003">(taken from <a href="#/references-1" role="doc-biblioref" onclick="">Fehr &amp; Gächter, 2003, p. 517</a>)</span></font></p>
-</section>
-<section id="public-goods-and-punishment-results-5" class="slide level2">
 <h2>Public Goods and Punishment: Results</h2>
 <ul>
 <li>Absence of punishment leads to smaller contributions
@@ -847,16 +845,11 @@ Dr Cillian McHugh
 <li>Punishment leads to higher contributions</li>
 </ul>
 </section>
-<section id="public-goods-and-punishment-results-6" class="slide level2">
-<h2>Public Goods and Punishment: Results</h2>
-
-<img data-src="resources/images/partner_contributions.png" class="r-stretch"><p><font size="4.5">Evolution of average contributions with and without the punishment option in the Partner and the Perfect Stranger condition. Source: Fehr and Gächter 2000. <span class="citation" data-cites="fehr_fairness_2003">(taken from <a href="#/references-1" role="doc-biblioref" onclick="">Fehr &amp; Gächter, 2003, p. 517</a>)</span></font></p>
-</section>
-<section id="punishment-and-free-riding" class="slide level2">
+<section id="punishment-and-free-riding" class="slide level2 scrollable">
 <h2>Punishment and ‘Free-riding’</h2>
 <iframe width="966" height="543" src="https://www.youtube.com/embed/8SOQduoLgRw?start=622" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
 </iframe>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font size="4" color="white">Jonathan Haidt discussing <span class="citation" data-cites="fehr_altruistic_2002">Fehr &amp; Gächter (<a href="#/references-1" role="doc-biblioref" onclick="">2002</a>)</span></font></p>
+<p><font size="4">Jonathan Haidt discussing <span class="citation" data-cites="fehr_altruistic_2002">Fehr &amp; Gächter (<a href="#/references-1" role="doc-biblioref" onclick="">2002</a>)</span></font></p>
 </section></section>
 <section>
 <section id="social-norms" class="title-slide slide level1 center">
@@ -878,8 +871,8 @@ Dr Cillian McHugh
 </section>
 <section id="sanctioning-and-norms" class="slide level2">
 <h2>Sanctioning and Norms</h2>
-
-<img data-src="resources/images/bullying.jpg" class="r-stretch"></section>
+<p><a href="resources/images/bullying.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-8"><img data-src="resources/images/bullying.jpg"></a></p>
+</section>
 <section id="sanctioning-and-norms-1" class="slide level2">
 <h2>Sanctioning and Norms</h2>
 
@@ -895,8 +888,7 @@ Dr Cillian McHugh
 <p><img data-src="resources/images/dishes.jpeg"></p>
 </div><div class="column" style="width:45%;">
 <p><img data-src="resources/images/bin.jpg"></p>
-</div>
-</div>
+</div></div>
 <div class="fragment">
 <p>Which is more costly? The sanction or the consequence of not sanctioning</p>
 </div>
@@ -926,61 +918,79 @@ Dr Cillian McHugh
 <h1>Third Party Punishment</h1>
 
 </section>
-<section id="third-party-punishment-1" class="slide level2">
+<section id="third-party-punishment-1" class="slide level2 smaller">
 <h2>Third Party Punishment</h2>
-<div>
+<div class="fragment">
 <ul>
-<li class="fragment"><p>Third Party Punishment in the Dictator game</p></li>
-<li class="fragment"><p>Players <font color="#6666ff"><strong>A</strong> (Dictator)</font>, <font color="#ff4c4c"><strong>B</strong> (Recipient)</font> and <font color="#b665c4"><strong>C</strong> (Third Party)</font></p></li>
-<li class="fragment"><p><font color="#6666ff"><strong>A</strong></font> has <span class="math inline">\(100\)</span> points</p>
+<li><p>Third Party Punishment in the Dictator game</p></li>
+<li><p>Players <font color="#6666ff"><strong>A</strong> (Dictator)</font>, <font color="#ff4c4c"><strong>B</strong> (Recipient)</font> and <font color="#b665c4"><strong>C</strong> (Third Party)</font></p></li>
+</ul>
+</div>
+<div class="fragment">
 <ul>
-<li class="fragment">Can give <span class="math inline">\(0, 10, 20, 30, 40, or\)</span> <span class="math inline">\(50\)</span> points to <font color="#ff4c4c"><strong>B</strong></font></li>
+<li><font color="#6666ff"><strong>A</strong></font> has <span class="math inline">\(100\)</span> points
+<ul>
+<li>Can give <span class="math inline">\(0, 10, 20, 30, 40, or\)</span> <span class="math inline">\(50\)</span> points to <font color="#ff4c4c"><strong>B</strong></font></li>
 </ul></li>
-<li class="fragment"><p><font color="#ff4c4c"><strong>B</strong></font> has nothing</p></li>
-<li class="fragment"><p><font color="#b665c4"><strong>C</strong></font> (has <span class="math inline">\(50\)</span> points) can sanction <font color="#6666ff"><strong>A</strong></font></p>
+</ul>
+</div>
+<div class="fragment">
 <ul>
-<li class="fragment">assigning a sanction “costs” points</li>
-<li class="fragment">e.g., <font color="#b665c4"><strong>C</strong></font> spends <span class="math inline">\(1\)</span> point to deduct <span class="math inline">\(3\)</span> points from <font color="#6666ff"><strong>A</strong></font><br><font size="4.5"><span class="citation" data-cites="fehr_third_2004">(<a href="#/references-1" role="doc-biblioref" onclick="">Fehr &amp; Fischbacher, 2004</a>)</span></font></li>
+<li><font color="#ff4c4c"><strong>B</strong></font> has nothing</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li><font color="#b665c4"><strong>C</strong></font> (has <span class="math inline">\(50\)</span> points) can sanction <font color="#6666ff"><strong>A</strong></font>
+<ul>
+<li>assigning a sanction “costs” points</li>
+<li>e.g., <font color="#b665c4"><strong>C</strong></font> spends <span class="math inline">\(1\)</span> point to deduct <span class="math inline">\(3\)</span> points from <font color="#6666ff"><strong>A</strong></font><br><font size="4.5"><span class="citation" data-cites="fehr_third_2004">(<a href="#/references-1" role="doc-biblioref" onclick="">Fehr &amp; Fischbacher, 2004</a>)</span></font></li>
 </ul></li>
 </ul>
 </div>
 </section>
 <section id="third-party-punishment-2" class="slide level2">
 <h2>Third Party Punishment</h2>
-<div>
+<p>Variables of Interest:</p>
+<div class="fragment">
 <ul>
-<li class="fragment">Variables of Interest:
+<li><strong>Frequency</strong> of punishment
 <ul>
-<li class="fragment">Frequency of punishment
-<ul>
-<li class="fragment">Both <em>actual</em> and <em>expected</em></li>
+<li>Both <em>actual</em> and <em>expected</em></li>
 </ul></li>
-<li class="fragment">Severity of punishment
+</ul>
+</div>
+<div class="fragment">
 <ul>
-<li class="fragment">Both <em>actual</em> and <em>expected</em></li>
-</ul></li>
-<li class="fragment">Level/value of transfer (from dictators)
+<li><strong>Severity</strong> of punishment
 <ul>
-<li class="fragment">Both <em>actual</em> and <em>expected</em></li>
+<li>Both <em>actual</em> and <em>expected</em></li>
 </ul></li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>Level/value of <strong>transfer</strong> (from dictators)
+<ul>
+<li>Both <em>actual</em> and <em>expected</em></li>
 </ul></li>
 </ul>
 </div>
 </section>
 <section id="third-party-punishment-3" class="slide level2">
 <h2>Third Party Punishment</h2>
-
-<img data-src="resources/images/third_party_fig1.png" class="r-stretch"><p>Frequency of punishment <span class="citation" data-cites="fehr_third_2004">(<a href="#/references-1" role="doc-biblioref" onclick="">Fehr &amp; Fischbacher, 2004, p. 69</a>)</span></p>
+<p><a href="resources/images/third_party_fig1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-9"><img data-src="resources/images/third_party_fig1.png" height="480"></a></p>
+<p>Frequency of punishment <span class="citation" data-cites="fehr_third_2004">(<a href="#/references-1" role="doc-biblioref" onclick="">Fehr &amp; Fischbacher, 2004, p. 69</a>)</span></p>
 </section>
 <section id="third-party-punishment-4" class="slide level2">
 <h2>Third Party Punishment</h2>
-
-<img data-src="resources/images/third_party_fig2.png" class="r-stretch"><p><span class="citation" data-cites="fehr_third_2004">(<a href="#/references-1" role="doc-biblioref" onclick="">Fehr &amp; Fischbacher, 2004, p. 70</a>)</span></p>
+<p><a href="resources/images/third_party_fig2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-10"><img data-src="resources/images/third_party_fig2.png" height="480"></a></p>
+<p><span class="citation" data-cites="fehr_third_2004">(<a href="#/references-1" role="doc-biblioref" onclick="">Fehr &amp; Fischbacher, 2004, p. 70</a>)</span></p>
 </section>
 <section id="third-party-punishment-5" class="slide level2">
 <h2>Third Party Punishment</h2>
-
-<img data-src="resources/images/third_party_fig3.png" class="r-stretch"><p><span class="citation" data-cites="fehr_third_2004">(<a href="#/references-1" role="doc-biblioref" onclick="">Fehr &amp; Fischbacher, 2004, p. 71</a>)</span></p>
+<p><a href="resources/images/third_party_fig3.png" class="lightbox" data-gallery="quarto-lightbox-gallery-11"><img data-src="resources/images/third_party_fig3.png" height="480"></a></p>
+<p><span class="citation" data-cites="fehr_third_2004">(<a href="#/references-1" role="doc-biblioref" onclick="">Fehr &amp; Fischbacher, 2004, p. 71</a>)</span></p>
 </section>
 <section id="punishment-expectation" class="slide level2">
 <h2>Punishment Expectation</h2>
@@ -992,8 +1002,8 @@ Dr Cillian McHugh
 </section>
 <section id="second-and-third-party-punishment" class="slide level2">
 <h2>Second and Third Party Punishment</h2>
-
-<img data-src="resources/images/third_party_fig4.png" class="r-stretch"><p><span class="citation" data-cites="fehr_third_2004">(<a href="#/references-1" role="doc-biblioref" onclick="">Fehr &amp; Fischbacher, 2004, p. 75</a>)</span></p>
+<p><a href="resources/images/third_party_fig4.png" class="lightbox" data-gallery="quarto-lightbox-gallery-12"><img data-src="resources/images/third_party_fig4.png" height="480"></a></p>
+<p><span class="citation" data-cites="fehr_third_2004">(<a href="#/references-1" role="doc-biblioref" onclick="">Fehr &amp; Fischbacher, 2004, p. 75</a>)</span></p>
 </section>
 <section id="second-and-third-party-punishment-1" class="slide level2">
 <h2>Second and Third Party Punishment</h2>
@@ -1013,8 +1023,8 @@ Dr Cillian McHugh
 </section>
 <section id="second-and-third-party-punishment-2" class="slide level2">
 <h2>Second and Third Party Punishment</h2>
-
-<img data-src="resources/images/third_party_fig5.png" class="r-stretch"><p><span class="citation" data-cites="fehr_third_2004">(<a href="#/references-1" role="doc-biblioref" onclick="">Fehr &amp; Fischbacher, 2004, p. 78</a>)</span></p>
+<p><a href="resources/images/third_party_fig5.png" class="lightbox" data-gallery="quarto-lightbox-gallery-13"><img data-src="resources/images/third_party_fig5.png" height="480"></a></p>
+<p><span class="citation" data-cites="fehr_third_2004">(<a href="#/references-1" role="doc-biblioref" onclick="">Fehr &amp; Fischbacher, 2004, p. 78</a>)</span></p>
 </section>
 <section id="second-and-third-party-punishment-3" class="slide level2">
 <h2>Second and Third Party Punishment</h2>
@@ -1026,8 +1036,8 @@ Dr Cillian McHugh
 </section>
 <section id="second-and-third-party-punishment-4" class="slide level2">
 <h2>Second and Third Party Punishment</h2>
-
-<img data-src="resources/images/third_party_fig6.png" class="r-stretch"><p>Expected payoff <font size="4.5"><span class="citation" data-cites="fehr_third_2004">(<a href="#/references-1" role="doc-biblioref" onclick="">Fehr &amp; Fischbacher, 2004, p. 79</a>)</span></font></p>
+<p><a href="resources/images/third_party_fig6.png" class="lightbox" data-gallery="quarto-lightbox-gallery-14"><img data-src="resources/images/third_party_fig6.png" height="480"></a></p>
+<p>Expected payoff <span class="lightbox" height="480px"><span class="citation" data-cites="fehr_third_2004">Fehr &amp; Fischbacher (<a href="#/references-1" role="doc-biblioref" onclick="">2004</a>)</span>, p.&nbsp;79</span></p>
 </section></section>
 <section>
 <section id="ethical-payoff-matrices" class="title-slide slide level1 center">
@@ -1038,7 +1048,6 @@ Dr Cillian McHugh
 <h2>Representing Ethical Considerations</h2>
 <p>Pure co-ordination game</p>
 <center>
-
 <table class="table-style-one">
 <colgroup><col width="200px">
 <col width="200px">
@@ -1084,7 +1093,6 @@ Dr Cillian McHugh
 <font color="#6666ff">1</font> , <font color="#ff4c4c">1</font>
 </td>
 </tr>
-
 </tbody></table>
 </center>
 <p><br> <font size="4.5"><span class="citation" data-cites="pingle_ethics_2017">(adapted from <a href="#/references-1" role="doc-biblioref" onclick="">Pingle, 2017, p. 565</a>)</span></font></p>
@@ -1093,7 +1101,6 @@ Dr Cillian McHugh
 <h2>Representing Ethical Considerations</h2>
 <p>Co-ordination game with penalties and rewards</p>
 <center>
-
 <table class="table-style-one">
 <colgroup><col width="200px">
 <col width="200px">
@@ -1139,7 +1146,6 @@ Dr Cillian McHugh
 <font color="#6666ff">-1</font> , <font color="#ff4c4c">-1</font>
 </td>
 </tr>
-
 </tbody></table>
 </center>
 <p><br> <font size="4.5"><span class="citation" data-cites="pingle_ethics_2017">(adapted from <a href="#/references-1" role="doc-biblioref" onclick="">Pingle, 2017, p. 565</a>)</span></font></p>
@@ -1148,7 +1154,6 @@ Dr Cillian McHugh
 <h2>Stag Hunt</h2>
 <p>Version of the Stag Hunt game</p>
 <center>
-
 <table class="table-style-one">
 <colgroup><col width="200px">
 <col width="200px">
@@ -1194,7 +1199,6 @@ Dr Cillian McHugh
 <font color="#6666ff">1</font> , <font color="#ff4c4c">1</font>
 </td>
 </tr>
-
 </tbody></table>
 </center>
 <p><br> <font size="4.5"><span class="citation" data-cites="pingle_ethics_2017">(adapted from <a href="#/references-1" role="doc-biblioref" onclick="">Pingle, 2017, p. 568</a>)</span></font></p>
@@ -1203,7 +1207,6 @@ Dr Cillian McHugh
 <h2>Transformed Stag Hunt</h2>
 <p><br></p>
 <center>
-
 <table class="table-style-one">
 <colgroup><col width="200px">
 <col width="200px">
@@ -1249,7 +1252,6 @@ Dr Cillian McHugh
 <font color="#6666ff">1</font> , <font color="#ff4c4c">1</font>
 </td>
 </tr>
-
 </tbody></table>
 </center>
 <p><br> <font size="4.5"><span class="citation" data-cites="pingle_ethics_2017">(adapted from <a href="#/references-1" role="doc-biblioref" onclick="">Pingle, 2017, p. 568</a>)</span></font></p>
@@ -1283,8 +1285,8 @@ Dr Cillian McHugh
 </section>
 <section id="moral-judgments-2" class="slide level2">
 <h2>Moral Judgments</h2>
-
-<img data-src="resources/images/buffy.png" class="r-stretch"></section>
+<p><a href="resources/images/buffy.png" class="lightbox" data-gallery="quarto-lightbox-gallery-15"><img data-src="resources/images/buffy.png" height="550"></a></p>
+</section>
 <section id="known-influences-on-moral-judgements" class="slide level2 smaller">
 <h2>Known Influences on Moral Judgements</h2>
 <ul>
@@ -1338,9 +1340,8 @@ Dr Cillian McHugh
 <li>“interpersonal harm is the essence of morality” <span class="citation" data-cites="gray_mind_2012">(<a href="#/references-1" role="doc-biblioref" onclick="">Gray et al., 2012, p. 109</a>)</span></li>
 </ul>
 </div><div class="column" style="width:40%;">
-<p><br> <br> <br> <img data-src="resources/images/voldemort.jpg"></p>
-</div>
-</div>
+<p><br> <br> <br> <a href="resources/images/voldemort.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-16"><img data-src="resources/images/voldemort.jpg"></a></p>
+</div></div>
 </section>
 <section id="issues-with-tdm" class="slide level2">
 <h2>Issues with TDM</h2>
@@ -1350,12 +1351,11 @@ Dr Cillian McHugh
 <ul>
 <li>Moral dumbfounding occurs when people defend a moral judgement even though they cannot provide supporting reasons</li>
 </ul>
-<p><span class="citation" data-cites="mchugh_searching_2017 haidt_moral_2000 mchugh_just_2023">(<a href="#/references-1" role="doc-biblioref" onclick="">Haidt, Björklund, &amp; Murphy, 2000</a>; <a href="#/references-1" role="doc-biblioref" onclick="">McHugh, McGann, Igou, &amp; Kinsella, 2017</a>; <a href="#/references-1" role="doc-biblioref" onclick="">McHugh, Zhang, Karnatak, Lamba, &amp; Khokhlova, 2023</a>)</span></p>
+<p><span class="citation" data-cites="mchugh_searching_2017a haidt_moral_2000 mchugh_just_2023">(<a href="#/references-1" role="doc-biblioref" onclick="">Haidt, Björklund, &amp; Murphy, 2000</a>; <a href="#/references-1" role="doc-biblioref" onclick="">McHugh, McGann, Igou, &amp; Kinsella, 2017</a>; <a href="#/references-1" role="doc-biblioref" onclick="">McHugh, Zhang, Karnatak, Lamba, &amp; Khokhlova, 2023</a>)</span></p>
 </div><div class="column" style="width:35%;">
-<p><img data-src="resources/images/searching.png"></p>
-<p><img data-src="resources/images/just_wrong.png"></p>
-</div>
-</div>
+<p><a href="https://online.ucpress.edu/collabra/article/3/1/23/112379/Searching-for-Moral-Dumbfounding-Identifying" target="_blank"><img data-src="resources/images/searching.png"></a></p>
+<p><a href="https://link.springer.com/article/10.3758/s13421-022-01386-z" target="_blank"><img data-src="resources/images/just_wrong.png"></a></p>
+</div></div>
 </section>
 <section id="moral-dumbfounding" class="slide level2 smaller">
 <h2>Moral Dumbfounding</h2>
@@ -1367,16 +1367,16 @@ Dr Cillian McHugh
 <section id="dual-process-approaches" class="slide level2">
 <h2>Dual-Process Approaches</h2>
 <p><br></p>
-
-<img data-src="resources/images/trolley_problem.png" class="r-stretch"></section>
+<p><a href="resources/images/trolley_problem.png" class="lightbox" data-gallery="quarto-lightbox-gallery-17"><img data-src="resources/images/trolley_problem.png"></a></p>
+</section>
 <section id="dual-process-approaches-1" class="slide level2">
 <h2>Dual-Process Approaches</h2>
-
-<img data-src="resources/images/MJAC_dual_process/together4.png" class="r-stretch"></section>
+<p><a href="resources/images/MJAC_dual_process/together4.png" class="lightbox" data-gallery="quarto-lightbox-gallery-18"><img data-src="resources/images/MJAC_dual_process/together4.png" style="width:100.0%"></a></p>
+</section>
 <section id="dual-process-approaches-2" class="slide level2">
 <h2>Dual-Process Approaches</h2>
-
-<img data-src="resources/images/MJAC_dual_process/context7.png" class="r-stretch"></section>
+<p><a href="resources/images/MJAC_dual_process/context7.png" class="lightbox" data-gallery="quarto-lightbox-gallery-19"><img data-src="resources/images/MJAC_dual_process/context7.png" style="width:100.0%"></a></p>
+</section>
 <section id="moral-judgment-as-categorization-mjac" class="slide level2 smaller">
 <h2>Moral Judgment as Categorization (MJAC)</h2>
 <h3 id="premises">Premises</h3>
@@ -1393,8 +1393,8 @@ Dr Cillian McHugh
 </section>
 <section id="ad-hoc-goal-derived-catagories" class="slide level2">
 <h2>Ad-Hoc Goal-Derived Catagories</h2>
-
-<img data-src="resources/images/suitcase.jpg" class="r-stretch"><ul>
+<p><a href="resources/images/suitcase.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-20"><img data-src="resources/images/suitcase.jpg" style="width:50.0%"></a></p>
+<ul>
 <li><em>THINGS TO PACK INTO A SUITCASE</em> <span class="citation" data-cites="barsalou_deriving_1991 barsalou_situated_2003">(<a href="#/references-1" role="doc-biblioref" onclick="">Barsalou, 1991</a>, <a href="#/references-1" role="doc-biblioref" onclick="">2003</a>)</span></li>
 <li>Type-token interpretation</li>
 </ul>
@@ -1404,24 +1404,24 @@ Dr Cillian McHugh
 </section>
 <section id="the-organisation-of-categories-fruit-1" class="slide level2">
 <h2>The Organisation of Categories: Fruit</h2>
-
-<img data-src="resources/images/fruit1.png" class="r-stretch"></section>
+<p><a href="resources/images/fruit1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-21"><img data-src="resources/images/fruit1.png" style="width:100.0%"></a></p>
+</section>
 <section id="the-organisation-of-categories-fruit-2" class="slide level2">
 <h2>The Organisation of Categories: Fruit</h2>
-
-<img data-src="resources/images/fruit2.png" class="r-stretch"></section>
+<p><a href="resources/images/fruit2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-22"><img data-src="resources/images/fruit2.png" style="width:100.0%"></a></p>
+</section>
 <section id="the-organisation-of-categories-fruit-3" class="slide level2">
 <h2>The Organisation of Categories: Fruit</h2>
-
-<img data-src="resources/images/fruit3.png" class="r-stretch"></section>
+<p><a href="resources/images/fruit3.png" class="lightbox" data-gallery="quarto-lightbox-gallery-23"><img data-src="resources/images/fruit3.png" style="width:100.0%"></a></p>
+</section>
 <section id="the-organisation-of-categories-fruit-4" class="slide level2">
 <h2>The Organisation of Categories: Fruit</h2>
-
-<img data-src="resources/images/fruit4.png" class="r-stretch"></section>
+<p><a href="resources/images/fruit4.png" class="lightbox" data-gallery="quarto-lightbox-gallery-24"><img data-src="resources/images/fruit4.png" style="width:100.0%"></a></p>
+</section>
 <section id="evidence" class="slide level2">
 <h2>Evidence</h2>
-
-<img data-src="resources/images/mjac_old_table.png" class="r-stretch"></section>
+<p><a href="resources/images/mjac_old_table.png" class="lightbox" data-gallery="quarto-lightbox-gallery-25"><img data-src="resources/images/mjac_old_table.png" style="width:100.0%"></a></p>
+</section>
 <section id="similarity-of-explanation" class="slide level2 smaller">
 <h2>Similarity of Explanation</h2>
 <div class="columns">
@@ -1429,101 +1429,96 @@ Dr Cillian McHugh
 <p><em>Morality</em></p>
 </div><div class="column" style="width:50%;">
 <p><em>Categorization</em></p>
-</div>
-</div>
+</div></div>
 <p><strong>Order Effects</strong>:</p>
 <div class="columns">
 <div class="column" style="width:40%;">
 <p><span class="citation" data-cites="petrinovich_influence_1996">Petrinovich &amp; O’Neill (<a href="#/references-1" role="doc-biblioref" onclick="">1996</a>)</span></p>
 </div><div class="column" style="width:60%;">
 <p><span class="citation" data-cites="barsalou_contextindependent_1982">Barsalou (<a href="#/references-1" role="doc-biblioref" onclick="">1982</a>)</span>, <span class="citation" data-cites="higgins_nature_1985">Higgins, Bargh, &amp; Lombardi (<a href="#/references-1" role="doc-biblioref" onclick="">1985</a>)</span></p>
-</div>
-</div>
+</div></div>
 <p><strong>Language Effects</strong>:</p>
 <div class="columns">
 <div class="column" style="width:40%;">
 <p><span class="citation" data-cites="cipolletti_moral_2016">Cipolletti, McFarlane, &amp; Weissglass (<a href="#/references-1" role="doc-biblioref" onclick="">2016</a>)</span></p>
 </div><div class="column" style="width:60%;">
 <p><span class="citation" data-cites="colbeck_blinded_2012">Colbeck &amp; Bowers (<a href="#/references-1" role="doc-biblioref" onclick="">2012</a>)</span>, <span class="citation" data-cites="harris_taboo_2003">Harris, Ayçiçeĝi, &amp; Gleason (<a href="#/references-1" role="doc-biblioref" onclick="">2003</a>)</span></p>
-</div>
-</div>
+</div></div>
 <p><strong>Emotion Effects</strong>:</p>
 <div class="columns">
 <div class="column" style="width:40%;">
 <p><span class="citation" data-cites="cameron_morality_2013">C. D. Cameron et al. (<a href="#/references-1" role="doc-biblioref" onclick="">2013</a>)</span></p>
 </div><div class="column" style="width:60%;">
 <p><span class="citation" data-cites="barsalou_situating_2005">Barsalou &amp; Wiemer-Hastings (<a href="#/references-1" role="doc-biblioref" onclick="">2005</a>)</span></p>
-</div>
-</div>
+</div></div>
 <p><strong>Typicality</strong>:</p>
 <div class="columns">
 <div class="column" style="width:40%;">
 <p><span class="citation" data-cites="gray_impure_2015">Gray &amp; Keeney (<a href="#/references-1" role="doc-biblioref" onclick="">2015</a>)</span></p>
 </div><div class="column" style="width:60%;">
 <p><span class="citation" data-cites="mccloskey_natural_1978">McCloskey &amp; Glucksberg (<a href="#/references-1" role="doc-biblioref" onclick="">1978</a>)</span>, <span class="citation" data-cites="oden_fuzziness_1977">Oden (<a href="#/references-1" role="doc-biblioref" onclick="">1977</a>)</span></p>
-</div>
-</div>
+</div></div>
 </section>
 <section id="contrasting-with-existing-approaches" class="slide level2">
 <h2>Contrasting with Existing Approaches</h2>
-
-<img data-src="resources/images/MJAC_dual_process/together4.png" class="r-stretch"></section>
+<p><a href="resources/images/MJAC_dual_process/together4.png" class="lightbox" data-gallery="quarto-lightbox-gallery-26"><img data-src="resources/images/MJAC_dual_process/together4.png" style="width:100.0%"></a></p>
+</section>
 <section id="contrasting-with-existing-approaches-1" class="slide level2">
 <h2>Contrasting with Existing Approaches</h2>
-
-<img data-src="resources/images/MJAC_dual_process/context7.png" class="r-stretch"></section>
+<p><a href="resources/images/MJAC_dual_process/context7.png" class="lightbox" data-gallery="quarto-lightbox-gallery-27"><img data-src="resources/images/MJAC_dual_process/context7.png" style="width:100.0%"></a></p>
+</section>
 <section id="mjac" class="slide level2">
 <h2>MJAC</h2>
-
-<img data-src="resources/images/MJAC_dual_process/mjac1.png" class="r-stretch"></section>
+<p><a href="resources/images/MJAC_dual_process/mjac1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-28"><img data-src="resources/images/MJAC_dual_process/mjac1.png" style="width:100.0%"></a></p>
+</section>
 <section id="mjac-1" class="slide level2">
 <h2>MJAC</h2>
-
-<img data-src="resources/images/MJAC_dual_process/mjac2.png" class="r-stretch"></section>
+<p><a href="resources/images/MJAC_dual_process/mjac2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-29"><img data-src="resources/images/MJAC_dual_process/mjac2.png" style="width:100.0%"></a></p>
+</section>
 <section id="mjac-2" class="slide level2">
 <h2>MJAC</h2>
-
-<img data-src="resources/images/MJAC_dual_process/mjac3.png" class="r-stretch"></section>
+<p><a href="resources/images/MJAC_dual_process/mjac3.png" class="lightbox" data-gallery="quarto-lightbox-gallery-30"><img data-src="resources/images/MJAC_dual_process/mjac3.png" style="width:100.0%"></a></p>
+</section>
 <section id="mjac-3" class="slide level2">
 <h2>MJAC</h2>
-
-<img data-src="resources/images/MJAC_dual_process/mjac4.png" class="r-stretch"></section>
+<p><a href="resources/images/MJAC_dual_process/mjac4.png" class="lightbox" data-gallery="quarto-lightbox-gallery-31"><img data-src="resources/images/MJAC_dual_process/mjac4.png" style="width:100.0%"></a></p>
+</section>
 <section id="mjac-4" class="slide level2">
 <h2>MJAC</h2>
-
-<img data-src="resources/images/MJAC_dual_process/mjac5.png" class="r-stretch"></section>
+<p><a href="resources/images/MJAC_dual_process/mjac5.png" class="lightbox" data-gallery="quarto-lightbox-gallery-32"><img data-src="resources/images/MJAC_dual_process/mjac5.png" style="width:100.0%"></a></p>
+</section>
 <section id="mjac-5" class="slide level2">
 <h2>MJAC</h2>
-
-<img data-src="resources/images/MJAC_dual_process/mjac6.png" class="r-stretch"></section>
+<p><a href="resources/images/MJAC_dual_process/mjac6.png" class="lightbox" data-gallery="quarto-lightbox-gallery-33"><img data-src="resources/images/MJAC_dual_process/mjac6.png" style="width:100.0%"></a></p>
+</section>
 <section id="mjac-6" class="slide level2">
 <h2>MJAC</h2>
-
-<img data-src="resources/images/MJAC_dual_process/mjac7.png" class="r-stretch"></section>
+<p><a href="resources/images/MJAC_dual_process/mjac7.png" class="lightbox" data-gallery="quarto-lightbox-gallery-34"><img data-src="resources/images/MJAC_dual_process/mjac7.png" style="width:100.0%"></a></p>
+</section>
 <section id="mjac-7" class="slide level2">
 <h2>MJAC</h2>
-
-<img data-src="resources/images/MJAC_dual_process/mjac8.png" class="r-stretch"></section>
+<p><a href="resources/images/MJAC_dual_process/mjac8.png" class="lightbox" data-gallery="quarto-lightbox-gallery-35"><img data-src="resources/images/MJAC_dual_process/mjac8.png" style="width:100.0%"></a></p>
+</section>
 <section id="mjac-8" class="slide level2">
 <h2>MJAC</h2>
-
-<img data-src="resources/images/MJAC_dual_process/mjac9.png" class="r-stretch"></section>
+<p><a href="resources/images/MJAC_dual_process/mjac9.png" class="lightbox" data-gallery="quarto-lightbox-gallery-36"><img data-src="resources/images/MJAC_dual_process/mjac9.png" style="width:100.0%"></a></p>
+</section>
 <section id="mjac-9" class="slide level2">
 <h2>MJAC</h2>
-
-<img data-src="resources/images/MJAC_dual_process/mjac10.png" class="r-stretch"></section>
+<p><a href="resources/images/MJAC_dual_process/mjac10.png" class="lightbox" data-gallery="quarto-lightbox-gallery-37"><img data-src="resources/images/MJAC_dual_process/mjac10.png" style="width:100.0%"></a></p>
+</section>
 <section id="mjac-10" class="slide level2">
 <h2>MJAC</h2>
-
-<img data-src="resources/images/MJAC_dual_process/mjac11.png" class="r-stretch"></section>
+<p><a href="resources/images/MJAC_dual_process/mjac11.png" class="lightbox" data-gallery="quarto-lightbox-gallery-38"><img data-src="resources/images/MJAC_dual_process/mjac11.png" style="width:100.0%"></a></p>
+</section>
 <section id="mjac-11" class="slide level2">
 <h2>MJAC</h2>
-
-<img data-src="resources/images/MJAC_dual_process/mjac12.png" class="r-stretch"></section>
+<p><a href="resources/images/MJAC_dual_process/mjac12.png" class="lightbox" data-gallery="quarto-lightbox-gallery-39"><img data-src="resources/images/MJAC_dual_process/mjac12.png" style="width:100.0%"></a></p>
+</section>
 <section id="mjac-12" class="slide level2">
 <h2>MJAC</h2>
-
-<img data-src="resources/images/MJAC_dual_process/mjac13.png" class="r-stretch"></section></section>
+<p><a href="resources/images/MJAC_dual_process/mjac13.png" class="lightbox" data-gallery="quarto-lightbox-gallery-40"><img data-src="resources/images/MJAC_dual_process/mjac13.png" style="width:100.0%"></a></p>
+</section></section>
 <section>
 <section id="in-class-activity" class="title-slide slide level1 center">
 <h1>In-Class Activity</h1>
@@ -1547,11 +1542,13 @@ Dr Cillian McHugh
 <section id="references-1" class="slide level2 smaller scrollable">
 <h2>References</h2>
 <p> </p>
-
-<img src="resources/images/ul-psychology-logos.png" class="slide-logo r-stretch"><div class="footer footer-default">
-<p>PS4168: Cillian McHugh - 15/11/23</p>
+<div class="quarto-auto-generated-content">
+<p><img src="resources/images/ul-psychology-logos.png" class="slide-logo"></p>
+<div class="footer footer-default">
+<p>PS4168: Cillian McHugh - 15/11/24</p>
 </div>
-<div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="list">
+</div>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
 <div id="ref-abbink_moonlighting_2000" class="csl-entry" role="listitem">
 Abbink, K., Irlenbusch, B., &amp; Renner, E. (2000). The moonlighting game: <span>An</span> experimental study on reciprocity and retribution. <em>Journal of Economic Behavior &amp; Organization</em>, <em>42</em>(2), 265–277. <a href="https://doi.org/10.1016/S0167-2681(00)00089-5">https://doi.org/10.1016/S0167-2681(00)00089-5</a>
 </div>
@@ -1696,8 +1693,8 @@ McCabe, K. A., Rassenti, S. J., &amp; Smith, V. L. (1996). Game theory and recip
 <div id="ref-mccloskey_natural_1978" class="csl-entry" role="listitem">
 McCloskey, M. E., &amp; Glucksberg, S. (1978). Natural categories: <span>Well</span> defined or fuzzy sets? <em>Memory &amp; Cognition</em>, <em>6</em>(4), 462–472. <a href="https://doi.org/10.3758/BF03197480">https://doi.org/10.3758/BF03197480</a>
 </div>
-<div id="ref-mchugh_searching_2017" class="csl-entry" role="listitem">
-McHugh, C., McGann, M., Igou, E. R., &amp; Kinsella, E. L. (2017). Searching for <span>Dumbfounding</span>. <em>Open Science Framework</em>. <a href="https://doi.org/10.17605/OSF.IO/WM6VC">https://doi.org/10.17605/OSF.IO/WM6VC</a>
+<div id="ref-mchugh_searching_2017a" class="csl-entry" role="listitem">
+McHugh, C., McGann, M., Igou, E. R., &amp; Kinsella, E. L. (2017). Searching for <span>Moral Dumbfounding</span>: <span>Identifying Measurable Indicators</span> of <span>Moral Dumbfounding</span>. <em>Collabra: Psychology</em>, <em>3</em>(1), 1–24. <a href="https://doi.org/10.1525/collabra.79">https://doi.org/10.1525/collabra.79</a>
 </div>
 <div id="ref-mchugh_moral_2022" class="csl-entry" role="listitem">
 McHugh, C., McGann, M., Igou, E. R., &amp; Kinsella, E. L. (2022). Moral <span>Judgment</span> as <span>Categorization</span> (<span>MJAC</span>). <em>Perspectives on Psychological Science</em>, <em>17</em>(1), 131–152. <a href="https://doi.org/10.1177/1745691621990636">https://doi.org/10.1177/1745691621990636</a>
@@ -1780,9 +1777,8 @@ Wiegmann, A., Okan, Y., &amp; Nagel, J. (2012). Order effects in moral judgment.
       // Full list of configuration options available at:
       // https://revealjs.com/config/
       Reveal.initialize({
-'controlsAuto': true,
+'controlsAuto': false,
 'previewLinksAuto': false,
-'smaller': false,
 'pdfSeparateFragments': false,
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
@@ -1792,7 +1788,7 @@ Wiegmann, A., Okan, Y., &amp; Nagel, J. (2012). Order effects in moral judgment.
 'smaller': false,
  
         // Display controls in the bottom right corner
-        controls: false,
+        controls: true,
 
         // Help the user learn the controls by providing hints, for example by
         // bouncing the down arrow when they first encounter a vertical slide
@@ -2038,18 +2034,7 @@ Wiegmann, A., Okan, Y., &amp; Nagel, J. (2012). Order effects in moral judgment.
         }
         return false;
       }
-      const clipboard = new window.ClipboardJS('.code-copy-button', {
-        text: function(trigger) {
-          const codeEl = trigger.previousElementSibling.cloneNode(true);
-          for (const childEl of codeEl.children) {
-            if (isCodeAnnotation(childEl)) {
-              childEl.remove();
-            }
-          }
-          return codeEl.innerText;
-        }
-      });
-      clipboard.on('success', function(e) {
+      const onCopySuccess = function(e) {
         // button target
         const button = e.trigger;
         // don't keep focus
@@ -2081,11 +2066,50 @@ Wiegmann, A., Okan, Y., &amp; Nagel, J. (2012). Order effects in moral judgment.
         }, 1000);
         // clear code selection
         e.clearSelection();
+      }
+      const getTextToCopy = function(trigger) {
+          const codeEl = trigger.previousElementSibling.cloneNode(true);
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+      }
+      const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+        text: getTextToCopy
       });
-      function tippyHover(el, contentFn) {
+      clipboard.on('success', onCopySuccess);
+      if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+        // For code content inside modals, clipBoardJS needs to be initialized with a container option
+        // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+        const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+          text: getTextToCopy,
+          container: window.document.getElementById('quarto-embedded-source-code-modal')
+        });
+        clipboardModal.on('success', onCopySuccess);
+      }
+        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+        var mailtoRegex = new RegExp(/^mailto:/);
+          var filterRegex = new RegExp('/' + window.location.host + '/');
+        var isInternal = (href) => {
+            return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+        }
+        // Inspect non-navigation links and adorn them if external
+     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+        for (var i=0; i<links.length; i++) {
+          const link = links[i];
+          if (!isInternal(link.href)) {
+            // undo the damage that might have been done by quarto-nav.js in the case of
+            // links that we want to consider external
+            if (link.dataset.originalHref !== undefined) {
+              link.href = link.dataset.originalHref;
+            }
+          }
+        }
+      function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
         const config = {
           allowHTML: true,
-          content: contentFn,
           maxWidth: 500,
           delay: 100,
           arrow: false,
@@ -2095,8 +2119,17 @@ Wiegmann, A., Okan, Y., &amp; Nagel, J. (2012). Order effects in moral judgment.
           interactive: true,
           interactiveBorder: 10,
           theme: 'light-border',
-          placement: 'bottom-start'
+          placement: 'bottom-start',
         };
+        if (contentFn) {
+          config.content = contentFn;
+        }
+        if (onTriggerFn) {
+          config.onTrigger = onTriggerFn;
+        }
+        if (onUntriggerFn) {
+          config.onUntrigger = onUntriggerFn;
+        }
           config['offset'] = [0,0];
           config['maxWidth'] = 700;
         window.tippy(el, config); 
@@ -2110,7 +2143,11 @@ Wiegmann, A., Okan, Y., &amp; Nagel, J. (2012). Order effects in moral judgment.
           try { href = new URL(href).hash; } catch {}
           const id = href.replace(/^#\/?/, "");
           const note = window.document.getElementById(id);
-          return note.innerHTML;
+          if (note) {
+            return note.innerHTML;
+          } else {
+            return "";
+          }
         });
       }
       const findCites = (el) => {
@@ -2152,6 +2189,38 @@ Wiegmann, A., Okan, Y., &amp; Nagel, J. (2012). Order effects in moral judgment.
       }
     });
     </script>
+    <script>var lightboxQuarto = GLightbox({"openEffect":"zoom","loop":false,"selector":".lightbox","closeEffect":"zoom","descPosition":"bottom"});
+    (function() {
+      let previousOnload = window.onload;
+      window.onload = () => {
+        if (previousOnload) {
+          previousOnload();
+        }
+        lightboxQuarto.on('slide_before_load', (data) => {
+          const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+          const href = trigger.getAttribute('href');
+          if (href !== null) {
+            const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+            if (imgEl !== null) {
+              const srcAttr = imgEl.getAttribute("src");
+              if (srcAttr && srcAttr.startsWith("data:")) {
+                slideConfig.href = srcAttr;
+              }
+            }
+          } 
+        });
+      
+        lightboxQuarto.on('slide_after_load', (data) => {
+          const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(slideNode);
+          }
+        });
+      
+      };
+      
+    })();
+              </script>
     
 
 </body></html>

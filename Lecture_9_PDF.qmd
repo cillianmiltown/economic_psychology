@@ -118,15 +118,6 @@ knitr::opts_chunk$set(include = FALSE)
 
 - *In groups* Identify as many examples of reciprocity as you can think of
 
-- Positive reciprocity
-  - Smiling waitresses get tipped more [@tidd_monetary_1978]
-  - Charities looking for donations provide small gifts
-  - Free samples to increase sales [@cialdini_psychology_1993]
-  
-- Negative reciprocity
-  - War
-  - Gang related crime
-  - Increases in rates of theft in firms increase following wage cuts [@giacalone_antisocial_1997]
 
 
 
