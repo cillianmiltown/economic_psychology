@@ -1018,10 +1018,15 @@ Version of the Stag Hunt game
 
 
 
-## Moral Judgment as Categorization (MJAC) {.smaller}
+## Moral Judgment as Categorization{.smaller}
 
+### (MJAC) 
 
-### Premises
+::: {.columns}
+
+::: {.column width="65%"}
+
+#### Premises
 
 - Moral judgment is a process of **categorizing** as *MORALLY RIGHT* / *MORALLY WRONG*
 
@@ -1029,13 +1034,22 @@ Version of the Stag Hunt game
 
 - **Context sensitive** & **Dynamical**, **Goal-Directed Activity**
 
-### Core Predictions
+#### Core Predictions
 
 - *Stability* emerges through continued and consistent type-token interpretation
 
 - *Robustness* emerges through consistency across multiple contexts
 
+:::
 
+::: {.column width="35%"}
+
+
+[![](resources/images/mjac.png)](https://journals.sagepub.com/doi/full/10.1177/1745691621990636){target="_blank"}
+
+:::
+
+:::
 
 ## Ad-Hoc Goal-Derived Catagories
 
