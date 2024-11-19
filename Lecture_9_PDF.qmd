@@ -791,9 +791,10 @@ Expected payoff <font size=4.5>[@fehr_third_2004, p. 79]</font>
 
 ::: {.column width="35%"}
 
-![](resources/images/searching.png)
+[![](resources/images/searching.png)](https://online.ucpress.edu/collabra/article/3/1/23/112379/Searching-for-Moral-Dumbfounding-Identifying){target="_blank"}
 
-![](resources/images/just_wrong.png)
+[![](resources/images/just_wrong.png)](https://link.springer.com/article/10.3758/s13421-022-01386-z){target="_blank"}
+
 
 
 
@@ -830,10 +831,17 @@ Expected payoff <font size=4.5>[@fehr_third_2004, p. 79]</font>
 
 
 
-## Moral Judgment as Categorization (MJAC) {.smaller}
+## Moral Judgment as Categorization{.smaller}
 
 
-### Premises
+::: {.columns}
+
+::: {.column width="75%"}
+
+
+### (MJAC) 
+
+**Premises**
 
 - Moral judgment is a process of **categorizing** as *MORALLY RIGHT* / *MORALLY WRONG*
 
@@ -841,22 +849,32 @@ Expected payoff <font size=4.5>[@fehr_third_2004, p. 79]</font>
 
 - **Context sensitive** & **Dynamical**, **Goal-Directed Activity**
 
-### Core Predictions
+**Core Predictions**
 
 - *Stability* emerges through continued and consistent type-token interpretation
 
 - *Robustness* emerges through consistency across multiple contexts
 
+:::
+
+::: {.column width="25%"}
+
+
+[![](resources/images/mjac.png)](https://journals.sagepub.com/doi/full/10.1177/1745691621990636){target="_blank"}
+
+:::
+
+:::
 
 
 ## Ad-Hoc Goal-Derived Catagories
 
 
-
-![](resources/images/suitcase.jpg)
+![](resources/images/suitcase.jpg){width="50%"}
 
 - *THINGS TO PACK INTO A SUITCASE* [@barsalou_deriving_1991; @barsalou_situated_2003]
 - Type-token interpretation
+
 
 
 ## The Organisation of Categories: Fruit
