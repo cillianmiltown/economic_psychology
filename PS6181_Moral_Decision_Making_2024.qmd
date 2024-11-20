@@ -1,0 +1,1284 @@
+---
+title: "Moral Decision Making"
+subtitle: "Week 11"
+author: "Cillian McHugh"
+institute: "PS6181 Problem Solving and Decision Making"
+bibliography: "resources/bib/My Library.bib"
+csl: apa.csl
+format:
+  revealjs:
+    slide-number: false
+    controls: true
+    logo: "resources/images/ul-psychology-logos.png"
+    footer: "Cillian McHugh - 20/11/24"
+    theme: "resources/css/mytheme.scss"
+    chalkboard: 
+      buttons: true
+editor: source
+---
+
+## Before We Start
+
+<iframe width="1102" height="600" src="https://docs.google.com/forms/d/e/1FAIpQLScT2bU0Q-d895EQsRZvt7dMQHqncIAtYlDfxbFhkPq4IvBV2Q/viewform?embedded=true&rm=minimal" frameborder="0" ></iframe>
+
+
+
+Or click below:
+
+[https://docs.google.com/forms/d/e/1FAIpQLScT2bU0Q-d895EQsRZvt7dMQHqncIAtYlDfxbFhkPq4IvBV2Q/viewform?usp=sf_link](https://docs.google.com/forms/d/e/1FAIpQLScT2bU0Q-d895EQsRZvt7dMQHqncIAtYlDfxbFhkPq4IvBV2Q/viewform?usp=sf_link)
+
+## Recap on Last Week{.smaller}
+
+- Define:
+  - Nudges
+  - Choice Architecture (principles?)
+- Theory relevant to nudges?
+
+- Summarise any study on Unconscious thought vs deliberation
+  - including key take-aways
+  
+
+
+## Moral Questions?
+
+- How would you rate the behavior of two people who engage in an activity that could potentially result in harmful consequences for either of them?
+
+
+
+## Overview{.smaller}
+
+- Complexity of Morality
+- Making sense of this complexity
+  - Kohlberg & Gilligan
+  - Social Intuitionism & Moral Foundations
+  - Moral Dumbfounding
+  - Theory of Dyadic Morality
+  - Dual-Processes
+  - Categorization/Learning Approaches
+
+
+# What is Morality?
+
+
+## Goodies vs Baddies
+
+![](resources/images/batman.png){.lightbox width="900"}
+
+
+
+
+## Goodies vs Baddies
+
+
+
+![](resources/images/superman.jpg){.lightbox width="900"}
+
+
+
+## Goodies vs Baddies
+
+
+
+![](resources/images/maleficent.jpg){.lightbox width="600"}
+
+
+## Goodies vs Baddies
+
+
+
+![](resources/images/ursilla.jpg){.lightbox width="1000"}
+
+
+## Goodies vs Baddies
+
+
+
+![](resources/images/scar.png){.lightbox width="900"}
+
+
+## Goodies vs Baddies ???
+
+
+
+
+## Goodies vs Baddies ???
+
+
+![](resources/images/arthur.jpeg){.lightbox width="1000"}
+
+## Goodies vs Baddies / Right vs Wrong
+
+
+<iframe width="700" height="500" src="https://www.youtube.com/embed/wEjGVGtd2-Y?si=268c-lAGp9GuxEiM&amp;start=90" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+
+## Goodies vs Baddies / Right vs Wrong
+
+
+
+![](resources/images/buffy.png){.lightbox width="900"}
+
+
+## Known Influences on Moral Judgements {.smaller}
+
+#### ... some of them anyway...
+
+- Emotional influences [e.g., @cameron_morality_2013]
+- Intentionality, Evitability, benefit recipient [@christensen_moral_2014; @christensen_moral_2012]
+- Action-outcome distinction [@crockett_models_2013; @cushman_action_2013]
+- Trustworthiness and social evaluation [@everett_inference_2016; @everett_costs_2018]
+- Personal-impersonal distinction [@greene_fmri_2001]
+- Doctrine of double effect [@mikhail_rawls_2000]
+- Level of physical contact [@valdesolo_manipulations_2006]
+- Order effects [@wiegmann_order_2012]
+
+
+
+## Understanding this complexity{.smaller}
+
+- **Moral Emotions**: @prinz_passionate_2005
+  - *'Emotions, I will suggest are perceptions of our bodily states. To recognise the moral value of an event is, thus, to perceive the perturbation that it causes'* [@prinz_passionate_2005, p. 99]
+- **Social Intuitionist Model** [@haidt_emotional_2001]
+  - e.g., intuitions as phonemes [@haidt_emotional_2001, p. 827]
+  - ‘brain has a kind of gauge’, a ‘like-ometer’ [@haidt_social_2008, p. 187]
+
+- **Theory of Dyadic Morality**: [@gray_mind_2012; @schein_theory_2018]
+  - Content focused (rather than underlying processes)
+
+- **Dual Process Theories**: [e.g., @greene_secret_2008]
+  - 'Emotion' vs 'Cognition' (not well defined)
+
+- **Categorization** [@mchugh_moral_2022]
+
+
+# Classic Moral Reasoning Approaches
+
+
+## Kohlberg’s Theory of Moral Development
+
+- ***Preconventional Morality*** (stages 1 & 2): people follow unvarying rules based on rewards and punishments
+- ***Conventional Morality*** (stages 3 & 4) is where people approach problems in terms of their own position as good, responsible members of society
+- ***Postconventional Morality*** (stages 5 & 6) is where universal moral principles are invoked and considered broader than a particular society [@kohlberg_stages_1969; @kohlberg_ought_1971]
+
+
+## Heinz{.smaller}
+
+> In Europe, a woman was near death from a special kind of cancer. There was one
+drug that the doctors thought might save her. It was a form of radium that a
+druggist in the same town had recently discovered. The drug was expensive to
+make, but the druggist was charging ten times what the drug cost him to make.
+He paid $200 for the radium and charged $2,000 for a small dose of the drug. The
+sick woman's husband, Heinz, went to everyone he knew to borrow the money,
+but he could only get together about $1,000 which is half of what it cost. He told
+the druggist that his wife was dying and asked him to sell it cheaper or let him pay
+later. But the druggist said: "No, I discovered the drug and I'm going to make
+money from it." So Heinz got desperate and broke into the man's store to steal
+the drug-for his wife. Should the husband have done that? (Kohlberg, 1963, p. 19)
+
+## Heinz
+
+\Huge
+Should the husband have done that?
+
+
+## Kohlberg’s Theory of Moral Development
+
+- moral “dilemmas”; a person’s level of moral reasoning assessed by evaluating reasoning behind response
+
+
+[https://www.youtube.com/watch?v=HsLkUm-t8c0](https://www.youtube.com/watch?v=HsLkUm-t8c0)
+
+[http://www.sakkyndig.com/psykologi/artvit/cain1985.pdf](http://www.sakkyndig.com/psykologi/artvit/cain1985.pdf)
+
+[http://www.youtube.com/watch?v=zY4etXWYS84](http://www.youtube.com/watch?v=zY4etXWYS84)
+
+
+\href{http://www.youtube.com/watch?v=zY4etXWYS84}{\color{blue}http://www.youtube.com/watch?v=zY4etXWYS84\color{black}}
+
+\href{https://www.youtube.com/watch?v=HsLkUm-t8c0}{\color{blue}https://www.youtube.com/watch?v=HsLkUm-t8c0\color{black}}
+
+\href{http://www.sakkyndig.com/psykologi/artvit/cain1985.pdf}{\color{blue}http://www.sakkyndig.com/psykologi/artvit/cain1985.pdf\color{black}}
+
+\href{http://www.haverford.edu/psych/ddavis/p109g/kohlberg.dilemmas.html}{\color{blue}http://www.haverford.edu/psych/ddavis/p109g/kohlberg.dilemmas.html\color{black}}
+
+
+## Stages{.smaller}
+
+:::{.incremental}
+
+\scriptsize
+- At **stage 1** children think of what is right as that which authority says is right. Doing the right thing is **obeying authority and avoiding punishment**. (\color{sentiment}do not steal\color{black})
+- At **stage 2**, children are no longer so impressed by any single authority; they see that there are different sides to any issue. Since everything is relative, one is free to **pursue one's own interests**, although it is often **useful to make deals and exchange favors** with others. (\color{rational}steal\color{black})
+- At stages 3 and 4, young people think as **members of the conventional society with its values**, norms, and expectations
+  - \scriptsize At **stage 3**, they emphasize being a **good person**, which basically means having helpful motives toward people close to one. (\color{rational}steal\color{black})
+  - \scriptsize At **stage 4**, the concern shifts toward obeying laws to **maintain society as a whole** (\color{sentiment}do not steal\color{black})
+
+:::
+
+## Stages{.smaller}  
+
+:::{.incremental}
+
+- At stages 5 and 6 people are less concerned with maintaining society for it own sake, and **more concerned with the principles and values that make for a good society**
+  - \scriptsize At stage 5 they emphasize basic rights and the democratic processes that give everyone a say
+  - \scriptsize Stage 6 they define the principles by which agreement will be most just.
+
+:::
+
+
+
+## Reasoning Stage and Age
+
+. . .
+
+![](resources/images/moral_reasoning.png){.lightbox width="900"}
+
+\includegraphics[width=.98\textwidth]{images/moral_reasoning.png}
+
+
+## Kohlberg Criticisms{.smaller}
+
+Suggestions???
+
+:::{.incremental}
+
+- **Based solely on observations of members of Western cultures**
+
+- Non-Western cultures do not fit well with Kohlberg’s approach
+  - Although justice is an important moral concept around the world,
+  - Justice does not supersede all other moral considerations in non-Western cultures
+
+- Provides good account of moral judgment but not adequate at predicting moral behavior
+- Theory initially based largely on data from males
+
+:::
+
+
+
+
+## Carol Gilligan – Emotion & Gender{.smaller}
+
+- Ethics based on caring for others and on maintaining social relationships are important
+
+- **Justice** and **care** are two distinct orientations
+
+- Way boys and girls raised leads to differences in moral reasoning
+
+- Boys view morality primarily in terms of justice and fairness.
+
+- Girls see morality in terms of responsibility and compassion toward individuals and a willingness to sacrifice for relationships.
+
+- Suggests Kohlberg’s theory inadequate and places girls’ moral reasoning at
+lower level than boys’
+
+[http://www.youtube.com/watch?v=2W_9MozRoKE](http://www.youtube.com/watch?v=2W_9MozRoKE)
+
+## Carol Gilligan
+
+<iframe width="800" height="600" src="https://www.youtube.com/embed/2W_9MozRoKE?si=nqqvO7u5wVJXXu9H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## Gilligan’s Three Stages of Moral Development (for women){.smaller}
+
+![](resources/images/gilligan.png){.lightbox width="900"}
+
+\includegraphics[width=.98\textwidth]{images/gilligan.png}
+
+[@gilligan_different_1993; @gilligan_different_1977] 
+
+[https://www.youtube.com/watch?v=ZwUGEIsxIDk](https://www.youtube.com/watch?v=ZwUGEIsxIDk)
+
+
+# Moral Intuitions
+
+## Principles/Reasoning or Intuitions?
+
+. . .
+
+![](resources/images/SIM_cover.png){.lightbox width="1000"}
+
+[@haidt_emotional_2001]
+
+
+## Haidt's Social Intuitionist Model{.smaller}
+
+:::{.incremental}
+
+- Too much focus on reasons/principles
+- Automatic/intuitive nature of moral judgements not addressed
+
+
+- How do you feel about the following?
+  - Family decide to cook & eat their dog (family pet) after it is killed in a road traffic accident
+  - Using the Irish flag to clean the floor in the bathroom [@haidt_affect_1993]
+
+:::
+
+. . .
+
+::::{.columns}
+
+:::{.column width="35%"}
+
+![](resources/images/dog.jpg){.lightbox width="80%"}
+:::
+
+:::{.column width="15%"}
+
+:::
+
+:::{.column width="40%"}
+
+![](resources/images/flag1.jpg){.lightbox width="80%"}
+
+:::
+
+::::
+
+## Haidt's Social Intuitionist Model
+
+![](resources/images/SIM.png){.lightbox width="900"}
+
+\includegraphics[width=.98\textwidth]{images/SIM.png}
+
+## Limitations with SIM
+
+Suggestions?
+
+> - e.g., intuitions as phonemes [@haidt_emotional_2001, p. 827]
+> - ‘brain has a kind of gauge’, a ‘like-ometer’ [@haidt_social_2008, p. 187]
+> - Underdeveloped (and neglected)
+
+
+
+## Moral Foundations 
+
+<iframe width="700" height="450" src="https://www.youtube.com/embed/8SOQduoLgRw?start=319" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+[https://www.youtube.com/embed/8SOQduoLgRw?start=319](https://www.youtube.com/embed/8SOQduoLgRw?start=319)
+
+
+
+## Moral Foundations 
+
+![](resources/images/moral_foundations.png){.lightbox width=100%}
+
+
+## Real World Examples?
+
+![](resources/images/moral_foundations.png){.lightbox width=100%}
+
+
+## Moral Foundations
+
+
+![](resources/images/moral_foundations_6.png)
+
+Fairness: Equality and Proportionality are distinct moral foundations [@atari_morality_2023]
+
+# Moral Dumbfounding
+
+
+## Julie and Mark{.smaller}
+
+> Julie and Mark, who are brother and sister, are travelling
+together in France. They are both on summer vacation from
+college. One night they are staying alone in a cabin near the
+beach. They decide that it would be interesting and fun if they
+tried making love. At very least it would be a new experience for
+each of them. Julie was already taking birth control pills, but
+Mark uses a condom too, just to be safe. They both enjoy it, but
+they decide not to do it again. They keep that night as a special
+secret between them, which makes them feel even closer to
+each other [@haidt_moral_2000; @mchugh_searching_2017a].
+
+## Jennifer{.smaller}
+
+> Jennifer works in a medical school pathology lab as a research assistant.
+The lab prepares human cadavers that are used to teach medical
+students about anatomy. The cadavers come from people who had
+donated their body to science for research. One night Jennifer is leaving
+the lab when she sees a body that is going to be discarded the next day.
+Jennifer was a vegetarian, for moral reasons. She thought it was wrong to
+kill animals for food. But then, when she saw a body about to be
+cremated, she thought it was irrational to waste perfectly edible meat. So
+she cut off a piece of flesh, and took it home and cooked it. The person
+had died recently of a heart attack, and she cooked the meat thoroughly,
+so there was no risk of disease [@haidt_moral_2000; @mchugh_searching_2017a].
+
+## Moral Dumbfounding
+
+:::{.incremental}
+
+- People typically react with moral disgust to these scenarios and yet they struggle to explain why
+
+- Know as moral dumbfounding
+
+- Supports the idea that we have an inbuilt(?) moral **intuition** divorced from reason
+
+- Gave rise to intuitionist theories of moral judgement
+
+:::
+
+. . .
+
+(Developing these ideas Haidt proposed that our moral intuitions are grounded on five foundations)
+
+
+## Moral Dumbfounding
+
+::: {.columns}
+
+::: {.column width="60%"}
+
+- Moral dumbfounding occurs when people defend a moral judgement even though they cannot provide supporting reasons<br>
+[@mchugh_searching_2017a; @haidt_moral_2000]
+
+
+:::
+
+::: {.column width="40%"}
+
+[![](resources/images/searching.png)](https://online.ucpress.edu/collabra/article/3/1/23/112379/Searching-for-Moral-Dumbfounding-Identifying){target="_blank"}
+
+:::
+
+::::
+
+
+## Challenges to Moral Dumbfounding {.smaller}
+
+- Failure to provide reasons does not mean there are no reasons [@sneddon_social_2007]
+- People implicitly perceive harm [@gray_myth_2014]
+- People have do have reasons but are “beaten into submission” [@jacobson_moral_2012] 
+- Evidence for principles or reasons guiding judgements
+  - Harm based Norm based [@royzman_curious_2015]
+    - Excluding participants who endorsed either principle
+      - Moral Dumbfounding effectively disappeared…
+
+## Responding to Challenges {.smaller}
+
+
+::: {.columns}
+
+::: {.column width="50%"}
+
+- People do not consistently articulate or apply harm or norm-based reasons [@mchugh_reasons_2020]
+- Demonstrably more accurate exclusion criteria
+  - fewer false exclusions<br>(<8% from >50%)
+- Interesting order effect
+
+> *"it is wrong for two people to engage in an activity whereby harm may occur"*
+
+(Boxing/Rugby)
+
+:::
+
+::: {.column width="50%"}
+
+[![](resources/images/reasons.png)](https://raw.githubusercontent.com/cillianmiltown/website_quarto/main/publications/pubs/reasons-or-rationalizations/reasons-or-rationalizations.pdf){target="_blank"}
+
+:::
+
+::::
+
+
+## More Evidence for Dumbfounding {.smaller}
+
+
+
+
+:::: {.columns}
+
+::: {.column width="60%"}
+![](resources/images/WEIRD_plots.png){.lightbox width=100%}
+:::
+
+::: {.column width="40%"}
+[![](resources/images/just_wrong.png)](https://link.springer.com/article/10.3758/s13421-022-01386-z){target="_blank"}
+
+@mchugh_just_2023
+
+:::
+
+::::
+
+
+
+
+## Understanding Dumbfounding?
+
+:::: {.columns}
+
+::: {.column width="60%"}
+- Trying to understand moral judgments and moral dumbfounding
+  - e.g., testing explanations of dumbfounding<br>[@mchugh_cognitive_2023]
+:::
+
+::: {.column width="40%"}
+
+[![](resources/images/cog_load.png)](https://online.ucpress.edu/collabra/article/9/1/73818/195829/Cognitive-Load-Can-Reduce-Reason-Giving-in-a-Moral){target="_blank"}
+
+
+:::
+
+::::
+
+
+
+
+# Theory of Dyadic Morality (TDM)
+
+## Theory of Dyadic Morality (TDM) {.smaller}
+
+
+:::: {.columns}
+
+::: {.column width="60%"}
+
+<br>
+
+- "an intentional agent causing damage to a vulnerable patient" [@schein_theory_2018, p. 33]
+
+<br>
+
+
+- "an intentional moral agent and a suffering moral patient [@gray_mind_2012, p. 101].
+
+<br>
+
+- "interpersonal harm is the essence of morality" [@gray_mind_2012, p. 109]
+
+:::
+
+::: {.column width="40%"}
+
+<br>
+<br>
+<br>
+![](resources/images/voldemort.jpg){.lightbox}
+
+:::
+
+::::
+
+## Limitations of TDM
+
+- In pairs/groups discuss TDM and possible limitations/issues?
+
+
+
+## Issues with TDM
+
+- Harmless Wrongs
+- Wrongless Harms
+
+
+## Issues with TDM
+
+### Wrongless Harms
+
+::: {.columns}
+
+::: {.column width="60%"}
+
+- Harmful acts that are not viewed as wrong
+- e.g., Boxing / Rugby
+- @royzman_puzzle_2022
+  - *The puzzle of wrongless harms*
+    - Dating, Fired, Mask, Chess
+
+:::
+
+::: {.column width="40%"}
+
+![](resources/images/reasons.png)
+:::
+
+::::
+
+
+# Dual-Process approaches
+
+
+
+
+## Trolley Dilemma
+
+
+![](resources/images/trolley_switch.png){.lightbox width=100%}
+
+
+## Trolley Dilemma
+
+![](resources/images/trial_by_trolley.png){.lightbox width=100%}
+
+## Trolley Dilemma{.smaller}
+
+<iframe width="700" height="400" src="https://www.youtube.com/embed/-N_RZJUAQY4?si=pVm-PsZ3kdvWvRV1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+[https://www.youtube.com/embed/-N_RZJUAQY4?si=pVm-PsZ3kdvWvRV1](https://www.youtube.com/embed/-N_RZJUAQY4?si=pVm-PsZ3kdvWvRV1)
+
+
+## Trolley Dilemma
+
+![](resources/images/trolley_capitalist.jpg){.lightbox width=100%}
+
+
+
+## Classic Trolley Problem
+
+<br>
+
+![](resources/images/trolley_problem.png){.lightbox width=100%}
+
+
+
+## Dual-Process approaches
+
+<br>
+
+![](resources/images/deont_util.png){.lightbox width=100%}
+
+
+
+
+## Dual-Process approaches
+
+![](resources/images/MJAC_dual_process/soft.png){.lightbox width="100%"}
+
+
+## Dual-Process approaches
+
+
+
+![](resources/images/MJAC_dual_process/general1.png){.lightbox width="100%"}
+
+## Dual-Process approaches
+
+
+
+![](resources/images/MJAC_dual_process/general2.png){.lightbox width="100%"}
+
+## Dual-Process approaches
+
+
+
+![](resources/images/MJAC_dual_process/general3.png){.lightbox width="100%"}
+
+## @greene_why_2016
+
+
+
+![](resources/images/MJAC_dual_process/Greene1.png){.lightbox width="100%"}
+
+
+## @greene_why_2016
+
+
+
+![](resources/images/MJAC_dual_process/Greene2.png){.lightbox width="100%"}
+
+
+## @greene_why_2016
+
+
+
+![](resources/images/MJAC_dual_process/Greene3.png){.lightbox width="100%"}
+
+## @crockett_models_2013, @cushman_action_2013
+
+
+
+![](resources/images/MJAC_dual_process/models1.png){.lightbox width="100%"}
+
+## @crockett_models_2013, @cushman_action_2013
+
+
+
+![](resources/images/MJAC_dual_process/models2.png){.lightbox width="100%"}
+
+## @crockett_models_2013, @cushman_action_2013
+
+
+
+![](resources/images/MJAC_dual_process/models3.png){.lightbox width="100%"}
+
+
+## Summary
+
+
+
+![](resources/images/MJAC_dual_process/together1.png){.lightbox width="100%"}
+
+## Summary
+
+
+
+![](resources/images/MJAC_dual_process/together2.png){.lightbox width="100%"}
+
+## Summary
+
+
+
+![](resources/images/MJAC_dual_process/together3.png){.lightbox width="100%"}
+
+## Summary
+
+
+
+![](resources/images/MJAC_dual_process/together4.png){.lightbox width="100%"}
+
+## Any Limitations?
+
+![](resources/images/MJAC_dual_process/together4.png){.lightbox width="100%"}
+
+## Other Contexts?
+
+![](resources/images/MJAC_dual_process/together4.png){.lightbox width="100%"}
+
+## Other Contexts?
+
+![](resources/images/MJAC_dual_process/context7.png){.lightbox width="100%"}
+
+## Additional Inconsistencies
+
+- Deontological responses are supported by deliberation<br>
+[@gamez-djokic_affective_2016; @korner_concrete_2014; @mcphetres_reflecting_2018; @pizarro_intelligence_2003]
+- Utilitarian responses grounded in affect<br>
+[@gubbins_dual_2014; @reynolds_not_2018; @deneys_dual_2017]
+
+## Alternative Approaches
+
+- Mental Models [@bucciarelli_psychology_2008]
+
+- Social learning/causal evaluative modelling [@railton_moral_2017]
+
+- Categorization [@mchugh_moral_2022]
+
+# Moral Judgment as Categorization (MJAC)
+
+## Moral Judgment as Categorization{.smaller}
+
+### (MJAC) 
+
+::: {.columns}
+
+::: {.column width="65%"}
+
+#### Premises
+
+- Moral judgment is a process of **categorizing** as *MORALLY RIGHT* / *MORALLY WRONG*
+
+- **Domain general**
+
+- **Context sensitive** & **Dynamical**, **Goal-Directed Activity**
+
+#### Core Predictions
+
+- *Stability* emerges through continued and consistent type-token interpretation
+
+- *Robustness* emerges through consistency across multiple contexts
+
+:::
+
+::: {.column width="35%"}
+
+
+[![](resources/images/mjac.png)](https://journals.sagepub.com/doi/full/10.1177/1745691621990636){target="_blank"}
+
+:::
+
+:::
+
+
+## Ad-Hoc Goal-Derived Catagories
+
+
+![](resources/images/suitcase.jpg){.lightbox width="50%"}
+
+
+- *THINGS TO PACK INTO A SUITCASE* [@barsalou_deriving_1991; @barsalou_situated_2003]
+- Type-token interpretation
+
+
+## The Organisation of Categories: Fruit
+
+
+
+
+## The Organisation of Categories: Fruit
+
+
+
+![](resources/images/fruit1.png){.lightbox width="100%"}
+
+
+
+## The Organisation of Categories: Fruit
+
+![](resources/images/fruit2.png){.lightbox width="100%"}
+
+
+## The Organisation of Categories: Fruit
+
+![](resources/images/fruit3.png){.lightbox width="100%"}
+
+## The Organisation of Categories: Fruit
+
+![](resources/images/fruit4.png){.lightbox width="100%"}
+
+
+# Evidence
+
+
+
+
+
+
+## Original Table of Evidence
+
+
+
+![](resources/images/mjac_old_table.png){.lightbox width="100%"}
+
+
+## Similarity of Explanation {.smaller}
+
+
+:::: {.columns}
+
+::: {.column width="40%"}
+*Morality*
+:::
+
+::: {.column width="50%"}
+*Categorization*
+:::
+
+::::
+
+**Order Effects**:
+
+:::: {.columns}
+
+::: {.column width="40%"}
+@petrinovich_influence_1996
+:::
+
+::: {.column width="60%"}
+@barsalou_contextindependent_1982, @higgins_nature_1985
+:::
+
+::::
+
+**Language Effects**:
+
+:::: {.columns}
+
+::: {.column width="40%"}
+@cipolletti_moral_2016
+:::
+
+::: {.column width="60%"}
+@colbeck_blinded_2012, @harris_taboo_2003
+:::
+
+::::
+
+**Emotion Effects**:
+
+:::: {.columns}
+
+::: {.column width="40%"}
+@cameron_morality_2013
+:::
+
+::: {.column width="60%"}
+@barsalou_situating_2005
+:::
+
+::::
+
+**Typicality**:
+
+:::: {.columns}
+
+::: {.column width="40%"}
+@gray_impure_2015
+:::
+
+::: {.column width="60%"}
+@mccloskey_natural_1978, @oden_fuzziness_1977
+:::
+
+::::
+
+## Typicality: Moral Dilution
+
+
+<iframe width="100%" height="100%" src="https://cillianmiltown.github.io/moral_dilution_git/manuscript_revisions/presentation_embedded.html#/title-slide" frameborder="0" ></iframe>
+
+https://cillianmiltown.github.io/moral_dilution_git/manuscript_revisions/presentation.html#/title-slide
+
+# Contrasting with Existing Approaches
+
+## Recall
+
+![](resources/images/MJAC_dual_process/together4.png){.lightbox width="100%"}
+
+
+## Recall
+
+![](resources/images/MJAC_dual_process/context7.png){.lightbox width="100%"}
+
+## MJAC
+
+
+
+![](resources/images/MJAC_dual_process/mjac1.png){.lightbox width="100%"}
+
+
+## MJAC
+
+
+
+![](resources/images/MJAC_dual_process/mjac2.png){.lightbox width="100%"}
+
+
+## MJAC
+
+
+
+![](resources/images/MJAC_dual_process/mjac3.png){.lightbox width="100%"}
+
+
+## MJAC
+
+
+
+![](resources/images/MJAC_dual_process/mjac4.png){.lightbox width="100%"}
+
+
+## MJAC
+
+
+
+![](resources/images/MJAC_dual_process/mjac5.png){.lightbox width="100%"}
+
+
+## MJAC
+
+
+
+![](resources/images/MJAC_dual_process/mjac6.png){.lightbox width="100%"}
+
+
+## MJAC
+
+
+
+![](resources/images/MJAC_dual_process/mjac7.png){.lightbox width="100%"}
+
+
+## MJAC
+
+
+
+![](resources/images/MJAC_dual_process/mjac8.png){.lightbox width="100%"}
+
+
+## MJAC
+
+
+
+![](resources/images/MJAC_dual_process/mjac9.png){.lightbox width="100%"}
+
+
+## MJAC
+
+
+
+![](resources/images/MJAC_dual_process/mjac10.png){.lightbox width="100%"}
+
+
+## MJAC
+
+
+
+![](resources/images/MJAC_dual_process/mjac11.png){.lightbox width="100%"}
+
+
+## MJAC
+
+
+
+![](resources/images/MJAC_dual_process/mjac12.png){.lightbox width="100%"}
+
+
+## MJAC
+
+
+
+![](resources/images/MJAC_dual_process/mjac13.png){.lightbox width="100%"}
+
+
+
+# Looking Forward
+
+
+
+## Looking Forward 
+
+
+::: {.columns}
+
+::: {.column width="45%"}
+
+
+- Dual process vs moral learning [@railton_moral_2017; @McHugh_beckon_2024]
+
+:::
+
+
+
+
+::: {.column width="55%"}
+
+
+[![](resources/images/to_beckon_paper.png)](https://www.sciencedirect.com/science/article/pii/S0022103124000283){target="_blank"}
+
+:::
+
+
+:::
+
+## Looking Forward
+
+
+@railton_moral_2017
+
+
+![](resources/images/railton_table.png){.lightbox width=100%}
+
+
+
+
+## Bus {.smaller}
+
+> You are visiting a city where there have recently been terrorist suicide bombings. The terrorists target crowded buses or subway cars. To prevent anyone stopping them, they run up at the last moment when the bus or subway doors are closing, triggering their bomb as they enter. You are on a crowded bus at rush hour, just getting off at your stop. Next to you a large man is also getting off, and the doors are about to close behind the two of you. You spot a man with an overcoat rushing at the doors, aiming to enter just behind the exiting man. Under his coat you see bombs strapped to his chest, and his finger is on a trigger. If you were to push the large man hard in the direction of the approaching man, they both would fall onto the sidewalk, where the bomb would explode, killing both. You would have fallen back onto the bus, and the closing doors would protect you and the other occupants of the bus from the bomb. Alternatively, you could continue exiting the bus, and you and the large man would be on sidewalk, protected by the closing doors, as the bomb goes off inside the bus, killing the terrorist and five passengers. Either way, then, you will not be hurt. Should you push the large man onto the bomber?
+
+
+## Wave {.smaller}
+
+> A runaway trolley is speeding down the track, its driver slumped over the controls, apparently unconscious. Ahead on the tracks are five workers, who do not see the trolley coming, and who soon will be struck and killed. A wall prevents them from moving to their left to avoid the trolley, but there is space to their right. You are standing at some distance from the track, with no ability to turn the train. The workers are facing in your direction, and if you were to wave to their right with your arms, the five workers on the track would step off and escape injury. However, a single worker who is closer to you and standing to the left of the track, and who also does not see the trolley, will see you wave, and he will step onto the track, and immediately be hit and killed. Should you wave to the workers?
+
+## Beckon {.smaller}
+
+> A runaway trolley is speeding down the track, its driver slumped over the controls, apparently unconscious. Ahead on the tracks are five workers, who do not see the trolley coming, and who soon will be struck and killed. You are standing at some distance from the track, with no ability to turn the train or warn the men. A large man, whose weight is sufficient to stop the trolley, is standing on the other side of the track, facing in your direction. He is unable to see the oncoming trolley owing to a traffic signal box that blocks his view up the track. If you would beckon to him, he would step forward onto the track, and be immediately struck and killed. This would halt the trolley and save the five workers. Should you beckon to the large man?
+
+## Moral Learning
+
+![](resources/images/railton_table2.png){.lightbox width=100%}
+
+## Issues with @railton_moral_2017
+
+:::{.incremental}
+
+- Confounding variables
+  - *means* vs *side-effect*
+- *Scenario* effects?
+- Small sample
+- No use of statistics, or direct tests of effects (e.g., trust?)
+
+:::
+
+## Beckon vs Wave
+
+![](resources/images/railton_rep1.png){.lightbox width="700"}
+
+
+## Means vs Side-Effect
+
+![](resources/images/railton_rep_2.png){.lightbox width="700"}
+
+
+## Means vs Side-Effect{.scrollable}
+
+<iframe width="1102" height="600" src="https://docs.google.com/spreadsheets/d/1iWomlOE-Nal790ak-FPE0dDrDs81kZJnSlfBuSxv35I/edit?embedded=true&rm=minimal" frameborder="0" ></iframe>
+
+
+[https://docs.google.com/spreadsheets/d/1iWomlOE-Nal790ak-FPE0dDrDs81kZJnSlfBuSxv35I/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1iWomlOE-Nal790ak-FPE0dDrDs81kZJnSlfBuSxv35I/edit?usp=sharing)
+
+
+## Follow-Up Study
+
+
+![](resources/images/railton_table5.png){.lightbox width=100%}
+
+
+## Scenarios{.scrollable .smaller}
+
+::::: panel-tabset
+
+### Trolley
+
+:::: panel-tabset
+
+### Footbridge
+
+*(means) (force)*
+
+> A runaway trolley is speeding down the track, its driver slumped over the controls, apparently unconscious. Ahead on the tracks are five workers, who do not see the trolley coming, and who soon will be struck and killed. You are standing on a footbridge over the track, next to a very large man. This man’s weight is sufficient to stop the trolley, though your own is not. If he were to fall into the path of the trolley, that would bring it to a halt before hitting the five workers, saving their lives but killing him. Should you push the man off the footbridge into the path of the trolley?
+
+### Switch
+
+*(side effect) (no force)*
+
+> A runaway trolley is speeding down the track, its driver slumped over the controls, apparently unconscious. Ahead on the tracks are five workers, who do not see the trolley coming, and who soon will be struck and killed. You are standing next to a lever that operates a switch lying between the trolley and the workers. Pushing this lever would send the trolley onto a sidetrack. That would save the five workers, but there is a single worker on the sidetrack, who will be struck and killed. Should you push the lever to send the trolley down the sidetrack?
+
+
+### Wave
+
+::: panel-tabset
+
+### Means
+
+*(means) (no force)*
+
+> A runaway trolley is speeding down the track, its driver slumped over the controls, apparently unconscious. Ahead on the tracks are five workers, who do not see the trolley coming, and who soon will be struck and killed. A wall prevents them from moving to their left to avoid the trolley, but there is space to their right. You are standing at some distance from the track, with no ability to turn the train. The workers are facing away from you and there is no way to warn them of the danger. However, a large man, whose weight is sufficient to stop the trolley, is closer to you and standing to the left of the track. He also does not see the trolley, if you were to wave to your right, he will step onto the track, and be immediately hit and killed. This would halt the trolley and save the five workers. Should you wave to the large man?
+
+### Side-effect
+
+*(side effect) (no force)*
+
+> A runaway trolley is speeding down the track, its driver slumped over the controls, apparently unconscious. Ahead on the tracks are five workers, who do not see the trolley coming, and who soon will be struck and killed. A wall prevents them from moving to their left to avoid the trolley, but there is space to their right. You are standing at some distance from the track, with no ability to turn the train. The workers are facing in your direction, and if you were to wave to their right with your arms, the five workers on the track would step off and escape injury.  However, a single worker who is closer to you and standing to the left of the track, and who also does not see the trolley, will see you wave, and he will step onto the track, and immediately be hit and killed. Should you wave to the workers?  
+
+:::
+
+### Beckon
+
+::: panel-tabset
+
+### Means
+
+*(means) (no force)*
+
+> A runaway trolley is speeding down the track, its driver slumped over the controls, apparently unconscious. Ahead on the tracks are five workers, who do not see the trolley coming, and who soon will be struck and killed.  You are standing at some distance from the track, with no ability to turn the train.  A large man, whose weight is sufficient to stop the trolley, is standing on the other side of the track, facing in your direction. He is unable to see the oncoming trolley owing to a traffic signal box that blocks his view up the track. If you would beckon to him, he would step forward onto the track, and be immediately struck and killed. This would halt the trolley and save the five workers.  Should you beckon to the large man?
+
+### Side-effect
+
+*(side effect) (no force)*
+
+> A runaway trolley is speeding down the track, its driver slumped over the controls, apparently unconscious. Ahead on the tracks are five workers, who do not see the trolley coming, and who soon will be struck and killed.  You are standing at some distance from the track, with no ability to turn the train. The workers are facing in your direction, and if you were to beckon to them, the five workers on the track would step off and escape injury.  However, a single worker is standing on the other side of the track, facing in your direction. He is unable to see the oncoming trolley owing to a traffic signal box that blocks his view up the track. He will also see you beckoning, and he will step onto the track, and be immediately struck and killed. Should you beckon to the workers?
+
+:::
+
+
+::::
+
+
+
+### Bus
+
+:::: panel-tabset
+
+### Means
+
+*(means) (force)*
+
+> You are visiting a city where there have recently been terrorist suicide bombings. The terrorists target crowded buses or subway cars. To prevent anyone stopping them, they run up at the last moment when the bus or subway doors are closing, triggering their bomb as they enter. You are on a crowded bus at rush hour, just getting off at your stop. Next to you a large man is also getting off, and the doors are about to close behind the two of you. You spot a man with an overcoat rushing at the doors, aiming to enter just behind the exiting man. Under his coat you see bombs strapped to his chest, and his finger is on a trigger. If you were to push the large man hard in the direction of the approaching man, they both would fall onto the sidewalk, where the bomb would explode, killing both. You would have fallen back onto the bus, and the closing doors would protect you and the other occupants of the bus from the bomb. Alternatively, you could continue exiting the bus, and you and the large man would be on sidewalk, protected by the closing doors, as the bomb goes off inside the bus, killing the terrorist and five passengers. Either way, then, you will not be hurt. Should you push the large man onto the bomber?
+
+### Side-effect
+
+*(side effect) (force)*
+
+> You are visiting a city where there have recently been terrorist suicide bombings. The terrorists target crowded buses or subway cars. To prevent anyone stopping them, they run up at the last moment when the bus or subway doors are closing, triggering their bomb as they enter. You are on a crowded bus at rush hour, standing next to the doors, while the bus comes to its next stop. On the sidewalk, there is a man waiting for the bus who will likely get on at this stop. You spot a man with an overcoat rushing at the doors, aiming to push past the waiting man. Under his coat you see bombs strapped to his chest, and his finger is on a trigger. If you were to push the waiting man hard as he goes to step on to the bus, you would be able to obstruct the doors long enough to prevent the bomber entering the bus before the doors close. Both the waiting man and the bomber would be left on the sidewalk, where the bomb would explode, killing both. You would have fallen back onto the bus, and the closing doors would protect you and the other occupants of the bus from the bomb. Alternatively, you could continue exiting the bus, and prevent the waiting man from entering the bus, leaving you both on the sidewalk, protected by the closing doors, as the bomb goes off inside the bus, killing the terrorist and five passengers. Either way, then, you will not be hurt. Should you push the waiting man off and obstruct the doors?
+
+::::
+
+### Escalator
+
+
+:::: panel-tabset
+
+### Means
+
+*(means) (force)*
+
+> You are visiting a city where there have recently been terrorist suicide bombings. The terrorists target crowded areas such as shopping centres or railway stations. One tactic they use is to trigger the bomb as they disembark the top of an escalator. You are travelling up an escalator, and as you near the top you glance around. There is a group of five people at the top of the escalator. You spot a man with an overcoat also travelling up the escalator. Under his coat you see bombs strapped to his chest and his finger is on the trigger. There is another person behind you on the escalator, between you and the bomber. If you were to push this person down the escalator towards the bomber their weight would prevent the bomber from reaching the top before the bomb explodes, saving you and the five people at the top of the escalator from the blast, but killing the person you pushed. Alternatively you and the other person could climb over the railings and onto the downward escalator so that when the bomber reaches the top and detonates the bomb you will be saved but the five people at the top will be killed. Either way, you will not be hurt. Should you push the person towards the bomber.
+
+
+### Side-effect
+
+::: panel-tabset
+
+### Force
+
+*(side effect) (force)*
+
+> You are visiting a city where there have recently been terrorist suicide bombings. The terrorists target crowded areas such as shopping centres or railway stations. One tactic they use is to trigger the bomb as they disembark the top of an escalator. You are at the top of an escalator looking down at the people travelling up it. There is a group of five people at the top of the escalator. You spot a man with an overcoat also travelling up the escalator. Under his coat you see bombs strapped to his chest and his finger is on the trigger. You can see the "Emergency Stop" button, however there is a person approaching the top of the escalator, preventing you from being able to reach the button. If you were to push this person down the escalator towards the bomber you would be able to press the "Emergency Stop" button, the escalator would come to a stop, and the bomber would not reach the top before the bomb explodes. You and the other five people at the top would be saved from the blast, but the person you pushed would be killed Alternatively you and the other person could climb over the railings and onto the downward escalator so that when the bomber reaches the top and detonates the bomb you will be saved but the five people at the top will be killed. Either way, you will not be hurt. Should you push the person towards the bomber so you can press the "Emergency Stop" button.
+
+### No Force
+
+*(side effect) (no force)*
+
+> You are visiting a city where there have recently been terrorist suicide bombings. The terrorists target crowded areas such as shopping centres or railway stations. One tactic they use is to trigger the bomb as they disembark the top of an escalator. You are at the top of an escalator looking down at the people travelling up it. There is a group of five people reaching the top of the escalator. You spot two men at the base of the escalator, one of the men is standing still with his attention focused on his mobile phone, the other wearing an overcoat and about to step onto the escalator. Under his coat you see bombs strapped to his chest and his finger is on the trigger. You can see the "Emergency Stop" button. If you were to press the "Emergency Stop" button, the escalator would come to a stop, and the bomber would not reach the top before the bomb explodes. You and the other five people at the top would be saved from the blast, but the other man at would be killed. Alternatively, you could climb over the railings and onto the downward escalator so that when the bomber reaches the top and detonates the bomb you will be saved but the five people at the top will be killed. Either way, you will not be hurt. Should you press the "Emergency Stop" button?
+
+:::
+
+::::
+
+
+
+
+### Car
+
+:::: panel-tabset
+
+### Means
+
+*(means) (no force)*
+
+> It is a wet day and you are driving a large vehicle along a one way street. There are cars parked along the left-hand side of the street and there is a high wall along the right hand side. Suddenly, you see five people stepping out from between the parked cars onto the street in front of you. The wet ground means that, you will not be able to stop your vehicle before colliding with them. The high wall means that you cannot swerve to your right. Ahead you see a car is preparing to pull out and is sticking out from the other cars. If you steer to make contact with that car the impact will sufficiently slow you down so that you do not hit the five. Your car is sufficiently large that you will likely not be harmed by the impact, however the impact will kill the driver of the other car. Should you continue with swerving your vehicle?
+
+### Side-effect
+
+*(side effect) (no force)*
+
+> It is a wet day and you are driving a large vehicle along a one way street. There are cars parked along the left-hand side of the street and there is a high wall along the right hand side. Suddenly, you see five people stepping out from between the parked cars onto the street in front of you. The wet ground means that, you will not be able to stop your vehicle before colliding with them. The high wall means that your only hope of avoiding the five people is to swerve to your left and colliding with one of the parked cars.  Your car is sufficiently large that you will likely not be harmed by the impact. As you begin to swerve you can see that the car you will collide with has a single passenger. This car is much smaller than yours and the impact of your vehicle will kill the passenger. Should you continue with swerving your vehicle?
+
+::::
+
+:::::
+
+## Results
+
+![](resources/images/railton_rep_ext1.jpg){.lightbox width="700"}
+
+## Results
+
+
+![](resources/images/railton_rep_ext2.jpg){.lightbox width=100%}
+
+## Future Directions
+
+- Eliminating Dumbfounding
+- Non-moral dumbfounding
+- Actions vs Actors (Moral FAE?)
+- Typicality
+- Order Effects
+
+
+# Tutorial
+
+## Tutorial
+
+- Discuss and Explore possible research questions and novel hypotheses associated with a categorization approach to moral judgment
+
+
+
+![](resources/images/Are-We-The-Baddies.jpg){.lightbox width=600}
+
+
+## References {.smallest}
