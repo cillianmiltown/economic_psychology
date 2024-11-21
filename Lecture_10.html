@@ -7,8 +7,11 @@
 <link href="Lecture_10_files/libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="Lecture_10_files/libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="Lecture_10_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
-<link href="Lecture_10_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.3.287">
+<link href="Lecture_10_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="Lecture_10_files/libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="Lecture_10_files/libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="Lecture_10_files/libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.5.57">
 
   <meta name="author" content="Dr Cillian McHugh">
   <title>Lecture 10</title>
@@ -31,7 +34,7 @@
     }
     /* CSS for syntax highlighting */
     pre > code.sourceCode { white-space: pre; position: relative; }
-    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span { line-height: 1.25; }
     pre > code.sourceCode > span:empty { height: 1.2em; }
     .sourceCode { overflow: visible; }
     code.sourceCode > span { color: inherit; text-decoration: inherit; }
@@ -42,7 +45,7 @@
     }
     @media print {
     pre > code.sourceCode { white-space: pre-wrap; }
-    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
     }
     pre.numberSource code
       { counter-reset: source-line 0; }
@@ -70,7 +73,7 @@
     code span.at { color: #657422; } /* Attribute */
     code span.bn { color: #ad0000; } /* BaseN */
     code span.bu { } /* BuiltIn */
-    code span.cf { color: #003b4f; } /* ControlFlow */
+    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
     code span.ch { color: #20794d; } /* Char */
     code span.cn { color: #8f5902; } /* Constant */
     code span.co { color: #5e5e5e; } /* Comment */
@@ -84,7 +87,7 @@
     code span.fu { color: #4758ab; } /* Function */
     code span.im { color: #00769e; } /* Import */
     code span.in { color: #5e5e5e; } /* Information */
-    code span.kw { color: #003b4f; } /* Keyword */
+    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
     code span.op { color: #5e5e5e; } /* Operator */
     code span.ot { color: #003b4f; } /* Other */
     code span.pp { color: #ad0000; } /* Preprocessor */
@@ -98,6 +101,7 @@
     div.csl-bib-body { }
     div.csl-entry {
       clear: both;
+      margin-bottom: 0em;
     }
     .hanging-indent div.csl-entry {
       margin-left:2em;
@@ -114,7 +118,7 @@
     div.csl-indent {
       margin-left: 2em;
     }  </style>
-  <link rel="stylesheet" href="Lecture_10_files/libs/revealjs/dist/theme/quarto.css" id="theme">
+  <link rel="stylesheet" href="Lecture_10_files/libs/revealjs/dist/theme/quarto.css">
   <link href="Lecture_10_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="Lecture_10_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="Lecture_10_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -242,7 +246,8 @@
   }
 
   .callout.callout-titled .callout-body > .callout-content > :last-child {
-    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0;
   }
 
   .callout.callout-titled .callout-icon::before {
@@ -428,7 +433,6 @@ Dr Cillian McHugh
 </section>
 <section id="overview" class="slide level2">
 <h2>Overview</h2>
-
 <style type="text/css">
     table.table-style-one {
         font-size:36px;
@@ -470,9 +474,20 @@ div.footnotes {
 }
 </style>
 <ul>
-<li>Economic Psychology of Some Gambling Games</li>
+<li>Some Gambling Games</li>
 <li>Problem Gambling</li>
 <li>Further Reading</li>
+<li>Activity</li>
+</ul>
+</section>
+<section id="recap-on-last-week" class="slide level2">
+<h2>Recap on last week</h2>
+<ul>
+<li>What does MJAC stand for?
+<ul>
+<li>premises/assumptions/insights of MJAC</li>
+</ul></li>
+<li>What is the role of punishment/sanctions (direct or indirect) in ensuring fairness?</li>
 </ul>
 </section>
 <section>
@@ -490,26 +505,6 @@ div.footnotes {
 <li class="fragment">each pocket is a separate mental account<br><span class="citation" data-cites="thaler_mental_2003">(<a href="#/references-1" role="doc-biblioref" onclick="">Thaler, 2003, p. 94</a>)</span></li>
 </ul></li>
 </ul>
-</div>
-</section>
-<section id="gambling-and-economic-psychology-1" class="slide level2">
-<h2>Gambling and Economic Psychology</h2>
-<div class="columns">
-<div class="column" style="width:45%;">
-<p>Theories of Decision Making</p>
-<p>Heuristics and Biases</p>
-<p>Game Theory</p>
-<p>Emotional Influences</p>
-<p>Nudges and Other Contextual Influences</p>
-</div><div class="column" style="width:45%;">
-<p>Future Decisions and Affective Forecasting</p>
-<p>Loss Aversion/Risk Aversion and Endowment Effects</p>
-<p>Mental Accounting</p>
-<p>Fairness and Ethics</p>
-</div>
-</div>
-<div class="fragment">
-<p><font color="#B93B8F"><strong><em>Identify examples of the above concepts in Gambling behaviour</em></strong></font></p>
 </div>
 </section>
 <section id="gambling-1" class="slide level2">
@@ -532,44 +527,38 @@ div.footnotes {
 <h2>Lotteries</h2>
 <div class="columns">
 <div class="column" style="width:65%;">
-<div>
 <ul>
-<li class="fragment">180 lotteries worldwide
+<li>180 lotteries worldwide
 <ul>
-<li class="fragment">Total size of lottery industry is estimated to be $<span class="math inline">\(284\)</span> <span class="math inline">\(billion\)</span></li>
-<li class="fragment">In the United Kingdom, <span class="math inline">\(59\%\)</span> of adults purchased the National <br><font size="4.5"><span class="citation" data-cites="markel_fleur_2015 ranyard_economic_2018">(<a href="#/references-1" role="doc-biblioref" onclick="">Markel, La Fleur, &amp; La Fleur, 2015</a>; <a href="#/references-1" role="doc-biblioref" onclick="">Ranyard, 2018</a>)</span></font></li>
+<li>Total size of lottery industry is estimated to be $<span class="math inline">\(284\)</span> <span class="math inline">\(billion\)</span></li>
+<li>In the United Kingdom, <span class="math inline">\(59\%\)</span> of adults purchased the National <br><font size="4.5"><span class="citation" data-cites="markel_fleur_2015 ranyard_economic_2018">(<a href="#/references-1" role="doc-biblioref" onclick="">Markel, La Fleur, &amp; La Fleur, 2015</a>; <a href="#/references-1" role="doc-biblioref" onclick="">Ranyard, 2018</a>)</span></font></li>
 </ul></li>
 </ul>
-</div>
 </div><div class="column" style="width:35%;">
-<p><img data-src="resources/images/national_lottery.jpg" class="quarto-discovered-preview-image"></p>
-</div>
-</div>
+<p><a href="resources/images/national_lottery.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img data-src="resources/images/national_lottery.jpg"></a></p>
+</div></div>
 </section>
 <section id="lotto-rules" class="slide level2">
 <h2>Lotto Rules</h2>
 <div class="columns">
 <div class="column" style="width:65%;">
-<div>
 <ul>
-<li class="fragment">Different lotteries have different specific rules
+<li>Different lotteries have different specific rules
 <ul>
-<li class="fragment">The UK uses a <span class="math inline">\(6\)</span> from <span class="math inline">\(49\)</span> system</li>
-<li class="fragment">Ireland uses <span class="math inline">\(6\)</span> from <span class="math inline">\(47\)</span>
+<li>The UK uses a <span class="math inline">\(6\)</span> from <span class="math inline">\(49\)</span> system</li>
+<li>Ireland uses <span class="math inline">\(6\)</span> from <span class="math inline">\(47\)</span>
 <ul>
-<li class="fragment">Used to be <span class="math inline">\(6\)</span> from <span class="math inline">\(36\)</span></li>
+<li>Used to be <span class="math inline">\(6\)</span> from <span class="math inline">\(36\)</span></li>
 </ul></li>
-<li class="fragment">Euromillions <span class="math inline">\(5\)</span> from <span class="math inline">\(50\)</span>
+<li>Euromillions <span class="math inline">\(5\)</span> from <span class="math inline">\(50\)</span>
 <ul>
-<li class="fragment">Plus <span class="math inline">\(2\)</span> <em>star</em> numbers from <span class="math inline">\(1-12\)</span></li>
+<li>Plus <span class="math inline">\(2\)</span> <em>star</em> numbers from <span class="math inline">\(1-12\)</span></li>
 </ul></li>
 </ul></li>
 </ul>
-</div>
 </div><div class="column" style="width:35%;">
-<p><img data-src="resources/images/euromillions.jpg"></p>
-</div>
-</div>
+<p><a href="resources/images/euromillions.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img data-src="resources/images/euromillions.jpg"></a></p>
+</div></div>
 </section>
 <section id="lotto-combinations" class="slide level2">
 <h2>Lotto Combinations</h2>
@@ -582,8 +571,8 @@ div.footnotes {
 <h2>Lotto Combinations</h2>
 <p><span class="math display">\[\frac{n!}{(n-x)!x!}\]</span></p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a><span class="fu">factorial</span>(<span class="dv">47</span>) <span class="sc">/</span></span>
-<span id="cb1-2"><a href="#cb1-2"></a>  (<span class="fu">factorial</span>(<span class="dv">47-6</span>) <span class="sc">*</span> <span class="fu">factorial</span>(<span class="dv">6</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href=""></a><span class="fu">factorial</span>(<span class="dv">47</span>) <span class="sc">/</span></span>
+<span id="cb1-2"><a href=""></a>  (<span class="fu">factorial</span>(<span class="dv">47-6</span>) <span class="sc">*</span> <span class="fu">factorial</span>(<span class="dv">6</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="cell fragment">
 <div class="cell-output cell-output-stdout">
@@ -606,8 +595,8 @@ div.footnotes {
 <li>Irish lotto used to be <span class="math inline">\(6\)</span> from <span class="math inline">\(36\)</span></li>
 </ul>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1"></a><span class="fu">factorial</span>(<span class="dv">36</span>) <span class="sc">/</span></span>
-<span id="cb3-2"><a href="#cb3-2"></a>  (<span class="fu">factorial</span>(<span class="dv">36-6</span>) <span class="sc">*</span> <span class="fu">factorial</span>(<span class="dv">6</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href=""></a><span class="fu">factorial</span>(<span class="dv">36</span>) <span class="sc">/</span></span>
+<span id="cb3-2"><a href=""></a>  (<span class="fu">factorial</span>(<span class="dv">36-6</span>) <span class="sc">*</span> <span class="fu">factorial</span>(<span class="dv">6</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="cell fragment">
 <div class="cell-output cell-output-stdout">
@@ -619,8 +608,8 @@ div.footnotes {
 </ul>
 <div class="fragment">
 <div class="cell">
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1"></a><span class="fl">0.5</span><span class="sc">*</span>( <span class="fu">factorial</span>(<span class="dv">36</span>) <span class="sc">/</span></span>
-<span id="cb5-2"><a href="#cb5-2"></a>        (<span class="fu">factorial</span>(<span class="dv">36-6</span>) <span class="sc">*</span> <span class="fu">factorial</span>(<span class="dv">6</span>))  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href=""></a><span class="fl">0.5</span><span class="sc">*</span>( <span class="fu">factorial</span>(<span class="dv">36</span>) <span class="sc">/</span></span>
+<span id="cb5-2"><a href=""></a>        (<span class="fu">factorial</span>(<span class="dv">36-6</span>) <span class="sc">*</span> <span class="fu">factorial</span>(<span class="dv">6</span>))  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="cell fragment">
 <div class="cell-output cell-output-stdout">
@@ -636,67 +625,60 @@ div.footnotes {
 <h2>Winning through <em>brute force</em></h2>
 <div class="columns">
 <div class="column" style="width:65%;">
-<div>
 <ul>
-<li class="fragment">In <span class="math inline">\(1990\)</span> Stefan Klincewicz and Paddy Mulligan put together a <span class="math inline">\(10\)</span> man syndicate
+<li>In <span class="math inline">\(1990\)</span> Stefan Klincewicz and Paddy Mulligan put together a <span class="math inline">\(10\)</span> man syndicate
 <ul>
-<li class="fragment">Each person paid <span class="math inline">\(£30\)</span> over <span class="math inline">\(10\)</span> weeks</li>
-<li class="fragment">Between them they won Lotto jackpot of <span class="math inline">\(£2,439,760\)</span> in April, <span class="math inline">\(1990\)</span><br><font size="4.5"><span class="citation" data-cites="collins_how_2017">(<a href="#/references-1" role="doc-biblioref" onclick="">Collins, 2017</a>)</span></font></li>
+<li>Each person paid <span class="math inline">\(£30\)</span> over <span class="math inline">\(10\)</span> weeks</li>
+<li>Between them they won Lotto jackpot of <span class="math inline">\(£2,439,760\)</span> in April, <span class="math inline">\(1990\)</span><br><font size="4.5"><span class="citation" data-cites="collins_how_2017">(<a href="#/references-1" role="doc-biblioref" onclick="">Collins, 2017</a>)</span></font></li>
 </ul></li>
 </ul>
-</div>
 </div><div class="column" style="width:35%;">
-<p><img data-src="resources/images/lottoticket.jpg"></p>
-</div>
-</div>
+<p><a href="resources/images/lottoticket.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img data-src="resources/images/lottoticket.jpg"></a></p>
+</div></div>
 </section>
 <section id="winning-through-brute-force-3" class="slide level2 smaller">
 <h2>Winning through <em>brute force</em></h2>
-<div>
 <ul>
-<li class="fragment">In <span class="math inline">\(1992\)</span> Stefan Klincewicz and <span class="math inline">\(28\)</span> member Dublin-based syndicate
+<li>In <span class="math inline">\(1992\)</span> Stefan Klincewicz and <span class="math inline">\(28\)</span> member Dublin-based syndicate
 <ul>
-<li class="fragment">Filled out <span class="math inline">\(243,474\)</span> Lotto coupons in preparation</li>
+<li>Filled out <span class="math inline">\(243,474\)</span> Lotto coupons in preparation</li>
 </ul></li>
-<li class="fragment">The May Bank Holiday weekend <span class="math inline">\(1992\)</span> Jackpot was <span class="math inline">\(£1.7\)</span> <span class="math inline">\(million\)</span></li>
-<li class="fragment">They bought over <span class="math inline">\(80\%\)</span> of the combinations (spending <span class="math inline">\(\sim£820,000\)</span> )
+<li>The May Bank Holiday weekend <span class="math inline">\(1992\)</span> Jackpot was <span class="math inline">\(£1.7\)</span> <span class="math inline">\(million\)</span></li>
+<li>They bought over <span class="math inline">\(80\%\)</span> of the combinations (spending <span class="math inline">\(\sim£820,000\)</span> )
 <ul>
-<li class="fragment">They had the winning numbers on the night
+<li>They had the winning numbers on the night
 <ul>
-<li class="fragment">But two other winning tickets were also sold</li>
-<li class="fragment">Could claim only one-third of the jackpot, or <span class="math inline">\(£568,682\)</span></li>
+<li>But two other winning tickets were also sold</li>
+<li>Could claim only one-third of the jackpot, or <span class="math inline">\(£568,682\)</span></li>
 </ul></li>
-<li class="fragment"><strong><em>But</em></strong> Match-5 and match-4 prizes brought the syndicate’s total winnings to approximately <span class="math inline">\(£1,166,000\)</span>
+<li><strong><em>But</em></strong> Match-5 and match-4 prizes brought the syndicate’s total winnings to approximately <span class="math inline">\(£1,166,000\)</span>
 <ul>
-<li class="fragment">profit of approximately <span class="math inline">\(£310,000\)</span></li>
+<li>profit of approximately <span class="math inline">\(£310,000\)</span></li>
 </ul></li>
 </ul></li>
 </ul>
-</div>
 </section>
 <section id="playing-the-lottery" class="slide level2 smaller">
 <h2>Playing the Lottery</h2>
-<div>
 <ul>
-<li class="fragment">The representativeness heuristic:
+<li>The representativeness heuristic:
 <ul>
-<li class="fragment">The winning numbers should look random</li>
-<li class="fragment">People likely avoid numbers that ‘do not look random enough’
+<li>The winning numbers should look random</li>
+<li>People likely avoid numbers that ‘do not look random enough’
 <ul>
-<li class="fragment">regular intervals or those that do not distribute sparsely across the whole range of possible numbers<br><font size="4.5"><span class="citation" data-cites="holtgraves_cognitive_1992 baboushkin_underlying_2001">(<a href="#/references-1" role="doc-biblioref" onclick="">Baboushkin, Hardoon, Derevensky, &amp; Gupta, 2001</a>; <a href="#/references-1" role="doc-biblioref" onclick="">Holtgraves &amp; Skeel, 1992</a>)</span></font></li>
+<li>regular intervals or those that do not distribute sparsely across the whole range of possible numbers<br><font size="4.5"><span class="citation" data-cites="holtgraves_cognitive_1992 baboushkin_underlying_2001">(<a href="#/references-1" role="doc-biblioref" onclick="">Baboushkin, Hardoon, Derevensky, &amp; Gupta, 2001</a>; <a href="#/references-1" role="doc-biblioref" onclick="">Holtgraves &amp; Skeel, 1992</a>)</span></font></li>
 </ul></li>
 </ul></li>
-<li class="fragment">Illusion of control:
+<li>Illusion of control:
 <ul>
-<li class="fragment">Over estimate ability to choose winning numbers</li>
-<li class="fragment"><em>Gambler’s Fallacy</em>:
+<li>Over estimate ability to choose winning numbers</li>
+<li><em>Gambler’s Fallacy</em>:
 <ul>
-<li class="fragment">avoiding numbers that have appeared recently<br><font size="4.5"><span class="citation" data-cites="wohl_deployment_2002 langer_illusion_1975 clotfelter_selling_1991">(<a href="#/references-1" role="doc-biblioref" onclick="">Clotfelter &amp; Cook, 1991</a>; <a href="#/references-1" role="doc-biblioref" onclick="">Langer, 1975</a>; <a href="#/references-1" role="doc-biblioref" onclick="">Wohl &amp; Enzle, 2002</a>)</span></font></li>
+<li>avoiding numbers that have appeared recently<br><font size="4.5"><span class="citation" data-cites="wohl_deployment_2002 langer_illusion_1975 clotfelter_selling_1991">(<a href="#/references-1" role="doc-biblioref" onclick="">Clotfelter &amp; Cook, 1991</a>; <a href="#/references-1" role="doc-biblioref" onclick="">Langer, 1975</a>; <a href="#/references-1" role="doc-biblioref" onclick="">Wohl &amp; Enzle, 2002</a>)</span></font></li>
 </ul></li>
 </ul></li>
-<li class="fragment">Superstition <font size="4.5"><span class="citation" data-cites="ariyabuddhiphongs_test_2007">(<a href="#/references-1" role="doc-biblioref" onclick="">Ariyabuddhiphongs &amp; Chanchalermporn, 2007</a>)</span></font></li>
+<li>Superstition <font size="4.5"><span class="citation" data-cites="ariyabuddhiphongs_test_2007">(<a href="#/references-1" role="doc-biblioref" onclick="">Ariyabuddhiphongs &amp; Chanchalermporn, 2007</a>)</span></font></li>
 </ul>
-</div>
 </section>
 <section id="explaining-the-lottery" class="slide level2">
 <h2>Explaining the Lottery</h2>
@@ -706,22 +688,20 @@ div.footnotes {
 </section>
 <section id="explaining-the-lottery-1" class="slide level2 smaller">
 <h2>Explaining the Lottery</h2>
-<div>
 <ul>
-<li class="fragment">Prospect Theory: People tend to overestimate low odds of winning
+<li>Prospect Theory: People tend to overestimate low odds of winning
 <ul>
-<li class="fragment">far lower than what people experience in everyday life</li>
-<li class="fragment">fail to estimate just how tiny they actually are <br><font size="4.5"><span class="citation" data-cites="kahneman_prospect_1979 ranyard_economic_2018">(<a href="#/references-1" role="doc-biblioref" onclick="">Kahneman &amp; Tversky, 1979</a>; <a href="#/references-1" role="doc-biblioref" onclick="">Ranyard, 2018</a>)</span></font></li>
+<li>far lower than what people experience in everyday life</li>
+<li>fail to estimate just how tiny they actually are <br><font size="4.5"><span class="citation" data-cites="kahneman_prospect_1979 ranyard_economic_2018">(<a href="#/references-1" role="doc-biblioref" onclick="">Kahneman &amp; Tversky, 1979</a>; <a href="#/references-1" role="doc-biblioref" onclick="">Ranyard, 2018</a>)</span></font></li>
 </ul></li>
-<li class="fragment">Availability heuristic: Salient wins <br><font size="4.5"><span class="citation" data-cites="tversky_availability_1973 ranyard_economic_2018 stewart_decision_2006">(<a href="#/references-1" role="doc-biblioref" onclick="">Ranyard, 2018</a>; <a href="#/references-1" role="doc-biblioref" onclick="">Tversky &amp; Kahneman, 1973</a>; see also Decision Sampling Theory, <a href="#/references-1" role="doc-biblioref" onclick="">Stewart, Chater, &amp; Brown, 2006</a>)</span></font></li>
-<li class="fragment">Social activity?</li>
-<li class="fragment">Excitement?</li>
-<li class="fragment">‘entrapped’
+<li>Availability heuristic: Salient wins <br><font size="4.5"><span class="citation" data-cites="tversky_availability_1973 ranyard_economic_2018 stewart_decision_2006">(<a href="#/references-1" role="doc-biblioref" onclick="">Ranyard, 2018</a>; <a href="#/references-1" role="doc-biblioref" onclick="">Tversky &amp; Kahneman, 1973</a>; see also Decision Sampling Theory, <a href="#/references-1" role="doc-biblioref" onclick="">Stewart, Chater, &amp; Brown, 2006</a>)</span></font></li>
+<li>Social activity?</li>
+<li>Excitement?</li>
+<li>‘entrapped’
 <ul>
-<li class="fragment">Might miss the jackpot<br><font size="4.5"><span class="citation" data-cites="beckert_why_2013 binde_why_2013 forrest_buying_2002">(<a href="#/references-1" role="doc-biblioref" onclick="">Beckert &amp; Lutter, 2013</a>; <a href="#/references-1" role="doc-biblioref" onclick="">Binde, 2013</a> uploaded; <a href="#/references-1" role="doc-biblioref" onclick="">Forrest, Simmons, &amp; Chesters, 2002</a>)</span></font></li>
+<li>Might miss the jackpot<br><font size="4.5"><span class="citation" data-cites="beckert_why_2013 binde_why_2013 forrest_buying_2002">(<a href="#/references-1" role="doc-biblioref" onclick="">Beckert &amp; Lutter, 2013</a>; <a href="#/references-1" role="doc-biblioref" onclick="">Binde, 2013</a> uploaded; <a href="#/references-1" role="doc-biblioref" onclick="">Forrest, Simmons, &amp; Chesters, 2002</a>)</span></font></li>
 </ul></li>
 </ul>
-</div>
 </section></section>
 <section>
 <section id="scratch-cards" class="title-slide slide level1 center">
@@ -732,37 +712,32 @@ div.footnotes {
 <h2>Scratch Cards</h2>
 <div class="columns">
 <div class="column" style="width:65%;">
-<div>
 <ul>
-<li class="fragment">Low chance of winning high amounts
+<li>Low chance of winning high amounts
 <ul>
-<li class="fragment">e.g., <span class="math inline">\(1\)</span> in <span class="math inline">\(4,347,890\)</span> chance of winning <span class="math inline">\(£4\)</span> <span class="math inline">\(million\)</span></li>
+<li>e.g., <span class="math inline">\(1\)</span> in <span class="math inline">\(4,347,890\)</span> chance of winning <span class="math inline">\(£4\)</span> <span class="math inline">\(million\)</span></li>
 </ul></li>
-<li class="fragment">Reasonable chance of winning smaller amounts
+<li>Reasonable chance of winning smaller amounts
 <ul>
-<li class="fragment">e.g., <span class="math inline">\(1\)</span> in <span class="math inline">\(6\)</span> chance of winning <span class="math inline">\(£10\)</span></li>
+<li>e.g., <span class="math inline">\(1\)</span> in <span class="math inline">\(6\)</span> chance of winning <span class="math inline">\(£10\)</span></li>
 </ul></li>
-<li class="fragment">Expected loss of <span class="math inline">\(£3\)</span> for every <span class="math inline">\(£10\)</span> spent</li>
+<li>Expected loss of <span class="math inline">\(£3\)</span> for every <span class="math inline">\(£10\)</span> spent</li>
 </ul>
-</div>
 </div><div class="column" style="width:35%;">
-<p><img data-src="resources/images/scratchcard.jpg"></p>
-</div>
-</div>
+<p><a href="resources/images/scratchcard.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img data-src="resources/images/scratchcard.jpg"></a></p>
+</div></div>
 </section>
 <section id="scratch-cards-2" class="slide level2">
 <h2>Scratch Cards</h2>
 <p>Explanations???</p>
-<div>
 <ul>
-<li class="fragment">Instant feedback</li>
-<li class="fragment">Near miss effects</li>
-<li class="fragment">Social
+<li>Instant feedback</li>
+<li>Near miss effects</li>
+<li>Social
 <ul>
-<li class="fragment">Gifts</li>
+<li>Gifts</li>
 </ul></li>
 </ul>
-</div>
 </section></section>
 <section>
 <section id="roulette" class="title-slide slide level1 center">
@@ -773,27 +748,24 @@ div.footnotes {
 <h2>Roulette</h2>
 <div class="columns">
 <div class="column" style="width:65%;">
-<div>
 <ul>
-<li class="fragment">Transparent odds; Pure luck</li>
-<li class="fragment"><span class="math inline">\(37\)</span> slots (Europe - <span class="math inline">\(38\)</span> in USA)</li>
-<li class="fragment">Numbers from <span class="math inline">\(0-36\)</span>
+<li>Transparent odds; Pure luck</li>
+<li><span class="math inline">\(37\)</span> slots (Europe - <span class="math inline">\(38\)</span> in USA)</li>
+<li>Numbers from <span class="math inline">\(0-36\)</span>
 <ul>
-<li class="fragment"><span class="math inline">\(\frac{1}{2}\)</span> <font color="red"><strong>Red</strong></font></li>
-<li class="fragment"><span class="math inline">\(\frac{1}{2}\)</span> <strong>Black</strong></li>
+<li><span class="math inline">\(\frac{1}{2}\)</span> <font color="red"><strong>Red</strong></font></li>
+<li><span class="math inline">\(\frac{1}{2}\)</span> <strong>Black</strong></li>
 </ul></li>
-<li class="fragment">Can bet on a single slot or a selection
+<li>Can bet on a single slot or a selection
 <ul>
-<li class="fragment">Payout for single number is <span class="math inline">\(35\)</span> to <span class="math inline">\(1\)</span></li>
-<li class="fragment">Payout for even/odd, <font color="red"><strong>Red</strong></font>/<strong>Black</strong> is almost <span class="math inline">\(1\)</span> to <span class="math inline">\(1\)</span></li>
-<li class="fragment">Payout for selection of <span class="math inline">\(12\)</span> numbers is <span class="math inline">\(2\)</span> to <span class="math inline">\(1\)</span> <font size="4.5"><span class="citation" data-cites="ranyard_economic_2018">(<a href="#/references-1" role="doc-biblioref" onclick="">Ranyard, 2018</a>)</span></font></li>
+<li>Payout for single number is <span class="math inline">\(35\)</span> to <span class="math inline">\(1\)</span></li>
+<li>Payout for even/odd, <font color="red"><strong>Red</strong></font>/<strong>Black</strong> is almost <span class="math inline">\(1\)</span> to <span class="math inline">\(1\)</span></li>
+<li>Payout for selection of <span class="math inline">\(12\)</span> numbers is <span class="math inline">\(2\)</span> to <span class="math inline">\(1\)</span> <font size="4.5"><span class="citation" data-cites="ranyard_economic_2018">(<a href="#/references-1" role="doc-biblioref" onclick="">Ranyard, 2018</a>)</span></font></li>
 </ul></li>
 </ul>
-</div>
 </div><div class="column" style="width:35%;">
-<p><img data-src="resources/images/roulette.jpg"></p>
-</div>
-</div>
+<p><a href="resources/images/roulette.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><img data-src="resources/images/roulette.jpg"></a></p>
+</div></div>
 </section>
 <section id="roulette-2" class="slide level2">
 <h2>Roulette</h2>
@@ -835,87 +807,76 @@ div.footnotes {
 <h2>Fruit Machines</h2>
 <div class="columns">
 <div class="column" style="width:65%;">
-<div>
 <ul>
-<li class="fragment">Fruit machines are said to be most addictive form of gambling
+<li>Fruit machines are said to be most addictive form of gambling
 <ul>
-<li class="fragment">It takes just over a year to become addicted
+<li>It takes just over a year to become addicted
 <ul>
-<li class="fragment">Takes over three years with traditional table games, such as roulette<br><font size="4.5"><span class="citation" data-cites="turner_how_2004">(<a href="#/references-1" role="doc-biblioref" onclick="">N. Turner &amp; Horbay, 2004</a>)</span></font></li>
+<li>Takes over three years with traditional table games, such as roulette<br><font size="4.5"><span class="citation" data-cites="turner_how_2004">(<a href="#/references-1" role="doc-biblioref" onclick="">N. Turner &amp; Horbay, 2004</a>)</span></font></li>
 </ul></li>
 </ul></li>
-<li class="fragment"><span class="math inline">\(3\)</span> to <span class="math inline">\(5\)</span> to five reels with pictures</li>
+<li><span class="math inline">\(3\)</span> to <span class="math inline">\(5\)</span> to five reels with pictures</li>
 </ul>
-</div>
 </div><div class="column" style="width:35%;">
-<p><img data-src="resources/images/Fruit-Machine.png"></p>
-</div>
-</div>
+<p><a href="resources/images/Fruit-Machine.png" class="lightbox" data-gallery="quarto-lightbox-gallery-6"><img data-src="resources/images/Fruit-Machine.png"></a></p>
+</div></div>
 </section>
 <section id="fruit-machines-2" class="slide level2 smaller">
 <h2>Fruit Machines</h2>
 <div class="columns">
 <div class="column" style="width:65%;">
-<div>
 <ul>
-<li class="fragment">The player inserts a coin and then pulls down a handle (or presses a button)
+<li>The player inserts a coin and then pulls down a handle (or presses a button)
 <ul>
-<li class="fragment">The reels spin</li>
-<li class="fragment">When they stop, the combination of pictures forms a certain pattern</li>
-<li class="fragment">If the combination comprises three pictures that are the same (or some other designated pattern), a reward is given.</li>
-<li class="fragment">The most common winning combination is 777</li>
+<li>The reels spin</li>
+<li>When they stop, the combination of pictures forms a certain pattern</li>
+<li>If the combination comprises three pictures that are the same (or some other designated pattern), a reward is given.</li>
+<li>The most common winning combination is 777</li>
 </ul></li>
-<li class="fragment">The odds of fruit machines are unknown
+<li>The odds of fruit machines are unknown
 <ul>
-<li class="fragment">Pure chance</li>
+<li>Pure chance</li>
 </ul></li>
 </ul>
-</div>
 </div><div class="column" style="width:35%;">
-<p><img data-src="resources/images/Fruit-Machine.png"></p>
-</div>
-</div>
+<p><a href="resources/images/Fruit-Machine.png" class="lightbox" data-gallery="quarto-lightbox-gallery-7"><img data-src="resources/images/Fruit-Machine.png"></a></p>
+</div></div>
 </section>
 <section id="fruit-machines-and-near-misses" class="slide level2">
 <h2>Fruit Machines and Near Misses</h2>
 <div class="columns">
 <div class="column" style="width:65%;">
-<div>
 <ul>
-<li class="fragment"><strong><em>Near Misses</em></strong>: a losing pattern that is very similar to a winning one
+<li><strong><em>Near Misses</em></strong>: a losing pattern that is very similar to a winning one
 <ul>
-<li class="fragment">e.g., reels may stop at <span class="math inline">\(776\)</span> <br> very similar to <span class="math inline">\(777\)</span></li>
+<li>e.g., reels may stop at <span class="math inline">\(776\)</span> <br> very similar to <span class="math inline">\(777\)</span></li>
 </ul></li>
-<li class="fragment">Gamblers feel that luck is with them and that success is on its way
+<li>Gamblers feel that luck is with them and that success is on its way
 <ul>
-<li class="fragment">Near-miss experiences tend to encourage more gambling <br><font size="4.5"><span class="citation" data-cites="griffiths_psychobiology_1991 reid_psychology_1986">(<a href="#/references-1" role="doc-biblioref" onclick="">Griffiths, 1991</a>; <a href="#/references-1" role="doc-biblioref" onclick="">Reid, 1986</a>)</span></font></li>
+<li>Near-miss experiences tend to encourage more gambling <br><font size="4.5"><span class="citation" data-cites="griffiths_psychobiology_1991 reid_psychology_1986">(<a href="#/references-1" role="doc-biblioref" onclick="">Griffiths, 1991</a>; <a href="#/references-1" role="doc-biblioref" onclick="">Reid, 1986</a>)</span></font></li>
 </ul></li>
 </ul>
-</div>
 </div><div class="column" style="width:35%;">
-<p><img data-src="resources/images/fruity.gif"></p>
-</div>
-</div>
+<p><a href="resources/images/fruity.gif" class="lightbox" data-gallery="quarto-lightbox-gallery-8"><img data-src="resources/images/fruity.gif"></a></p>
+</div></div>
 </section>
 <section id="explaining-near-misses" class="slide level2 smaller">
 <h2>Explaining Near Misses</h2>
-<div>
 <ul>
-<li class="fragment">Evolutionary explanations?
+<li>Evolutionary explanations?
 <ul>
-<li class="fragment">In natural environments to which we are adapted by evolution, a near miss may be close to a win
+<li>In natural environments to which we are adapted by evolution, a near miss may be close to a win
 <ul>
-<li class="fragment">e.g., almost catching prey clearly indicates that prey is nearby and your skill levels are probably adequate to make a kill</li>
+<li>e.g., almost catching prey clearly indicates that prey is nearby and your skill levels are probably adequate to make a kill</li>
 </ul></li>
-<li class="fragment">May not hold for artificial environments (<span class="math inline">\(776\)</span> is not <span class="math inline">\(nearly\)</span> <span class="math inline">\(777\)</span>)</li>
+<li>May not hold for artificial environments (<span class="math inline">\(776\)</span> is not <span class="math inline">\(nearly\)</span> <span class="math inline">\(777\)</span>)</li>
 </ul></li>
-<li class="fragment">Near miss is mistaken for a gain
+<li>Near miss is mistaken for a gain
 <ul>
-<li class="fragment">Same part of the brain<br><font size="4.5"><span class="citation" data-cites="clark_gambling_2009">(<a href="#/references-1" role="doc-biblioref" onclick="">Clark, Lawrence, Astley-Jones, &amp; Gray, 2009</a>)</span></font></li>
+<li>Same part of the brain<br><font size="4.5"><span class="citation" data-cites="clark_gambling_2009">(<a href="#/references-1" role="doc-biblioref" onclick="">Clark, Lawrence, Astley-Jones, &amp; Gray, 2009</a>)</span></font></li>
 </ul></li>
-<li class="fragment">Near misses registered as gains will result in gamblers’ receiving positive reinforcement even when they are losing money</li>
+<li>Near misses registered as gains will result in gamblers’ receiving positive reinforcement even when they are losing money</li>
 </ul>
-</div>
 </section></section>
 <section>
 <section id="card-games" class="title-slide slide level1 center">
@@ -926,48 +887,42 @@ div.footnotes {
 <h2>Card Games</h2>
 <div class="columns">
 <div class="column" style="width:75%;">
-<div>
 <ul>
-<li class="fragment"><p>Both luck and expertise</p></li>
-<li class="fragment"><p>Blackjack</p>
+<li><p>Both luck and expertise</p></li>
+<li><p>Blackjack</p>
 <ul>
-<li class="fragment">Closest to <span class="math inline">\(21\)</span> without exceeding <span class="math inline">\(21\)</span></li>
-<li class="fragment">Not <strong><em>Pure Chance</em></strong>
+<li>Closest to <span class="math inline">\(21\)</span> without exceeding <span class="math inline">\(21\)</span></li>
+<li>Not <strong><em>Pure Chance</em></strong>
 <ul>
-<li class="fragment">Counting cards <font size="4.5"><span class="citation" data-cites="mezrich_hacking_2002">(e.g., MIT blackjack team <a href="#/references-1" role="doc-biblioref" onclick="">Mezrich, 2002</a>)</span></font></li>
+<li>Counting cards <font size="4.5"><span class="citation" data-cites="mezrich_hacking_2002">(e.g., MIT blackjack team <a href="#/references-1" role="doc-biblioref" onclick="">Mezrich, 2002</a>)</span></font></li>
 </ul></li>
-<li class="fragment">Statistically possible to profit from Blackjack (unlike previous games) <br><font size="4.5"><span class="citation" data-cites="dedonno_poker_2008 javarone_poker_2015 turner_viewpoint_2008">(<a href="#/references-1" role="doc-biblioref" onclick="">DeDonno &amp; Detterman, 2008</a>; <a href="#/references-1" role="doc-biblioref" onclick="">Javarone, 2015</a>; <a href="#/references-1" role="doc-biblioref" onclick="">N. E. Turner, 2008</a>)</span></font></li>
+<li>Statistically possible to profit from Blackjack (unlike previous games) <br><font size="4.5"><span class="citation" data-cites="dedonno_poker_2008 javarone_poker_2015 turner_viewpoint_2008">(<a href="#/references-1" role="doc-biblioref" onclick="">DeDonno &amp; Detterman, 2008</a>; <a href="#/references-1" role="doc-biblioref" onclick="">Javarone, 2015</a>; <a href="#/references-1" role="doc-biblioref" onclick="">N. E. Turner, 2008</a>)</span></font></li>
 </ul></li>
 </ul>
-</div>
 </div><div class="column" style="width:25%;">
-<p><img data-src="resources/images/blackjack.png"></p>
-</div>
-</div>
+<p><a href="resources/images/blackjack.png" class="lightbox" data-gallery="quarto-lightbox-gallery-9"><img data-src="resources/images/blackjack.png"></a></p>
+</div></div>
 </section>
-<section id="card-games-2" class="slide level2">
+<section id="card-games-2" class="slide level2 smaller">
 <h2>Card Games</h2>
 <div class="columns">
 <div class="column" style="width:75%;">
-<div>
 <ul>
-<li class="fragment">Poker
+<li>Poker
 <ul>
-<li class="fragment">Different variations</li>
-<li class="fragment">Aim to have highest ranked combination of cards</li>
+<li>Different variations</li>
+<li>Aim to have highest ranked combination of cards</li>
 </ul></li>
-<li class="fragment">Players can choose to increase the stake or to fold</li>
-<li class="fragment">Players win either by having the highest rank of the combination
+<li>Players can choose to increase the stake or to fold</li>
+<li>Players win either by having the highest rank of the combination
 <ul>
-<li class="fragment">or by being the only person remaining</li>
+<li>or by being the only person remaining</li>
 </ul></li>
-<li class="fragment">Evidence for expertise <br><font size="4.5"><span class="citation" data-cites="fiedler_quantifying_2009 hannum_legalization_2012 dedonno_poker_2008 javarone_poker_2015 turner_viewpoint_2008">(<a href="#/references-1" role="doc-biblioref" onclick="">DeDonno &amp; Detterman, 2008</a>; <a href="#/references-1" role="doc-biblioref" onclick="">Fiedler &amp; Rock, 2009</a>; <a href="#/references-1" role="doc-biblioref" onclick="">Hannum &amp; Cabot, 2012</a>; <a href="#/references-1" role="doc-biblioref" onclick="">Javarone, 2015</a>; <a href="#/references-1" role="doc-biblioref" onclick="">N. E. Turner, 2008</a>)</span></font></li>
+<li>Evidence for expertise <br><font size="4.5"><span class="citation" data-cites="fiedler_quantifying_2009 hannum_legalization_2012 dedonno_poker_2008 javarone_poker_2015 turner_viewpoint_2008">(<a href="#/references-1" role="doc-biblioref" onclick="">DeDonno &amp; Detterman, 2008</a>; <a href="#/references-1" role="doc-biblioref" onclick="">Fiedler &amp; Rock, 2009</a>; <a href="#/references-1" role="doc-biblioref" onclick="">Hannum &amp; Cabot, 2012</a>; <a href="#/references-1" role="doc-biblioref" onclick="">Javarone, 2015</a>; <a href="#/references-1" role="doc-biblioref" onclick="">N. E. Turner, 2008</a>)</span></font></li>
 </ul>
-</div>
 </div><div class="column" style="width:25%;">
-<p><img data-src="resources/images/poker.jpg"></p>
-</div>
-</div>
+<p><a href="resources/images/poker.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-10"><img data-src="resources/images/poker.jpg"></a></p>
+</div></div>
 </section></section>
 <section>
 <section id="sports-betting" class="title-slide slide level1 center">
@@ -978,21 +933,18 @@ div.footnotes {
 <h2>Sports betting</h2>
 <div class="columns">
 <div class="column" style="width:75%;">
-<div>
 <ul>
-<li class="fragment"><p>Horse racing (16%)</p></li>
-<li class="fragment"><p>Football matches (4%)</p></li>
-<li class="fragment"><p>Dog racing (4%)</p></li>
-<li class="fragment"><p>Other (9%) <br><font size="4.5"><span class="citation" data-cites="wardle_defining_2011 ranyard_economic_2018">(<a href="#/references-1" role="doc-biblioref" onclick="">Ranyard, 2018</a>; <a href="#/references-1" role="doc-biblioref" onclick="">Wardle, Moody, Griffiths, Orford, &amp; Volberg, 2011</a>)</span></font></p></li>
-<li class="fragment"><p>Gamblers can bet against the bookmaker or against each other</p></li>
-<li class="fragment"><p>Traditionally, the bookmaker sets the odds</p></li>
-<li class="fragment"><p>The gamblers bet that a certain event will occur (back) and the bookmaker bets that it will not (lay)</p></li>
+<li><p>Horse racing (16%)</p></li>
+<li><p>Football matches (4%)</p></li>
+<li><p>Dog racing (4%)</p></li>
+<li><p>Other (9%) <br><font size="4.5"><span class="citation" data-cites="wardle_defining_2011 ranyard_economic_2018">(<a href="#/references-1" role="doc-biblioref" onclick="">Ranyard, 2018</a>; <a href="#/references-1" role="doc-biblioref" onclick="">Wardle, Moody, Griffiths, Orford, &amp; Volberg, 2011</a>)</span></font></p></li>
+<li><p>Gamblers can bet against the bookmaker or against each other</p></li>
+<li><p>Traditionally, the bookmaker sets the odds</p></li>
+<li><p>The gamblers bet that a certain event will occur (back) and the bookmaker bets that it will not (lay)</p></li>
 </ul>
-</div>
 </div><div class="column" style="width:25%;">
-<p><img data-src="resources/images/paddypower.jpg"></p>
-</div>
-</div>
+<p><a href="resources/images/paddypower.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-11"><img data-src="resources/images/paddypower.jpg"></a></p>
+</div></div>
 </section>
 <section id="sports-betting-2" class="slide level2 smaller">
 <h2>Sports betting</h2>
@@ -1019,10 +971,12 @@ div.footnotes {
 <h2>Explanations for Gambling Behaviour</h2>
 <p><span class="citation" data-cites="ranyard_economic_2018">(taken from <a href="#/references-1" role="doc-biblioref" onclick="">Ranyard, 2018, p. 305</a>)</span></p>
 </section>
-<section id="explanations-for-gambling-behaviour-1" class="slide level2">
+<section id="explanations-for-gambling-behaviour-1" class="slide level2 smaller">
 <h2>Explanations for Gambling Behaviour</h2>
-
-<img data-src="resources/images/gambling.png" class="r-stretch"></section></section>
+<p><a href="resources/images/gambling.png" class="lightbox" data-gallery="quarto-lightbox-gallery-12"><img data-src="resources/images/gambling.png" width="600"></a></p>
+<p><br></p>
+<p>Taken from <span class="citation" data-cites="ranyard_economic_2018">Ranyard (<a href="#/references-1" role="doc-biblioref" onclick="">2018</a>)</span>, p.&nbsp;305</p>
+</section></section>
 <section>
 <section id="alternative-explanations" class="title-slide slide level1 center">
 <h1>Alternative Explanations?</h1>
@@ -1045,20 +999,6 @@ div.footnotes {
 <li><p>winning, exploration, excitement, being friends, and being with similar people <span class="citation" data-cites="platz_gambling_2001">(<a href="#/references-1" role="doc-biblioref" onclick="">Platz &amp; Millar, 2001</a>)</span></p></li>
 </ul>
 </section>
-<section id="five-dimensions-binde_why_2013" class="slide level2">
-<h2>Five Dimensions <span class="citation" data-cites="binde_why_2013">(<a href="#/references-1" role="doc-biblioref" onclick="">Binde, 2013</a>)</span></h2>
-<ol type="1">
-<li>The dream of hitting the jackpot</li>
-<li>Social rewards</li>
-<li>Intellectual challenge</li>
-<li>Mood change</li>
-<li><strong>The chance of winning</strong></li>
-</ol>
-<ul>
-<li><span class="math inline">\(1 - 4\)</span> can be dependent on personal dispositions and preferences</li>
-<li><span class="math inline">\(5\)</span> is always relevant</li>
-</ul>
-</section>
 <section id="tony-10" class="slide level2">
 <h2>Tony 10</h2>
 </section>
@@ -1066,22 +1006,19 @@ div.footnotes {
 <h2>Tony 10</h2>
 <div class="columns">
 <div class="column" style="width:75%;">
-<div>
 <ul>
-<li class="fragment">Gambled <span class="math inline">\(€10m\)</span> with Paddy Power</li>
-<li class="fragment">Stole <span class="math inline">\(€1.75m\)</span> from An Post</li>
-<li class="fragment">His online-gambling addiction cost him his marriage</li>
-<li class="fragment">Sentenced to 4 years in jail (served 18 months)</li>
+<li>Gambled <span class="math inline">\(€10m\)</span> with Paddy Power</li>
+<li>Stole <span class="math inline">\(€1.75m\)</span> from An Post</li>
+<li>His online-gambling addiction cost him his marriage</li>
+<li>Sentenced to 4 years in jail (served 18 months)</li>
 </ul>
 <p><br></p>
 <ul>
-<li class="fragment">Book <span class="citation" data-cites="lynch_tony_2018">(<a href="#/references-1" role="doc-biblioref" onclick="">Lynch &amp; O’Reilly, 2018</a>)</span></li>
+<li>Book <span class="citation" data-cites="lynch_tony_2018">(<a href="#/references-1" role="doc-biblioref" onclick="">Lynch &amp; O’Reilly, 2018</a>)</span></li>
 </ul>
-</div>
 </div><div class="column" style="width:25%;">
-<p><img data-src="resources/images/tony10.jpeg"></p>
-</div>
-</div>
+<p><a href="resources/images/tony10.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-13"><img data-src="resources/images/tony10.jpeg"></a></p>
+</div></div>
 </section>
 <section id="sports-betting-3" class="slide level2">
 <h2>Sports betting</h2>
@@ -1090,13 +1027,18 @@ div.footnotes {
 </section>
 <section id="sports-betting-4" class="slide level2">
 <h2>Sports betting</h2>
-
-<img data-src="resources/images/beat_the_bookies.png" class="r-stretch"></section>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="resources/images/beat_the_bookies.png" class="lightbox" data-gallery="quarto-lightbox-gallery-14" title="Listen at"><img data-src="resources/images/beat_the_bookies.png" alt="Listen at"></a></p>
+<figcaption><a href="https://www.rte.ie/culture/2020/0828/1161393-documentary-on-one-met-the-men-who-beat-the-bookies/">Listen at</a></figcaption>
+</figure>
+</div>
+</section>
 <section id="beating-the-bookies" class="slide level2">
 <h2>Beating the bookies</h2>
 <p><a href="https://www.rte.ie/culture/2020/0828/1161393-documentary-on-one-met-the-men-who-beat-the-bookies/">- beating the bookies</a></p>
 <ul>
-<li>listen at <a href="https://www.rte.ie/radio/radio1/clips/11230292/">https://www.rte.ie/radio/radio1/clips/11230292/</a></li>
+<li>listen at <a href="https://www.rte.ie/culture/2020/0828/1161393-documentary-on-one-met-the-men-who-beat-the-bookies/">https://www.rte.ie/culture/2020/0828/1161393-documentary-on-one-met-the-men-who-beat-the-bookies/</a></li>
 </ul>
 </section></section>
 <section>
@@ -1106,8 +1048,8 @@ div.footnotes {
 </section>
 <section id="problem-gambling-1" class="slide level2">
 <h2>Problem Gambling</h2>
-
-<img data-src="resources/images/problem_gambling.png" class="r-stretch"></section>
+<p><a href="resources/images/problem_gambling.png" class="lightbox" data-gallery="quarto-lightbox-gallery-15"><img data-src="resources/images/problem_gambling.png"></a></p>
+</section>
 <section id="problem-gambling-2" class="slide level2">
 <h2>Problem Gambling</h2>
 <ul>
@@ -1177,8 +1119,8 @@ div.footnotes {
 <iframe width="966" height="543" src="https://www.youtube.com/embed/7cjIWMUgPtY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
 </iframe>
 </section>
-<section id="discuss" class="slide level2">
-<h2>Discuss</h2>
+<section id="discuss-part-1" class="slide level2">
+<h2>Discuss Part 1</h2>
 <div class="columns">
 <div class="column" style="width:45%;">
 <p>Theories of Decision Making</p>
@@ -1191,11 +1133,16 @@ div.footnotes {
 <p>Loss Aversion/Risk Aversion and Endowment Effects</p>
 <p>Mental Accounting</p>
 <p>Fairness and Ethics</p>
-</div>
-</div>
+</div></div>
 <div class="fragment">
 <p><font color="#B93B8F"><strong><em>Identify examples of the above concepts in Gambling behaviour</em></strong></font></p>
 </div>
+</section>
+<section id="discuss-part-1-1" class="slide level2">
+<h2>Discuss Part 1</h2>
+<ul>
+<li>Based on your knowledge of any of the content covered this semester, develop a theoretically informed intervention that could curb any form of problem gambling behaviour</li>
+</ul>
 </section></section>
 <section>
 <section id="references" class="title-slide slide level1 center">
@@ -1205,11 +1152,13 @@ div.footnotes {
 <section id="references-1" class="slide level2 smaller scrollable">
 <h2>References</h2>
 <p> </p>
-
-<img src="resources/images/ul-psychology-logos.png" class="slide-logo r-stretch"><div class="footer footer-default">
-<p>PS4168: Cillian McHugh - 22/11/23</p>
+<div class="quarto-auto-generated-content">
+<p><img src="resources/images/ul-psychology-logos.png" class="slide-logo"></p>
+<div class="footer footer-default">
+<p>PS4168: Cillian McHugh - 22/11/24</p>
 </div>
-<div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="list">
+</div>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
 <div id="ref-ariyabuddhiphongs_test_2007" class="csl-entry" role="listitem">
 Ariyabuddhiphongs, V., &amp; Chanchalermporn, N. (2007). A <span>Test</span> of <span>Social Cognitive Theory Reciprocal</span> and <span>Sequential Effects</span>: <span>Hope</span>, <span>Superstitious Belief</span> and <span>Environmental Factors</span> among <span>Lottery Gamblers</span> in <span>Thailand</span>. <em>Journal of Gambling Studies</em>, <em>23</em>(2), 201–214. <a href="https://doi.org/10.1007/s10899-006-9035-3">https://doi.org/10.1007/s10899-006-9035-3</a>
 </div>
@@ -1363,9 +1312,8 @@ Wohl, M. J. A., &amp; Enzle, M. E. (2002). The <span>Deployment</span> of <span>
       // Full list of configuration options available at:
       // https://revealjs.com/config/
       Reveal.initialize({
-'controlsAuto': true,
+'controlsAuto': false,
 'previewLinksAuto': false,
-'smaller': false,
 'pdfSeparateFragments': false,
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
@@ -1375,7 +1323,7 @@ Wohl, M. J. A., &amp; Enzle, M. E. (2002). The <span>Deployment</span> of <span>
 'smaller': false,
  
         // Display controls in the bottom right corner
-        controls: false,
+        controls: true,
 
         // Help the user learn the controls by providing hints, for example by
         // bouncing the down arrow when they first encounter a vertical slide
@@ -1621,18 +1569,7 @@ Wohl, M. J. A., &amp; Enzle, M. E. (2002). The <span>Deployment</span> of <span>
         }
         return false;
       }
-      const clipboard = new window.ClipboardJS('.code-copy-button', {
-        text: function(trigger) {
-          const codeEl = trigger.previousElementSibling.cloneNode(true);
-          for (const childEl of codeEl.children) {
-            if (isCodeAnnotation(childEl)) {
-              childEl.remove();
-            }
-          }
-          return codeEl.innerText;
-        }
-      });
-      clipboard.on('success', function(e) {
+      const onCopySuccess = function(e) {
         // button target
         const button = e.trigger;
         // don't keep focus
@@ -1664,11 +1601,50 @@ Wohl, M. J. A., &amp; Enzle, M. E. (2002). The <span>Deployment</span> of <span>
         }, 1000);
         // clear code selection
         e.clearSelection();
+      }
+      const getTextToCopy = function(trigger) {
+          const codeEl = trigger.previousElementSibling.cloneNode(true);
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+      }
+      const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+        text: getTextToCopy
       });
-      function tippyHover(el, contentFn) {
+      clipboard.on('success', onCopySuccess);
+      if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+        // For code content inside modals, clipBoardJS needs to be initialized with a container option
+        // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+        const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+          text: getTextToCopy,
+          container: window.document.getElementById('quarto-embedded-source-code-modal')
+        });
+        clipboardModal.on('success', onCopySuccess);
+      }
+        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+        var mailtoRegex = new RegExp(/^mailto:/);
+          var filterRegex = new RegExp('/' + window.location.host + '/');
+        var isInternal = (href) => {
+            return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+        }
+        // Inspect non-navigation links and adorn them if external
+     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+        for (var i=0; i<links.length; i++) {
+          const link = links[i];
+          if (!isInternal(link.href)) {
+            // undo the damage that might have been done by quarto-nav.js in the case of
+            // links that we want to consider external
+            if (link.dataset.originalHref !== undefined) {
+              link.href = link.dataset.originalHref;
+            }
+          }
+        }
+      function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
         const config = {
           allowHTML: true,
-          content: contentFn,
           maxWidth: 500,
           delay: 100,
           arrow: false,
@@ -1678,8 +1654,17 @@ Wohl, M. J. A., &amp; Enzle, M. E. (2002). The <span>Deployment</span> of <span>
           interactive: true,
           interactiveBorder: 10,
           theme: 'light-border',
-          placement: 'bottom-start'
+          placement: 'bottom-start',
         };
+        if (contentFn) {
+          config.content = contentFn;
+        }
+        if (onTriggerFn) {
+          config.onTrigger = onTriggerFn;
+        }
+        if (onUntriggerFn) {
+          config.onUntrigger = onUntriggerFn;
+        }
           config['offset'] = [0,0];
           config['maxWidth'] = 700;
         window.tippy(el, config); 
@@ -1693,7 +1678,11 @@ Wohl, M. J. A., &amp; Enzle, M. E. (2002). The <span>Deployment</span> of <span>
           try { href = new URL(href).hash; } catch {}
           const id = href.replace(/^#\/?/, "");
           const note = window.document.getElementById(id);
-          return note.innerHTML;
+          if (note) {
+            return note.innerHTML;
+          } else {
+            return "";
+          }
         });
       }
       const findCites = (el) => {
@@ -1735,6 +1724,38 @@ Wohl, M. J. A., &amp; Enzle, M. E. (2002). The <span>Deployment</span> of <span>
       }
     });
     </script>
+    <script>var lightboxQuarto = GLightbox({"loop":false,"closeEffect":"zoom","selector":".lightbox","openEffect":"zoom","descPosition":"bottom"});
+    (function() {
+      let previousOnload = window.onload;
+      window.onload = () => {
+        if (previousOnload) {
+          previousOnload();
+        }
+        lightboxQuarto.on('slide_before_load', (data) => {
+          const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+          const href = trigger.getAttribute('href');
+          if (href !== null) {
+            const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+            if (imgEl !== null) {
+              const srcAttr = imgEl.getAttribute("src");
+              if (srcAttr && srcAttr.startsWith("data:")) {
+                slideConfig.href = srcAttr;
+              }
+            }
+          } 
+        });
+      
+        lightboxQuarto.on('slide_after_load', (data) => {
+          const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(slideNode);
+          }
+        });
+      
+      };
+      
+    })();
+              </script>
     
 
 </body></html>

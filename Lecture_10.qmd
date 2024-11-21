@@ -8,8 +8,9 @@ csl: apa.csl
 format: 
   revealjs:
     slide-number: false
+    controls: true
     logo: "resources/images/ul-psychology-logos.png"
-    footer: "PS4168: Cillian McHugh - 22/11/23"
+    footer: "PS4168: Cillian McHugh - 22/11/24"
     theme: "resources/css/mytheme.scss"
     incremental: false
     chalkboard: 
@@ -85,11 +86,16 @@ library(png)
 
 
 
-- Economic Psychology of Some Gambling Games
+- Some Gambling Games
 - Problem Gambling
 - Further Reading
+- Activity
 
+## Recap on last week
 
+- What does MJAC stand for?
+  - premises/assumptions/insights of MJAC
+- What is the role of punishment/sanctions (direct or indirect) in ensuring fairness?
 
 # Gambling
 
@@ -105,46 +111,6 @@ library(png)
 :::
 
 
-
-## Gambling and Economic Psychology
-
-
-
-
-::::{.columns}
-
-:::{.column width="45%"}
-
-
-Theories of Decision Making
-
-Heuristics and Biases
-
-Game Theory
-
-Emotional Influences
-
-Nudges and Other Contextual Influences
-
-:::
-
-:::{.column width="45%"}
-
-Future Decisions and Affective Forecasting
-
-Loss Aversion/Risk Aversion and Endowment Effects
-
-Mental Accounting
-
-Fairness and Ethics
-
-:::
-
-::::
-
-. . .
-
-<font color="#B93B8F">***Identify examples of the above concepts in Gambling behaviour***</font>
 
 ## Gambling
 
@@ -167,20 +133,18 @@ Fairness and Ethics
 
 :::{.column width="65%"}
 
-:::{.incremental}
 
 
 - 180 lotteries worldwide 
   - Total size of lottery industry is estimated to be $$284$ $billion$ 
   - In the United Kingdom, $59\%$ of adults purchased the National <br><font size=4.5>[@markel_fleur_2015; @ranyard_economic_2018]</font>
 
-:::
 
 :::
 
 :::{.column width="35%"}
 
-![](resources/images/national_lottery.jpg)
+![](resources/images/national_lottery.jpg){.lightbox}
 
 :::
 
@@ -193,7 +157,6 @@ Fairness and Ethics
 
 :::{.column width="65%"}
 
-:::{.incremental}
 
 - Different lotteries have different specific rules
   - The UK uses a $6$ from $49$ system
@@ -205,11 +168,9 @@ Fairness and Ethics
 
 :::
 
-:::
-
 :::{.column width="35%"}
 
-![](resources/images/euromillions.jpg)
+![](resources/images/euromillions.jpg){.lightbox}
 
 
 :::
@@ -313,20 +274,18 @@ factorial(36) /
 
 :::{.column width="65%"}
 
-:::{.incremental}
 
 - In $1990$ Stefan Klincewicz and Paddy Mulligan put together a $10$ man syndicate
   - Each person paid $£30$ over $10$ weeks 
   - Between them they won Lotto jackpot of $£2,439,760$ in April, $1990$<br><font size=4.5>[@collins_how_2017]</font>
 
-:::
 
 :::
 
 :::{.column width="35%"}
 
 
-![](resources/images/lottoticket.jpg)
+![](resources/images/lottoticket.jpg){.lightbox}
 
 :::
 
@@ -334,7 +293,6 @@ factorial(36) /
 
 ## Winning through *brute force*{.smaller}
 
-:::{.incremental}
 
 - In $1992$ Stefan Klincewicz and $28$ member Dublin-based syndicate
   - Filled out $243,474$ Lotto coupons in preparation
@@ -346,11 +304,10 @@ factorial(36) /
   - ***But*** Match-5 and match-4 prizes brought the syndicate's total winnings to approximately $£1,166,000$
       - profit of approximately $£310,000$
 
-:::
+
 
 ## Playing the Lottery{.smaller}
 
-:::{.incremental}
 
 - The representativeness heuristic:
   - The winning numbers should look random
@@ -363,7 +320,7 @@ factorial(36) /
       - avoiding numbers that have appeared recently<br><font size=4.5>[@wohl_deployment_2002; @langer_illusion_1975; @clotfelter_selling_1991]</font>
 - Superstition <font size=4.5>[@ariyabuddhiphongs_test_2007]</font>
 
-:::
+
 
 ## Explaining the Lottery
 
@@ -371,7 +328,6 @@ factorial(36) /
 
 ## Explaining the Lottery{.smaller}
 
-:::{.incremental}
 
 
 - Prospect Theory: People tend to overestimate low odds of winning
@@ -383,7 +339,6 @@ factorial(36) /
 - 'entrapped'
   - Might miss the jackpot<br><font size=4.5>[@beckert_why_2013; @binde_why_2013 uploaded; @forrest_buying_2002]</font>
 
-:::
 
 # Scratch Cards
 
@@ -393,7 +348,6 @@ factorial(36) /
 
 :::{.column width="65%"}
 
-:::{.incremental}
 
 
 - Low chance of winning high amounts
@@ -402,14 +356,13 @@ factorial(36) /
   - e.g., $1$ in $6$ chance of winning $£10$
 - Expected loss of $£3$ for every $£10$ spent
 
-:::
 
 :::
 
 
 :::{.column width="35%"}
 
-![](resources/images/scratchcard.jpg)
+![](resources/images/scratchcard.jpg){.lightbox}
 
 :::
 
@@ -419,14 +372,12 @@ factorial(36) /
 
 Explanations???
 
-:::{.incremental}
 
 - Instant feedback
 - Near miss effects
 - Social
   - Gifts
 
-:::
 
 # Roulette
 
@@ -437,7 +388,6 @@ Explanations???
 
 :::{.column width="65%"}
 
-:::{.incremental}
 
 - Transparent odds; Pure luck
 - $37$ slots (Europe - $38$ in USA)
@@ -449,13 +399,12 @@ Explanations???
   - Payout for even/odd, <font color="red">**Red**</font>/**Black** is almost $1$ to $1$
   - Payout for selection of $12$ numbers is $2$ to $1$ <font size=4.5>[@ranyard_economic_2018]</font>
 
-:::
 
 :::
 
 :::{.column width="35%"}
 
-![](resources/images/roulette.jpg)
+![](resources/images/roulette.jpg){.lightbox}
 
 :::
 
@@ -491,7 +440,6 @@ Explanations???
 
 :::{.column width="65%"}
 
-:::{.incremental}
 
 - Fruit machines are said to be most addictive form of gambling
   - It takes just over a year to become addicted
@@ -500,13 +448,12 @@ Explanations???
 - $3$ to $5$ to five reels with pictures
 
 
-:::
 
 :::
 
 :::{.column width="35%"}
 
-![](resources/images/Fruit-Machine.png)
+![](resources/images/Fruit-Machine.png){.lightbox}
 
 :::
 
@@ -519,7 +466,6 @@ Explanations???
 
 :::{.column width="65%"}
 
-:::{.incremental}
 
 - The player inserts a coin and then pulls down a handle (or presses a button)
   - The reels spin
@@ -529,13 +475,13 @@ Explanations???
 - The odds of fruit machines are unknown
   - Pure chance
 
-:::
+
 
 :::
 
 :::{.column width="35%"}
 
-![](resources/images/Fruit-Machine.png)
+![](resources/images/Fruit-Machine.png){.lightbox}
 
 :::
 
@@ -548,7 +494,6 @@ Explanations???
 
 :::{.column width="65%"}
 
-:::{.incremental}
 
 
 
@@ -559,13 +504,12 @@ Explanations???
 
 
 
-:::
 
 :::
 
 :::{.column width="35%"}
 
-![](resources/images/fruity.gif)
+![](resources/images/fruity.gif){.lightbox}
 
 :::
 
@@ -573,7 +517,6 @@ Explanations???
 
 ## Explaining Near Misses{.smaller}
 
-:::{.incremental}
 
 - Evolutionary explanations?
   - In natural environments to which we are adapted by evolution, a near miss may be close to a win
@@ -583,7 +526,6 @@ Explanations???
   - Same part of the brain<br><font size=4.5>[@clark_gambling_2009]</font>
 - Near misses registered as gains will result in gamblers’ receiving positive reinforcement even when they are losing money
 
-:::
 
 # Card Games
 
@@ -595,7 +537,6 @@ Explanations???
 
 :::{.column width="75%"}
 
-:::{.incremental}
 
 - Both luck and expertise
 
@@ -607,27 +548,25 @@ Explanations???
 
 
 
-:::
 
 :::
 
 :::{.column width="25%"}
 
-![](resources/images/blackjack.png)
+![](resources/images/blackjack.png){.lightbox}
 
 :::
 
 ::::
 
 
-## Card Games
+## Card Games{.smaller}
 
 
 ::::{.columns}
 
 :::{.column width="75%"}
 
-:::{.incremental}
 
 - Poker
   - Different variations
@@ -637,13 +576,12 @@ Explanations???
   - or by being the only person remaining
 - Evidence for expertise <br><font size=4.5>[@fiedler_quantifying_2009; @hannum_legalization_2012; @dedonno_poker_2008; @javarone_poker_2015; @turner_viewpoint_2008]</font>
 
-:::
 
 :::
 
 :::{.column width="25%"}
 
-![](resources/images/poker.jpg)
+![](resources/images/poker.jpg){.lightbox}
 
 :::
 
@@ -658,7 +596,6 @@ Explanations???
 
 :::{.column width="75%"}
 
-:::{.incremental}
 
 
 - Horse racing (16%)
@@ -671,13 +608,12 @@ Explanations???
 - The gamblers bet that a certain event will occur (back) and the bookmaker bets that it will not (lay)
 
 
-:::
 
 :::
 
 :::{.column width="25%"}
 
-![](resources/images/paddypower.jpg)
+![](resources/images/paddypower.jpg){.lightbox}
 
 :::
 
@@ -703,9 +639,13 @@ Explanations???
 [taken from @ranyard_economic_2018, p. 305]
 
 
-## Explanations for Gambling Behaviour
+## Explanations for Gambling Behaviour{.smaller}
 
-![](resources/images/gambling.png)
+![](resources/images/gambling.png){.lightbox width="600px"}
+
+<br>
+
+Taken from @ranyard_economic_2018, p. 305
 
 # Alternative Explanations?
 
@@ -731,19 +671,6 @@ Explanations???
 
 - winning, exploration, excitement, being friends, and being with similar people [@platz_gambling_2001]
 
-## Five Dimensions [@binde_why_2013]
-
-
-
-1. The dream of hitting the jackpot
-2. Social rewards
-3. Intellectual challenge
-4. Mood change
-5. **The chance of winning**
-
-
-- $1 - 4$ can be dependent on personal dispositions and preferences
-- $5$ is always relevant
 
 
 ## Tony 10
@@ -757,7 +684,6 @@ Explanations???
 
 :::{.column width="75%"}
 
-:::{.incremental}
 
 - Gambled $€10m$ with Paddy Power 
 - Stole $€1.75m$ from An Post
@@ -768,14 +694,13 @@ Explanations???
 
 - Book [@lynch_tony_2018]
 
-:::
 
 :::
 
 
 :::{.column width="25%"}
 
-![](resources/images/tony10.jpeg)
+![](resources/images/tony10.jpeg){.lightbox}
 
 :::
 
@@ -792,19 +717,19 @@ Explanations???
 ## Sports betting
 
 
-![](resources/images/beat_the_bookies.png)
+![[Listen at](https://www.rte.ie/culture/2020/0828/1161393-documentary-on-one-met-the-men-who-beat-the-bookies/)](resources/images/beat_the_bookies.png){.lightbox}
 
 ## Beating the bookies
 
 [- beating the bookies](https://www.rte.ie/culture/2020/0828/1161393-documentary-on-one-met-the-men-who-beat-the-bookies/)
 
-- listen at [https://www.rte.ie/radio/radio1/clips/11230292/](https://www.rte.ie/radio/radio1/clips/11230292/)
+- listen at [https://www.rte.ie/culture/2020/0828/1161393-documentary-on-one-met-the-men-who-beat-the-bookies/](https://www.rte.ie/culture/2020/0828/1161393-documentary-on-one-met-the-men-who-beat-the-bookies/)
 
 # Problem Gambling
 
 ## Problem Gambling
 
-![](resources/images/problem_gambling.png)
+![](resources/images/problem_gambling.png){.lightbox}
 
 ## Problem Gambling
 
@@ -870,7 +795,7 @@ Explanations???
 
 <iframe width="966" height="543" src="https://www.youtube.com/embed/7cjIWMUgPtY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Discuss
+## Discuss Part 1
 
 ::::{.columns}
 
@@ -906,6 +831,11 @@ Fairness and Ethics
 . . .
 
 <font color="#B93B8F">***Identify examples of the above concepts in Gambling behaviour***</font>
+
+
+## Discuss Part 1
+
+- Based on your knowledge of any of the content covered this semester, develop a theoretically informed intervention that could curb any form of problem gambling behaviour
 
 # References
 

@@ -89,11 +89,16 @@ library(png)
 ```
 
 
-
-- Economic Psychology of Some Gambling Games
+- Some Gambling Games
 - Problem Gambling
 - Further Reading
+- Activity
 
+## Recap on last week
+
+- What does MJAC stand for?
+  - premises/assumptions/insights of MJAC
+- What is the role of punishment/sanctions (direct or indirect) in ensuring fairness?
 
 
 # Gambling
@@ -111,45 +116,7 @@ library(png)
 
 
 
-## Gambling and Economic Psychology
 
-
-
-
-::::{.columns}
-
-:::{.column width="45%"}
-
-
-Theories of Decision Making
-
-Heuristics and Biases
-
-Game Theory
-
-Emotional Influences
-
-Nudges and Other Contextual Influences
-
-:::
-
-:::{.column width="45%"}
-
-Future Decisions and Affective Forecasting
-
-Loss Aversion/Risk Aversion and Endowment Effects
-
-Mental Accounting
-
-Fairness and Ethics
-
-:::
-
-::::
-
-. . .
-
-<font color="#B93B8F">***Identify examples of the above concepts in Gambling behaviour***</font>
 
 ## Gambling
 
@@ -652,7 +619,7 @@ Explanations???
 ## Explanations for Gambling Behaviour
 
 
-![](resources/images/gambling.png)
+![](resources/images/gambling.png){width=80%}
 
 # Alternative Explanations?
 
@@ -737,7 +704,7 @@ Explanations???
 
 [- beating the bookies](https://www.rte.ie/culture/2020/0828/1161393-documentary-on-one-met-the-men-who-beat-the-bookies/)
 
-- listen at [https://www.rte.ie/radio/radio1/clips/11230292/](https://www.rte.ie/radio/radio1/clips/11230292/)
+- listen at [https://www.rte.ie/culture/2020/0828/1161393-documentary-on-one-met-the-men-who-beat-the-bookies/](https://www.rte.ie/culture/2020/0828/1161393-documentary-on-one-met-the-men-who-beat-the-bookies/)
 
 # Problem Gambling
 
@@ -811,8 +778,7 @@ Explanations???
 
 
 
-## Discuss
-
+## Discuss Part 1
 
 ::::{.columns}
 
@@ -845,9 +811,13 @@ Fairness and Ethics
 
 ::::
 
-. . .
 
 <font color="#B93B8F">***Identify examples of the above concepts in Gambling behaviour***</font>
+
+
+## Discuss Part 1
+
+- Based on your knowledge of any of the content covered this semester, develop a theoretically informed intervention that could curb any form of problem gambling behaviour
 
 # References
 
