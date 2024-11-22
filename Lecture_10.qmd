@@ -298,9 +298,16 @@ factorial(36) /
   - Filled out $243,474$ Lotto coupons in preparation
 - The May Bank Holiday weekend $1992$ Jackpot was $£1.7$ $million$
 - They bought over $80\%$ of the combinations (spending $\sim£820,000$ )
+
+. . .
+
+
   - They had the winning numbers on the night
       - But two other winning tickets were also sold
       - Could claim only one-third of the jackpot, or $£568,682$
+
+. . . 
+
   - ***But*** Match-5 and match-4 prizes brought the syndicate's total winnings to approximately $£1,166,000$
       - profit of approximately $£310,000$
 
@@ -308,6 +315,7 @@ factorial(36) /
 
 ## Playing the Lottery{.smaller}
 
+:::{.fragment}
 
 - The representativeness heuristic:
   - The winning numbers should look random
@@ -320,7 +328,7 @@ factorial(36) /
       - avoiding numbers that have appeared recently<br><font size=4.5>[@wohl_deployment_2002; @langer_illusion_1975; @clotfelter_selling_1991]</font>
 - Superstition <font size=4.5>[@ariyabuddhiphongs_test_2007]</font>
 
-
+:::
 
 ## Explaining the Lottery
 
@@ -714,6 +722,11 @@ Taken from @ranyard_economic_2018, p. 305
 
 
 
+## Wonder Goal
+
+<iframe width="966" height="543" src="https://www.youtube.com/embed/XsZkCFoqSBs?si=gS_JWu7tcbWdVZSj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
 ## Sports betting
 
 
@@ -724,6 +737,7 @@ Taken from @ranyard_economic_2018, p. 305
 [- beating the bookies](https://www.rte.ie/culture/2020/0828/1161393-documentary-on-one-met-the-men-who-beat-the-bookies/)
 
 - listen at [https://www.rte.ie/culture/2020/0828/1161393-documentary-on-one-met-the-men-who-beat-the-bookies/](https://www.rte.ie/culture/2020/0828/1161393-documentary-on-one-met-the-men-who-beat-the-bookies/)
+
 
 # Problem Gambling
 
