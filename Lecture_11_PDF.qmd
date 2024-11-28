@@ -32,21 +32,26 @@ editor: source
 
 :::: {.columns}
 
-::: {.column width="40%" .incremental}
-Theories of Decision Making
+::: {.column width="45%"}
+General Introduction and History of Economic Psychology
 
 Heuristics and Biases
 
-Game Theory
-
 Nudges and Other Contextual Influences
 
-Future Decisions and Affective Forecasting
+Theories of Decision Making
+
+Game Theory
+
 
 :::
 
-::: {.column width="40%"}
-Emotional Influences
+::: {.column width="10%"}
+
+:::
+
+::: {.column width="45%"}
+Emotional Influences Future Decisions and Affective Forecasting
 
 Loss Aversion/Risk Aversion and Endowment Effects
 
@@ -82,10 +87,9 @@ Select one of the statements below and critically discuss it with reference to c
 - Human decision making cannot be understood independently of context
 - When it comes to choice architecture, there is no such thing as neutral design
 - Decision making is always influenced by loss aversion and risk aversion
-- “we suffer more . . . when we fall from a better to a worse situation than we ever enjoy when we rise from a worse to a better”
-[@smith_theory_1759, p. 311]
-- Our understanding of economic behaviour and decision making has been held back by the concept of homo-economicus
-- Humans are not rational
+- The role of emotions in decision making. 
+- "our mental states or processes are rational when they help us to achieve our goals" [@over_rationality_2004, p. 3]. 
+
 
 
 ## Exam Grading
@@ -97,9 +101,11 @@ Content                                                            70\%
 
 Structure, Language, and Written Expression                        30\% 
 
-References, Citations, and Formatting                               0\% (potential penalty of 1 sub-grade)
+References, Citations, and Formatting                               0\% 
 
 ---------------------------------------------------------------------------------
+(potential penalty of 1 sub-grade)
+
 
 ## Breakdown{.smaller}
 

@@ -87,7 +87,7 @@ Select one of the statements below and critically discuss it with reference to c
 - When it comes to choice architecture, there is no such thing as neutral design
 - Decision making is always influenced by loss aversion and risk aversion
 - The role of emotions in decision making. 
-- "our mental states or processes are rational when they help us to achieve our goals" (Over, 2004, p. 3). 
+- "our mental states or processes are rational when they help us to achieve our goals" [@over_rationality_2004, p. 3]. 
 
 
 
