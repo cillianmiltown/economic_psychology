@@ -8,8 +8,9 @@ csl: apa.csl
 format: 
   revealjs:
     slide-number: false
+    controls: true
     logo: "resources/images/ul-psychology-logos.png"
-    footer: "PS4168: Cillian McHugh - 29/11/23"
+    footer: "PS4168: Cillian McHugh - 29/11/24"
     theme: "resources/css/mytheme.scss"
     incremental: false
     chalkboard: 
@@ -28,21 +29,26 @@ editor: source
 
 :::: {.columns}
 
-::: {.column width="40%" .incremental}
-Theories of Decision Making
+::: {.column width="45%"}
+General Introduction and History of Economic Psychology
 
 Heuristics and Biases
 
-Game Theory
-
 Nudges and Other Contextual Influences
 
-Future Decisions and Affective Forecasting
+Theories of Decision Making
+
+Game Theory
+
 
 :::
 
-::: {.column width="40%"}
-Emotional Influences
+::: {.column width="10%"}
+
+:::
+
+::: {.column width="45%"}
+Emotional Influences Future Decisions and Affective Forecasting
 
 Loss Aversion/Risk Aversion and Endowment Effects
 
@@ -55,7 +61,9 @@ Gambling
 
 ::::
 
-## Topics
+## Topics ([link here](https://docs.google.com/document/d/1iBG-SDrUpJX1RtsfmynqL8WY9git7VfaZvMuuhAGJ0I/edit?usp=sharing))
+
+<iframe width="1102" height="600" src="https://docs.google.com/document/d/1iBG-SDrUpJX1RtsfmynqL8WY9git7VfaZvMuuhAGJ0I/edit?usp=sharing?embedded=true&rm=minimal" frameborder="0" ></iframe>
 
 [https://docs.google.com/document/d/1iBG-SDrUpJX1RtsfmynqL8WY9git7VfaZvMuuhAGJ0I/edit?usp=sharing](https://docs.google.com/document/d/1iBG-SDrUpJX1RtsfmynqL8WY9git7VfaZvMuuhAGJ0I/edit?usp=sharing)
 
@@ -64,24 +72,23 @@ Gambling
 
 - Identify $2$ - $3$ more general things that you learned as a result of taking this module?
 
-- Is there any topic would you like to have covered in more detail?
-
-- What additional topic(s) would you like to see covered? (if any)
-
 - What was the most interesting thing you learned from this module and why?
+
+- What would you change about this module?
 
 ## Potential Exam Questions{.smaller}
 
 
 Select one of the statements below and critically discuss it with reference to content covered as part of this module (both in lectures, and your own reading)
 
+ 
+
 - Human decision making cannot be understood independently of context
 - When it comes to choice architecture, there is no such thing as neutral design
 - Decision making is always influenced by loss aversion and risk aversion
-- “we suffer more . . . when we fall from a better to a worse situation than we ever enjoy when we rise from a worse to a better”
-[@smith_theory_1759, p. 311]
-- Our understanding of economic behaviour and decision making has been held back by the concept of homo-economicus
-- Humans are not rational
+- The role of emotions in decision making. 
+- "our mental states or processes are rational when they help us to achieve our goals" (Over, 2004, p. 3). 
+
 
 
 ## Exam Grading
