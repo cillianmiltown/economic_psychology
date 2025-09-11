@@ -14,3 +14,15 @@
 $link-color: #00B140 !default;
 
 $headingColor: #005335 !default;
+
+
+img[src*='#left'] {
+    float: left;
+}
+img[src*='#right'] {
+    float: right;
+}
+img[src*='#center'] {
+    display: block;
+    margin: auto;
+}

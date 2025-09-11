@@ -39,15 +39,17 @@
 \usepackage[margin=1in]{geometry}
 \usepackage{graphicx}
 \makeatletter
-\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
-\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
-\makeatother
-% Scale images if necessary, so that they will not overflow the page
-% margins by default, and it is still possible to overwrite the defaults
-% using explicit options in \includegraphics[width, height, ...]{}
-\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{% scales image to fit in text height/width
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
 % Set default figure placement to htbp
-\makeatletter
 \def\fps@figure{htbp}
 \makeatother
 \setlength{\emergencystretch}{3em} % prevent overfull lines
@@ -67,9 +69,6 @@
 \usepackage{makecell}
 \usepackage{hyperref}
 \usepackage{graphicx}
-\ifLuaTeX
-  \usepackage{selnolig}  % disable illegal ligatures
-\fi
 \usepackage{bookmark}
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \urlstyle{same}
@@ -88,7 +87,7 @@
 \makeatother
 \subtitle{Module Handbook}
 \author{Dr Cillian McHugh}
-\date{Autumn Semester 24/25}
+\date{Autumn Semester 25/26}
 
 \begin{document}
 \maketitle
@@ -97,7 +96,7 @@
 \fancyfoot{}
 \fancyhead[LO,RE]{{PS4168 Economic Psychology | Module Handbook}}
 \fancyhead[LE,RO]{\thepage} 
-\fancyfoot[LO,RE]{Autumn 2024}
+\fancyfoot[LO,RE]{Autumn 2025}
 \fancyfoot[LE,RO]{Dr Cillian McHugh}
 
 ~
@@ -106,7 +105,7 @@
 
 ~
 
-\centering\includegraphics[width=2.08333in,height=\textheight]{"logos/department_logo.PNG"}
+\centering\includegraphics[width=2.08333in,height=\textheight,keepaspectratio]{"logos/department_logo.PNG"}
 
 \raggedright
 
@@ -133,7 +132,7 @@
 
 \textit{Dr Cillian McHugh}
 
-\textit{Autumn Semester 2024}
+\textit{Autumn Semester 2025}
 \end{large}
 \end{center}
 
@@ -148,8 +147,8 @@ Handbook}\label{ps4168-economic-psychology---module-handbook}
 \textbf{Email} & cillian.mchugh@ul.ie \\
 \textbf{Office} & KBG-22 \\
 \textbf{Student Hours} & Wednesdays, 9-11  \\
-\textbf{Lecture location} & SR2030\\
-\textbf{Day and Time} & Fridays, 9-11 \\
+\textbf{Lecture location} & SR3006\\
+\textbf{Day and Time} & Fridays, 4-6 \\
 \end{tabular}
 \end{minipage}
 \hspace{6pt}
@@ -313,10 +312,10 @@ material along with relevant activities to help consolidate learning.
 
 \subsection{Assessment}\label{assessment}
 
-The assessment for this module will be a combination of coursework and
-an exam. There will be an exam (essay questions) worth 45\%. There will
-also be two short tasks, worth 25\% and 30\%. Marking schemes for each
-assignment are provided below. It is expected that each piece of course
+There are two parts for the assessment. There is a short task due in
+Week 7 (28th of October) worth 40\%, and a presentation due at the end
+of semester (1st of December) worth 60\%. Marking schemes for each
+assessment are provided below. It is expected that each piece of course
 work will be appropriately referenced and adhere to APA standards. Marks
 will not be awarded for this, however significant failure in this regard
 may result in a penalty of up to a sub-grade being applied. The
@@ -328,17 +327,16 @@ breakdown of marks and important deadlines are outlined in Table 1:
   \multicolumn{5}{l}{\textbf{Table 1:} Important deadlines} \\
   \hline \hline
   \textbf{Type of Assessment}               & & \textbf{\% of Final Grade} & & \textbf{Deadline} \\ \hline
-  Task 1                                    & & 25\%                       & & Wednesday 16th October at 4pm \\ \hline
-  Task 2                                    & & 30\%                       & & Wednesday 13th November at 4pm \\ \hline
-  Exam                                     & & 45\%                       & & Exam Week (1.5 hour) \\ \hline \end{tabular}
+  Task 1                                   & & 40\%                       & & Tuesday 28th October at 4pm \\ \hline
+  Recorded Presentation                                     & & 60\%                       & & Monday 1st December at 4pm \\ \hline \end{tabular}
 
 \bigskip
 
 \subsection{Assessment and Grades}\label{assessment-and-grades}
 
-\subsubsection{Short Tasks}\label{short-tasks}
+\subsubsection{Task 1}\label{task-1}
 
-The short tasks will focus on individual topics as follows:
+The short task will focus on individual topics as follows:
 
 \begin{itemize}
 \tightlist
@@ -350,30 +348,24 @@ The short tasks will focus on individual topics as follows:
   \item
     Heuristics
   \item
-    Nudges
-  \end{itemize}
-\item
-  \textbf{Task 2}:
-
-  \begin{itemize}
-  \tightlist
-  \item
     Game Theory
   \end{itemize}
 \end{itemize}
 
-You will have at least 2 weeks to complete each task. The specific
-nature of each task will vary depending on the topic. They share a
-common marking scheme described in Table 2: (The assignment should be
-within the designated word count +/- 10\%)
+\subsubsection{Presentation}\label{presentation}
+
+The presentation will require you to identify a ``problem'' that
+Economic Psychology might be able to help to solve.
+
+Both assignments share a common marking scheme below:
 
 \bigskip
 
 \begin{tabular}{  >{\arraybackslash}m{10cm} >{\centering\arraybackslash}m{5.5cm} }
-\multicolumn{2}{l}{\textbf{Table 2:} Marks allocation for Tasks 1 and 2} \\
+\multicolumn{2}{l}{\textbf{Table 2:} Marking scheme} \\
 \hline \hline
 \textbf{Component} & \textbf{Percentage} \\ \hline
-Clear demonstration of an in depth understanding of the topic & 30\% \\ \hline
+Clear demonstration of an in depth understanding of the topic and relevant theory & 30\% \\ \hline
 Critical thinking & 30\% \\ \hline
 Competence in the identification and application of relevant research methods & 20\% \\ \hline
 Originality/Novelty & 20\% \\ \hline
@@ -381,48 +373,6 @@ References, Citations, and Formatting & (potential penalty of 1 sub-grade) \\ \h
 \end{tabular}
 
 \bigskip
-
-\subsubsection{Exam}\label{exam}
-
-45\% of the module will be an Essay based exam. You will receive 3 essay
-titles and you can pick one.
-
-\bigskip
-
-\begin{tabular}{ >{\arraybackslash}m{9cm} >{\centering\arraybackslash}m{6.5cm} }
-\multicolumn{2}{l}{\textbf{Table 3:} Marks allocation for Essay-Exam} \\
-\hline \hline
-\textbf{Component} & \textbf{Percentage} \\ \hline
-Content & 70\% \\ \hline
-Structure, Language, and Written Expression & 30\% \\ \hline
-References, Citations, and Formatting & (potential penalty of 1 sub-grade) \\ \hline
-\end{tabular}
-
-\bigskip
-
-\emph{Content}
-
-The assignment should directly address the question asked and
-demonstrate a clear coherent argument throughout. Excessive descriptions
-should be avoided if they do not serve to support an argument. Evidence
-of critical thinking is essential. Students should demonstrate evidence
-of wider reading and understanding of the concepts being discussed.
-
-\emph{Stucture, Language, and Written Expression}
-
-Ideas should be clearly expressed, with appropriate use of scientific
-language. There should be a clear introduction, body, and conclusion,
-with appropriate use of paragraphs (The use of sub-headings is
-optional). The assignment should be within the designated word count
-(+/- 10\%).
-
-\emph{References, Citations, and Formatting}
-
-In-text citations and the References section should be in APA style. All
-citations should appear in the References section, and all references
-should be cited in the text. A References section should be included
-(i.e., no bibliography). A cover page should be included, and the
-assignment should be double-spaced.
 
 \subsubsection{Departmental Penalty
 Policies:}\label{departmental-penalty-policies}
@@ -447,22 +397,17 @@ evidence at the following link,
 
 \subsubsection{Repeat Assessment}\label{repeat-assessment}
 
-The repeat assessment will take the same form as above (with an essay
-instead of an exam). There will be two short tasks to complete and an
-essay to be submitted together. Task 1 will be worth 25\%, Task 2, 30\%
-and the Essay worth 45\%.
+The repeat assessment will take the same form as above.
 
 \subsubsection{Feedback}\label{feedback}
 
-Written feedback will be provided for both Tasks 1 and 2. It is expected
-that points of improvement identified in Task 1 will be implemented in
-Task 2. Feedback on the Exam will be available on request.
+Written feedback will be provided for both pieces of coursework.
 
 \pagebreak
 
 \subsection{Schedule}\label{schedule}
 
-In Table 4 the schedule of topics to be covered in each lecture is
+In Table 3 the schedule of topics to be covered in each lecture is
 provided. Key readings for each topic are also identified. Further
 direction towards additional readings regarding each topic will be
 provided during lectures.
@@ -474,23 +419,22 @@ provided during lectures.
     \hline
     & & \multicolumn{4}{c|}{\textbf{Readings}} \\ \hline
     \textbf{Week} & \textbf{Topic} &                      \textbf{Ranyard (2018)} & \textbf{Altman (2017)} & \textbf{Camerer et al. (2003)} & \textbf{Other}  \\ \hline
-      1   & General Introduction and History of Economic Psychology & Chapter 1    & Chapter 1          & Chapter 1           &  \href{https://learn.ul.ie//content/enforced/46950-PS4168_SEM1_2024_5/1.Resources/Cartwright_2014_Chapter1.pdf}{\color{blue}{Cartwright (2014) Chapter 1}\color{black}} \\ \hline
-      2   & Heuristics \& Biases                                    & \href{https://learn.ul.ie//content/enforced/46950-PS4168_SEM1_2024_5/1.Resources/Ranyard_2018_Chapter2.pdf}{\color{blue}{Chapter 2}\color{black}}    & Chapters 6 \& 7    &                     & Cartwright (2014) Chapter 2     \\ \hline
-      3   & \makecell[l]{Nudges \\ (Task 1 announced) }           & (Chapter 23) & Chapter 17         &                     & \href{https://learn.ul.ie//content/enforced/46950-PS4168_SEM1_2024_5/1.Resources/Frantz_2016_Chapter8.pdf}{\color{blue}{Frantz et al., (2016) Chapter 8}\color{black}}; Thaler \& Sunstein (2008) \\ \hline
-      4   & Theories of Decision Making                  & \href{https://learn.ul.ie//content/enforced/46950-PS4168_SEM1_2024_5/1.Resources/Ranyard_2018_Chapter2.pdf}{\color{blue}{Chapter 2}\color{black}}    & Chapters 2, 3 \& 4 & Chapters 2 \& 3     &                                 \\ \hline
-      5   & Introduction to Game Theory            &              & \href{https://learn.ul.ie//content/enforced/46950-PS4168_SEM1_2024_5/1.Resources/Altman_2017_Chapter32.pdf}{\color{blue}{Chapter 32}\color{black}}         & Chapters 12 \& 13   & \href{https://learn.ul.ie//content/enforced/46950-PS4168_SEM1_2024_5/1.Resources/Antonides_1996_Chapter14.pdf}{\color{blue}{Antonides, (1996) Chapters 14}\color{black}}   \& 15 \\ \hline
-      6  & \multicolumn{5}{c|}{\cellcolor{blue!25}\textbf{Task 1 Deadline:} Wednesday 16th October at 4pm (No Class: Open Days)} \\ \hline
-      \multirow{3}{*}{7} & Emotional Influences          &              & \href{https://learn.ul.ie//content/enforced/46950-PS4168_SEM1_2024_5/1.Resources/Altman_2017_Chapter32.pdf}{\color{blue}{Chapter 32}\color{black}}         & Chapters 12 \& 13   & Antonides, (1996) Chapter 9 \\ \hhline{|~|~|-|-|-|-|}
-         & \makecell[l]{Future Decisions \\ and Affective Forecasting \\ (Task 2 announced) }    & Chapter 3    & Chapters 23 \& 24  &
-      \href{https://learn.ul.ie//content/enforced/46950-PS4168_SEM1_2024_5/1.Resources/Camerer_2003_Chapter6and7.pdf}{\color{blue}{Chapters 6 \& 7}\color{black}}     & Cartwright (2014) Chapter 4     \\ \hline
-      8   & Loss Aversion/Risk Aversion and Endowment Effects       & \href{https://learn.ul.ie//content/enforced/46950-PS4168_SEM1_2024_5/1.Resources/Ranyard_2018_Chapter2.pdf}{\color{blue}{Chapter 2}\color{black}}    & Chapter 11         & Chapter 2, 4 \& 5   & Cartwright (2014) Chapter 3     \\ \hline
-      9  & Mental Accounting                                       & Chapter 8    &                    & \href{https://learn.ul.ie//content/enforced/46950-PS4168_SEM1_2024_5/1.Resources/Camerer_2003_Chapter3.pdf}{\color{blue}{Chapter 3}\color{black}} \& 14     &                                 \\ \hline
-      \multirow{2}{*}{10} & \multicolumn{5}{c|}{\cellcolor{blue!25}\textbf{Task 2 Deadline} (Wednesday 13th November at 4pm)} \\ \hhline{|~|-|-|-|-|-|}
-        & Fairness and Ethics                                     &              & \href{https://learn.ul.ie//content/enforced/46950-PS4168_SEM1_2024_5/1.Resources/Altman_2017_Chapter32.pdf}{\color{blue}{Chapter 32}\color{black}}         & Chapters 8, 9 \& 18 &                                 \\ \hline
-      11  & Gambling                                                & \href{https://learn.ul.ie//content/enforced/46950-PS4168_SEM1_2024_5/1.Resources/Ranyard_2018_Chapter19.pdf}{\color{blue}{Chapter 19}\color{black}}   &                    & Chapter 23          &                                 \\ \hline
+      1   & General Introduction and History of Economic Psychology & Chapter 1    & Chapter 1          & Chapter 1           &  \href{https://learn.ul.ie//content/enforced/69006-PS4168_SEM1_2025_6/1.Resources/Cartwright_2014_Chapter1.pdf}{\color{blue}{Cartwright (2014) Chapter 1}\color{black}} \\ \hline
+      2   & Heuristics \& Biases                                    & \href{https://learn.ul.ie//content/enforced/69006-PS4168_SEM1_2025_6/1.Resources/Ranyard_2018_Chapter2.pdf}{\color{blue}{Chapter 2}\color{black}}    & Chapters 6 \& 7    &                     & Cartwright (2014) Chapter 2     \\ \hline
+      3   & Nudges                                                   & (Chapter 23) & Chapter 17         &                     & \href{https://learn.ul.ie//content/enforced/69006-PS4168_SEM1_2025_6/1.Resources/Frantz_2016_Chapter8.pdf}{\color{blue}{Frantz et al., (2016) Chapter 8}\color{black}}; Thaler \& Sunstein (2008) \\ \hline
+      4   & Theories of Decision Making                  & \href{https://learn.ul.ie//content/enforced/69006-PS4168_SEM1_2025_6/1.Resources/Ranyard_2018_Chapter2.pdf}{\color{blue}{Chapter 2}\color{black}}    & Chapters 2, 3 \& 4 & Chapters 2 \& 3     &                                 \\ \hline
+      5   & Introduction to Game Theory            &              & \href{https://learn.ul.ie//content/enforced/69006-PS4168_SEM1_2025_6/1.Resources/Altman_2017_Chapter32.pdf}{\color{blue}{Chapter 32}\color{black}}         & Chapters 12 \& 13   & \href{https://learn.ul.ie//content/enforced/69006-PS4168_SEM1_2025_6/1.Resources/Antonides_1996_Chapter14.pdf}{\color{blue}{Antonides, (1996) Chapters 14}\color{black}}   \& 15 \\ \hline
+      6  & \multicolumn{5}{c|}{\cellcolor{blue!25}\textbf{No Class: Open Days}} \\ \hline
+      \multirow{4}{*}{7} & \multicolumn{5}{c|}{\cellcolor{blue!25}\textbf{Task 1 Deadline:} Tuesday 28th October at 4pm} \\ \hhline{|~|-|-|-|-|-|}
+      & Emotional Influences          &              & \href{https://learn.ul.ie//content/enforced/69006-PS4168_SEM1_2025_6/1.Resources/Altman_2017_Chapter32.pdf}{\color{blue}{Chapter 32}\color{black}}         & Chapters 12 \& 13   & Antonides, (1996) Chapter 9 \\ \hhline{|~|~|-|-|-|-|}
+         & \makecell[l]{Future Decisions \\ and Affective Forecasting }    & Chapter 3    & Chapters 23 \& 24  &
+      \href{https://learn.ul.ie//content/enforced/69006-PS4168_SEM1_2025_6/1.Resources/Camerer_2003_Chapter6and7.pdf}{\color{blue}{Chapters 6 \& 7}\color{black}}     & Cartwright (2014) Chapter 4     \\ \hline
+      8   & Loss Aversion/Risk Aversion and Endowment Effects       & \href{https://learn.ul.ie//content/enforced/69006-PS4168_SEM1_2025_6/1.Resources/Ranyard_2018_Chapter2.pdf}{\color{blue}{Chapter 2}\color{black}}    & Chapter 11         & Chapter 2, 4 \& 5   & Cartwright (2014) Chapter 3     \\ \hline
+      9  & Mental Accounting                                       & Chapter 8    &                    & \href{https://learn.ul.ie//content/enforced/69006-PS4168_SEM1_2025_6/1.Resources/Camerer_2003_Chapter3.pdf}{\color{blue}{Chapter 3}\color{black}} \& 14     &                                 \\ \hline
+      10  & Fairness and Ethics                                     &              & \href{https://learn.ul.ie//content/enforced/69006-PS4168_SEM1_2025_6/1.Resources/Altman_2017_Chapter32.pdf}{\color{blue}{Chapter 32}\color{black}}         & Chapters 8, 9 \& 18 &                                 \\ \hline
+      11  & Gambling                                                & \href{https://learn.ul.ie//content/enforced/69006-PS4168_SEM1_2025_6/1.Resources/Ranyard_2018_Chapter19.pdf}{\color{blue}{Chapter 19}\color{black}}   &                    & Chapter 23          &                                 \\ \hline
       12  & Review                            &                    &                    &              &                                 \\ \hhline{|-|-|-|-|-|-|} 
-      13  & \multicolumn{5}{c|}{Study Week} \\ \hline
-      14/15  & \multicolumn{5}{c|}{\cellcolor{blue!25}\textbf{Exam} (Exam Week)} \\ \hline
+      13  & \multicolumn{5}{c|}{\cellcolor{blue!25}\textbf{Presentation Due:} Monday 1st December at 4pm} \\ \hline
       \end{tabular}
   \end{center}
 \end{table}
@@ -520,6 +464,9 @@ in behavioral economics.}\color{black}} Princeton, N.J.; Princeton
 University Press.
 
 Cartwright, E. (2014). \emph{Behavioral economics.} New York: Routledge.
+
+Dhami, S. S. (2025). \emph{Principles of behavioral economics:
+Microeconomics and human behavior.} Cambridge University Press.
 
 Ranyard, R. (Ed.). (2018). \emph{Economic psychology.} Hoboken, NJ
 Chichester, West Sussex: Wiley.

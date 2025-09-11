@@ -7,7 +7,7 @@ bibliography: "resources/bib/My Library.bib"
 csl: apa.csl
 format: 
   beamer:
-    toc: true
+    toc: false
     slide_level: 2
     fig_width: 6
     fig_height: 4
@@ -49,14 +49,14 @@ library(ggplot2)
 
 ## Before we begin
 
- ![131D](resources/images/131_D.jpg)
+![131D](resources/images/131_D.jpg){width=350px}
 
 <img src="resources/images/131_D.jpg" align="centre" width="850px" class="img-frame"/>
 
 ## Before we begin
 
- ![airplane](resources/images/airplane_seats.jpg)
-<img src="resources/images/airplane_seats.jpg" align="left" width="450px" class="img-frame"/>
+![airplane](resources/images/airplane_seats.jpg){width=350px}
+<img src="resources/images/airplane_seats.jpg" align="left" width="350px" class="img-frame"/>
 
 ## Overview
 
@@ -87,9 +87,9 @@ Office                 KBG-22
 
 Student Hours          Wednesdays, 9-11
 
-Lecture location       SR2030
+Lecture location       SR3006
 
-Day and Time           Fridays, 9-11
+Day and Time           Fridays, 4-6
 
 ---------------------- ----------------------
 
@@ -154,19 +154,27 @@ Day and Time           Fridays, 9-11
 - Additional readings will be highlighted during lectures
 
 
+
+## Other Texts
+
+
+![](resources/images/dhami.png){width=160 .lightbox}
+
+@dhami_Principles_2025
+
+
 ## Assessment{.smaller}
 
 
 <br> 
 
+
 ------------------------------------------------------------------------------
 Type of Assessment       % of Final Grade         Deadline
 --------------------- --------------------- ----------------------------------
-Task 1                  25\%                 Wednesday 16th October at 4pm 
+Task 1                  40\%                 Tuesday 28th October at 4pm 
   
-Task 2                  30\%                 Wednesday 13th November at 4pm 
-  
-Exam                    45\%                 Exam Week (1.5 hour)
+Exam                    60\%                 Monday 1st December at 4pm
 
 -------------------------------------------------------------------------------
 

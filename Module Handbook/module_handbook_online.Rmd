@@ -2,7 +2,7 @@
 title: "PS4168 Economic Psychology"
 subtitle: "Module Handbook"
 author: "Dr Cillian McHugh"
-date: "Autumn Semester 2024"
+date: "Autumn Semester 2025"
 output:
   html_document:
     toc: true
@@ -51,7 +51,7 @@ Module Handbook
 
 *Dr Cillian McHugh*
 
-*Autumn 2024*
+*Autumn 2025*
 
 
 </center>
@@ -69,14 +69,14 @@ Office                 KBG-22
 Student Hours          Wednesdays, 9-11
                        ([book an appointment here](https://outlook.office.com/bookwithme/user/f570b7289a5343259c60c8a5d26ce510@ul.ie/meetingtype/w1pxpwCL8UG9pt_0cg2fUA2?anonymous&ep=mlink))
 
-Lecture location       SR2030
+Lecture location       SR3006
 
-Day and Time           Fridays, 9-11
+Day and Time           Fridays, 4-6
 
 ---------------------- ----------------------
 
 
-([click here for pdf copy](https://learn.ul.ie//content/enforced/46950-PS4168_SEM1_2024_5/1.Resources/module_handbook.pdf); also [click here for collaborative note taking](https://docs.google.com/document/d/1Yx5EbhSX0uEHzr964dLh7Xx30ZzthbCqV3T32laTl9E/edit?usp=sharing))
+([click here for pdf copy](https://learn.ul.ie//content/enforced/69006-PS4168_SEM1_2025_6/1.Resources/module_handbook.pdf); also [click here for collaborative note taking](https://docs.google.com/document/d/1Yx5EbhSX0uEHzr964dLh7Xx30ZzthbCqV3T32laTl9E/edit?usp=sharing))
 
 
 
@@ -174,11 +174,9 @@ The assessment for this module will be a combination of coursework and an exam. 
 ------------------------------------------------------------------------------
 Type of Assessment       % of Final Grade         Deadline
 --------------------- --------------------- ----------------------------------
-Task 1                  25\%                 Wednesday 16th October at 4pm 
+Task 1                  40\%                 Tuesday 28th October at 4pm 
   
-Task 2                  30\%                 Wednesday 13th November at 4pm 
-  
-Exam                    45\%                 Exam Week (1.5 hour)
+Exam                    60\%                 Monday 1st December at 4pm
 
 -------------------------------------------------------------------------------
 
@@ -186,20 +184,25 @@ Exam                    45\%                 Exam Week (1.5 hour)
 
 \bigskip
 
-### Short Tasks
-The short tasks will focus on individual topics as follows:
+## Assessment and Grades
+
+### Task 1
+The short task will focus on individual topics as follows:
 
 + **Task 1** *(select one)*:
   - Heuristics
-  - Nudges
-+ **Task 2**:
   - Game Theory
 
-You will have at least 2 weeks to complete each task.  The specific nature of each task will vary depending on the topic.  They share a common marking scheme described in Table 2: (The assignment should be within the designated word count +/- 10\%)
+### Presentation
+
+The presentation will require you to identify a "problem" that Economic Psychology might be able to help to solve.
+
+
+Both assignments share a common marking scheme below:
 
 \bigskip
 
-**Table 2**: Marks allocation for Tasks 1 and 2
+**Table 2**: Marking Scheme
 
 ---------------------------------------------------------------------------------
 Component                                                        Percentage
@@ -219,38 +222,6 @@ References, Citations, and Formatting                              0\% (potentia
 
 \bigskip
 
-### Exam
-45% of the module will be an Essay based exam. You will receive 3 essay titles and you can pick one.
-
-\bigskip
-
-
-**Table 3**: Marks allocation for Essay-Exam
-
----------------------------------------------------------------------------------
-Component                                                        Percentage
---------------------------------------------------------------- -----------------
-Content                                                            70\% 
-
-Structure, Language, and Written Expression                        30\% 
-
-References, Citations, and Formatting                               0\% (potential penalty of 1 sub-grade)
-
----------------------------------------------------------------------------------
-
-\bigskip
-
-*Content*
-
-The assignment should directly address the question asked and demonstrate a clear coherent argument throughout.  Excessive descriptions should be avoided if they do not serve to support an argument.  Evidence of critical thinking is essential.  Students should demonstrate evidence of wider reading and understanding of the concepts being discussed.
-
-*Stucture, Language, and Written Expression*
-
-Ideas should be clearly expressed, with appropriate use of scientific language.  There should be a clear introduction, body, and conclusion, with appropriate use of paragraphs (The use of sub-headings is optional). The assignment should be within the designated word count (+/- 10\%).
-
-*References, Citations, and Formatting*
-
-In-text citations and the References section should be in APA style. All citations should appear in the References section, and all references should be cited in the text. A References section should be included (i.e., no bibliography). A cover page should be included, and the assignment should be double-spaced.  
 
 
 ### Departmental Penalty Policies: 
@@ -262,7 +233,7 @@ Excuses: If you have a valid excuse for handing in a late assignment, or missing
 
 ### Repeat Assessment
 
-The repeat assessment will take the same form as above (with an essay instead of an exam).  There will be two short tasks to complete and an essay to be submitted together.  Task 1 will be worth 25\%, Task 2, 30\% and the Essay worth 45\%.
+The repeat assessment will take the same form as above.
 
 
 ### Feedback
@@ -273,29 +244,28 @@ Written feedback will be provided for both Tasks 1 and 2. It is expected that po
 \pagebreak
 
 ## Schedule
-In Table 4 the schedule of topics to be covered in each lecture is provided.  Key readings for each topic are also identified.  Further direction towards additional readings regarding each topic will be provided during lectures.
+In Table 3 the schedule of topics to be covered in each lecture is provided.  Key readings for each topic are also identified.  Further direction towards additional readings regarding each topic will be provided during lectures.
 
 
-**Table 4:** Schedule of lectures, topics and relevant readings
+**Table 3:** Schedule of lectures, topics and relevant readings
 
 |Week | Topic | Ranyard (2018) | Altman (2017) | Camerer et al. (2003) | Other|
 |------ | --------------------------------------------------------- |:-----------------------------:|:-----------------------------:|:-----------------------------:|:-----------------------------:|
-| **1** | General Introduction and History of Economic Psychology   |      Chapter 1       |         Chapter 1         |       Chapter 1       |      [Cartwright (2014) Chapter 1](https://learn.ul.ie//content/enforced/46950-PS4168_SEM1_2024_5/1.Resources/Cartwright_2014_Chapter1.pdf) |
-| **2** |  Heuristics \& Biases <br>                    | [Chapter 2](https://learn.ul.ie//content/enforced/46950-PS4168_SEM1_2024_5/1.Resources/Ranyard_2018_Chapter2.pdf)         |     Chapters 6 \& 7         |  |                          Cartwright (2014) Chapter 2|
-| **3** |    Nudges   <br>  (Task 1 announced)  |   (Chapter 23)    |       Chapter 17      |                  |             [Frantz et al., (2016) Chapter 8](https://learn.ul.ie//content/enforced/46950-PS4168_SEM1_2024_5/1.Resources/Frantz_2016_Chapter8.pdf); Thaler \& Sunstein (2008)|
-| **4** |  Theories of Decision Making      | [Chapter 2](https://learn.ul.ie//content/enforced/46950-PS4168_SEM1_2024_5/1.Resources/Ranyard_2018_Chapter2.pdf) | Chapters 2, 3 \& 4 |  Chapters 2 \& 3 |
-| **5** |  Introduction to Game Theory                                           |  | [Chapter 32](https://learn.ul.ie//content/enforced/46950-PS4168_SEM1_2024_5/1.Resources/Altman_2017_Chapter32.pdf) |       Chapters 12 \& 13    |    [Antonides, (1996) Chapters 14](https://learn.ul.ie//content/enforced/46950-PS4168_SEM1_2024_5/1.Resources/Antonides_1996_Chapter14.pdf) \& 15 |
-| <br> **6** | <br>**Task 1 Deadline**<br>(Wednesday 16th October at 4pm)   <br> (No Class - Open Days)   <br> &nbsp;    | <br>  -    |  <br> -     |  <br> -    | <br> - |
-|  **7**  |    Emotional Influences       |       | [Chapter 32](https://learn.ul.ie//content/enforced/46950-PS4168_SEM1_2024_5/1.Resources/Altman_2017_Chapter32.pdf) |          Chapters 12 \& 13  |       Antonides, (1996) Chapter 9 |
-|    |  Future Decisions and Affective Forecasting  (Task 2 announced)   |     Chapter 3  |   Chapters 23 \& 24 |  [Chapters 6 \& 7](https://learn.ul.ie//content/enforced/46950-PS4168_SEM1_2024_5/1.Resources/Camerer_2003_Chapter6and7.pdf)  |    Cartwright (2014) Chapter 4  |
-| **8** | Loss Aversion and Endowment Effects  |  [Chapter 2](https://learn.ul.ie//content/enforced/46950-PS4168_SEM1_2024_5/1.Resources/Ranyard_2018_Chapter2.pdf)  |       Chapter 11            |       Chapter 2, 4 \& 5  |   Cartwright (2014) Chapter 3 |
-|  **9**  |   Mental Accounting <br>  | Chapter 8  |  |  [Chapters 3](https://learn.ul.ie//content/enforced/46950-PS4168_SEM1_2024_5/1.Resources/Camerer_2003_Chapter3.pdf) \& 14     |     |
-| <br>**10** | <br>**Task 2 Deadline**<br>(Wednesday 13th November at 4pm)    <br><br>        |    <br> -   |  <br> -      |  <br> -     | <br> - |
-|**10** | Fairness and Ethics        |  |   [Chapter 32](https://learn.ul.ie//content/enforced/46950-PS4168_SEM1_2024_5/1.Resources/Altman_2017_Chapter32.pdf)  |         Chapters 8, 9 \& 18 &   |  |
-|**11** | Gambling           |                                       [Chapter 19](https://learn.ul.ie//content/enforced/46950-PS4168_SEM1_2024_5/1.Resources/Ranyard_2018_Chapter19.pdf)        |  |                                  Chapter 23      |
+| **1** | General Introduction and History of Economic Psychology   |      Chapter 1       |         Chapter 1         |       Chapter 1       |      [Cartwright (2014) Chapter 1](https://learn.ul.ie//content/enforced/69006-PS4168_SEM1_2025_6/1.Resources/Cartwright_2014_Chapter1.pdf) |
+| **2** |  Heuristics \& Biases <br>                    | [Chapter 2](https://learn.ul.ie//content/enforced/69006-PS4168_SEM1_2025_6/1.Resources/Ranyard_2018_Chapter2.pdf)         |     Chapters 6 \& 7         |  |                          Cartwright (2014) Chapter 2|
+| **3** |    Nudges    |   (Chapter 23)    |       Chapter 17      |                  |             [Frantz et al., (2016) Chapter 8](https://learn.ul.ie//content/enforced/69006-PS4168_SEM1_2025_6/1.Resources/Frantz_2016_Chapter8.pdf); Thaler \& Sunstein (2008)|
+| **4** |  Theories of Decision Making      | [Chapter 2](https://learn.ul.ie//content/enforced/69006-PS4168_SEM1_2025_6/1.Resources/Ranyard_2018_Chapter2.pdf) | Chapters 2, 3 \& 4 |  Chapters 2 \& 3 |
+| **5** |  Introduction to Game Theory                                           |  | [Chapter 32](https://learn.ul.ie//content/enforced/69006-PS4168_SEM1_2025_6/1.Resources/Altman_2017_Chapter32.pdf) |       Chapters 12 \& 13    |    [Antonides, (1996) Chapters 14](https://learn.ul.ie//content/enforced/69006-PS4168_SEM1_2025_6/1.Resources/Antonides_1996_Chapter14.pdf) \& 15 |
+| **6** | No Class - Open Days      |    -    |      -     |      -    |  - |
+|  **7**  <br> &nbsp; |   **Task 1 Deadline:** Tuesday 28th October at 4pm     |   -    |  - |       -  |  - |
+|   |    Emotional Influences       |       | [Chapter 32](https://learn.ul.ie//content/enforced/69006-PS4168_SEM1_2025_6/1.Resources/Altman_2017_Chapter32.pdf) |          Chapters 12 \& 13  |       Antonides, (1996) Chapter 9 |
+|    |  Future Decisions and Affective Forecasting  (Task 2 announced)   |     Chapter 3  |   Chapters 23 \& 24 |  [Chapters 6 \& 7](https://learn.ul.ie//content/enforced/69006-PS4168_SEM1_2025_6/1.Resources/Camerer_2003_Chapter6and7.pdf)  |    Cartwright (2014) Chapter 4  |
+| **8** | Loss Aversion and Endowment Effects  |  [Chapter 2](https://learn.ul.ie//content/enforced/69006-PS4168_SEM1_2025_6/1.Resources/Ranyard_2018_Chapter2.pdf)  |       Chapter 11            |       Chapter 2, 4 \& 5  |   Cartwright (2014) Chapter 3 |
+|  **9**  |   Mental Accounting <br>  | Chapter 8  |  |  [Chapters 3](https://learn.ul.ie//content/enforced/69006-PS4168_SEM1_2025_6/1.Resources/Camerer_2003_Chapter3.pdf) \& 14     |     |
+|**10** | Fairness and Ethics        |  |   [Chapter 32](https://learn.ul.ie//content/enforced/69006-PS4168_SEM1_2025_6/1.Resources/Altman_2017_Chapter32.pdf)  |         Chapters 8, 9 \& 18 &   |  |
+|**11** | Gambling           |                                       [Chapter 19](https://learn.ul.ie//content/enforced/69006-PS4168_SEM1_2025_6/1.Resources/Ranyard_2018_Chapter19.pdf)        |  |                                  Chapter 23      |
 |**12** |  Review |  |  |  |  |
-|**13** |  Study Week | - |  -  | - | - |
-|<br>**14/15** |  <br>**Exam**<br>(Exam Week) <br><br> |  <br> - |  <br> -  |  <br> - |  <br> - |
+|**13** <br> &nbsp; |  **Presentation Due:** Monday 1st December at 4pm | - |  -  | - | - |
 | |  |  |  |  |  |
  
 
@@ -328,8 +298,14 @@ Cartwright, E. (2014). *Behavioral economics.* New York: Routledge.
 </p>
 
 <p class="hang">
+Dhami, S. S. (2025). *Principles of behavioral economics: Microeconomics and human behavior.* Cambridge University Press.
+</p>
+
+<p class="hang">
 Ranyard, R. (Ed.). (2018). *Economic psychology.* Hoboken, NJ Chichester, West Sussex: Wiley.
 </p>
+
+
 
 
 \setlength{\leftskip}{0in}

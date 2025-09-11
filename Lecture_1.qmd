@@ -10,7 +10,7 @@ format:
     slide-number: false
     controls: true
     logo: "resources/images/ul-psychology-logos.png"
-    footer: "PS4168: Cillian McHugh - 13/9/24"
+    footer: "PS4168: Cillian McHugh - 12/9/25"
     theme: "resources/css/mytheme.scss"
     chalkboard: 
       buttons: true
@@ -45,15 +45,15 @@ library(ggplot2)
 
 ## Before we begin
 
- 
 
-<img src="resources/images/131_D.jpg" align="centre" width="850px" class="img-frame"/>
+![](resources/images/131_D.jpg){width=750px .lightbox} 
+
+
 
 ## Before we begin
 
- 
+![](resources/images/airplane_seats.jpg){width=650px .lightbox}
 
-<img src="resources/images/airplane_seats.jpg" align="left" width="450px" class="img-frame"/>
 
 ## Overview
 
@@ -70,8 +70,8 @@ library(ggplot2)
 ## General Information and Housekeeping {.smaller}
 
 
+![](resources/images/cillian_face_2022e.jpg#right){width=100px padding=6px .lightbox}
 
-<img style="float: right;" src="resources/images/cillian_face_2022e.jpg" width=100px padding=6px>
 
 
 
@@ -85,16 +85,16 @@ Office                 KBG-22
 Student Hours          Wednesdays, 9-11
                        ([book an appointment here](https://outlook.office.com/bookwithme/user/f570b7289a5343259c60c8a5d26ce510@ul.ie/meetingtype/a5wS5iMLaEGjeXKh-w2n1g2?anonymous&ep=mLinkFromTile))
 
-Lecture location       SR2030
+Lecture location       SR3006
 
-Day and Time           Fridays, 9-11
+Day and Time           Fridays, 4-6 (sigh)
 
 ---------------------- ----------------------
 
 
 ## Lectures
 
-- 2 hour slot (Friday mornings)
+- 2 hour slot (Friday evenings)
 - Interactive (discussion + activities)
 - Will be recorded
 - Do not come in if you are sick!!!
@@ -109,14 +109,14 @@ Day and Time           Fridays, 9-11
 
 ::: {.column width="60%"}
 
-<img style="float: left;" src="resources/images/camerer.jpg" width=100px padding=6px>
-<br>
-&nbsp;&nbsp;&nbsp;
+![](resources/images/camerer.jpg){width=100px .lightbox}
+
 @camerer_advances_2003
-&nbsp;&nbsp;&nbsp; <br><br><br><br><br><br>
-<img style="float: left;" src="resources/images/altman.jpg" width=100px padding=6px>
+
 <br>
-&nbsp;&nbsp;&nbsp;
+
+![](resources/images/altman.jpg){width=100px .lightbox}
+
 @altman_Handbook_2017
 &nbsp;&nbsp;&nbsp;<br>
 
@@ -126,14 +126,15 @@ Day and Time           Fridays, 9-11
 ::: {.column width="40%"}
 
 
-<img style="float: left;" src="resources/images/cartwright.jpg" width=100px padding=6px>
-<br>
-&nbsp;&nbsp;&nbsp;
+
+![](resources/images/cartwright.jpg){width=100px .lightbox}
+
 @cartwright_behavioral_2014
-&nbsp;&nbsp;&nbsp;<br><br><br><br><br><br>
-<img style="float: left;" src="resources/images/ranyard.jpg" width=100px padding=6px>
+
 <br>
-&nbsp;&nbsp;&nbsp;
+
+![](resources/images/ranyard.jpg){width=100px .lightbox}
+
 @ranyard_economic_2018
 
 
@@ -144,6 +145,13 @@ Day and Time           Fridays, 9-11
 - Additional readings will be highlighted during lectures
 
 
+## Other Texts
+
+
+![](resources/images/dhami.png){width=260 .lightbox}
+
+@dhami_Principles_2025
+
 ## Assessment{.smaller}
 
 
@@ -152,11 +160,9 @@ Day and Time           Fridays, 9-11
 ------------------------------------------------------------------------------
 Type of Assessment       % of Final Grade         Deadline
 --------------------- --------------------- ----------------------------------
-Task 1                  25\%                 Wednesday 16th October at 4pm 
+Task 1                  40\%                 Tuesday 28th October at 4pm 
   
-Task 2                  30\%                 Wednesday 13th November at 4pm 
-  
-Exam                    45\%                 Exam Week (1.5 hour)
+Exam                    60\%                 Monday 1st December at 4pm
 
 -------------------------------------------------------------------------------
 
