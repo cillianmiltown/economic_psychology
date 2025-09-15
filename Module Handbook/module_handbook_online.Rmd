@@ -164,21 +164,21 @@ The module will be taught through lectures. The lectures will have opportunities
 
 
 ## Assessment
-The assessment for this module will be a combination of coursework and an exam.  There will be an exam (essay questions) worth 45\%.  There will also be two short tasks, worth 25\% and 30\%.  Marking schemes for each assignment are provided below.  It is expected that each piece of course work will be appropriately referenced and adhere to APA standards.  Marks will not be awarded for this, however significant failure in this regard may result in a penalty of up to a sub-grade being applied.  The breakdown of marks and important deadlines are outlined in Table 1:
+There are two parts for the assessment. There is a short task due in Week 7 (28th of October) worth 40%, and a presentation due at the end of semester (1st of December) worth 60%. Marking schemes for each assessment are provided below.  It is expected that each piece of course work will be appropriately referenced and adhere to APA standards.  Marks will not be awarded for this, however significant failure in this regard may result in a penalty of up to a sub-grade being applied.  The breakdown of marks and important deadlines are outlined in Table 1:
 
 
 \bigskip
 
 **Table 1**: Important deadlines
 
-------------------------------------------------------------------------------
-Type of Assessment       % of Final Grade         Deadline
---------------------- --------------------- ----------------------------------
-Task 1                  40\%                 Tuesday 28th October at 4pm 
+---------------------------------------------------------------------------------
+Type of Assessment          % of Final Grade         Deadline
+------------------------ --------------------- ----------------------------------
+Task 1                     40\%                 Tuesday 28th October at 4pm 
   
-Exam                    60\%                 Monday 1st December at 4pm
+Recorded Presentation      60\%                 Monday 1st December at 4pm
 
--------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
 
 
 
@@ -238,8 +238,8 @@ The repeat assessment will take the same form as above.
 
 ### Feedback
 
-Written feedback will be provided for both Tasks 1 and 2. It is expected that points of improvement identified in Task 1 will be implemented in Task 2. Feedback on the Exam will be available on request.  
-
+Written feedback will be provided for both pieces of coursework.  
+  
 
 \pagebreak
 
