@@ -10,12 +10,27 @@ format:
     slide-number: false
     controls: true
     logo: "resources/images/ul-psychology-logos.png"
-    footer: "PS4168: Cillian McHugh - 20/9/24"
+    footer: "PS4168: Cillian McHugh - 19/9/25"
     theme: "resources/css/mytheme.scss"
     chalkboard: 
       buttons: true
 editor: source
 ---
+
+
+
+
+
+## Overview
+
+
+
+- Biases
+
+- Heuristics
+
+- In-class Activity
+
 
 
 <script>
@@ -49,19 +64,15 @@ library(ggplot2)
 ```
 
 
+```{css, echo=FALSE}
+.scrollable {
+  overflow-y: auto;
+  height: 100%;
+}
+```
 
 
-## Overview
-
-
-
-- Biases
-
-- Heuristics
-
-- In-class Activity
-
-## Recap
+## Recap{.scrollable}
 
 ### In Pairs/groups
 
@@ -121,7 +132,8 @@ library(ggplot2)
 
 <br><br>
 
-<img src="resources/images/bothconcaveconvex.png"  width="1100px"  />
+
+![](resources/images/bothconcaveconvex.png){width=1100px .lightbox}
 
 ## Cognitive illusions/Cognitive biases
 
@@ -129,7 +141,8 @@ library(ggplot2)
 
 <br>
 
-<img src="resources/images/concaveconvex.png"  width="600px"  />
+![](resources/images/concaveconvex.png){width=600px .lightbox}
+
 
 ## Cognitive illusions/Cognitive biases
 
@@ -137,7 +150,9 @@ library(ggplot2)
 
 <br>
 
-<img src="resources/images/convexconcave.png"  width="600px"  />
+![](resources/images/convexconcave.png){width=600px .lightbox}
+
+
 
 ## Cognitive illusions/Cognitive biases
 
@@ -153,7 +168,11 @@ library(ggplot2)
 
 Convex
 
-<img src="resources/images/concaveconvex.png"  width="600px"  />
+
+![](resources/images/concaveconvex.png){width=600px .lightbox}
+
+
+
 
 ## Cognitive illusions/Cognitive biases
 
@@ -161,7 +180,9 @@ Convex
 
 Concave
 
-<img src="resources/images/convexconcave.png"  width="600px"  />
+
+![](resources/images/convexconcave.png){width=600px .lightbox}
+
 
 
 
@@ -196,11 +217,19 @@ Concave
 - Linked to risk aversion?
 :::
 
-## Description of a person 
+## Description of a person ([link](https://vevox.app/#/m/141870590))
+
+
+<iframe src="https://vevox.app/#/m/141870590" height="100%" width="100%" frameBorder="0" style="min-height: 800px;" title="Vevox"></iframe>
 
 
 
-[https://app.sli.do/event/nneYhDxSeCtKayQUfCHSUQ/embed/polls/a5ba9010-98f3-41e3-a48d-57f99897aad1](https://app.sli.do/event/nneYhDxSeCtKayQUfCHSUQ/embed/polls/a5ba9010-98f3-41e3-a48d-57f99897aad1)
+Who do you view more favourably?
+
+Alan or Ben?
+
+
+[https://vevox.app/#/m/141870590](https://vevox.app/#/m/141870590)
 
 
 <br>
@@ -210,17 +239,14 @@ Who do you view more favourably?
 
 Alan or Ben?
 
-## Description of a person 
+## Description of a person  ([link](https://ul.vevox.com/#/present/785393))
+
+<iframe width="900" height="500" src="https://ul.display.vevox.com#/present/785393/KJQ6N6WWH0ZXATZY8N98" frameborder="0" allow="autoplay; encrypted-media"></iframe>
 
 
-
-
-<iframe width="900" height="500" src="https://wall.sli.do/event/nneYhDxSeCtKayQUfCHSUQ?section=64385e8c-2f5c-481e-bbfb-6cb23b036ca8" frameborder="0" allow="autoplay; encrypted-media"></iframe>
 
 
 ## Description of a person
-
-
 
 
 Who do you view more favourably?
@@ -366,19 +392,20 @@ Alan or Ben?
 ## Syllogisms - Example 1
 
 
-
-
 - No cigarettes are inexpensive.
 - Some addictive things are inexpensive.
   + Therefore, some addictive things are not cigarettes.
 
-Vote: [https://app.sli.do/event/vZrcEo7RhhsSUSnemAjwoF/embed/polls/959fadbf-b78a-44a7-8976-7cf2f93922af](https://app.sli.do/event/vZrcEo7RhhsSUSnemAjwoF/embed/polls/959fadbf-b78a-44a7-8976-7cf2f93922af)
+Vote: [https://vevox.app/#/m/115850462](https://vevox.app/#/m/115850462)
 
 ## Syllogisms - Example 1
 
+<iframe src="https://vevox.app/#/m/115850462" height="100%" width="100%" frameBorder="0" style="min-height: 800px;" title="Vevox"></iframe>
 
 
-<iframe width="900" height="500" src="https://wall.sli.do/event/vZrcEo7RhhsSUSnemAjwoF?section=8c85a23a-eb31-4052-97ee-49a3c76e970c" frameborder="0" allow="autoplay; encrypted-media"></iframe>
+## Example 1 Results ([link](https://ul.vevox.com/#/present/785434))
+
+<iframe width="900" height="550" src="https://ul.display.vevox.com#/present/785434/RVFROVUH8VTUQU9TLMUN" frameborder="0" allow="autoplay; encrypted-media"></iframe>
 
 
 ## Syllogisms - Example 2
@@ -389,13 +416,16 @@ Vote: [https://app.sli.do/event/vZrcEo7RhhsSUSnemAjwoF/embed/polls/959fadbf-b78a
 - Some cigarettes are inexpensive.
   + Therefore, some addictive things are not cigarettes. 
   
-Vote: [https://app.sli.do/event/vZrcEo7RhhsSUSnemAjwoF/embed/polls/959fadbf-b78a-44a7-8976-7cf2f93922af](https://app.sli.do/event/vZrcEo7RhhsSUSnemAjwoF/embed/polls/959fadbf-b78a-44a7-8976-7cf2f93922af)
+Vote: [https://vevox.app/#/m/110771162](https://vevox.app/#/m/110771162) 
+
 
 ## Syllogisms - Example 2
 
+<iframe src="https://vevox.app/#/m/110771162" height="100%" width="100%" frameBorder="0" style="min-height: 800px;" title="Vevox"></iframe>
 
+## Example 2 Results ([link](https://ul.vevox.com/#/present/785454))
 
-<iframe width="900" height="500" src="https://wall.sli.do/event/vZrcEo7RhhsSUSnemAjwoF?section=8c85a23a-eb31-4052-97ee-49a3c76e970c" frameborder="0" allow="autoplay; encrypted-media"></iframe>
+<iframe width="900" height="550" src="https://ul.display.vevox.com#/present/785454/JSJLCQKYAJ6VDT8B8SK1" frameborder="0" allow="autoplay; encrypted-media"></iframe>
 
 
 ## Syllogisms - Example 3
@@ -405,30 +435,41 @@ Vote: [https://app.sli.do/event/vZrcEo7RhhsSUSnemAjwoF/embed/polls/959fadbf-b78a
 - No addictive things are inexpensive.
 - Some cigarettes are inexpensive.
   + Therefore, some cigarettes are not addictive.
+  
+  
+Vote: [https://vevox.app/#/m/185242826](https://vevox.app/#/m/185242826)
 
-Vote: [https://app.sli.do/event/vZrcEo7RhhsSUSnemAjwoF/embed/polls/959fadbf-b78a-44a7-8976-7cf2f93922af](https://app.sli.do/event/vZrcEo7RhhsSUSnemAjwoF/embed/polls/959fadbf-b78a-44a7-8976-7cf2f93922af)
 
 ## Syllogisms - Example 3
 
 
+<iframe src="https://vevox.app/#/m/185242826" height="100%" width="100%" frameBorder="0" style="min-height: 800px;" title="Vevox"></iframe>
 
-<iframe width="900" height="500" src="https://wall.sli.do/event/vZrcEo7RhhsSUSnemAjwoF?section=8c85a23a-eb31-4052-97ee-49a3c76e970c" frameborder="0" allow="autoplay; encrypted-media"></iframe>
+## Example 3 Results ([link](https://ul.vevox.com/#/present/785455))
+
+<iframe width="900" height="550" src="https://ul.display.vevox.com#/present/785455/THGR1WU03TXWMCQ0KNLB" frameborder="0" allow="autoplay; encrypted-media"></iframe>
+
+
 
 ## Syllogisms - Example 4
-
 
 
 - No cigarettes are inexpensive.
 - Some addictive things are inexpensive.
   + Therefore, some cigarettes are not addictive.
 
-Vote: [https://app.sli.do/event/vZrcEo7RhhsSUSnemAjwoF/embed/polls/959fadbf-b78a-44a7-8976-7cf2f93922af](https://app.sli.do/event/vZrcEo7RhhsSUSnemAjwoF/embed/polls/959fadbf-b78a-44a7-8976-7cf2f93922af)
+Vote: [https://vevox.app/#/m/152060313](https://vevox.app/#/m/152060313)
 
 ## Syllogisms - Example 4
 
+<iframe src="https://vevox.app/#/m/152060313" height="100%" width="100%" frameBorder="0" style="min-height: 800px;" title="Vevox"></iframe>
 
 
-<iframe width="900" height="500" src="https://wall.sli.do/event/vZrcEo7RhhsSUSnemAjwoF?section=8c85a23a-eb31-4052-97ee-49a3c76e970c" frameborder="0" allow="autoplay; encrypted-media"></iframe>
+## Example 4 Results ([link](https://ul.vevox.com/#/present/785458))
+
+
+<iframe src="https://ul.display.vevox.com#/present/785458/TY6ELOLIFB4V94V9LXZP" height="550" width="900" frameBorder="0" title="Vevox"></iframe>
+
 
 
 ## Belief Bias{.smaller}
@@ -471,6 +512,7 @@ Vote: [https://app.sli.do/event/vZrcEo7RhhsSUSnemAjwoF/embed/polls/959fadbf-b78a
 
 :::
 
+
 ## General Knowledge
 
 - Which city has more inhabitants?
@@ -478,26 +520,21 @@ Vote: [https://app.sli.do/event/vZrcEo7RhhsSUSnemAjwoF/embed/polls/959fadbf-b78a
   + Islamabad
 
 
-Vote: [https://app.sli.do/event/2HpLUzYw48QzsHH3KWQgn7/embed/polls/adad10e1-e61e-4dce-a593-96b7e700c82e](https://app.sli.do/event/2HpLUzYw48QzsHH3KWQgn7/embed/polls/adad10e1-e61e-4dce-a593-96b7e700c82e)
-
-## Confidence
-
 - How confident are you that your answer is correct?
   + 50% 60% 70% 80% 90% 100%
   
+Vote: [https://vevox.app/#/m/118774678](https://vevox.app/#/m/118774678)
 
-Vote: [https://app.sli.do/event/sev81wpU1emixECBnf8Fhp/embed/polls/b98f813c-8406-4074-af03-02a5db179da0](https://app.sli.do/event/sev81wpU1emixECBnf8Fhp/embed/polls/b98f813c-8406-4074-af03-02a5db179da0)
-
-
-## General Knowledge
-
-<iframe width="900" height="600" src="https://wall.sli.do/event/2HpLUzYw48QzsHH3KWQgn7?section=05f53be4-c1af-4408-a058-142bc49c3280" frameborder="0" allow="autoplay; encrypted-media"></iframe>
+## General Knowledge ([link](https://ul.vevox.com/#/present/785590))
 
 
+<iframe src="https://ul.display.vevox.com#/present/785590/BKN2AJQZKXUQRIH3NN5D" height="550" width="900" frameBorder="0" title="Vevox"></iframe>
 
 ## Confidence
 
-<iframe width="900" height="600" src="https://wall.sli.do/event/sev81wpU1emixECBnf8Fhp?section=1f9706ef-247f-439f-b8e5-6fc7ac16a42e" frameborder="0" allow="autoplay; encrypted-media"></iframe>
+
+<iframe src="https://vevox.app/#/m/118774678" height="100%" width="100%" frameBorder="0" style="min-height: 800px;" title="Vevox"></iframe>
+
 
 ## Overconfidence bias
 
@@ -620,30 +657,42 @@ planning fallacy
   
 :::
   
-## Computing the Trajectory{.columns-2} 
+## Computing the Trajectory
 
 
+::::{.columns}
 
-<img src="resources/images/gaze_calculation.png"/>
+:::{.column width="45%"}
+
+![](resources/images/gaze_calculation.png){.lightbox}
+:::
+
+
+:::{.column width="50%"}
+
+
 
 $\tan{\Psi} = \frac{\tan{\alpha}}{\tan{\beta}} = \frac{C_\alpha f(t)}{C_\beta f(t)} = C_\Psi$
 
 - where $C_\alpha$, $C_\beta$ and $C_\Psi$ are constants <br>and $f(t) = t =$ time since trajectory <br> 
 <font size=4.5>[taken from @mcbeath_how_1995, p. 571]</font size>
 
+:::
+
+::::
+
 ## Gaze Heuristic
 
+![](resources/images/McBeath.png){height="420px" .lightbox}
 
-
-<img src="resources/images/McBeath.png"  height="420px"  />
 
 <font size=4.5>[taken from @mcbeath_how_1995, p. 571]</font size>
 
 ## Catching a ball
 
 
+![](resources/images/gaze.jpg){height="420px" .lightbox}
 
-<img src="resources/images/gaze.jpg"  height="420px" />
 
 ## Gaze Heuristic
 
@@ -660,8 +709,8 @@ $\tan{\Psi} = \frac{\tan{\alpha}}{\tan{\beta}} = \frac{C_\alpha f(t)}{C_\beta f(
 
 ## 3D Heuristic
 
+![](resources/images/3dheuristic.png){height="420px" .lightbox}
 
-<img src="resources/images/3dheuristic.png" height="420px"/>
 
 # More General Heuristics
 
@@ -876,10 +925,8 @@ The description below was chosen at random from the 1,000 available descriptions
 
 ## Other Heuristics
 
+![](resources/images/heuristics_table1.png){height="420px" .lightbox}
 
-
-
-<img src="resources/images/heuristics_table1.png" height="420"/>
 
 <font size=4.5>[taken from @todd_ecological_2012, p. 9]</font size>
 
@@ -887,8 +934,8 @@ The description below was chosen at random from the 1,000 available descriptions
 
 
 
+![](resources/images/heuristics_table2.png){height="420px" .lightbox}
 
-<img src="resources/images/heuristics_table2.png" height="420"/>
 
 <font size=4.5>[taken from @todd_ecological_2012, p. 10]</font size>
 
