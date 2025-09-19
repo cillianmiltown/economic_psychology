@@ -525,15 +525,17 @@ Vote: [https://vevox.app/#/m/152060313](https://vevox.app/#/m/152060313)
   
 Vote: [https://vevox.app/#/m/118774678](https://vevox.app/#/m/118774678)
 
+## Confidence
+
+
+<iframe src="https://vevox.app/#/m/118774678" height="100%" width="100%" frameBorder="0" style="min-height: 800px;" title="Vevox"></iframe>
+
+
 ## General Knowledge ([link](https://ul.vevox.com/#/present/785590))
 
 
 <iframe src="https://ul.display.vevox.com#/present/785590/BKN2AJQZKXUQRIH3NN5D" height="550" width="900" frameBorder="0" title="Vevox"></iframe>
 
-## Confidence
-
-
-<iframe src="https://vevox.app/#/m/118774678" height="100%" width="100%" frameBorder="0" style="min-height: 800px;" title="Vevox"></iframe>
 
 
 ## Overconfidence bias
