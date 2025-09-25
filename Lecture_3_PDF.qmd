@@ -48,10 +48,6 @@ knitr::opts_chunk$set(include = FALSE)
 
 - Nudges and Theory
 
-- Wason Selection Task
-
-- Assignment 1
-
 - In-class Activity
 
 ## Recap on last week!
@@ -359,6 +355,13 @@ knitr::opts_chunk$set(include = FALSE)
 
 [@thaler_choice_2012]
  
+
+## Choice Architecture?{.smaller}
+
+![](resources/images/behaviour_setting.jpg "Behaviour Settings"){.lightbox height=500px}
+<br> Behaviour settings [@dirienzo_Navigating_2024; see also @mcgann_People_2024]
+ 
+
  
 ## Choice Architecture
 
@@ -599,80 +602,6 @@ knitr::opts_chunk$set(include = FALSE)
 - Thaler, R. H., & Sunstein, C. R. (2003). Libertarian Paternalism. *American Economic Review*, 93(2), 175–179. [(uploaded to Brightspace)](https://learn.ul.ie//content/enforced/10246-PS4168_SEM1_2023_4/1.Resources/Thaler_Sunstein_2003_Libertarian%20Paternalism.pdf)
 
 - Thaler, R. H. (2015). *Misbehaving: The Making of Behavioral Economics.* W.W. Norton.
-
-
-
-# Assignment 1
-
-## Assignment 1{.smaller}
-
-
-
-:::: {.columns}
-
-::: {.column width="50%"}
-
-<style type="text/css">
-    ol { list-style-type: lower-alpha; }
-</style>
-
-#### Heuristics
-
-<font size = 4.2px>
-Based on your knowledge of heuristics and your observations of people's decision making in everyday life, identify a novel heuristic that may be guiding the decisions/behaviour of people. This heuristic may be context dependent or generalisable to multiple contexts.
-
-Having identified a candidate heuristic:
-
-(i) describe the heuristic
-(ii) explain why this counts as a heuristic
-(iii) describe how you would assess whether or not this heuristic is indeed guiding decisions/behaviour.
-
-</font>
-
-:::
-
-::: {.column width="50%"}
-
-#### Nudges
-
-<font size = 4.2px>Identify a novel nudge that may lead to "better" decision making in a given context.
-
-(i) Briefly describe the nudge
-(ii) Indicate a theoretical rationale for your nudge <br>(e.g., which bias/heuristic is it "harnessing")
-(iii) Describe a possible test for the effectiveness of this nudge
-(iv) Give consideration to the implications of a negative result
-
-</font>
-
-:::
-
-::::
-
-(1000-1500 words)
-
-
-
-## Assignment 1 Marking scheme{.smaller}
-
-
-
----------------------------------------------------------------------------------
-Component                                                        Percentage
---------------------------------------------------------------- -----------------
-Clear demonstration of an in depth understanding of the topic     30\% 
-
-Critical thinking                                                 30\% 
-
-Competence in the identification and application of relevant      20\% 
-research methods
-
-Originality/Novelty                                               20\% 
-
-References, Citations, and Formatting                              0\% (potential penalty of 1 sub-grade)
-
----------------------------------------------------------------------------------
-
-
 
 
 
