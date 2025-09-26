@@ -406,7 +406,12 @@ knitr::opts_chunk$set(include = FALSE)
 
 ![](resources/images/behaviour_setting.jpg "Behaviour Settings"){.lightbox height=500px}
 <br> Behaviour settings [@dirienzo_Navigating_2024; see also @mcgann_People_2024]
- 
+
+## Desire Paths
+
+![](resources/images/desire_paths.png "Desire Paths"){.lightbox height=500px}
+
+
 ## Choice Architecture
 
 - 6 principles of good choice architecture
