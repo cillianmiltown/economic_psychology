@@ -264,7 +264,6 @@ $$p(y|x) = \frac{p(x|y)p(y)}{p(x)}$$
   + Intuitive prosecutor
   + Intuitive theologian
 
-
 ## Booking a Holiday 1
 
 - You have a chance to by a very cheap holiday to Italy, but you must today.
@@ -273,19 +272,16 @@ $$p(y|x) = \frac{p(x|y)p(y)}{p(x)}$$
   + Don't buy the holiday.
   + Pay €5 so you can still buy the holiday at the cheap price in two days time.
 
-## Booking a Holiday 1 Vote{.smaller}
+[https://vevox.app/#/m/107169906](https://vevox.app/#/m/107169906)
 
-<iframe src="https://app.sli.do/event/vA4qnxWvojyGN48GM4yFeK/embed/polls/bc02a010-b754-40e8-a03d-84de6a11cdb2" width=100% height="400"></iframe>
 
-[https://app.sli.do/event/vA4qnxWvojyGN48GM4yFeK/embed/polls/bc02a010-b754-40e8-a03d-84de6a11cdb2](https://app.sli.do/event/vA4qnxWvojyGN48GM4yFeK/embed/polls/bc02a010-b754-40e8-a03d-84de6a11cdb2)
 
-Or go to Slido.com and enter code #3891787
 
-## Booking a Holiday 1 Results{.smaller}
+## Booking a Holiday 1 Results ([link](https://ul.display.vevox.com#/present/797179/PHTAYS27OMQCFIDA87ET)){.smaller}
 
-<iframe width="900" height="500" src="https://wall.sli.do/event/vA4qnxWvojyGN48GM4yFeK?section=b501f930-6044-41c0-aafd-b4db68fca3d3" frameborder="0" allow="autoplay; encrypted-media"></iframe>
 
-[https://wall.sli.do/event/vA4qnxWvojyGN48GM4yFeK?section=b501f930-6044-41c0-aafd-b4db68fca3d3](https://wall.sli.do/event/vA4qnxWvojyGN48GM4yFeK?section=b501f930-6044-41c0-aafd-b4db68fca3d3)
+<iframe width="900" height="550" src="https://ul.display.vevox.com#/present/797179/PHTAYS27OMQCFIDA87ET" frameborder="0" allow="autoplay; encrypted-media"></iframe>
+
 
 ## Booking a Holiday 2
 
@@ -294,20 +290,15 @@ Or go to Slido.com and enter code #3891787
   + Buy the holiday.
   + Don't buy the holiday.
   + Pay €5 so you can still buy the holiday at the cheap price in two days time.
-  
-## Booking a Holiday 2 Vote{.smaller}
 
-<iframe src="https://app.sli.do/event/j4eFry1KME4EkQnjQi9sjU/embed/polls/e30fb55e-b1db-4e97-aa52-c1bc5e505193" width=100% height="400"></iframe>
+[https://vevox.app/#/m/137212716](https://vevox.app/#/m/137212716)
 
-[https://app.sli.do/event/j4eFry1KME4EkQnjQi9sjU/embed/polls/e30fb55e-b1db-4e97-aa52-c1bc5e505193](https://app.sli.do/event/j4eFry1KME4EkQnjQi9sjU/embed/polls/e30fb55e-b1db-4e97-aa52-c1bc5e505193)
 
-Or go to Slido.com and enter code #3891788
 
-## Booking a Holiday 2 Results{.smaller}
+## Booking a Holiday 2 Results ([link](https://ul.display.vevox.com#/present/797184/ZZRZU8JXAQBX86OHZHEH)){.smaller}
 
-<iframe width="900" height="500" src="https://wall.sli.do/event/j4eFry1KME4EkQnjQi9sjU?section=ed00b877-f3d9-4c4f-bc3c-54ab11a1c2f0" frameborder="0" allow="autoplay; encrypted-media"></iframe>
+<iframe width="900" height="500" src="https://ul.display.vevox.com#/present/797184/ZZRZU8JXAQBX86OHZHEH" frameborder="0" allow="autoplay; encrypted-media"></iframe>
 
-[https://wall.sli.do/event/j4eFry1KME4EkQnjQi9sjU?section=ed00b877-f3d9-4c4f-bc3c-54ab11a1c2f0](https://wall.sli.do/event/j4eFry1KME4EkQnjQi9sjU?section=ed00b877-f3d9-4c4f-bc3c-54ab11a1c2f0)
 
 
 ## Booking a Holiday 3
@@ -318,20 +309,13 @@ Or go to Slido.com and enter code #3891788
   + Don't buy the holiday.
   + Pay €5 so you can still buy the holiday at the cheap price in two days time.
 
+[https://vevox.app/#/m/109337883](https://vevox.app/#/m/109337883)
 
-## Booking a Holiday 3 Vote{.smaller}
 
-<iframe src="https://app.sli.do/event/7Ts4GvWhiowWJoAhdHkvAb/embed/polls/def899ec-dda8-4941-8773-c9613793c4c9" width=100% height="400"></iframe>
+## Booking a Holiday 3 Results ([link](https://ul.display.vevox.com#/present/797185/9TXXEP6W8JKGAEMDYGMA)){.smaller}
 
-[https://app.sli.do/event/7Ts4GvWhiowWJoAhdHkvAb/embed/polls/def899ec-dda8-4941-8773-c9613793c4c9](https://app.sli.do/event/7Ts4GvWhiowWJoAhdHkvAb/embed/polls/def899ec-dda8-4941-8773-c9613793c4c9)
+<iframe width="900" height="500" src="https://ul.display.vevox.com#/present/797185/9TXXEP6W8JKGAEMDYGMA" frameborder="0" allow="autoplay; encrypted-media"></iframe>
 
-Or go to Slido.com and enter code #3891789
-
-## Booking a Holiday 3 Results{.smaller}
-
-<iframe width="900" height="500" src="https://wall.sli.do/event/7Ts4GvWhiowWJoAhdHkvAb?section=3599c4f8-4037-46c1-a047-635e60beed19" frameborder="0" allow="autoplay; encrypted-media"></iframe>
-
-[https://wall.sli.do/event/7Ts4GvWhiowWJoAhdHkvAb?section=3599c4f8-4037-46c1-a047-635e60beed19](https://wall.sli.do/event/7Ts4GvWhiowWJoAhdHkvAb?section=3599c4f8-4037-46c1-a047-635e60beed19)
 
 
 ## Intuitive Politicians
@@ -398,36 +382,39 @@ Or go to Slido.com and enter code #3891789
 
 - [@evans_dualprocessing_2008, p. 257]
 
-## Features of Dual-processes: Consciousness
+
+## Consciousness
+
+
+![](resources/images/DS_title.png "dualsystems"){.lightbox}
+![](resources/images/DS_consciousness2.png "dualsystems"){.lightbox}
 
 
 
-<img src="resources/images/DS_title.png"/>
-<img src="resources/images/DS_consciousness2.png"/>
+[adapted from @evans_dualprocessing_2008, p. 257]
 
-## Features of Dual-processes: Evolution
-
+## Evolution
 
 
+![](resources/images/DS_title.png "dualsystems"){.lightbox}
+![](resources/images/DS_evolution.png "dualsystems"){.lightbox}
 
-<img src="resources/images/DS_title.png"/>
-<img src="resources/images/DS_evolution.png"/>
-
-## Features of Dual-processes: Functional
-
+[adapted from @evans_dualprocessing_2008, p. 257]
 
 
-
-<img src="resources/images/DS_title.png"/>
-<img src="resources/images/DS_functional.png"/>
-
-## Features of Dual-processes: Individual differences
+## Functional
 
 
 
 
-<img src="resources/images/DS_title.png"/>
-<img src="resources/images/DS_individual_diff.png"/>
+![](resources/images/DS_title.png "dualsystems"){.lightbox}
+![](resources/images/DS_functional.png "dualsystems"){.lightbox}
+
+## Individual differences
+
+![](resources/images/DS_title.png "dualsystems"){.lightbox}
+![](resources/images/DS_individual_diff.png "dualsystems"){.lightbox}
+
 
 ## Dual Processes and Other Variables{.smaller}
 

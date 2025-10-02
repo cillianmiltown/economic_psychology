@@ -7,7 +7,10 @@
 <link href="Lecture_4_files/libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="Lecture_4_files/libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="Lecture_4_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
-<link href="Lecture_4_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+<link href="Lecture_4_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="Lecture_4_files/libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="Lecture_4_files/libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="Lecture_4_files/libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.5.57">
 
   <meta name="author" content="Dr Cillian McHugh">
@@ -529,90 +532,70 @@ Dr Cillian McHugh
 </section>
 <section id="conditional-probability-1" class="slide level2">
 <h2>Conditional Probability</h2>
-<p><img src="resources/images/cloud.jpeg" height="300px" width="375px"></p>
+<p><a href="resources/images/cloud.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img data-src="resources/images/cloud.jpeg" title="bayes" data-heigh="300px" width="375"></a></p>
 </section>
 <section id="conditional-probability-2" class="slide level2">
 <h2>Conditional Probability</h2>
-<p><img src="resources/images/rain.png" height="250px" width="220px"></p>
+<p><a href="resources/images/rain.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img data-src="resources/images/rain.png" title="bayes" data-heigh="250px" width="220"></a></p>
 </section>
 <section id="conditional-probability-3" class="slide level2">
 <h2>Conditional Probability</h2>
-<p><img src="resources/images/rain.png" height="250px" width="220px" align="left"> <img src="resources/images/cloud.jpeg" height="300px" width="375px" align="left"></p>
-<p><br><br><br><br><br><br><br></p>
-<ul>
-<li><span class="math display">\[p(rain|clouds)\]</span></li>
-</ul>
+<p><a href="resources/images/rain.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img data-src="resources/images/rain.png" title="bayes" data-heigh="250px" width="220"></a> <a href="resources/images/cloud.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img data-src="resources/images/cloud.jpeg" title="bayes" data-heigh="300px" width="375"></a></p>
+<p><span class="math display">\[p(rain|clouds)\]</span></p>
 </section>
 <section id="conditional-probability-4" class="slide level2">
 <h2>Conditional Probability</h2>
-<p><img src="resources/images/rain.png" height="250px" width="220px"></p>
+<p><a href="resources/images/rain.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><img data-src="resources/images/rain.png" title="bayes" data-heigh="250px" width="220"></a></p>
 </section>
 <section id="conditional-probability-5" class="slide level2">
 <h2>Conditional Probability</h2>
-<p><img src="resources/images/cloud.jpeg" height="300px" width="375px"></p>
+<p><a href="resources/images/cloud.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-6"><img data-src="resources/images/cloud.jpeg" title="bayes" data-heigh="300px" width="375"></a></p>
 </section>
 <section id="conditional-probability-6" class="slide level2">
 <h2>Conditional Probability</h2>
-<p><img src="resources/images/cloud.jpeg" height="300px" width="375px" align="left"> <img src="resources/images/rain.png" height="250px" width="220px" align="left"></p>
-<p><br><br><br><br><br><br><br></p>
-<ul>
-<li><span class="math display">\[p(clouds|rain)\]</span></li>
-</ul>
+<p><a href="resources/images/cloud.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-7"><img data-src="resources/images/cloud.jpeg" title="bayes" data-heigh="300px" width="375"></a> <a href="resources/images/rain.png" class="lightbox" data-gallery="quarto-lightbox-gallery-8"><img data-src="resources/images/rain.png" title="bayes" data-heigh="250px" width="220"></a></p>
+<p><span class="math display">\[p(clouds|rain)\]</span></p>
 </section>
 <section id="conditional-probability-7" class="slide level2">
 <h2>Conditional Probability</h2>
-<p><img src="resources/images/rain.png" height="100px" width="90px" align="left"> <img src="resources/images/cloud.jpeg" height="110px" width="140px" align="left"></p>
-<p><br><br><br><br></p>
-<p><img src="resources/images/cloud.jpeg" height="110px" width="140px" align="left"> <img src="resources/images/rain.png" height="100px" width="90px" align="left"></p>
-<p><br><br><br><br></p>
-<ul>
-<li><span class="math inline">\(p(clouds|rain)\)</span> is <font color="#ff392e"><strong>not</strong></font> equal to <span class="math inline">\(p(rain|clouds)\)</span></li>
-</ul>
+<p><a href="resources/images/rain.png" class="lightbox" data-gallery="quarto-lightbox-gallery-9"><img data-src="resources/images/rain.png" title="bayes" data-heigh="100px" width="90"></a> <a href="resources/images/cloud.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-10"><img data-src="resources/images/cloud.jpeg" title="bayes" data-heigh="110px" width="140"></a></p>
+<p><a href="resources/images/cloud.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-11"><img data-src="resources/images/cloud.jpeg" title="bayes" data-heigh="110px" width="140"></a> <a href="resources/images/rain.png" class="lightbox" data-gallery="quarto-lightbox-gallery-12"><img data-src="resources/images/rain.png" title="bayes" data-heigh="100px" width="90"></a></p>
+<p><span class="math inline">\(p(clouds|rain)\)</span> is <font color="#ff392e"><strong>not</strong></font> equal to <span class="math inline">\(p(rain|clouds)\)</span></p>
 </section>
 <section id="conditional-probability-8" class="slide level2">
 <h2>Conditional Probability</h2>
 </section>
 <section id="conditional-probability-9" class="slide level2">
 <h2>Conditional Probability</h2>
-<p><img src="resources/images/smile.jpg" height="250px" width="250px"></p>
+<p><a href="resources/images/smile.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-13"><img data-src="resources/images/smile.jpg" title="bayes" data-heigh="250px" width="250"></a></p>
 </section>
 <section id="conditional-probability-10" class="slide level2">
 <h2>Conditional Probability</h2>
-<p><img src="resources/images/heart.png" height="250px" width="250px"></p>
+<p><a href="resources/images/heart.png" class="lightbox" data-gallery="quarto-lightbox-gallery-14"><img data-src="resources/images/heart.png" title="bayes" data-heigh="250px" width="250"></a></p>
 </section>
 <section id="conditional-probability-11" class="slide level2">
 <h2>Conditional Probability</h2>
-<p><img src="resources/images/heart.png" height="250px" width="250px" align="left"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src="resources/images/smile.jpg" height="250px" width="250px" align="left"></p>
-<p><br><br><br><br><br><br></p>
-<ul>
-<li><span class="math display">\[p(love|smile)\]</span></li>
-</ul>
+<p><a href="resources/images/heart.png" class="lightbox" data-gallery="quarto-lightbox-gallery-15"><img data-src="resources/images/heart.png" title="bayes" data-heigh="250px" width="250"></a> <a href="resources/images/smile.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-16"><img data-src="resources/images/smile.jpg" title="bayes" data-heigh="250px" width="250"></a></p>
+<p><span class="math display">\[p(love|smile)\]</span></p>
 </section>
 <section id="conditional-probability-12" class="slide level2">
 <h2>Conditional Probability</h2>
-<p><img src="resources/images/heart.png" height="250px" width="250px"></p>
+<p><a href="resources/images/heart.png" class="lightbox" data-gallery="quarto-lightbox-gallery-17"><img data-src="resources/images/heart.png" title="bayes" data-heigh="250px" width="250"></a></p>
 </section>
 <section id="conditional-probability-13" class="slide level2">
 <h2>Conditional Probability</h2>
-<p><img src="resources/images/smile.jpg" height="250px" width="250px"></p>
+<p><a href="resources/images/smile.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-18"><img data-src="resources/images/smile.jpg" title="bayes" data-heigh="250px" width="250"></a></p>
 </section>
 <section id="conditional-probability-14" class="slide level2">
 <h2>Conditional Probability</h2>
-<p><img src="resources/images/smile.jpg" height="250px" width="250px" align="left"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src="resources/images/heart.png" height="250px" width="250px" align="left"></p>
-<p><br><br><br><br><br><br></p>
-<ul>
-<li><span class="math display">\[p(smile|love)\]</span></li>
-</ul>
+<p><a href="resources/images/smile.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-19"><img data-src="resources/images/smile.jpg" title="bayes" data-heigh="250px" width="250"></a> <a href="resources/images/heart.png" class="lightbox" data-gallery="quarto-lightbox-gallery-20"><img data-src="resources/images/heart.png" title="bayes" data-heigh="250px" width="250"></a></p>
+<p><span class="math display">\[p(smile|love)\]</span></p>
 </section>
 <section id="conditional-probability-15" class="slide level2">
 <h2>Conditional Probability</h2>
-<p><img src="resources/images/smile.jpg" height="100px" width="100px" align="left"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src="resources/images/heart.png" height="100px" width="100px" align="left"></p>
-<p><br><br></p>
-<p><img src="resources/images/heart.png" height="100px" width="100px" align="left"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src="resources/images/smile.jpg" height="100px" width="100px" align="left"></p>
-<p><br><br></p>
-<ul>
-<li><span class="math inline">\(p(smile|love)\)</span> is <font color="#ff392e"><strong>not</strong></font> equal to <span class="math inline">\(p(love|smile)\)</span></li>
-</ul>
+<p><a href="resources/images/smile.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-21"><img data-src="resources/images/smile.jpg" title="bayes" data-heigh="100px" width="100"></a> <a href="resources/images/heart.png" class="lightbox" data-gallery="quarto-lightbox-gallery-22"><img data-src="resources/images/heart.png" title="bayes" data-heigh="100px" width="100"></a></p>
+<p><a href="resources/images/heart.png" class="lightbox" data-gallery="quarto-lightbox-gallery-23"><img data-src="resources/images/heart.png" title="bayes" data-heigh="100px" width="100"></a> <a href="resources/images/smile.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-24"><img data-src="resources/images/smile.jpg" title="bayes" data-heigh="100px" width="100"></a></p>
+<p><span class="math inline">\(p(smile|love)\)</span> is <font color="#ff392e"><strong>not</strong></font> equal to <span class="math inline">\(p(love|smile)\)</span></p>
 </section></section>
 <section>
 <section id="working-with-conditional-probabilities" class="title-slide slide level1 center">
@@ -624,13 +607,11 @@ Dr Cillian McHugh
 </section>
 <section id="probability-in-cards" class="slide level2">
 <h2>Probability in Cards</h2>
-<p><img src="resources/images/carddeck.jpg" height="450px" width="500px" align="center"></p>
+<p><a href="resources/images/carddeck.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-25"><img data-src="resources/images/carddeck.jpg" title="bayes" data-heigh="450px" data-align="center" width="500"></a></p>
 </section>
 <section id="probability-in-cards-1" class="slide level2">
 <h2>Probability in Cards</h2>
-<p><img src="resources/images/carddeck.jpg" height="240px" width="300px" align="left"></p>
-<p><img src="resources/images/suits.png" height="240px" width="250px" align="left"></p>
-<p><br><br><br><br><br></p>
+<p><a href="resources/images/carddeck.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-26"><img data-src="resources/images/carddeck.jpg" title="bayes" data-heigh="240px" data-align="left" width="300"></a> <a href="resources/images/suits.png" class="lightbox" data-gallery="quarto-lightbox-gallery-27"><img data-src="resources/images/suits.png" title="bayes" data-heigh="240px" data-align="left" width="250"></a></p>
 <div>
 <ul>
 <li class="fragment"><p><span class="math inline">\(p(\heartsuit) = ?\)</span></p></li>
@@ -641,7 +622,7 @@ Dr Cillian McHugh
 </section>
 <section id="probability-in-cards-2" class="slide level2">
 <h2>Probability in Cards</h2>
-<p><img src="resources/images/queens.jpeg" height="404px" width="614px" align="left"></p>
+<p><img data-src="resources/images/queens.jpeg" title="bayes">{.lightbox heigh=“404px” width=“614px” alig</p>
 <div>
 <ul>
 <li class="fragment"><p><span class="math inline">\(p(Q) = ?\)</span></p></li>
@@ -652,8 +633,7 @@ Dr Cillian McHugh
 </section>
 <section id="probability-in-cards-3" class="slide level2">
 <h2>Probability in Cards</h2>
-<p><img src="resources/images/queenofhearts.gif" height="250px" width="200px" align="left"></p>
-<p><br><br><br><br><br><br></p>
+<p><a href="resources/images/queenofhearts.gif" class="lightbox" data-gallery="quarto-lightbox-gallery-28"><img data-src="resources/images/queenofhearts.gif" title="bayes" data-heigh="250px" data-align="left" width="200"></a></p>
 <ul>
 <li><span class="math inline">\(p(Q,\heartsuit) = \frac{1}{52}\)</span></li>
 </ul>
@@ -828,12 +808,12 @@ Dr Cillian McHugh
 </section>
 <section id="prospect-theory-4" class="slide level2">
 <h2>Prospect Theory</h2>
-<p><img src="resources/images/Screenshot_20180919_190001.png" height="400px" width="500px" align="center"></p>
+<p><a href="resources/images/Screenshot_20180919_190001.png" class="lightbox" data-gallery="quarto-lightbox-gallery-29"><img data-src="resources/images/Screenshot_20180919_190001.png" title="prospect" data-heigh="400px" data-align="left" width="500"></a></p>
 <p><span class="citation" data-cites="kahneman_prospect_1979">(<a href="#/references-1" role="doc-biblioref" onclick="">Kahneman &amp; Tversky, 1979, p. 279</a>)</span></p>
 </section>
 <section id="prospect-theory-5" class="slide level2">
 <h2>Prospect Theory</h2>
-<p><img src="resources/images/prospect_weights.png" height="400px" width="500px" align="center"></p>
+<p><a href="resources/images/prospect_weights.png" class="lightbox" data-gallery="quarto-lightbox-gallery-30"><img data-src="resources/images/prospect_weights.png" title="prospect" data-heigh="400px" data-align="left" width="500"></a></p>
 <p><span class="citation" data-cites="kahneman_prospect_1979">(<a href="#/references-1" role="doc-biblioref" onclick="">Kahneman &amp; Tversky, 1979, p. 283</a>)</span></p>
 </section></section>
 <section>
@@ -866,19 +846,17 @@ Dr Cillian McHugh
 <li>Pay €5 so you can still buy the holiday at the cheap price in two days time.</li>
 </ul></li>
 </ul>
+<p><a href="https://vevox.app/#/m/107169906">https://vevox.app/#/m/107169906</a></p>
 </section>
 <section id="booking-a-holiday-1-vote" class="slide level2 smaller">
 <h2>Booking a Holiday 1 Vote</h2>
-<iframe src="https://app.sli.do/event/vA4qnxWvojyGN48GM4yFeK/embed/polls/bc02a010-b754-40e8-a03d-84de6a11cdb2" width="100%" height="400">
+<iframe src="https://vevox.app/#/m/107169906" height="100%" width="100%" frameborder="0" style="min-height: 800px;" title="Vevox">
 </iframe>
-<p><a href="https://app.sli.do/event/vA4qnxWvojyGN48GM4yFeK/embed/polls/bc02a010-b754-40e8-a03d-84de6a11cdb2">https://app.sli.do/event/vA4qnxWvojyGN48GM4yFeK/embed/polls/bc02a010-b754-40e8-a03d-84de6a11cdb2</a></p>
-<p>Or go to Slido.com and enter code #3891787</p>
 </section>
-<section id="booking-a-holiday-1-results" class="slide level2 smaller">
-<h2>Booking a Holiday 1 Results</h2>
-<iframe width="900" height="500" src="https://wall.sli.do/event/vA4qnxWvojyGN48GM4yFeK?section=b501f930-6044-41c0-aafd-b4db68fca3d3" frameborder="0" allow="autoplay; encrypted-media">
+<section id="booking-a-holiday-1-results-link" class="slide level2 smaller">
+<h2>Booking a Holiday 1 Results (<a href="https://ul.display.vevox.com#/present/797179/PHTAYS27OMQCFIDA87ET">link</a>)</h2>
+<iframe width="900" height="550" src="https://ul.display.vevox.com#/present/797179/PHTAYS27OMQCFIDA87ET" frameborder="0" allow="autoplay; encrypted-media">
 </iframe>
-<p><a href="https://wall.sli.do/event/vA4qnxWvojyGN48GM4yFeK?section=b501f930-6044-41c0-aafd-b4db68fca3d3">https://wall.sli.do/event/vA4qnxWvojyGN48GM4yFeK?section=b501f930-6044-41c0-aafd-b4db68fca3d3</a></p>
 </section>
 <section id="booking-a-holiday-2" class="slide level2">
 <h2>Booking a Holiday 2</h2>
@@ -891,19 +869,17 @@ Dr Cillian McHugh
 <li>Pay €5 so you can still buy the holiday at the cheap price in two days time.</li>
 </ul></li>
 </ul>
+<p><a href="https://vevox.app/#/m/137212716">https://vevox.app/#/m/137212716</a></p>
 </section>
 <section id="booking-a-holiday-2-vote" class="slide level2 smaller">
 <h2>Booking a Holiday 2 Vote</h2>
-<iframe src="https://app.sli.do/event/j4eFry1KME4EkQnjQi9sjU/embed/polls/e30fb55e-b1db-4e97-aa52-c1bc5e505193" width="100%" height="400">
+<iframe src="https://vevox.app/#/m/137212716" height="100%" width="100%" frameborder="0" style="min-height: 800px;" title="Vevox">
 </iframe>
-<p><a href="https://app.sli.do/event/j4eFry1KME4EkQnjQi9sjU/embed/polls/e30fb55e-b1db-4e97-aa52-c1bc5e505193">https://app.sli.do/event/j4eFry1KME4EkQnjQi9sjU/embed/polls/e30fb55e-b1db-4e97-aa52-c1bc5e505193</a></p>
-<p>Or go to Slido.com and enter code #3891788</p>
 </section>
-<section id="booking-a-holiday-2-results" class="slide level2 smaller">
-<h2>Booking a Holiday 2 Results</h2>
-<iframe width="900" height="500" src="https://wall.sli.do/event/j4eFry1KME4EkQnjQi9sjU?section=ed00b877-f3d9-4c4f-bc3c-54ab11a1c2f0" frameborder="0" allow="autoplay; encrypted-media">
+<section id="booking-a-holiday-2-results-link" class="slide level2 smaller">
+<h2>Booking a Holiday 2 Results (<a href="https://ul.display.vevox.com#/present/797184/ZZRZU8JXAQBX86OHZHEH">link</a>)</h2>
+<iframe width="900" height="500" src="https://ul.display.vevox.com#/present/797184/ZZRZU8JXAQBX86OHZHEH" frameborder="0" allow="autoplay; encrypted-media">
 </iframe>
-<p><a href="https://wall.sli.do/event/j4eFry1KME4EkQnjQi9sjU?section=ed00b877-f3d9-4c4f-bc3c-54ab11a1c2f0">https://wall.sli.do/event/j4eFry1KME4EkQnjQi9sjU?section=ed00b877-f3d9-4c4f-bc3c-54ab11a1c2f0</a></p>
 </section>
 <section id="booking-a-holiday-3" class="slide level2">
 <h2>Booking a Holiday 3</h2>
@@ -916,19 +892,17 @@ Dr Cillian McHugh
 <li>Pay €5 so you can still buy the holiday at the cheap price in two days time.</li>
 </ul></li>
 </ul>
+<p><a href="https://vevox.app/#/m/109337883">https://vevox.app/#/m/109337883</a></p>
 </section>
 <section id="booking-a-holiday-3-vote" class="slide level2 smaller">
 <h2>Booking a Holiday 3 Vote</h2>
-<iframe src="https://app.sli.do/event/7Ts4GvWhiowWJoAhdHkvAb/embed/polls/def899ec-dda8-4941-8773-c9613793c4c9" width="100%" height="400">
+<iframe src="https://vevox.app/#/m/109337883" height="100%" width="100%" frameborder="0" style="min-height: 800px;" title="Vevox">
 </iframe>
-<p><a href="https://app.sli.do/event/7Ts4GvWhiowWJoAhdHkvAb/embed/polls/def899ec-dda8-4941-8773-c9613793c4c9">https://app.sli.do/event/7Ts4GvWhiowWJoAhdHkvAb/embed/polls/def899ec-dda8-4941-8773-c9613793c4c9</a></p>
-<p>Or go to Slido.com and enter code #3891789</p>
 </section>
-<section id="booking-a-holiday-3-results" class="slide level2 smaller">
-<h2>Booking a Holiday 3 Results</h2>
-<iframe width="900" height="500" src="https://wall.sli.do/event/7Ts4GvWhiowWJoAhdHkvAb?section=3599c4f8-4037-46c1-a047-635e60beed19" frameborder="0" allow="autoplay; encrypted-media">
+<section id="booking-a-holiday-3-results-link" class="slide level2 smaller">
+<h2>Booking a Holiday 3 Results (<a href="https://ul.display.vevox.com#/present/797185/9TXXEP6W8JKGAEMDYGMA">link</a>)</h2>
+<iframe width="900" height="500" src="https://ul.display.vevox.com#/present/797185/9TXXEP6W8JKGAEMDYGMA" frameborder="0" allow="autoplay; encrypted-media">
 </iframe>
-<p><a href="https://wall.sli.do/event/7Ts4GvWhiowWJoAhdHkvAb?section=3599c4f8-4037-46c1-a047-635e60beed19">https://wall.sli.do/event/7Ts4GvWhiowWJoAhdHkvAb?section=3599c4f8-4037-46c1-a047-635e60beed19</a></p>
 </section>
 <section id="intuitive-politicians" class="slide level2">
 <h2>Intuitive Politicians</h2>
@@ -1002,21 +976,21 @@ Dr Cillian McHugh
 </section>
 <section id="consciousness" class="slide level2">
 <h2>Consciousness</h2>
-<p><img src="resources/images/DS_title.png"> <img src="resources/images/DS_consciousness2.png"></p>
+<p><a href="resources/images/DS_title.png" class="lightbox" data-gallery="quarto-lightbox-gallery-31"><img data-src="resources/images/DS_title.png" title="dualsystems"></a> <a href="resources/images/DS_consciousness2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-32"><img data-src="resources/images/DS_consciousness2.png" title="dualsystems"></a></p>
 <p><span class="citation" data-cites="evans_dualprocessing_2008">(adapted from <a href="#/references-1" role="doc-biblioref" onclick="">Evans, 2008, p. 257</a>)</span></p>
 </section>
 <section id="evolution" class="slide level2">
 <h2>Evolution</h2>
-<p><img src="resources/images/DS_title.png"> <img src="resources/images/DS_evolution.png"></p>
+<p><a href="resources/images/DS_title.png" class="lightbox" data-gallery="quarto-lightbox-gallery-33"><img data-src="resources/images/DS_title.png" title="dualsystems"></a> <a href="resources/images/DS_evolution.png" class="lightbox" data-gallery="quarto-lightbox-gallery-34"><img data-src="resources/images/DS_evolution.png" title="dualsystems"></a></p>
 <p><span class="citation" data-cites="evans_dualprocessing_2008">(adapted from <a href="#/references-1" role="doc-biblioref" onclick="">Evans, 2008, p. 257</a>)</span></p>
 </section>
 <section id="functional" class="slide level2">
 <h2>Functional</h2>
-<p><img src="resources/images/DS_title.png"> <img src="resources/images/DS_functional.png"></p>
+<p><a href="resources/images/DS_title.png" class="lightbox" data-gallery="quarto-lightbox-gallery-35"><img data-src="resources/images/DS_title.png" title="dualsystems"></a> <a href="resources/images/DS_functional.png" class="lightbox" data-gallery="quarto-lightbox-gallery-36"><img data-src="resources/images/DS_functional.png" title="dualsystems"></a></p>
 </section>
 <section id="individual-differences" class="slide level2">
 <h2>Individual differences</h2>
-<p><img src="resources/images/DS_title.png"> <img src="resources/images/DS_individual_diff.png"></p>
+<p><a href="resources/images/DS_title.png" class="lightbox" data-gallery="quarto-lightbox-gallery-37"><img data-src="resources/images/DS_title.png" title="dualsystems"></a> <a href="resources/images/DS_individual_diff.png" class="lightbox" data-gallery="quarto-lightbox-gallery-38"><img data-src="resources/images/DS_individual_diff.png" title="dualsystems"></a></p>
 </section>
 <section id="dual-processes-and-other-variables" class="slide level2 smaller">
 <h2>Dual Processes and Other Variables</h2>
@@ -1159,50 +1133,48 @@ Dr Cillian McHugh
 <p>Are you permitted to take the orange?</p>
 <p><br></p>
 <p><span class="citation" data-cites="bucciarelli_psychology_2008 johnson-laird_how_2006">(<a href="#/references-1" role="doc-biblioref" onclick="">Bucciarelli, Khemlani, &amp; Johnson-Laird, 2008</a>; <a href="#/references-1" role="doc-biblioref" onclick="">Johnson-Laird, 2006</a>)</span></p>
+<p><a href="https://vevox.app/#/m/144105154">https://vevox.app/#/m/144105154</a></p>
 </section>
 <section id="mental-models-vote" class="slide level2 smaller">
 <h2>Mental Models Vote</h2>
-<iframe src="https://app.sli.do/event/x67ZWSo4ipwLUYBWWXFoys/embed/polls/576e49ad-e785-4db5-8ee0-c003f8c9ec66" width="100%" height="400">
+<iframe src="https://vevox.app/#/m/144105154" height="100%" width="100%" frameborder="0" style="min-height: 800px;" title="Vevox">
 </iframe>
-<p><a href="https://app.sli.do/event/x67ZWSo4ipwLUYBWWXFoys/embed/polls/576e49ad-e785-4db5-8ee0-c003f8c9ec66">https://app.sli.do/event/x67ZWSo4ipwLUYBWWXFoys/embed/polls/576e49ad-e785-4db5-8ee0-c003f8c9ec66</a></p>
-<p>Or go to Slido.com and enter code #4161476</p>
 </section>
-<section id="mental-models-results" class="slide level2">
-<h2>Mental Models Results</h2>
-<iframe width="900" height="500" src="https://wall.sli.do/event/x67ZWSo4ipwLUYBWWXFoys?section=5726a2d8-b67b-4054-ac3e-5012c7b1938a" frameborder="0" allow="autoplay; encrypted-media">
+<section id="mental-models-results-link" class="slide level2 smaller">
+<h2>Mental Models Results (<a href="https://ul.display.vevox.com#/present/797233/W8YNTI44ALZ0LFNZ6IGJ">link</a>)</h2>
+<iframe width="900" height="550" src="https://ul.display.vevox.com#/present/797233/W8YNTI44ALZ0LFNZ6IGJ" frameborder="0" allow="autoplay; encrypted-media">
 </iframe>
-<p><a href="https://wall.sli.do/event/x67ZWSo4ipwLUYBWWXFoys?section=5726a2d8-b67b-4054-ac3e-5012c7b1938a">https://wall.sli.do/event/x67ZWSo4ipwLUYBWWXFoys?section=5726a2d8-b67b-4054-ac3e-5012c7b1938a</a></p>
 </section>
 <section id="mental-models-3" class="slide level2">
 <h2>Mental Models</h2>
 <p><br></p>
-
-<img src="resources/images/apple_orange1.png" class="r-stretch"></section>
+<p><a href="resources/images/apple_orange1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-39"><img data-src="resources/images/apple_orange1.png" title="mentalmodels"></a></p>
+</section>
 <section id="mental-models-4" class="slide level2">
 <h2>Mental Models</h2>
 <p><br></p>
-
-<img src="resources/images/apple_orange2.png" class="r-stretch"></section>
+<p><a href="resources/images/apple_orange2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-40"><img data-src="resources/images/apple_orange2.png" title="mentalmodels"></a></p>
+</section>
 <section id="mental-models-5" class="slide level2">
 <h2>Mental Models</h2>
 <p><br></p>
-
-<img src="resources/images/apple_orange3.png" class="r-stretch"></section>
+<p><a href="resources/images/apple_orange3.png" class="lightbox" data-gallery="quarto-lightbox-gallery-41"><img data-src="resources/images/apple_orange3.png" title="mentalmodels"></a></p>
+</section>
 <section id="complete-models" class="slide level2">
 <h2>Complete Models</h2>
 <p><br></p>
-
-<img src="resources/images/apple_orange4.png" class="r-stretch"></section>
+<p><a href="resources/images/apple_orange4.png" class="lightbox" data-gallery="quarto-lightbox-gallery-42"><img data-src="resources/images/apple_orange4.png" title="mentalmodels"></a></p>
+</section>
 <section id="complete-models-1" class="slide level2">
 <h2>Complete Models</h2>
 <p><br></p>
-
-<img src="resources/images/apple_orange5.png" class="r-stretch"></section>
+<p><a href="resources/images/apple_orange5.png" class="lightbox" data-gallery="quarto-lightbox-gallery-43"><img data-src="resources/images/apple_orange5.png" title="mentalmodels"></a></p>
+</section>
 <section id="mental-models-6" class="slide level2">
 <h2>Mental Models</h2>
 <p><br></p>
-
-<img src="resources/images/apple_orange3.png" class="r-stretch"></section>
+<p><a href="resources/images/apple_orange3.png" class="lightbox" data-gallery="quarto-lightbox-gallery-44"><img data-src="resources/images/apple_orange3.png" title="mentalmodels"></a></p>
+</section>
 <section id="mental-models-and-incomplete-information" class="slide level2">
 <h2>Mental Models and Incomplete Information</h2>
 <ul>
@@ -1216,7 +1188,7 @@ Dr Cillian McHugh
 <li><em>All of the napkins are blue</em></li>
 </ul>
 <p><br></p>
-<p><img src="resources/images/blue_napkin.png" height="283"></p>
+<p><a href="resources/images/blue_napkin.png" class="lightbox" data-gallery="quarto-lightbox-gallery-45"><img data-src="resources/images/blue_napkin.png" title="mentalmodels" height="283"></a></p>
 </section>
 <section id="mental-models-and-incomplete-information-2" class="slide level2">
 <h2>Mental Models and Incomplete Information</h2>
@@ -1230,17 +1202,16 @@ Dr Cillian McHugh
 <ul>
 <li><em>if there’s a lily in the vase then there’s a rose</em></li>
 </ul>
-<p><br></p>
-
-<img src="resources/images/lilly_rose1.png" class="r-stretch"></section>
+<p><br> <a href="resources/images/lilly_rose1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-46"><img data-src="resources/images/lilly_rose1.png" title="mentalmodels"></a></p>
+</section>
 <section id="mental-models-and-incomplete-information-4" class="slide level2">
 <h2>Mental Models and Incomplete Information</h2>
 <ul>
 <li><em>if there’s a lily in the vase then there’s a rose</em></li>
 </ul>
 <p><br></p>
-
-<img src="resources/images/lilly_rose2.png" class="r-stretch"></section>
+<p><a href="resources/images/lilly_rose2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-47"><img data-src="resources/images/lilly_rose2.png" title="mentalmodels"></a></p>
+</section>
 <section id="mental-models-and-spatial-relations" class="slide level2">
 <h2>Mental Models and Spatial Relations</h2>
 <ul>
@@ -1255,8 +1226,8 @@ Dr Cillian McHugh
 <li><em>the knife is on the right of the fork, and the napkin is on the left of the knife</em></li>
 </ul>
 <p><br></p>
-
-<img src="resources/images/knife_fork.png" class="r-stretch"></section>
+<p><a href="resources/images/knife_fork.png" class="lightbox" data-gallery="quarto-lightbox-gallery-48"><img data-src="resources/images/knife_fork.png" title="mentalmodels"></a></p>
+</section>
 <section id="mental-models-and-alternative-possibilities" class="slide level2">
 <h2>Mental Models and Alternative Possibilities</h2>
 <ul>
@@ -1272,7 +1243,7 @@ Dr Cillian McHugh
 <li><p><em>the knife is on the right of the fork, and the napkin is on the left of the knife</em></p></li>
 <li><p>Is the fork on the right of the napkin?</p></li>
 </ul>
-<p><img src="resources/images/napkin_fork_knife.png"> <img src="resources/images/fork_napkin_knife.png"></p>
+<p><a href="resources/images/napkin_fork_knife.png" class="lightbox" data-gallery="quarto-lightbox-gallery-49"><img data-src="resources/images/napkin_fork_knife.png" title="mentalmodels"></a> <a href="resources/images/fork_napkin_knife.png" class="lightbox" data-gallery="quarto-lightbox-gallery-50"><img data-src="resources/images/fork_napkin_knife.png" title="mentalmodels"></a></p>
 </section>
 <section id="uses-of-mental-models" class="slide level2">
 <h2>Uses of Mental Models</h2>
@@ -1291,11 +1262,12 @@ Dr Cillian McHugh
 <h2>Further Reading</h2>
 <div class="{columns}">
 <div class="column" style="width:30%;">
-<p><img src="resources/images/evans_2008.png"> <span class="citation" data-cites="evans_thinking_2010">(<a href="#/references-1" role="doc-biblioref" onclick="">Evans, 2010</a>)</span></p>
+<p><a href="resources/images/evans_2008.png" class="lightbox" data-gallery="quarto-lightbox-gallery-51"><img data-src="resources/images/evans_2008.png" title="mentalmodels"></a></p>
+<p><span class="citation" data-cites="evans_thinking_2010">(<a href="#/references-1" role="doc-biblioref" onclick="">Evans, 2010</a>)</span></p>
 </div><div class="column" style="width:15%;">
 <p>&nbsp;</p>
 </div><div class="column" style="width:35%;">
-<p><img src="resources/images/HowWeReason.png" width="290px"></p>
+<p><a href="resources/images/HowWeReason.png" class="lightbox" data-gallery="quarto-lightbox-gallery-52"><img data-src="resources/images/HowWeReason.png" title="mentalmodels"></a></p>
 <p><span class="citation" data-cites="johnson-laird_how_2006">(<a href="#/references-1" role="doc-biblioref" onclick="">Johnson-Laird, 2006</a>)</span></p>
 </div></div>
 </section>
@@ -1322,7 +1294,7 @@ Dr Cillian McHugh
 <div class="quarto-auto-generated-content">
 <p><img src="resources/images/ul-psychology-logos.png" class="slide-logo"></p>
 <div class="footer footer-default">
-<p>PS4168: Cillian McHugh - 4/10/24</p>
+<p>PS4168: Cillian McHugh - 3/10/25</p>
 </div>
 </div>
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
@@ -1691,42 +1663,80 @@ Wärneryd, K.-E. (2008). Economics and psychology: <span>Economic</span> psychol
       });
     </script>
     
+
     <script>
+
       // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+
       // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+
       // slide changes (different for each slide format).
+
       (function () {
+
         // dispatch for htmlwidgets
+
         function fireSlideEnter() {
+
           const event = window.document.createEvent("Event");
+
           event.initEvent("slideenter", true, true);
+
           window.document.dispatchEvent(event);
+
         }
+
+    
 
         function fireSlideChanged(previousSlide, currentSlide) {
+
           fireSlideEnter();
 
+    
+
           // dispatch for shiny
+
           if (window.jQuery) {
+
             if (previousSlide) {
+
               window.jQuery(previousSlide).trigger("hidden");
+
             }
+
             if (currentSlide) {
+
               window.jQuery(currentSlide).trigger("shown");
+
             }
+
           }
+
         }
+
+    
 
         // hookup for slidy
+
         if (window.w3c_slidy) {
+
           window.w3c_slidy.add_observer(function (slide_num) {
+
             // slide_num starts at position 1
+
             fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+
           });
+
         }
 
+    
+
       })();
+
     </script>
+
+    
 
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
@@ -1915,6 +1925,38 @@ Wärneryd, K.-E. (2008). Economics and psychology: <span>Economic</span> psychol
       }
     });
     </script>
+    <script>var lightboxQuarto = GLightbox({"openEffect":"zoom","descPosition":"bottom","selector":".lightbox","loop":false,"closeEffect":"zoom"});
+    (function() {
+      let previousOnload = window.onload;
+      window.onload = () => {
+        if (previousOnload) {
+          previousOnload();
+        }
+        lightboxQuarto.on('slide_before_load', (data) => {
+          const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+          const href = trigger.getAttribute('href');
+          if (href !== null) {
+            const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+            if (imgEl !== null) {
+              const srcAttr = imgEl.getAttribute("src");
+              if (srcAttr && srcAttr.startsWith("data:")) {
+                slideConfig.href = srcAttr;
+              }
+            }
+          } 
+        });
+      
+        lightboxQuarto.on('slide_after_load', (data) => {
+          const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(slideNode);
+          }
+        });
+      
+      };
+      
+    })();
+              </script>
     
 
 </body></html>

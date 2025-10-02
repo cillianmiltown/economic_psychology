@@ -10,7 +10,7 @@ format:
     slide-number: false
     controls: true
     logo: "resources/images/ul-psychology-logos.png"
-    footer: "PS4168: Cillian McHugh - 4/10/24"
+    footer: "PS4168: Cillian McHugh - 3/10/25"
     theme: "resources/css/mytheme.scss"
     incremental: false
     chalkboard: 
@@ -193,35 +193,8 @@ library(devtools)
 
 
 
-<img src="resources/images/cloud.jpeg" height="300px" width="375px"/>
+![](resources/images/cloud.jpeg "bayes"){.lightbox heigh="300px" width="375px"}
 
-## Conditional Probability
-
-
-
-
-<img src="resources/images/rain.png" height="250px" width="220px"  />
-
-
-## Conditional Probability
-
-
-
-
-<img src="resources/images/rain.png" height="250px" width="220px" align="left" />
-<img src="resources/images/cloud.jpeg" height="300px" width="375px" align="left" />
-
-<br><br><br><br><br><br><br>
-
-
-* $$p(rain|clouds)$$
-
-## Conditional Probability
-
-
-
-
-<img src="resources/images/rain.png" height="250px" width="220px"  />
 
 
 
@@ -230,41 +203,54 @@ library(devtools)
 
 
 
-<img src="resources/images/cloud.jpeg" height="300px" width="375px"/>
+![](resources/images/rain.png "bayes"){.lightbox heigh="250px" width="220px"}
+
 
 
 ## Conditional Probability
 
 
 
-
-<img src="resources/images/cloud.jpeg" height="300px" width="375px" align="left" /> 
-<img src="resources/images/rain.png" height="250px" width="220px" align="left" />
-
-<br><br><br><br><br><br><br>
+![](resources/images/rain.png "bayes"){.lightbox heigh="250px" width="220px"}
+![](resources/images/cloud.jpeg "bayes"){.lightbox heigh="300px" width="375px"}
 
 
-* $$p(clouds|rain)$$ 
+$$p(rain|clouds)$$
+
+## Conditional Probability
+
+
+![](resources/images/rain.png "bayes"){.lightbox heigh="250px" width="220px"}
+
 
 
 ## Conditional Probability
 
 
 
+![](resources/images/cloud.jpeg "bayes"){.lightbox heigh="300px" width="375px"}
 
-<img src="resources/images/rain.png" height="100px" width="90px" align="left" />
-<img src="resources/images/cloud.jpeg" height="110px" width="140px" align="left" />
-
-<br><br><br><br>
+## Conditional Probability
 
 
-<img src="resources/images/cloud.jpeg" height="110px" width="140px" align="left" />
-<img src="resources/images/rain.png" height="100px" width="90px" align="left" />
+![](resources/images/cloud.jpeg "bayes"){.lightbox heigh="300px" width="375px"}
+![](resources/images/rain.png "bayes"){.lightbox heigh="250px" width="220px"}
+
+$$p(clouds|rain)$$ 
 
 
-<br><br><br><br>
+## Conditional Probability
 
-* $p(clouds|rain)$ is <font color="#ff392e">**not**</font> equal to $p(rain|clouds)$
+![](resources/images/rain.png "bayes"){.lightbox heigh="100px" width="90px"}
+![](resources/images/cloud.jpeg "bayes"){.lightbox heigh="110px" width="140px"}
+
+
+
+![](resources/images/cloud.jpeg "bayes"){.lightbox heigh="110px" width="140px"}
+![](resources/images/rain.png "bayes"){.lightbox heigh="100px" width="90px"}
+
+
+$p(clouds|rain)$ is <font color="#ff392e">**not**</font> equal to $p(rain|clouds)$
 
 
 ## Conditional Probability
@@ -276,74 +262,55 @@ library(devtools)
 
 
 
+![](resources/images/smile.jpg "bayes"){.lightbox heigh="250px" width="250px"}
 
-<img src="resources/images/smile.jpg" height="250px" width="250px"  />
+
+## Conditional Probability
+
+
+![](resources/images/heart.png "bayes"){.lightbox heigh="250px" width="250px"}
 
 
 ## Conditional Probability
 
 
 
+![](resources/images/heart.png "bayes"){.lightbox heigh="250px" width="250px"}
+![](resources/images/smile.jpg "bayes"){.lightbox heigh="250px" width="250px"}
 
-<img src="resources/images/heart.png" height="250px" width="250px" />
-
-
-## Conditional Probability
-
-
-
-
-<img src="resources/images/heart.png" height="250px" width="250px" align="left" /> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-<img src="resources/images/smile.jpg" height="250px" width="250px" align="left" />
-
-<br><br><br><br><br><br>
-
-* $$p(love|smile)$$
+$$p(love|smile)$$
 
 
 ## Conditional Probability
 
 
+![](resources/images/heart.png "bayes"){.lightbox heigh="250px" width="250px"}
 
 
-<img src="resources/images/heart.png" height="250px" width="250px" />
+## Conditional Probability
+
+![](resources/images/smile.jpg "bayes"){.lightbox heigh="250px" width="250px"}
 
 
 ## Conditional Probability
 
 
+![](resources/images/smile.jpg "bayes"){.lightbox heigh="250px" width="250px"}
+![](resources/images/heart.png "bayes"){.lightbox heigh="250px" width="250px"}
 
 
-<img src="resources/images/smile.jpg" height="250px" width="250px"  />
-
-
-## Conditional Probability
-
-
-
-
-<img src="resources/images/smile.jpg" height="250px" width="250px" align="left" /> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-<img src="resources/images/heart.png" height="250px" width="250px" align="left" />
-
-<br><br><br><br><br><br>
-
-* $$p(smile|love)$$
+$$p(smile|love)$$
 
 ## Conditional Probability
 
+![](resources/images/smile.jpg "bayes"){.lightbox heigh="100px" width="100px"}
+![](resources/images/heart.png "bayes"){.lightbox heigh="100px" width="100px"}
 
 
-<img src="resources/images/smile.jpg" height="100px" width="100px" align="left" /> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-<img src="resources/images/heart.png" height="100px" width="100px" align="left" />
+![](resources/images/heart.png "bayes"){.lightbox heigh="100px" width="100px"}
+![](resources/images/smile.jpg "bayes"){.lightbox heigh="100px" width="100px"}
 
-<br><br>
-
-<img src="resources/images/heart.png" height="100px" width="100px" align="left" /> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-<img src="resources/images/smile.jpg" height="100px" width="100px" align="left" />
-
-<br><br>
-
-* $p(smile|love)$ is <font color="#ff392e">**not**</font> equal to $p(love|smile)$
+$p(smile|love)$ is <font color="#ff392e">**not**</font> equal to $p(love|smile)$
 
 # Working with Conditional Probabilities
 
@@ -355,19 +322,14 @@ library(devtools)
 ## Probability in Cards
 
 
-
-<img src="resources/images/carddeck.jpg" height="450px" width="500px" align="center" />
+![](resources/images/carddeck.jpg "bayes"){.lightbox heigh="450px" width="500px" align="center"}
 
 
 ## Probability in Cards
 
 
-
-<img src="resources/images/carddeck.jpg" height="240px" width="300px" align="left" />
-
-<img src="resources/images/suits.png" height="240px" width="250px" align="left" />
-
-<br><br><br><br><br>
+![](resources/images/carddeck.jpg "bayes"){.lightbox heigh="240px" width="300px" align="left"}
+![](resources/images/suits.png "bayes"){.lightbox heigh="240px" width="250px" align="left"}
 
 :::{.incremental}
 
@@ -383,7 +345,7 @@ library(devtools)
 
 
 
-<img src="resources/images/queens.jpeg" height="404px" width="614px" align="left" />
+![](resources/images/queens.jpeg "bayes"){.lightbox heigh="404px" width="614px" alig
 
 :::{.incremental}
 
@@ -397,11 +359,8 @@ library(devtools)
 
 ## Probability in Cards
 
+![](resources/images/queenofhearts.gif "bayes"){.lightbox heigh="250px" width="200px" align="left"}
 
-
-<img src="resources/images/queenofhearts.gif" height="250px" width="200px" align="left" />
-
-<br><br><br><br><br><br>
 
 - $p(Q,\heartsuit) = \frac{1}{52}$
 
@@ -624,14 +583,16 @@ $$p(y|x) = \frac{p(x|y)p(y)}{p(x)}$$
 
 ## Prospect Theory
 
-<img src="resources/images/Screenshot_20180919_190001.png" height="400px" width="500px" align="center" />
+![](resources/images/Screenshot_20180919_190001.png "prospect"){.lightbox heigh="400px" width="500px" align="left"}
+
 
 [@kahneman_prospect_1979, p. 279]
 
 
 ## Prospect Theory
 
-<img src="resources/images/prospect_weights.png" height="400px" width="500px" align="center" />
+
+![](resources/images/prospect_weights.png "prospect"){.lightbox heigh="400px" width="500px" align="left"}
 
 [@kahneman_prospect_1979, p. 283]
 
@@ -658,19 +619,19 @@ $$p(y|x) = \frac{p(x|y)p(y)}{p(x)}$$
   + Don't buy the holiday.
   + Pay €5 so you can still buy the holiday at the cheap price in two days time.
 
+[https://vevox.app/#/m/107169906](https://vevox.app/#/m/107169906)
+
 ## Booking a Holiday 1 Vote{.smaller}
 
-<iframe src="https://app.sli.do/event/vA4qnxWvojyGN48GM4yFeK/embed/polls/bc02a010-b754-40e8-a03d-84de6a11cdb2" width=100% height="400"></iframe>
+<iframe src="https://vevox.app/#/m/107169906" height="100%" width="100%" frameBorder="0" style="min-height: 800px;" title="Vevox"></iframe>
 
-[https://app.sli.do/event/vA4qnxWvojyGN48GM4yFeK/embed/polls/bc02a010-b754-40e8-a03d-84de6a11cdb2](https://app.sli.do/event/vA4qnxWvojyGN48GM4yFeK/embed/polls/bc02a010-b754-40e8-a03d-84de6a11cdb2)
 
-Or go to Slido.com and enter code #3891787
 
-## Booking a Holiday 1 Results{.smaller}
+## Booking a Holiday 1 Results ([link](https://ul.display.vevox.com#/present/797179/PHTAYS27OMQCFIDA87ET)){.smaller}
 
-<iframe width="900" height="500" src="https://wall.sli.do/event/vA4qnxWvojyGN48GM4yFeK?section=b501f930-6044-41c0-aafd-b4db68fca3d3" frameborder="0" allow="autoplay; encrypted-media"></iframe>
 
-[https://wall.sli.do/event/vA4qnxWvojyGN48GM4yFeK?section=b501f930-6044-41c0-aafd-b4db68fca3d3](https://wall.sli.do/event/vA4qnxWvojyGN48GM4yFeK?section=b501f930-6044-41c0-aafd-b4db68fca3d3)
+<iframe width="900" height="550" src="https://ul.display.vevox.com#/present/797179/PHTAYS27OMQCFIDA87ET" frameborder="0" allow="autoplay; encrypted-media"></iframe>
+
 
 ## Booking a Holiday 2
 
@@ -679,20 +640,20 @@ Or go to Slido.com and enter code #3891787
   + Buy the holiday.
   + Don't buy the holiday.
   + Pay €5 so you can still buy the holiday at the cheap price in two days time.
-  
+
+[https://vevox.app/#/m/137212716](https://vevox.app/#/m/137212716)
+ 
 ## Booking a Holiday 2 Vote{.smaller}
 
-<iframe src="https://app.sli.do/event/j4eFry1KME4EkQnjQi9sjU/embed/polls/e30fb55e-b1db-4e97-aa52-c1bc5e505193" width=100% height="400"></iframe>
 
-[https://app.sli.do/event/j4eFry1KME4EkQnjQi9sjU/embed/polls/e30fb55e-b1db-4e97-aa52-c1bc5e505193](https://app.sli.do/event/j4eFry1KME4EkQnjQi9sjU/embed/polls/e30fb55e-b1db-4e97-aa52-c1bc5e505193)
+<iframe src="https://vevox.app/#/m/137212716" height="100%" width="100%" frameBorder="0" style="min-height: 800px;" title="Vevox"></iframe>
 
-Or go to Slido.com and enter code #3891788
 
-## Booking a Holiday 2 Results{.smaller}
 
-<iframe width="900" height="500" src="https://wall.sli.do/event/j4eFry1KME4EkQnjQi9sjU?section=ed00b877-f3d9-4c4f-bc3c-54ab11a1c2f0" frameborder="0" allow="autoplay; encrypted-media"></iframe>
+## Booking a Holiday 2 Results ([link](https://ul.display.vevox.com#/present/797184/ZZRZU8JXAQBX86OHZHEH)){.smaller}
 
-[https://wall.sli.do/event/j4eFry1KME4EkQnjQi9sjU?section=ed00b877-f3d9-4c4f-bc3c-54ab11a1c2f0](https://wall.sli.do/event/j4eFry1KME4EkQnjQi9sjU?section=ed00b877-f3d9-4c4f-bc3c-54ab11a1c2f0)
+<iframe width="900" height="500" src="https://ul.display.vevox.com#/present/797184/ZZRZU8JXAQBX86OHZHEH" frameborder="0" allow="autoplay; encrypted-media"></iframe>
+
 
 
 ## Booking a Holiday 3
@@ -703,21 +664,16 @@ Or go to Slido.com and enter code #3891788
   + Don't buy the holiday.
   + Pay €5 so you can still buy the holiday at the cheap price in two days time.
 
+[https://vevox.app/#/m/109337883](https://vevox.app/#/m/109337883)
 
 ## Booking a Holiday 3 Vote{.smaller}
 
-<iframe src="https://app.sli.do/event/7Ts4GvWhiowWJoAhdHkvAb/embed/polls/def899ec-dda8-4941-8773-c9613793c4c9" width=100% height="400"></iframe>
 
-[https://app.sli.do/event/7Ts4GvWhiowWJoAhdHkvAb/embed/polls/def899ec-dda8-4941-8773-c9613793c4c9](https://app.sli.do/event/7Ts4GvWhiowWJoAhdHkvAb/embed/polls/def899ec-dda8-4941-8773-c9613793c4c9)
+<iframe src="https://vevox.app/#/m/109337883" height="100%" width="100%" frameBorder="0" style="min-height: 800px;" title="Vevox"></iframe>
 
-Or go to Slido.com and enter code #3891789
+## Booking a Holiday 3 Results ([link](https://ul.display.vevox.com#/present/797185/9TXXEP6W8JKGAEMDYGMA)){.smaller}
 
-## Booking a Holiday 3 Results{.smaller}
-
-<iframe width="900" height="500" src="https://wall.sli.do/event/7Ts4GvWhiowWJoAhdHkvAb?section=3599c4f8-4037-46c1-a047-635e60beed19" frameborder="0" allow="autoplay; encrypted-media"></iframe>
-
-[https://wall.sli.do/event/7Ts4GvWhiowWJoAhdHkvAb?section=3599c4f8-4037-46c1-a047-635e60beed19](https://wall.sli.do/event/7Ts4GvWhiowWJoAhdHkvAb?section=3599c4f8-4037-46c1-a047-635e60beed19)
-
+<iframe width="900" height="500" src="https://ul.display.vevox.com#/present/797185/9TXXEP6W8JKGAEMDYGMA" frameborder="0" allow="autoplay; encrypted-media"></iframe>
 
 
 ## Intuitive Politicians
@@ -778,16 +734,18 @@ Or go to Slido.com and enter code #3891789
 ## Consciousness
 
 
-<img src="resources/images/DS_title.png"/>
-<img src="resources/images/DS_consciousness2.png"/>
+![](resources/images/DS_title.png "dualsystems"){.lightbox}
+![](resources/images/DS_consciousness2.png "dualsystems"){.lightbox}
+
+
 
 [adapted from @evans_dualprocessing_2008, p. 257]
 
 ## Evolution
 
 
-<img src="resources/images/DS_title.png"/>
-<img src="resources/images/DS_evolution.png"/>
+![](resources/images/DS_title.png "dualsystems"){.lightbox}
+![](resources/images/DS_evolution.png "dualsystems"){.lightbox}
 
 [adapted from @evans_dualprocessing_2008, p. 257]
 
@@ -797,16 +755,14 @@ Or go to Slido.com and enter code #3891789
 
 
 
-<img src="resources/images/DS_title.png"/>
-<img src="resources/images/DS_functional.png"/>
+![](resources/images/DS_title.png "dualsystems"){.lightbox}
+![](resources/images/DS_functional.png "dualsystems"){.lightbox}
 
 ## Individual differences
 
+![](resources/images/DS_title.png "dualsystems"){.lightbox}
+![](resources/images/DS_individual_diff.png "dualsystems"){.lightbox}
 
-
-
-<img src="resources/images/DS_title.png"/>
-<img src="resources/images/DS_individual_diff.png"/>
 
 ## Dual Processes and Other Variables{.smaller}
 
@@ -934,35 +890,27 @@ Are you permitted to take the orange?
 
 [@bucciarelli_psychology_2008;@johnson-laird_how_2006]
 
+[https://vevox.app/#/m/144105154](https://vevox.app/#/m/144105154)
+
 ## Mental Models Vote{.smaller}
 
-<iframe src="https://app.sli.do/event/x67ZWSo4ipwLUYBWWXFoys/embed/polls/576e49ad-e785-4db5-8ee0-c003f8c9ec66" width=100% height="400"></iframe>
-
-[https://app.sli.do/event/x67ZWSo4ipwLUYBWWXFoys/embed/polls/576e49ad-e785-4db5-8ee0-c003f8c9ec66](https://app.sli.do/event/x67ZWSo4ipwLUYBWWXFoys/embed/polls/576e49ad-e785-4db5-8ee0-c003f8c9ec66)
-
-Or go to Slido.com and enter code #4161476
-
-## Mental Models Results
+<iframe src="https://vevox.app/#/m/144105154" height="100%" width="100%" frameBorder="0" style="min-height: 800px;" title="Vevox"></iframe>
 
 
-<iframe width="900" height="500" src="https://wall.sli.do/event/x67ZWSo4ipwLUYBWWXFoys?section=5726a2d8-b67b-4054-ac3e-5012c7b1938a" frameborder="0" allow="autoplay; encrypted-media"></iframe>
 
-[https://wall.sli.do/event/x67ZWSo4ipwLUYBWWXFoys?section=5726a2d8-b67b-4054-ac3e-5012c7b1938a](https://wall.sli.do/event/x67ZWSo4ipwLUYBWWXFoys?section=5726a2d8-b67b-4054-ac3e-5012c7b1938a)
+## Mental Models Results ([link](https://ul.display.vevox.com#/present/797233/W8YNTI44ALZ0LFNZ6IGJ)){.smaller}
+
+
+<iframe width="900" height="550" src="https://ul.display.vevox.com#/present/797233/W8YNTI44ALZ0LFNZ6IGJ" frameborder="0" allow="autoplay; encrypted-media"></iframe>
+
 
 
 ## Mental Models
 
 <br>
 
-<img src="resources/images/apple_orange1.png"/>
+![](resources/images/apple_orange1.png "mentalmodels"){.lightbox}
 
-## Mental Models
-
-
-
-<br>
-
-<img src="resources/images/apple_orange2.png"/>
 
 ## Mental Models
 
@@ -970,7 +918,17 @@ Or go to Slido.com and enter code #4161476
 
 <br>
 
-<img src="resources/images/apple_orange3.png"/>
+![](resources/images/apple_orange2.png "mentalmodels"){.lightbox}
+
+
+## Mental Models
+
+
+
+<br>
+
+![](resources/images/apple_orange3.png "mentalmodels"){.lightbox}
+
 
 ## Complete Models
 
@@ -978,7 +936,8 @@ Or go to Slido.com and enter code #4161476
 
 <br>
 
-<img src="resources/images/apple_orange4.png"/>
+![](resources/images/apple_orange4.png "mentalmodels"){.lightbox}
+
 
 ## Complete Models
 
@@ -986,7 +945,8 @@ Or go to Slido.com and enter code #4161476
 
 <br>
 
-<img src="resources/images/apple_orange5.png"/>
+![](resources/images/apple_orange5.png "mentalmodels"){.lightbox}
+
 
 
 ## Mental Models
@@ -995,7 +955,8 @@ Or go to Slido.com and enter code #4161476
 
 <br>
 
-<img src="resources/images/apple_orange3.png"/>
+![](resources/images/apple_orange3.png "mentalmodels"){.lightbox}
+
 
 
 ## Mental Models and Incomplete Information
@@ -1014,7 +975,7 @@ Or go to Slido.com and enter code #4161476
 
 <br>
 
-<img src="resources/images/blue_napkin.png" height="283" />
+![](resources/images/blue_napkin.png "mentalmodels"){.lightbox height="283"}
 
 
 ## Mental Models and Incomplete Information
@@ -1032,8 +993,8 @@ Or go to Slido.com and enter code #4161476
 - *if there’s a lily in the vase then there’s a rose*
 
 <br>
+![](resources/images/lilly_rose1.png "mentalmodels"){.lightbox}
 
-<img src="resources/images/lilly_rose1.png"/>
 
 ## Mental Models and Incomplete Information
 
@@ -1043,7 +1004,7 @@ Or go to Slido.com and enter code #4161476
 
 <br>
 
-<img src="resources/images/lilly_rose2.png"/>
+![](resources/images/lilly_rose2.png "mentalmodels"){.lightbox}
 
 
 ## Mental Models and Spatial Relations
@@ -1062,7 +1023,9 @@ Or go to Slido.com and enter code #4161476
 
 <br>
 
-<img src="resources/images/knife_fork.png"/>
+
+![](resources/images/knife_fork.png "mentalmodels"){.lightbox}
+
 
 
 ## Mental Models and Alternative Possibilities
@@ -1081,8 +1044,9 @@ Or go to Slido.com and enter code #4161476
 
 - Is the fork on the right of the napkin?
 
-<img src="resources/images/napkin_fork_knife.png"/>
-<img src="resources/images/fork_napkin_knife.png"/>
+![](resources/images/napkin_fork_knife.png "mentalmodels"){.lightbox}
+![](resources/images/fork_napkin_knife.png "mentalmodels"){.lightbox}
+
 
 ## Uses of Mental Models
 
@@ -1103,7 +1067,8 @@ Or go to Slido.com and enter code #4161476
 ::::{columns}
 
 :::{.column width="30%"}
-<img src="resources/images/evans_2008.png"/>
+![](resources/images/evans_2008.png "mentalmodels"){.lightbox}
+
 [@evans_thinking_2010]
 :::
 
@@ -1115,7 +1080,7 @@ Or go to Slido.com and enter code #4161476
 
 :::{.column width="35%"}
 
-<img src="resources/images/HowWeReason.png" width="290px"/>
+![](resources/images/HowWeReason.png "mentalmodels"){.lightbox}
 
 [@johnson-laird_how_2006]
 
