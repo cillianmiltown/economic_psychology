@@ -331,6 +331,7 @@ $p(smile|love)$ is <font color="#ff392e">**not**</font> equal to $p(love|smile)$
 ![](resources/images/carddeck.jpg "bayes"){.lightbox heigh="240px" width="300px" align="left"}
 ![](resources/images/suits.png "bayes"){.lightbox heigh="240px" width="250px" align="left"}
 
+
 :::{.incremental}
 
 - $p(\heartsuit) = ?$
@@ -345,7 +346,7 @@ $p(smile|love)$ is <font color="#ff392e">**not**</font> equal to $p(love|smile)$
 
 
 
-![](resources/images/queens.jpeg "bayes"){.lightbox heigh="404px" width="614px" alig
+![](resources/images/queens.jpeg "bayes"){.lightbox height="304px" width="514px" align="left"}
 
 :::{.incremental}
 
