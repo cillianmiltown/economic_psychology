@@ -148,7 +148,7 @@ knitr::opts_chunk$set(include = FALSE)
 ## The Prisoner Dilemma
 
   
-[https://app.sli.do/event/5N4aaJgfUJQAesFWHva6Q8](https://app.sli.do/event/5N4aaJgfUJQAesFWHva6Q8)
+[https://vevox.app/#/m/180064848](https://vevox.app/#/m/180064848)
 
 
 ## The Prisoner Dilemma
