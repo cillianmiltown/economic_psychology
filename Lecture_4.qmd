@@ -1079,7 +1079,7 @@ Are you permitted to take the orange?
 
 :::
 
-:::{.column width="35%"}
+:::{.column width="30%"}
 
 ![](resources/images/HowWeReason.png "mentalmodels"){.lightbox}
 

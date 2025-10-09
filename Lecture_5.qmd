@@ -10,7 +10,7 @@ format:
     slide-number: false
     controls: true
     logo: "resources/images/ul-psychology-logos.png"
-    footer: "PS4168: Cillian McHugh - 11/10/24"
+    footer: "PS4168: Cillian McHugh - 10/10/25"
     theme: "resources/css/mytheme.scss"
     incremental: false
     chalkboard: 
@@ -135,21 +135,22 @@ knitr::opts_chunk$set(include = FALSE)
 
 [adapted from @dowling_modern_2007; originally devised by Merrill Flood and Melvin Dresher in 1950 see @dowling_modern_2007, p. 107]
 
+[https://vevox.app/#/m/180064848](https://vevox.app/#/m/180064848)
+
 ## The Prisoner Dilemma{.smaller}
 
-<iframe src="https://app.sli.do/event/5N4aaJgfUJQAesFWHva6Q8" width=100% height="400" frameBorder="0" allow="clipboard-write" title="Slido"></iframe>
 
-[https://app.sli.do/event/5N4aaJgfUJQAesFWHva6Q8](https://app.sli.do/event/5N4aaJgfUJQAesFWHva6Q8)
-
-
-Or go to Slido.com and enter code #1970847
+<iframe src="https://vevox.app/#/m/180064848" height="100%" width="100%" frameBorder="0" style="min-height: 800px;" title="Vevox"></iframe>
 
 
+## The Prisoner Dilemma{.smaller}([link](https://ul.display.vevox.com#/present/803060/0LZVROGOP7WL61GDT0KR)){.smaller}
 
-## The Prisoner Dilemma
 
-<iframe width="900" height="600" src="https://wall.sli.do/event/5N4aaJgfUJQAesFWHva6Q8?section=841fc04c-6edc-4558-ba4c-33b06b2cc12e" frameborder="0" allow="autoplay; encrypted-media"></iframe>
+<iframe width="900" height="550" src="https://ul.display.vevox.com#/present/803060/0LZVROGOP7WL61GDT0KR" frameborder="0" allow="autoplay; encrypted-media"></iframe>
 
+
+
+https://ul.display.vevox.com#/present/803060/0LZVROGOP7WL61GDT0KR
 
 
 
@@ -1912,7 +1913,7 @@ Mixed Strategy Nash Equilibrium:
 
 - Everyone picks a number between $1$ and $100$
 
-- Everyone's response is collated to [calculate the Mean](https://www.easycalculation.com/statistics/mean-median-mode.php)
+- Everyone's response is collated to [calculate the Mean](https://docs.google.com/spreadsheets/d/1e_1XbMqxMbQuUivtAu19kNlIumi4nPSN-TqOiurl5Ys/edit?pli=1&gid=0#gid=0)
 
 - The Mean is multiplied by a constant $\frac{2}{3}$
 
@@ -1936,7 +1937,7 @@ Mixed Strategy Nash Equilibrium:
 
 - Pick a number between $1$ and $100$
 
-- [Calculate the Mean](https://www.easycalculation.com/statistics/mean-median-mode.php)
+- [Calculate the Mean](https://docs.google.com/spreadsheets/d/1e_1XbMqxMbQuUivtAu19kNlIumi4nPSN-TqOiurl5Ys/edit?pli=1&gid=0#gid=0)
 
 - The Mean is multiplied by a constant $\frac{2}{3}$
 
@@ -1955,7 +1956,7 @@ Mixed Strategy Nash Equilibrium:
 
 - Pick a number between $1$ and $100$
 
-- [Calculate the Mean](https://www.easycalculation.com/statistics/mean-median-mode.php)
+- [Calculate the Mean](https://docs.google.com/spreadsheets/d/1e_1XbMqxMbQuUivtAu19kNlIumi4nPSN-TqOiurl5Ys/edit?pli=1&gid=0#gid=0)
 
 - The Mean is multiplied by a constant $\frac{2}{3}$
 
@@ -2182,6 +2183,62 @@ Mixed Strategy Nash Equilibrium:
       - *Pavlov*
 
 :::
+
+
+
+
+# Assignment 1
+
+## Assignment 1
+
+Choice between *Heuristics* and *Game Theory*
+
+## Assignment 1: Heuristics{.smaller}
+
+Heuristics
+
+Based on your knowledge of heuristics and your observations of people's decision making in everyday life, identify a novel heuristic that may be guiding the decisions/behaviour of people. This heuristic may be context dependent or generalisable to multiple contexts.
+
+Having identified a candidate heuristic:
+
+(i) describe the heuristic
+(ii) explain why this counts as a heuristic
+(iii) describe how you would assess whether or not this heuristic is indeed guiding decisions/behaviour.
+
+## Assignment 1: Game Theory{.smaller}
+
+Based on your knowledge of Game Theory and your observations of people's interactions in everyday life, identify **three** behaviours / interactions / decision-making situations that can be characterised using one of the concepts covered.
+
+(a) One can illustrate a concept of your choice
+(b) One must illustrate ***Strict Dominance***
+(c) One must illustrate ***Nash Equilibrium***
+
+
+Describe each behaviour, and how it illustrates the relevant concept.
+
+For (2) and (3) please include a hypothetical payoff matrix. 
+
+(1000-1500 words)
+
+
+## Assignment 1: Marking scheme{.smaller}
+
+---------------------------------------------------------------------------------
+Component                                                        Percentage
+--------------------------------------------------------------- -----------------
+Clear demonstration of an in depth understanding of the topic     30\% 
+
+Critical thinking                                                 30\% 
+
+Competence in the identification and application of relevant      20\% 
+research methods
+
+Originality/Novelty                                               20\% 
+
+References, Citations, and Formatting                              0\% (potential penalty of 1 sub-grade)
+
+---------------------------------------------------------------------------------
+
 
 # In-Class Activity
 
