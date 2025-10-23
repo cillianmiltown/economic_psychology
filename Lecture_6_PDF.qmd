@@ -71,8 +71,6 @@ editor: source
 
 - Future Decisions & Affective Forecasting
 
-- Assignment 2
-
 - Activity
 
 
@@ -1147,39 +1145,6 @@ Dan is a student council representative at his school. This semester he is in ch
 - @wilson_affective_2005
 
 
-
-# Assignment 2
-
-## Assignment 2: Game Theory{.smaller}
-
-Based on your knowledge of Game Theory and your observations of people's interactions in everyday life, identify **three** behaviours / interactions / decision-making situations that can be characterised using one of the concepts covered.
-
-(a) One can illustrate a concept of your choice
-(b) One must illustrate ***Strict Dominance***
-(c) One must illustrate ***Nash Equilibrium***
-
-
-Describe each behaviour, and how it illustrates the relevant concept.
-
-For (2) and (3) please include a hypothetical payoff matrix. 
-
-(1000-1500 words)
-
-
-## Assignment 2: Marking scheme{.smaller}
-
-
-
-Clear demonstration of an in depth understanding of the topic:    30\% 
-
-Critical thinking:                                                 30\% 
-
-Competence in the identification and application of relevant research methods:       20\% 
-
-
-Originality/Novelty:                                               20\% 
-
-References, Citations, and Formatting:                    0\% (potential subgrade penalty)
 
 
 

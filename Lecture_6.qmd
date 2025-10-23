@@ -10,7 +10,7 @@ format:
     slide-number: false
     controls: true
     logo: "resources/images/ul-psychology-logos.png"
-    footer: "PS4168: Cillian McHugh - 25/10/24"
+    footer: "PS4168: Cillian McHugh - 24/10/25"
     theme: "resources/css/mytheme.scss"
     incremental: false
     chalkboard: 
@@ -116,8 +116,6 @@ function rotateAnimation(el,speed){
 - Emotions and Moral Decision Making
 
 - Future Decisions & Affective Forecasting
-
-- Assignment 2
 
 - Activity
 
@@ -1041,16 +1039,19 @@ Dan is a student council representative at his school. This semester he is in ch
 :::{.column width="45%"}
 
 ![](resources/images/snacks.png "Results"){.lightbox}
+
+<br>
+
+[https://vevox.app/#/m/108707410](https://vevox.app/#/m/108707410)
+
 :::
 
 :::{.column width="45%}
 
-<iframe src="https://app.sli.do/event/fhCDnn1XAzLDRvepMeKSpw" width=100% height="400" frameBorder="0" allow="clipboard-write" title="Slido"></iframe>
-
-[https://app.sli.do/event/fhCDnn1XAzLDRvepMeKSpw](https://app.sli.do/event/fhCDnn1XAzLDRvepMeKSpw)
 
 
-Or go to Slido.com and enter code #3372626
+<iframe src="https://vevox.app/#/m/108707410" height="100%" width="100%" frameBorder="0" style="min-height: 800px;" title="Vevox"></iframe>
+
 
 :::
 
@@ -1059,7 +1060,7 @@ Or go to Slido.com and enter code #3372626
 ## Food:
 
 
-<iframe width="900" height="600" src="https://wall.sli.do/event/fhCDnn1XAzLDRvepMeKSpw?section=49ff94a9-a8ef-4eb9-881a-d87b00644259" frameborder="0" allow="autoplay; encrypted-media"></iframe>
+<iframe width="900" height="550" src="https://ul.display.vevox.com#/present/813457/OT6IO456Z6AZ9F7KGP75" frameborder="0" allow="autoplay; encrypted-media"></iframe>
 
 
 
@@ -1187,45 +1188,6 @@ Or go to Slido.com and enter code #3372626
 
 - @wilson_affective_2005
   - [available here](https://learn.ul.ie//content/enforced/46950-PS4168_SEM1_2024_5/1.Resources/Wilson_Gilbert_2005_Affective_Forecasting.pdf)
-
-
-# Assignment 2
-
-## Assignment 2: Game Theory{.smaller}
-
-Based on your knowledge of Game Theory and your observations of people's interactions in everyday life, identify **three** behaviours / interactions / decision-making situations that can be characterised using one of the concepts covered.
-
-(a) One can illustrate a concept of your choice
-(b) One must illustrate ***Strict Dominance***
-(c) One must illustrate ***Nash Equilibrium***
-
-
-Describe each behaviour, and how it illustrates the relevant concept.
-
-For (2) and (3) please include a hypothetical payoff matrix. 
-
-(1000-1500 words)
-
-
-## Assignment 2: Marking scheme{.smaller}
-
-
-
----------------------------------------------------------------------------------
-Component                                                        Percentage
---------------------------------------------------------------- -----------------
-Clear demonstration of an in depth understanding of the topic     30\% 
-
-Critical thinking                                                 30\% 
-
-Competence in the identification and application of relevant      20\% 
-research methods
-
-Originality/Novelty                                               20\% 
-
-References, Citations, and Formatting                              0\% (potential penalty of 1 sub-grade)
-
----------------------------------------------------------------------------------
 
 
 

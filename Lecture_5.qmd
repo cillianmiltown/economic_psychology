@@ -143,7 +143,7 @@ knitr::opts_chunk$set(include = FALSE)
 <iframe src="https://vevox.app/#/m/180064848" height="100%" width="100%" frameBorder="0" style="min-height: 800px;" title="Vevox"></iframe>
 
 
-## The Prisoner Dilemma{.smaller}([link](https://ul.display.vevox.com#/present/803060/0LZVROGOP7WL61GDT0KR)){.smaller}
+## The Prisoner Dilemma([link](https://ul.display.vevox.com#/present/803060/0LZVROGOP7WL61GDT0KR)){.smaller}
 
 
 <iframe width="900" height="550" src="https://ul.display.vevox.com#/present/803060/0LZVROGOP7WL61GDT0KR" frameborder="0" allow="autoplay; encrypted-media"></iframe>
