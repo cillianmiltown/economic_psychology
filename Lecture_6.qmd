@@ -1100,7 +1100,7 @@ Dan is a student council representative at his school. This semester he is in ch
 - Other subjects evaluated how matched changes had affected their well-being over the last decade
   - **Environmental**: change in local air pollution; rain forest destruction; restriction of sport-fishing due to pollution; and recovery of certain endangered species
   - **Social**: increase in number of coffee shops and cafes; increase in number of television channels and selection of videotapes; reduced risk of nuclear war; and increased risk of AIDS
-  - **Personal**: change in free time; development of pain-causing chronic health condition; change in household income; and increase in body weight [@loewenstein_wouldn_1999, p. 12; @loewenstein_predicting_1997a]
+  - **Personal**: change in free time; development of pain-causing chronic health condition; change in household income; and increase in body weight [@loewenstein_wouldn_1999, p. 12; @loewenstein_predicting_1997]
 
 :::
 
