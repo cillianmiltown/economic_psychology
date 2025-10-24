@@ -313,7 +313,6 @@ function rotateAnimation(el,speed){
 
 ## Mood Misattribution - Study 2{.smaller}
 
-:::{.incremental}
 
 - Less elaborately staged
 - A phone call
@@ -326,7 +325,7 @@ function rotateAnimation(el,speed){
 - BUT:
   - effect should be reduced when respondents are led to attribute their mood to the weather
 
-:::
+
 
 ## Study 2 - Design{.smaller}
 
@@ -574,8 +573,6 @@ In Groups:
 
 ## Somatic Marker Hypothesis
 
-:::{.incremental}
-
 - Proposed by Damasio [-@damasio_descartes_1994; @damasio_feeling_2000]
 - Consider what happens when blood sugar drops:
   - Situation calling for action
@@ -585,11 +582,7 @@ In Groups:
   - no conscious mechanism of inference
       - up to the point when you become aware of being hungry [@damasio_descartes_1994, p. 166]
 
-:::
-
 ## Somatic Marker Hypothesis{.smaller}
-
-:::{.incremental}
 
 - Move away briskly to avoid a falling object
   - Situation calls for prompt action (e.g., falling object)
@@ -601,7 +594,6 @@ In Groups:
   - when we first learned that falling objects may **hurt** us and that
   - avoiding them or stopping them is better than being hit <br><font size=4.5>[@damasio_descartes_1994, pp. 166-167]</font>
 
-:::
 
 ## Somatic Marker Hypothesis{.smaller}
 
@@ -613,7 +605,6 @@ In Groups:
 
 ## Somatic Marker Hypothesis{.smaller}
 
-:::{.incremental}
 
 - As we experience events the associated feelings are "recorded" as *Markers*
   - Soma is Greek for body
@@ -627,7 +618,6 @@ In Groups:
   - Before:
       - Formal/conscious cost benefit analysis of premises
       - Reason toward solution <font size=4.5>[@damasio_descartes_1994]</font>
-:::
 
 ## Driving on Icy Roads
 
