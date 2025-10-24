@@ -220,7 +220,6 @@ function rotateAnimation(el,speed){
 
 ## Elaborate distraction task{.smaller}
 
-:::{.incremental}
 
 - Three note tone progressions on tape <br>[@schwarz_mood_1983, p. 516]
 - Collaborate on a 25-minute "filler task" (prior to the sound-recognition test)
@@ -233,8 +232,7 @@ function rotateAnimation(el,speed){
   - Told these descriptions would provide the basis for the generation of items for the life-event inventory.
   - 20 minutes to complete the task
   
-:::
-  
+
 ## Study 1 Results - DV2: Current Mood{.smaller}
 
 :::{.incremental}
@@ -265,38 +263,10 @@ function rotateAnimation(el,speed){
 :::
 
 
-## Study 1 Results - DV1
+## Study 1 Results - DV1 & DV2
 
 
 ![](resources/images/mood_table1.png "Results"){.lightbox}
-
-<font size=4.5>[taken from @schwarz_mood_1983, p. 517]</font size>
-
-
-## Study 1 Results - DV1
-
-
-
-![](resources/images/mood_table1b.png "Results"){.lightbox}
-
-<font size=4.5>[taken from @schwarz_mood_1983, p. 517]</font size>
-
-
-## Study 1 Results - DV1
-
-
-
-![](resources/images/mood_table1c.png "Results"){.lightbox}
-
-
-<font size=4.5>[taken from @schwarz_mood_1983, p. 517]</font size>
-
-
-## Study 1 Results - DV1
-
-
-![](resources/images/mood_table1d.png "Results"){.lightbox}
-
 
 <font size=4.5>[taken from @schwarz_mood_1983, p. 517]</font size>
 
