@@ -734,7 +734,7 @@ In Groups:
 
 ## Funny Videos and Trollies{.smaller}
 
-:::{.incremental}
+
 - Positive or neutral affect induction
   - Positive: 5-min comedy clip taken from ‘‘Saturday Night Live’’
   - Neutral: 5-min segment taken from a documentary on a small Spanish village.
@@ -744,7 +744,6 @@ In Groups:
 - Heightened positivity increased the odds of selecting the “push” response to the footbridge (dilemma by a factor of 3.8)
 - No difference in the switch<br><font size=4.5>[@valdesolo_manipulations_2006]</font>
 
-:::
 
 ## Incidental Disgust 1
 
@@ -869,11 +868,19 @@ Dan is a student council representative at his school. This semester he is in ch
       - Main effect for disgust
       
 
+## Disgust Meta-Analysis
+
+- @landy_does_2015
+
+- @landy_What_2025
+
 
 ## Categorization Processes
 
 - Moral Judgment as Categorization [MJAC, @mchugh_moral_2022]
   - see [here](https://journals.sagepub.com/doi/full/10.1177/1745691621990636)
+
+
 
 
 # Future Decisions
