@@ -131,6 +131,12 @@ function rotateAnimation(el,speed){
 
 ## Emotional Content and Prediction
 
+
+![](resources/images/sad_chimp.jpg "chimp"){.lightbox}
+
+## Emotional Content and Prediction
+
+
 :::{.incremental}
 
 - Classic study on recognition of emotion <br><font size=4.5>[@delancey_passionate_2001; @hebb_emotion_1946]</font size>
