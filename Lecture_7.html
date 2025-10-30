@@ -1303,6 +1303,24 @@ function rotateAnimation(el,speed){
 </ul>
 </section></section>
 <section>
+<section id="assignment-2" class="title-slide slide level1 center">
+<h1>Assignment 2</h1>
+
+</section>
+<section id="assignment-2-1" class="slide level2 smaller">
+<h2>Assignment 2</h2>
+<p>Identify any everyday “problem” and use your knowledge of the content covered in this module to develop a possible solution to this “problem”.</p>
+<p>Create and record a short presentation (5-7 mins) outlining this solution.</p>
+<p>Your presentation should:</p>
+<ul>
+<li>Clearly articulate the problem</li>
+<li>Provide a clear theoretical rationale for the proposed solution</li>
+<li>Clearly describe the proposed solution</li>
+<li>Describe how you would test the effectiveness of the solution</li>
+</ul>
+<p>Your presentation should clearly address each of the points above; e.g., one suggestion could be to include a slide dedicated to each of the above points – with additional slides (e.g., introduction/conclusion) also permitted. A “references” slide is also recommended.</p>
+</section></section>
+<section>
 <section id="references" class="title-slide slide level1 center">
 <h1>References</h1>
 
@@ -1313,7 +1331,7 @@ function rotateAnimation(el,speed){
 <div class="quarto-auto-generated-content">
 <p><img src="resources/images/ul-psychology-logos.png" class="slide-logo"></p>
 <div class="footer footer-default">
-<p>PS4168: Cillian McHugh - 25/10/24</p>
+<p>PS4168: Cillian McHugh - 30/10/25</p>
 </div>
 </div>
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
@@ -1556,42 +1574,80 @@ Willig, R. D. (1976). Consumer’s <span>Surplus</span> without <span>Apology</s
       });
     </script>
     
+
     <script>
+
       // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+
       // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+
       // slide changes (different for each slide format).
+
       (function () {
+
         // dispatch for htmlwidgets
+
         function fireSlideEnter() {
+
           const event = window.document.createEvent("Event");
+
           event.initEvent("slideenter", true, true);
+
           window.document.dispatchEvent(event);
+
         }
+
+    
 
         function fireSlideChanged(previousSlide, currentSlide) {
+
           fireSlideEnter();
 
+    
+
           // dispatch for shiny
+
           if (window.jQuery) {
+
             if (previousSlide) {
+
               window.jQuery(previousSlide).trigger("hidden");
+
             }
+
             if (currentSlide) {
+
               window.jQuery(currentSlide).trigger("shown");
+
             }
+
           }
+
         }
+
+    
 
         // hookup for slidy
+
         if (window.w3c_slidy) {
+
           window.w3c_slidy.add_observer(function (slide_num) {
+
             // slide_num starts at position 1
+
             fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+
           });
+
         }
 
+    
+
       })();
+
     </script>
+
+    
 
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
@@ -1780,7 +1836,7 @@ Willig, R. D. (1976). Consumer’s <span>Surplus</span> without <span>Apology</s
       }
     });
     </script>
-    <script>var lightboxQuarto = GLightbox({"openEffect":"zoom","loop":false,"selector":".lightbox","descPosition":"bottom","closeEffect":"zoom"});
+    <script>var lightboxQuarto = GLightbox({"loop":false,"openEffect":"zoom","selector":".lightbox","descPosition":"bottom","closeEffect":"zoom"});
     (function() {
       let previousOnload = window.onload;
       window.onload = () => {

@@ -10,7 +10,7 @@ format:
     slide-number: false
     controls: true
     logo: "resources/images/ul-psychology-logos.png"
-    footer: "PS4168: Cillian McHugh - 25/10/24"
+    footer: "PS4168: Cillian McHugh - 30/10/25"
     theme: "resources/css/mytheme.scss"
     incremental: false
     chalkboard: 
@@ -957,6 +957,23 @@ be selected at random"
 - Is there another explanation for the pattern of responses that purportedly show the endowment effect?
 
 - What questions have you got about the endowment effect that you will investigate after this lecture?
+
+# Assignment 2
+
+## Assignment 2{.smaller}
+
+Identify any everyday “problem” and use your knowledge of the content covered in this module to develop a possible solution to this “problem”.
+
+Create and record a short presentation (5-7 mins) outlining this solution.
+
+Your presentation should:
+
+- Clearly articulate the problem
+- Provide a clear theoretical rationale for the proposed solution
+- Clearly describe the proposed solution
+- Describe how you would test the effectiveness of the solution
+
+Your presentation should clearly address each of the points above; e.g., one suggestion could be to include a slide dedicated to each of the above points – with additional slides (e.g., introduction/conclusion) also permitted. A “references” slide is also recommended.
 
 # References
 
