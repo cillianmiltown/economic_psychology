@@ -10,7 +10,7 @@ format:
     slide-number: false
     controls: true
     logo: "resources/images/ul-psychology-logos.png"
-    footer: "PS4168: Cillian McHugh - 8/11/24"
+    footer: "PS4168: Cillian McHugh - 7/11/25"
     theme: "resources/css/mytheme.scss"
     incremental: false
     chalkboard: 
@@ -425,7 +425,7 @@ knitr::opts_chunk$set(include = FALSE)
 
 ![](resources/images/jacket.jpg "Jacket"){.lightbox height="300px" align="left"}
 
-€120
+€125
 
 :::
 
@@ -440,6 +440,15 @@ knitr::opts_chunk$set(include = FALSE)
 ::::
 
 
+
+::: {.fragment fragment-index=1}
+
+<font size=4.9>Imagine that you are about to purchase a jacket for €125 and a calculator for
+€15. The calculator salesman informs you that the calculator you wish to buy is
+on sale for €10 at the other branch of the store, located 20 minutes drive away.
+Would you make the trip to the other store?</font><font size=4.5> [@tversky_framing_1981, p. 459] </font>
+
+:::
 
 ## Decision Frames
 

@@ -704,11 +704,14 @@ Dr Cillian McHugh
 <div class="columns">
 <div class="column" style="width:60%;">
 <p><a href="resources/images/jacket.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-10"><img data-src="resources/images/jacket.jpg" title="Jacket" data-align="left" height="300"></a></p>
-<p>€120</p>
+<p>€125</p>
 </div><div class="column" style="width:40%;">
 <p><a href="resources/images/calculator.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-11"><img data-src="resources/images/calculator.jpeg" title="calculator" data-align="right" height="300"></a></p>
 <p>€15 / €10</p>
 </div></div>
+<div class="fragment" data-fragment-index="1">
+<p><font size="4.9">Imagine that you are about to purchase a jacket for €125 and a calculator for €15. The calculator salesman informs you that the calculator you wish to buy is on sale for €10 at the other branch of the store, located 20 minutes drive away. Would you make the trip to the other store?</font><font size="4.5"> <span class="citation" data-cites="tversky_framing_1981">(<a href="#/references-1" role="doc-biblioref" onclick="">Tversky &amp; Kahneman, 1981, p. 459</a>)</span> </font></p>
+</div>
 </section>
 <section id="decision-frames-4" class="slide level2">
 <h2>Decision Frames</h2>
@@ -1228,7 +1231,7 @@ Dr Cillian McHugh
 <div class="quarto-auto-generated-content">
 <p><img src="resources/images/ul-psychology-logos.png" class="slide-logo"></p>
 <div class="footer footer-default">
-<p>PS4168: Cillian McHugh - 8/11/24</p>
+<p>PS4168: Cillian McHugh - 7/11/25</p>
 </div>
 </div>
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
@@ -1498,42 +1501,80 @@ Tversky, A., &amp; Kahneman, D. (1981). The framing of decisions and the psychol
       });
     </script>
     
+
     <script>
+
       // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+
       // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+
       // slide changes (different for each slide format).
+
       (function () {
+
         // dispatch for htmlwidgets
+
         function fireSlideEnter() {
+
           const event = window.document.createEvent("Event");
+
           event.initEvent("slideenter", true, true);
+
           window.document.dispatchEvent(event);
+
         }
+
+    
 
         function fireSlideChanged(previousSlide, currentSlide) {
+
           fireSlideEnter();
 
+    
+
           // dispatch for shiny
+
           if (window.jQuery) {
+
             if (previousSlide) {
+
               window.jQuery(previousSlide).trigger("hidden");
+
             }
+
             if (currentSlide) {
+
               window.jQuery(currentSlide).trigger("shown");
+
             }
+
           }
+
         }
+
+    
 
         // hookup for slidy
+
         if (window.w3c_slidy) {
+
           window.w3c_slidy.add_observer(function (slide_num) {
+
             // slide_num starts at position 1
+
             fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+
           });
+
         }
 
+    
+
       })();
+
     </script>
+
+    
 
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
@@ -1722,7 +1763,7 @@ Tversky, A., &amp; Kahneman, D. (1981). The framing of decisions and the psychol
       }
     });
     </script>
-    <script>var lightboxQuarto = GLightbox({"selector":".lightbox","loop":false,"descPosition":"bottom","closeEffect":"zoom","openEffect":"zoom"});
+    <script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","selector":".lightbox","loop":false,"descPosition":"bottom","openEffect":"zoom"});
     (function() {
       let previousOnload = window.onload;
       window.onload = () => {
