@@ -464,7 +464,7 @@ Recall the @ross_egocentric_1979 housework study?
 
 
 
-## Public Goods and Punishment: Results
+## Public Goods and Punishment: Results{.scrollable}
 
 
 
@@ -489,7 +489,7 @@ Recall the @ross_egocentric_1979 housework study?
 
 
 
-## Public Goods and Punishment: Results
+## Public Goods and Punishment: Results{.scrollable}
 
 
 
@@ -1266,6 +1266,33 @@ Version of the Stag Hunt game
 
 ![](resources/images/MJAC_dual_process/mjac13.png){.lightbox width="100%"}
 
+
+## Context Effects on Moral Judgment{.scrollable}
+
+![](resources/images/beckon.png){.lightbox width="80%"}
+
+@McHugh_beckon_2024
+
+
+
+## Context Effects on Moral Judgment{.scrollable}
+
+![](resources/images/beckon2.png){.lightbox width="80%"}
+
+
+## Context Effects on Moral Judgment{.scrollable}
+
+![](resources/images/dilution.png){.lightbox width="80%"}
+
+@mchugh_Moral_2025
+
+
+
+## Context Effects on Moral Judgment{.scrollable}
+
+![](resources/images/dilution2.png){.lightbox width="40%"}
+
+@mchugh_Moral_2025
 
 # In-Class Activity
 
