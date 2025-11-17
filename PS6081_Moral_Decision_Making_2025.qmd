@@ -914,12 +914,7 @@ so there was no risk of disease [@haidt_moral_2000; @mchugh_searching_2017a].
 
 ::::
 
-## Typicality: Moral Dilution
 
-
-<iframe width="100%" height="100%" src="https://cillianmiltown.github.io/moral_dilution_git/manuscript_revisions/presentation_embedded.html#/title-slide" frameborder="0" ></iframe>
-
-https://cillianmiltown.github.io/moral_dilution_git/manuscript_revisions/presentation.html#/title-slide
 
 # Contrasting with Existing Approaches
 
@@ -1027,6 +1022,19 @@ https://cillianmiltown.github.io/moral_dilution_git/manuscript_revisions/present
 # Looking Forward
 
 
+## Moral Dilution [@mchugh_Moral_2025] {.scrollable}
+
+
+![](resources/images/dilution.png){.lightbox width="80%"}
+
+
+
+## Moral Dilution
+
+
+<iframe width="100%" height="100%" src="https://cillianmiltown.github.io/moral_dilution_git/manuscript_revisions/presentation_embedded.html#/title-slide" frameborder="0" ></iframe>
+
+https://cillianmiltown.github.io/moral_dilution_git/manuscript_revisions/presentation.html#/title-slide
 
 ## Looking Forward 
 
@@ -1280,5 +1288,15 @@ https://cillianmiltown.github.io/moral_dilution_git/manuscript_revisions/present
 
 ![](resources/images/Are-We-The-Baddies.jpg){.lightbox width=600}
 
+
+## Tutorial{.smaller}
+
+- Discuss and Explore possible research questions and novel hypotheses associated with a categorization approach to moral judgment
+  - Follow-up on dilution effect?
+  - Typicality?
+  - Dumbfounding (moral/non-moral) ?
+  - Order effects?
+  - Relationship effects?
+  - Actor vs Action?
 
 ## References {.smallest}
