@@ -2,7 +2,7 @@
 title: "PS4168 Economic Psychology"
 subtitle: "Module Handbook"
 author: "Dr Cillian McHugh"
-date: "Autumn Semester 25/26"
+date: "Autumn Semester 26/27"
 bibliography: "bib/My Library.bib"
 csl: "bib/apa.csl"
 header-includes:
@@ -24,51 +24,41 @@ output:
     fig_caption: no
     keep_tex: true
 classoption: x11names
-
 ---
-
-
 
 \fancyhead{}
 \fancyfoot{}
 \fancyhead[LO,RE]{{PS4168 Economic Psychology | Module Handbook}}
 \fancyhead[LE,RO]{\thepage} 
-\fancyfoot[LO,RE]{Autumn 2025}
+\fancyfoot[LO,RE]{Autumn 2026}
 \fancyfoot[LE,RO]{Dr Cillian McHugh}
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-```{r load_libraries}
+```{r load_libraries, include=FALSE}
 library(xtable)
 ```
 
-&nbsp;
+\hfill
 
-&nbsp;
+\bigskip
 
-&nbsp;
-
-
-
-
-\centering![no caption]("logos/department_logo.PNG"){width=200px}
+\centering![no caption](logos/department_logo.PNG){width="200px"}
 
 \raggedright
-&nbsp;
 
-&nbsp;
-
-&nbsp;
 
 \renewcommand{\arraystretch}{1.5}
 
-
 \begin{center}
 
+\hfill
 
 \bigskip
+
+\hfill
 
 
 \bigskip
@@ -80,7 +70,7 @@ library(xtable)
 
 \textit{Dr Cillian McHugh}
 
-\textit{Autumn Semester 2025}
+\textit{Autumn Semester 2026}
 \end{large}
 \end{center}
 
@@ -88,37 +78,30 @@ library(xtable)
 
 # PS4168 Economic Psychology - Module Handbook
 
-
-
 \begin{minipage}{.65\textwidth}
 \begin{tabular}{p{4cm} l}
 \textbf{Module Leader} & Dr Cillian McHugh\\
 \textbf{Email} & cillian.mchugh@ul.ie \\
 \textbf{Office} & KBG-22 \\
-\textbf{Student Hours} & Wednesdays, 9-11  \\
-\textbf{Lecture location} & SR3006\\
-\textbf{Day and Time} & Fridays, 4-6 \\
+\textbf{Student Hours} & Wednesdays, 2-3  \\
+\textbf{Lecture location} & ERB007\\
+\textbf{Day and Time} & Wednesdays, 12-2 \\
 \end{tabular}
 \end{minipage}
 \hspace{6pt}
 \begin{minipage}{.15\textwidth}
-\includegraphics[width=75px]{images/cillian_face_2022e.jpg}\bigskip
+\includegraphics[width=75px]{images/CMcH_UL_image_screenshot.png}\bigskip
 \end{minipage}
-
 
 \bigskip
 
-
-
-
 Office hours can be online or in-person please \color{blue}[book an appointment here](https://outlook.office.com/bookwithme/user/f570b7289a5343259c60c8a5d26ce510@ul.ie/meetingtype/w1pxpwCL8UG9pt_0cg2fUA2?anonymous&ep=mlink)\color{black}.
 
-Collaborative note taking \color{blue}[here](https://docs.google.com/document/d/1Yx5EbhSX0uEHzr964dLh7Xx30ZzthbCqV3T32laTl9E/edit?usp=sharing)\color{black}
-
 ## Module Overview
-Economic psychology is the study of the psychological processes that underlie economic behaviour and decision making.  It is influenced by the psychology of decision making and behavioural economics.  This module provides an overview of key concepts in economic psychology and behavioural economics.  A range of historical and contemporary theories of decision making will be covered, along with various influences on decision making, preference, and behaviour.
 
-A primary focus of this module is the application of insights from behavioural studies to theories of decision making, and the application of these theories in predicting patterns of economic behaviour.  The ethical implications of these insights will also be explored.  The primary reading material will be taken from Ranyard (2018), Altman (2017), and Camerer, Loewenstein, & Rabin (2003). Additional reading may be found in Frantz, Chen, Dopfer, Heukelom, & Mousavi (2016) and Cartwright (2014).
+Economic psychology is the study of the psychological processes that underlie economic behaviour and decision making. It is influenced by the psychology of decision making and behavioural economics. This module provides an overview of key concepts in economic psychology and behavioural economics. A range of historical and contemporary theories of decision making will be covered, along with various influences on decision making, preference, and behaviour.
+
+A primary focus of this module is the application of insights from behavioural studies to theories of decision making, and the application of these theories in predicting patterns of economic behaviour. The ethical implications of these insights will also be explored. The primary reading material will be taken from Ranyard (2018), Altman (2017), and Camerer, Loewenstein, & Rabin (2003). Additional reading may be found in Frantz, Chen, Dopfer, Heukelom, & Mousavi (2016) and Cartwright (2014).
 
 ```{r, include=FALSE}
 
@@ -127,16 +110,17 @@ A primary focus of this module is the application of insights from behavioural s
 
 ```
 
-
 ## Learning Outcomes
 
 On completion of PS4168 students should be able to:
 
-1. Show evidence of an understanding of some of the key concepts and theories in Economic Psychology.
+1.  Show evidence of an understanding of some of the key concepts and theories in Economic Psychology.
 
-2. Apply findings of psychological research to everyday life and real world phenomena.
-3. Synthesise their acquired knowledge to explore possible alternative solutions to practical problems.
-4. Articulate and defend an informed opinion on a theoretical position.
+2.  Apply findings of psychological research to everyday life and real world phenomena.
+
+3.  Synthesise their acquired knowledge to explore possible alternative solutions to practical problems.
+
+4.  Articulate and defend an informed opinion on a theoretical position.
 
 \bigskip
 
@@ -165,9 +149,8 @@ On successful completion of this module, students should:
 
 N/A
 
-
-
 ### Graduate Attributes
+
 The learning outcomes identified above aim to contribute to each of the UL Graduate Attributes in the following ways:
 
 *Articulate*
@@ -182,25 +165,21 @@ The learning outcomes identified above aim to contribute to each of the UL Gradu
 
 - Students will be asked to devise creative solutions to real-world problems. In-class discussions will include being challenged on, and being asked to defend a position.
 
-
 *Curious*
 
 - Self-directed learning is core to doing well in this module. Students are encouraged to read beyond the prescribed materials and explore the relevant literature to gain deeper understandings of the topics
 
 *Responsible*
 
-- The content of the module includes considerations of the ethical implications of the application of the concepts covered.  For example, in addition to exploring the practicalities and applications of theoretically informed interventions, the ethical considerations of such approaches will also be explored.
-
+- The content of the module includes considerations of the ethical implications of the application of the concepts covered. For example, in addition to exploring the practicalities and applications of theoretically informed interventions, the ethical considerations of such approaches will also be explored.
 
 ## Teaching and Learning Strategies
 
-The module will be taught through lectures. The lectures will have opportunities for discussion and more in depth exploration of the material along with relevant activities to help consolidate learning. 
+The module will be taught through lectures. The lectures will have opportunities for discussion and more in depth exploration of the material along with relevant activities to help consolidate learning.
 
 ## Assessment
 
-There are two parts for the assessment. There is a short task due in Week 7 (28th of October) worth 40%, and a presentation due at the end of semester (1st of December) worth 60%. Marking schemes for each assessment are provided below.  It is expected that each piece of course work will be appropriately referenced and adhere to APA standards.  Marks will not be awarded for this, however significant failure in this regard may result in a penalty of up to a sub-grade being applied.  The breakdown of marks and important deadlines are outlined in Table 1:
-
-
+There are two parts for the assessment. There is a short task due in Week 7 (28th of October) worth 40%, and a presentation due at the end of semester (1st of December) worth 60%. Marking schemes for each assessment are provided below. It is expected that each piece of course work will be appropriately referenced and adhere to APA standards. Marks will not be awarded for this, however significant failure in this regard may result in a penalty of up to a sub-grade being applied. The breakdown of marks and important deadlines are outlined in Table 1:
 
 \bigskip
 
@@ -208,20 +187,18 @@ There are two parts for the assessment. There is a short task due in Week 7 (28t
   \multicolumn{5}{l}{\textbf{Table 1:} Important deadlines} \\
   \hline \hline
   \textbf{Type of Assessment}               & & \textbf{\% of Final Grade} & & \textbf{Deadline} \\ \hline
-  Task 1                                   & & 40\%                       & & Tuesday 28th October at 4pm \\ \hline
-  Recorded Presentation                                     & & 60\%                       & & Monday 1st December at 4pm \\ \hline \end{tabular}
-
-
+  Task 1                                   & & 30\%                       & & Tuesday 20th October at 4pm \\ \hline
+  Recorded Presentation                                     & & 70\%                       & & Monday 30th November at 4pm \\ \hline \end{tabular}
 
 \bigskip
 
 ## Assessment and Grades
 
-
 ### Task 1
+
 The short task will focus on individual topics as follows:
 
-+ **Task 1** *(select one)*:
+- **Task 1** *(select one)*:
   - Heuristics
   - Game Theory
 
@@ -229,9 +206,7 @@ The short task will focus on individual topics as follows:
 
 The presentation will require you to identify a "problem" that Economic Psychology might be able to help to solve.
 
-
 Both assignments share a common marking scheme below:
-
 
 \bigskip
 
@@ -248,27 +223,27 @@ References, Citations, and Formatting & (potential penalty of 1 sub-grade) \\ \h
 
 \bigskip
 
-### Departmental Penalty Policies: 
+### Departmental Penalty Policies:
+
 Late Submission of assignment: A subtraction of 5% per day from the total grade, up to 5 days, after which a mark of zero will be given. A soft copy must be uploaded by the deadline.
 
 The Department of Psychology does not offer extensions; if you miss an assessment deadline, you must submit an M-Form with documentary evidence supporting your reason. This is considered by a committee at the end of the semester. Please carefully read the Department of Psychology Student Handbook; especially the sections relating to Mitigating Circumstances. Please note that these rules apply to all students on the module including those who register late and those from other faculties/disciplines.
 
-Excuses: If you have a valid excuse for handing in a late assignment, or missing a lecture, please complete an M-Form and upload supporting evidence at the following link, \color{blue}[here](https://workflow.ul.ie/MForms/MForms/)\color{black}. 
+Excuses: If you have a valid excuse for handing in a late assignment, or missing a lecture, please complete an M-Form and upload supporting evidence at the following link, \color{blue}[here](https://workflow.ul.ie/MForms/MForms/)\color{black}.
 
 ### Repeat Assessment
 
 The repeat assessment will take the same form as above.
 
-
 ### Feedback
 
-Written feedback will be provided for both pieces of coursework.  
-  
+Written feedback will be provided for both pieces of coursework.
 
 \pagebreak
 
 ## Schedule
-In Table 3 the schedule of topics to be covered in each lecture is provided.  Key readings for each topic are also identified.  Further direction towards additional readings regarding each topic will be provided during lectures.
+
+In Table 3 the schedule of topics to be covered in each lecture is provided. Key readings for each topic are also identified. Further direction towards additional readings regarding each topic will be provided during lectures.
 
 \begin{table}[h!]
   \begin{center}
@@ -277,22 +252,22 @@ In Table 3 the schedule of topics to be covered in each lecture is provided.  Ke
     \hline
     & & \multicolumn{4}{c|}{\textbf{Readings}} \\ \hline
     \textbf{Week} & \textbf{Topic} &                      \textbf{Ranyard (2018)} & \textbf{Altman (2017)} & \textbf{Camerer et al. (2003)} & \textbf{Other}  \\ \hline
-      1   & General Introduction and History of Economic Psychology & Chapter 1    & Chapter 1          & Chapter 1           &  \href{https://learn.ul.ie//content/enforced/69006-PS4168_SEM1_2025_6/1.Resources/Cartwright_2014_Chapter1.pdf}{\color{blue}{Cartwright (2014) Chapter 1}\color{black}} \\ \hline
-      2   & Heuristics \& Biases                                    & \href{https://learn.ul.ie//content/enforced/69006-PS4168_SEM1_2025_6/1.Resources/Ranyard_2018_Chapter2.pdf}{\color{blue}{Chapter 2}\color{black}}    & Chapters 6 \& 7    &                     & Cartwright (2014) Chapter 2     \\ \hline
-      3   & Nudges                                                   & (Chapter 23) & Chapter 17         &                     & \href{https://learn.ul.ie//content/enforced/69006-PS4168_SEM1_2025_6/1.Resources/Frantz_2016_Chapter8.pdf}{\color{blue}{Frantz et al., (2016) Chapter 8}\color{black}}; Thaler \& Sunstein (2008) \\ \hline
-      4   & Theories of Decision Making                  & \href{https://learn.ul.ie//content/enforced/69006-PS4168_SEM1_2025_6/1.Resources/Ranyard_2018_Chapter2.pdf}{\color{blue}{Chapter 2}\color{black}}    & Chapters 2, 3 \& 4 & Chapters 2 \& 3     &                                 \\ \hline
-      5   & Introduction to Game Theory            &              & \href{https://learn.ul.ie//content/enforced/69006-PS4168_SEM1_2025_6/1.Resources/Altman_2017_Chapter32.pdf}{\color{blue}{Chapter 32}\color{black}}         & Chapters 12 \& 13   & \href{https://learn.ul.ie//content/enforced/69006-PS4168_SEM1_2025_6/1.Resources/Antonides_1996_Chapter14.pdf}{\color{blue}{Antonides, (1996) Chapters 14}\color{black}}   \& 15 \\ \hline
-      6  & \multicolumn{5}{c|}{\cellcolor{blue!25}\textbf{No Class: Open Days}} \\ \hline
-      \multirow{4}{*}{7} & \multicolumn{5}{c|}{\cellcolor{blue!25}\textbf{Task 1 Deadline:} Tuesday 28th October at 4pm} \\ \hhline{|~|-|-|-|-|-|}
-      & Emotional Influences          &              & \href{https://learn.ul.ie//content/enforced/69006-PS4168_SEM1_2025_6/1.Resources/Altman_2017_Chapter32.pdf}{\color{blue}{Chapter 32}\color{black}}         & Chapters 12 \& 13   & Antonides, (1996) Chapter 9 \\ \hhline{|~|~|-|-|-|-|}
+      1   & General Introduction and History of Economic Psychology & Chapter 1    & Chapter 1          & Chapter 1           &  \href{https://learn.ul.ie//content/enforced/92897-PS4168_SEM1_2026_7/1.Resources/Cartwright_2014_Chapter1.pdf}{\color{blue}{Cartwright (2014) Chapter 1}\color{black}} \\ \hline
+      2   & Heuristics \& Biases                                    & \href{https://learn.ul.ie//content/enforced/92897-PS4168_SEM1_2026_7/1.Resources/Ranyard_2018_Chapter2.pdf}{\color{blue}{Chapter 2}\color{black}}    & Chapters 6 \& 7    &                     & Cartwright (2014) Chapter 2     \\ \hline
+      3   & Nudges                                                   & (Chapter 23) & Chapter 17         &                     & \href{https://learn.ul.ie//content/enforced/92897-PS4168_SEM1_2026_7/1.Resources/Frantz_2016_Chapter8.pdf}{\color{blue}{Frantz et al., (2016) Chapter 8}\color{black}}; Thaler \& Sunstein (2008) \\ \hline
+      4   & Theories of Decision Making                  & \href{https://learn.ul.ie//content/enforced/92897-PS4168_SEM1_2026_7/1.Resources/Ranyard_2018_Chapter2.pdf}{\color{blue}{Chapter 2}\color{black}}    & Chapters 2, 3 \& 4 & Chapters 2 \& 3     &                                 \\ \hline
+      5   & Introduction to Game Theory            &              & \href{https://learn.ul.ie//content/enforced/92897-PS4168_SEM1_2026_7/1.Resources/Altman_2017_Chapter32.pdf}{\color{blue}{Chapter 32}\color{black}}         & Chapters 12 \& 13   & \href{https://learn.ul.ie//content/enforced/92897-PS4168_SEM1_2026_7/1.Resources/Antonides_1996_Chapter14.pdf}{\color{blue}{Antonides, (1996) Chapters 14}\color{black}}   \& 15 \\ \hline
+      6  & \multicolumn{5}{c|}{\textbf{Drop-in Session}} \\ \hline
+      \multirow{4}{*}{7} & \multicolumn{5}{c|}{\cellcolor{blue!25}\textbf{Task 1 Deadline:} Tuesday 20th October at 4pm} \\ \hhline{|~|-|-|-|-|-|}
+      & Emotional Influences          &              & \href{https://learn.ul.ie//content/enforced/92897-PS4168_SEM1_2026_7/1.Resources/Altman_2017_Chapter32.pdf}{\color{blue}{Chapter 32}\color{black}}         & Chapters 12 \& 13   & Antonides, (1996) Chapter 9 \\ \hhline{|~|~|-|-|-|-|}
          & \makecell[l]{Future Decisions \\ and Affective Forecasting }    & Chapter 3    & Chapters 23 \& 24  &
-      \href{https://learn.ul.ie//content/enforced/69006-PS4168_SEM1_2025_6/1.Resources/Camerer_2003_Chapter6and7.pdf}{\color{blue}{Chapters 6 \& 7}\color{black}}     & Cartwright (2014) Chapter 4     \\ \hline
-      8   & Loss Aversion/Risk Aversion and Endowment Effects       & \href{https://learn.ul.ie//content/enforced/69006-PS4168_SEM1_2025_6/1.Resources/Ranyard_2018_Chapter2.pdf}{\color{blue}{Chapter 2}\color{black}}    & Chapter 11         & Chapter 2, 4 \& 5   & Cartwright (2014) Chapter 3     \\ \hline
-      9  & Mental Accounting                                       & Chapter 8    &                    & \href{https://learn.ul.ie//content/enforced/69006-PS4168_SEM1_2025_6/1.Resources/Camerer_2003_Chapter3.pdf}{\color{blue}{Chapter 3}\color{black}} \& 14     &                                 \\ \hline
-      10  & Fairness and Ethics                                     &              & \href{https://learn.ul.ie//content/enforced/69006-PS4168_SEM1_2025_6/1.Resources/Altman_2017_Chapter32.pdf}{\color{blue}{Chapter 32}\color{black}}         & Chapters 8, 9 \& 18 &                                 \\ \hline
-      11  & Gambling                                                & \href{https://learn.ul.ie//content/enforced/69006-PS4168_SEM1_2025_6/1.Resources/Ranyard_2018_Chapter19.pdf}{\color{blue}{Chapter 19}\color{black}}   &                    & Chapter 23          &                                 \\ \hline
-      12  & Review                            &                    &                    &              &                                 \\ \hhline{|-|-|-|-|-|-|} 
-      13  & \multicolumn{5}{c|}{\cellcolor{blue!25}\textbf{Presentation Due:} Monday 1st December at 4pm} \\ \hline
+      \href{https://learn.ul.ie//content/enforced/92897-PS4168_SEM1_2026_7/1.Resources/Camerer_2003_Chapter6and7.pdf}{\color{blue}{Chapters 6 \& 7}\color{black}}     & Cartwright (2014) Chapter 4     \\ \hline
+      8   & Loss Aversion/Risk Aversion and Endowment Effects       & \href{https://learn.ul.ie//content/enforced/92897-PS4168_SEM1_2026_7/1.Resources/Ranyard_2018_Chapter2.pdf}{\color{blue}{Chapter 2}\color{black}}    & Chapter 11         & Chapter 2, 4 \& 5   & Cartwright (2014) Chapter 3     \\ \hline
+      9  & Mental Accounting                                       & Chapter 8    &                    & \href{https://learn.ul.ie//content/enforced/92897-PS4168_SEM1_2026_7/1.Resources/Camerer_2003_Chapter3.pdf}{\color{blue}{Chapter 3}\color{black}} \& 14     &                                 \\ \hline
+      10  & Fairness and Ethics                                     &              & \href{https://learn.ul.ie//content/enforced/92897-PS4168_SEM1_2026_7/1.Resources/Altman_2017_Chapter32.pdf}{\color{blue}{Chapter 32}\color{black}}         & Chapters 8, 9 \& 18 &                                 \\ \hline
+      11  & Gambling                                                & \href{https://learn.ul.ie//content/enforced/92897-PS4168_SEM1_2026_7/1.Resources/Ranyard_2018_Chapter19.pdf}{\color{blue}{Chapter 19}\color{black}}   &                    & Chapter 23          &                                 \\ \hline
+      12  & Morality \& Review                            &                    &                    &              &           \href{https://journals.sagepub.com/doi/full/10.1177/1745691621990636}{\color{blue}{McHugh et al. (2022)}\color{black}}                      \\ \hhline{|-|-|-|-|-|-|} 
+      13  & \multicolumn{5}{c|}{\cellcolor{blue!25}\textbf{Presentation Due:} Monday 30th November at 4pm} \\ \hline
       \end{tabular}
   \end{center}
 \end{table}
@@ -300,16 +275,12 @@ In Table 3 the schedule of topics to be covered in each lecture is provided.  Ke
 \pagebreak
 
 ## Reading List
-Below is list of relevant readings.  This list reflects the key topics to be covered in this module.  Additional readings may be identified during lectures.  Links to the library locations are provided for selected books.
+
+Below is list of relevant readings. This list reflects the key topics to be covered in this module. Additional readings may be identified during lectures. Links to the library locations are provided for selected books.
 
 ### Core Readings Materials
 
-\noindent
-\vspace{-2em}
-\setlength{\parindent}{-0.5in}
-\setlength{\leftskip}{0.5in}
-\setlength{\parskip}{7.5pt}
-
+\noindent \vspace{-2em} \setlength{\parindent}{-0.5in} \setlength{\leftskip}{0.5in} \setlength{\parskip}{7.5pt}
 
 Altman, M. (2017). [\color{blue}*Handbook of behavioral economics and smart decision-making.*\color{black}](https://uol.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991003444459703496&context=L&vid=353UOL_INST:353UOL_VU1&lang=en&search_scope=MyInst_and_CI&adaptor=Local%20Search%20Engine&tab=TAB1&query=any,contains,Handbook%20of%20behavioral%20economics%20and%20smart%20decision-making.&sortby=rank&facet=rtype,include,books&offset=0) Cheltenham: Edward Elgar.
 
@@ -321,16 +292,11 @@ Dhami, S. S. (2025). *Principles of behavioral economics: Microeconomics and hum
 
 Ranyard, R. (Ed.). (2018). *Economic psychology.* Hoboken, NJ Chichester, West Sussex: Wiley.
 
-
 \setlength{\leftskip}{0in}
 
 ### Further Reading
 
-\noindent
-\vspace{-2em}
-\setlength{\parindent}{-0.5in}
-\setlength{\leftskip}{0.5in}
-\setlength{\parskip}{7.5pt}
+\noindent \vspace{-2em} \setlength{\parindent}{-0.5in} \setlength{\leftskip}{0.5in} \setlength{\parskip}{7.5pt}
 
 Antonides, G. (1996). *Psychology in Economics and Business: An Introduction to Economic Psychology.* Dordrecht: Kluwer.
 
@@ -350,25 +316,19 @@ Lewis, A. (2008). [\color{blue}*The Cambridge handbook of psychology and economi
 
 Nutt, P. C., & Wilson, D. C. (2010). [\color{blue}*Handbook of decision making.*\color{black}](https://uol.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991001512319703496&context=L&vid=353UOL_INST:353UOL_VU1&lang=en&search_scope=MyInst_and_CI&adaptor=Local%20Search%20Engine&tab=TAB1&query=any,contains,Handbook%20of%20decision%20making.&sortby=rank&offset=0) Oxford: Wiley-Blackwell.
 
-Thaler, R. H. (2015). [\color{blue}*Misbehaving: how economics became behavioural.\color{black}*](https://uol.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991003236569703496&context=L&vid=353UOL_INST:353UOL_VU1&lang=en&search_scope=MyInst_and_CI&adaptor=Local%20Search%20Engine&tab=TAB1&query=any,contains,Misbehaving:%20The%20Making%20of%20Behavioral%20Economics.&sortby=rank&offset=0) W.W. Norton.
-
+Thaler, R. H. (2015). [\color{blue}*Misbehaving: how economics became behavioural.*\color{black}](https://uol.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991003236569703496&context=L&vid=353UOL_INST:353UOL_VU1&lang=en&search_scope=MyInst_and_CI&adaptor=Local%20Search%20Engine&tab=TAB1&query=any,contains,Misbehaving:%20The%20Making%20of%20Behavioral%20Economics.&sortby=rank&offset=0) W.W. Norton.
 
 \setlength{\leftskip}{0in}
 
 ### Additional Resources
 
+\noindent \vspace{-2em} \setlength{\parindent}{-0.5in} \setlength{\leftskip}{0.5in} \setlength{\parskip}{7.5pt}
 
-\noindent
-\vspace{-2em}
-\setlength{\parindent}{-0.5in}
-\setlength{\leftskip}{0.5in}
-\setlength{\parskip}{7.5pt}
+Axelrod, R., & Hamilton, W. D. (1981). The evolution of cooperation. *Science*, 211(4489), 1390–1396. \color{blue} <https://doi.org/10.1126/science.7466396> \color{black}
 
-Axelrod, R., & Hamilton, W. D. (1981). The evolution of cooperation. *Science*, 211(4489), 1390–1396. \color{blue} https://doi.org/10.1126/science.7466396 \color{black}
+Camerer, C. (1999). Behavioral economics: Reunifying psychology and economics. *Proceedings of the National Academy of Sciences*, 96(19), 10575–10577. \color{blue} <https://doi.org/10.1073/pnas.96.19.10575> \color{black}
 
-Camerer, C. (1999). Behavioral economics: Reunifying psychology and economics. *Proceedings of the National Academy of Sciences*, 96(19), 10575–10577. \color{blue} https://doi.org/10.1073/pnas.96.19.10575 \color{black}
-
-Critchfield, T. S., & Kollins, S. H. (2001). Temporal Discounting: Basic Research and the Analysis of Socially Important Behavior. *Journal of Applied Behavior Analysis*, 34(1), 101–122. \color{blue} https://doi.org/10.1901/jaba.2001.34-101 \color{black}
+Critchfield, T. S., & Kollins, S. H. (2001). Temporal Discounting: Basic Research and the Analysis of Socially Important Behavior. *Journal of Applied Behavior Analysis*, 34(1), 101–122. \color{blue} <https://doi.org/10.1901/jaba.2001.34-101> \color{black}
 
 Davis, M. D. (2012). *Game Theory: A Nontechnical Introduction*. Courier Corporation.
 
@@ -376,15 +336,14 @@ Frey, B. S., & Stutzer, A. (Eds.). (2007). *Economics and Psychology: A Promisin
 
 Kahneman, D., & Tversky, A. (Eds.). (2000). *Choices, Values, and Frames* (1 edition). New York: Cambridge, UK: Cambridge University Press.
 
-Kruglanski, A. W., & Gigerenzer, G. (2011). Intuitive and deliberate judgments are based on common principles. *Psychological Review*, 118(1), 97–109. \color{blue} https://doi.org/10.1037/a0020762 \color{black}
+Kruglanski, A. W., & Gigerenzer, G. (2011). Intuitive and deliberate judgments are based on common principles. *Psychological Review*, 118(1), 97–109. \color{blue} <https://doi.org/10.1037/a0020762> \color{black}
 
 Lea, S. E. G., Tarpy, R. M., & Webley, P. M. (1987). *The Individual in the Economy: A Textbook of Economic Psychology*. Cambridge Cambridgeshire; New York: Cambridge University Press.
 
-Lea, S. E. G., Webley, P., & Young, B. M. (1992). *New Directions in Economic Psychology*. Edward Elgar Publishing. 
+Lea, S. E. G., Webley, P., & Young, B. M. (1992). *New Directions in Economic Psychology*. Edward Elgar Publishing.
 
-Raaij, W. F., Veldhoven, G. M., & Wärneryd, K.-E. (1988). *Handbook of Economic Psychology*. Dordrecht: Springer Netherlands. \color{blue} http://dx.doi.org/10.1007/978-94-015-7791-5 \color{black}
+Raaij, W. F., Veldhoven, G. M., & Wärneryd, K.-E. (1988). *Handbook of Economic Psychology*. Dordrecht: Springer Netherlands. \color{blue} <http://dx.doi.org/10.1007/978-94-015-7791-5> \color{black}
 
 Thaler, R. H., & Sunstein, C. R. (2008). *Nudge: improving decisions about health, wealth, and happiness*. New Haven: Yale University Press.
 
 Todd, P. M., & Gigerenzer, G. (Eds.). (2012). *Ecological rationality: intelligence in the world*. Oxford; New York: Oxford University Press.
-
