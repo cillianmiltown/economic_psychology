@@ -10,7 +10,7 @@ format:
     slide-number: false
     controls: true
     logo: "resources/images/ul-psychology-logos.png"
-    footer: "PS4168: Cillian McHugh - 12/9/25"
+    footer: "PS4168: Cillian McHugh - 9/9/26"
     theme: "resources/css/mytheme.scss"
     chalkboard: 
       buttons: true
@@ -70,7 +70,7 @@ library(ggplot2)
 ## General Information and Housekeeping {.smaller}
 
 
-![](resources/images/cillian_face_2022e.jpg#right){width=100px padding=6px .lightbox}
+![](resources/images/cillian_face_2025.png#right){width=100px padding=6px .lightbox}
 
 
 
@@ -82,19 +82,19 @@ Email                  [cillian.mchugh@ul.ie](mailto:cillian.mchugh@ul.ie)
 
 Office                 KBG-22
 
-Student Hours          Wednesdays, 9-11
+Student Hours          Wednesdays, 2-13
                        ([book an appointment here](https://outlook.office.com/bookwithme/user/f570b7289a5343259c60c8a5d26ce510@ul.ie/meetingtype/a5wS5iMLaEGjeXKh-w2n1g2?anonymous&ep=mLinkFromTile))
 
-Lecture location       SR3006
+Lecture location       ERB007
 
-Day and Time           Fridays, 4-6 (sigh)
+Day and Time           Wednesdays, 12-2
 
 ---------------------- ----------------------
 
 
 ## Lectures
 
-- 2 hour slot (Friday evenings)
+- 2 hour slot (Wednesdays)
 - Interactive (discussion + activities)
 - Will be recorded
 - Do not come in if you are sick!!!
