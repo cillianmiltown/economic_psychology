@@ -83,7 +83,7 @@ library(xtable)
 | Lecture location | ERB007 |
 | Day and Time | Wednesdays, 12-2 |
 
-([click here for pdf copy](https://learn.ul.ie//content/enforced/92897-PS4168_SEM1_2026_7/1.Resources/module_handbook.pdf))
+([click here for pdf copy](https://learn.ul.ie/content/enforced/92897-PS4168_SEM1_2026_7/1.Resources/module_handbook.pdf))
 
 ## Module Overview
 
@@ -236,19 +236,19 @@ In Table 3 the schedule of topics to be covered in each lecture is provided. Key
 
 | Week | Topic | Ranyard (2018) | Altman (2017) | Camerer et al. (2003) | Other |
 |------------|------------|:----------:|:----------:|:----------:|:----------:|
-| **1** | General Introduction and History of Economic Psychology | Chapter 1 | Chapter 1 | Chapter 1 | [Cartwright (2014) Chapter 1](https://learn.ul.ie//content/enforced/92897-PS4168_SEM1_2026_7/1.Resources/Cartwright_2014_Chapter1.pdf) |
-| **2** | Heuristics & Biases <br> | [Chapter 2](https://learn.ul.ie//content/enforced/92897-PS4168_SEM1_2026_7/1.Resources/Ranyard_2018_Chapter2.pdf) | Chapters 6 & 7 |  | Cartwright (2014) Chapter 2 |
-| **3** | Nudges | (Chapter 23) | Chapter 17 |  | [Frantz et al., (2016) Chapter 8](https://learn.ul.ie//content/enforced/92897-PS4168_SEM1_2026_7/1.Resources/Frantz_2016_Chapter8.pdf); Thaler & Sunstein (2008) |
-| **4** | Theories of Decision Making | [Chapter 2](https://learn.ul.ie//content/enforced/92897-PS4168_SEM1_2026_7/1.Resources/Ranyard_2018_Chapter2.pdf) | Chapters 2, 3 & 4 | Chapters 2 & 3 |  |
-| **5** | Introduction to Game Theory |  | [Chapter 32](https://learn.ul.ie//content/enforced/92897-PS4168_SEM1_2026_7/1.Resources/Altman_2017_Chapter32.pdf) | Chapters 12 & 13 | [Antonides, (1996) Chapters 14](https://learn.ul.ie//content/enforced/92897-PS4168_SEM1_2026_7/1.Resources/Antonides_1996_Chapter14.pdf) & 15 |
+| **1** | General Introduction and History of Economic Psychology | Chapter 1 | Chapter 1 | Chapter 1 | [Cartwright (2014) Chapter 1](https://learn.ul.ie/content/enforced/92897-PS4168_SEM1_2026_7/1.Resources/Cartwright_2014_Chapter1.pdf) |
+| **2** | Heuristics & Biases <br> | [Chapter 2](https://learn.ul.ie/content/enforced/92897-PS4168_SEM1_2026_7/1.Resources/Ranyard_2018_Chapter2.pdf) | Chapters 6 & 7 |  | Cartwright (2014) Chapter 2 |
+| **3** | Nudges | (Chapter 23) | Chapter 17 |  | [Frantz et al., (2016) Chapter 8](https://learn.ul.ie/content/enforced/92897-PS4168_SEM1_2026_7/1.Resources/Frantz_2016_Chapter8.pdf); Thaler & Sunstein (2008) |
+| **4** | Theories of Decision Making | [Chapter 2](https://learn.ul.ie/content/enforced/92897-PS4168_SEM1_2026_7/1.Resources/Ranyard_2018_Chapter2.pdf) | Chapters 2, 3 & 4 | Chapters 2 & 3 |  |
+| **5** | Introduction to Game Theory |  | [Chapter 32](https://learn.ul.ie/content/enforced/92897-PS4168_SEM1_2026_7/1.Resources/Altman_2017_Chapter32.pdf) | Chapters 12 & 13 | [Antonides, (1996) Chapters 14](https://learn.ul.ie/content/enforced/92897-PS4168_SEM1_2026_7/1.Resources/Antonides_1996_Chapter14.pdf) & 15 |
 | **6** | Drop-in Session | \- | \- | \- | \- |
 | **7** <br>   | **Task 1 Deadline:** Tuesday 20th October at 4pm | \- | \- | \- | \- |
-|  | Emotional Influences |  | [Chapter 32](https://learn.ul.ie//content/enforced/92897-PS4168_SEM1_2026_7/1.Resources/Altman_2017_Chapter32.pdf) | Chapters 12 & 13 | Antonides, (1996) Chapter 9 |
-|  | Future Decisions and Affective Forecasting | Chapter 3 | Chapters 23 & 24 | [Chapters 6 & 7](https://learn.ul.ie//content/enforced/92897-PS4168_SEM1_2026_7/1.Resources/Camerer_2003_Chapter6and7.pdf) | Cartwright (2014) Chapter 4 |
-| **8** | Loss Aversion and Endowment Effects | [Chapter 2](https://learn.ul.ie//content/enforced/92897-PS4168_SEM1_2026_7/1.Resources/Ranyard_2018_Chapter2.pdf) | Chapter 11 | Chapter 2, 4 & 5 | Cartwright (2014) Chapter 3 |
-| **9** | Mental Accounting <br> | Chapter 8 |  | [Chapters 3](https://learn.ul.ie//content/enforced/92897-PS4168_SEM1_2026_7/1.Resources/Camerer_2003_Chapter3.pdf) & 14 |  |
-| **10** | Fairness and Ethics |  | [Chapter 32](https://learn.ul.ie//content/enforced/92897-PS4168_SEM1_2026_7/1.Resources/Altman_2017_Chapter32.pdf) | Chapters 8, 9 & 18 & |  |
-| **11** | Gambling | [Chapter 19](https://learn.ul.ie//content/enforced/92897-PS4168_SEM1_2026_7/1.Resources/Ranyard_2018_Chapter19.pdf) |  | Chapter 23 |  |
+|  | Emotional Influences |  | [Chapter 32](https://learn.ul.ie/content/enforced/92897-PS4168_SEM1_2026_7/1.Resources/Altman_2017_Chapter32.pdf) | Chapters 12 & 13 | Antonides, (1996) Chapter 9 |
+|  | Future Decisions and Affective Forecasting | Chapter 3 | Chapters 23 & 24 | [Chapters 6 & 7](https://learn.ul.ie/content/enforced/92897-PS4168_SEM1_2026_7/1.Resources/Camerer_2003_Chapter6and7.pdf) | Cartwright (2014) Chapter 4 |
+| **8** | Loss Aversion and Endowment Effects | [Chapter 2](https://learn.ul.ie/content/enforced/92897-PS4168_SEM1_2026_7/1.Resources/Ranyard_2018_Chapter2.pdf) | Chapter 11 | Chapter 2, 4 & 5 | Cartwright (2014) Chapter 3 |
+| **9** | Mental Accounting <br> | Chapter 8 |  | [Chapters 3](https://learn.ul.ie/content/enforced/92897-PS4168_SEM1_2026_7/1.Resources/Camerer_2003_Chapter3.pdf) & 14 |  |
+| **10** | Fairness and Ethics |  | [Chapter 32](https://learn.ul.ie/content/enforced/92897-PS4168_SEM1_2026_7/1.Resources/Altman_2017_Chapter32.pdf) | Chapters 8, 9 & 18 & |  |
+| **11** | Gambling | [Chapter 19](https://learn.ul.ie/content/enforced/92897-PS4168_SEM1_2026_7/1.Resources/Ranyard_2018_Chapter19.pdf) |  | Chapter 23 |  |
 | **12** | Morality & Review |  |  |  | [McHugh et al. (2022)](https://journals.sagepub.com/doi/full/10.1177/1745691621990636) |
 | **13** <br>   | **Presentation Due:** Monday 30th November at 4pm | \- | \- | \- | \- |
 |  |  |  |  |  |  |
