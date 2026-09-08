@@ -32,6 +32,7 @@ library(ggplot2)
 
 <iframe width="900" height="600" src="https://www.youtube.com/embed/KbbZc2pab9k" title="The Wire - Stringer Bell changes the name of the product" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+
 ## Economic Psychology is Everywhere
 
 <br>
@@ -49,14 +50,15 @@ library(ggplot2)
 
 ## Before we begin
 
-![131D](resources/images/131_D.jpg){width=350px}
 
-<img src="resources/images/131_D.jpg" align="centre" width="850px" class="img-frame"/>
+![](resources/images/131_D.jpg){width=750px .lightbox} 
+
+
 
 ## Before we begin
 
-![airplane](resources/images/airplane_seats.jpg){width=350px}
-<img src="resources/images/airplane_seats.jpg" align="left" width="350px" class="img-frame"/>
+![](resources/images/airplane_seats.jpg){width=650px .lightbox}
+
 
 ## Overview
 
@@ -73,8 +75,8 @@ library(ggplot2)
 ## General Information and Housekeeping {.smaller}
 
 
+![](resources/images/cillian_face_2025.png){width=100px padding=6px .lightbox}
 
-<img style="float: right;" src="resources/images/cillian_face_2022e.jpg" width=100px padding=6px>
 
 
 
@@ -85,19 +87,18 @@ Email                  [cillian.mchugh@ul.ie](mailto:cillian.mchugh@ul.ie)
 
 Office                 KBG-22
 
-Student Hours          Wednesdays, 9-11
+Student Hours          Wednesdays, 2-3
 
-Lecture location       SR3006
+Lecture location       ERB007
 
-Day and Time           Fridays, 4-6
+Day and Time           Wednesdays, 12-2
 
 ---------------------- ----------------------
 
-([book an appointment here](https://outlook.office.com/bookwithme/user/f570b7289a5343259c60c8a5d26ce510@ul.ie/meetingtype/a5wS5iMLaEGjeXKh-w2n1g2?anonymous&ep=mLinkFromTile))
 
 ## Lectures
 
-- 2 hour slot (Wednesday mornings)
+- 2 hour slot (Wednesdays)
 - Interactive (discussion + activities)
 - Will be recorded
 - Do not come in if you are sick!!!
@@ -112,38 +113,32 @@ Day and Time           Fridays, 4-6
 
 ::: {.column width="60%"}
 
-
-![altman](resources/images/altman.jpg){width=30}
-<img style="float: left;" src="resources/images/altman.jpg" width=100px padding=6px>
-<br>
-&nbsp;&nbsp;&nbsp;
-@altman_Handbook_2017
-&nbsp;&nbsp;&nbsp;<br>
-&nbsp;&nbsp;&nbsp; <br><br><br><br><br><br>
-\bigskip
-<img style="float: left;" src="resources/images/camerer.jpg" width=100px padding=6px>
-<br>
-&nbsp;&nbsp;&nbsp;<br>
-
+![](resources/images/camerer.jpg){width=100px .lightbox}
 
 @camerer_advances_2003
-![camerer](resources/images/camerer.jpg){width=30}
+
+<br>
+
+![](resources/images/altman.jpg){width=100px .lightbox}
+
+@altman_Handbook_2017
+&nbsp;&nbsp;&nbsp;<br>
 
 
 :::
 
 ::: {.column width="40%"}
 
-![cartwright](resources/images/cartwright.jpg){width=30}
-<img style="float: left;" src="resources/images/cartwright.jpg" width=100px padding=6px>
-<br>
-&nbsp;&nbsp;&nbsp;
+
+
+![](resources/images/cartwright.jpg){width=100px .lightbox}
+
 @cartwright_behavioral_2014
-&nbsp;&nbsp;&nbsp;<br><br><br><br><br><br>
-![ranyard](resources/images/ranyard.jpg){width=30}
-<img style="float: left;" src="resources/images/ranyard.jpg" width=100px padding=6px>
+
 <br>
-&nbsp;&nbsp;&nbsp;
+
+![](resources/images/ranyard.jpg){width=100px .lightbox}
+
 @ranyard_economic_2018
 
 
@@ -154,30 +149,26 @@ Day and Time           Fridays, 4-6
 - Additional readings will be highlighted during lectures
 
 
-
 ## Other Texts
 
 
-![](resources/images/dhami.png){width=160 .lightbox}
+![](resources/images/dhami.png){width=260 .lightbox}
 
 @dhami_Principles_2025
-
 
 ## Assessment{.smaller}
 
 
 <br> 
 
-
 ---------------------------------------------------------------------------------
 Type of Assessment          % of Final Grade         Deadline
 ------------------------ --------------------- ----------------------------------
-Task 1                     40\%                 Tuesday 28th October at 4pm 
+Task 1                     30\%                 Tuesday 20th October at 4pm 
   
-Recorded Presentation      60\%                 Monday 1st December at 4pm
+Recorded Presentation      70\%                 Monday 30th November at 4pm
 
 ---------------------------------------------------------------------------------
-
 
 
 
@@ -212,6 +203,8 @@ Mental Accounting
 Fairness and Ethics
 
 Gambling
+
+Morality
 :::
 
 ::::
@@ -247,6 +240,8 @@ Mental Accounting
 Fairness and Ethics
 
 Gambling
+
+Morality
 :::
 
 ::::
@@ -345,7 +340,7 @@ How much does the ball cost? _______ cents
 
 ## Early Emergence of Economic Psychology{.smaller}
 
- 
+:::{.incremental}
 
 - Adam Smith (1723 – 1790)
 
@@ -359,7 +354,7 @@ How much does the ball cost? _______ cents
 
   + Conceived *homo economicus* <font size=4.5>[see @ranyard_economic_2018]</font size>
     + Preference for a larger gain over a smaller gain
-
+:::
 
 
 ## Emergence of Economic Psychology
@@ -367,7 +362,6 @@ How much does the ball cost? _______ cents
  
 
 ```{r ggtimeline1}
-#| fig-height: 5
 
 data = data.frame(
   V1=c(2019),
@@ -416,7 +410,6 @@ ggplot() +
  
 
 ```{r ggtimeline2}
-#| fig-height: 5
 
 data = data.frame(
   V1=c(1944,
@@ -466,7 +459,6 @@ ggplot() +
  
 
 ```{r ggtimeline3a}
-#| fig-height: 5
 
 data = data.frame(
   V1=c(1944,
@@ -519,7 +511,6 @@ ggplot() +
  
 
 ```{r ggtimeline3}
-#| fig-height: 5
 
 data = data.frame(
   V1=c(1944,
@@ -576,7 +567,6 @@ ggplot() +
  
 
 ```{r ggtimeline4}
-#| fig-height: 5
 
 data = data.frame(
   V1=c(1944,
@@ -638,7 +628,7 @@ ggplot() +
  
 
 ```{r ggtimeline5}
-#| fig-height: 5
+#| out.width = "90%"
 
 
 data = data.frame(
@@ -702,7 +692,7 @@ ggplot() +
  
 
 ```{r ggtimeline6}
-#| fig-height: 5
+#| out.width = "90%"
 
 data = data.frame(
   V1=c(1944,
@@ -770,7 +760,7 @@ ggplot() +
  
 
 ```{r ggtimeline7}
-#| fig-height: 5
+
 
 data = data.frame(
   V1=c(1944,

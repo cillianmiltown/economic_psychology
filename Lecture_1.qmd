@@ -82,7 +82,7 @@ Email                  [cillian.mchugh@ul.ie](mailto:cillian.mchugh@ul.ie)
 
 Office                 KBG-22
 
-Student Hours          Wednesdays, 2-13
+Student Hours          Wednesdays, 2-3
                        ([book an appointment here](https://outlook.office.com/bookwithme/user/f570b7289a5343259c60c8a5d26ce510@ul.ie/meetingtype/a5wS5iMLaEGjeXKh-w2n1g2?anonymous&ep=mLinkFromTile))
 
 Lecture location       ERB007
@@ -160,9 +160,9 @@ Day and Time           Wednesdays, 12-2
 ---------------------------------------------------------------------------------
 Type of Assessment          % of Final Grade         Deadline
 ------------------------ --------------------- ----------------------------------
-Task 1                     40\%                 Tuesday 28th October at 4pm 
+Task 1                     30\%                 Tuesday 20th October at 4pm 
   
-Recorded Presentation      60\%                 Monday 1st December at 4pm
+Recorded Presentation      70\%                 Monday 30th November at 4pm
 
 ---------------------------------------------------------------------------------
 
@@ -199,6 +199,8 @@ Mental Accounting
 Fairness and Ethics
 
 Gambling
+
+Morality
 :::
 
 ::::
@@ -234,6 +236,8 @@ Mental Accounting
 Fairness and Ethics
 
 Gambling
+
+Morality
 :::
 
 ::::
