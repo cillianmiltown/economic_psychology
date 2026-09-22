@@ -14,7 +14,7 @@
   <meta name="generator" content="quarto-1.5.57">
 
   <meta name="author" content="Dr Cillian McHugh">
-  <title>Lecture 3</title>
+  <title>Lecture 5</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -351,8 +351,8 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Lecture 3</h1>
-  <p class="subtitle">Nudges</p>
+  <h1 class="title">Lecture 5</h1>
+  <p class="subtitle">Game Theory</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -366,32 +366,53 @@ Dr Cillian McHugh
 </div>
 
 </section>
-<section id="nudge-thaler_nudge_2008" class="slide level2">
-<h2>Nudge <span class="citation" data-cites="thaler_nudge_2008">(<a href="#/references-1" role="doc-biblioref" onclick="">Thaler &amp; Sunstein, 2008</a>)</span></h2>
-<div class="cell">
+<section id="game-theory" class="slide level2">
+<h2>Game Theory</h2>
 <style type="text/css">
-.scrollable {
-  overflow-y: auto;
-  height: 100%;
-}
+    table.table-style-one {
+        font-size:36px;
+        color:#333333;
+        border-width: 1px;
+        border-color: #D3D3D3;
+        border-collapse: collapse;
+    }
+    table.table-style-one th {
+        border-width: 1px;
+        padding: 16px;
+        border-style: solid;
+        border-color: #3A3A3A;
+        background-color: #B3B3B3;
+    }
+    table.table-style-one td {
+        border-width: 1px;
+        padding: 16px;
+        border-style: solid;
+        border-color: #D3D3D3;
+        background-color: #ececec;
+    }
 </style>
-</div>
-<p><a href="resources/images/nudge.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img data-src="resources/images/nudge.png" title="Nudge" height="480"></a></p>
+<iframe width="900" height="600" src="https://www.youtube.com/embed/_68xT0JoyWk?si=5DBOUHaVCM9T4ErR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="">
+</iframe>
 </section>
-<section id="overview" class="slide level2">
-<h2>Overview</h2>
+<section id="game-theory-1" class="slide level2">
+<h2>Game Theory</h2>
+<iframe width="900" height="600" src="https://www.youtube.com/embed/tL6qFg8Z5WI?si=2vBYQGa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="">
+</iframe>
+</section>
+<section id="key-concepts-in-todays-lecture-overview" class="slide level2">
+<h2>Key Concepts in Todays lecture / Overview</h2>
 <ul>
-<li><p>Background</p>
-<ul>
-<li>Recap on heuristics/biases</li>
-<li>Brief overview of dual-systems</li>
-</ul></li>
-<li><p>Nudges: Examples and Definition</p></li>
-<li><p>Nudges and Theory</p></li>
-<li><p>In-class Activity</p></li>
+<li><p>Strict Dominance</p></li>
+<li><p>Nash Equilibrium</p></li>
+<li><p>Mixed Strategy Nash Equilibrium</p></li>
+<li><p>Predicting others’ behaviour</p></li>
+<li><p>In-class Activities</p></li>
 </ul>
 </section>
 <section id="recap-on-last-week" class="slide level2">
+<h2>Recap on last week!</h2>
+</section>
+<section id="recap-on-last-week-1" class="slide level2">
 <h2>Recap on last week!</h2>
 <ul>
 <li>In Groups:
@@ -408,637 +429,2996 @@ Dr Cillian McHugh
 </ul>
 </section>
 <section>
-<section id="background" class="title-slide slide level1 center">
-<h1>Background</h1>
+<section id="introduction-to-game-theory" class="title-slide slide level1 center">
+<h1>Introduction to Game Theory</h1>
 
 </section>
-<section id="background-1" class="slide level2">
-<h2>Background</h2>
-<p><a href="resources/images/tables.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img data-src="resources/images/tables.png" title="Tables" height="420"></a></p>
-<p><font size="4.5"><span class="citation" data-cites="thaler_nudge_2008 shepard_mind_1990">(taken from <a href="#/references-1" role="doc-biblioref" onclick="">Thaler &amp; Sunstein, 2008, p. 18</a>; see also <a href="#/references-1" role="doc-biblioref" onclick="">Shepard, 1990</a>)</span></font></p>
-</section>
-<section id="background-2" class="slide level2">
-<h2>Background</h2>
-<p><a href="resources/images/tables2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img data-src="resources/images/tables2.png" title="Tables" height="420"></a></p>
-<p><font size="4.5"><span class="citation" data-cites="thaler_nudge_2008 shepard_mind_1990">(taken from <a href="#/references-1" role="doc-biblioref" onclick="">Thaler &amp; Sunstein, 2008, p. 17</a>; see also <a href="#/references-1" role="doc-biblioref" onclick="">Shepard, 1990</a>)</span></font></p>
-</section>
-<section id="from-biases-to-nudges" class="slide level2">
-<h2>From Biases to Nudges</h2>
+<section id="introduction-to-game-theory-1" class="slide level2">
+<h2>Introduction to Game Theory</h2>
 <ul>
-<li>Recall that a bias is:
+<li>Branch of Applied Mathematics
 <ul>
-<li><p>“An inclination towards a position or conclusion” <font size="4.5"><span class="citation" data-cites="reber_penguin_2001">(<a href="#/references-1" role="doc-biblioref" onclick="">Reber, 2001, p. 88</a>)</span></font></p></li>
-<li><p>A tendency to:</p>
+<li>Provides a framework for modelling and predicting behaviour in Social situations of
 <ul>
-<li>act in a particular way</li>
-<li>make judgements in a particular way</li>
+<li>cooperation</li>
+<li>coordination</li>
+<li>conflict</li>
 </ul></li>
-<li><p>An error in reasoning <font size="4.5"><span class="citation" data-cites="eysenck_cognitive_2005">(<a href="#/references-1" role="doc-biblioref" onclick="">Eysenck &amp; Keane, 2005, p. 512</a>)</span></font></p></li>
-</ul></li>
-<li>In some cases a bias is the “failure” of a heuristic judgement
-<ul>
-<li>A heuristic applied in the wrong context</li>
 </ul></li>
 </ul>
+<p><br><span class="citation" data-cites="dowling_modern_2007 vonneuman_theory_1944 vonneuman_theories_1947">(<a href="#/references-1" role="doc-biblioref" onclick="">Dowling, 2007</a>; <a href="#/references-1" role="doc-biblioref" onclick="">Von Neuman &amp; Morgenstern, 1944</a>, <a href="#/references-1" role="doc-biblioref" onclick="">1947</a>)</span></p>
+</section></section>
+<section>
+<section id="the-prisoner-dilemma" class="title-slide slide level1 center">
+<h1>The Prisoner Dilemma</h1>
+
 </section>
-<section id="from-biases-to-nudges-1" class="slide level2">
-<h2>From Biases to Nudges</h2>
+<section id="the-prisoner-dilemma-the-wire" class="slide level2">
+<h2>The Prisoner Dilemma (The Wire)</h2>
+<iframe width="900" height="600" src="https://www.youtube.com/embed/AJ5aIvjNgao?si=RWOztM-oMpazRJZ_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="">
+</iframe>
+</section>
+<section id="the-prisoner-dilemma-1" class="slide level2 smaller">
+<h2>The Prisoner Dilemma</h2>
 <ul>
-<li><p>Heuristics and biases linked by similarities in underlying cognitive mechanisms</p></li>
-<li><p>Errors in applying heuristics manifest as biases</p>
+<li><p>Two suspects (e.g., <font color="#6666ff">Bob</font> and <font color="#ff4c4c">Susan</font>) are arrested on suspicion of a serious crime</p></li>
+<li><p>However:</p>
 <ul>
-<li>These biases led to the discovery of specific heuristics
-<ul>
-<li>(e.g., representativeness / availability)</li>
+<li>Only sufficient evidence to convict them of a minor crime</li>
 </ul></li>
-</ul></li>
-<li><p>Study of heuristics and biases informed our understanding of how people think</p>
+<li><p>Prisoners are kept in isolation and offered a deal:</p>
 <ul>
-<li><font color="5284bd">Dual-process</font>/<font color="2FAACE">Dual-systems</font> Theories</li>
+<li>If neither confess they each get 1 year</li>
+<li>If one confesses and the other doesn’t the one that confessed will be let free and the other is sentenced for 20 years</li>
+<li>If they both confess they each get 5 years</li>
 </ul></li>
 </ul>
+<p><span class="citation" data-cites="dowling_modern_2007 dowling_modern_2007">(adapted from <a href="#/references-1" role="doc-biblioref" onclick="">Dowling, 2007</a>; originally devised by Merrill Flood and Melvin Dresher in 1950 see <a href="#/references-1" role="doc-biblioref" onclick="">Dowling, 2007, p. 107</a>)</span></p>
+<p><a href="https://vevox.app/#/m/180064848">https://vevox.app/#/m/180064848</a></p>
 </section>
-<section id="dual-processes-dual-systems" class="slide level2">
-<h2>Dual-processes / Dual-systems</h2>
+<section id="the-prisoner-dilemma-2" class="slide level2 smaller">
+<h2>The Prisoner Dilemma</h2>
+<iframe src="https://vevox.app/#/m/180064848" height="100%" width="100%" frameborder="0" style="min-height: 800px;" title="Vevox">
+</iframe>
 </section>
-<section id="dual-processes-dual-systems-1" class="slide level2">
-<h2>Dual-processes / Dual-systems</h2>
-<p><a href="resources/images/dualsystems.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img data-src="resources/images/dualsystems.png" title="Dual Systems"></a></p>
-<p><font size="4.5"><span class="citation" data-cites="thaler_nudge_2008">(taken from <a href="#/references-1" role="doc-biblioref" onclick="">Thaler &amp; Sunstein, 2008, p. 20</a>)</span></font></p>
+<section id="the-prisoner-dilemmalink" class="slide level2 smaller">
+<h2>The Prisoner Dilemma(<a href="https://ul.display.vevox.com#/present/803060/0LZVROGOP7WL61GDT0KR">link</a>)</h2>
+<iframe width="900" height="550" src="https://ul.display.vevox.com#/present/803060/0LZVROGOP7WL61GDT0KR" frameborder="0" allow="autoplay; encrypted-media">
+</iframe>
+<p>https://ul.display.vevox.com#/present/803060/0LZVROGOP7WL61GDT0KR</p>
 </section>
-<section id="dual-processes-dual-systems-2" class="slide level2">
-<h2>Dual-processes / Dual-systems</h2>
-<div class="r-stack">
-<p><a href="resources/images/homer_spock1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><img data-src="resources/images/homer_spock1.png" title="Homer and Spock" class="fragment"></a></p>
-<p><a href="resources/images/homer_spock2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-6"><img data-src="resources/images/homer_spock2.png" title="Homer and Spock" class="fragment"></a></p>
-</div>
+<section id="the-prisoner-dilemma-3" class="slide level2">
+<h2>The Prisoner Dilemma</h2>
+<br>
+<center>
+<table class="table-style-one">
+<colgroup><col width="200px">
+<col width="200px">
+<col width="200px">
+<col width="200px">
+</colgroup><tbody><tr class="odd">
+<td colspan="2" rowspan="2">
+</td>
+<td colspan="2" align="center">
+<font color="#ff4c4c">Player 2</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px">keep quiet</font>
+</td>
+<td align="center">
+<font size="5px">confess</font>
+</td>
+</tr>
+<tr class="odd">
+<td rowspan="2" align="center">
+<font color="#6666ff">Player 1</font>
+</td>
+<td align="center">
+<font size="5px">keep quiet</font>
+</td>
+<td align="center">
+<font color="#6666ff">-1</font> , <font color="#ff4c4c">-1</font>
+</td>
+<td align="center">
+<font color="#6666ff">-20</font> , <font color="#ff4c4c">0</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px">confess</font>
+</td>
+<td align="center">
+<font color="#6666ff">0</font> , <font color="#ff4c4c">-20</font>
+</td>
+<td align="center">
+<font color="#6666ff">-5</font> , <font color="#ff4c4c">-5</font>
+</td>
+</tr>
+</tbody></table>
+</center>
+<p><br> <span class="citation" data-cites="dowling_modern_2007">(adapted from <a href="#/references-1" role="doc-biblioref" onclick="">Dowling, 2007, p. 108</a>)</span></p>
 </section>
-<section id="harnessing-our-biases" class="slide level2 incremental">
-<h2>Harnessing our Biases</h2>
+<section id="strict-dominance" class="slide level2">
+<h2>Strict Dominance</h2>
 <div>
 <ul>
-<li class="fragment"><p>“System 1” → Heuristics</p>
+<li class="fragment">The strategy x is a <strong>dominant</strong> strategy if it is a <em>strict best response</em> to any feasible strategy that the others might play</li>
+<li class="fragment">We say that a strategy x strictly dominates strategy y for a player if
 <ul>
-<li class="fragment"><p>(mis-applied) Heuristics → Biases</p>
-<ul>
-<li class="fragment">Biases → poor choices (sometimes) 😟</li>
+<li class="fragment">strategy x provides a greater payoff for that player than strategy y</li>
+<li class="fragment">regardless of what the other player(s) do.</li>
 </ul></li>
-</ul></li>
-<li class="fragment"><p><strong><em>But</em></strong> understanding biases → <em>Development of an Intervention</em></p>
+<li class="fragment"><strong>What is the dominant strategy in the Prisoner Dilemma?</strong></li>
+</ul>
+</div>
+</section>
+<section id="the-prisoner-dilemma-and-strict-dominance" class="slide level2">
+<h2>The Prisoner Dilemma and Strict Dominance</h2>
+<p>Work through possibilities</p>
+<center>
+<table class="table-style-one">
+<colgroup><col width="200px">
+<col width="200px">
+<col width="200px">
+<col width="200px">
+</colgroup><tbody><tr class="odd">
+<td colspan="2" rowspan="2">
+</td>
+<td colspan="2" align="center">
+<font color="#ff4c4c">Player 2</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px">keep quiet</font>
+</td>
+<td align="center">
+<font size="5px">confess</font>
+</td>
+</tr>
+<tr class="odd">
+<td rowspan="2" align="center">
+<font color="#6666ff">Player 1</font>
+</td>
+<td align="center">
+<font size="5px">keep quiet</font>
+</td>
+<td align="center">
+<font color="#6666ff">-1</font> , <font color="#ff4c4c">-1</font>
+</td>
+<td align="center">
+<font color="#6666ff">-20</font> , <font color="#ff4c4c">0</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px">confess</font>
+</td>
+<td align="center">
+<font color="#6666ff">0</font> , <font color="#ff4c4c">-20</font>
+</td>
+<td align="center">
+<font color="#6666ff">-5</font> , <font color="#ff4c4c">-5</font>
+</td>
+</tr>
+</tbody></table>
+</center>
+<p><br> <span class="citation" data-cites="dowling_modern_2007">(adapted from <a href="#/references-1" role="doc-biblioref" onclick="">Dowling, 2007, p. 108</a>)</span></p>
+</section></section>
+<section>
+<section id="player-1s-options" class="title-slide slide level1 center">
+<h1>Player 1’s Options</h1>
+
+</section>
+<section id="player-1s-options-1" class="slide level2">
+<h2>Player 1’s Options</h2>
+<p>If Player 2 Keeps Quiet…</p>
+<center>
+<table class="table-style-one">
+<colgroup><col width="200px">
+<col width="200px">
+<col width="200px">
+<col width="200px">
+</colgroup><tbody><tr class="odd">
+<td colspan="2" rowspan="2">
+</td>
+<td colspan="2" align="center">
+<font color="#ff4c4c">Player 2</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px">keep quiet</font>
+</td>
+<td align="center">
+<font size="5px">confess</font>
+</td>
+</tr>
+<tr class="odd">
+<td rowspan="2" align="center">
+<font color="#6666ff">Player 1</font>
+</td>
+<td align="center">
+<font size="5px">keep quiet</font>
+</td>
+<td align="center">
+<font color="#6666ff">-1</font> , <font color="#ff4c4c">-1</font>
+</td>
+<td align="center">
+<font color="#6666ff">-20</font> , <font color="#ff4c4c">0</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px">confess</font>
+</td>
+<td align="center">
+<font color="#6666ff">0</font> , <font color="#ff4c4c">-20</font>
+</td>
+<td align="center">
+<font color="#6666ff">-5</font> , <font color="#ff4c4c">-5</font>
+</td>
+</tr>
+</tbody></table>
+</center>
+<p><br> <span class="citation" data-cites="dowling_modern_2007">(adapted from <a href="#/references-1" role="doc-biblioref" onclick="">Dowling, 2007, p. 108</a>)</span></p>
+</section>
+<section id="player-1s-options-2" class="slide level2">
+<h2>(1) Player 1’s Options</h2>
+<p>Options available to Player 1 if Player 2 Keeps Quiet</p>
+<center>
+<table class="table-style-one">
+<colgroup><col width="200px">
+<col width="200px">
+<col width="200px">
+<col width="200px">
+</colgroup><tbody><tr class="odd">
+<td colspan="2" rowspan="2">
+</td>
+<td colspan="2" align="center">
+<font color="#ff4c4c">Player 2</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px"><strong>keep quiet</strong></font>
+</td>
+<td align="center">
+<font size="5px" color="#D3D3D3">confess</font>
+</td>
+</tr>
+<tr class="odd">
+<td rowspan="2" align="center">
+<font color="#6666ff">Player 1</font>
+</td>
+<td align="center">
+<font size="5px">keep quiet</font>
+</td>
+<td align="center">
+<font color="#6666ff">-1</font> , <font color="#D3D3D3">-1</font>
+</td>
+<td align="center">
+<font color="#D3D3D3">-20</font> , <font color="#D3D3D3">0</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px">confess</font>
+</td>
+<td align="center">
+<font color="#6666ff">0</font> , <font color="#D3D3D3">-20</font>
+</td>
+<td align="center">
+<font color="#D3D3D3">-5</font> , <font color="#D3D3D3">-5</font>
+</td>
+</tr>
+</tbody></table>
+</center>
+<p><br> <span class="citation" data-cites="dowling_modern_2007">(adapted from <a href="#/references-1" role="doc-biblioref" onclick="">Dowling, 2007, p. 108</a>)</span></p>
+</section>
+<section id="player-1s-options-3" class="slide level2">
+<h2>(2) Player 1’s Options</h2>
+<p>Player 1 is better off to confess</p>
+<center>
+<table class="table-style-one">
+<colgroup><col width="200px">
+<col width="200px">
+<col width="200px">
+<col width="200px">
+</colgroup><tbody><tr class="odd">
+<td colspan="2" rowspan="2">
+</td>
+<td colspan="2" align="center">
+<font color="#ff4c4c">Player 2</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px"><strong>keep quiet</strong></font>
+</td>
+<td align="center">
+<font size="5px" color="#D3D3D3">confess</font>
+</td>
+</tr>
+<tr class="odd">
+<td rowspan="2" align="center">
+<font color="#6666ff">Player 1</font>
+</td>
+<td align="center">
+<font size="5px" color="#D3D3D3">keep quiet</font>
+</td>
+<td align="center">
+<font color="#D3D3D3">-1</font> , <font color="#D3D3D3">-1</font>
+</td>
+<td align="center">
+<font color="#D3D3D3">-20</font> , <font color="#D3D3D3">0</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px">confess</font>
+</td>
+<td align="center">
+<font color="#6666ff">0*</font> , <font color="#D3D3D3">-20</font>
+</td>
+<td align="center">
+<font color="#D3D3D3">-5</font> , <font color="#D3D3D3">-5</font>
+</td>
+</tr>
+</tbody></table>
+</center>
+<p><br> <span class="citation" data-cites="dowling_modern_2007">(adapted from <a href="#/references-1" role="doc-biblioref" onclick="">Dowling, 2007, p. 108</a>)</span></p>
+</section>
+<section id="player-1s-options-4" class="slide level2">
+<h2>(3) Player 1’s Options</h2>
+<p>Options available to Player 1 if Player 2 Confesses</p>
+<center>
+<table class="table-style-one">
+<colgroup><col width="200px">
+<col width="200px">
+<col width="200px">
+<col width="200px">
+</colgroup><tbody><tr class="odd">
+<td colspan="2" rowspan="2">
+</td>
+<td colspan="2" align="center">
+<font color="#ff4c4c">Player 2</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px" color="#D3D3D3">keep quiet</font>
+</td>
+<td align="center">
+<font size="5px"><strong>confess</strong></font>
+</td>
+</tr>
+<tr class="odd">
+<td rowspan="2" align="center">
+<font color="#6666ff">Player 1</font>
+</td>
+<td align="center">
+<font size="5px">keep quiet</font>
+</td>
+<td align="center">
+<font color="#D3D3D3">-1</font> , <font color="#D3D3D3">-1</font>
+</td>
+<td align="center">
+<font color="#6666ff">-20</font> , <font color="#D3D3D3">0</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px">confess</font>
+</td>
+<td align="center">
+<font color="#D3D3D3">0*</font> , <font color="#D3D3D3">-20</font>
+</td>
+<td align="center">
+<font color="#6666ff">-5</font> , <font color="#D3D3D3">-5</font>
+</td>
+</tr>
+</tbody></table>
+</center>
+<p><br> <span class="citation" data-cites="dowling_modern_2007">(adapted from <a href="#/references-1" role="doc-biblioref" onclick="">Dowling, 2007, p. 108</a>)</span></p>
+</section>
+<section id="player-1s-options-5" class="slide level2">
+<h2>(4) Player 1’s Options</h2>
+<p>Player 1 is better off to confess</p>
+<center>
+<table class="table-style-one">
+<colgroup><col width="200px">
+<col width="200px">
+<col width="200px">
+<col width="200px">
+</colgroup><tbody><tr class="odd">
+<td colspan="2" rowspan="2">
+</td>
+<td colspan="2" align="center">
+<font color="#ff4c4c">Player 2</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px" color="#D3D3D3">keep quiet</font>
+</td>
+<td align="center">
+<font size="5px"><strong>confess</strong></font>
+</td>
+</tr>
+<tr class="odd">
+<td rowspan="2" align="center">
+<font color="#6666ff">Player 1</font>
+</td>
+<td align="center">
+<font size="5px" color="#D3D3D3">keep quiet</font>
+</td>
+<td align="center">
+<font color="#D3D3D3">-1</font> , <font color="#D3D3D3">-1</font>
+</td>
+<td align="center">
+<font color="#D3D3D3">-20</font> , <font color="#D3D3D3">0</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px">confess</font>
+</td>
+<td align="center">
+<font color="#D3D3D3">0*</font> , <font color="#D3D3D3">-20</font>
+</td>
+<td align="center">
+<font color="#6666ff">-5*</font> , <font color="#D3D3D3">-5</font>
+</td>
+</tr>
+</tbody></table>
+</center>
+<p><br> <span class="citation" data-cites="dowling_modern_2007">(adapted from <a href="#/references-1" role="doc-biblioref" onclick="">Dowling, 2007, p. 108</a>)</span></p>
+</section>
+<section id="player-1s-options-6" class="slide level2">
+<h2>(5) Player 1’s Options</h2>
+<p>Confess is <strong>Strictly Dominant</strong> for Player 1</p>
+<center>
+<table class="table-style-one">
+<colgroup><col width="200px">
+<col width="200px">
+<col width="200px">
+<col width="200px">
+</colgroup><tbody><tr class="odd">
+<td colspan="2" rowspan="2">
+</td>
+<td colspan="2" align="center">
+<font color="#ff4c4c">Player 2</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px">keep quiet</font>
+</td>
+<td align="center">
+<font size="5px">confess</font>
+</td>
+</tr>
+<tr class="odd">
+<td rowspan="2" align="center">
+<font color="#6666ff">Player 1</font>
+</td>
+<td align="center">
+<font size="5px" color="#D3D3D3">keep quiet</font>
+</td>
+<td align="center">
+<font color="#D3D3D3">-1</font> , <font color="#D3D3D3">-1</font>
+</td>
+<td align="center">
+<font color="#D3D3D3">-20</font> , <font color="#D3D3D3">0</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px"><strong>confess</strong></font>
+</td>
+<td align="center">
+<font color="#6666ff">0*</font> , <font color="#D3D3D3">-20</font>
+</td>
+<td align="center">
+<font color="#6666ff">-5*</font> , <font color="#D3D3D3">-5</font>
+</td>
+</tr>
+</tbody></table>
+</center>
+<p><br> <span class="citation" data-cites="dowling_modern_2007">(adapted from <a href="#/references-1" role="doc-biblioref" onclick="">Dowling, 2007, p. 108</a>)</span></p>
+</section></section>
+<section>
+<section id="player-2s-options" class="title-slide slide level1 center">
+<h1>Player 2’s Options</h1>
+
+</section>
+<section id="player-2s-options-1" class="slide level2">
+<h2>Player 2’s Options</h2>
+<p>If Player 1 Keeps Quiet</p>
+<center>
+<table class="table-style-one">
+<colgroup><col width="200px">
+<col width="200px">
+<col width="200px">
+<col width="200px">
+</colgroup><tbody><tr class="odd">
+<td colspan="2" rowspan="2">
+</td>
+<td colspan="2" align="center">
+<font color="#ff4c4c">Player 2</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px">keep quiet</font>
+</td>
+<td align="center">
+<font size="5px">confess</font>
+</td>
+</tr>
+<tr class="odd">
+<td rowspan="2" align="center">
+<font color="#6666ff">Player 1</font>
+</td>
+<td align="center">
+<font size="5px">keep quiet</font>
+</td>
+<td align="center">
+<font color="#6666ff">-1</font> , <font color="#ff4c4c">-1</font>
+</td>
+<td align="center">
+<font color="#6666ff">-20</font> , <font color="#ff4c4c">0</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px">confess</font>
+</td>
+<td align="center">
+<font color="#6666ff">0</font> , <font color="#ff4c4c">-20</font>
+</td>
+<td align="center">
+<font color="#6666ff">-5</font> , <font color="#ff4c4c">-5</font>
+</td>
+</tr>
+</tbody></table>
+</center>
+<p><br> <span class="citation" data-cites="dowling_modern_2007">(adapted from <a href="#/references-1" role="doc-biblioref" onclick="">Dowling, 2007, p. 108</a>)</span></p>
+</section>
+<section id="player-2s-options-2" class="slide level2">
+<h2>(1) Player 2’s Options</h2>
+<p>Options available to Player 2 if Player 1 Keeps Quiet</p>
+<center>
+<table class="table-style-one">
+<colgroup><col width="200px">
+<col width="200px">
+<col width="200px">
+<col width="200px">
+</colgroup><tbody><tr class="odd">
+<td colspan="2" rowspan="2">
+</td>
+<td colspan="2" align="center">
+<font color="#ff4c4c">Player 2</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px">keep quiet</font>
+</td>
+<td align="center">
+<font size="5px">confess</font>
+</td>
+</tr>
+<tr class="odd">
+<td rowspan="2" align="center">
+<font color="#6666ff">Player 1</font>
+</td>
+<td align="center">
+<font size="5px"><strong>keep quiet</strong></font>
+</td>
+<td align="center">
+<font color="#D3D3D3">-1</font> , <font color="#ff4c4c">-1</font>
+</td>
+<td align="center">
+<font color="#D3D3D3">-20</font> , <font color="#ff4c4c">0</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px" color="#D3D3D3">confess</font>
+</td>
+<td align="center">
+<font color="#D3D3D3">0</font> , <font color="#D3D3D3">-20</font>
+</td>
+<td align="center">
+<font color="#D3D3D3">-5</font> , <font color="#D3D3D3">-5</font>
+</td>
+</tr>
+</tbody></table>
+</center>
+<p><br> <span class="citation" data-cites="dowling_modern_2007">(adapted from <a href="#/references-1" role="doc-biblioref" onclick="">Dowling, 2007, p. 108</a>)</span></p>
+</section>
+<section id="player-2s-options-3" class="slide level2">
+<h2>(2) Player 2’s Options</h2>
+<p>Player 2 is better off to confess</p>
+<center>
+<table class="table-style-one">
+<colgroup><col width="200px">
+<col width="200px">
+<col width="200px">
+<col width="200px">
+</colgroup><tbody><tr class="odd">
+<td colspan="2" rowspan="2">
+</td>
+<td colspan="2" align="center">
+<font color="#ff4c4c">Player 2</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px" color="#D3D3D3">keep quiet</font>
+</td>
+<td align="center">
+<font size="5px">confess</font>
+</td>
+</tr>
+<tr class="odd">
+<td rowspan="2" align="center">
+<font color="#6666ff">Player 1</font>
+</td>
+<td align="center">
+<font size="5px"><strong>keep quiet</strong></font>
+</td>
+<td align="center">
+<font color="#D3D3D3">-1</font> , <font color="#D3D3D3">-1</font>
+</td>
+<td align="center">
+<font color="#D3D3D3">-20</font> , <font color="#ff4c4c">0*</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px" color="#D3D3D3">confess</font>
+</td>
+<td align="center">
+<font color="#D3D3D3">0</font> , <font color="#D3D3D3">-20</font>
+</td>
+<td align="center">
+<font color="#D3D3D3">-5</font> , <font color="#D3D3D3">-5</font>
+</td>
+</tr>
+</tbody></table>
+</center>
+<p><br> <span class="citation" data-cites="dowling_modern_2007">(adapted from <a href="#/references-1" role="doc-biblioref" onclick="">Dowling, 2007, p. 108</a>)</span></p>
+</section>
+<section id="player-2s-options-4" class="slide level2">
+<h2>(3) Player 2’s Options</h2>
+<p>Options available to Player 2 if Player 1 Confesses</p>
+<center>
+<table class="table-style-one">
+<colgroup><col width="200px">
+<col width="200px">
+<col width="200px">
+<col width="200px">
+</colgroup><tbody><tr class="odd">
+<td colspan="2" rowspan="2">
+</td>
+<td colspan="2" align="center">
+<font color="#ff4c4c">Player 2</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px">keep quiet</font>
+</td>
+<td align="center">
+<font size="5px">confess</font>
+</td>
+</tr>
+<tr class="odd">
+<td rowspan="2" align="center">
+<font color="#6666ff">Player 1</font>
+</td>
+<td align="center">
+<font size="5px" color="#D3D3D3">keep quiet</font>
+</td>
+<td align="center">
+<font color="#D3D3D3">-1</font> , <font color="#D3D3D3">-1</font>
+</td>
+<td align="center">
+<font color="#D3D3D3">-20</font> , <font color="#D3D3D3">0*</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px"><strong>confess</strong></font>
+</td>
+<td align="center">
+<font color="#D3D3D3">0</font> , <font color="#ff4c4c">-20</font>
+</td>
+<td align="center">
+<font color="#D3D3D3">-5</font> , <font color="#ff4c4c">-5</font>
+</td>
+</tr>
+</tbody></table>
+</center>
+<p><br> <span class="citation" data-cites="dowling_modern_2007">(adapted from <a href="#/references-1" role="doc-biblioref" onclick="">Dowling, 2007, p. 108</a>)</span></p>
+</section>
+<section id="player-2s-options-5" class="slide level2">
+<h2>(4) Player 2’s Options</h2>
+<p>Player 2 is better off to confess</p>
+<center>
+<table class="table-style-one">
+<colgroup><col width="200px">
+<col width="200px">
+<col width="200px">
+<col width="200px">
+</colgroup><tbody><tr class="odd">
+<td colspan="2" rowspan="2">
+</td>
+<td colspan="2" align="center">
+<font color="#ff4c4c">Player 2</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px" color="#D3D3D3">keep quiet</font>
+</td>
+<td align="center">
+<font size="5px">confess</font>
+</td>
+</tr>
+<tr class="odd">
+<td rowspan="2" align="center">
+<font color="#6666ff">Player 1</font>
+</td>
+<td align="center">
+<font size="5px" color="#D3D3D3">keep quiet</font>
+</td>
+<td align="center">
+<font color="#D3D3D3">-1</font> , <font color="#D3D3D3">-1</font>
+</td>
+<td align="center">
+<font color="#D3D3D3">-20</font> , <font color="#D3D3D3">0*</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px"><strong>confess</strong></font>
+</td>
+<td align="center">
+<font color="#D3D3D3">0</font> , <font color="#D3D3D3">-20</font>
+</td>
+<td align="center">
+<font color="#D3D3D3">-5</font> , <font color="#ff4c4c">-5*</font>
+</td>
+</tr>
+</tbody></table>
+</center>
+<p><br> <span class="citation" data-cites="dowling_modern_2007">(adapted from <a href="#/references-1" role="doc-biblioref" onclick="">Dowling, 2007, p. 108</a>)</span></p>
+</section>
+<section id="player-2s-options-6" class="slide level2">
+<h2>(5) Player 2’s Options</h2>
+<p>Confess is <strong>Strictly Dominant</strong> for Player 2</p>
+<center>
+<table class="table-style-one">
+<colgroup><col width="200px">
+<col width="200px">
+<col width="200px">
+<col width="200px">
+</colgroup><tbody><tr class="odd">
+<td colspan="2" rowspan="2">
+</td>
+<td colspan="2" align="center">
+<font color="#ff4c4c">Player 2</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px" color="#D3D3D3">keep quiet</font>
+</td>
+<td align="center">
+<font size="5px"><strong>confess</strong></font>
+</td>
+</tr>
+<tr class="odd">
+<td rowspan="2" align="center">
+<font color="#6666ff">Player 1</font>
+</td>
+<td align="center">
+<font size="5px">keep quiet</font>
+</td>
+<td align="center">
+<font color="#D3D3D3">-1</font> , <font color="#D3D3D3">-1</font>
+</td>
+<td align="center">
+<font color="#D3D3D3">-20</font> , <font color="#ff4c4c">0*</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px">confess</font>
+</td>
+<td align="center">
+<font color="#D3D3D3">0</font> , <font color="#D3D3D3">-20</font>
+</td>
+<td align="center">
+<font color="#D3D3D3">-5</font> , <font color="#ff4c4c">-5*</font>
+</td>
+</tr>
+</tbody></table>
+</center>
+<p><br> <span class="citation" data-cites="dowling_modern_2007">(adapted from <a href="#/references-1" role="doc-biblioref" onclick="">Dowling, 2007, p. 108</a>)</span></p>
+</section>
+<section id="combining-the-options" class="slide level2">
+<h2>Combining the Options</h2>
+<p>Recall that Confess is <strong>Strictly Dominant</strong> for Player 1</p>
+<center>
+<table class="table-style-one">
+<colgroup><col width="200px">
+<col width="200px">
+<col width="200px">
+<col width="200px">
+</colgroup><tbody><tr class="odd">
+<td colspan="2" rowspan="2">
+</td>
+<td colspan="2" align="center">
+<font color="#ff4c4c">Player 2</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px">keep quiet</font>
+</td>
+<td align="center">
+<font size="5px">confess</font>
+</td>
+</tr>
+<tr class="odd">
+<td rowspan="2" align="center">
+<font color="#6666ff">Player 1</font>
+</td>
+<td align="center">
+<font size="5px" color="#D3D3D3">keep quiet</font>
+</td>
+<td align="center">
+<font color="#D3D3D3">-1</font> , <font color="#D3D3D3">-1</font>
+</td>
+<td align="center">
+<font color="#D3D3D3">-20</font> , <font color="#D3D3D3">0</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px"><strong>confess</strong></font>
+</td>
+<td align="center">
+<font color="#6666ff">0*</font> , <font color="#D3D3D3">-20</font>
+</td>
+<td align="center">
+<font color="#6666ff">-5*</font> , <font color="#D3D3D3">-5</font>
+</td>
+</tr>
+</tbody></table>
+</center>
+<p><br> <span class="citation" data-cites="dowling_modern_2007">(adapted from <a href="#/references-1" role="doc-biblioref" onclick="">Dowling, 2007, p. 108</a>)</span></p>
+</section>
+<section id="combining-the-options-1" class="slide level2">
+<h2>Combining the Options</h2>
+<p>And that Confess is also <strong>Strictly Dominant</strong> for Player 2</p>
+<center>
+<table class="table-style-one">
+<colgroup><col width="200px">
+<col width="200px">
+<col width="200px">
+<col width="200px">
+</colgroup><tbody><tr class="odd">
+<td colspan="2" rowspan="2">
+</td>
+<td colspan="2" align="center">
+<font color="#ff4c4c">Player 2</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px" color="#D3D3D3">keep quiet</font>
+</td>
+<td align="center">
+<font size="5px"><strong>confess</strong></font>
+</td>
+</tr>
+<tr class="odd">
+<td rowspan="2" align="center">
+<font color="#6666ff">Player 1</font>
+</td>
+<td align="center">
+<font size="5px">keep quiet</font>
+</td>
+<td align="center">
+<font color="#D3D3D3">-1</font> , <font color="#D3D3D3">-1</font>
+</td>
+<td align="center">
+<font color="#D3D3D3">-20</font> , <font color="#ff4c4c">0*</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px">confess</font>
+</td>
+<td align="center">
+<font color="#6666ff">0*</font> , <font color="#D3D3D3">-20</font>
+</td>
+<td align="center">
+<font color="#6666ff">-5* </font> , <font color="#ff4c4c"> -5* </font>
+</td>
+</tr>
+</tbody></table>
+</center>
+<p><br> <span class="citation" data-cites="dowling_modern_2007">(adapted from <a href="#/references-1" role="doc-biblioref" onclick="">Dowling, 2007, p. 108</a>)</span></p>
+</section>
+<section id="combining-the-options-2" class="slide level2">
+<h2>Combining the Options</h2>
+<p>This leaves <code>&lt;confess&gt;&lt;confess&gt;</code> as the <strong><em>Rational</em></strong> outcome</p>
+<center>
+<table class="table-style-one">
+<colgroup><col width="200px">
+<col width="200px">
+<col width="200px">
+<col width="200px">
+</colgroup><tbody><tr class="odd">
+<td colspan="2" rowspan="2">
+</td>
+<td colspan="2" align="center">
+<font color="#ff4c4c">Player 2</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px" color="#D3D3D3">keep quiet</font>
+</td>
+<td align="center">
+<font size="5px"><strong>confess</strong></font>
+</td>
+</tr>
+<tr class="odd">
+<td rowspan="2" align="center">
+<font color="#6666ff">Player 1</font>
+</td>
+<td align="center">
+<font size="5px" color="#D3D3D3">keep quiet</font>
+</td>
+<td align="center">
+<font color="#D3D3D3">-1</font> , <font color="#D3D3D3">-1</font>
+</td>
+<td align="center">
+<font color="#D3D3D3">-20</font> , <font color="#D3D3D3">0*</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px"><strong>confess</strong></font>
+</td>
+<td align="center">
+<font color="#D3D3D3">0*</font> , <font color="#D3D3D3">-20</font>
+</td>
+<td align="center">
+<font color="#6666ff">-5* </font> , <font color="#ff4c4c"> -5* </font>
+</td>
+</tr>
+</tbody></table>
+</center>
+<p><br> <span class="citation" data-cites="dowling_modern_2007">(adapted from <a href="#/references-1" role="doc-biblioref" onclick="">Dowling, 2007, p. 108</a>)</span></p>
+</section></section>
+<section>
+<section id="alternatives-to-the-prisoner-dilemma" class="title-slide slide level1 center">
+<h1>Alternatives to the Prisoner Dilemma</h1>
+
+</section>
+<section id="some-alternatives-to-the-prisoner-dilemma" class="slide level2">
+<h2>Some Alternatives to the Prisoner Dilemma</h2>
 <ul>
-<li class="fragment"><em>Intervention</em> → Good choices 😊</li>
-</ul></li>
-<li class="fragment"><p>Specific type of intervention:</p>
+<li><p>Import Tax</p></li>
+<li><p>Advertising</p></li>
+<li><p>International Relations<br><span class="citation" data-cites="spaniel_game_2013">(taken from <a href="#/references-1" role="doc-biblioref" onclick="">Spaniel, 2013</a>)</span></p></li>
+<li><p>Any other examples?</p></li>
+</ul>
+</section>
+<section id="import-tax" class="slide level2 smaller">
+<h2>Import Tax</h2>
 <ul>
-<li class="fragment">Nudge</li>
+<li>Should countries introduce tax on imports/trading tariffs?</li>
+<li>Placing tariffs (a tax) on imported goods can
+<ul>
+<li>protect domestic industries</li>
+<li>though this leads to higher prices overall</li>
+</ul></li>
+<li>The best outcome for a country is to tax imports while not having the other country tax its exports.</li>
+<li>Free trade is the next best outcome</li>
+<li>Mutual tariffs is the next best outcome
+<ul>
+<li>ultimately, this leads to higher prices than the free trade outcome</li>
+</ul></li>
+<li>The worst possible outcome is to levy no taxes while the other country enforces a tariff</li>
+</ul>
+</section>
+<section id="import-tax-1" class="slide level2">
+<h2>Import Tax</h2>
+<br>
+<center>
+<table class="table-style-one">
+<colgroup><col width="200px">
+<col width="200px">
+<col width="200px">
+<col width="200px">
+</colgroup><tbody><tr class="odd">
+<td colspan="2" rowspan="2">
+</td>
+<td colspan="2" align="center">
+<font color="#ff4c4c">Country 2</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px">No Tax</font>
+</td>
+<td align="center">
+<font size="5px">Tax</font>
+</td>
+</tr>
+<tr class="odd">
+<td rowspan="2" align="center">
+<font color="#6666ff">Country 1</font>
+</td>
+<td align="center">
+<font size="5px">No Tax</font>
+</td>
+<td align="center">
+<font color="#6666ff">3</font> , <font color="#ff4c4c">3</font>
+</td>
+<td align="center">
+<font color="#6666ff">1</font> , <font color="#ff4c4c">4</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px">Tax</font>
+</td>
+<td align="center">
+<font color="#6666ff">4</font> , <font color="#ff4c4c">1</font>
+</td>
+<td align="center">
+<font color="#6666ff">2</font> , <font color="#ff4c4c">2</font>
+</td>
+</tr>
+</tbody></table>
+</center>
+</section>
+<section id="advertising" class="slide level2 smaller">
+<h2>Advertising</h2>
+<ul>
+<li>Consider two rival firms considering whether to advertise their products</li>
+<li>Would the firms ever want the government to pass a law forbidding advertisement?</li>
+<li>If advertising campaigns only persuade a consumer to buy a certain <strong>brand</strong> of product <em>rather than the product in general</em>
+<ul>
+<li>If one side places ads and the other does not, the firm with the advertising campaign cuts into the other’s share of the market.</li>
+<li>If they both advertise, the ads cancel each other out, but they still have to pay for the campaigns.</li>
+</ul></li>
+</ul>
+</section>
+<section id="advertising-1" class="slide level2">
+<h2>Advertising</h2>
+<br>
+<center>
+<table class="table-style-one">
+<colgroup><col width="200px">
+<col width="200px">
+<col width="200px">
+<col width="200px">
+</colgroup><tbody><tr class="odd">
+<td colspan="2" rowspan="2">
+</td>
+<td colspan="2" align="center">
+<font color="#ff4c4c">Company 2</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px">No Ads</font>
+</td>
+<td align="center">
+<font size="5px">Ads</font>
+</td>
+</tr>
+<tr class="odd">
+<td rowspan="2" align="center">
+<font color="#6666ff">Company 1</font>
+</td>
+<td align="center">
+<font size="5px">No Ads</font>
+</td>
+<td align="center">
+<font color="#6666ff">4</font> , <font color="#ff4c4c">4</font>
+</td>
+<td align="center">
+<font color="#6666ff">2</font> , <font color="#ff4c4c">5</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px">Ads</font>
+</td>
+<td align="center">
+<font color="#6666ff">5</font> , <font color="#ff4c4c">2</font>
+</td>
+<td align="center">
+<font color="#6666ff">3</font> , <font color="#ff4c4c">3</font>
+</td>
+</tr>
+</tbody></table>
+</center>
+</section>
+<section id="going-to-war" class="slide level2">
+<h2>Going to War</h2>
+<div>
+<ul>
+<li class="fragment">Should two states go to war?</li>
+<li class="fragment">Peace is preferable to war</li>
+<li class="fragment">BUT
+<ul>
+<li class="fragment">Striking first leads to a large advantage</li>
+<li class="fragment">Being struck first is very costly
+<ul>
+<li class="fragment">Striking at the same time as opponent is preferable to being attacked</li>
+</ul></li>
 </ul></li>
 </ul>
 </div>
 </section>
-<section id="what-is-a-nudge" class="slide level2">
-<h2>What is a Nudge?</h2>
+<section id="going-to-war-1" class="slide level2">
+<h2>Going to war</h2>
+<br>
+<center>
+<table class="table-style-one">
+<colgroup><col width="200px">
+<col width="200px">
+<col width="200px">
+<col width="200px">
+</colgroup><tbody><tr class="odd">
+<td colspan="2" rowspan="2">
+</td>
+<td colspan="2" align="center">
+<font color="#ff4c4c">Country 2</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px">Defend</font>
+</td>
+<td align="center">
+<font size="5px">Attack</font>
+</td>
+</tr>
+<tr class="odd">
+<td rowspan="2" align="center">
+<font color="#6666ff">Country 1</font>
+</td>
+<td align="center">
+<font size="5px">Defend</font>
+</td>
+<td align="center">
+<font color="#6666ff">3</font> , <font color="#ff4c4c">3</font>
+</td>
+<td align="center">
+<font color="#6666ff">-3</font> , <font color="#ff4c4c">4</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px">Attack</font>
+</td>
+<td align="center">
+<font color="#6666ff">4</font> , <font color="#ff4c4c">-3</font>
+</td>
+<td align="center">
+<font color="#6666ff">-1</font> , <font color="#ff4c4c">-1</font>
+</td>
+</tr>
+</tbody></table>
+</center>
+</section></section>
+<section>
+<section id="asymmetric-games" class="title-slide slide level1 center">
+<h1>Asymmetric Games</h1>
+
 </section>
-<section id="what-is-a-nudge-1" class="slide level2">
-<h2>What is a Nudge?</h2>
-<p><a href="resources/images/fly1.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-7"><img data-src="resources/images/fly1.jpg" title="Fly"></a></p>
+<section id="asymmetric-games-1" class="slide level2">
+<h2>Asymmetric Games</h2>
+<br>
+<center>
+<table class="table-style-one">
+<colgroup><col width="200px">
+<col width="200px">
+<col width="200px">
+<col width="200px">
+</colgroup><tbody><tr class="odd">
+<td colspan="2" rowspan="2">
+</td>
+<td colspan="2" align="center">
+<font color="#ff4c4c">Player 2</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px">Left</font>
+</td>
+<td align="center">
+<font size="5px">Right</font>
+</td>
+</tr>
+<tr class="odd">
+<td rowspan="2" align="center">
+<font color="#6666ff">Player 1</font>
+</td>
+<td align="center">
+<font size="5px">Up</font>
+</td>
+<td align="center">
+<font color="#6666ff">9</font> , <font color="#ff4c4c">-2</font>
+</td>
+<td align="center">
+<font color="#6666ff">3</font> , <font color="#ff4c4c">0</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px">Down</font>
+</td>
+<td align="center">
+<font color="#6666ff">8</font> , <font color="#ff4c4c">5</font>
+</td>
+<td align="center">
+<font color="#6666ff">-1</font> , <font color="#ff4c4c">6</font>
+</td>
+</tr>
+</tbody></table>
+</center>
 </section>
-<section id="fly-in-the-urinal" class="slide level2 smaller">
-<h2>Fly in the Urinal</h2>
+<section id="another-asymmetric-game" class="slide level2">
+<h2>Another Asymmetric Game</h2>
 <div>
 <ul>
-<li class="fragment">Schiphol Airport in Amsterdam</li>
-<li class="fragment">Fly etched into each urinal</li>
-<li class="fragment">“Spillage” reduced by <span class="math inline">\(80\%\)</span> <span class="citation" data-cites="thaler_nudge_2008">(<a href="#/references-1" role="doc-biblioref" onclick="">Thaler &amp; Sunstein, 2008</a>)</span></li>
+<li class="fragment">Two Clubs <font color="#6666ff">ONE</font> and <font color="#ff4c4c">TWO</font> in a town</li>
+<li class="fragment">Will run either a Salsa night or a Disco night</li>
+<li class="fragment"><font color="#6666ff">ONE</font> is centrally located but <font color="#ff4c4c">TWO</font> is outside the town
+<ul>
+<li class="fragment">If <font color="#ff4c4c">TWO</font> runs the same night as <font color="#6666ff">ONE</font> nobody will show</li>
+</ul></li>
+<li class="fragment">Three types of customers
+<ul>
+<li class="fragment">60 hardcore Salsa fans - will only go to Salsa</li>
+<li class="fragment">20 hardcore Disco fans - will only go to Disco</li>
+<li class="fragment">20 people prefer going to a disco theme but will attend a salsa night if that is the only option</li>
+</ul></li>
+</ul>
+</div>
+</section>
+<section id="another-asymmetric-game-1" class="slide level2">
+<h2>Another Asymmetric Game</h2>
+<p><br></p>
+<center>
+<table class="table-style-one">
+<colgroup><col width="200px">
+<col width="200px">
+<col width="200px">
+<col width="200px">
+</colgroup><tbody><tr class="odd">
+<td colspan="2" rowspan="2">
+</td>
+<td colspan="2" align="center">
+<font color="#ff4c4c">TWO</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px">Salsa</font>
+</td>
+<td align="center">
+<font size="5px">Disco</font>
+</td>
+</tr>
+<tr class="odd">
+<td rowspan="2" align="center">
+<font color="#6666ff">ONE</font>
+</td>
+<td align="center">
+<font size="5px">Salsa</font>
+</td>
+<td align="center">
+<font color="#6666ff">80</font> , <font color="#ff4c4c">0</font>
+</td>
+<td align="center">
+<font color="#6666ff">60</font> , <font color="#ff4c4c">40</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px">Disco</font>
+</td>
+<td align="center">
+<font color="#6666ff">40</font> , <font color="#ff4c4c">60</font>
+</td>
+<td align="center">
+<font color="#6666ff">40</font> , <font color="#ff4c4c">0</font>
+</td>
+</tr>
+</tbody></table>
+</center>
+</section>
+<section id="another-asymmetric-game-2" class="slide level2">
+<h2>Another Asymmetric Game</h2>
+<p>Iterated Elimination of Strictly Dominated Strategies</p>
+<center>
+<table class="table-style-one">
+<colgroup><col width="200px">
+<col width="200px">
+<col width="200px">
+<col width="200px">
+</colgroup><tbody><tr class="odd">
+<td colspan="2" rowspan="2">
+</td>
+<td colspan="2" align="center">
+<font color="#ff4c4c">TWO</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px">Salsa</font>
+</td>
+<td align="center">
+<font size="5px">Disco</font>
+</td>
+</tr>
+<tr class="odd">
+<td rowspan="2" align="center">
+<font color="#6666ff">ONE</font>
+</td>
+<td align="center">
+<font size="5px">Salsa</font>
+</td>
+<td align="center">
+<font color="#6666ff">80</font> , <font color="#ff4c4c">0</font>
+</td>
+<td align="center">
+<font color="#6666ff">60</font> , <font color="#ff4c4c">40</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px">Disco</font>
+</td>
+<td align="center">
+<font color="#6666ff">40</font> , <font color="#ff4c4c">60</font>
+</td>
+<td align="center">
+<font color="#6666ff">40</font> , <font color="#ff4c4c">0</font>
+</td>
+</tr>
+</tbody></table>
+</center>
+</section>
+<section id="iterated-elimination-of-strictly-dominated-strategies" class="slide level2">
+<h2>Iterated Elimination of Strictly Dominated Strategies</h2>
+<br>
+<center>
+<table class="table-style-one">
+<colgroup><col width="200px">
+<col width="200px">
+<col width="200px">
+<col width="200px">
+</colgroup><tbody><tr class="odd">
+<td align="center">
+</td>
+<td align="center">
+<font size="5px">Left</font>
+</td>
+<td align="center">
+<font size="5px">Center</font>
+</td>
+<td align="center">
+<font size="5px">Right</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px">Up</font>
+</td>
+<td align="center">
+<font color="#6666ff">13</font> , <font color="#ff4c4c">3</font>
+</td>
+<td align="center">
+<font color="#6666ff">1</font> , <font color="#ff4c4c">4</font>
+</td>
+<td align="center">
+<font color="#6666ff">7</font> , <font color="#ff4c4c">3</font>
+</td>
+</tr>
+<tr class="odd">
+<td align="center">
+<font size="5px">Middle</font>
+</td>
+<td align="center">
+<font color="#6666ff">4</font> , <font color="#ff4c4c">1</font>
+</td>
+<td align="center">
+<font color="#6666ff">3</font> , <font color="#ff4c4c">3</font>
+</td>
+<td align="center">
+<font color="#6666ff">6</font> , <font color="#ff4c4c">2</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px">Down</font>
+</td>
+<td align="center">
+<font color="#6666ff">-1</font> , <font color="#ff4c4c">9</font>
+</td>
+<td align="center">
+<font color="#6666ff">2</font> , <font color="#ff4c4c">8</font>
+</td>
+<td align="center">
+<font color="#6666ff">8</font> , <font color="#ff4c4c">-1</font>
+</td>
+</tr>
+</tbody></table>
+</center>
+</section></section>
+<section>
+<section id="different-types-of-games" class="title-slide slide level1 center">
+<h1>Different types of Games</h1>
+
+</section>
+<section id="stag-hunt" class="slide level2 smaller">
+<h2>Stag Hunt</h2>
+<div>
+<ul>
+<li class="fragment">Two hunters enter a range filled with hares and a single stag
+<ul>
+<li class="fragment">Hares are easy to capture
+<ul>
+<li class="fragment">but not worth much meat (1)</li>
+</ul></li>
+<li class="fragment">Catching the stag requires working together
+<ul>
+<li class="fragment">worth much more meat (6 - to share between 2)</li>
+</ul></li>
+</ul></li>
+<li class="fragment">If they both hunt hares, they each capture half of the hares in the range</li>
+<li class="fragment">If one hunts the stag and the other hunts hares
+<ul>
+<li class="fragment">the stag hunter goes home empty-handed</li>
+<li class="fragment">the hare hunter captures all of the hares</li>
+</ul></li>
+<li class="fragment">If both hunt the stag, they share the stag (value of the stag is greater than the value of all of the hares)</li>
+</ul>
+</div>
+</section>
+<section id="stag-hunt-1" class="slide level2">
+<h2>Stag Hunt</h2>
+<p><br></p>
+<center>
+<table class="table-style-one">
+<colgroup><col width="200px">
+<col width="200px">
+<col width="200px">
+<col width="200px">
+</colgroup><tbody><tr class="odd">
+<td colspan="2" rowspan="2">
+</td>
+<td colspan="2" align="center">
+<font color="#ff4c4c">Player 2</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px">Stag</font>
+</td>
+<td align="center">
+<font size="5px">Hare</font>
+</td>
+</tr>
+<tr class="odd">
+<td rowspan="2" align="center">
+<font color="#6666ff">Player 1</font>
+</td>
+<td align="center">
+<font size="5px">Stag</font>
+</td>
+<td align="center">
+<font color="#6666ff">3</font> , <font color="#ff4c4c">3</font>
+</td>
+<td align="center">
+<font color="#6666ff">0</font> , <font color="#ff4c4c">2</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px">Hare</font>
+</td>
+<td align="center">
+<font color="#6666ff">2</font> , <font color="#ff4c4c">0</font>
+</td>
+<td align="center">
+<font color="#6666ff">1</font> , <font color="#ff4c4c">1</font>
+</td>
+</tr>
+</tbody></table>
+</center>
+</section>
+<section id="strict-dominace-in-the-stag-hunt" class="slide level2">
+<h2>Strict Dominace in the Stag Hunt?</h2>
+<p><br></p>
+<center>
+<table class="table-style-one">
+<colgroup><col width="200px">
+<col width="200px">
+<col width="200px">
+<col width="200px">
+</colgroup><tbody><tr class="odd">
+<td colspan="2" rowspan="2">
+</td>
+<td colspan="2" align="center">
+<font color="#ff4c4c">Player 2</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px">Stag</font>
+</td>
+<td align="center">
+<font size="5px">Hare</font>
+</td>
+</tr>
+<tr class="odd">
+<td rowspan="2" align="center">
+<font color="#6666ff">Player 1</font>
+</td>
+<td align="center">
+<font size="5px">Stag</font>
+</td>
+<td align="center">
+<font color="#6666ff">3</font> , <font color="#ff4c4c">3</font>
+</td>
+<td align="center">
+<font color="#6666ff">0</font> , <font color="#ff4c4c">2</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px">Hare</font>
+</td>
+<td align="center">
+<font color="#6666ff">2</font> , <font color="#ff4c4c">0</font>
+</td>
+<td align="center">
+<font color="#6666ff">1</font> , <font color="#ff4c4c">1</font>
+</td>
+</tr>
+</tbody></table>
+</center>
+</section>
+<section id="strict-dominace-in-the-stag-hunt-1" class="slide level2">
+<h2>Strict Dominace in the Stag Hunt?</h2>
+<p>If Player 2 hunts Stag</p>
+<center>
+<table class="table-style-one">
+<colgroup><col width="200px">
+<col width="200px">
+<col width="200px">
+<col width="200px">
+</colgroup><tbody><tr class="odd">
+<td colspan="2" rowspan="2">
+</td>
+<td colspan="2" align="center">
+<font color="#ff4c4c">Player 2</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px"><strong>Stag</strong></font>
+</td>
+<td align="center">
+<font size="5px" color="#D3D3D3">Hare</font>
+</td>
+</tr>
+<tr class="odd">
+<td rowspan="2" align="center">
+<font color="#6666ff">Player 1</font>
+</td>
+<td align="center">
+<font size="5px">Stag</font>
+</td>
+<td align="center">
+<font color="#6666ff">3</font> , <font color="#D3D3D3">3</font>
+</td>
+<td align="center">
+<font color="#D3D3D3">0</font> , <font color="#D3D3D3">2</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px">Hare</font>
+</td>
+<td align="center">
+<font color="#6666ff">2</font> , <font color="#D3D3D3">0</font>
+</td>
+<td align="center">
+<font color="#D3D3D3">1</font> , <font color="#D3D3D3">1</font>
+</td>
+</tr>
+</tbody></table>
+</center>
+</section>
+<section id="strict-dominace-in-the-stag-hunt-2" class="slide level2">
+<h2>Strict Dominace in the Stag Hunt?</h2>
+<p>Player 1 should also hunt the Stag</p>
+<center>
+<table class="table-style-one">
+<colgroup><col width="200px">
+<col width="200px">
+<col width="200px">
+<col width="200px">
+</colgroup><tbody><tr class="odd">
+<td colspan="2" rowspan="2">
+</td>
+<td colspan="2" align="center">
+<font color="#ff4c4c">Player 2</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px"><strong>Stag</strong></font>
+</td>
+<td align="center">
+<font size="5px" color="#D3D3D3">Hare</font>
+</td>
+</tr>
+<tr class="odd">
+<td rowspan="2" align="center">
+<font color="#6666ff">Player 1</font>
+</td>
+<td align="center">
+<font size="5px">Stag</font>
+</td>
+<td align="center">
+<font color="#6666ff">3*</font> , <font color="#D3D3D3">3</font>
+</td>
+<td align="center">
+<font color="#D3D3D3">0</font> , <font color="#D3D3D3">2</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px" color="#D3D3D3">Hare</font>
+</td>
+<td align="center">
+<font color="#D3D3D3">2</font> , <font color="#D3D3D3">0</font>
+</td>
+<td align="center">
+<font color="#D3D3D3">1</font> , <font color="#D3D3D3">1</font>
+</td>
+</tr>
+</tbody></table>
+</center>
+</section>
+<section id="strict-dominace-in-the-stag-hunt-3" class="slide level2">
+<h2>Strict Dominace in the Stag Hunt?</h2>
+<p>If Player 2 hunts Hare</p>
+<center>
+<table class="table-style-one">
+<colgroup><col width="200px">
+<col width="200px">
+<col width="200px">
+<col width="200px">
+</colgroup><tbody><tr class="odd">
+<td colspan="2" rowspan="2">
+</td>
+<td colspan="2" align="center">
+<font color="#ff4c4c">Player 2</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px" color="#D3D3D3">Stag</font>
+</td>
+<td align="center">
+<font size="5px"><strong>Hare</strong></font>
+</td>
+</tr>
+<tr class="odd">
+<td rowspan="2" align="center">
+<font color="#6666ff">Player 1</font>
+</td>
+<td align="center">
+<font size="5px">Stag</font>
+</td>
+<td align="center">
+<font color="#D3D3D3">3*</font> , <font color="#D3D3D3">3</font>
+</td>
+<td align="center">
+<font color="#6666ff">0</font> , <font color="#D3D3D3">2</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px">Hare</font>
+</td>
+<td align="center">
+<font color="#D3D3D3">2</font> , <font color="#D3D3D3">0</font>
+</td>
+<td align="center">
+<font color="#6666ff">1</font> , <font color="#D3D3D3">1</font>
+</td>
+</tr>
+</tbody></table>
+</center>
+</section>
+<section id="strict-dominace-in-the-stag-hunt-4" class="slide level2">
+<h2>Strict Dominace in the Stag Hunt?</h2>
+<p>Player 1 should also hunt the Hare</p>
+<center>
+<table class="table-style-one">
+<colgroup><col width="200px">
+<col width="200px">
+<col width="200px">
+<col width="200px">
+</colgroup><tbody><tr class="odd">
+<td colspan="2" rowspan="2">
+</td>
+<td colspan="2" align="center">
+<font color="#ff4c4c">Player 2</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px" color="#D3D3D3">Stag</font>
+</td>
+<td align="center">
+<font size="5px"><strong>Hare</strong></font>
+</td>
+</tr>
+<tr class="odd">
+<td rowspan="2" align="center">
+<font color="#6666ff">Player 1</font>
+</td>
+<td align="center">
+<font size="5px" color="#D3D3D3">Stag</font>
+</td>
+<td align="center">
+<font color="#D3D3D3">3*</font> , <font color="#D3D3D3">3</font>
+</td>
+<td align="center">
+<font color="#D3D3D3">0</font> , <font color="#D3D3D3">2</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px">Hare</font>
+</td>
+<td align="center">
+<font color="#D3D3D3">2</font> , <font color="#D3D3D3">0</font>
+</td>
+<td align="center">
+<font color="#6666ff">1*</font> , <font color="#D3D3D3">1</font>
+</td>
+</tr>
+</tbody></table>
+</center>
+</section>
+<section id="no-strict-dominace-in-the-stag-hunt" class="slide level2">
+<h2>No Strict Dominace in the Stag Hunt?</h2>
+<p>Player 1’s best strategy depends on Player 2’s actions</p>
+<center>
+<table class="table-style-one">
+<colgroup><col width="200px">
+<col width="200px">
+<col width="200px">
+<col width="200px">
+</colgroup><tbody><tr class="odd">
+<td colspan="2" rowspan="2">
+</td>
+<td colspan="2" align="center">
+<font color="#ff4c4c">Player 2</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px">Stag</font>
+</td>
+<td align="center">
+<font size="5px">Hare</font>
+</td>
+</tr>
+<tr class="odd">
+<td rowspan="2" align="center">
+<font color="#6666ff">Player 1</font>
+</td>
+<td align="center">
+<font size="5px">Stag</font>
+</td>
+<td align="center">
+<font color="#6666ff">3*</font> , <font color="#D3D3D3">3</font>
+</td>
+<td align="center">
+<font color="#D3D3D3">0</font> , <font color="#D3D3D3">2</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px">Hare</font>
+</td>
+<td align="center">
+<font color="#D3D3D3">2</font> , <font color="#D3D3D3">0</font>
+</td>
+<td align="center">
+<font color="#6666ff">1*</font> , <font color="#D3D3D3">1</font>
+</td>
+</tr>
+</tbody></table>
+</center>
+</section>
+<section id="no-strict-dominace-in-the-stag-hunt-1" class="slide level2">
+<h2>No Strict Dominace in the Stag Hunt?</h2>
+<p>Similarly, Player 2’s best strategy depends on Player 1’s actions</p>
+<center>
+<table class="table-style-one">
+<colgroup><col width="200px">
+<col width="200px">
+<col width="200px">
+<col width="200px">
+</colgroup><tbody><tr class="odd">
+<td colspan="2" rowspan="2">
+</td>
+<td colspan="2" align="center">
+<font color="#ff4c4c">Player 2</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px">Stag</font>
+</td>
+<td align="center">
+<font size="5px">Hare</font>
+</td>
+</tr>
+<tr class="odd">
+<td rowspan="2" align="center">
+<font color="#6666ff">Player 1</font>
+</td>
+<td align="center">
+<font size="5px">Stag</font>
+</td>
+<td align="center">
+<font color="#D3D3D3">3* </font> , <font color="#ff4c4c">3 *</font>
+</td>
+<td align="center">
+<font color="#D3D3D3">0</font> , <font color="#D3D3D3">2</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px">Hare</font>
+</td>
+<td align="center">
+<font color="#D3D3D3">2</font> , <font color="#D3D3D3">0</font>
+</td>
+<td align="center">
+<font color="#D3D3D3">1* </font> , <font color="#ff4c4c">1 *</font>
+</td>
+</tr>
+</tbody></table>
+</center>
+</section>
+<section id="no-strict-dominace-in-the-stag-hunt-2" class="slide level2 smaller">
+<h2>No Strict Dominace in the Stag Hunt?</h2>
+<div>
+<ul>
+<li class="fragment"><p><strong>Nash equilibrium</strong></p>
+<ul>
+<li class="fragment">a set of strategies, one for each player</li>
+<li class="fragment">no player has incentive to change his or her strategy (given what the other players are doing)</li>
+</ul></li>
+<li class="fragment"><p><strong>Nash equilibrium</strong> is the best strategy given the strategy chosen by the other participants<br><font size="4.5"><span class="citation" data-cites="dowling_modern_2007">(<a href="#/references-1" role="doc-biblioref" onclick="">Dowling, 2007</a>)</span></font></p></li>
+<li class="fragment"><p>Individuals have no incentive to deviate (not group deviations)</p>
+<ul>
+<li class="fragment">no regrets at the end of the game
+<ul>
+<li class="fragment">once the other player’s strategy has been revealed</li>
+</ul></li>
+</ul></li>
+<li class="fragment"><p>Nash equilibria are <strong><em>inherently stable</em></strong></p></li>
+</ul>
+</div>
+</section>
+<section id="nash-equilibrium-in-the-stag-hunt" class="slide level2">
+<h2>Nash Equilibrium in the Stag Hunt?</h2>
+<p><br></p>
+<center>
+<table class="table-style-one">
+<colgroup><col width="200px">
+<col width="200px">
+<col width="200px">
+<col width="200px">
+</colgroup><tbody><tr class="odd">
+<td colspan="2" rowspan="2">
+</td>
+<td colspan="2" align="center">
+<font color="#ff4c4c">Player 2</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px">Stag</font>
+</td>
+<td align="center">
+<font size="5px">Hare</font>
+</td>
+</tr>
+<tr class="odd">
+<td rowspan="2" align="center">
+<font color="#6666ff">Player 1</font>
+</td>
+<td align="center">
+<font size="5px">Stag</font>
+</td>
+<td align="center">
+<font color="#6666ff">3</font> , <font color="#ff4c4c">3</font>
+</td>
+<td align="center">
+<font color="#6666ff">0</font> , <font color="#ff4c4c">2</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px">Hare</font>
+</td>
+<td align="center">
+<font color="#6666ff">2</font> , <font color="#ff4c4c">0</font>
+</td>
+<td align="center">
+<font color="#6666ff">1</font> , <font color="#ff4c4c">1</font>
+</td>
+</tr>
+</tbody></table>
+</center>
+</section>
+<section id="nash-equilibrium-in-the-stag-hunt-1" class="slide level2">
+<h2>Nash Equilibrium in the Stag Hunt?</h2>
+<p><br></p>
+<center>
+<table class="table-style-one">
+<colgroup><col width="200px">
+<col width="200px">
+<col width="200px">
+<col width="200px">
+</colgroup><tbody><tr class="odd">
+<td colspan="2" rowspan="2">
+</td>
+<td colspan="2" align="center">
+<font color="#ff4c4c">Player 2</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px">Stag</font>
+</td>
+<td align="center">
+<font size="5px">Hare</font>
+</td>
+</tr>
+<tr class="odd">
+<td rowspan="2" align="center">
+<font color="#6666ff">Player 1</font>
+</td>
+<td align="center">
+<font size="5px">Stag</font>
+</td>
+<td align="center">
+<font color="#6666ff">3 </font> , <font color="#ff4c4c">3 </font>
+</td>
+<td align="center">
+<font color="#D3D3D3">0</font> , <font color="#D3D3D3">2</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px">Hare</font>
+</td>
+<td align="center">
+<font color="#D3D3D3">2</font> , <font color="#D3D3D3">0</font>
+</td>
+<td align="center">
+<font color="#6666ff">1 </font> , <font color="#ff4c4c">1 </font>
+</td>
+</tr>
+</tbody></table>
+</center>
+</section></section>
+<section>
+<section id="nash-equilibria-in-real-life" class="title-slide slide level1 center">
+<h1>Nash Equilibria in real life</h1>
+
+</section>
+<section id="nash-equilibria-in-real-life-1" class="slide level2">
+<h2>Nash Equilibria in real life</h2>
+<ul>
+<li>Traffic
+<ul>
+<li>Traffic Lights</li>
+<li>Driving on the Left/Right</li>
+</ul></li>
 </ul>
 <p><br></p>
 <ul>
-<li class="fragment">Variations in other airports
+<li>Other Examples?</li>
+</ul>
+</section>
+<section id="nash-equilibria-in-real-life---traffic-lights" class="slide level2">
+<h2>Nash Equilibria in real life - Traffic Lights</h2>
+<br>
+<center>
+<table class="table-style-one">
+<colgroup><col width="200px">
+<col width="200px">
+<col width="200px">
+<col width="200px">
+</colgroup><tbody><tr class="odd">
+<td colspan="2" rowspan="2">
+</td>
+<td colspan="2" align="center">
+<font color="#ff4c4c">Car 2</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px">Go</font>
+</td>
+<td align="center">
+<font size="5px">Stop</font>
+</td>
+</tr>
+<tr class="odd">
+<td rowspan="2" align="center">
+<font color="#6666ff">Car 1</font>
+</td>
+<td align="center">
+<font size="5px">Go</font>
+</td>
+<td align="center">
+<font color="#6666ff">-5</font> , <font color="#ff4c4c">-5</font>
+</td>
+<td align="center">
+<font color="#6666ff">1</font> , <font color="#ff4c4c">0</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px">Stop</font>
+</td>
+<td align="center">
+<font color="#6666ff">0</font> , <font color="#ff4c4c">1</font>
+</td>
+<td align="center">
+<font color="#6666ff">-1</font> , <font color="#ff4c4c">-1</font>
+</td>
+</tr>
+</tbody></table>
+</center>
+</section>
+<section id="driving-on-the-leftright" class="slide level2">
+<h2>Driving on the Left/Right</h2>
+<iframe width="900" height="600" src="https://www.youtube.com/embed/q52RfAiZlws" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="">
+</iframe>
+</section>
+<section id="a-beautiful-mind" class="slide level2">
+<h2>A Beautiful Mind</h2>
+<iframe width="900" height="500" src="https://www.youtube.com/embed/2d_dtTZQyUM?si=NEArdP966vWDkAb8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="">
+</iframe>
+</section></section>
+<section>
+<section id="matching-pennies" class="title-slide slide level1 center">
+<h1>Matching Pennies</h1>
+
+</section>
+<section id="matching-pennies-1" class="slide level2 smaller">
+<h2>Matching Pennies</h2>
+<div>
 <ul>
-<li class="fragment">A soccer goal equipped with a ball during the World Cup</li>
-</ul></li>
+<li class="fragment">2 players have a penny</li>
+<li class="fragment">Each put penny down either Heads up or Tails up</li>
+<li class="fragment">If both show heads or both show tails (they match) <font color="#6666ff">Player 1</font> wins</li>
+<li class="fragment">If one shows heads and the other shows tails (they do not match) <font color="#ff4c4c">Player 2</font> wins</li>
 </ul>
 <p><br></p>
 <ul>
-<li class="fragment">“Fly in the urinal has become the perfect exemplar of a nudge”<br><span class="citation" data-cites="thaler_misbehaving_2015">(<a href="#/references-1" role="doc-biblioref" onclick="">Thaler, 2015, p. 252</a>)</span></li>
+<li class="fragment">Strictly competitive / <em>zero sum</em> game</li>
+<li class="fragment">Players actively want the opponent to perform poorly</li>
 </ul>
 </div>
 </section>
-<section id="defining-nudges" class="slide level2 smaller">
-<h2>Defining Nudges</h2>
+<section id="matching-pennies-2" class="slide level2">
+<h2>Matching Pennies</h2>
+<p><br></p>
+<center>
+<table class="table-style-one">
+<colgroup><col width="200px">
+<col width="200px">
+<col width="200px">
+<col width="200px">
+</colgroup><tbody><tr class="odd">
+<td colspan="2" rowspan="2">
+</td>
+<td colspan="2" align="center">
+<font color="#ff4c4c">Player 2</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px">Heads</font>
+</td>
+<td align="center">
+<font size="5px">Tails</font>
+</td>
+</tr>
+<tr class="odd">
+<td rowspan="2" align="center">
+<font color="#6666ff">Player 1</font>
+</td>
+<td align="center">
+<font size="5px">Heads</font>
+</td>
+<td align="center">
+<font color="#6666ff">1</font> , <font color="#ff4c4c">-1</font>
+</td>
+<td align="center">
+<font color="#6666ff">-1</font> , <font color="#ff4c4c">1</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px">Tails</font>
+</td>
+<td align="center">
+<font color="#6666ff">-1</font> , <font color="#ff4c4c">1</font>
+</td>
+<td align="center">
+<font color="#6666ff">1</font> , <font color="#ff4c4c">-1</font>
+</td>
+</tr>
+</tbody></table>
+</center>
+</section>
+<section id="matching-pennies-3" class="slide level2">
+<h2>Matching Pennies</h2>
+<p>No mutual best strategy - no pure strategy Nash equilibrium</p>
+<center>
+<table class="table-style-one">
+<colgroup><col width="200px">
+<col width="200px">
+<col width="200px">
+<col width="200px">
+</colgroup><tbody><tr class="odd">
+<td colspan="2" rowspan="2">
+</td>
+<td colspan="2" align="center">
+<font color="#ff4c4c">Player 2</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px">Heads</font>
+</td>
+<td align="center">
+<font size="5px">Tails</font>
+</td>
+</tr>
+<tr class="odd">
+<td rowspan="2" align="center">
+<font color="#6666ff">Player 1</font>
+</td>
+<td align="center">
+<font size="5px">Heads</font>
+</td>
+<td align="center">
+<font color="#6666ff">1*</font> , <font color="#ff4c4c">-1</font>
+</td>
+<td align="center">
+<font color="#6666ff">-1</font> , <font color="#ff4c4c">1*</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px">Tails</font>
+</td>
+<td align="center">
+<font color="#6666ff">-1</font> , <font color="#ff4c4c">1*</font>
+</td>
+<td align="center">
+<font color="#6666ff">1*</font> , <font color="#ff4c4c">-1</font>
+</td>
+</tr>
+</tbody></table>
+</center>
+</section>
+<section id="matching-pennies-and-nash-equilibrium" class="slide level2 smaller">
+<h2>Matching Pennies and Nash Equilibrium</h2>
 <div>
 <ul>
-<li class="fragment"><p>“A nudge is some small feature in the environment that attracts our attention and influences behavior” <span class="citation" data-cites="thaler_misbehaving_2015">(<a href="#/references-1" role="doc-biblioref" onclick="">Thaler, 2015, p. 252</a>)</span></p></li>
-<li class="fragment"><p>“any aspect of the choice architecture that alters people’s behavior in a predictable way</p>
+<li class="fragment"><p>Every finite game has a Nash equilibrium in mixed strategies</p></li>
+<li class="fragment"><p><strong>Nash Existence Theorem</strong>: If each player in an <em>n</em>-player game has a finite number of pure strategies, then the game has a (not necessarily unique) Nash equilibrium in (possibly) mixed strategies <br><span class="citation" data-cites="gintis_game_2009">(<a href="#/references-1" role="doc-biblioref" onclick="">Gintis, 2009, p. 44</a>)</span></p></li>
+<li class="fragment"><p>If I could read your mind, how would you beat me at Matching Pennies?</p></li>
+<li class="fragment"><p>mixed strategy refers to how we are randomizing over multiple strategies (across multiple trials) rather than playing a single “pure” strategy.</p></li>
+</ul>
+</div>
+</section>
+<section id="mixed-strategy-nash-equilibrium" class="slide level2">
+<h2>Mixed Strategy Nash Equilibrium</h2>
+<p>Flipping the coin (randomisation) gives each player an Expected Utility of .5</p>
+<center>
+<table class="table-style-one">
+<colgroup><col width="200px">
+<col width="200px">
+<col width="200px">
+<col width="200px">
+</colgroup><tbody><tr class="odd">
+<td colspan="2" rowspan="2">
+</td>
+<td colspan="2" align="center">
+<font color="#ff4c4c">Player 2</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px">Heads</font>
+</td>
+<td align="center">
+<font size="5px">Tails</font>
+</td>
+</tr>
+<tr class="odd">
+<td rowspan="2" align="center">
+<font color="#6666ff">Player 1</font>
+</td>
+<td align="center">
+<font size="5px">Heads</font>
+</td>
+<td align="center">
+<font color="#6666ff">1*</font> , <font color="#ff4c4c">-1</font>
+</td>
+<td align="center">
+<font color="#6666ff">-1</font> , <font color="#ff4c4c">1*</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px">Tails</font>
+</td>
+<td align="center">
+<font color="#6666ff">-1</font> , <font color="#ff4c4c">1*</font>
+</td>
+<td align="center">
+<font color="#6666ff">1*</font> , <font color="#ff4c4c">-1</font>
+</td>
+</tr>
+</tbody></table>
+</center>
+</section></section>
+<section>
+<section id="mixed-strategy-algorithm" class="title-slide slide level1 center">
+<h1>Mixed Strategy Algorithm</h1>
+
+</section>
+<section id="mixed-strategy-algorithm-1" class="slide level2">
+<h2>Mixed Strategy Algorithm</h2>
+<p><br></p>
+<center>
+<table class="table-style-one">
+<colgroup><col width="200px">
+<col width="200px">
+<col width="200px">
+<col width="200px">
+</colgroup><tbody><tr class="odd">
+<td colspan="2" rowspan="2">
+</td>
+<td colspan="2" align="center">
+<font color="#ff4c4c">Player 2</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px">Left</font>
+</td>
+<td align="center">
+<font size="5px">Right</font>
+</td>
+</tr>
+<tr class="odd">
+<td rowspan="2" align="center">
+<font color="#6666ff">Player 1</font>
+</td>
+<td align="center">
+<font size="5px">Up</font>
+</td>
+<td align="center">
+<font color="#6666ff">3</font> , <font color="#ff4c4c">-3</font>
+</td>
+<td align="center">
+<font color="#6666ff">-2</font> , <font color="#ff4c4c">2</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px">Down</font>
+</td>
+<td align="center">
+<font color="#6666ff">-1</font> , <font color="#ff4c4c">1</font>
+</td>
+<td align="center">
+<font color="#6666ff">0</font> , <font color="#ff4c4c">0</font>
+</td>
+</tr>
+</tbody></table>
+</center>
+</section>
+<section id="mixed-strategy-algorithm-2" class="slide level2">
+<h2>Mixed Strategy Algorithm</h2>
+<p><br></p>
+<center>
+<table class="table-style-one">
+<colgroup><col width="200px">
+<col width="200px">
+<col width="200px">
+<col width="200px">
+</colgroup><tbody><tr class="odd">
+<td colspan="2" rowspan="2">
+</td>
+<td colspan="2" align="center">
+<font color="#ff4c4c">Player 2</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px">Left</font>
+</td>
+<td align="center">
+<font size="5px">Right</font>
+</td>
+</tr>
+<tr class="odd">
+<td rowspan="2" align="center">
+<font color="#6666ff">Player 1</font>
+</td>
+<td align="center">
+<font size="5px">Up</font>
+</td>
+<td align="center">
+<font color="#6666ff">3*</font> , <font color="#ff4c4c">-3</font>
+</td>
+<td align="center">
+<font color="#6666ff">-2</font> , <font color="#ff4c4c">2*</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px">Down</font>
+</td>
+<td align="center">
+<font color="#6666ff">-1</font> , <font color="#ff4c4c">1*</font>
+</td>
+<td align="center">
+<font color="#6666ff">0*</font> , <font color="#ff4c4c">0</font>
+</td>
+</tr>
+</tbody></table>
+</center>
+</section>
+<section id="mixed-strategy-algorithm-3" class="slide level2">
+<h2>Mixed Strategy Algorithm</h2>
+<div>
 <ul>
-<li class="fragment">without forbidding any options</li>
-<li class="fragment">or significantly changing their economic incentives” <span class="citation" data-cites="thaler_nudge_2008">(<a href="#/references-1" role="doc-biblioref" onclick="">Thaler &amp; Sunstein, 2008, p. 6</a>)</span></li>
+<li class="fragment"><p>In matching pennies, flipping against the mind reader was intended to make the Expected Utility of each of the opponents strategies the same</p>
+<ul>
+<li class="fragment">Calculate best strategy for <font color="#6666ff">Player 1</font>
+<ul>
+<li class="fragment"><span class="math inline">\(EU_L = EU_R\)</span></li>
 </ul></li>
-<li class="fragment"><p>Must be easy and cheap to avoid</p></li>
-<li class="fragment"><p>Nudges are not mandates:</p>
+</ul></li>
+<li class="fragment"><p><span class="math inline">\(EU_L = f(\sigma_u)\)</span></p></li>
+<li class="fragment"><p><span class="math inline">\(EU_R = f(\sigma_u)\)</span></p></li>
+<li class="fragment"><p>Express - <span class="math inline">\(EU_L\)</span> and <span class="math inline">\(EU_R\)</span> in terms of <span class="math inline">\(\sigma_u\)</span> and solve for <span class="math inline">\(\sigma_u\)</span></p></li>
+</ul>
+</div>
+</section>
+<section id="mixed-strategy-algorithm-4" class="slide level2">
+<h2>Mixed Strategy Algorithm</h2>
+<p>Expected Utility of Left</p>
+<center>
+<table class="table-style-one">
+<colgroup><col width="200px">
+<col width="200px">
+<col width="200px">
+<col width="200px">
+</colgroup><tbody><tr class="odd">
+<td colspan="2" rowspan="2">
+</td>
+<td colspan="2" align="center">
+<font color="#ff4c4c">Player 2</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px">Left</font>
+</td>
+<td align="center">
+<font size="5px">Right</font>
+</td>
+</tr>
+<tr class="odd">
+<td rowspan="2" align="center">
+<font color="#6666ff">Player 1</font>
+</td>
+<td align="center">
+<font size="5px">Up</font>
+</td>
+<td align="center">
+<font color="#6666ff">3</font> , <font color="#ff4c4c">-3</font>
+</td>
+<td align="center">
+<font color="#6666ff">-2</font> , <font color="#ff4c4c">2</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px">Down</font>
+</td>
+<td align="center">
+<font color="#6666ff">-1</font> , <font color="#ff4c4c">1</font>
+</td>
+<td align="center">
+<font color="#6666ff">0</font> , <font color="#ff4c4c">0</font>
+</td>
+</tr>
+</tbody></table>
+</center>
 <ul>
-<li class="fragment">Putting the fruit at eye level counts as a nudge</li>
-<li class="fragment">Banning junk food does not <br><span class="citation" data-cites="thaler_nudge_2008">(<a href="#/references-1" role="doc-biblioref" onclick="">Thaler &amp; Sunstein, 2008, p. 6</a>)</span></li>
+<li><p><span class="math inline">\(EU_L\)</span> is -3 sometimes (when <font color="#6666ff">Player 1</font> plays Up) and 1 the rest of the time</p></li>
+<li><p><span class="math inline">\(EU_L = \sigma_u(-3) + (1-\sigma_u)(1)\)</span></p></li>
+</ul>
+</section>
+<section id="mixed-strategy-algorithm-5" class="slide level2">
+<h2>Mixed Strategy Algorithm</h2>
+<p>Expected Utility of Right</p>
+<center>
+<table class="table-style-one">
+<colgroup><col width="200px">
+<col width="200px">
+<col width="200px">
+<col width="200px">
+</colgroup><tbody><tr class="odd">
+<td colspan="2" rowspan="2">
+</td>
+<td colspan="2" align="center">
+<font color="#ff4c4c">Player 2</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px">Left</font>
+</td>
+<td align="center">
+<font size="5px">Right</font>
+</td>
+</tr>
+<tr class="odd">
+<td rowspan="2" align="center">
+<font color="#6666ff">Player 1</font>
+</td>
+<td align="center">
+<font size="5px">Up</font>
+</td>
+<td align="center">
+<font color="#6666ff">3</font> , <font color="#ff4c4c">-3</font>
+</td>
+<td align="center">
+<font color="#6666ff">-2</font> , <font color="#ff4c4c">2</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px">Down</font>
+</td>
+<td align="center">
+<font color="#6666ff">-1</font> , <font color="#ff4c4c">1</font>
+</td>
+<td align="center">
+<font color="#6666ff">0</font> , <font color="#ff4c4c">0</font>
+</td>
+</tr>
+</tbody></table>
+</center>
+<ul>
+<li><p><span class="math inline">\(EU_R\)</span> is 2 sometimes (when <font color="#6666ff">Player 1</font> plays Up) and 0 the rest of the time</p></li>
+<li><p><span class="math inline">\(EU_R = \sigma_u(2) + (1-\sigma_u)(0)\)</span></p></li>
+</ul>
+</section>
+<section id="mixed-strategy-algorithm-6" class="slide level2 smaller">
+<h2>Mixed Strategy Algorithm</h2>
+<div>
+<ul>
+<li class="fragment"><p><span class="math display">\[EU_L = EU_R\]</span></p></li>
+<li class="fragment"><p><span class="math display">\[\sigma_u(-3) + (1-\sigma_u)(1) = \sigma_u(2) + (1-\sigma_u)(0)\]</span></p></li>
+<li class="fragment"><p><span class="math display">\[-3\sigma_u + 1 - \sigma_u = 2\sigma_u + 0\]</span></p></li>
+<li class="fragment"><p><span class="math display">\[6\sigma_u = 1\]</span></p></li>
+<li class="fragment"><p><span class="math display">\[\sigma_u = \frac{1}{6}\]</span></p></li>
+<li class="fragment"><p>If <font color="#6666ff">Player 1</font> plays Up <span class="math inline">\(\frac{1}{6}\)</span> of time <font color="#ff4c4c">Player 2</font> is indifferent between Left and Right</p></li>
+</ul>
+</div>
+</section>
+<section id="mixed-strategy-algorithm-7" class="slide level2">
+<h2>Mixed Strategy Algorithm</h2>
+<ul>
+<li><p>Calculate <font color="#ff4c4c">Player 2’s</font> best strategy using the same calculation but letting</p>
+<ul>
+<li><span class="math inline">\(EU_u = f(\sigma_L)\)</span></li>
+<li><span class="math inline">\(EU_d = f(\sigma_L)\)</span></li>
+</ul></li>
+<li><p>and solving for <span class="math inline">\(\sigma_L\)</span></p></li>
+<li><p>Yields <span class="math display">\[\sigma_L = \frac{1}{3}\]</span></p></li>
+</ul>
+</section>
+<section id="mixed-strategy-algorithm-8" class="slide level2">
+<h2>Mixed Strategy Algorithm</h2>
+<p>Mixed Strategy Nash Equilibrium:</p>
+<center>
+<table class="table-style-one">
+<colgroup><col width="200px">
+<col width="200px">
+<col width="200px">
+<col width="200px">
+</colgroup><tbody><tr class="odd">
+<td colspan="2" rowspan="2">
+</td>
+<td colspan="2" align="center">
+<font color="#ff4c4c">Player 2</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px">Left</font>
+</td>
+<td align="center">
+<font size="5px">Right</font>
+</td>
+</tr>
+<tr class="odd">
+<td rowspan="2" align="center">
+<font color="#6666ff">Player 1</font>
+</td>
+<td align="center">
+<font size="5px">Up</font>
+</td>
+<td align="center">
+<font color="#6666ff">3</font> , <font color="#ff4c4c">-3</font>
+</td>
+<td align="center">
+<font color="#6666ff">-2</font> , <font color="#ff4c4c">2</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px">Down</font>
+</td>
+<td align="center">
+<font color="#6666ff">-1</font> , <font color="#ff4c4c">1</font>
+</td>
+<td align="center">
+<font color="#6666ff">0</font> , <font color="#ff4c4c">0</font>
+</td>
+</tr>
+</tbody></table>
+</center>
+<p><br></p>
+<ul>
+<li><span class="math inline">\(\sigma_u = \frac{1}{6} , \sigma_L = \frac{1}{3}\)</span></li>
+</ul>
+</section></section>
+<section>
+<section id="number-beauty-contest" class="title-slide slide level1 center">
+<h1>Number Beauty Contest</h1>
+
+</section>
+<section id="number-beauty-contest-trial-1" class="slide level2">
+<h2>Number Beauty Contest (Trial 1)</h2>
+<div>
+<ul>
+<li class="fragment"><p>Everyone picks a number between <span class="math inline">\(1\)</span> and <span class="math inline">\(100\)</span></p></li>
+<li class="fragment"><p>Everyone’s response is collated to <a href="https://docs.google.com/spreadsheets/d/1e_1XbMqxMbQuUivtAu19kNlIumi4nPSN-TqOiurl5Ys/edit?pli=1&amp;gid=0#gid=0">calculate the Mean</a></p></li>
+<li class="fragment"><p>The Mean is multiplied by a constant <span class="math inline">\(\frac{2}{3}\)</span></p></li>
+<li class="fragment"><p>Congratulations if you picked the <em>most beautiful number</em></p></li>
+</ul>
+</div>
+</section>
+<section id="number-beauty-contest-trial-1-1" class="slide level2">
+<h2>Number Beauty Contest (Trial 1)</h2>
+<iframe width="900" height="600" src="https://docs.google.com/spreadsheets/d/1e_1XbMqxMbQuUivtAu19kNlIumi4nPSN-TqOiurl5Ys/edit?embedded=true&amp;rm=minimal" frameborder="0">
+</iframe>
+</section>
+<section id="number-beauty-contest-trial-2" class="slide level2">
+<h2>Number Beauty Contest (Trial 2)</h2>
+<ul>
+<li><p>Pick a number between <span class="math inline">\(1\)</span> and <span class="math inline">\(100\)</span></p></li>
+<li><p><a href="https://docs.google.com/spreadsheets/d/1e_1XbMqxMbQuUivtAu19kNlIumi4nPSN-TqOiurl5Ys/edit?pli=1&amp;gid=0#gid=0">Calculate the Mean</a></p></li>
+<li><p>The Mean is multiplied by a constant <span class="math inline">\(\frac{2}{3}\)</span></p></li>
+<li><p>Congratulations if you picked the <em>most beautiful number</em></p></li>
+</ul>
+</section>
+<section id="number-beauty-contest-trial-2-1" class="slide level2">
+<h2>Number Beauty Contest (Trial 2)</h2>
+<iframe width="900" height="600" src="https://docs.google.com/spreadsheets/d/1e_1XbMqxMbQuUivtAu19kNlIumi4nPSN-TqOiurl5Ys/edit?embedded=true&amp;rm=minimal" frameborder="0">
+</iframe>
+</section>
+<section id="number-beauty-contest-trial-3" class="slide level2">
+<h2>Number Beauty Contest (Trial 3)</h2>
+<ul>
+<li><p>Pick a number between <span class="math inline">\(1\)</span> and <span class="math inline">\(100\)</span></p></li>
+<li><p><a href="https://docs.google.com/spreadsheets/d/1e_1XbMqxMbQuUivtAu19kNlIumi4nPSN-TqOiurl5Ys/edit?pli=1&amp;gid=0#gid=0">Calculate the Mean</a></p></li>
+<li><p>The Mean is multiplied by a constant <span class="math inline">\(\frac{2}{3}\)</span></p></li>
+<li><p>Congratulations if you picked the <em>most beautiful number</em></p></li>
+</ul>
+</section>
+<section id="number-beauty-contest-trial-3-1" class="slide level2">
+<h2>Number Beauty Contest (Trial 3)</h2>
+<iframe width="900" height="600" src="https://docs.google.com/spreadsheets/d/1e_1XbMqxMbQuUivtAu19kNlIumi4nPSN-TqOiurl5Ys/edit?embedded=true&amp;rm=minimal" frameborder="0">
+</iframe>
+</section>
+<section id="strategy-for-the-number-beauty-contest" class="slide level2 smaller">
+<h2>Strategy for the Number Beauty Contest</h2>
+<div>
+<ul>
+<li class="fragment">Midpoint of <span class="math inline">\(1\)</span> and <span class="math inline">\(100\)</span> is <span class="math inline">\(50\)</span>
+<ul>
+<li class="fragment">Mean of uniformly drawn sample is <span class="math inline">\(50\)</span></li>
+<li class="fragment"><span class="math inline">\(\frac{2}{3}\)</span> of <span class="math inline">\(50\)</span> is <span class="math inline">\(33.33 . . .\)</span></li>
+</ul></li>
+<li class="fragment">Best strategy is to guess around <span class="math inline">\(33.33\)</span> . . . ?</li>
+</ul>
+<p><br></p>
+<ul>
+<li class="fragment">Everyone guessing <span class="math inline">\(~33\)</span> brings the Mean closer to <span class="math inline">\(33\)</span>
+<ul>
+<li class="fragment"><strong><em>BUT</em></strong> <span class="math inline">\(\frac{2}{3}\)</span> of <span class="math inline">\(33\)</span> is <span class="math inline">\(22.22 . . .\)</span></li>
+</ul></li>
+<li class="fragment">Best strategy to guess around <span class="math inline">\(22\)</span>. . . ?<br><font size="4.5"><span class="citation" data-cites="keynes_general_1936 dowling_modern_2007">(<a href="#/references-1" role="doc-biblioref" onclick="">Dowling, 2007</a>; <a href="#/references-1" role="doc-biblioref" onclick="">Keynes, 1936</a>)</span></font></li>
+</ul>
+</div>
+</section></section>
+<section>
+<section id="ultimatumdictator-games" class="title-slide slide level1 center">
+<h1>Ultimatum/Dictator Games</h1>
+
+</section>
+<section id="basic-ultimatum-game-dictator-version-1" class="slide level2 smaller">
+<h2>Basic Ultimatum Game (Dictator Version 1)</h2>
+<div>
+<ul>
+<li class="fragment">In pairs identify who is <font color="#6666ff">Player 1</font> and who is <font color="#ff4c4c">Player 2</font></li>
+</ul>
+<p><br></p>
+<ul>
+<li class="fragment"><p><font color="#6666ff">Player 1</font> receives €100</p></li>
+<li class="fragment"><p><font color="#6666ff">Player 1</font> may divide the €100 between you and <font color="#ff4c4c">Player 2</font> however you like.</p></li>
+<li class="fragment"><p>End of the Game</p></li>
+<li class="fragment"><p>What is the <strong><em>rational</em></strong> choice?</p></li>
+</ul>
+</div>
+</section>
+<section id="basic-ultimatum-game-dictator-version-2" class="slide level2 smaller">
+<h2>Basic Ultimatum Game (Dictator Version 2)</h2>
+<div>
+<ul>
+<li class="fragment">In pairs identify who is <font color="#6666ff">Player 1</font> and who is <font color="#ff4c4c">Player 2</font></li>
+</ul>
+<p><br></p>
+<ul>
+<li class="fragment"><p><font color="#6666ff">Player 1</font> receives €100</p></li>
+<li class="fragment"><p><font color="#6666ff">Player 1</font> may divide the €100 between you and <font color="#ff4c4c">Player 2</font> however you like.</p></li>
+<li class="fragment"><p><font color="#ff4c4c">Player 2</font> can accept or reject the offer</p></li>
+<li class="fragment"><p>End of the Game</p></li>
+<li class="fragment"><p>What is the <strong><em>rational</em></strong> choice?</p>
+<ul>
+<li class="fragment">for <font color="#6666ff">Player 1</font></li>
+<li class="fragment">for <font color="#ff4c4c">Player 2</font></li>
 </ul></li>
 </ul>
 </div>
 </section>
-<section id="defining-nudges-and-better-choices" class="slide level2">
-<h2>Defining Nudges and “Better Choices”</h2>
+<section id="ultimatum-game" class="slide level2 smaller">
+<h2>Ultimatum Game</h2>
+<div>
 <ul>
-<li><p>Libertarian Paternalism</p></li>
-<li><p>Paternalism but “free to choose”</p></li>
-<li><p>Aim of Libertarian Paternalism is to:</p>
+<li class="fragment">In pairs identify who is <font color="#6666ff">Player 1</font> and who is <font color="#ff4c4c">Player 2</font></li>
+</ul>
+<p><br></p>
 <ul>
-<li>“influence choices in a way that will make choosers better off, <font color="#990000"><strong><em>as judged by themselves</em></strong></font>”</li>
+<li class="fragment"><p><font color="#6666ff">Player 1</font> receives €100</p></li>
+<li class="fragment"><p><font color="#6666ff">Player 1</font> may divide the €100 between you and <font color="#ff4c4c">Player 2</font> however you like.</p></li>
+<li class="fragment"><p><font color="#ff4c4c">Player 2</font> can</p>
+<ul>
+<li class="fragment">accept the offer</li>
+<li class="fragment">reject the offer
+<ul>
+<li class="fragment">If <font color="#ff4c4c">Player 2</font> rejects, <strong>both</strong> players get <strong>nothing</strong></li>
+</ul></li>
+</ul></li>
+<li class="fragment"><p>End of the Game</p></li>
+</ul>
+</div>
+</section>
+<section id="ultimatum-game-1" class="slide level2">
+<h2>Ultimatum Game</h2>
+<div>
+<ul>
+<li class="fragment">What is the <strong><em>rational</em></strong> choice?
+<ul>
+<li class="fragment">for <font color="#6666ff">Player 1</font></li>
+<li class="fragment">for <font color="#ff4c4c">Player 2</font></li>
 </ul></li>
 </ul>
-<p><br><br><span class="citation" data-cites="thaler_nudge_2008 thaler_misbehaving_2015 thaler_libertarian_2003">(<a href="#/references-1" role="doc-biblioref" onclick="">Thaler, 2015, p. 251</a>; <a href="#/references-1" role="doc-biblioref" onclick="">Thaler &amp; Sunstein, 2003</a>; <a href="#/references-1" role="doc-biblioref" onclick="">2008, p. 5</a>)</span></p>
-</section>
-<section id="hobs" class="slide level2">
-<h2>Hobs</h2>
-<p><a href="resources/images/hob1.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-8"><img data-src="resources/images/hob1.jpg" title="Hobs" height="480"></a></p>
-</section>
-<section id="hobs-1" class="slide level2">
-<h2>Hobs</h2>
-<p><a href="resources/images/hob2.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-9"><img data-src="resources/images/hob2.jpg" title="Hobs" height="480"></a></p>
-</section>
-<section id="hobs-2" class="slide level2">
-<h2>Hobs</h2>
-<p><a href="resources/images/hob3.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-10"><img data-src="resources/images/hob3.jpg" title="Hobs" height="480"></a></p>
-</section>
-<section id="arrangement-of-knobs-on-a-cooker" class="slide level2">
-<h2>Arrangement of Knobs on a Cooker</h2>
-<div class="r-stack">
-<p><a href="resources/images/cooker1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-11"><img data-src="resources/images/cooker1.png" class="fragment"></a></p>
-<p><a href="resources/images/cooker2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-12"><img data-src="resources/images/cooker2.png" class="fragment"></a></p>
-<p><a href="resources/images/cooker3.png" class="lightbox" data-gallery="quarto-lightbox-gallery-13"><img data-src="resources/images/cooker3.png" class="fragment" height="480"></a></p>
 </div>
-<p><font size="4.5"><span class="citation" data-cites="thaler_nudge_2008">(<a href="#/references-1" role="doc-biblioref" onclick="">Thaler &amp; Sunstein, 2008, p. 86</a>)</span></font></p>
 </section>
-<section id="arrangement-of-knobs-on-a-cooker-1" class="slide level2">
-<h2>Arrangement of Knobs on a Cooker</h2>
-<p><a href="resources/images/home_hob1.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-14"><img data-src="resources/images/home_hob1.jpg" height="420"></a></p>
-<p><font size="4.5">(Cillian’s personal frustrations)</font></p>
+<section id="fairness-vs-rationality" class="slide level2">
+<h2>Fairness vs Rationality</h2>
+<iframe width="900" height="600" src="https://www.youtube.com/embed/-KSryJXDpZo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="">
+</iframe>
 </section>
-<section id="arrangement-of-knobs-on-a-cooker-2" class="slide level2 scrollable">
-<h2>Arrangement of Knobs on a Cooker</h2>
-<div class="columns">
-<div class="column" style="width:40%;">
-<p><a href="resources/images/home_hob2.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-15"><img data-src="resources/images/home_hob2.jpg"></a></p>
-</div><div class="column" style="width:35%;">
-<p><font size="4.5">(Cillian’s personal frustrations)</font></p>
-</div></div>
+<section id="backward-induction" class="slide level2">
+<h2>Backward Induction</h2>
+<div>
+<ul>
+<li class="fragment">Sum of money to be divided between <font color="#ff4c4c">Ann</font> and <font color="#6666ff">Ben</font></li>
+<li class="fragment"><font color="#ff4c4c">Ann</font> starts with 100p and can give some to <font color="#6666ff">Ben</font></li>
+<li class="fragment"><font color="#6666ff">Ben</font> can accept or reject
+<ul>
+<li class="fragment">if <font color="#6666ff">Ben</font> rejects:
+<ul>
+<li class="fragment">Money is reduced to 25p and <font color="#6666ff">Ben</font> is in charge of dividing the money</li>
+</ul></li>
+</ul></li>
+<li class="fragment"><font color="#ff4c4c">Ann</font> can accept or reject
+<ul>
+<li class="fragment">if <font color="#ff4c4c">Ann</font> rejects, both receive nothing</li>
+</ul></li>
+</ul>
+</div>
 </section>
-<section id="doors" class="slide level2 scrollable">
-<h2>Doors</h2>
-<blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:a4ggcdmlzocecvzf534wlinu/app.bsky.feed.post/3l52bfoxwlz2i" data-bluesky-cid="bafyreiaynzu5m3xaiytxrh73aqwkqmbjlj7wiubsxo24ie7nnnqbdqo2ou">
-<p lang="en">
-They really didn’t want me to enjoy myself today 😂<br><br><a href="https://bsky.app/profile/did:plc:a4ggcdmlzocecvzf534wlinu/post/3l52bfoxwlz2i?ref_src=embed">[image or embed]</a>
-</p>
-— Andrew D Wilson (<a href="https://bsky.app/profile/did:plc:a4ggcdmlzocecvzf534wlinu?ref_src=embed"><span class="citation" data-cites="adw.bsky.social">(</span></a><a href="#/references-1" role="doc-biblioref" onclick=""><strong>adw.bsky.social?</strong></a>)) <a href="https://bsky.app/profile/did:plc:a4ggcdmlzocecvzf534wlinu/post/3l52bfoxwlz2i?ref_src=embed">September 26, 2024 at 9:51 AM</a>
-</blockquote>
-<script async="" src="https://embed.bsky.app/static/embed.js" charset="utf-8"></script>
-<p><span class="citation" data-cites="wilsonBluesky2024">(<a href="#/references-1" role="doc-biblioref" onclick="">Wilson, 2024</a>)</span></p>
+<section id="backward-induction-1" class="slide level2">
+<h2>Backward Induction</h2>
+<p><a href="resources/images/backward_induction.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img data-src="resources/images/backward_induction.png" title="backward induction" height="400"></a></p>
+<p><font size="4.5"><span class="citation" data-cites="dowling_modern_2007">(taken from <a href="#/references-1" role="doc-biblioref" onclick="">Dowling, 2007, p. 118</a>)</span></font></p>
 </section>
-<section id="doors-1" class="slide level2 scrollable">
-<h2>Doors</h2>
-<p><a href="resources/images/doors.png" class="lightbox" data-gallery="quarto-lightbox-gallery-16"><img data-src="resources/images/doors.png" title="doors" height="420"></a></p>
-<p><span class="citation" data-cites="wilsonBluesky2024">(<a href="#/references-1" role="doc-biblioref" onclick="">Wilson, 2024</a>)</span></p>
+<section id="backward-induction-and-the-centipede-game" class="slide level2">
+<h2>Backward Induction and the Centipede Game</h2>
+<div>
+<ul>
+<li class="fragment">A dime (10c) is put on the table</li>
+<li class="fragment"><font color="#6666ff">Player 1</font> has the option to take it</li>
+<li class="fragment">If <font color="#6666ff">Player 1</font> leaves it, another dime is placed on top and <font color="#ff4c4c">Player 2</font> has the option to take it</li>
+<li class="fragment">If <font color="#6666ff">Player 2</font> leaves it another dime is added
+<ul>
+<li class="fragment">and so on. . .</li>
+</ul></li>
+</ul>
+</div>
 </section>
-<section id="donating-organs" class="slide level2">
-<h2>Donating organs</h2>
+<section id="backward-induction-and-the-centipede-game-1" class="slide level2 smaller">
+<h2>Backward Induction and the Centipede Game</h2>
+<div>
+<ul>
+<li class="fragment">Assume there are 10 rounds, this will leave $1 on the table at <font color="#ff4c4c">Player 2’s</font> decision
+<ul>
+<li class="fragment">Final round, <font color="#ff4c4c">Player 2</font> will take the money</li>
+</ul></li>
+<li class="fragment">By backwards induction <font color="#6666ff">Player 1</font> should take at round 9
+<ul>
+<li class="fragment">but <font color="#ff4c4c">Player 2</font> should anticipate this and take the money at round 8 an so on. . .</li>
+</ul></li>
+<li class="fragment">Nash Equilibrium is for <font color="#6666ff">Player 1</font> to take the dime on round 1
+<ul>
+<li class="fragment">Without prior collusion participants have waited till the last round and split the money</li>
+</ul></li>
+</ul>
+</div>
+</section></section>
+<section>
+<section id="the-prisoner-dilemma-revisited" class="title-slide slide level1 center">
+<h1>The Prisoner Dilemma revisited</h1>
+
+</section>
+<section id="beyond-individual-games" class="slide level2">
+<h2>Beyond Individual Games</h2>
+<div>
+<ul>
+<li class="fragment">Game theory works for investigating behvaiour at the individual level</li>
+</ul>
+<p><br></p>
+<ul>
+<li class="fragment">Can also be used to test the emergence of <strong><em>best</em></strong> or <strong><em>most robust</em></strong> strategies through computer simulations</li>
+</ul>
+<p><br></p>
+<ul>
+<li class="fragment">The effectiveness of strategies relative to each other can be established</li>
+</ul>
+</div>
+</section>
+<section id="repeated-trials-of-the-prisoner-dilemma" class="slide level2">
+<h2>Repeated Trials of the Prisoner Dilemma</h2>
+<ul>
+<li><span class="citation" data-cites="axelrod_evolution_1984">Axelrod (<a href="#/references-1" role="doc-biblioref" onclick="">1984</a>)</span> famously simulated the Prisoner Dilemma using a points system</li>
+</ul>
+<br>
+<center>
+<table class="table-style-one">
+<colgroup><col width="200px">
+<col width="200px">
+<col width="200px">
+<col width="200px">
+</colgroup><tbody><tr class="odd">
+<td colspan="2" rowspan="2">
+</td>
+<td colspan="2" align="center">
+<font color="#ff4c4c">B</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px">cooperate</font>
+</td>
+<td align="center">
+<font size="5px">defect</font>
+</td>
+</tr>
+<tr class="odd">
+<td rowspan="2" align="center">
+<font color="#6666ff">A</font>
+</td>
+<td align="center">
+<font size="5px">cooperate</font>
+</td>
+<td align="center">
+<font color="#6666ff">3</font> , <font color="#ff4c4c">3</font>
+</td>
+<td align="center">
+<font color="#6666ff">0</font> , <font color="#ff4c4c">5</font>
+</td>
+</tr>
+<tr class="even">
+<td align="center">
+<font size="5px">defect</font>
+</td>
+<td align="center">
+<font color="#6666ff">5</font> , <font color="#ff4c4c">0</font>
+</td>
+<td align="center">
+<font color="#6666ff">1</font> , <font color="#ff4c4c">1</font>
+</td>
+</tr>
+</tbody></table>
+</center>
+<p><br></p>
+</section>
+<section id="repeated-trials-of-the-prisoner-dilemma-1" class="slide level2 smaller">
+<h2>Repeated Trials of the Prisoner Dilemma</h2>
+<div>
+<ul>
+<li class="fragment">A “tournament” for strategies was devised and the winner was <strong><em>Tit for Tat</em></strong>
+<ul>
+<li class="fragment">Initially offer cooperation</li>
+<li class="fragment">Respond to defection with defection</li>
+<li class="fragment">Observed during WW1</li>
+</ul></li>
+<li class="fragment"><span class="citation" data-cites="nowak_arithmetics_1995">Nowak, May, &amp; Sigmund (<a href="#/references-1" role="doc-biblioref" onclick="">1995</a>)</span> used learning algorithms
+<ul>
+<li class="fragment">cooperation eventually prevailed
+<ul>
+<li class="fragment"><em>generous tit for tat</em> (failed to retaliate occasionally)</li>
+<li class="fragment"><em>Pavlov</em></li>
+</ul></li>
+</ul></li>
+</ul>
+</div>
+</section></section>
+<section>
+<section id="assignment-1" class="title-slide slide level1 center">
+<h1>Assignment 1</h1>
+
+</section>
+<section id="assignment-1-1" class="slide level2">
+<h2>Assignment 1</h2>
+<p>Choice between <em>Heuristics</em> and <em>Game Theory</em></p>
+</section>
+<section id="assignment-1-heuristics" class="slide level2 smaller">
+<h2>Assignment 1: Heuristics</h2>
+<p>Heuristics</p>
+<p>Based on your knowledge of heuristics and your observations of people’s decision making in everyday life, identify a novel heuristic that may be guiding the decisions/behaviour of people. This heuristic may be context dependent or generalisable to multiple contexts.</p>
+<p>Having identified a candidate heuristic:</p>
+<ol type="i">
+<li>describe the heuristic</li>
+<li>explain why this counts as a heuristic</li>
+<li>describe how you would assess whether or not this heuristic is indeed guiding decisions/behaviour.</li>
+</ol>
+</section>
+<section id="assignment-1-game-theory" class="slide level2 smaller">
+<h2>Assignment 1: Game Theory</h2>
+<p>Based on your knowledge of Game Theory and your observations of people’s interactions in everyday life, identify <strong>three</strong> behaviours / interactions / decision-making situations that can be characterised using one of the concepts covered.</p>
+<ol type="a">
+<li>One can illustrate a concept of your choice</li>
+<li>One must illustrate <strong><em>Strict Dominance</em></strong></li>
+<li>One must illustrate <strong><em>Nash Equilibrium</em></strong></li>
+</ol>
+<p>Describe each behaviour, and how it illustrates the relevant concept.</p>
+<p>For (2) and (3) please include a hypothetical payoff matrix.</p>
+<p>(1000-1500 words)</p>
+</section>
+<section id="assignment-1-marking-scheme" class="slide level2 smaller">
+<h2>Assignment 1: Marking scheme</h2>
 <table class="caption-top">
+<colgroup>
+<col style="width: 78%">
+<col style="width: 21%">
+</colgroup>
 <thead>
 <tr class="header">
-<th>Country</th>
-<th style="text-align: center;">Rate of Donation</th>
+<th style="text-align: left;">Component</th>
+<th style="text-align: center;">Percentage</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>USA</td>
-<td style="text-align: center;">28%</td>
+<td style="text-align: left;">Clear demonstration of an in depth understanding of the topic</td>
+<td style="text-align: center;">30%</td>
 </tr>
 <tr class="even">
-<td>France</td>
-<td style="text-align: center;">99.9%</td>
+<td style="text-align: left;">Critical thinking</td>
+<td style="text-align: center;">30%</td>
 </tr>
 <tr class="odd">
-<td>Britain</td>
-<td style="text-align: center;">17%</td>
+<td style="text-align: left;">Competence in the identification and application of relevant research methods</td>
+<td style="text-align: center;">20%</td>
 </tr>
 <tr class="even">
-<td>Hungary</td>
-<td style="text-align: center;">99.9%</td>
+<td style="text-align: left;">Originality/Novelty</td>
+<td style="text-align: center;">20%</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">References, Citations, and Formatting</td>
+<td style="text-align: center;">0% (potential penalty of 1 sub-grade)</td>
 </tr>
 </tbody>
 </table>
-</section>
-<section id="donating-organs-1" class="slide level2">
-<h2>Donating organs</h2>
-<table class="caption-top">
-<thead>
-<tr class="header">
-<th>Default Rule</th>
-<th>Country</th>
-<th style="text-align: center;">Rate of Donation</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Explicit Consent</td>
-<td>USA</td>
-<td style="text-align: center;">28%</td>
-</tr>
-<tr class="even">
-<td>Presumed Consent</td>
-<td>France</td>
-<td style="text-align: center;">99.9%</td>
-</tr>
-<tr class="odd">
-<td>Explicit Consent</td>
-<td>Britain</td>
-<td style="text-align: center;">17%</td>
-</tr>
-<tr class="even">
-<td>Presumed Consent</td>
-<td>Hungary</td>
-<td style="text-align: center;">99.9%</td>
-</tr>
-</tbody>
-</table>
-<p><br></p>
-<ul>
-<li>Opt-in vs opt-out <br><font size="4.5"><span class="citation" data-cites="gigerenzer_moral_2008">(<a href="#/references-1" role="doc-biblioref" onclick="">Gigerenzer, 2008</a>)</span></font></li>
-</ul>
-</section>
-<section id="maintaining-standards" class="slide level2">
-<h2>Maintaining Standards</h2>
-<p><a href="resources/images/checklist.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-17"><img data-src="resources/images/checklist.jpg" title="checklist" height="420"></a></p>
-</section>
-<section id="checklists" class="slide level2 smaller">
-<h2>Checklists</h2>
-<div>
-<ul>
-<li class="fragment">Slightly more invasive than other nudges<br><font size="4.5">(may not even count as a nudge)</font></li>
-<li class="fragment">Hospitals introduced a surgical checklist during major operations</li>
-<li class="fragment">8 Cities Globally: Ifakara (Tanzania), Manila (Philippines), New Delhi (India), Amman (Jordan), Seattle (United States of America), Toronto (Canada), London (United Kingdom) and Auckland (New Zealand)</li>
-<li class="fragment">Data were from <span class="math inline">\(7,688\)</span> patients
-<ul>
-<li class="fragment"><span class="math inline">\(3,733\)</span> before and <span class="math inline">\(3,955\)</span> after checklist was introduced</li>
-</ul></li>
-<li class="fragment">Incidences of major complications fell by <span class="math inline">\(\frac{1}{3}\)</span> (<span class="math inline">\(11\%\)</span> to <span class="math inline">\(7\%\)</span>)</li>
-<li class="fragment"><span class="math inline">\(40\%\)</span> Drop in in-patient deaths (<span class="math inline">\(1.5\%\)</span> to <span class="math inline">\(0.8\%\)</span>) <br><font size="4.5"><span class="citation" data-cites="weiser_effect_2010 epstein_who_2009 gawande_checklist_2010 haynes_surgical_2009">(<a href="#/references-1" role="doc-biblioref" onclick="">Epstein, 2009</a>; <a href="#/references-1" role="doc-biblioref" onclick="">Gawande, 2010</a>; <a href="#/references-1" role="doc-biblioref" onclick="">Haynes et al., 2009</a>; <a href="#/references-1" role="doc-biblioref" onclick="">Weiser et al., 2010</a>)</span></font></li>
-</ul>
-</div>
-</section></section>
-<section>
-<section id="nudges-and-theory" class="title-slide slide level1 center">
-<h1>Nudges and Theory</h1>
-
-</section>
-<section id="nudges-and-theory-1" class="slide level2">
-<h2>Nudges and Theory</h2>
-<div>
-<ul>
-<li class="fragment">Nudges are designed to exploit features of our decision making
-<ul>
-<li class="fragment">e.g., appealing to loss aversion in persuasion</li>
-</ul></li>
-<li class="fragment">The remaining nudges described will be linked with specific theoretical underpinnings
-<ul>
-<li class="fragment">Exploiting specific biases</li>
-<li class="fragment">Tailored for specific heuristics</li>
-<li class="fragment">Appealing to other features of decision making</li>
-</ul></li>
-</ul>
-</div>
-</section>
-<section id="activity" class="slide level2">
-<h2>Activity</h2>
-<ul>
-<li>In groups, Identify the underlying theory behind the nudges discussed
-<ul>
-<li>What heuristics/biases do they harness?</li>
-<li>Is there any other concept covered that might be relevant? <br> (some may not have been covered yet, but you can guess)</li>
-</ul></li>
-<li>Fly; Cooker; Donating organs; Checklist</li>
-</ul>
-</section>
-<section id="activity-possible-answers" class="slide level2">
-<h2>Activity (possible answers)</h2>
-<ul>
-<li>Fly (focusing attention: combating “mindless”/“autopilot” behaviour)</li>
-<li>Cooker (path of least resistance / cognitive ease)</li>
-<li>Donating organs (Default heuristic)</li>
-<li>Checklist (combating “mindless”/“autopilot” choosing)</li>
-</ul>
-</section>
-<section id="principles-relevant-to-nudges" class="slide level2 smaller">
-<h2>Principles relevant to Nudges</h2>
-<ul>
-<li>Choice architecture <span class="citation" data-cites="thaler_choice_2012">(<a href="#/references-1" role="doc-biblioref" onclick="">Thaler, Sunstein, &amp; Balz, 2012</a>)</span></li>
-<li>Path of least resistance</li>
-<li>Heuristics: Anchoring / Availability / Representativeness</li>
-<li>Biases: Optimism / over-confidence / Status-quo bias</li>
-<li>Loss aversion</li>
-<li>Emotion / affect / mood
-<ul>
-<li><em>Hot</em> vs <em>cold</em> decisions</li>
-</ul></li>
-<li>“mindless” or “autopilot” choosing</li>
-<li>(Mental Accounting)</li>
-</ul>
-</section>
-<section id="choice-architecture" class="slide level2">
-<h2>Choice Architecture</h2>
-<ul>
-<li><p><strong>Choice architecture</strong> is the “context in which people make decisions” <br><span class="citation" data-cites="thaler_nudge_2008">(<a href="#/references-1" role="doc-biblioref" onclick="">Thaler &amp; Sunstein, 2008, p. 3</a>)</span></p></li>
-<li><p>Everything matters</p></li>
-<li><p>No such thing as “neutral design”</p></li>
-</ul>
-<p><span class="citation" data-cites="thaler_choice_2012">(<a href="#/references-1" role="doc-biblioref" onclick="">Thaler et al., 2012</a>)</span></p>
-</section>
-<section id="choice-architecture-1" class="slide level2 smaller">
-<h2>Choice Architecture?</h2>
-<p><a href="resources/images/behaviour_setting.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-18"><img data-src="resources/images/behaviour_setting.jpg" title="Behaviour Settings" height="500"></a> <br> Behaviour settings <span class="citation" data-cites="dirienzo_Navigating_2024 mcgann_People_2024">(<a href="#/references-1" role="doc-biblioref" onclick="">Di Rienzo, Myin, &amp; van Dijk, 2024</a>; see also <a href="#/references-1" role="doc-biblioref" onclick="">McGann, Lucas, McHugh, &amp; Barrett, 2024</a>)</span></p>
-</section>
-<section id="desire-paths" class="slide level2">
-<h2>Desire Paths</h2>
-<p><a href="resources/images/desire_paths.png" class="lightbox" data-gallery="quarto-lightbox-gallery-19"><img data-src="resources/images/desire_paths.png" title="Desire Paths" height="500"></a></p>
-</section>
-<section id="choice-architecture-2" class="slide level2">
-<h2>Choice Architecture</h2>
-<ul>
-<li>6 principles of good choice architecture
-<ul>
-<li>iNcentives</li>
-<li>Understand mappings</li>
-<li>Defaults</li>
-<li>Give feedback</li>
-<li>Expect error</li>
-<li>Structure complex choices</li>
-</ul></li>
-</ul>
-<p><span class="citation" data-cites="thaler_choice_2012">(<a href="#/references-1" role="doc-biblioref" onclick="">Thaler et al., 2012</a>)</span></p>
-</section>
-<section id="path-of-least-resistance-defaults" class="slide level2 smaller">
-<h2>Path of Least Resistance (Defaults)</h2>
-<div class="columns">
-<div class="column" style="width:65%;">
-<ul>
-<li>Easier choice options are preferable to more difficult options</li>
-<li>Consider the placing of items near a till in a shop</li>
-<li>Sweets and crisps could be replaced with healthy snacks/fruit
-<ul>
-<li>This would lead to people choosing healthy snacks more often</li>
-</ul></li>
-<li>Too many choices makes decisions more difficult</li>
-</ul>
-</div><div class="column" style="width:35%;">
-<p><a href="resources/images/shop_counter.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-20"><img data-src="resources/images/shop_counter.jpg" title="Sweets in the shop"></a></p>
-</div></div>
-</section>
-<section id="heuristics-anchoring" class="slide level2 smaller">
-<h2>Heuristics: Anchoring</h2>
-<ul>
-<li><p>Recall Anchoring (heuristics lecture)</p></li>
-<li><p>Taking information salient in the environment and using it to <em>anchor</em> your decisions</p></li>
-<li><p>e.g., rigged wheel of fortune: 10 or 65</p>
-<ul>
-<li>Is the percentage of African nations among UN members larger or smaller than the number you just wrote?</li>
-<li>What is your best guess of the percentage of African nations in the UN?</li>
-</ul></li>
-<li><p>Mean response 25% and 45% (depending on 10 or 65)</p>
-<ul>
-<li>In groups/individually:
-<ul>
-<li>Identify potential applications of anchoring <br> (1-2 mins)</li>
-</ul></li>
-</ul></li>
-</ul>
-</section>
-<section id="heuristics-anchoring-applications" class="slide level2">
-<h2>Heuristics: Anchoring Applications</h2>
-<ul>
-<li>Charities looking for donations:
-<ul>
-<li>Suggested amounts serve as an anchor</li>
-<li>€100, €250, €1,000, €5,000 <br></li>
-<li><em>vs</em> €50, €75, €100, and €150</li>
-</ul></li>
-<li>The more you ask for the more you get
-<ul>
-<li>e.g., court cases for compensation/damages</li>
-</ul></li>
-</ul>
-</section>
-<section id="heuristics-availability" class="slide level2">
-<h2>Heuristics: Availability</h2>
-<ul>
-<li><p>the process of judging frequency by “the ease with which instances come to mind”<br><font size="4.5"><span class="citation" data-cites="kahneman_thinking_2011">(<a href="#/references-1" role="doc-biblioref" onclick="">Kahneman, 2011, p. 128</a>)</span></font></p></li>
-<li><p>Remind people of a salient (negative) incident and they will over-estimate the risk</p>
-<ul>
-<li>and you can sell more insurance policies</li>
-</ul></li>
-</ul>
-</section>
-<section id="heuristics-combatting-availability" class="slide level2 smaller">
-<h2>Heuristics: Combatting Availability</h2>
-<div class="columns">
-<div class="column" style="width:77%;">
-<ul>
-<li>Availability has been blamed for alcohol misuse
-<ul>
-<li>“everyone does it”
-<ul>
-<li>leading to more people drinking</li>
-</ul></li>
-</ul></li>
-<li>Large scale educational campaign in Montana stressed that majority of citizens do not drink
-<ul>
-<li>“<em>Most (81 percent) of Montana college students have four or fewer alcoholic drinks each week.</em>”</li>
-<li>“<em>Most (70 percent) of Montana teens are tobacco free.</em>”</li>
-</ul></li>
-<li>The strategy has produced big improvements in the accuracy of social perceptions
-<ul>
-<li>also statistically significant decreases in smoking<br><font size="4.5"><span class="citation" data-cites="thaler_nudge_2008 linkenbachMontanaModelDevelopment2003 linkenbachMOSTUsAre2003">(<a href="#/references-1" role="doc-biblioref" onclick="">Linkenbach, 2003</a>; <a href="#/references-1" role="doc-biblioref" onclick="">Linkenbach &amp; Perkins, 2003</a>; <a href="#/references-1" role="doc-biblioref" onclick="">Thaler &amp; Sunstein, 2008, p. 68</a>)</span></font></li>
-</ul></li>
-</ul>
-</div><div class="column" style="width:23%;">
-<p><a href="resources/images/alcohol.png" class="lightbox" data-gallery="quarto-lightbox-gallery-21"><img data-src="resources/images/alcohol.png" title="alcohol" width="450"></a></p>
-<p><a href="resources/images/cigarettes2.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-22"><img data-src="resources/images/cigarettes2.jpeg" title="cigarettes" width="450"></a></p>
-</div></div>
-</section>
-<section id="heuristics-representativeness" class="slide level2">
-<h2>Heuristics: Representativeness</h2>
-<p><br></p>
-<ul>
-<li>judging a situation based on how similar the prospects are to the prototypes the person holds in his or her mind.</li>
-</ul>
-</section>
-<section id="map-of-london-v-1-rocket-strikes-wwii" class="slide level2">
-<h2>Map of London: V-1 rocket strikes (WWII)</h2>
-<p><a href="resources/images/london_bombs.png" class="lightbox" data-gallery="quarto-lightbox-gallery-23"><img data-src="resources/images/london_bombs.png" title="london" width="420"></a></p>
-<p><font size="4.5"><span class="citation" data-cites="thaler_nudge_2008 gilovich_how_1993">(<a href="#/references-1" role="doc-biblioref" onclick="">Gilovich, 1993</a>; <a href="#/references-1" role="doc-biblioref" onclick="">Thaler &amp; Sunstein, 2008, pp. 28–29</a>)</span></font></p>
-</section>
-<section id="heuristics-representativeness-1" class="slide level2">
-<h2>Heuristics: Representativeness</h2>
-<div>
-<ul>
-<li class="fragment"><p>Seeing patterns when they are not there</p></li>
-<li class="fragment"><p>bombings appear to be around the Thames, and in the north west<br>(German spies in the blank spaces?)</p>
-<ul>
-<li class="fragment">but they are random</li>
-</ul></li>
-<li class="fragment"><p>Illusion of a “Hot hand” or a “Streak” in basketball <br><span class="citation" data-cites="thaler_nudge_2008 gilovich_hot_1985">(<a href="#/references-1" role="doc-biblioref" onclick="">Gilovich, Vallone, &amp; Tversky, 1985</a>; <a href="#/references-1" role="doc-biblioref" onclick="">Thaler &amp; Sunstein, 2008</a>)</span></p></li>
-</ul>
-</div>
-</section>
-<section id="optimism" class="slide level2">
-<h2>Optimism</h2>
-<ul>
-<li>Optimism bias / over-confidence bias
-<ul>
-<li>lead to the planning fallacy</li>
-</ul></li>
-<li>Activity:
-<ul>
-<li>Identify strategies that may combat the planning fallacy
-<ul>
-<li>does any of your strategies count as a <em>nudge</em></li>
-</ul></li>
-</ul></li>
-</ul>
-</section>
-<section id="status-quo-bias" class="slide level2">
-<h2>Status-quo Bias</h2>
-<div class="columns">
-<div class="column" style="width:80%;">
-<ul>
-<li><p>“strong tendency to go along with the status-quo or default option” <br><font size="4.5"><span class="citation" data-cites="thaler_nudge_2008">(<a href="#/references-1" role="doc-biblioref" onclick="">Thaler &amp; Sunstein, 2008, p. 8</a>)</span></font></p></li>
-<li><p>New cell phone: default options</p></li>
-<li><p>Private companies or public officials think that one policy produces better outcomes, they can greatly influence the outcome by choosing it as the default<br><font size="4.5"><span class="citation" data-cites="thaler_nudge_2008">(<a href="#/references-1" role="doc-biblioref" onclick="">Thaler &amp; Sunstein, 2008, p. 8</a>)</span></font></p></li>
-<li><p>Saving money</p></li>
-</ul>
-</div><div class="column" style="width:20%;">
-<p><a href="resources/images/phone_settings.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-24"><img data-src="resources/images/phone_settings.jpg" title="phone" width="450"></a></p>
-</div></div>
-</section>
-<section id="loss-aversion" class="slide level2">
-<h2>Loss Aversion</h2>
-<ul>
-<li>Advertising framed in terms of losses</li>
-</ul>
-<p><br></p>
-<ul>
-<li>e.g., “drink more water”:
-<ul>
-<li>“you sweat in the heat: you lose water.”</li>
-</ul></li>
-<li>Any other examples?</li>
-</ul>
-</section>
-<section id="emotions-hot-vs-cold" class="slide level2">
-<h2>Emotions / “hot” vs “cold”</h2>
-<ul>
-<li>In a few weeks we’ll learn that we are very bad at predicting how we will feel “in the moment”
-<ul>
-<li>Affective forecasting error</li>
-</ul></li>
-<li>How do we resist the urge to:
-<ul>
-<li>snack?</li>
-</ul></li>
-<li>Problems with smoking/alcohol</li>
-<li>Safe sex</li>
-<li>Excessive borrowing/Gambling?</li>
-</ul>
-</section>
-<section id="emotions-hot-vs-cold-1" class="slide level2">
-<h2>Emotions / “hot” vs “cold”</h2>
-<ul>
-<li>Alter the “choice architecture”
-<ul>
-<li>Don’t keep snacks in the fridge
-<ul>
-<li>Dinner party bowl of nuts <span class="citation" data-cites="thaler_nudge_2008">(<a href="#/references-1" role="doc-biblioref" onclick="">Thaler &amp; Sunstein, 2008, p. 40</a>)</span></li>
-</ul></li>
-<li>Don’t go shopping on an empty stomach</li>
-</ul></li>
-</ul>
-</section>
-<section id="mindless-or-autopilot-choosing" class="slide level2">
-<h2>“mindless” or “autopilot” choosing</h2>
-<div>
-<ul>
-<li class="fragment">Accidentally driving towards work (on a Saturday)</li>
-<li class="fragment">Stale popcorn</li>
-<li class="fragment">Re-filling soup bowls <br><font size="4.5"><span class="citation" data-cites="thaler_nudge_2008 lopezVisualCuesFood2024">(<a href="#/references-1" role="doc-biblioref" onclick="">Lopez et al., 2024</a>; <a href="#/references-1" role="doc-biblioref" onclick="">Thaler &amp; Sunstein, 2008, p. 43</a>)</span></font></li>
-</ul>
-</div>
-</section></section>
-<section>
-<section id="other-nudges" class="title-slide slide level1 center">
-<h1>Other Nudges</h1>
-
-</section>
-<section id="other-nudges-1" class="slide level2">
-<h2>Other Nudges</h2>
-<p><a href="resources/images/escalator.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-25"><img data-src="resources/images/escalator.jpeg" title="escalator" height="480"></a> <img src="resources/images/escalator.jpeg" height="480px"></p>
-</section>
-<section id="other-nudges-2" class="slide level2">
-<h2>Other Nudges</h2>
-<p><a href="resources/images/water_dripping.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-26"><img data-src="resources/images/water_dripping.jpeg" title="water" height="480"></a></p>
-</section>
-<section id="other-nudges-3" class="slide level2">
-<h2>Other Nudges</h2>
-<p><a href="resources/images/bananas.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-27"><img data-src="resources/images/bananas.jpeg" title="bananas" height="480"></a></p>
-</section>
-<section id="other-nudges-4" class="slide level2">
-<h2>Other Nudges</h2>
-<p><a href="resources/images/cigarettes1.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-28"><img data-src="resources/images/cigarettes1.jpeg" title="cigarettes" height="480"></a></p>
-</section>
-<section id="other-nudges-5" class="slide level2">
-<h2>Other Nudges</h2>
-<p><a href="resources/images/smoking_area.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-29"><img data-src="resources/images/smoking_area.jpeg" title="cigarettes" height="480"></a></p>
-</section></section>
-<section>
-<section id="further-reading" class="title-slide slide level1 center">
-<h1>Further Reading</h1>
-
-</section>
-<section id="further-reading-1" class="slide level2 smaller">
-<h2>Further Reading</h2>
-<ul>
-<li><p>Thaler, R. H., Sunstein, C. R., &amp; Balz, J. P. (2012). Choice Architecture. In E. Shafir (Ed.), <em>The Behavioral Foundations of Public Policy.</em> Rochester, NY: Social Science Research Network. <a href="https://learn.ul.ie/content/enforced/46950-PS4168_SEM1_2024_5/1.Resources/Thaler%20et%20al_2012_Choice%20Architecture.pdf">(uploaded to Brightspace)</a></p></li>
-<li><p>Thaler, R. H., &amp; Sunstein, C. R. (2008). <em>Nudge: improving decisions about health, wealth, and happiness.</em> New Haven: Yale University Press.</p></li>
-<li><p>Thaler, R. H., &amp; Sunstein, C. R. (2003). Libertarian Paternalism. <em>American Economic Review</em>, 93(2), 175–179. <a href="https://learn.ul.ie//content/enforced/46950-PS4168_SEM1_2024_5/1.Resources/Thaler_Sunstein_2003_Libertarian%20Paternalism.pdf">(uploaded to Brightspace)</a></p></li>
-<li><p>Thaler, R. H. (2015). <em>Misbehaving: The Making of Behavioral Economics.</em> W.W. Norton.</p></li>
-</ul>
 </section></section>
 <section>
 <section id="in-class-activity" class="title-slide slide level1 center">
-<h1>In-class Activity</h1>
+<h1>In-Class Activity</h1>
 
 </section>
-<section id="nudging-ethics-and-applications" class="slide level2">
-<h2>Nudging Ethics and Applications</h2>
+<section id="in-class-activity-1" class="slide level2">
+<h2>In Class Activity</h2>
 <ul>
-<li>In groups:
-<ul>
-<li>Discuss the potential ethical implications of nudging</li>
-<li>Identify potential candidates for a <em>novel</em> nudge <br><font size="4.5">(7-10 mins)</font></li>
-</ul></li>
-</ul>
-</section>
-<section id="avoiding-the-ethical-problems" class="slide level2">
-<h2>Avoiding the Ethical Problems</h2>
-<ul>
-<li>Aim of Libertarian Paternalism is to:
-<ul>
-<li>“influence choices in a way that will make choosers better off, <font color="#990000"><strong><em>as judged by themselves</em></strong></font>” <br><font size="4.5"><span class="citation" data-cites="thaler_nudge_2008 thaler_misbehaving_2015 thaler_libertarian_2003">(<a href="#/references-1" role="doc-biblioref" onclick="">Thaler, 2015, p. 251</a>; <a href="#/references-1" role="doc-biblioref" onclick="">Thaler &amp; Sunstein, 2003</a>; <a href="#/references-1" role="doc-biblioref" onclick="">2008, p. 5</a>)</span></font></li>
-</ul></li>
+<li>In groups identify features of games discussed in everyday activities</li>
+<li>Pick an example of everyday activity that illustrates some of the concepts discussed today</li>
 </ul>
 </section></section>
 <section>
@@ -1052,72 +3432,33 @@ They really didn’t want me to enjoy myself today 😂<br><br><a href="https://
 <div class="quarto-auto-generated-content">
 <p><img src="resources/images/ul-psychology-logos.png" class="slide-logo"></p>
 <div class="footer footer-default">
-<p>PS4168: Cillian McHugh - 26/9/25</p>
+<p>PS4168: Cillian McHugh - 23/09/26</p>
 </div>
 </div>
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
-<div id="ref-dirienzo_Navigating_2024" class="csl-entry" role="listitem">
-Di Rienzo, G., Myin, E., &amp; van Dijk, L. (2024). Navigating the normativity of behaviour settings: An observational case study. <em>Philosophical Transactions of the Royal Society B: Biological Sciences</em>, <em>379</em>(1910), 20230295. <a href="https://doi.org/10.1098/rstb.2023.0295">https://doi.org/10.1098/rstb.2023.0295</a>
+<div id="ref-axelrod_evolution_1984" class="csl-entry" role="listitem">
+Axelrod, R. M. (1984). <em>The evolution of cooperation</em> (rev. ed). <span>New York, NY</span>: <span>Basic Books</span>.
 </div>
-<div id="ref-epstein_who_2009" class="csl-entry" role="listitem">
-Epstein, D. (2009). <span>WHO</span> | <span>Checklist</span> helps reduce surgical complications, deaths. <em>World Health Organisation</em>. http://www.who.int/mediacentre/news/releases/2009/safe_surgery_20090114/en/?utm_source=zapier.com&amp;utm_medium=referral&amp;utm_campaign=zapier.
+<div id="ref-dowling_modern_2007" class="csl-entry" role="listitem">
+Dowling, J. M. (2007). <em>Modern developments in behavioral economics: Social science perspectives on choice and decision making</em>. <span>Singapore ;</span> <span>World Scientific</span>.
 </div>
-<div id="ref-eysenck_cognitive_2005" class="csl-entry" role="listitem">
-Eysenck, M. W., &amp; Keane, M. T. (2005). <em>Cognitive psychology: A student’s handbook</em>. <span>Hove [England]; New York</span>: <span>Psychology Press</span>.
+<div id="ref-gintis_game_2009" class="csl-entry" role="listitem">
+Gintis, H. (2009). <em>Game theory evolving: A problem-centered introduction to modeling strategic interaction</em> (2nd ed). <span>Princeton</span>: <span>Princeton University Press</span>.
 </div>
-<div id="ref-gawande_checklist_2010" class="csl-entry" role="listitem">
-Gawande, A. (2010). <em>Checklist <span>Manifesto</span>, <span>The</span> (<span>HB</span>)</em>. <span>Penguin Books India</span>.
+<div id="ref-keynes_general_1936" class="csl-entry" role="listitem">
+Keynes, J. M. (1936). <em>The general theory of employment, interest and money</em>. <span>New York</span>: <span>Har-court, Brace and Co.</span>
 </div>
-<div id="ref-gigerenzer_moral_2008" class="csl-entry" role="listitem">
-Gigerenzer, G. (2008). Moral <span>Intuition</span> = <span>Fast</span> and <span>Frugal Heuristics</span>. In W. Sinnott-Armstrong (Ed.), <em>Moral psychology, <span>Volume</span> 2, <span>The</span> cognitive science of morality: Intuition and diversity</em>. <span>London</span>: <span>MIT</span>.
+<div id="ref-nowak_arithmetics_1995" class="csl-entry" role="listitem">
+Nowak, M. A., May, R. M., &amp; Sigmund, K. (1995). The <span>Arithmetics</span> of <span>Mutual Help</span>. <em>Scientific American</em>, <em>272</em>(6), 76–81. Retrieved from <a href="https://www.jstor.org/stable/24980834">https://www.jstor.org/stable/24980834</a>
 </div>
-<div id="ref-gilovich_how_1993" class="csl-entry" role="listitem">
-Gilovich, T. (1993). <em>How <span>We Know What Isn</span>’t <span>So</span>: <span>The Fallibility</span> of <span>Human Reason</span> in <span>Everyday Life</span></em> (Reprint edition). <span>New York Great Britain</span>: <span>Free Press</span>.
+<div id="ref-spaniel_game_2013" class="csl-entry" role="listitem">
+Spaniel, W. (2013). <em>Game <span>Theory</span> 101: <span>The Complete Textbook</span></em>.
 </div>
-<div id="ref-gilovich_hot_1985" class="csl-entry" role="listitem">
-Gilovich, T., Vallone, R., &amp; Tversky, A. (1985). The hot hand in basketball: <span>On</span> the misperception of random sequences. <em>Cognitive Psychology</em>, <em>17</em>(3), 295–314. <a href="https://doi.org/10.1016/0010-0285(85)90010-6">https://doi.org/10.1016/0010-0285(85)90010-6</a>
+<div id="ref-vonneuman_theory_1944" class="csl-entry" role="listitem">
+Von Neuman, J., &amp; Morgenstern, O. (1944). <em>Theory of games and economic behavior</em>.
 </div>
-<div id="ref-haynes_surgical_2009" class="csl-entry" role="listitem">
-Haynes, A. B., Weiser, T. G., Berry, W. R., Lipsitz, S. R., Breizat, A.-H. S., Dellinger, E. P., … Gawande, A. A. (2009). A <span>Surgical Safety Checklist</span> to <span>Reduce Morbidity</span> and <span>Mortality</span> in a <span>Global Population</span>. <em>New England Journal of Medicine</em>, <em>360</em>(5), 491–499. <a href="https://doi.org/10.1056/NEJMsa0810119">https://doi.org/10.1056/NEJMsa0810119</a>
-</div>
-<div id="ref-kahneman_thinking_2011" class="csl-entry" role="listitem">
-Kahneman, D. (2011). <em>Thinking, fast and slow</em>. <span>London</span>: <span>Allen Lane</span>.
-</div>
-<div id="ref-linkenbachMontanaModelDevelopment2003" class="csl-entry" role="listitem">
-Linkenbach, J. W. (2003). The <span>Montana</span> model: <span>Development</span> and overview of a seven-step process for implementing macro-level social norms campaigns. In <em>The social norms approach to preventing school and college age substance abuse</em> (pp. 182–205). Jossey-Bass San Francisco.
-</div>
-<div id="ref-linkenbachMOSTUsAre2003" class="csl-entry" role="listitem">
-Linkenbach, J. W., &amp; Perkins, H. W. (2003). <span>MOST</span> of us are tobacco free: <span>An</span> eight-month social norms campaign reducing youth initiation of smoking in <span>Montana</span>. In <em>The social norms approach to preventing school and college age substance abuse: <span>A</span> handbook for educators, counselors, and clinicians</em> (pp. 224–234). Hoboken, NJ, US: Jossey-Bass/Wiley.
-</div>
-<div id="ref-lopezVisualCuesFood2024" class="csl-entry" role="listitem">
-Lopez, A., Choi, A. K., Dellawar, N. C., Cullen, B. C., Avila Contreras, S., Rosenfeld, D. L., &amp; Tomiyama, A. J. (2024). Visual cues and food intake: <span>A</span> preregistered replication of <span>Wansink</span> et al. (2005). <em>Journal of Experimental Psychology: General</em>, <em>153</em>(2), 275–281. <a href="https://doi.org/10.1037/xge0001503">https://doi.org/10.1037/xge0001503</a>
-</div>
-<div id="ref-mcgann_People_2024" class="csl-entry" role="listitem">
-McGann, M., Lucas, M., McHugh, C., &amp; Barrett, L. (2024). People, places, things and communities: Expanding behaviour settings theory in the twenty-first century. <em>Philosophical Transactions of the Royal Society B: Biological Sciences</em>, <em>379</em>(1910), 20230282. <a href="https://doi.org/10.1098/rstb.2023.0282">https://doi.org/10.1098/rstb.2023.0282</a>
-</div>
-<div id="ref-reber_penguin_2001" class="csl-entry" role="listitem">
-Reber, A. S. (2001). <em>The <span>Penguin</span> dictionary of psychology</em> (3rd ed). <span>London ; New York</span>: <span>Penguin Books</span>.
-</div>
-<div id="ref-shepard_mind_1990" class="csl-entry" role="listitem">
-Shepard, R. N. (1990). <em>Mind sights: <span>Original</span> visual illusions, ambiguities, and other anomalies, with a commentary on the play of mind in perception and art</em>. <span>New York, NY, US</span>: <span>W H Freeman/Times Books/ Henry Holt &amp; Co</span>.
-</div>
-<div id="ref-thaler_misbehaving_2015" class="csl-entry" role="listitem">
-Thaler, R. H. (2015). <em>Misbehaving: <span>The Making</span> of <span>Behavioral Economics</span></em>. <span>W.W. Norton</span>.
-</div>
-<div id="ref-thaler_libertarian_2003" class="csl-entry" role="listitem">
-Thaler, R. H., &amp; Sunstein, C. R. (2003). Libertarian <span>Paternalism</span>. <em>American Economic Review</em>, <em>93</em>(2), 175–179. <a href="https://doi.org/10.1257/000282803321947001">https://doi.org/10.1257/000282803321947001</a>
-</div>
-<div id="ref-thaler_nudge_2008" class="csl-entry" role="listitem">
-Thaler, R. H., &amp; Sunstein, C. R. (2008). <em>Nudge: Improving decisions about health, wealth, and happiness</em>. <span>New Haven</span>: <span>Yale University Press</span>.
-</div>
-<div id="ref-thaler_choice_2012" class="csl-entry" role="listitem">
-Thaler, R. H., Sunstein, C. R., &amp; Balz, J. P. (2012). Choice <span>Architecture</span>. In E. Shafir (Ed.), <em>The <span>Behavioral Foundations</span> of <span>Public Policy</span></em>. <span>Rochester, NY</span>: <span>Social Science Research Network</span>.
-</div>
-<div id="ref-weiser_effect_2010" class="csl-entry" role="listitem">
-Weiser, T. G., Haynes, A. B., Dziekan, G., Berry, W. R., Lipsitz, S. R., Gawande, A. A., &amp; Group, for the S. S. S. L. I. and S. (2010). Effect of <span>A</span> 19-<span>Item Surgical Safety Checklist During Urgent Operations</span> in <span>A Global Patient Population</span>. <em>Annals of Surgery</em>, <em>251</em>(5), 976. <a href="https://doi.org/10.1097/SLA.0b013e3181d970e3">https://doi.org/10.1097/SLA.0b013e3181d970e3</a>
-</div>
-<div id="ref-wilsonBluesky2024" class="csl-entry" role="listitem">
-Wilson, A. D. (2024). Bluesky. <em>Bluesky Social</em>. https://bsky.app/profile/adw.bsky.social/post/3l52bfoxwlz2i.
+<div id="ref-vonneuman_theories_1947" class="csl-entry" role="listitem">
+Von Neuman, J., &amp; Morgenstern, O. (1947). <em>Theories of games and economic behavior</em>. <span>Princeton, NJ: Princeton University Press</span>.
 </div>
 </div>
 </section></section>
@@ -1596,7 +3937,7 @@ Wilson, A. D. (2024). Bluesky. <em>Bluesky Social</em>. https://bsky.app/profile
       }
     });
     </script>
-    <script>var lightboxQuarto = GLightbox({"selector":".lightbox","closeEffect":"zoom","openEffect":"zoom","loop":false,"descPosition":"bottom"});
+    <script>var lightboxQuarto = GLightbox({"selector":".lightbox","descPosition":"bottom","closeEffect":"zoom","loop":false,"openEffect":"zoom"});
     (function() {
       let previousOnload = window.onload;
       window.onload = () => {

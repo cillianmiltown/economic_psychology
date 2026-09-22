@@ -80,8 +80,8 @@ library(xtable)
 | Email | [cillian.mchugh\@ul.ie](mailto:cillian.mchugh@ul.ie) |
 | Office | KBG-22 |
 | Student Hours | Wednesdays, 2-3 ([book an appointment here](https://outlook.office.com/bookwithme/user/f570b7289a5343259c60c8a5d26ce510@ul.ie/meetingtype/w1pxpwCL8UG9pt_0cg2fUA2?anonymous&ep=mlink)) |
-| Lecture location | ERB007 |
-| Day and Time | Wednesdays, 12-2 |
+| Lecture location | KBG014 |
+| Day and Time | Wednesdays, 10-12 |
 
 ([click here for pdf copy](https://learn.ul.ie/content/enforced/92897-PS4168_SEM1_2026_7/1.Resources/module_handbook.pdf))
 
@@ -176,7 +176,7 @@ There are two parts for the assessment. There is a short task due in Week 7 (28t
 | Type of Assessment    | \% of Final Grade |          Deadline           |
 |:----------------------|:-----------------:|:---------------------------:|
 | Task 1                |        30%        | Tuesday 20th October at 4pm |
-| Recorded Presentation |        70%        | Monday 30th November at 4pm |
+| Recorded Presentation |        70%        | Wednesday 2nd December at 4pm |
 
 \bigskip
 
@@ -238,9 +238,9 @@ In Table 3 the schedule of topics to be covered in each lecture is provided. Key
 |------------|------------|:----------:|:----------:|:----------:|:----------:|
 | **1** | General Introduction and History of Economic Psychology | Chapter 1 | Chapter 1 | Chapter 1 | [Cartwright (2014) Chapter 1](https://learn.ul.ie/content/enforced/92897-PS4168_SEM1_2026_7/1.Resources/Cartwright_2014_Chapter1.pdf) |
 | **2** | Heuristics & Biases <br> | [Chapter 2](https://learn.ul.ie/content/enforced/92897-PS4168_SEM1_2026_7/1.Resources/Ranyard_2018_Chapter2.pdf) | Chapters 6 & 7 |  | Cartwright (2014) Chapter 2 |
-| **3** | Nudges | (Chapter 23) | Chapter 17 |  | [Frantz et al., (2016) Chapter 8](https://learn.ul.ie/content/enforced/92897-PS4168_SEM1_2026_7/1.Resources/Frantz_2016_Chapter8.pdf); Thaler & Sunstein (2008) |
+| **3** | Introduction to Game Theory |  | [Chapter 32](https://learn.ul.ie/content/enforced/92897-PS4168_SEM1_2026_7/1.Resources/Altman_2017_Chapter32.pdf) | Chapters 12 & 13 | [Antonides, (1996) Chapters 14](https://learn.ul.ie/content/enforced/92897-PS4168_SEM1_2026_7/1.Resources/Antonides_1996_Chapter14.pdf) & 15 |
 | **4** | Theories of Decision Making | [Chapter 2](https://learn.ul.ie/content/enforced/92897-PS4168_SEM1_2026_7/1.Resources/Ranyard_2018_Chapter2.pdf) | Chapters 2, 3 & 4 | Chapters 2 & 3 |  |
-| **5** | Introduction to Game Theory |  | [Chapter 32](https://learn.ul.ie/content/enforced/92897-PS4168_SEM1_2026_7/1.Resources/Altman_2017_Chapter32.pdf) | Chapters 12 & 13 | [Antonides, (1996) Chapters 14](https://learn.ul.ie/content/enforced/92897-PS4168_SEM1_2026_7/1.Resources/Antonides_1996_Chapter14.pdf) & 15 |
+| **5** | Nudges | (Chapter 23) | Chapter 17 |  | [Frantz et al., (2016) Chapter 8](https://learn.ul.ie/content/enforced/92897-PS4168_SEM1_2026_7/1.Resources/Frantz_2016_Chapter8.pdf); Thaler & Sunstein (2008) |
 | **6** | Drop-in Session | \- | \- | \- | \- |
 | **7** <br>   | **Task 1 Deadline:** Tuesday 20th October at 4pm | \- | \- | \- | \- |
 |  | Emotional Influences |  | [Chapter 32](https://learn.ul.ie/content/enforced/92897-PS4168_SEM1_2026_7/1.Resources/Altman_2017_Chapter32.pdf) | Chapters 12 & 13 | Antonides, (1996) Chapter 9 |
