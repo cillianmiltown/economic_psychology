@@ -63,8 +63,11 @@ library(devtools)
 
 ## Recap
 
-- Describe 3 nudges
-  - ***and*** the theory behind them
+
+- Examples of:
+  - Strict Dominance
+  - Nash Equilibrium
+
 
 ## Recap
 
@@ -706,6 +709,22 @@ $$p(y|x) = \frac{p(x|y)p(y)}{p(x)}$$
     - an theologian
 
 # Dual-Process Approaches
+
+
+
+## Dual-processes / Dual-systems
+
+
+::: {.r-stack}
+
+![](resources/images/homer_spock1.png "Homer and Spock"){.fragment .lightbox}
+
+
+
+![](resources/images/homer_spock2.png "Homer and Spock"){.fragment .lightbox}
+:::
+
+
 
 ## What are Dual-Processes?{.smaller}
 

@@ -355,6 +355,21 @@ $$p(y|x) = \frac{p(x|y)p(y)}{p(x)}$$
     - an theologian:
 
 
+
+
+## Dual-processes / Dual-systems
+
+
+![](resources/images/homer_spock1.png "Homer and Spock"){.fragment .lightbox}
+
+
+## Dual-processes / Dual-systems
+
+
+![](resources/images/homer_spock2.png "Homer and Spock"){.fragment .lightbox}
+
+
+
 ## What are Dual-Processes?{.smaller}
 
 
