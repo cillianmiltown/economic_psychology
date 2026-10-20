@@ -10,7 +10,7 @@ format:
     slide-number: false
     controls: true
     logo: "resources/images/ul-psychology-logos.png"
-    footer: "PS4168: Cillian McHugh - 24/10/25"
+    footer: "PS4168: Cillian McHugh - 21/10/26"
     theme: "resources/css/mytheme.scss"
     incremental: false
     chalkboard: 
@@ -98,11 +98,9 @@ function rotateAnimation(el,speed){
 }
 ```
 
-
-- Examples of:
-  - Strict Dominance
-  - Nash Equilibrium
-
+- What are the principles of Choice Architecture?
+- Define a Nudge
+- Provide some examples of Nudges
 
 ## Overview
 

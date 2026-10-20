@@ -1,6 +1,6 @@
 ---
 title: "Lecture 6"
-subtitle: "Game Theory"
+subtitle: "Emotional Influences, Future Decisions & Affective Forecasting"
 author: "Dr Cillian McHugh"
 institute: "PS4168: Economic Psychology"
 bibliography: "resources/bib/My Library.bib"
@@ -53,9 +53,11 @@ editor: source
 
 ## Recap on last week!
 
-- Examples of:
-  - Strict Dominance
-  - Nash Equilibrium
+
+- What are the principles of Choice Architecture?
+- Define a Nudge
+- Provide some examples of Nudges
+
 
 
 ## Overview

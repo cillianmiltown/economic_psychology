@@ -71,6 +71,10 @@
 \usepackage{bookmark}
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \urlstyle{same}
+% fallback for those not using the hyperref driver hyperxmp:
+\makeatletter
+\@ifundefined{xmpquote}{\newcommand{\xmpquote}[1]{#1}}{}
+\makeatother
 \hypersetup{
   pdftitle={PS4168 Economic Psychology},
   pdfauthor={Dr Cillian McHugh},
@@ -102,7 +106,7 @@
 
 \bigskip
 
-\centering\includegraphics[width=2.08333in,height=\textheight,keepaspectratio,alt={no caption}]{module_handbook_files/logos/department_logo.PNG}
+\centering\includegraphics[width=2.08333in,height=\textheight,keepaspectratio,alt={no caption}]{logos/department_logo.PNG}
 
 \raggedright
 
@@ -425,7 +429,7 @@ provided during lectures.
       10  & Fairness and Ethics                                     &              & \href{https://learn.ul.ie//content/enforced/92897-PS4168_SEM1_2026_7/1.Resources/Altman_2017_Chapter32.pdf}{\color{blue}{Chapter 32}\color{black}}         & Chapters 8, 9 \& 18 &                                 \\ \hline
       11  & Gambling                                                & \href{https://learn.ul.ie//content/enforced/92897-PS4168_SEM1_2026_7/1.Resources/Ranyard_2018_Chapter19.pdf}{\color{blue}{Chapter 19}\color{black}}   &                    & Chapter 23          &                                 \\ \hline
       12  & Morality \& Review                            &                    &                    &              &           \href{https://journals.sagepub.com/doi/full/10.1177/1745691621990636}{\color{blue}{McHugh et al. (2022)}\color{black}}                      \\ \hhline{|-|-|-|-|-|-|} 
-      13  & \multicolumn{5}{c|}{\cellcolor{blue!25}\textbf{Presentation Due:} Monday 30th November at 4pm} \\ \hline
+      13  & \multicolumn{5}{c|}{\cellcolor{blue!25}\textbf{Presentation Due:} Wednesday 2nd December at 4pm} \\ \hline
       \end{tabular}
   \end{center}
 \end{table}
