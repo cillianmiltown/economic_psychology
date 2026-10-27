@@ -114,12 +114,6 @@ knitr::opts_chunk$set(include = FALSE)
 - What is the Somatic Marker Hypothesis?
 - Identify examples of emotions influencing decisions
 
-## Last week{.scrollable}
-
-![](resources/images/mood_table2.png "Results"){.lightbox}
-
-- Expected effects were not significant
-- Three of the four cells were in the predicted direction
 
 ## Before we Start{.scrollable}
 
