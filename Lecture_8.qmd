@@ -10,7 +10,7 @@ format:
     slide-number: false
     controls: true
     logo: "resources/images/ul-psychology-logos.png"
-    footer: "PS4168: Cillian McHugh - 7/11/25"
+    footer: "PS4168: Cillian McHugh - 4/11/26"
     theme: "resources/css/mytheme.scss"
     incremental: false
     chalkboard: 
