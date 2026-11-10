@@ -10,7 +10,7 @@ format:
     slide-number: false
     controls: true
     logo: "resources/images/ul-psychology-logos.png"
-    footer: "PS4168: Cillian McHugh - 14/11/25"
+    footer: "PS4168: Cillian McHugh - 11/11/26"
     theme: "resources/css/mytheme.scss"
     incremental: false
     chalkboard: 
@@ -18,7 +18,8 @@ format:
 editor: source
 ---
 
-## Overview
+## Mental Accounting (Recap)
+
 
 <style type="text/css">
     table.table-style-one {
@@ -59,30 +60,439 @@ knitr::opts_chunk$set(include = FALSE)
 
 ```
 
+
+<iframe width="900" height="550" src="https://www.youtube.com/embed/7hx4gdlfamo?si=dC8QdP4gfdpUXVp5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+## Receiving Money
+
+::::{.columns}
+
+
+:::{.column width="65%"}
+
+
+- Imagine your grandmother gives you some money to buy something for yourself...
+
+- What would you do with the money?
+  - Pool it with the rest of your money?
+  - Keep it and get something special?
+  
+:::
+
+:::{.column width="35%"}
+
+
+![](resources/images/money_in_card.jpg "Card"){.lightbox align="right" height="420px"}
+
+:::
+
+::::
+
+
+
+## The Value Function (again)
+
+
+
+
+![](resources/images/Screenshot_20180919_190001.png "Value Function"){.lightbox height="420px"}
+
+
+[@kahneman_prospect_1979, p. 279]
+
+
+## The Value Function (revisited)
+
+
+
+
+![](resources/images/value_function.png "Value Function"){.lightbox height="420px"}
+
+
+[@camerer_advances_2003, p. 636]
+
+
+
+
+## The Value Function (revisited)
+
+
+
+
+![](resources/images/value_function_b.png "Value Function"){.lightbox height="420px"}
+
+
+[@camerer_advances_2003, p. 636]
+
+
+
+
+## The Value Function (revisited)
+
+
+![](resources/images/value_function_c.png "Value Function"){.lightbox height="420px"}
+
+[@camerer_advances_2003, p. 636]
+
+
+
+## The Value Function and Mental Accounting (1)
+
+:::{.incremental}
+
+
+- The value function is defined over gains and losses relative to some ***reference point***
+  - This reference point is not fixed
+<br>
+
+- The focus on changes, rather than wealth levels as in expected utility theory, reflects the ***piecemeal nature of mental accounting***.
+
+- Transactions are often evaluated one at a time, rather than in conjunction with everything else
+
+:::
+
+## Reference Point
+
+![](resources/images/value_function_b.png "Value Function"){.lightbox height="420px"}
+
+## The Value Function and Mental Accounting (2)
+
+:::{.incremental}
+
+- Both the gain and loss functions display ***diminishing sensitivity***
+
+- The gain function is **concave** and the loss function is **convex**
+
+- the difference between $10 and $20 seems bigger than the difference between $1000 and $1010
+  - (irrespective of the sign)
+  - (the Weber-Fechner law)
+:::
+
+## Diminishing Sensitivity
+
+![](resources/images/value_function_c.png "Value Function"){.lightbox height="420px" aligh="center"}
+
+## The Value Function and Mental Accounting (3)
+
+:::{.incremental}
+
+
+- ***Loss-aversion***
+
+- Losing $100 hurts more than gaining $100 yields pleasure:
+
+<br>
+
+- $v(x) < - v(-x)$
+- $v(x) <  |v(-x)|$
+
+- The influence of loss aversion on mental accounting is enormous
+:::
+
+## Loss aversion
+
+![](resources/images/value_function_b.png "Value Function"){.lightbox height="420px" aligh="center"}
+
+
+
+# Components of Mental Accounting
+
+
+## Components of Mental Accounting
+
+:::{.incremental}
+
+- Evaluating
+
+<br>
+
+- Categorisation
+
+<br>
+
+- Balancing<br>
+[@thaler_mental_2003]
+
+:::
+
+## Evaluating
+
+:::{.incremental}
+
+- How outcomes are perceived and experienced, and how decisions are made and subsequently evaluated.
+
+
+  - The accounting system provides the inputs to do cost—benefit analyses (both before and after decision)
+
+
+
+-  The consumer’s choice can be understood by incorporating the value of the “deal” (termed *transaction utility*) into the purchase decision calculus.<br>
+[@thaler_mental_2003]
+
+:::
+
+## Evaluating
+
+
+
+>"A friend of mine was once shopping for a quilted bedspread. She went to a department store and was pleased to find a model she liked on sale. The spreads came in three sizes: double, queen and king. The usual prices for these quilts were $\$200$, $\$250$ and $\$300$ respectively, but during the sale they were all priced at only $\$150$. My friend bought the king-size quilt and was quite pleased with her purchase, though the quilt did hang a bit over the sides of her double bed" [taken from @thaler_mental_2003, p. 75]
+
+
+## Categorisation
+
+:::{.incremental}
+
+- Assignment of activities to specific *accounts*
+  - Both **sources** and **uses** of funds are labeled in real and mental accounting systems
+
+- Expenditures grouped into categories (housing, food, etc.)
+  - Spending can be constrained by implicit or explicit budgets
+- Funds to spend are also labeled, both as flows (regular income versus windfalls) and as stocks (cash on hand, home equity, pension wealth, etc.) [@thaler_mental_2003]
+
+:::
+
+## Categorisation
+
+
+
+> "A few years ago I gave a talk to a group of executives in Switzerland. After the conference my wife and I spent a week visiting the area. At that time the Swiss franc was at an all-time high relative to the US dollar, so the usual high prices in Switzerland were astronomical. My wife and I comforted ourselves that I had received a fee for the talk that would easily cover the outrageous prices for hotels and meals. Had I received the same fee a week earlier for a talk in New York though, the vacation would have been much less enjoyable" [taken from @thaler_mental_2003, p. 75]
+
+
+## Categorisation
+
+
+
+> "A former colleague of mine, a professor of finance, prides himself on being a thoroughly rational man. Long ago he adopted a clever strategy to deal with life’s misfortunes. At the beginning of each year he establishes a target donation to the local United Way charity. Then, if anything untoward happens to him during the year, for example an undeserved speeding ticket, he simply deducts this loss from the United Way account. He thinks of it as an insurance policy against small annoyances" [taken from @thaler_mental_2003, p. 75]
+
+
+
+## Balancing{.smaller}
+
+:::{.incremental}
+
+- Frequency with which accounts are evaluated
+  - **choice bracketing**<br> [@read_choice_2000]
+  
+- Accounts can be balanced daily, weekly, yearly, and so on
+  - defined narrowly or broadly
+  
+- [A well-known song](https://youtu.be/7hx4gdlfamo?t=82)
+  - “never count your money while you’re sitting at the table”
+  - Excellent advice, in poker as well as in other situations involving decision making under uncertainty (such as investing).
+
+- Balancing also involves opening and closing of mental accounts
+<br>
+[@thaler_mental_2003]
+
+:::
+
+## Accounting vs Mental Accounting
+
+:::{.incremental}
+
+
+- Mental accounting rules not neutral
+
+- Attractiveness of choices influenced by:
+  - Which category a purchase is assigned to
+  - Combining outcomes with others in that category
+  - Frequency the 'books' are 'balanced'
+  
+- Mental accounting violates the economic notion of *fungibility*
+  - (units are interchangeable)
+
+:::
+
+## Recap activity
+
+- Individually or in groups
+  - Identify different mental accounts that you use
+
+# Decision Frames
+
+## Decision Frames{.smaller}
+
+:::{.incremental}
+
+- Framing of outcomes <br> ['outcome frames' @kahneman_choices_2000; 'entries' @thaler_mental_2003]
+  - Minimal account
+      - only the differences between the two options (disregarding all their common features)
+  - Topical account
+      - consequences of possible choices to a reference level that is determined by the context within which the decision arises
+  - Comprehensive account
+      - all (other) factors including current wealth, future earnings, possible outcomes of other probabilistic holdings etc.
+
+:::
+
+
+## Decision Frames
+
+::: {.fragment fragment-index=2}
+
+::::{.columns}
+
+:::{.column width="60%"}
+
+![](resources/images/jacket.jpg "Jacket"){.lightbox height="300px" align="left"}
+
+:::
+
+:::{.column width="40%"}
+
+![](resources/images/calculator.jpeg "calculator "){.lightbox height="300px" align="right"}
+
+:::
+
+::::
+
+:::
+
+
+
+- Economic theory generally assumes that people make decisions using the comprehensive account
+
+
+::: {.fragment fragment-index=1}
+
+- ***but***
+
+:::
+
+
+
+
+## Decision Frames
+
+
+::::{.columns}
+
+:::{.column width="60%"}
+
+![](resources/images/jacket.jpg "Jacket"){.lightbox height="300px" align="left"}
+
+€125
+
+:::
+
+:::{.column width="40%"}
+
+![](resources/images/calculator.jpeg "calculator "){.lightbox height="300px" align="right"}
+
+€15 / €10
+
+:::
+
+::::
+
+
+
+::: {.fragment fragment-index=1}
+
+<font size=4.9>Imagine that you are about to purchase a jacket for €125 and a calculator for
+€15. The calculator salesman informs you that the calculator you wish to buy is
+on sale for €10 at the other branch of the store, located 20 minutes drive away.
+Would you make the trip to the other store?</font><font size=4.5> [@tversky_framing_1981, p. 459] </font>
+
+:::
+
+## Decision Frames
+
+
+::::{.columns}
+
+:::{.column width="60%"}
+
+![](resources/images/jacket.jpg "Jacket"){.lightbox height="300px" align="left"}
+
+€15
+
+:::
+
+:::{.column width="40%"}
+
+![](resources/images/calculator.jpeg "calculator "){.lightbox height="300px" align="right"}
+
+€125 / €120
+
+:::
+
+::::
+
+
+
+
+::: {.fragment fragment-index=1}
+
+<font size=4.9>Imagine that you are about to purchase a jacket for €15 and a calculator for
+€125. The calculator salesman informs you that the calculator you wish to buy is
+on sale for €120 at the other branch of the store, located 20 minutes drive away.
+Would you make the trip to the other store?</font><font size=4.5> [@tversky_framing_1981, p. 459]</font>
+
+:::
+
+
+## Decision Frames{.smaller}
+
+:::{.incremental}
+
+- Most people will drive when the item costs €15 but not €125 <br> [@tversky_framing_1981; @thaler_mental_2003; @ranyard_economic_2018; @moon_mental_1999] 
+  
+- Minimal account:
+  - Driving to save €5
+- Comprehensive account:
+  - $W$* $=$ Existing wealth $+$ jacket $+$ calculator $-$ €140
+      - $W$* $+$ €5
+  - *versus*
+      - utility of $W$* $+$ 20mins
+- Topical account: ***piecemeal***
+ 
+:::
+
+
+
+
+
+## Hedonic Framing
+
+
+
+- (Maximise pleasure/minimise pain)
+
+- Individually/In groups:
+  - How should joint outcomes be evaluated to maximise utility?
+  - Use your knowledge of the value function:
+      - Shape of gain function vs loss function
+      - Diminishing sensitivity
+      - Loss aversion
+
+
+
+## Principles of Hedonic Framing{.smaller}
+
+:::{.incremental}
+
+1. Segregate gains <br><font size=4.5>(because the gain function is concave)</font>
+2. Integrate losses <br><font size=4.5>(because the loss function is convex)</font>
+3. Integrate smaller losses with larger gains <br><font size=4.5>(to offset loss aversion)</font>
+4. Segregate small gains (silver linings) from larger losses <br><font size=4.5>(because the gain function
+is steepest at the origin, the utility of a small gain can exceed the utility of slightly reducing a large loss)<br>[@thaler_mental_2003, p. 79]</font>
+
+- Application of these principles in marketing?
+  - rebate *vs* temporary price reduction
+
+:::
+
+# Fairness and Ethics
+
+
+## Overview
+
 - Reciprocity
 - Public Goods
 - Third Party Punishment
 - Moral Judgment
 
-## Recap on last week!
-- 3 'components' of mental accounting?
-- Principles of hedonic framing?
-
-- Examples of mental accounting in your lives?
-
-## Recap on last week!{.smaller}
-
-- 3 'components' of mental accounting:
-  - Evaluating
-  - Categorisation
-  - Balancing
-- Principles of hedonic framing
-  - segregate gains
-  - integrate losses
-  - integrate smaller losses with larger gains
-  - segregate small gains from larger losses
-
-# Fairness and Ethics
 
 ## Reciprocity{.smaller}
 
@@ -885,414 +1295,6 @@ Version of the Stag Hunt game
   
 - **Pareto dominant equilibrium**: impossible to switch to a better strategy without "hurting" the other player
 
-# Moral Judgments
-
-## Moral Judgments
-
-<iframe width="700" height="500" src="https://www.youtube.com/embed/wEjGVGtd2-Y?si=268c-lAGp9GuxEiM&amp;start=90" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-
-
-## Moral Judgments
-
-![](resources/images/buffy.png){.lightbox height="550px"}
-
-
-## Known Influences on Moral Judgements {.smaller}
-
-- Emotional influences [e.g., @cameron_morality_2013]
-- Intentionality, Evitability, benefit recipient [@christensen_moral_2014; @christensen_moral_2012]
-- Action-outcome distinction [@crockett_models_2013; @cushman_action_2013]
-- Trustworthiness and social evaluation [@everett_inference_2016; @everett_costs_2018]
-- Personal-impersonal distinction [@greene_fmri_2001]
-- Doctrine of double effect [@mikhail_rawls_2000]
-- Level of physical contact [@valdesolo_manipulations_2006]
-- Order effects [@wiegmann_order_2012]
-
-
-## Understanding this complexity{.smaller}
-
-- **Moral Emotions**: @prinz_passionate_2005
-  - *'Emotions, I will suggest are perceptions of our bodily states. To recognise the moral value of an event is, thus, to perceive the perturbation that it causes'* [@prinz_passionate_2005, p. 99]
-- **Social Intuitionist Model** [@haidt_emotional_2001]
-  - e.g., intuitions as phonemes [@haidt_emotional_2001, p. 827]
-  - ‘brain has a kind of gauge’, a ‘like-ometer’ [@haidt_social_2008, p. 187]
-
-- **Theory of Dyadic Morality**: [@gray_mind_2012; @schein_theory_2018]
-  - Content focused (rather than underlying processes)
-
-- **Dual Process Theories**: [e.g., @greene_secret_2008]
-  - 'Emotion' vs 'Cognition' (not well defined)
-
-- **Categorization** [@mchugh_moral_2022]
-
-
-
-## Theory of Dyadic Morality (TDM) {.smaller}
-
-
-:::: {.columns}
-
-::: {.column width="60%"}
-
-<br>
-
-- "an intentional agent causing damage to a vulnerable patient" [@schein_theory_2018, p. 33]
-
-<br>
-
-
-- "an intentional moral agent and a suffering moral patient [@gray_mind_2012, p. 101].
-
-<br>
-
-- "interpersonal harm is the essence of morality" [@gray_mind_2012, p. 109]
-
-:::
-
-::: {.column width="40%"}
-
-<br>
-<br>
-<br>
-![](resources/images/voldemort.jpg){.lightbox}
-
-:::
-
-::::
-
-## Issues with TDM
-
-
-### Harmless Wrongs: Moral Dumbfounding
-
-::: {.columns}
-
-::: {.column width="60%"}
-
-- Moral dumbfounding occurs when people defend a moral judgement even though they cannot provide supporting reasons
-
-[@mchugh_searching_2017a; @haidt_moral_2000; @mchugh_just_2023]
-
-
-:::
-
-::: {.column width="35%"}
-
-[![](resources/images/searching.png)](https://online.ucpress.edu/collabra/article/3/1/23/112379/Searching-for-Moral-Dumbfounding-Identifying){target="_blank"}
-
-[![](resources/images/just_wrong.png)](https://link.springer.com/article/10.3758/s13421-022-01386-z){target="_blank"}
-
-
-
-:::
-
-::::
-
-## Moral Dumbfounding {.smaller}
-
-<br>
-
-> Jennifer works in a medical school pathology lab as a research assistant. The lab prepares human cadavers that are used to teach medical students about anatomy. The cadavers come from people who had donated their body to science for research. One night Jennifer is leaving the lab when she sees a body that is going to be discarded the next day. Jennifer was a vegetarian, for moral reasons. She thought it was wrong to kill animals for food. But then, when she saw a body about to be cremated, she thought it was irrational to waste perfectly edible meat. So she cut off a piece of flesh, and took it home and cooked it. The person had died recently of a heart attack, and she cooked the meat thoroughly, so there was no risk of disease.
-
-
-
-## Dual-Process Approaches
-
-<br>
-
-![](resources/images/trolley_problem.png){.lightbox}
-
-
-## Dual-Process Approaches
-
-
-![](resources/images/MJAC_dual_process/together4.png){.lightbox width="100%"}
-
-
-
-## Dual-Process Approaches
-
-
-![](resources/images/MJAC_dual_process/context7.png){.lightbox width="100%"}
-
-
-
-## Moral Judgment as Categorization{.smaller}
-
-### (MJAC) 
-
-::: {.columns}
-
-::: {.column width="65%"}
-
-#### Premises
-
-- Moral judgment is a process of **categorizing** as *MORALLY RIGHT* / *MORALLY WRONG*
-
-- **Domain general**
-
-- **Context sensitive** & **Dynamical**, **Goal-Directed Activity**
-
-#### Core Predictions
-
-- *Stability* emerges through continued and consistent type-token interpretation
-
-- *Robustness* emerges through consistency across multiple contexts
-
-:::
-
-::: {.column width="35%"}
-
-
-[![](resources/images/mjac.png)](https://journals.sagepub.com/doi/full/10.1177/1745691621990636){target="_blank"}
-
-:::
-
-:::
-
-## Ad-Hoc Goal-Derived Catagories
-
-
-
-![](resources/images/suitcase.jpg){.lightbox width="50%"}
-
-- *THINGS TO PACK INTO A SUITCASE* [@barsalou_deriving_1991; @barsalou_situated_2003]
-- Type-token interpretation
-
-
-## The Organisation of Categories: Fruit
-
-
-
-
-## The Organisation of Categories: Fruit
-
-
-
-![](resources/images/fruit1.png){.lightbox width="100%"}
-
-
-
-## The Organisation of Categories: Fruit
-
-![](resources/images/fruit2.png){.lightbox width="100%"}
-
-
-## The Organisation of Categories: Fruit
-
-![](resources/images/fruit3.png){.lightbox width="100%"}
-
-## The Organisation of Categories: Fruit
-
-![](resources/images/fruit4.png){.lightbox width="100%"}
-
-
-## Evidence
-
-
-![](resources/images/mjac_old_table.png){.lightbox width="100%"}
-
-
-## Similarity of Explanation {.smaller}
-
-
-:::: {.columns}
-
-::: {.column width="40%"}
-*Morality*
-:::
-
-::: {.column width="50%"}
-*Categorization*
-:::
-
-::::
-
-**Order Effects**:
-
-:::: {.columns}
-
-::: {.column width="40%"}
-@petrinovich_influence_1996
-:::
-
-::: {.column width="60%"}
-@barsalou_contextindependent_1982, @higgins_nature_1985
-:::
-
-::::
-
-**Language Effects**:
-
-:::: {.columns}
-
-::: {.column width="40%"}
-@cipolletti_moral_2016
-:::
-
-::: {.column width="60%"}
-@colbeck_blinded_2012, @harris_taboo_2003
-:::
-
-::::
-
-**Emotion Effects**:
-
-:::: {.columns}
-
-::: {.column width="40%"}
-@cameron_morality_2013
-:::
-
-::: {.column width="60%"}
-@barsalou_situating_2005
-:::
-
-::::
-
-**Typicality**:
-
-:::: {.columns}
-
-::: {.column width="40%"}
-@gray_impure_2015
-:::
-
-::: {.column width="60%"}
-@mccloskey_natural_1978, @oden_fuzziness_1977
-:::
-
-::::
-
-
-## Contrasting with Existing Approaches
-
-![](resources/images/MJAC_dual_process/together4.png){.lightbox width="100%"}
-
-
-
-## Contrasting with Existing Approaches
-
-![](resources/images/MJAC_dual_process/context7.png){.lightbox width="100%"}
-
-## MJAC
-
-
-
-![](resources/images/MJAC_dual_process/mjac1.png){.lightbox width="100%"}
-
-
-## MJAC
-
-
-
-![](resources/images/MJAC_dual_process/mjac2.png){.lightbox width="100%"}
-
-
-## MJAC
-
-
-
-![](resources/images/MJAC_dual_process/mjac3.png){.lightbox width="100%"}
-
-
-## MJAC
-
-
-
-![](resources/images/MJAC_dual_process/mjac4.png){.lightbox width="100%"}
-
-
-## MJAC
-
-
-
-![](resources/images/MJAC_dual_process/mjac5.png){.lightbox width="100%"}
-
-
-## MJAC
-
-
-
-![](resources/images/MJAC_dual_process/mjac6.png){.lightbox width="100%"}
-
-
-## MJAC
-
-
-
-![](resources/images/MJAC_dual_process/mjac7.png){.lightbox width="100%"}
-
-
-## MJAC
-
-
-
-![](resources/images/MJAC_dual_process/mjac8.png){.lightbox width="100%"}
-
-
-## MJAC
-
-
-
-![](resources/images/MJAC_dual_process/mjac9.png){.lightbox width="100%"}
-
-
-## MJAC
-
-
-
-![](resources/images/MJAC_dual_process/mjac10.png){.lightbox width="100%"}
-
-
-## MJAC
-
-
-
-![](resources/images/MJAC_dual_process/mjac11.png){.lightbox width="100%"}
-
-
-## MJAC
-
-
-
-![](resources/images/MJAC_dual_process/mjac12.png){.lightbox width="100%"}
-
-
-## MJAC
-
-
-
-![](resources/images/MJAC_dual_process/mjac13.png){.lightbox width="100%"}
-
-
-## Context Effects on Moral Judgment{.scrollable}
-
-![](resources/images/beckon.png){.lightbox width="80%"}
-
-@McHugh_beckon_2024
-
-
-
-## Context Effects on Moral Judgment{.scrollable}
-
-![](resources/images/beckon2.png){.lightbox width="80%"}
-
-
-## Context Effects on Moral Judgment{.scrollable}
-
-![](resources/images/dilution.png){.lightbox width="80%"}
-
-@mchugh_Moral_2025
-
-
-
-## Context Effects on Moral Judgment{.scrollable}
-
-![](resources/images/dilution2.png){.lightbox width="40%"}
-
-@mchugh_Moral_2025
 
 # In-Class Activity
 
