@@ -96,8 +96,9 @@ library(png)
 
 ## Recap on last week
 
-- What does MJAC stand for?
-  - premises/assumptions/insights of MJAC
+- List some examples of reciprocity (both positive and negative)
+- How is reciprocity studied in the lab?
+- How are public goods studied in the lab
 - What is the role of punishment/sanctions (direct or indirect) in ensuring fairness?
 
 

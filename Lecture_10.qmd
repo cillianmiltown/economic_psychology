@@ -10,7 +10,7 @@ format:
     slide-number: false
     controls: true
     logo: "resources/images/ul-psychology-logos.png"
-    footer: "PS4168: Cillian McHugh - 21/11/25"
+    footer: "PS4168: Cillian McHugh - 18/11/26"
     theme: "resources/css/mytheme.scss"
     incremental: false
     chalkboard: 
@@ -93,8 +93,9 @@ library(png)
 
 ## Recap on last week
 
-- What does MJAC stand for?
-  - premises/assumptions/insights of MJAC
+- List some examples of reciprocity (both positive and negative)
+- How is reciprocity studied in the lab?
+- How are public goods studied in the lab
 - What is the role of punishment/sanctions (direct or indirect) in ensuring fairness?
 
 # Gambling
@@ -381,11 +382,14 @@ factorial(36) /
 Explanations???
 
 
+:::{.fragment}
+
 - Instant feedback
 - Near miss effects
 - Social
   - Gifts
 
+:::
 
 # Roulette
 
